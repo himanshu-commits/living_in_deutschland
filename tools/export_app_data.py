@@ -56,6 +56,7 @@ def main():
         "questions": [
             {
                 "id": q["id"],
+                "num": q["num"],
                 "scope": q["scope"],
                 "question": q["question"],
                 "options": q["options"],

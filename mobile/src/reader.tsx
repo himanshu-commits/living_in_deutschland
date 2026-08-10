@@ -1,9 +1,10 @@
-import { useMemo, useState } from "react";
-import { FlatList, Pressable, StyleSheet, Text, View } from "react-native";
+import { useMemo, useRef, useState } from "react";
+import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { Illustration } from "./media";
 import { images } from "./imageMap";
 import { Image } from "react-native";
 import type { Question } from "./questions";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useStore, useT } from "./storage";
 import { radius, spacing, type, useColors } from "./theme";
 
@@ -61,7 +62,7 @@ function Star({ on, onPress }: { on: boolean; onPress: () => void }) {
 }
 
 /** One question as study material: the correct answer is always visible. */
-function QuestionCard({ q }: { q: Question }) {
+function QuestionCard({ q, position }: { q: Question; position: string }) {
   const c = useColors();
   const { lang, translate, marked, toggleMark } = useStore();
   const tr = lang && lang !== "de" && translate ? q.tr?.[lang] : undefined;
@@ -80,9 +81,15 @@ function QuestionCard({ q }: { q: Question }) {
       }}
     >
       <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
-        <Text style={{ ...type.label, color: c.textMuted }}>
-          {q.scope === "ALL" ? `#${q.num ?? ""}`.replace("#undefined", q.id) : q.id}
-        </Text>
+        <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm }}>
+          <Text style={{ ...type.heading, ...type.mono, fontSize: 20, color: c.text }}>
+            {position}
+          </Text>
+          {/* the catalogue's own Aufgabe number, for cross-checking against the PDF */}
+          <Text style={{ ...type.label, color: c.textMuted }}>
+            {q.scope === "ALL" ? `Aufgabe ${q.num}` : `${q.scope} ${q.num}`}
+          </Text>
+        </View>
         <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.md }}>
           {!q.verified && (
             <Text style={{ ...type.label, fontSize: 10, color: c.warn }}>!</Text>
@@ -190,7 +197,9 @@ function Translated({ text, small }: { text: string; small?: boolean }) {
   );
 }
 
-/** Shared list used by both "All questions" and "Marked questions". */
+/** Shared pager used by both "All questions" and "Marked questions".
+ *  One question per screen: the catalogue is 310 items long, and a single
+ *  scrolling page gives no sense of place or progress. */
 export function QuestionList({
   questions,
   filters,
@@ -201,11 +210,27 @@ export function QuestionList({
   empty?: string;
 }) {
   const c = useColors();
+  const insets = useSafeAreaInsets();
+  const { t, fill } = useT();
   const [active, setActive] = useState<string>(filters?.[0]?.key ?? "");
+  const [at, setAt] = useState(0);
+  const scroller = useRef<ScrollView>(null);
+
   const shown = useMemo(() => {
     const f = filters?.find((x) => x.key === active);
     return f ? questions.filter(f.test) : questions;
   }, [questions, filters, active]);
+
+  // changing the filter, or un-marking the last question, can leave the cursor
+  // past the end of the list
+  const index = Math.min(at, Math.max(0, shown.length - 1));
+  const q = shown[index];
+
+  function go(delta: number) {
+    const next = Math.min(shown.length - 1, Math.max(0, index + delta));
+    setAt(next);
+    scroller.current?.scrollTo({ y: 0, animated: false });
+  }
 
   return (
     <View style={{ flex: 1, backgroundColor: c.bg }}>
@@ -218,7 +243,10 @@ export function QuestionList({
                 key={f.key}
                 accessibilityRole="button"
                 accessibilityState={{ selected: on }}
-                onPress={() => setActive(f.key)}
+                onPress={() => {
+                  setActive(f.key);
+                  setAt(0);
+                }}
                 style={{
                   backgroundColor: on ? c.text : c.surface,
                   borderColor: on ? c.text : c.border,
@@ -237,20 +265,82 @@ export function QuestionList({
         </View>
       )}
 
-      {shown.length === 0 ? (
+      {!q ? (
         <View style={{ padding: spacing.xl }}>
           <Text style={{ ...type.body, color: c.textMuted, textAlign: "center" }}>{empty}</Text>
         </View>
       ) : (
-        <FlatList
-          data={shown}
-          keyExtractor={(q) => q.id}
-          renderItem={({ item }) => <QuestionCard q={item} />}
-          contentContainerStyle={{ padding: spacing.lg, paddingTop: spacing.sm, gap: spacing.md }}
-          initialNumToRender={6}
-          windowSize={7}
-        />
+        <>
+          <ScrollView
+            ref={scroller}
+            style={{ flex: 1 }}
+            contentContainerStyle={{ padding: spacing.lg, paddingTop: spacing.sm }}
+          >
+            <QuestionCard q={q} position={`${index + 1}`} />
+          </ScrollView>
+
+          <View
+            style={{
+              flexDirection: "row",
+              alignItems: "center",
+              gap: spacing.md,
+              paddingHorizontal: spacing.lg,
+              paddingTop: spacing.md,
+              paddingBottom: Math.max(insets.bottom, spacing.md),
+              borderTopWidth: StyleSheet.hairlineWidth,
+              borderTopColor: c.border,
+              backgroundColor: c.bg,
+            }}
+          >
+            <NavButton
+              label={t.back}
+              disabled={index === 0}
+              onPress={() => go(-1)}
+            />
+            <Text
+              style={{ ...type.label, ...type.mono, color: c.textMuted, flex: 1, textAlign: "center" }}
+            >
+              {fill(t.questionOf, { n: index + 1, total: shown.length })}
+            </Text>
+            <NavButton
+              label={t.next}
+              disabled={index >= shown.length - 1}
+              onPress={() => go(1)}
+            />
+          </View>
+        </>
       )}
     </View>
+  );
+}
+
+function NavButton({
+  label,
+  disabled,
+  onPress,
+}: {
+  label: string;
+  disabled: boolean;
+  onPress: () => void;
+}) {
+  const c = useColors();
+  return (
+    <Pressable
+      accessibilityRole="button"
+      accessibilityState={{ disabled }}
+      onPress={onPress}
+      disabled={disabled}
+      style={({ pressed }) => ({
+        backgroundColor: disabled ? c.surfaceAlt : c.text,
+        borderRadius: radius.pill,
+        paddingVertical: 12,
+        paddingHorizontal: spacing.xl,
+        opacity: pressed ? 0.85 : 1,
+      })}
+    >
+      <Text style={{ ...type.body, fontWeight: "700", color: disabled ? c.textMuted : c.bg }}>
+        {label}
+      </Text>
+    </Pressable>
   );
 }
