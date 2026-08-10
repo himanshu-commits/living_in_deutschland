@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Option } from "./components";
 import { Illustration } from "./media";
 import { images } from "./imageMap";
 import { Image } from "react-native";
@@ -91,17 +92,17 @@ function QuestionCard({
   const wrongPick = (i: number) => picked !== undefined && i === picked && i !== q.answer;
 
   return (
-    <View
-      style={{
-        backgroundColor: c.surface,
-        borderColor: c.border,
-        borderWidth: StyleSheet.hairlineWidth,
-        borderRadius: radius.lg,
-        padding: spacing.lg,
-        gap: spacing.sm,
-      }}
-    >
-      <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
+    // no card around it: one question already fills the screen, and a border
+    // inside a border is what made this feel cramped next to the exam
+    <View style={{ gap: spacing.md }}>
+      <View
+        style={{
+          flexDirection: "row",
+          justifyContent: "space-between",
+          alignItems: "center",
+          marginBottom: spacing.xs,
+        }}
+      >
         <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm }}>
           <Text style={{ ...type.heading, ...type.mono, fontSize: 20, color: c.text }}>
             {position}
@@ -119,13 +120,13 @@ function QuestionCard({
         </View>
       </View>
 
-      <Text style={{ ...type.body, fontWeight: "600", color: c.text }}>{q.question}</Text>
+      <Text style={{ ...type.question, color: c.text }}>{q.question}</Text>
       {tr && <Translated text={tr.question} />}
 
       {q.media && q.media.kind !== "options" && <Illustration media={q.media} />}
 
       {picture ? (
-        <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.sm, marginTop: spacing.xs }}>
+        <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.md, marginTop: spacing.xs }}>
           {q.media!.files.map((file, i) => (
             <Pressable
               key={file}
@@ -147,7 +148,7 @@ function QuestionCard({
                 source={images[file]}
                 resizeMode="contain"
                 accessibilityLabel={q.media!.alt[i]}
-                style={{ width: "100%", height: 84 }}
+                style={{ width: "100%", height: 96 }}
               />
               <Text
                 style={{
@@ -163,59 +164,19 @@ function QuestionCard({
           ))}
         </View>
       ) : (
-        q.options.map((text, i) => {
-          const right = reveal(i);
-          const bad = wrongPick(i);
-          return (
-            <Pressable
+        <View style={{ gap: spacing.md, marginTop: spacing.xs }}>
+          {q.options.map((text, i) => (
+            <Option
               key={i}
+              index={i}
+              text={text}
               disabled={mode === "read" || picked !== undefined}
               onPress={() => onPick?.(i)}
-              accessibilityRole={mode === "attempt" ? "radio" : "text"}
-              accessibilityState={{ selected: picked === i }}
-              accessibilityLabel={`${"ABCD"[i]}. ${text}`}
-              style={{
-                flexDirection: "row",
-                gap: spacing.sm,
-                alignItems: "flex-start",
-                borderRadius: radius.md,
-                borderWidth: mode === "attempt" ? StyleSheet.hairlineWidth : 0,
-                borderColor: right ? c.correct : bad ? c.wrong : c.border,
-                backgroundColor: right ? c.correctBg : bad ? c.wrongBg : "transparent",
-                padding: mode === "attempt" ? spacing.md : 0,
-              }}
-            >
-              <View
-                style={{
-                  width: 18,
-                  height: 18,
-                  borderRadius: 9,
-                  marginTop: 2,
-                  backgroundColor: right ? c.correct : bad ? c.wrong : c.surfaceAlt,
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                <Text style={{ ...type.label, fontSize: 9, color: right || bad ? "#fff" : c.textMuted }}>
-                  {"ABCD"[i]}
-                </Text>
-              </View>
-              <View style={{ flex: 1 }}>
-                <Text
-                  style={{
-                    ...type.body,
-                    fontSize: 15,
-                    color: right ? c.correct : bad ? c.wrong : mode === "attempt" ? c.text : c.textMuted,
-                    fontWeight: right ? "600" : "400",
-                  }}
-                >
-                  {text}
-                </Text>
-                {tr && <Translated text={tr.options[i]} small />}
-              </View>
-            </Pressable>
-          );
-        })
+              state={reveal(i) ? "correct" : wrongPick(i) ? "wrong" : "idle"}
+              subtitle={tr ? <Translated text={tr.options[i]} small /> : undefined}
+            />
+          ))}
+        </View>
       )}
 
       {mode === "attempt" && picked !== undefined && (
@@ -343,7 +304,7 @@ export function QuestionList({
           <ScrollView
             ref={scroller}
             style={{ flex: 1 }}
-            contentContainerStyle={{ padding: spacing.lg, paddingTop: spacing.sm }}
+            contentContainerStyle={{ padding: spacing.lg, paddingTop: spacing.sm, paddingBottom: spacing.xl }}
           >
             <QuestionCard
               q={q}

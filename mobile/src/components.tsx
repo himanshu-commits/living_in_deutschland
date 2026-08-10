@@ -107,12 +107,15 @@ export function Option({
   state,
   onPress,
   disabled,
+  subtitle,
 }: {
   text: string;
   index: number;
   state: OptionState;
   onPress: () => void;
   disabled?: boolean;
+  /** the translation, shown under the German rather than replacing it */
+  subtitle?: React.ReactNode;
 }) {
   const c = useColors();
   const s = optionColors(c, state);
@@ -148,7 +151,10 @@ export function Option({
       >
         <Text style={{ ...type.label, color: c.textMuted }}>{letter}</Text>
       </View>
-      <Text style={{ ...type.body, color: s.text, flex: 1 }}>{text}</Text>
+      <View style={{ flex: 1 }}>
+        <Text style={{ ...type.body, color: s.text }}>{text}</Text>
+        {subtitle}
+      </View>
     </Pressable>
   );
 }
