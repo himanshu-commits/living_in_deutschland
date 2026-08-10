@@ -13,6 +13,8 @@ type State = {
   progress: Progress;
   /** ids the user flagged as "this one has not stuck" */
   marked: string[];
+  /** ids answered wrong and not yet answered right again — maintained automatically */
+  mistakes: string[];
   /** whether the translation is currently shown under each question */
   translate: boolean;
   lastTest: TestResult | null;
@@ -29,6 +31,7 @@ const KEY_LANG = "lid.lang";
 const KEY_STATE = "lid.bundesland";
 const KEY_PROGRESS = "lid.progress";
 const KEY_MARKED = "lid.marked";
+const KEY_MISTAKES = "lid.mistakes";
 const KEY_TRANSLATE = "lid.translate";
 const KEY_LASTTEST = "lid.lasttest";
 
@@ -40,16 +43,18 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [state, setLand] = useState<string | null>(null);
   const [progress, setProgress] = useState<Progress>({});
   const [marked, setMarked] = useState<string[]>([]);
+  const [mistakes, setMistakes] = useState<string[]>([]);
   const [translate, setTranslateState] = useState(false);
   const [lastTest, setLastTest] = useState<TestResult | null>(null);
 
   useEffect(() => {
     (async () => {
-      const [code, land, raw, rawMarked, rawTranslate, rawTest] = await Promise.all([
+      const [code, land, raw, rawMarked, rawMistakes, rawTranslate, rawTest] = await Promise.all([
         AsyncStorage.getItem(KEY_LANG),
         AsyncStorage.getItem(KEY_STATE),
         AsyncStorage.getItem(KEY_PROGRESS),
         AsyncStorage.getItem(KEY_MARKED),
+        AsyncStorage.getItem(KEY_MISTAKES),
         AsyncStorage.getItem(KEY_TRANSLATE),
         AsyncStorage.getItem(KEY_LASTTEST),
       ]);
@@ -58,6 +63,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       setTranslateState(rawTranslate === "1");
       try {
         if (rawMarked) setMarked(JSON.parse(rawMarked));
+        if (rawMistakes) setMistakes(JSON.parse(rawMistakes));
         if (rawTest) setLastTest(JSON.parse(rawTest));
       } catch {
         // a corrupt blob should cost the user their flags, not the app
@@ -79,6 +85,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     state,
     progress,
     marked,
+    mistakes,
     translate,
     lastTest,
     async setLang(code) {
@@ -105,6 +112,17 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       await AsyncStorage.setItem(KEY_LASTTEST, JSON.stringify(result));
     },
     async record(id, correct) {
+      // the mistake list is a consequence of answering, never edited by hand:
+      // a wrong answer puts a question in, a right one takes it out
+      setMistakes((prev) => {
+        const next = correct
+          ? prev.filter((x) => x !== id)
+          : prev.includes(id)
+            ? prev
+            : [...prev, id];
+        if (next !== prev) AsyncStorage.setItem(KEY_MISTAKES, JSON.stringify(next)).catch(() => {});
+        return next;
+      });
       setProgress((prev) => {
         const before = prev[id] ?? { seen: 0, correct: 0, wrong: 0 };
         const next: Progress = {
@@ -121,7 +139,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     },
     async reset() {
       setProgress({});
-      await AsyncStorage.removeItem(KEY_PROGRESS);
+      setMistakes([]);
+      await AsyncStorage.multiRemove([KEY_PROGRESS, KEY_MISTAKES]);
     },
   };
 

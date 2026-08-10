@@ -46,6 +46,9 @@ type Strings = {
   yourScore: string;
   marked: string;
   markedNote: string;
+  mistakes: string;
+  mistakesNote: string;
+  noMistakes: string;
   test: string;
   testNote: string;
   lastTest: string;
@@ -93,6 +96,9 @@ const en: Strings = {
   yourScore: "Correct {n} of {total}",
   marked: "Marked questions",
   markedNote: "The ones you flagged",
+  mistakes: "Mistakes",
+  mistakesNote: "Questions you got wrong",
+  noMistakes: "No mistakes to review. Questions you answer wrongly in Practice or the Test appear here until you get them right.",
   test: "Test",
   testNote: "33 questions · 60 minutes",
   lastTest: "Last test",
@@ -140,6 +146,9 @@ const de: Strings = {
   yourScore: "{n} von {total} richtig",
   marked: "Markierte Fragen",
   markedNote: "Deine markierten Fragen",
+  mistakes: "Fehler",
+  mistakesNote: "Falsch beantwortete Fragen",
+  noMistakes: "Keine Fehler. Fragen, die du beim Üben oder im Test falsch beantwortest, erscheinen hier, bis du sie richtig hast.",
   test: "Test",
   testNote: "33 Fragen · 60 Minuten",
   lastTest: "Letzter Test",
@@ -187,6 +196,9 @@ const tr: Strings = {
   yourScore: "{total} sorudan {n} doğru",
   marked: "İşaretli sorular",
   markedNote: "İşaretlediklerin",
+  mistakes: "Hatalar",
+  mistakesNote: "Yanlış cevapladığın sorular",
+  noMistakes: "Hata yok. Alıştırma veya sınavda yanlış cevapladığın sorular, doğru cevaplayana kadar burada görünür.",
   test: "Sınav",
   testNote: "33 soru · 60 dakika",
   lastTest: "Son sınav",
@@ -233,6 +245,9 @@ const ru: Strings = {
   yourScore: "Верно {n} из {total}",
   marked: "Отмеченные вопросы",
   markedNote: "То, что вы отметили",
+  mistakes: "Ошибки",
+  mistakesNote: "Вопросы с неверным ответом",
+  noMistakes: "Ошибок нет. Вопросы, на которые вы ответили неверно, появятся здесь, пока не ответите правильно.",
   test: "Тест",
   testNote: "33 вопроса · 60 минут",
   lastTest: "Последний тест",
@@ -279,6 +294,9 @@ const uk: Strings = {
   yourScore: "Правильно {n} з {total}",
   marked: "Позначені питання",
   markedNote: "Те, що ви позначили",
+  mistakes: "Помилки",
+  mistakesNote: "Питання з неправильною відповіддю",
+  noMistakes: "Помилок немає. Питання, на які ви відповіли неправильно, з'являться тут, доки не відповісте правильно.",
   test: "Тест",
   testNote: "33 питання · 60 хвилин",
   lastTest: "Останній тест",
@@ -325,6 +343,9 @@ const ar: Strings = {
   yourScore: "{n} صحيحة من {total}",
   marked: "الأسئلة المُعلَّمة",
   markedNote: "ما قمت بتعليمه",
+  mistakes: "الأخطاء",
+  mistakesNote: "الأسئلة التي أخطأت فيها",
+  noMistakes: "لا أخطاء. الأسئلة التي تجيب عنها خطأً تظهر هنا حتى تجيب عنها بشكل صحيح.",
   test: "الاختبار",
   testNote: "٣٣ سؤالاً · ٦٠ دقيقة",
   lastTest: "آخر اختبار",
@@ -371,6 +392,9 @@ const fr: Strings = {
   yourScore: "{n} sur {total} correctes",
   marked: "Questions marquées",
   markedNote: "Celles que vous avez marquées",
+  mistakes: "Erreurs",
+  mistakesNote: "Questions manquées",
+  noMistakes: "Aucune erreur. Les questions manquées apparaissent ici jusqu'à ce que vous y répondiez correctement.",
   test: "Test",
   testNote: "33 questions · 60 minutes",
   lastTest: "Dernier test",
@@ -417,6 +441,9 @@ const hi: Strings = {
   yourScore: "{total} में से {n} सही",
   marked: "चिह्नित प्रश्न",
   markedNote: "जो आपने चिह्नित किए",
+  mistakes: "गलतियाँ",
+  mistakesNote: "गलत उत्तर वाले प्रश्न",
+  noMistakes: "कोई गलती नहीं। जिन प्रश्नों का उत्तर गलत देंगे वे सही उत्तर देने तक यहाँ दिखेंगे।",
   test: "टेस्ट",
   testNote: "33 प्रश्न · 60 मिनट",
   lastTest: "पिछला टेस्ट",

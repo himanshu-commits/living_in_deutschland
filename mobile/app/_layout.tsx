@@ -27,6 +27,10 @@ function Navigator() {
         options={{ title: t.allQuestions, headerRight: () => <TranslateToggle /> }}
       />
       <Stack.Screen
+        name="mistakes"
+        options={{ title: t.mistakes, headerRight: () => <TranslateToggle /> }}
+      />
+      <Stack.Screen
         name="marked"
         options={{ title: t.marked, headerRight: () => <TranslateToggle /> }}
       />

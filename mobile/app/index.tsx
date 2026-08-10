@@ -72,7 +72,7 @@ function Stat({ label, value, tone }: { label: string; value: number; tone: stri
 
 export default function Home() {
   const c = useColors();
-  const { ready, lang, state, marked, lastTest, progress } = useStore();
+  const { ready, lang, state, marked, mistakes, lastTest, progress } = useStore();
   const { t, fill } = useT();
 
   if (!ready) return <View style={{ flex: 1, backgroundColor: c.bg }} />;
@@ -149,6 +149,12 @@ export default function Home() {
         note={t.practiceNote}
         count={String(pool.length)}
         onPress={() => router.push("/attempt")}
+      />
+      <Tile
+        title={t.mistakes}
+        note={t.mistakesNote}
+        count={String(mistakes.length)}
+        onPress={() => router.push("/mistakes")}
       />
       <Tile
         title={t.marked}
