@@ -61,13 +61,34 @@ function Star({ on, onPress }: { on: boolean; onPress: () => void }) {
   );
 }
 
-/** One question as study material: the correct answer is always visible. */
-function QuestionCard({ q, position }: { q: Question; position: string }) {
+export type Mode = "read" | "attempt";
+
+/** A question card.
+ *  read    - study material, the correct answer is always visible
+ *  attempt - nothing is revealed until the user picks an option */
+function QuestionCard({
+  q,
+  position,
+  mode,
+  picked,
+  onPick,
+}: {
+  q: Question;
+  position: string;
+  mode: Mode;
+  picked?: number;
+  onPick?: (index: number) => void;
+}) {
   const c = useColors();
+  const { t, fill } = useT();
   const { lang, translate, marked, toggleMark } = useStore();
   const tr = lang && lang !== "de" && translate ? q.tr?.[lang] : undefined;
   const isMarked = marked.includes(q.id);
   const picture = q.media?.kind === "options" && q.media.files.length === 4;
+  const answered = mode === "read" || picked !== undefined;
+  // in attempt mode the answer stays hidden until the user commits to one
+  const reveal = (i: number) => answered && i === q.answer;
+  const wrongPick = (i: number) => picked !== undefined && i === picked && i !== q.answer;
 
   return (
     <View
@@ -106,13 +127,17 @@ function QuestionCard({ q, position }: { q: Question; position: string }) {
       {picture ? (
         <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.sm, marginTop: spacing.xs }}>
           {q.media!.files.map((file, i) => (
-            <View
+            <Pressable
               key={file}
+              disabled={mode === "read" || picked !== undefined}
+              onPress={() => onPick?.(i)}
+              accessibilityRole={mode === "attempt" ? "radio" : "image"}
+              accessibilityState={{ selected: picked === i }}
               style={{
                 width: "47%",
                 flexGrow: 1,
-                borderColor: i === q.answer ? c.correct : c.border,
-                borderWidth: i === q.answer ? 2 : StyleSheet.hairlineWidth,
+                borderColor: reveal(i) ? c.correct : wrongPick(i) ? c.wrong : c.border,
+                borderWidth: reveal(i) || wrongPick(i) ? 2 : StyleSheet.hairlineWidth,
                 borderRadius: radius.md,
                 padding: spacing.sm,
                 backgroundColor: c.surface,
@@ -129,31 +154,49 @@ function QuestionCard({ q, position }: { q: Question; position: string }) {
                   ...type.label,
                   fontSize: 10,
                   textAlign: "center",
-                  color: i === q.answer ? c.correct : c.textMuted,
+                  color: reveal(i) ? c.correct : wrongPick(i) ? c.wrong : c.textMuted,
                 }}
               >
                 Bild {i + 1}
               </Text>
-            </View>
+            </Pressable>
           ))}
         </View>
       ) : (
         q.options.map((text, i) => {
-          const right = i === q.answer;
+          const right = reveal(i);
+          const bad = wrongPick(i);
           return (
-            <View key={i} style={{ flexDirection: "row", gap: spacing.sm, alignItems: "flex-start" }}>
+            <Pressable
+              key={i}
+              disabled={mode === "read" || picked !== undefined}
+              onPress={() => onPick?.(i)}
+              accessibilityRole={mode === "attempt" ? "radio" : "text"}
+              accessibilityState={{ selected: picked === i }}
+              accessibilityLabel={`${"ABCD"[i]}. ${text}`}
+              style={{
+                flexDirection: "row",
+                gap: spacing.sm,
+                alignItems: "flex-start",
+                borderRadius: radius.md,
+                borderWidth: mode === "attempt" ? StyleSheet.hairlineWidth : 0,
+                borderColor: right ? c.correct : bad ? c.wrong : c.border,
+                backgroundColor: right ? c.correctBg : bad ? c.wrongBg : "transparent",
+                padding: mode === "attempt" ? spacing.md : 0,
+              }}
+            >
               <View
                 style={{
                   width: 18,
                   height: 18,
                   borderRadius: 9,
                   marginTop: 2,
-                  backgroundColor: right ? c.correct : c.surfaceAlt,
+                  backgroundColor: right ? c.correct : bad ? c.wrong : c.surfaceAlt,
                   alignItems: "center",
                   justifyContent: "center",
                 }}
               >
-                <Text style={{ ...type.label, fontSize: 9, color: right ? "#fff" : c.textMuted }}>
+                <Text style={{ ...type.label, fontSize: 9, color: right || bad ? "#fff" : c.textMuted }}>
                   {"ABCD"[i]}
                 </Text>
               </View>
@@ -162,7 +205,7 @@ function QuestionCard({ q, position }: { q: Question; position: string }) {
                   style={{
                     ...type.body,
                     fontSize: 15,
-                    color: right ? c.correct : c.textMuted,
+                    color: right ? c.correct : bad ? c.wrong : mode === "attempt" ? c.text : c.textMuted,
                     fontWeight: right ? "600" : "400",
                   }}
                 >
@@ -170,9 +213,24 @@ function QuestionCard({ q, position }: { q: Question; position: string }) {
                 </Text>
                 {tr && <Translated text={tr.options[i]} small />}
               </View>
-            </View>
+            </Pressable>
           );
         })
+      )}
+
+      {mode === "attempt" && picked !== undefined && (
+        <Text
+          style={{
+            ...type.body,
+            fontWeight: "700",
+            color: picked === q.answer ? c.correct : c.wrong,
+            marginTop: spacing.xs,
+          }}
+        >
+          {picked === q.answer
+            ? t.correct
+            : `${t.wrong} — ${fill(t.answerIs, { letter: "ABCD"[q.answer ?? 0] })}`}
+        </Text>
       )}
     </View>
   );
@@ -204,16 +262,21 @@ export function QuestionList({
   questions,
   filters,
   empty,
+  mode = "read",
 }: {
   questions: Question[];
   filters?: { key: string; label: string; test: (q: Question) => boolean }[];
   empty?: string;
+  mode?: Mode;
 }) {
   const c = useColors();
   const insets = useSafeAreaInsets();
   const { t, fill } = useT();
+  const { record } = useStore();
   const [active, setActive] = useState<string>(filters?.[0]?.key ?? "");
   const [at, setAt] = useState(0);
+  // answers are kept per question id, so going back shows what you picked
+  const [picks, setPicks] = useState<Record<string, number>>({});
   const scroller = useRef<ScrollView>(null);
 
   const shown = useMemo(() => {
@@ -225,6 +288,12 @@ export function QuestionList({
   // past the end of the list
   const index = Math.min(at, Math.max(0, shown.length - 1));
   const q = shown[index];
+
+  const answeredIds = Object.keys(picks);
+  const answeredCount = answeredIds.length;
+  const rightCount = answeredIds.filter(
+    (id) => picks[id] === questions.find((x) => x.id === id)?.answer
+  ).length;
 
   function go(delta: number) {
     const next = Math.min(shown.length - 1, Math.max(0, index + delta));
@@ -276,7 +345,17 @@ export function QuestionList({
             style={{ flex: 1 }}
             contentContainerStyle={{ padding: spacing.lg, paddingTop: spacing.sm }}
           >
-            <QuestionCard q={q} position={`${index + 1}`} />
+            <QuestionCard
+              q={q}
+              position={`${index + 1}`}
+              mode={mode}
+              picked={picks[q.id]}
+              onPick={(choice) => {
+                if (picks[q.id] !== undefined) return; // first answer counts
+                setPicks((prev) => ({ ...prev, [q.id]: choice }));
+                record(q.id, choice === q.answer);
+              }}
+            />
           </ScrollView>
 
           <View
@@ -297,11 +376,16 @@ export function QuestionList({
               disabled={index === 0}
               onPress={() => go(-1)}
             />
-            <Text
-              style={{ ...type.label, ...type.mono, color: c.textMuted, flex: 1, textAlign: "center" }}
-            >
-              {fill(t.questionOf, { n: index + 1, total: shown.length })}
-            </Text>
+            <View style={{ flex: 1, alignItems: "center" }}>
+              <Text style={{ ...type.label, ...type.mono, color: c.textMuted }}>
+                {fill(t.questionOf, { n: index + 1, total: shown.length })}
+              </Text>
+              {mode === "attempt" && answeredCount > 0 && (
+                <Text style={{ ...type.label, ...type.mono, fontSize: 11, color: c.correct }}>
+                  {fill(t.yourScore, { n: rightCount, total: answeredCount })}
+                </Text>
+              )}
+            </View>
             <NavButton
               label={t.next}
               disabled={index >= shown.length - 1}

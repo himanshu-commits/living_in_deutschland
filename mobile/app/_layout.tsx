@@ -30,7 +30,10 @@ function Navigator() {
         name="marked"
         options={{ title: t.marked, headerRight: () => <TranslateToggle /> }}
       />
-      <Stack.Screen name="learn" options={{ title: t.allQuestions }} />
+      <Stack.Screen
+        name="attempt"
+        options={{ title: t.practice, headerRight: () => <TranslateToggle /> }}
+      />
       <Stack.Screen name="exam" options={{ title: t.test, gestureEnabled: false }} />
     </Stack>
   );

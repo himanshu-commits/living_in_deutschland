@@ -1,5 +1,6 @@
 import { Redirect, router } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { analyse } from "@/analysis";
 import { Card, Label, ProgressBar } from "@/components";
 import { EXAM, poolFor } from "@/questions";
 import { useStore, useT } from "@/storage";
@@ -59,10 +60,20 @@ function Tile({
   );
 }
 
+function Stat({ label, value, tone }: { label: string; value: number; tone: string }) {
+  const c = useColors();
+  return (
+    <View>
+      <Text style={{ ...type.heading, ...type.mono, fontSize: 19, color: tone }}>{value}</Text>
+      <Text style={{ ...type.label, color: c.textMuted }}>{label}</Text>
+    </View>
+  );
+}
+
 export default function Home() {
   const c = useColors();
-  const { ready, lang, state, marked, lastTest } = useStore();
-  const { t } = useT();
+  const { ready, lang, state, marked, lastTest, progress } = useStore();
+  const { t, fill } = useT();
 
   if (!ready) return <View style={{ flex: 1, backgroundColor: c.bg }} />;
   // language decides the whole interface, so it is asked before anything else
@@ -70,6 +81,7 @@ export default function Home() {
   if (!state) return <Redirect href="/bundesland" />;
 
   const pool = poolFor(state);
+  const a = analyse(pool, progress);
   const passed = lastTest ? lastTest.correct >= EXAM.pass : false;
 
   return (
@@ -79,28 +91,50 @@ export default function Home() {
     >
       <Card>
         <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
-          <Label>{t.lastTest}</Label>
-          {lastTest && (
-            <Text style={{ ...type.label, color: passed ? c.correct : c.wrong }}>
-              {passed ? t.passed : t.notPassed}
-            </Text>
-          )}
+          <Label>{t.readiness}</Label>
+          <Text style={{ ...type.label, color: a.ready ? c.correct : c.textMuted }}>
+            {a.ready ? t.readyYes : t.readyNo}
+          </Text>
         </View>
-        {lastTest ? (
-          <>
-            <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm, marginVertical: spacing.sm }}>
-              <Text style={{ ...type.title, ...type.mono, fontSize: 44, color: passed ? c.correct : c.text }}>
-                {lastTest.correct}
-              </Text>
-              <Text style={{ ...type.heading, color: c.textMuted }}>/ {lastTest.total}</Text>
-            </View>
-            <ProgressBar value={lastTest.correct / lastTest.total} passMark={EXAM.pass / lastTest.total} />
-            <Text style={{ ...type.body, fontSize: 13, color: c.textMuted, marginTop: spacing.sm }}>
-              {t.passAt}
+
+        <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm, marginVertical: spacing.sm }}>
+          <Text style={{ ...type.title, ...type.mono, fontSize: 46, color: a.ready ? c.correct : c.text }}>
+            {a.projected}
+          </Text>
+          <Text style={{ ...type.heading, color: c.textMuted }}>/ {EXAM.general + EXAM.state}</Text>
+        </View>
+
+        <ProgressBar
+          value={a.projected / (EXAM.general + EXAM.state)}
+          passMark={EXAM.pass / (EXAM.general + EXAM.state)}
+        />
+        <Text style={{ ...type.body, fontSize: 13, color: c.textMuted, marginTop: spacing.sm }}>
+          {t.passAt} · {fill(t.basedOn, { n: a.attempted, total: a.pool })}
+          {a.accuracy !== null ? ` · ${fill(t.accuracy, { p: Math.round(a.accuracy * 100) })}` : ""}
+        </Text>
+
+        <View style={{ flexDirection: "row", gap: spacing.lg, marginTop: spacing.lg }}>
+          <Stat label={t.strong} value={a.strong} tone={c.correct} />
+          <Stat label={t.shaky} value={a.shaky} tone={c.wrong} />
+          <Stat label={t.unseen} value={a.unseen} tone={c.textMuted} />
+        </View>
+
+        {lastTest && (
+          <View
+            style={{
+              flexDirection: "row",
+              justifyContent: "space-between",
+              borderTopWidth: StyleSheet.hairlineWidth,
+              borderTopColor: c.border,
+              marginTop: spacing.lg,
+              paddingTop: spacing.md,
+            }}
+          >
+            <Text style={{ ...type.body, fontSize: 13, color: c.textMuted }}>{t.lastTest}</Text>
+            <Text style={{ ...type.body, fontSize: 13, fontWeight: "600", color: passed ? c.correct : c.wrong }}>
+              {lastTest.correct} / {lastTest.total} · {passed ? t.passed : t.notPassed}
             </Text>
-          </>
-        ) : (
-          <Text style={{ ...type.body, color: c.textMuted, marginTop: spacing.sm }}>{t.noTestYet}</Text>
+          </View>
         )}
       </Card>
 
@@ -109,6 +143,12 @@ export default function Home() {
         note={`${t.allQuestionsNote} · ${state}`}
         count={String(pool.length)}
         onPress={() => router.push("/read")}
+      />
+      <Tile
+        title={t.practice}
+        note={t.practiceNote}
+        count={String(pool.length)}
+        onPress={() => router.push("/attempt")}
       />
       <Tile
         title={t.marked}
