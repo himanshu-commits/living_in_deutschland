@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+data/.cache/
+.DS_Store
+
+# Licensed press photos (© Deutscher Bundestag and others) extracted from the
+# catalogue for reference only. BAMF's licence does not extend to us, so they are
+# never redistributed. tools/extract_images.py regenerates them locally.
+data/images-restricted/
+
+# mobile
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/expo-env.d.ts
