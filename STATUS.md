@@ -12,10 +12,14 @@ Bundesland. Pass at **17/33** for naturalisation, 15/33 for the orientation cour
 The full catalogue is 460 questions (300 general + 16 states × 10), but any one
 person only ever faces **310** of them.
 
+Deeper working notes live in [`memory/`](memory/) — the reasoning that is not
+recoverable from the code.
+
 ## Repository layout
 
 ```
 gesamtfragenkatalog-lebenindeutschland.pdf   official BAMF catalogue, Stand 07.05.2025
+memory/                                      working notes: why the pipeline is shaped this way
 tools/                                       the data pipeline (Python)
 data/                                        generated dataset + review queue
 mobile/                                      the Expo app (TypeScript)
