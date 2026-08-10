@@ -62,6 +62,7 @@ def main():
                 "answer": q["answer"],
                 "image": q["imageQuestion"],
                 "verified": q["verified"],
+                **({"tr": q["translations"]} if q.get("translations") else {}),
                 **({"media": m} if (m := media(q)) else {}),
             }
             for q in questions

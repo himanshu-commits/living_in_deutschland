@@ -15,7 +15,7 @@ function mmss(seconds: number) {
 
 export default function Exam() {
   const c = useColors();
-  const { ready, state, record } = useStore();
+  const { ready, state, record, saveTest } = useStore();
   const paper = useMemo<Question[]>(() => (state ? examPaper(state) : []), [state]);
 
   const [at, setAt] = useState(0);
@@ -40,6 +40,11 @@ export default function Exam() {
     if (!done || recorded.current) return;
     recorded.current = true;
     paper.forEach((q, i) => record(q.id, answers[i] === q.answer));
+    saveTest({
+      correct: paper.filter((q, i) => answers[i] === q.answer).length,
+      total: paper.length,
+      at: Date.now(),
+    });
   }, [done]);
 
   if (!ready) return <View style={{ flex: 1, backgroundColor: c.bg }} />;

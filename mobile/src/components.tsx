@@ -60,10 +60,11 @@ export function Label({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function ProgressBar({ value }: { value: number }) {
+export function ProgressBar({ value, passMark }: { value: number; passMark?: number }) {
   const c = useColors();
   return (
-    <View style={{ height: 6, borderRadius: radius.pill, backgroundColor: c.surfaceAlt, overflow: "hidden" }}>
+    // not clipped, so the pass mark can stand slightly proud of the bar
+    <View style={{ height: 8, borderRadius: radius.pill, backgroundColor: c.surfaceAlt }}>
       <View
         style={{
           width: `${Math.min(100, Math.max(0, value * 100))}%`,
@@ -72,6 +73,21 @@ export function ProgressBar({ value }: { value: number }) {
           borderRadius: radius.pill,
         }}
       />
+      {passMark !== undefined && (
+        // the threshold is the one number that decides readiness, so it is drawn
+        <View
+          style={{
+            position: "absolute",
+            left: `${Math.min(100, Math.max(0, passMark * 100))}%`,
+            top: -3,
+            bottom: -3,
+            width: 2,
+            borderRadius: 2,
+            backgroundColor: c.text,
+            opacity: 0.55,
+          }}
+        />
+      )}
     </View>
   );
 }

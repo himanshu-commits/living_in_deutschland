@@ -69,13 +69,14 @@ def align(mine, theirs):
 
 def match(question, pool, get_question, get_options, get_correct):
     """Find the pool entry for `question` and translate its answer into our
-    option order. Returns (joint_score, answer_index_or_None)."""
+    option order. Returns (joint_score, answer_index_or_None, entry, permutation)
+    where permutation[their_index] == our_index."""
     shortlist = sorted(
         ((sim(question["question"], get_question(p)), i) for i, p in enumerate(pool)),
         reverse=True,
     )[:6]
 
-    best = (0.0, None)
+    best = (0.0, None, None, None)
     for q_score, i in shortlist:
         entry = pool[i]
         options = get_options(entry)
@@ -85,8 +86,30 @@ def match(question, pool, get_question, get_options, get_correct):
         o_score, perm = align(question["options"], options)
         joint = 0.35 * q_score + 0.65 * o_score
         if joint > best[0]:
-            best = (joint, perm[correct])
+            best = (joint, perm[correct], entry, perm)
     return best
+
+
+def translations_of(entry, perm):
+    """Lift an entry's translations into our option order.
+
+    The sources order their options differently from the PDF, so a translated
+    option list copied by index would be silently scrambled. `perm` maps their
+    index onto ours, the same mapping the answer rides."""
+    out = {}
+    for code, block in (entry.get("translation") or {}).items():
+        options = [None] * 4
+        for k, letter in enumerate("abcd"):
+            text = block.get(letter)
+            if text:
+                options[perm[k]] = " ".join(text.split())
+        if not block.get("question") or any(o is None for o in options):
+            continue
+        out[code] = {
+            "question": " ".join(block["question"].split()),
+            "options": options,
+        }
+    return out
 
 
 def respace(mine, reference):
@@ -128,16 +151,20 @@ def main():
 
     out = []
     for q in questions:
-        f_score, f_ans = match(
+        f_score, f_ans, _f_entry, _f_perm = match(
             q, flex, lambda p: p["question"], lambda p: p["answers"], lambda p: p["correct"]
         )
-        l_score, l_ans = match(
+        l_score, l_ans, l_entry, l_perm = match(
             q,
             lid,
             lambda p: p["question"],
             lambda p: [p["a"], p["b"], p["c"], p["d"]],
             lambda p: letter.get(p["solution"]),
         )
+
+        # translations ride the same match and permutation as the answer, so a
+        # wrong-variant match cannot quietly attach the wrong translation
+        tr = translations_of(l_entry, l_perm) if l_entry and l_score >= THRESHOLD else {}
 
         f_ok = f_score >= THRESHOLD and f_ans is not None
         l_ok = l_score >= THRESHOLD and l_ans is not None
@@ -181,6 +208,7 @@ def main():
                 "confidence": confidence,
                 "verified": verified,
                 "sources": sources,
+                "translations": tr,
                 "scores": {"flexsurfer": round(f_score, 3), "lid": round(l_score, 3)},
             }
         )

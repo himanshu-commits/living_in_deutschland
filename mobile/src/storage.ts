@@ -1,35 +1,67 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createContext, createElement, useContext, useEffect, useState, type ReactNode } from "react";
+import { fill, isRTL, strings, type LangCode } from "./i18n";
 
 export type Stat = { seen: number; correct: number; wrong: number };
 export type Progress = Record<string, Stat>;
+export type TestResult = { correct: number; total: number; at: number };
 
 type State = {
   ready: boolean;
+  lang: LangCode | null; // chosen interface language
   state: string | null; // chosen Bundesland
   progress: Progress;
+  /** ids the user flagged as "this one has not stuck" */
+  marked: string[];
+  /** whether the translation is currently shown under each question */
+  translate: boolean;
+  lastTest: TestResult | null;
+  setLang(code: LangCode): Promise<void>;
   setState(land: string): Promise<void>;
+  toggleMark(id: string): Promise<void>;
+  setTranslate(on: boolean): Promise<void>;
+  saveTest(result: TestResult): Promise<void>;
   record(id: string, correct: boolean): Promise<void>;
   reset(): Promise<void>;
 };
 
+const KEY_LANG = "lid.lang";
 const KEY_STATE = "lid.bundesland";
 const KEY_PROGRESS = "lid.progress";
+const KEY_MARKED = "lid.marked";
+const KEY_TRANSLATE = "lid.translate";
+const KEY_LASTTEST = "lid.lasttest";
 
 const Ctx = createContext<State | null>(null);
 
 export function StoreProvider({ children }: { children: ReactNode }) {
   const [ready, setReady] = useState(false);
+  const [lang, setLangState] = useState<LangCode | null>(null);
   const [state, setLand] = useState<string | null>(null);
   const [progress, setProgress] = useState<Progress>({});
+  const [marked, setMarked] = useState<string[]>([]);
+  const [translate, setTranslateState] = useState(false);
+  const [lastTest, setLastTest] = useState<TestResult | null>(null);
 
   useEffect(() => {
     (async () => {
-      const [land, raw] = await Promise.all([
+      const [code, land, raw, rawMarked, rawTranslate, rawTest] = await Promise.all([
+        AsyncStorage.getItem(KEY_LANG),
         AsyncStorage.getItem(KEY_STATE),
         AsyncStorage.getItem(KEY_PROGRESS),
+        AsyncStorage.getItem(KEY_MARKED),
+        AsyncStorage.getItem(KEY_TRANSLATE),
+        AsyncStorage.getItem(KEY_LASTTEST),
       ]);
+      setLangState(code as LangCode | null);
       setLand(land);
+      setTranslateState(rawTranslate === "1");
+      try {
+        if (rawMarked) setMarked(JSON.parse(rawMarked));
+        if (rawTest) setLastTest(JSON.parse(rawTest));
+      } catch {
+        // a corrupt blob should cost the user their flags, not the app
+      }
       if (raw) {
         try {
           setProgress(JSON.parse(raw));
@@ -43,11 +75,34 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
   const value: State = {
     ready,
+    lang,
     state,
     progress,
+    marked,
+    translate,
+    lastTest,
+    async setLang(code) {
+      setLangState(code);
+      await AsyncStorage.setItem(KEY_LANG, code);
+    },
     async setState(land) {
       setLand(land);
       await AsyncStorage.setItem(KEY_STATE, land);
+    },
+    async toggleMark(id) {
+      setMarked((prev) => {
+        const next = prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id];
+        AsyncStorage.setItem(KEY_MARKED, JSON.stringify(next)).catch(() => {});
+        return next;
+      });
+    },
+    async setTranslate(on) {
+      setTranslateState(on);
+      await AsyncStorage.setItem(KEY_TRANSLATE, on ? "1" : "0");
+    },
+    async saveTest(result) {
+      setLastTest(result);
+      await AsyncStorage.setItem(KEY_LASTTEST, JSON.stringify(result));
     },
     async record(id, correct) {
       setProgress((prev) => {
@@ -77,6 +132,13 @@ export function useStore(): State {
   const ctx = useContext(Ctx);
   if (!ctx) throw new Error("useStore must be used inside <StoreProvider>");
   return ctx;
+}
+
+/** Interface strings in the chosen language, plus writing direction. */
+export function useT() {
+  const { lang } = useStore();
+  const code = lang ?? "en";
+  return { t: strings(code), fill, lang: code, rtl: isRTL(code) };
 }
 
 /** Questions answered wrong more often than right, hardest first. */

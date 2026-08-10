@@ -8,14 +8,19 @@ export type Media = {
   alt: string[];
 };
 
+export type Translation = { question: string; options: string[] };
+
 export type Question = {
   id: string;
+  num?: number;
   scope: string; // "ALL" or a Bundesland name
   question: string;
   options: string[];
   answer: number | null;
   image: boolean;
   verified: boolean;
+  /** per-language question + options, already in OUR option order */
+  tr?: Record<string, Translation>;
   media?: Media;
 };
 

@@ -1,17 +1,21 @@
-import { router } from "expo-router";
+import { Redirect, router } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { BUNDESLAENDER } from "@/questions";
-import { useStore } from "@/storage";
+import { useStore, useT } from "@/storage";
 import { radius, spacing, type, useColors } from "@/theme";
 
 export default function BundeslandPicker() {
   const c = useColors();
-  const { state, setState } = useStore();
+  const { ready, lang, state, setState } = useStore();
+  const { t } = useT();
 
   async function choose(land: string) {
     await setState(land);
     router.replace("/");
   }
+
+  if (!ready) return <View style={{ flex: 1, backgroundColor: c.bg }} />;
+  if (!lang) return <Redirect href="/language" />;
 
   return (
     <ScrollView
@@ -19,8 +23,7 @@ export default function BundeslandPicker() {
       contentContainerStyle={{ padding: spacing.lg, gap: spacing.md, paddingBottom: spacing.xxl }}
     >
       <Text style={{ ...type.body, color: c.textMuted, marginBottom: spacing.sm }}>
-        Im Test bekommst du 3 Fragen zu deinem Bundesland. Wähle das Land, in dem du den Test
-        ablegst.
+        {t.stateNote}
       </Text>
 
       {BUNDESLAENDER.map((land) => {

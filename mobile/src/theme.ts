@@ -1,4 +1,4 @@
-import { useColorScheme } from "react-native";
+import { useColorScheme, type TextStyle } from "react-native";
 
 const palette = {
   light: {
@@ -44,7 +44,8 @@ export const type = {
   question: { fontSize: 19, fontWeight: "600" as const, lineHeight: 27 },
   body: { fontSize: 16, lineHeight: 23 },
   label: { fontSize: 13, fontWeight: "600" as const, letterSpacing: 0.3 },
-  mono: { fontSize: 15, fontVariant: ["tabular-nums"] as const },
+  // digits must not change width as a timer counts down
+  mono: { fontSize: 15, fontVariant: ["tabular-nums"] } as TextStyle,
 };
 
 export function useColors(): Colors {
