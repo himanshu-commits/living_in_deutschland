@@ -30,6 +30,8 @@ type State = {
   saveTest(result: TestResult): Promise<void>;
   record(id: string, correct: boolean): Promise<void>;
   reset(): Promise<void>;
+  /** Overwrites local progress with a remote snapshot pulled on sign-in. */
+  hydrate(remote: { progress: Progress; marked: string[]; mistakes: string[]; lastTest: TestResult | null }): Promise<void>;
 };
 
 const KEY_LANG = "lid.lang";
@@ -156,6 +158,20 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       setProgress({});
       setMistakes([]);
       await AsyncStorage.multiRemove([KEY_PROGRESS, KEY_MISTAKES]);
+    },
+    async hydrate(remote) {
+      setProgress(remote.progress);
+      setMarked(remote.marked);
+      setMistakes(remote.mistakes);
+      setLastTest(remote.lastTest);
+      await Promise.all([
+        AsyncStorage.setItem(KEY_PROGRESS, JSON.stringify(remote.progress)),
+        AsyncStorage.setItem(KEY_MARKED, JSON.stringify(remote.marked)),
+        AsyncStorage.setItem(KEY_MISTAKES, JSON.stringify(remote.mistakes)),
+        remote.lastTest
+          ? AsyncStorage.setItem(KEY_LASTTEST, JSON.stringify(remote.lastTest))
+          : AsyncStorage.removeItem(KEY_LASTTEST),
+      ]);
     },
   };
 

@@ -17,6 +17,7 @@ export default function Attempt() {
   const pool = poolFor(state);
   return (
     <QuestionList
+      title={t.practice}
       mode="attempt"
       questions={pool}
       filters={[

@@ -81,6 +81,37 @@ type Strings = {
   contact: string;
   help: string;
   faq: { q: string; a: string }[];
+  appearance: string;
+  system: string;
+  light: string;
+  dark: string;
+  preferences: string;
+  showTranslations: string;
+  showTranslationsNote: string;
+  data: string;
+  resetProgress: string;
+  resetProgressNote: string;
+  resetConfirmTitle: string;
+  resetConfirmMessage: string;
+  resetAction: string;
+  cancel: string;
+  login: string;
+  signUp: string;
+  email: string;
+  password: string;
+  noAccountYet: string;
+  haveAccountAlready: string;
+  profile: string;
+  signedInAs: string;
+  signOut: string;
+  notSignedIn: string;
+  signInNote: string;
+  syncStatusSyncing: string;
+  syncStatusSynced: string;
+  syncStatusError: string;
+  menu: string;
+  homeLabel: string;
+  confirmEmailNote: string;
 };
 
 const en: Strings = {
@@ -157,6 +188,37 @@ const en: Strings = {
       a: "Question text comes from the official BAMF catalogue. Answers and translations are merged from two independent community datasets, and shown as verified only where both agree.",
     },
   ],
+  appearance: "Appearance",
+  system: "System",
+  light: "Light",
+  dark: "Dark",
+  preferences: "Preferences",
+  showTranslations: "Show translations",
+  showTranslationsNote: "Display translations beneath questions while reading and practising",
+  data: "Data",
+  resetProgress: "Reset progress",
+  resetProgressNote: "Clears your practice stats and mistakes. Marked questions and your last test result stay.",
+  resetConfirmTitle: "Reset progress?",
+  resetConfirmMessage: "This clears your practice stats and mistakes. This can't be undone.",
+  resetAction: "Reset",
+  cancel: "Cancel",
+  login: "Login",
+  signUp: "Sign Up",
+  email: "Email",
+  password: "Password",
+  noAccountYet: "Don't have an account? Sign up",
+  haveAccountAlready: "Already have an account? Log in",
+  profile: "Profile",
+  signedInAs: "Signed in as {email}",
+  signOut: "Sign out",
+  notSignedIn: "Not signed in",
+  signInNote: "Sign in to sync your progress across devices.",
+  syncStatusSyncing: "Syncing…",
+  syncStatusSynced: "Synced",
+  syncStatusError: "Sync failed — will retry",
+  menu: "Menu",
+  homeLabel: "Home",
+  confirmEmailNote: "Check your email to confirm your account, then log in.",
 };
 
 const de: Strings = {
@@ -233,6 +295,37 @@ const de: Strings = {
       a: "Der Fragentext stammt aus dem offiziellen BAMF-Katalog. Antworten und Übersetzungen stammen aus zwei unabhängigen Community-Datensätzen und gelten nur als geprüft, wenn beide übereinstimmen.",
     },
   ],
+  appearance: "Erscheinungsbild",
+  system: "System",
+  light: "Hell",
+  dark: "Dunkel",
+  preferences: "Einstellungen",
+  showTranslations: "Übersetzungen anzeigen",
+  showTranslationsNote: "Zeigt Übersetzungen unter den Fragen beim Lesen und Üben",
+  data: "Daten",
+  resetProgress: "Fortschritt zurücksetzen",
+  resetProgressNote: "Löscht deine Übungsstatistik und Fehler. Markierte Fragen und dein letztes Testergebnis bleiben erhalten.",
+  resetConfirmTitle: "Fortschritt zurücksetzen?",
+  resetConfirmMessage: "Das löscht deine Übungsstatistik und Fehler. Das kann nicht rückgängig gemacht werden.",
+  resetAction: "Zurücksetzen",
+  cancel: "Abbrechen",
+  login: "Anmelden",
+  signUp: "Registrieren",
+  email: "E-Mail",
+  password: "Passwort",
+  noAccountYet: "Noch kein Konto? Registrieren",
+  haveAccountAlready: "Schon ein Konto? Anmelden",
+  profile: "Profil",
+  signedInAs: "Angemeldet als {email}",
+  signOut: "Abmelden",
+  notSignedIn: "Nicht angemeldet",
+  signInNote: "Melde dich an, um deinen Fortschritt geräteübergreifend zu synchronisieren.",
+  syncStatusSyncing: "Wird synchronisiert…",
+  syncStatusSynced: "Synchronisiert",
+  syncStatusError: "Synchronisierung fehlgeschlagen — wird erneut versucht",
+  menu: "Menü",
+  homeLabel: "Start",
+  confirmEmailNote: "Bestätige deine E-Mail-Adresse über den Link in deinem Postfach und melde dich dann an.",
 };
 
 const tr: Strings = {
@@ -288,6 +381,24 @@ const tr: Strings = {
   rate: "Uygulamayı değerlendir",
   contact: "İletişim",
   help: "Yardım",
+  appearance: "Görünüm",
+  system: "Sistem",
+  light: "Açık",
+  dark: "Koyu",
+  preferences: "Tercihler",
+  showTranslations: "Çevirileri göster",
+  data: "Veri",
+  resetProgress: "İlerlemeyi sıfırla",
+  resetAction: "Sıfırla",
+  cancel: "Vazgeç",
+  login: "Giriş yap",
+  signUp: "Kaydol",
+  email: "E-posta",
+  password: "Şifre",
+  profile: "Profil",
+  signOut: "Çıkış yap",
+  menu: "Menü",
+  homeLabel: "Ana sayfa",
 };
 
 const ru: Strings = {
@@ -343,6 +454,24 @@ const ru: Strings = {
   rate: "Оценить приложение",
   contact: "Связаться",
   help: "Помощь",
+  appearance: "Внешний вид",
+  system: "Системная",
+  light: "Светлая",
+  dark: "Тёмная",
+  preferences: "Настройки",
+  showTranslations: "Показывать перевод",
+  data: "Данные",
+  resetProgress: "Сбросить прогресс",
+  resetAction: "Сбросить",
+  cancel: "Отмена",
+  login: "Войти",
+  signUp: "Зарегистрироваться",
+  email: "Эл. почта",
+  password: "Пароль",
+  profile: "Профиль",
+  signOut: "Выйти",
+  menu: "Меню",
+  homeLabel: "Главная",
 };
 
 const uk: Strings = {
@@ -398,6 +527,24 @@ const uk: Strings = {
   rate: "Оцінити застосунок",
   contact: "Зв'язатися",
   help: "Допомога",
+  appearance: "Зовнішній вигляд",
+  system: "Системна",
+  light: "Світла",
+  dark: "Темна",
+  preferences: "Налаштування",
+  showTranslations: "Показувати переклад",
+  data: "Дані",
+  resetProgress: "Скинути прогрес",
+  resetAction: "Скинути",
+  cancel: "Скасувати",
+  login: "Увійти",
+  signUp: "Зареєструватися",
+  email: "Ел. пошта",
+  password: "Пароль",
+  profile: "Профіль",
+  signOut: "Вийти",
+  menu: "Меню",
+  homeLabel: "Головна",
 };
 
 const ar: Strings = {
@@ -453,6 +600,24 @@ const ar: Strings = {
   rate: "قيّم التطبيق",
   contact: "تواصل",
   help: "المساعدة",
+  appearance: "المظهر",
+  system: "النظام",
+  light: "فاتح",
+  dark: "داكن",
+  preferences: "التفضيلات",
+  showTranslations: "إظهار الترجمة",
+  data: "البيانات",
+  resetProgress: "إعادة تعيين التقدم",
+  resetAction: "إعادة تعيين",
+  cancel: "إلغاء",
+  login: "تسجيل الدخول",
+  signUp: "إنشاء حساب",
+  email: "البريد الإلكتروني",
+  password: "كلمة المرور",
+  profile: "الملف الشخصي",
+  signOut: "تسجيل الخروج",
+  menu: "القائمة",
+  homeLabel: "الرئيسية",
 };
 
 const fr: Strings = {
@@ -508,6 +673,24 @@ const fr: Strings = {
   rate: "Évaluer l'application",
   contact: "Contact",
   help: "Aide",
+  appearance: "Apparence",
+  system: "Système",
+  light: "Clair",
+  dark: "Sombre",
+  preferences: "Préférences",
+  showTranslations: "Afficher les traductions",
+  data: "Données",
+  resetProgress: "Réinitialiser la progression",
+  resetAction: "Réinitialiser",
+  cancel: "Annuler",
+  login: "Connexion",
+  signUp: "Inscription",
+  email: "E-mail",
+  password: "Mot de passe",
+  profile: "Profil",
+  signOut: "Déconnexion",
+  menu: "Menu",
+  homeLabel: "Accueil",
 };
 
 const hi: Strings = {
@@ -563,6 +746,24 @@ const hi: Strings = {
   rate: "ऐप को रेट करें",
   contact: "संपर्क करें",
   help: "सहायता",
+  appearance: "दिखावट",
+  system: "सिस्टम",
+  light: "हल्का",
+  dark: "गहरा",
+  preferences: "प्राथमिकताएँ",
+  showTranslations: "अनुवाद दिखाएँ",
+  data: "डेटा",
+  resetProgress: "प्रगति रीसेट करें",
+  resetAction: "रीसेट करें",
+  cancel: "रद्द करें",
+  login: "लॉग इन करें",
+  signUp: "साइन अप करें",
+  email: "ईमेल",
+  password: "पासवर्ड",
+  profile: "प्रोफ़ाइल",
+  signOut: "लॉग आउट करें",
+  menu: "मेनू",
+  homeLabel: "होम",
 };
 
 const TABLE: Record<LangCode, Strings> = { de, en, tr, ru, uk, ar, fr, hi };

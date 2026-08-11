@@ -15,5 +15,5 @@ export default function Marked() {
   if (!state) return <Redirect href="/bundesland" />;
 
   const questions = poolFor(state).filter((q) => marked.includes(q.id));
-  return <QuestionList questions={questions} empty={t.noMarked} />;
+  return <QuestionList title={t.marked} questions={questions} empty={t.noMarked} />;
 }

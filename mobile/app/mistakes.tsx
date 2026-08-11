@@ -21,5 +21,5 @@ export default function Mistakes() {
   if (!state) return <Redirect href="/bundesland" />;
 
   const questions = poolFor(state).filter((q) => batch.includes(q.id));
-  return <QuestionList mode="attempt" questions={questions} empty={t.noMistakes} />;
+  return <QuestionList title={t.mistakes} mode="attempt" questions={questions} empty={t.noMistakes} />;
 }

@@ -2,6 +2,7 @@ import { Redirect, router } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { analyse } from "@/analysis";
 import { Card, Label, ProgressBar } from "@/components";
+import { ScreenHeader } from "@/header";
 import { EXAM, poolFor } from "@/questions";
 import { useStore, useT } from "@/storage";
 import { radius, spacing, type, useColors } from "@/theme";
@@ -85,11 +86,10 @@ export default function Home() {
   const passed = lastTest ? lastTest.correct >= EXAM.pass : false;
 
   return (
-    <ScrollView
-      style={{ backgroundColor: c.bg }}
-      contentContainerStyle={{ padding: spacing.lg, gap: spacing.md }}
-    >
-      <Card>
+    <View style={{ flex: 1, backgroundColor: c.bg }}>
+      <ScreenHeader title={t.home} />
+      <ScrollView style={{ flex: 1 }} contentContainerStyle={{ padding: spacing.lg, gap: spacing.md }}>
+        <Card>
         <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
           <Label>{t.readiness}</Label>
           <Text style={{ ...type.label, color: a.ready ? c.correct : c.textMuted }}>
@@ -179,6 +179,7 @@ export default function Home() {
           {state} · {t.change}
         </Text>
       </Pressable>
-    </ScrollView>
+      </ScrollView>
+    </View>
   );
 }

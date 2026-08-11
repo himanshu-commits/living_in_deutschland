@@ -1,6 +1,7 @@
 import { useMemo, useRef, useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { Option } from "./components";
+import { ScreenHeader } from "./header";
 import { Illustration } from "./media";
 import { images } from "./imageMap";
 import { Image } from "react-native";
@@ -220,11 +221,13 @@ function Translated({ text, small }: { text: string; small?: boolean }) {
  *  One question per screen: the catalogue is 310 items long, and a single
  *  scrolling page gives no sense of place or progress. */
 export function QuestionList({
+  title,
   questions,
   filters,
   empty,
   mode = "read",
 }: {
+  title: string;
   questions: Question[];
   filters?: { key: string; label: string; test: (q: Question) => boolean }[];
   empty?: string;
@@ -264,6 +267,7 @@ export function QuestionList({
 
   return (
     <View style={{ flex: 1, backgroundColor: c.bg }}>
+      <ScreenHeader title={title} right={<TranslateToggle />} />
       {filters && (
         <View style={{ flexDirection: "row", gap: spacing.sm, padding: spacing.lg, paddingBottom: spacing.sm }}>
           {filters.map((f) => {
