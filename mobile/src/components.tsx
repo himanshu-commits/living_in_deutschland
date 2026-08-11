@@ -1,5 +1,34 @@
 import { Pressable, StyleSheet, Text, View, type ViewStyle } from "react-native";
-import { radius, spacing, type, useColors, type Colors } from "./theme";
+import { useStore } from "./storage";
+import { radius, spacing, type, useColors, useIsDark, type Colors } from "./theme";
+
+/** Manual light/dark override, shown top-right in every screen header. */
+export function ThemeToggle() {
+  const c = useColors();
+  const isDark = useIsDark();
+  const { setTheme } = useStore();
+  return (
+    <Pressable
+      accessibilityRole="switch"
+      accessibilityState={{ checked: isDark }}
+      accessibilityLabel={`${isDark ? "Dark" : "Light"} mode, tap to switch`}
+      onPress={() => setTheme(isDark ? "light" : "dark")}
+      style={({ pressed }) => ({
+        alignItems: "center",
+        justifyContent: "center",
+        width: 32,
+        height: 32,
+        borderRadius: radius.pill,
+        backgroundColor: c.surface,
+        borderColor: c.border,
+        borderWidth: StyleSheet.hairlineWidth,
+        opacity: pressed ? 0.85 : 1,
+      })}
+    >
+      <Text style={{ fontSize: 15 }}>{isDark ? "☀️" : "🌙"}</Text>
+    </Pressable>
+  );
+}
 
 export function Card({ children, style }: { children: React.ReactNode; style?: ViewStyle }) {
   const c = useColors();
