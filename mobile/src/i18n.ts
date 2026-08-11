@@ -72,6 +72,15 @@ type Strings = {
   change: string;
   noMarked: string;
   startReview: string;
+  settings: string;
+  about: string;
+  share: string;
+  shareMessage: string;
+  rate: string;
+  rateComingSoon: string;
+  contact: string;
+  help: string;
+  faq: { q: string; a: string }[];
 };
 
 const en: Strings = {
@@ -122,6 +131,32 @@ const en: Strings = {
   change: "Change",
   noMarked: "Nothing marked yet. Tap the star on a question to add it here.",
   startReview: "Start review",
+  settings: "Settings",
+  about: "About",
+  share: "Share the app",
+  shareMessage: "I'm preparing for the Leben in Deutschland test with this app — check it out.",
+  rate: "Rate the app",
+  rateComingSoon: "Not published yet — check back once the app is on the app stores.",
+  contact: "Contact",
+  help: "Help",
+  faq: [
+    {
+      q: "Is the app free and does it need an internet connection?",
+      a: "Yes. It's free, and works fully offline once installed — no account needed.",
+    },
+    {
+      q: "Why is there no translation during the Test?",
+      a: "The real exam is only in German, so practising without translation gives an honest sense of readiness.",
+    },
+    {
+      q: "What's the difference between Marked and Mistakes?",
+      a: "Marked is what you flag yourself. Mistakes is what the app noticed you got wrong, and it clears automatically once you answer that question right.",
+    },
+    {
+      q: "Where do the questions and answers come from?",
+      a: "Question text comes from the official BAMF catalogue. Answers and translations are merged from two independent community datasets, and shown as verified only where both agree.",
+    },
+  ],
 };
 
 const de: Strings = {
@@ -172,6 +207,32 @@ const de: Strings = {
   change: "Ändern",
   noMarked: "Noch nichts markiert. Tippe auf den Stern einer Frage.",
   startReview: "Wiederholen",
+  settings: "Einstellungen",
+  about: "Über die App",
+  share: "App teilen",
+  shareMessage: "Ich bereite mich mit dieser App auf den Leben-in-Deutschland-Test vor — schau sie dir an.",
+  rate: "App bewerten",
+  rateComingSoon: "Noch nicht veröffentlicht — schau später noch einmal vorbei, sobald die App in den Stores ist.",
+  contact: "Kontakt",
+  help: "Hilfe",
+  faq: [
+    {
+      q: "Ist die App kostenlos und braucht sie eine Internetverbindung?",
+      a: "Ja. Sie ist kostenlos und funktioniert nach der Installation vollständig offline — kein Konto nötig.",
+    },
+    {
+      q: "Warum gibt es im Test keine Übersetzung?",
+      a: "Die echte Prüfung ist nur auf Deutsch, deshalb gibt das Üben ohne Übersetzung ein ehrliches Bild der Bereitschaft.",
+    },
+    {
+      q: "Was ist der Unterschied zwischen Markiert und Fehler?",
+      a: "Markiert ist, was du selbst kennzeichnest. Fehler ist, was die App als falsch beantwortet erkannt hat, und verschwindet automatisch, sobald du die Frage richtig beantwortest.",
+    },
+    {
+      q: "Woher kommen die Fragen und Antworten?",
+      a: "Der Fragentext stammt aus dem offiziellen BAMF-Katalog. Antworten und Übersetzungen stammen aus zwei unabhängigen Community-Datensätzen und gelten nur als geprüft, wenn beide übereinstimmen.",
+    },
+  ],
 };
 
 const tr: Strings = {
@@ -221,6 +282,12 @@ const tr: Strings = {
   change: "Değiştir",
   noMarked: "Henüz işaret yok. Bir sorudaki yıldıza dokun.",
   startReview: "Tekrarla",
+  settings: "Ayarlar",
+  about: "Hakkında",
+  share: "Uygulamayı paylaş",
+  rate: "Uygulamayı değerlendir",
+  contact: "İletişim",
+  help: "Yardım",
 };
 
 const ru: Strings = {
@@ -270,6 +337,12 @@ const ru: Strings = {
   change: "Изменить",
   noMarked: "Пока ничего не отмечено. Нажмите на звёздочку у вопроса.",
   startReview: "Повторить",
+  settings: "Настройки",
+  about: "О приложении",
+  share: "Поделиться приложением",
+  rate: "Оценить приложение",
+  contact: "Связаться",
+  help: "Помощь",
 };
 
 const uk: Strings = {
@@ -319,6 +392,12 @@ const uk: Strings = {
   change: "Змінити",
   noMarked: "Поки нічого не позначено. Торкніться зірочки біля питання.",
   startReview: "Повторити",
+  settings: "Налаштування",
+  about: "Про застосунок",
+  share: "Поділитися застосунком",
+  rate: "Оцінити застосунок",
+  contact: "Зв'язатися",
+  help: "Допомога",
 };
 
 const ar: Strings = {
@@ -368,6 +447,12 @@ const ar: Strings = {
   change: "تغيير",
   noMarked: "لا يوجد شيء مُعلَّم بعد. اضغط على النجمة بجانب السؤال.",
   startReview: "المراجعة",
+  settings: "الإعدادات",
+  about: "حول التطبيق",
+  share: "شارك التطبيق",
+  rate: "قيّم التطبيق",
+  contact: "تواصل",
+  help: "المساعدة",
 };
 
 const fr: Strings = {
@@ -417,6 +502,12 @@ const fr: Strings = {
   change: "Modifier",
   noMarked: "Rien de marqué. Touchez l'étoile d'une question.",
   startReview: "Réviser",
+  settings: "Paramètres",
+  about: "À propos",
+  share: "Partager l'application",
+  rate: "Évaluer l'application",
+  contact: "Contact",
+  help: "Aide",
 };
 
 const hi: Strings = {
@@ -466,6 +557,12 @@ const hi: Strings = {
   change: "बदलें",
   noMarked: "अभी कुछ चिह्नित नहीं। किसी प्रश्न के तारे पर टैप करें।",
   startReview: "दोहराएँ",
+  settings: "सेटिंग्स",
+  about: "ऐप के बारे में",
+  share: "ऐप शेयर करें",
+  rate: "ऐप को रेट करें",
+  contact: "संपर्क करें",
+  help: "सहायता",
 };
 
 const TABLE: Record<LangCode, Strings> = { de, en, tr, ru, uk, ar, fr, hi };

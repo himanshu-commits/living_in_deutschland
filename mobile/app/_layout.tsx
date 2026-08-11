@@ -2,16 +2,17 @@ import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import { SettingsButton, ThemeToggle } from "@/components";
 import { TranslateToggle } from "@/reader";
-import { ThemeToggle } from "@/components";
 import { StoreProvider, useT } from "@/storage";
 import { spacing, useColors } from "@/theme";
 
-/** Top-right header controls. `translate` adds the language toggle beside it. */
-function HeaderRight({ translate }: { translate?: boolean }) {
+/** Top-right header controls. `translate` adds the language toggle, `settings` the gear. */
+function HeaderRight({ translate, settings }: { translate?: boolean; settings?: boolean }) {
   return (
     <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.sm }}>
       {translate ? <TranslateToggle /> : null}
+      {settings ? <SettingsButton /> : null}
       <ThemeToggle />
     </View>
   );
@@ -32,9 +33,14 @@ function Navigator() {
         headerRight: () => <HeaderRight />,
       }}
     >
-      <Stack.Screen name="index" options={{ title: t.home }} />
+      <Stack.Screen
+        name="index"
+        options={{ title: t.home, headerRight: () => <HeaderRight settings /> }}
+      />
       <Stack.Screen name="language" options={{ title: t.chooseLanguage }} />
       <Stack.Screen name="bundesland" options={{ title: t.chooseState }} />
+      <Stack.Screen name="settings" options={{ title: t.settings }} />
+      <Stack.Screen name="help" options={{ title: t.help }} />
       <Stack.Screen
         name="read"
         options={{ title: t.allQuestions, headerRight: () => <HeaderRight translate /> }}

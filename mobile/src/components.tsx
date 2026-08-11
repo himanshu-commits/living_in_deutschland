@@ -1,3 +1,4 @@
+import { router } from "expo-router";
 import { Pressable, StyleSheet, Text, View, type ViewStyle } from "react-native";
 import { useStore } from "./storage";
 import { radius, spacing, type, useColors, useIsDark, type Colors } from "./theme";
@@ -26,6 +27,31 @@ export function ThemeToggle() {
       })}
     >
       <Text style={{ fontSize: 15 }}>{isDark ? "☀️" : "🌙"}</Text>
+    </Pressable>
+  );
+}
+
+/** Opens Settings, shown top-right on the home screen. */
+export function SettingsButton() {
+  const c = useColors();
+  return (
+    <Pressable
+      accessibilityRole="button"
+      accessibilityLabel="Settings"
+      onPress={() => router.push("/settings")}
+      style={({ pressed }) => ({
+        alignItems: "center",
+        justifyContent: "center",
+        width: 32,
+        height: 32,
+        borderRadius: radius.pill,
+        backgroundColor: c.surface,
+        borderColor: c.border,
+        borderWidth: StyleSheet.hairlineWidth,
+        opacity: pressed ? 0.85 : 1,
+      })}
+    >
+      <Text style={{ fontSize: 15 }}>⚙️</Text>
     </Pressable>
   );
 }

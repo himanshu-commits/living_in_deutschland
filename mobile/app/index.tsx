@@ -170,18 +170,15 @@ export default function Home() {
         onPress={() => router.push("/exam")}
       />
 
-      <View style={{ flexDirection: "row", gap: spacing.sm, marginTop: spacing.sm }}>
-        <Pressable style={{ flex: 1 }} onPress={() => router.push("/language")} accessibilityRole="button">
-          <Text style={{ ...type.body, fontSize: 13, color: c.textMuted, textAlign: "center" }}>
-            {t.chooseLanguage} · {t.change}
-          </Text>
-        </Pressable>
-        <Pressable style={{ flex: 1 }} onPress={() => router.push("/bundesland")} accessibilityRole="button">
-          <Text style={{ ...type.body, fontSize: 13, color: c.textMuted, textAlign: "center" }}>
-            {state} · {t.change}
-          </Text>
-        </Pressable>
-      </View>
+      <Pressable
+        style={{ marginTop: spacing.sm }}
+        onPress={() => router.push("/bundesland")}
+        accessibilityRole="button"
+      >
+        <Text style={{ ...type.body, fontSize: 13, color: c.textMuted, textAlign: "center" }}>
+          {state} · {t.change}
+        </Text>
+      </Pressable>
     </ScrollView>
   );
 }
