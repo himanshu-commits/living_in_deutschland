@@ -81,6 +81,9 @@ def alt_by_page(reader):
     def decode(value):
         raw = getattr(value, "original_bytes", None)
         text = raw.decode("cp1252", "replace") if raw else str(value)
+        # some strings carry a trailing NUL from the PDF's internal encoding;
+        # cp1252 maps it straight through instead of dropping it
+        text = text.replace("\x00", "")
         return " ".join(text.split())
 
     def walk(node, page=None):
