@@ -4,10 +4,28 @@ import { Option } from "./components";
 import { Illustration } from "./media";
 import { images } from "./imageMap";
 import { Image } from "react-native";
-import type { Question } from "./questions";
+import { shuffle, type Question } from "./questions";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { useStore, useT } from "./storage";
+import { useStore, useT, type Progress } from "./storage";
 import { radius, spacing, type, useColors } from "./theme";
+
+/** Display order for a question's options, re-rolled each time it's opened
+ *  (see the useMemo keyed on q.id below) so the answer can't be learned by
+ *  its position instead of its content. */
+function optionOrder(count: number): number[] {
+  return shuffle(Array.from({ length: count }, (_, i) => i));
+}
+
+type QStatus = "unanswered" | "correct" | "incorrect";
+
+/** Same rule as storage.ts's mastered()/weakest(): most-recent-tendency wins. */
+function statusFor(progress: Progress, id: string): QStatus {
+  const s = progress[id];
+  if (!s || s.seen === 0) return "unanswered";
+  if (s.correct > 0 && s.correct >= s.wrong) return "correct";
+  if (s.wrong > 0) return "incorrect";
+  return "unanswered";
+}
 
 /** The translate control that sits in every reader header. */
 export function TranslateToggle() {
@@ -90,6 +108,13 @@ function QuestionCard({
   // in attempt mode the answer stays hidden until the user commits to one
   const reveal = (i: number) => answered && i === q.answer;
   const wrongPick = (i: number) => picked !== undefined && i === picked && i !== q.answer;
+  // re-rolled on every new question (q.id changes), so the answer can't be
+  // learned by its on-screen slot
+  const order = useMemo(
+    () => optionOrder(picture ? q.media!.files.length : q.options.length),
+    [q.id]
+  );
+  const answerLetter = "ABCD"[order.indexOf(q.answer ?? 0)] ?? "?";
 
   return (
     // no card around it: one question already fills the screen, and a border
@@ -127,27 +152,27 @@ function QuestionCard({
 
       {picture ? (
         <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.md, marginTop: spacing.xs }}>
-          {q.media!.files.map((file, i) => (
+          {order.map((origIdx, pos) => (
             <Pressable
-              key={file}
+              key={q.media!.files[origIdx]}
               disabled={mode === "read" || picked !== undefined}
-              onPress={() => onPick?.(i)}
+              onPress={() => onPick?.(origIdx)}
               accessibilityRole={mode === "attempt" ? "radio" : "image"}
-              accessibilityState={{ selected: picked === i }}
+              accessibilityState={{ selected: picked === origIdx }}
               style={{
                 width: "47%",
                 flexGrow: 1,
-                borderColor: reveal(i) ? c.correct : wrongPick(i) ? c.wrong : c.border,
-                borderWidth: reveal(i) || wrongPick(i) ? 2 : StyleSheet.hairlineWidth,
+                borderColor: reveal(origIdx) ? c.correct : wrongPick(origIdx) ? c.wrong : c.border,
+                borderWidth: reveal(origIdx) || wrongPick(origIdx) ? 2 : StyleSheet.hairlineWidth,
                 borderRadius: radius.md,
                 padding: spacing.sm,
                 backgroundColor: c.surface,
               }}
             >
               <Image
-                source={images[file]}
+                source={images[q.media!.files[origIdx]]}
                 resizeMode="contain"
-                accessibilityLabel={q.media!.alt[i]}
+                accessibilityLabel={q.media!.alt[origIdx]}
                 style={{ width: "100%", height: 96 }}
               />
               <Text
@@ -155,25 +180,25 @@ function QuestionCard({
                   ...type.label,
                   fontSize: 10,
                   textAlign: "center",
-                  color: reveal(i) ? c.correct : wrongPick(i) ? c.wrong : c.textMuted,
+                  color: reveal(origIdx) ? c.correct : wrongPick(origIdx) ? c.wrong : c.textMuted,
                 }}
               >
-                Bild {i + 1}
+                Bild {pos + 1}
               </Text>
             </Pressable>
           ))}
         </View>
       ) : (
         <View style={{ gap: spacing.md, marginTop: spacing.xs }}>
-          {q.options.map((text, i) => (
+          {order.map((origIdx, pos) => (
             <Option
-              key={i}
-              index={i}
-              text={text}
+              key={origIdx}
+              index={pos}
+              text={q.options[origIdx]}
               disabled={mode === "read" || picked !== undefined}
-              onPress={() => onPick?.(i)}
-              state={reveal(i) ? "correct" : wrongPick(i) ? "wrong" : "idle"}
-              subtitle={tr ? <Translated text={tr.options[i]} small /> : undefined}
+              onPress={() => onPick?.(origIdx)}
+              state={reveal(origIdx) ? "correct" : wrongPick(origIdx) ? "wrong" : "idle"}
+              subtitle={tr ? <Translated text={tr.options[origIdx]} small /> : undefined}
             />
           ))}
         </View>
@@ -190,7 +215,7 @@ function QuestionCard({
         >
           {picked === q.answer
             ? t.correct
-            : `${t.wrong} — ${fill(t.answerIs, { letter: "ABCD"[q.answer ?? 0] })}`}
+            : `${t.wrong} — ${fill(t.answerIs, { letter: answerLetter })}`}
         </Text>
       )}
     </View>
@@ -233,11 +258,12 @@ export function QuestionList({
   const c = useColors();
   const insets = useSafeAreaInsets();
   const { t, fill } = useT();
-  const { record } = useStore();
+  const { record, progress, marked } = useStore();
   const [active, setActive] = useState<string>(filters?.[0]?.key ?? "");
   const [at, setAt] = useState(0);
   // answers are kept per question id, so going back shows what you picked
   const [picks, setPicks] = useState<Record<string, number>>({});
+  const [jumpOpen, setJumpOpen] = useState(false);
   const scroller = useRef<ScrollView>(null);
 
   const shown = useMemo(() => {
@@ -260,6 +286,12 @@ export function QuestionList({
     const next = Math.min(shown.length - 1, Math.max(0, index + delta));
     setAt(next);
     scroller.current?.scrollTo({ y: 0, animated: false });
+  }
+
+  function jumpTo(i: number) {
+    setAt(i);
+    scroller.current?.scrollTo({ y: 0, animated: false });
+    setJumpOpen(false);
   }
 
   return (
@@ -337,7 +369,12 @@ export function QuestionList({
               disabled={index === 0}
               onPress={() => go(-1)}
             />
-            <View style={{ flex: 1, alignItems: "center" }}>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel={fill(t.questionOf, { n: index + 1, total: shown.length })}
+              onPress={() => setJumpOpen(true)}
+              style={({ pressed }) => ({ flex: 1, alignItems: "center", opacity: pressed ? 0.7 : 1 })}
+            >
               <Text style={{ ...type.label, ...type.mono, color: c.textMuted }}>
                 {fill(t.questionOf, { n: index + 1, total: shown.length })}
               </Text>
@@ -346,7 +383,7 @@ export function QuestionList({
                   {fill(t.yourScore, { n: rightCount, total: answeredCount })}
                 </Text>
               )}
-            </View>
+            </Pressable>
             <NavButton
               label={t.next}
               disabled={index >= shown.length - 1}
@@ -355,6 +392,16 @@ export function QuestionList({
           </View>
         </>
       )}
+
+      <JumpList
+        open={jumpOpen}
+        onClose={() => setJumpOpen(false)}
+        questions={shown}
+        current={index}
+        progress={progress}
+        marked={marked}
+        onJump={jumpTo}
+      />
     </View>
   );
 }
@@ -387,5 +434,144 @@ function NavButton({
         {label}
       </Text>
     </Pressable>
+  );
+}
+
+/** Sheet listing every question by number, colored by status, tap to jump. */
+function JumpList({
+  open,
+  onClose,
+  questions,
+  current,
+  progress,
+  marked,
+  onJump,
+}: {
+  open: boolean;
+  onClose: () => void;
+  questions: Question[];
+  current: number;
+  progress: Progress;
+  marked: string[];
+  onJump: (index: number) => void;
+}) {
+  const c = useColors();
+  const { t } = useT();
+  if (!open) return null;
+
+  const statusStyle: Record<QStatus, { bg: string; border: string }> = {
+    unanswered: { bg: c.surface, border: c.border },
+    correct: { bg: c.correctBg, border: c.correct },
+    incorrect: { bg: c.wrongBg, border: c.wrong },
+  };
+
+  return (
+    <View style={StyleSheet.absoluteFill} pointerEvents="box-none">
+      <Pressable
+        style={[StyleSheet.absoluteFill, { backgroundColor: "rgba(0,0,0,0.4)" }]}
+        onPress={onClose}
+        accessibilityRole="button"
+        accessibilityLabel="Close"
+      />
+      <View
+        style={{
+          position: "absolute",
+          left: 0,
+          right: 0,
+          bottom: 0,
+          maxHeight: "72%",
+          backgroundColor: c.bg,
+          borderTopLeftRadius: radius.lg,
+          borderTopRightRadius: radius.lg,
+          paddingTop: spacing.lg,
+          paddingHorizontal: spacing.lg,
+        }}
+      >
+        <Text style={{ ...type.heading, color: c.text, marginBottom: spacing.md }}>{t.jumpTo}</Text>
+
+        <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.md, marginBottom: spacing.md }}>
+          <Legend swatch={statusStyle.unanswered} label={t.notAnswered} />
+          <Legend swatch={statusStyle.correct} label={t.correct} />
+          <Legend swatch={statusStyle.incorrect} label={t.wrong} />
+          <Legend star label={t.marked} />
+        </View>
+
+        <ScrollView contentContainerStyle={{ paddingBottom: spacing.xl }}>
+          <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.sm }}>
+            {questions.map((q, i) => {
+              const status = statusFor(progress, q.id);
+              const sc = statusStyle[status];
+              const isCurrent = i === current;
+              const isMarked = marked.includes(q.id);
+              return (
+                <Pressable
+                  key={q.id}
+                  accessibilityRole="button"
+                  accessibilityLabel={`${i + 1}, ${status}${isMarked ? ", marked" : ""}`}
+                  onPress={() => onJump(i)}
+                  style={({ pressed }) => ({
+                    width: 44,
+                    height: 44,
+                    borderRadius: radius.md,
+                    alignItems: "center",
+                    justifyContent: "center",
+                    backgroundColor: isCurrent ? c.text : sc.bg,
+                    borderColor: isCurrent ? c.text : sc.border,
+                    borderWidth: isCurrent ? 2 : StyleSheet.hairlineWidth,
+                    opacity: pressed ? 0.8 : 1,
+                  })}
+                >
+                  <Text
+                    style={{
+                      ...type.body,
+                      ...type.mono,
+                      fontSize: 13,
+                      fontWeight: "600",
+                      color: isCurrent ? c.bg : c.text,
+                    }}
+                  >
+                    {i + 1}
+                  </Text>
+                  {isMarked && (
+                    <Text style={{ position: "absolute", top: -4, right: -4, fontSize: 12 }}>★</Text>
+                  )}
+                </Pressable>
+              );
+            })}
+          </View>
+        </ScrollView>
+      </View>
+    </View>
+  );
+}
+
+function Legend({
+  label,
+  swatch,
+  star,
+}: {
+  label: string;
+  swatch?: { bg: string; border: string };
+  star?: boolean;
+}) {
+  const c = useColors();
+  return (
+    <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.xs }}>
+      {star ? (
+        <Text style={{ fontSize: 13, color: c.accent }}>★</Text>
+      ) : (
+        <View
+          style={{
+            width: 14,
+            height: 14,
+            borderRadius: radius.sm,
+            borderWidth: StyleSheet.hairlineWidth,
+            backgroundColor: swatch!.bg,
+            borderColor: swatch!.border,
+          }}
+        />
+      )}
+      <Text style={{ ...type.label, fontSize: 11, color: c.textMuted }}>{label}</Text>
+    </View>
   );
 }

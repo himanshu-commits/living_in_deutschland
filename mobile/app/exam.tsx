@@ -3,7 +3,7 @@ import { Alert, ScrollView, Text, View } from "react-native";
 import { Redirect, router } from "expo-router";
 import { Button, Card, Label, Option, ProgressBar } from "@/components";
 import { Illustration, ImageOptions } from "@/media";
-import { EXAM, examPaper, type Question } from "@/questions";
+import { EXAM, examPaper, shuffle, type Question } from "@/questions";
 import { useStore } from "@/storage";
 import { spacing, type, useColors } from "@/theme";
 
@@ -19,6 +19,12 @@ export default function Exam() {
   const paper = useMemo<Question[]>(() => (state ? examPaper(state) : []), [state]);
 
   const [at, setAt] = useState(0);
+  const current = paper[at];
+  // re-rolled per question, so the answer can't be learned by its slot
+  const order = useMemo(() => {
+    const n = current?.media?.kind === "options" ? current.media.files.length : (current?.options.length ?? 4);
+    return shuffle(Array.from({ length: n }, (_, i) => i));
+  }, [current?.id]);
   const [answers, setAnswers] = useState<(number | null)[]>(() => Array(EXAM.general + EXAM.state).fill(null));
   const [left, setLeft] = useState(EXAM.minutes * 60);
   const [done, setDone] = useState(false);
@@ -94,7 +100,7 @@ export default function Exam() {
     );
   }
 
-  const q = paper[at];
+  const q = current;
   const answeredCount = answers.filter((a) => a !== null).length;
 
   function pick(index: number) {
@@ -136,19 +142,20 @@ export default function Exam() {
         {q.media?.kind === "options" ? (
           <ImageOptions
             media={q.media}
+            order={order}
             picked={answers[at]}
             answer={null}
             answered={false}
             onPick={pick}
           />
         ) : (
-          q.options.map((text, i) => (
+          order.map((origIdx, pos) => (
             <Option
-              key={i}
-              index={i}
-              text={text}
-              state={answers[at] === i ? "revealed" : "idle"}
-              onPress={() => pick(i)}
+              key={origIdx}
+              index={pos}
+              text={q.options[origIdx]}
+              state={answers[at] === origIdx ? "revealed" : "idle"}
+              onPress={() => pick(origIdx)}
             />
           ))
         )}

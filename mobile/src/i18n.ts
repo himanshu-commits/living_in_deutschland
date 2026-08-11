@@ -72,6 +72,7 @@ type Strings = {
   change: string;
   noMarked: string;
   startReview: string;
+  jumpTo: string;
 };
 
 const en: Strings = {
@@ -122,6 +123,7 @@ const en: Strings = {
   change: "Change",
   noMarked: "Nothing marked yet. Tap the star on a question to add it here.",
   startReview: "Start review",
+  jumpTo: "Jump to question",
 };
 
 const de: Strings = {
@@ -172,6 +174,7 @@ const de: Strings = {
   change: "Ändern",
   noMarked: "Noch nichts markiert. Tippe auf den Stern einer Frage.",
   startReview: "Wiederholen",
+  jumpTo: "Zu einer Frage springen",
 };
 
 const tr: Strings = {
@@ -221,6 +224,7 @@ const tr: Strings = {
   change: "Değiştir",
   noMarked: "Henüz işaret yok. Bir sorudaki yıldıza dokun.",
   startReview: "Tekrarla",
+  jumpTo: "Soruya atla",
 };
 
 const ru: Strings = {
@@ -270,6 +274,7 @@ const ru: Strings = {
   change: "Изменить",
   noMarked: "Пока ничего не отмечено. Нажмите на звёздочку у вопроса.",
   startReview: "Повторить",
+  jumpTo: "Перейти к вопросу",
 };
 
 const uk: Strings = {
@@ -319,6 +324,7 @@ const uk: Strings = {
   change: "Змінити",
   noMarked: "Поки нічого не позначено. Торкніться зірочки біля питання.",
   startReview: "Повторити",
+  jumpTo: "Перейти до питання",
 };
 
 const ar: Strings = {
@@ -368,6 +374,7 @@ const ar: Strings = {
   change: "تغيير",
   noMarked: "لا يوجد شيء مُعلَّم بعد. اضغط على النجمة بجانب السؤال.",
   startReview: "المراجعة",
+  jumpTo: "الانتقال إلى سؤال",
 };
 
 const fr: Strings = {
@@ -417,6 +424,7 @@ const fr: Strings = {
   change: "Modifier",
   noMarked: "Rien de marqué. Touchez l'étoile d'une question.",
   startReview: "Réviser",
+  jumpTo: "Aller à une question",
 };
 
 const hi: Strings = {
@@ -466,6 +474,7 @@ const hi: Strings = {
   change: "बदलें",
   noMarked: "अभी कुछ चिह्नित नहीं। किसी प्रश्न के तारे पर टैप करें।",
   startReview: "दोहराएँ",
+  jumpTo: "प्रश्न पर जाएँ",
 };
 
 const TABLE: Record<LangCode, Strings> = { de, en, tr, ru, uk, ar, fr, hi };
