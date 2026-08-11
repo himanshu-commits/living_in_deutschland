@@ -5,6 +5,8 @@ import { fill, isRTL, strings, type LangCode } from "./i18n";
 export type Stat = { seen: number; correct: number; wrong: number };
 export type Progress = Record<string, Stat>;
 export type TestResult = { correct: number; total: number; at: number };
+/** null = follow the system appearance; set once the user overrides it */
+export type ThemeMode = "light" | "dark" | null;
 
 type State = {
   ready: boolean;
@@ -17,11 +19,14 @@ type State = {
   mistakes: string[];
   /** whether the translation is currently shown under each question */
   translate: boolean;
+  /** manual light/dark override; null follows the system appearance */
+  theme: ThemeMode;
   lastTest: TestResult | null;
   setLang(code: LangCode): Promise<void>;
   setState(land: string): Promise<void>;
   toggleMark(id: string): Promise<void>;
   setTranslate(on: boolean): Promise<void>;
+  setTheme(mode: ThemeMode): Promise<void>;
   saveTest(result: TestResult): Promise<void>;
   record(id: string, correct: boolean): Promise<void>;
   reset(): Promise<void>;
@@ -33,6 +38,7 @@ const KEY_PROGRESS = "lid.progress";
 const KEY_MARKED = "lid.marked";
 const KEY_MISTAKES = "lid.mistakes";
 const KEY_TRANSLATE = "lid.translate";
+const KEY_THEME = "lid.theme";
 const KEY_LASTTEST = "lid.lasttest";
 
 const Ctx = createContext<State | null>(null);
@@ -45,22 +51,25 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [marked, setMarked] = useState<string[]>([]);
   const [mistakes, setMistakes] = useState<string[]>([]);
   const [translate, setTranslateState] = useState(false);
+  const [theme, setThemeState] = useState<ThemeMode>(null);
   const [lastTest, setLastTest] = useState<TestResult | null>(null);
 
   useEffect(() => {
     (async () => {
-      const [code, land, raw, rawMarked, rawMistakes, rawTranslate, rawTest] = await Promise.all([
+      const [code, land, raw, rawMarked, rawMistakes, rawTranslate, rawTheme, rawTest] = await Promise.all([
         AsyncStorage.getItem(KEY_LANG),
         AsyncStorage.getItem(KEY_STATE),
         AsyncStorage.getItem(KEY_PROGRESS),
         AsyncStorage.getItem(KEY_MARKED),
         AsyncStorage.getItem(KEY_MISTAKES),
         AsyncStorage.getItem(KEY_TRANSLATE),
+        AsyncStorage.getItem(KEY_THEME),
         AsyncStorage.getItem(KEY_LASTTEST),
       ]);
       setLangState(code as LangCode | null);
       setLand(land);
       setTranslateState(rawTranslate === "1");
+      setThemeState(rawTheme === "light" || rawTheme === "dark" ? rawTheme : null);
       try {
         if (rawMarked) setMarked(JSON.parse(rawMarked));
         if (rawMistakes) setMistakes(JSON.parse(rawMistakes));
@@ -87,6 +96,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     marked,
     mistakes,
     translate,
+    theme,
     lastTest,
     async setLang(code) {
       setLangState(code);
@@ -106,6 +116,11 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     async setTranslate(on) {
       setTranslateState(on);
       await AsyncStorage.setItem(KEY_TRANSLATE, on ? "1" : "0");
+    },
+    async setTheme(mode) {
+      setThemeState(mode);
+      if (mode) await AsyncStorage.setItem(KEY_THEME, mode);
+      else await AsyncStorage.removeItem(KEY_THEME);
     },
     async saveTest(result) {
       setLastTest(result);

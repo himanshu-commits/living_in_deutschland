@@ -1,4 +1,5 @@
 import { useColorScheme, type TextStyle } from "react-native";
+import { useStore } from "./storage";
 
 const palette = {
   light: {
@@ -48,6 +49,12 @@ export const type = {
   mono: { fontSize: 15, fontVariant: ["tabular-nums"] } as TextStyle,
 };
 
+export function useIsDark(): boolean {
+  const system = useColorScheme();
+  const { theme } = useStore();
+  return (theme ?? system) === "dark";
+}
+
 export function useColors(): Colors {
-  return useColorScheme() === "dark" ? palette.dark : palette.light;
+  return useIsDark() ? palette.dark : palette.light;
 }

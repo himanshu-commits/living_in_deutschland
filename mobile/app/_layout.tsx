@@ -1,9 +1,21 @@
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
+import { View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { TranslateToggle } from "@/reader";
+import { ThemeToggle } from "@/components";
 import { StoreProvider, useT } from "@/storage";
-import { useColors } from "@/theme";
+import { spacing, useColors } from "@/theme";
+
+/** Top-right header controls. `translate` adds the language toggle beside it. */
+function HeaderRight({ translate }: { translate?: boolean }) {
+  return (
+    <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.sm }}>
+      {translate ? <TranslateToggle /> : null}
+      <ThemeToggle />
+    </View>
+  );
+}
 
 /** Inside the provider, so screen titles can use the chosen language. */
 function Navigator() {
@@ -17,6 +29,7 @@ function Navigator() {
         headerTitleStyle: { fontWeight: "700" },
         headerShadowVisible: false,
         contentStyle: { backgroundColor: c.bg },
+        headerRight: () => <HeaderRight />,
       }}
     >
       <Stack.Screen name="index" options={{ title: t.home }} />
@@ -24,19 +37,19 @@ function Navigator() {
       <Stack.Screen name="bundesland" options={{ title: t.chooseState }} />
       <Stack.Screen
         name="read"
-        options={{ title: t.allQuestions, headerRight: () => <TranslateToggle /> }}
+        options={{ title: t.allQuestions, headerRight: () => <HeaderRight translate /> }}
       />
       <Stack.Screen
         name="mistakes"
-        options={{ title: t.mistakes, headerRight: () => <TranslateToggle /> }}
+        options={{ title: t.mistakes, headerRight: () => <HeaderRight translate /> }}
       />
       <Stack.Screen
         name="marked"
-        options={{ title: t.marked, headerRight: () => <TranslateToggle /> }}
+        options={{ title: t.marked, headerRight: () => <HeaderRight translate /> }}
       />
       <Stack.Screen
         name="attempt"
-        options={{ title: t.practice, headerRight: () => <TranslateToggle /> }}
+        options={{ title: t.practice, headerRight: () => <HeaderRight translate /> }}
       />
       <Stack.Screen name="exam" options={{ title: t.test, gestureEnabled: false }} />
     </Stack>
