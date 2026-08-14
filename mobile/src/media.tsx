@@ -38,6 +38,8 @@ export function Illustration({ media }: { media: Media }) {
   return (
     <View
       style={{
+        width: "100%",
+        alignItems: "center",
         backgroundColor: c.surface,
         borderColor: c.border,
         borderWidth: StyleSheet.hairlineWidth,
@@ -51,7 +53,9 @@ export function Illustration({ media }: { media: Media }) {
         accessibilityRole="image"
         accessibilityLabel={media.alt[0] ?? "Abbildung zur Frage"}
         resizeMode="contain"
-        style={{ width: "100%", aspectRatio: 4 / 3, backgroundColor: c.surface }}
+        // Give iOS two explicit bounds. With only width + aspectRatio it may
+        // retain a JPEG's intrinsic height inside ScrollView and clip the sides.
+        style={{ width: "100%", height: 240, backgroundColor: c.surface }}
       />
     </View>
   );
