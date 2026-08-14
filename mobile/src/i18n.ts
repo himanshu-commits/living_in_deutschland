@@ -72,6 +72,46 @@ type Strings = {
   change: string;
   noMarked: string;
   startReview: string;
+  settings: string;
+  about: string;
+  share: string;
+  shareMessage: string;
+  rate: string;
+  rateComingSoon: string;
+  contact: string;
+  help: string;
+  faq: { q: string; a: string }[];
+  appearance: string;
+  system: string;
+  light: string;
+  dark: string;
+  preferences: string;
+  showTranslations: string;
+  showTranslationsNote: string;
+  data: string;
+  resetProgress: string;
+  resetProgressNote: string;
+  resetConfirmTitle: string;
+  resetConfirmMessage: string;
+  resetAction: string;
+  cancel: string;
+  login: string;
+  signUp: string;
+  email: string;
+  password: string;
+  noAccountYet: string;
+  haveAccountAlready: string;
+  profile: string;
+  signedInAs: string;
+  signOut: string;
+  notSignedIn: string;
+  signInNote: string;
+  syncStatusSyncing: string;
+  syncStatusSynced: string;
+  syncStatusError: string;
+  menu: string;
+  homeLabel: string;
+  confirmEmailNote: string;
 };
 
 const en: Strings = {
@@ -122,6 +162,63 @@ const en: Strings = {
   change: "Change",
   noMarked: "Nothing marked yet. Tap the star on a question to add it here.",
   startReview: "Start review",
+  settings: "Settings",
+  about: "About",
+  share: "Share the app",
+  shareMessage: "I'm preparing for the Leben in Deutschland test with this app — check it out.",
+  rate: "Rate the app",
+  rateComingSoon: "Not published yet — check back once the app is on the app stores.",
+  contact: "Contact",
+  help: "Help",
+  faq: [
+    {
+      q: "Is the app free and does it need an internet connection?",
+      a: "Yes. It's free, and works fully offline once installed — no account needed.",
+    },
+    {
+      q: "Why is there no translation during the Test?",
+      a: "The real exam is only in German, so practising without translation gives an honest sense of readiness.",
+    },
+    {
+      q: "What's the difference between Marked and Mistakes?",
+      a: "Marked is what you flag yourself. Mistakes is what the app noticed you got wrong, and it clears automatically once you answer that question right.",
+    },
+    {
+      q: "Where do the questions and answers come from?",
+      a: "Question text comes from the official BAMF catalogue. Answers and translations are merged from two independent community datasets, and shown as verified only where both agree.",
+    },
+  ],
+  appearance: "Appearance",
+  system: "System",
+  light: "Light",
+  dark: "Dark",
+  preferences: "Preferences",
+  showTranslations: "Show translations",
+  showTranslationsNote: "Display translations beneath questions while reading and practising",
+  data: "Data",
+  resetProgress: "Reset progress",
+  resetProgressNote: "Clears your practice stats and mistakes. Marked questions and your last test result stay.",
+  resetConfirmTitle: "Reset progress?",
+  resetConfirmMessage: "This clears your practice stats and mistakes. This can't be undone.",
+  resetAction: "Reset",
+  cancel: "Cancel",
+  login: "Login",
+  signUp: "Sign Up",
+  email: "Email",
+  password: "Password",
+  noAccountYet: "Don't have an account? Sign up",
+  haveAccountAlready: "Already have an account? Log in",
+  profile: "Profile",
+  signedInAs: "Signed in as {email}",
+  signOut: "Sign out",
+  notSignedIn: "Not signed in",
+  signInNote: "Sign in to sync your progress across devices.",
+  syncStatusSyncing: "Syncing…",
+  syncStatusSynced: "Synced",
+  syncStatusError: "Sync failed — will retry",
+  menu: "Menu",
+  homeLabel: "Home",
+  confirmEmailNote: "Check your email to confirm your account, then log in.",
 };
 
 const de: Strings = {
@@ -172,6 +269,63 @@ const de: Strings = {
   change: "Ändern",
   noMarked: "Noch nichts markiert. Tippe auf den Stern einer Frage.",
   startReview: "Wiederholen",
+  settings: "Einstellungen",
+  about: "Über die App",
+  share: "App teilen",
+  shareMessage: "Ich bereite mich mit dieser App auf den Leben-in-Deutschland-Test vor — schau sie dir an.",
+  rate: "App bewerten",
+  rateComingSoon: "Noch nicht veröffentlicht — schau später noch einmal vorbei, sobald die App in den Stores ist.",
+  contact: "Kontakt",
+  help: "Hilfe",
+  faq: [
+    {
+      q: "Ist die App kostenlos und braucht sie eine Internetverbindung?",
+      a: "Ja. Sie ist kostenlos und funktioniert nach der Installation vollständig offline — kein Konto nötig.",
+    },
+    {
+      q: "Warum gibt es im Test keine Übersetzung?",
+      a: "Die echte Prüfung ist nur auf Deutsch, deshalb gibt das Üben ohne Übersetzung ein ehrliches Bild der Bereitschaft.",
+    },
+    {
+      q: "Was ist der Unterschied zwischen Markiert und Fehler?",
+      a: "Markiert ist, was du selbst kennzeichnest. Fehler ist, was die App als falsch beantwortet erkannt hat, und verschwindet automatisch, sobald du die Frage richtig beantwortest.",
+    },
+    {
+      q: "Woher kommen die Fragen und Antworten?",
+      a: "Der Fragentext stammt aus dem offiziellen BAMF-Katalog. Antworten und Übersetzungen stammen aus zwei unabhängigen Community-Datensätzen und gelten nur als geprüft, wenn beide übereinstimmen.",
+    },
+  ],
+  appearance: "Erscheinungsbild",
+  system: "System",
+  light: "Hell",
+  dark: "Dunkel",
+  preferences: "Einstellungen",
+  showTranslations: "Übersetzungen anzeigen",
+  showTranslationsNote: "Zeigt Übersetzungen unter den Fragen beim Lesen und Üben",
+  data: "Daten",
+  resetProgress: "Fortschritt zurücksetzen",
+  resetProgressNote: "Löscht deine Übungsstatistik und Fehler. Markierte Fragen und dein letztes Testergebnis bleiben erhalten.",
+  resetConfirmTitle: "Fortschritt zurücksetzen?",
+  resetConfirmMessage: "Das löscht deine Übungsstatistik und Fehler. Das kann nicht rückgängig gemacht werden.",
+  resetAction: "Zurücksetzen",
+  cancel: "Abbrechen",
+  login: "Anmelden",
+  signUp: "Registrieren",
+  email: "E-Mail",
+  password: "Passwort",
+  noAccountYet: "Noch kein Konto? Registrieren",
+  haveAccountAlready: "Schon ein Konto? Anmelden",
+  profile: "Profil",
+  signedInAs: "Angemeldet als {email}",
+  signOut: "Abmelden",
+  notSignedIn: "Nicht angemeldet",
+  signInNote: "Melde dich an, um deinen Fortschritt geräteübergreifend zu synchronisieren.",
+  syncStatusSyncing: "Wird synchronisiert…",
+  syncStatusSynced: "Synchronisiert",
+  syncStatusError: "Synchronisierung fehlgeschlagen — wird erneut versucht",
+  menu: "Menü",
+  homeLabel: "Start",
+  confirmEmailNote: "Bestätige deine E-Mail-Adresse über den Link in deinem Postfach und melde dich dann an.",
 };
 
 const tr: Strings = {
@@ -221,6 +375,30 @@ const tr: Strings = {
   change: "Değiştir",
   noMarked: "Henüz işaret yok. Bir sorudaki yıldıza dokun.",
   startReview: "Tekrarla",
+  settings: "Ayarlar",
+  about: "Hakkında",
+  share: "Uygulamayı paylaş",
+  rate: "Uygulamayı değerlendir",
+  contact: "İletişim",
+  help: "Yardım",
+  appearance: "Görünüm",
+  system: "Sistem",
+  light: "Açık",
+  dark: "Koyu",
+  preferences: "Tercihler",
+  showTranslations: "Çevirileri göster",
+  data: "Veri",
+  resetProgress: "İlerlemeyi sıfırla",
+  resetAction: "Sıfırla",
+  cancel: "Vazgeç",
+  login: "Giriş yap",
+  signUp: "Kaydol",
+  email: "E-posta",
+  password: "Şifre",
+  profile: "Profil",
+  signOut: "Çıkış yap",
+  menu: "Menü",
+  homeLabel: "Ana sayfa",
 };
 
 const ru: Strings = {
@@ -270,6 +448,30 @@ const ru: Strings = {
   change: "Изменить",
   noMarked: "Пока ничего не отмечено. Нажмите на звёздочку у вопроса.",
   startReview: "Повторить",
+  settings: "Настройки",
+  about: "О приложении",
+  share: "Поделиться приложением",
+  rate: "Оценить приложение",
+  contact: "Связаться",
+  help: "Помощь",
+  appearance: "Внешний вид",
+  system: "Системная",
+  light: "Светлая",
+  dark: "Тёмная",
+  preferences: "Настройки",
+  showTranslations: "Показывать перевод",
+  data: "Данные",
+  resetProgress: "Сбросить прогресс",
+  resetAction: "Сбросить",
+  cancel: "Отмена",
+  login: "Войти",
+  signUp: "Зарегистрироваться",
+  email: "Эл. почта",
+  password: "Пароль",
+  profile: "Профиль",
+  signOut: "Выйти",
+  menu: "Меню",
+  homeLabel: "Главная",
 };
 
 const uk: Strings = {
@@ -319,6 +521,30 @@ const uk: Strings = {
   change: "Змінити",
   noMarked: "Поки нічого не позначено. Торкніться зірочки біля питання.",
   startReview: "Повторити",
+  settings: "Налаштування",
+  about: "Про застосунок",
+  share: "Поділитися застосунком",
+  rate: "Оцінити застосунок",
+  contact: "Зв'язатися",
+  help: "Допомога",
+  appearance: "Зовнішній вигляд",
+  system: "Системна",
+  light: "Світла",
+  dark: "Темна",
+  preferences: "Налаштування",
+  showTranslations: "Показувати переклад",
+  data: "Дані",
+  resetProgress: "Скинути прогрес",
+  resetAction: "Скинути",
+  cancel: "Скасувати",
+  login: "Увійти",
+  signUp: "Зареєструватися",
+  email: "Ел. пошта",
+  password: "Пароль",
+  profile: "Профіль",
+  signOut: "Вийти",
+  menu: "Меню",
+  homeLabel: "Головна",
 };
 
 const ar: Strings = {
@@ -368,6 +594,30 @@ const ar: Strings = {
   change: "تغيير",
   noMarked: "لا يوجد شيء مُعلَّم بعد. اضغط على النجمة بجانب السؤال.",
   startReview: "المراجعة",
+  settings: "الإعدادات",
+  about: "حول التطبيق",
+  share: "شارك التطبيق",
+  rate: "قيّم التطبيق",
+  contact: "تواصل",
+  help: "المساعدة",
+  appearance: "المظهر",
+  system: "النظام",
+  light: "فاتح",
+  dark: "داكن",
+  preferences: "التفضيلات",
+  showTranslations: "إظهار الترجمة",
+  data: "البيانات",
+  resetProgress: "إعادة تعيين التقدم",
+  resetAction: "إعادة تعيين",
+  cancel: "إلغاء",
+  login: "تسجيل الدخول",
+  signUp: "إنشاء حساب",
+  email: "البريد الإلكتروني",
+  password: "كلمة المرور",
+  profile: "الملف الشخصي",
+  signOut: "تسجيل الخروج",
+  menu: "القائمة",
+  homeLabel: "الرئيسية",
 };
 
 const fr: Strings = {
@@ -417,6 +667,30 @@ const fr: Strings = {
   change: "Modifier",
   noMarked: "Rien de marqué. Touchez l'étoile d'une question.",
   startReview: "Réviser",
+  settings: "Paramètres",
+  about: "À propos",
+  share: "Partager l'application",
+  rate: "Évaluer l'application",
+  contact: "Contact",
+  help: "Aide",
+  appearance: "Apparence",
+  system: "Système",
+  light: "Clair",
+  dark: "Sombre",
+  preferences: "Préférences",
+  showTranslations: "Afficher les traductions",
+  data: "Données",
+  resetProgress: "Réinitialiser la progression",
+  resetAction: "Réinitialiser",
+  cancel: "Annuler",
+  login: "Connexion",
+  signUp: "Inscription",
+  email: "E-mail",
+  password: "Mot de passe",
+  profile: "Profil",
+  signOut: "Déconnexion",
+  menu: "Menu",
+  homeLabel: "Accueil",
 };
 
 const hi: Strings = {
@@ -466,6 +740,30 @@ const hi: Strings = {
   change: "बदलें",
   noMarked: "अभी कुछ चिह्नित नहीं। किसी प्रश्न के तारे पर टैप करें।",
   startReview: "दोहराएँ",
+  settings: "सेटिंग्स",
+  about: "ऐप के बारे में",
+  share: "ऐप शेयर करें",
+  rate: "ऐप को रेट करें",
+  contact: "संपर्क करें",
+  help: "सहायता",
+  appearance: "दिखावट",
+  system: "सिस्टम",
+  light: "हल्का",
+  dark: "गहरा",
+  preferences: "प्राथमिकताएँ",
+  showTranslations: "अनुवाद दिखाएँ",
+  data: "डेटा",
+  resetProgress: "प्रगति रीसेट करें",
+  resetAction: "रीसेट करें",
+  cancel: "रद्द करें",
+  login: "लॉग इन करें",
+  signUp: "साइन अप करें",
+  email: "ईमेल",
+  password: "पासवर्ड",
+  profile: "प्रोफ़ाइल",
+  signOut: "लॉग आउट करें",
+  menu: "मेनू",
+  homeLabel: "होम",
 };
 
 const TABLE: Record<LangCode, Strings> = { de, en, tr, ru, uk, ar, fr, hi };

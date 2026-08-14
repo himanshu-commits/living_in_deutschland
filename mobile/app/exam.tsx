@@ -2,9 +2,10 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Alert, ScrollView, Text, View } from "react-native";
 import { Redirect, router } from "expo-router";
 import { Button, Card, Label, Option, ProgressBar } from "@/components";
+import { ScreenHeader } from "@/header";
 import { Illustration, ImageOptions } from "@/media";
 import { EXAM, examPaper, type Question } from "@/questions";
-import { useStore } from "@/storage";
+import { useStore, useT } from "@/storage";
 import { spacing, type, useColors } from "@/theme";
 
 function mmss(seconds: number) {
@@ -15,6 +16,7 @@ function mmss(seconds: number) {
 
 export default function Exam() {
   const c = useColors();
+  const { t } = useT();
   const { ready, state, record, saveTest } = useStore();
   const paper = useMemo<Question[]>(() => (state ? examPaper(state) : []), [state]);
 
@@ -55,7 +57,9 @@ export default function Exam() {
   if (done) {
     const passed = correct >= EXAM.pass;
     return (
-      <ScrollView style={{ backgroundColor: c.bg }} contentContainerStyle={{ padding: spacing.lg, gap: spacing.lg }}>
+      <View style={{ flex: 1, backgroundColor: c.bg }}>
+        <ScreenHeader title={t.test} menu={false} />
+        <ScrollView style={{ flex: 1 }} contentContainerStyle={{ padding: spacing.lg, gap: spacing.lg }}>
         <Card>
           <Label>{passed ? "Bestanden" : "Nicht bestanden"}</Label>
           <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm, marginVertical: spacing.sm }}>
@@ -90,7 +94,8 @@ export default function Exam() {
         })}
 
         <Button label="Zurück" onPress={() => router.replace("/")} />
-      </ScrollView>
+        </ScrollView>
+      </View>
     );
   }
 
@@ -116,6 +121,7 @@ export default function Exam() {
 
   return (
     <View style={{ flex: 1, backgroundColor: c.bg }}>
+      <ScreenHeader title={t.test} menu={false} />
       <View style={{ padding: spacing.lg, gap: spacing.sm }}>
         <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
           <Label>

@@ -17,6 +17,7 @@ export default function Read() {
   const pool = poolFor(state);
   return (
     <QuestionList
+      title={t.allQuestions}
       questions={pool}
       filters={[
         { key: "all", label: `${t.allQuestions} ${pool.length}`, test: () => true },

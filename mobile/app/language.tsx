@@ -1,5 +1,6 @@
 import { router } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { ScreenHeader } from "@/header";
 import { LANGUAGES, strings, type LangCode } from "@/i18n";
 import { useStore } from "@/storage";
 import { radius, spacing, type, useColors } from "@/theme";
@@ -19,10 +20,12 @@ export default function LanguagePicker() {
   }
 
   return (
-    <ScrollView
-      style={{ backgroundColor: c.bg }}
-      contentContainerStyle={{ padding: spacing.lg, gap: spacing.md, paddingBottom: spacing.xxl }}
-    >
+    <View style={{ flex: 1, backgroundColor: c.bg }}>
+      <ScreenHeader title={t.chooseLanguage} />
+      <ScrollView
+        style={{ flex: 1 }}
+        contentContainerStyle={{ padding: spacing.lg, gap: spacing.md, paddingBottom: spacing.xxl }}
+      >
       <Text style={{ ...type.body, color: c.textMuted }}>{t.languageNote}</Text>
 
       {LANGUAGES.map((l) => {
@@ -59,6 +62,7 @@ export default function LanguagePicker() {
           </Pressable>
         );
       })}
-    </ScrollView>
+      </ScrollView>
+    </View>
   );
 }

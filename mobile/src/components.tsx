@@ -4,7 +4,6 @@ import { radius, spacing, type, useColors, useIsDark, type Colors } from "./them
 
 /** Manual light/dark override, shown top-right in every screen header. */
 export function ThemeToggle() {
-  const c = useColors();
   const isDark = useIsDark();
   const { setTheme } = useStore();
   return (
@@ -13,19 +12,10 @@ export function ThemeToggle() {
       accessibilityState={{ checked: isDark }}
       accessibilityLabel={`${isDark ? "Dark" : "Light"} mode, tap to switch`}
       onPress={() => setTheme(isDark ? "light" : "dark")}
-      style={({ pressed }) => ({
-        alignItems: "center",
-        justifyContent: "center",
-        width: 32,
-        height: 32,
-        borderRadius: radius.pill,
-        backgroundColor: c.surface,
-        borderColor: c.border,
-        borderWidth: StyleSheet.hairlineWidth,
-        opacity: pressed ? 0.85 : 1,
-      })}
+      hitSlop={10}
+      style={({ pressed }) => ({ opacity: pressed ? 0.6 : 1 })}
     >
-      <Text style={{ fontSize: 15 }}>{isDark ? "☀️" : "🌙"}</Text>
+      <Text style={{ fontSize: 22 }}>{isDark ? "☀️" : "🌙"}</Text>
     </Pressable>
   );
 }
@@ -188,7 +178,7 @@ export function Option({
   );
 }
 
-export function Notice({ children, tone = "warn" }: { children: React.ReactNode; tone?: "warn" }) {
+export function Notice({ children, tone = "warn" }: { children: React.ReactNode; tone?: "warn" | "info" }) {
   const c = useColors();
   return (
     <View

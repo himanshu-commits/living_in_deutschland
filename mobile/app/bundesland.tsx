@@ -1,5 +1,6 @@
 import { Redirect, router } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { ScreenHeader } from "@/header";
 import { BUNDESLAENDER } from "@/questions";
 import { useStore, useT } from "@/storage";
 import { radius, spacing, type, useColors } from "@/theme";
@@ -18,10 +19,12 @@ export default function BundeslandPicker() {
   if (!lang) return <Redirect href="/language" />;
 
   return (
-    <ScrollView
-      style={{ backgroundColor: c.bg }}
-      contentContainerStyle={{ padding: spacing.lg, gap: spacing.md, paddingBottom: spacing.xxl }}
-    >
+    <View style={{ flex: 1, backgroundColor: c.bg }}>
+      <ScreenHeader title={t.chooseState} />
+      <ScrollView
+        style={{ flex: 1 }}
+        contentContainerStyle={{ padding: spacing.lg, gap: spacing.md, paddingBottom: spacing.xxl }}
+      >
       <Text style={{ ...type.body, color: c.textMuted, marginBottom: spacing.sm }}>
         {t.stateNote}
       </Text>
@@ -52,6 +55,7 @@ export default function BundeslandPicker() {
           </Pressable>
         );
       })}
-    </ScrollView>
+      </ScrollView>
+    </View>
   );
 }
