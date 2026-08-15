@@ -30,8 +30,14 @@ DATA = ROOT / "data"
 CACHE = DATA / ".cache"
 
 SOURCES = {
-    "flexsurfer": "https://raw.githubusercontent.com/flexsurfer/einburgerungstest/main/app/mobile/assets/data.json",
-    "lid": "https://raw.githubusercontent.com/leben-in-deutschland/leben-in-deutschland-scrapper/main/data/question.json",
+    "flexsurfer": (
+        "https://raw.githubusercontent.com/flexsurfer/einburgerungstest/"
+        "main/app/mobile/assets/data.json"
+    ),
+    "lid": (
+        "https://raw.githubusercontent.com/leben-in-deutschland/"
+        "leben-in-deutschland-scrapper/main/data/question.json"
+    ),
 }
 
 # joint question+options similarity required to accept a source's answer
@@ -39,6 +45,7 @@ THRESHOLD = 0.80
 
 
 def fetch(name, url):
+    """Load a named JSON source, downloading and caching it when necessary."""
     CACHE.mkdir(parents=True, exist_ok=True)
     path = CACHE / f"{name}.json"
     if not path.exists():
@@ -48,11 +55,13 @@ def fetch(name, url):
 
 
 def norm(s):
+    """Normalize German text for fuzzy matching."""
     s = s.lower().replace("ß", "ss")
     return " ".join(re.sub(r"[^a-z0-9äöü ]", " ", s).split())
 
 
 def sim(a, b):
+    """Return the normalized similarity ratio for two strings."""
     return difflib.SequenceMatcher(None, norm(a), norm(b)).ratio()
 
 
@@ -86,6 +95,7 @@ def match(question, pool, get_question, get_options, get_correct):
         o_score, perm = align(question["options"], options)
         joint = 0.35 * q_score + 0.65 * o_score
         if joint > best[0]:
+            assert perm is not None
             best = (joint, perm[correct], entry, perm)
     return best
 
@@ -98,7 +108,7 @@ def translations_of(entry, perm):
     index onto ours, the same mapping the answer rides."""
     out = {}
     for code, block in (entry.get("translation") or {}).items():
-        options = [None] * 4
+        options: list[str | None] = [None] * 4
         for k, letter in enumerate("abcd"):
             text = block.get(letter)
             if text:
@@ -124,7 +134,10 @@ def respace(mine, reference):
     letters, so the PDF stays the authority on content."""
     if mine == reference:
         return mine, False
-    squeeze = lambda s: re.sub(r"\s+", "", s)
+    def squeeze(text):
+        """Remove whitespace so spacing-only differences can be detected."""
+        return re.sub(r"\s+", "", text)
+
     if squeeze(mine) == squeeze(reference) and squeeze(mine):
         return reference, True
     return mine, False
@@ -142,6 +155,7 @@ def load_overrides():
 
 
 def main():
+    """Build the merged question dataset and its human review queue."""
     questions = json.loads((DATA / "pdf_questions.json").read_text(encoding="utf8"))
     flex = fetch("flexsurfer", SOURCES["flexsurfer"])
     lid = fetch("lid", SOURCES["lid"])
@@ -185,7 +199,10 @@ def main():
         # same image order we ship, so it always needs a human
         verified = confidence == "confirmed" and not image
 
-        qid = f"{q['scope']}-{q['num']:03d}" if q["scope"] == "ALL" else f"{q['scope']}-{q['num']:02d}"
+        if q["scope"] == "ALL":
+            qid = f"{q['scope']}-{q['num']:03d}"
+        else:
+            qid = f"{q['scope']}-{q['num']:02d}"
 
         # a human always wins over the scrapers
         if qid in overrides:
@@ -232,11 +249,14 @@ def main():
         ("image", "Image questions — MUST be checked against your own picture order"),
         ("text", "Text questions — only one source matched"),
     ):
-        rows = [q for q in todo if (q["imageQuestion"] == (group == "image"))]
+        rows = [q for q in todo if q["imageQuestion"] == (group == "image")]
         lines += [f"## {title} ({len(rows)})", ""]
         for q in rows:
             guess = "?" if q["answer"] is None else "abcd"[q["answer"]]
-            lines.append(f"- [ ] `{q['id']}` (PDF p.{q['page']}) — {q['question'][:80]}  → guess **{guess}** ({q['confidence']})")
+            lines.append(
+                f"- [ ] `{q['id']}` (PDF p.{q['page']}) — "
+                f"{q['question'][:80]}  → guess **{guess}** ({q['confidence']})"
+            )
         lines.append("")
     (DATA / "review-queue.md").write_text("\n".join(lines), encoding="utf8")
 
