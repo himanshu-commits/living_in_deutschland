@@ -38,12 +38,8 @@ export function Illustration({ media }: { media: Media }) {
   return (
     <View
       style={{
-        // the aspect ratio belongs on the container, not the Image: a child's
-        // aspectRatio-derived height does not reliably reach this View's own
-        // height on native (especially inside a ScrollView), so overflow:
-        // hidden below was clipping the image instead of just rounding corners
         width: "100%",
-        aspectRatio: 4 / 3,
+        alignItems: "center",
         backgroundColor: c.surface,
         borderColor: c.border,
         borderWidth: StyleSheet.hairlineWidth,
@@ -57,7 +53,9 @@ export function Illustration({ media }: { media: Media }) {
         accessibilityRole="image"
         accessibilityLabel={media.alt[0] ?? "Abbildung zur Frage"}
         resizeMode="contain"
-        style={{ width: "100%", height: "100%" }}
+        // Give iOS two explicit bounds. With only width + aspectRatio it may
+        // retain a JPEG's intrinsic height inside ScrollView and clip the sides.
+        style={{ width: "100%", height: 240, backgroundColor: c.surface }}
       />
     </View>
   );

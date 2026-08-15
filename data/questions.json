@@ -1288,10 +1288,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -1769,10 +1769,10 @@
   ],
   "answer": 0,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -3160,10 +3160,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -7190,10 +7190,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -7580,10 +7580,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -11246,10 +11246,10 @@
   ],
   "answer": 0,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -11272,10 +11272,10 @@
   ],
   "answer": 2,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -11298,11 +11298,10 @@
   ],
   "answer": 0,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -13118,10 +13117,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -18422,10 +18421,10 @@
   ],
   "answer": 3,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -19904,11 +19903,10 @@
   ],
   "answer": 1,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -26547,10 +26545,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -26664,10 +26662,10 @@
   ],
   "answer": 0,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -27236,11 +27234,10 @@
   ],
   "answer": 1,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -27327,10 +27324,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -27353,10 +27350,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -27379,10 +27376,10 @@
   ],
   "answer": 1,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -27951,11 +27948,10 @@
   ],
   "answer": 3,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -28042,10 +28038,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -28068,10 +28064,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -28094,10 +28090,10 @@
   ],
   "answer": 3,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -28666,11 +28662,10 @@
   ],
   "answer": 3,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -28757,10 +28752,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -28783,10 +28778,10 @@
   ],
   "answer": 2,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -28809,10 +28804,10 @@
   ],
   "answer": 0,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -29290,10 +29285,10 @@
   ],
   "answer": 0,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -29316,11 +29311,10 @@
   ],
   "answer": 3,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -29407,10 +29401,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -29433,10 +29427,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -29459,10 +29453,10 @@
   ],
   "answer": 2,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -30031,11 +30025,10 @@
   ],
   "answer": 0,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -30122,10 +30115,10 @@
   ],
   "answer": 2,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -30148,10 +30141,10 @@
   ],
   "answer": 0,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -30174,10 +30167,10 @@
   ],
   "answer": 1,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -30746,11 +30739,10 @@
   ],
   "answer": 2,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -30837,10 +30829,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -30863,10 +30855,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -30889,10 +30881,10 @@
   ],
   "answer": 0,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -31370,10 +31362,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -31396,11 +31388,10 @@
   ],
   "answer": 2,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -31487,10 +31478,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -31513,10 +31504,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -31539,10 +31530,10 @@
   ],
   "answer": 2,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -32111,11 +32102,10 @@
   ],
   "answer": 2,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -32202,10 +32192,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -32228,10 +32218,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -32254,10 +32244,10 @@
   ],
   "answer": 2,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -32826,11 +32816,10 @@
   ],
   "answer": 0,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -32917,10 +32906,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -32943,10 +32932,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -32969,10 +32958,10 @@
   ],
   "answer": 1,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -33541,11 +33530,10 @@
   ],
   "answer": 2,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -33632,10 +33620,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -33658,10 +33646,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -33684,10 +33672,10 @@
   ],
   "answer": 0,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -34256,11 +34244,10 @@
   ],
   "answer": 0,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -34347,10 +34334,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -34373,10 +34360,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -34399,10 +34386,10 @@
   ],
   "answer": 3,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -34971,11 +34958,10 @@
   ],
   "answer": 1,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -35062,10 +35048,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -35088,10 +35074,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -35114,10 +35100,10 @@
   ],
   "answer": 3,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -35686,11 +35672,10 @@
   ],
   "answer": 3,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -35777,10 +35762,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -35803,10 +35788,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -35829,10 +35814,10 @@
   ],
   "answer": 3,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -36401,11 +36386,10 @@
   ],
   "answer": 2,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -36492,10 +36476,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -36518,10 +36502,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -36544,10 +36528,10 @@
   ],
   "answer": 2,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -37116,11 +37100,10 @@
   ],
   "answer": 0,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -37207,10 +37190,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -37233,10 +37216,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -37259,10 +37242,10 @@
   ],
   "answer": 3,
   "imageQuestion": true,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -37831,11 +37814,10 @@
   ],
   "answer": 1,
   "imageQuestion": true,
-  "confidence": "confirmed",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer",
-   "lid"
+   "human"
   ],
   "translations": {
    "en": {
@@ -37922,10 +37904,10 @@
   ],
   "answer": 3,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {
@@ -37948,10 +37930,10 @@
   ],
   "answer": 1,
   "imageQuestion": false,
-  "confidence": "single-source",
-  "verified": false,
+  "confidence": "hand-verified",
+  "verified": true,
   "sources": [
-   "flexsurfer"
+   "human"
   ],
   "translations": {},
   "scores": {

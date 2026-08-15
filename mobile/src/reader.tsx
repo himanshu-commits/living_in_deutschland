@@ -1,5 +1,5 @@
 import { useMemo, useRef, useState } from "react";
-import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { FlatList, Modal, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { Option } from "./components";
 import { ScreenHeader } from "./header";
 import { Illustration } from "./media";
@@ -239,6 +239,7 @@ export function QuestionList({
   const { record } = useStore();
   const [active, setActive] = useState<string>(filters?.[0]?.key ?? "");
   const [at, setAt] = useState(0);
+  const [pickerOpen, setPickerOpen] = useState(false);
   // answers are kept per question id, so going back shows what you picked
   const [picks, setPicks] = useState<Record<string, number>>({});
   const scroller = useRef<ScrollView>(null);
@@ -341,7 +342,18 @@ export function QuestionList({
               disabled={index === 0}
               onPress={() => go(-1)}
             />
-            <View style={{ flex: 1, alignItems: "center" }}>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel={`Choose question. ${fill(t.questionOf, { n: index + 1, total: shown.length })}`}
+              onPress={() => setPickerOpen(true)}
+              style={({ pressed }) => ({
+                flex: 1,
+                alignItems: "center",
+                paddingVertical: spacing.xs,
+                borderRadius: radius.md,
+                backgroundColor: pressed ? c.surfaceAlt : "transparent",
+              })}
+            >
               <Text style={{ ...type.label, ...type.mono, color: c.textMuted }}>
                 {fill(t.questionOf, { n: index + 1, total: shown.length })}
               </Text>
@@ -350,13 +362,99 @@ export function QuestionList({
                   {fill(t.yourScore, { n: rightCount, total: answeredCount })}
                 </Text>
               )}
-            </View>
+            </Pressable>
             <NavButton
               label={t.next}
               disabled={index >= shown.length - 1}
               onPress={() => go(1)}
             />
           </View>
+
+          <Modal
+            visible={pickerOpen}
+            animationType="slide"
+            presentationStyle="pageSheet"
+            onRequestClose={() => setPickerOpen(false)}
+          >
+            <View
+              style={{
+                flex: 1,
+                backgroundColor: c.bg,
+                paddingTop: Math.max(insets.top, spacing.lg),
+              }}
+            >
+              <View
+                style={{
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  paddingHorizontal: spacing.lg,
+                  paddingBottom: spacing.md,
+                  borderBottomWidth: StyleSheet.hairlineWidth,
+                  borderBottomColor: c.border,
+                }}
+              >
+                <Text style={{ ...type.heading, color: c.text }}>Choose a question</Text>
+                <Pressable
+                  accessibilityRole="button"
+                  accessibilityLabel="Close question picker"
+                  onPress={() => setPickerOpen(false)}
+                  hitSlop={8}
+                  style={({ pressed }) => ({
+                    paddingVertical: spacing.sm,
+                    paddingHorizontal: spacing.md,
+                    borderRadius: radius.pill,
+                    backgroundColor: pressed ? c.surfaceAlt : c.surface,
+                  })}
+                >
+                  <Text style={{ ...type.label, color: c.text }}>Close</Text>
+                </Pressable>
+              </View>
+
+              <FlatList
+                data={shown}
+                keyExtractor={(item) => item.id}
+                initialScrollIndex={index}
+                getItemLayout={(_, i) => ({ length: 56, offset: 56 * i, index: i })}
+                contentContainerStyle={{
+                  padding: spacing.lg,
+                  paddingBottom: Math.max(insets.bottom, spacing.lg),
+                }}
+                renderItem={({ index: itemIndex }) => {
+                  const selected = itemIndex === index;
+                  return (
+                    <View style={{ width: "100%", height: 56, justifyContent: "center" }}>
+                      <Pressable
+                        accessibilityRole="button"
+                        accessibilityLabel={`Question ${itemIndex + 1}`}
+                        accessibilityState={{ selected }}
+                        onPress={() => {
+                          setAt(itemIndex);
+                          setPickerOpen(false);
+                          scroller.current?.scrollTo({ y: 0, animated: false });
+                        }}
+                        style={({ pressed }) => ({
+                          width: "100%",
+                          height: 48,
+                          alignItems: "center",
+                          justifyContent: "center",
+                          borderRadius: radius.md,
+                          borderWidth: StyleSheet.hairlineWidth,
+                          borderColor: selected ? c.accent : c.border,
+                          backgroundColor: selected ? c.accent : pressed ? c.surfaceAlt : c.surface,
+                          opacity: pressed ? 0.85 : 1,
+                        })}
+                      >
+                        <Text style={{ ...type.label, ...type.mono, color: selected ? c.accentText : c.text }}>
+                          {itemIndex + 1}
+                        </Text>
+                      </Pressable>
+                    </View>
+                  );
+                }}
+              />
+            </View>
+          </Modal>
         </>
       )}
     </View>
