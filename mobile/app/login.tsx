@@ -72,6 +72,10 @@ export default function Login() {
   async function submit() {
     setError(null);
     setInfo(null);
+    if (!supabase) {
+      setError("Cloud sign-in is not configured for this build.");
+      return;
+    }
     setBusy(true);
     if (signingUp) {
       const { data, error } = await supabase.auth.signUp({ email, password });

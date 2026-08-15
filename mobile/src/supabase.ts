@@ -5,19 +5,18 @@ import { createClient } from "@supabase/supabase-js";
 const url = process.env.EXPO_PUBLIC_SUPABASE_URL;
 const anonKey = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY;
 
-if (!url || !anonKey) {
-  throw new Error("Missing EXPO_PUBLIC_SUPABASE_URL or EXPO_PUBLIC_SUPABASE_ANON_KEY (see mobile/.env.example)");
-}
-
-export const supabase = createClient(url, anonKey, {
-  auth: {
-    storage: AsyncStorage,
-    autoRefreshToken: true,
-    persistSession: true,
-    // there's no browser redirect to complete on a native app
-    detectSessionInUrl: false,
-  },
-});
+/** Cloud sync is optional for local/offline use of the question catalogue. */
+export const supabase = url && anonKey
+  ? createClient(url, anonKey, {
+      auth: {
+        storage: AsyncStorage,
+        autoRefreshToken: true,
+        persistSession: true,
+        // there's no browser redirect to complete on a native app
+        detectSessionInUrl: false,
+      },
+    })
+  : null;
 
 export type Progress = Record<string, { seen: number; correct: number; wrong: number }>;
 export type TestResult = { correct: number; total: number; at: number };

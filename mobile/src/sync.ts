@@ -8,6 +8,10 @@ export function useSession() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (!supabase) {
+      setLoading(false);
+      return;
+    }
     supabase.auth.getSession().then(({ data }) => {
       setSession(data.session);
       setLoading(false);
@@ -36,6 +40,7 @@ export function SyncEngine({ children }: { children: ReactNode }) {
   const skipNextPush = useRef(false);
 
   useEffect(() => {
+    if (!supabase) return;
     if (!session) {
       pulledFor.current = null;
       setStatus("idle");
@@ -74,6 +79,7 @@ export function SyncEngine({ children }: { children: ReactNode }) {
   }, [session, ready]);
 
   useEffect(() => {
+    if (!supabase) return;
     if (!session || !ready || pulledFor.current !== session.user.id) return;
     if (skipNextPush.current) {
       skipNextPush.current = false;

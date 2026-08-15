@@ -52,6 +52,11 @@ export function shuffle<T>(items: T[]): T[] {
   return sample(items, items.length);
 }
 
+/** Display order only: every value remains the option's canonical dataset index. */
+export function shuffledOptionIndices(length: number): number[] {
+  return shuffle(Array.from({ length }, (_, index) => index));
+}
+
 /** One exam paper: 30 general + 3 from the chosen state, in random order. */
 export function examPaper(state: string): Question[] {
   const general = sample(ALL.filter((q) => q.scope === "ALL"), EXAM.general);

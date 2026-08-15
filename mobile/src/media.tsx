@@ -67,12 +67,15 @@ export function ImageOptions({
   picked,
   answer,
   answered,
+  order,
   onPick,
 }: {
   media: Media;
   picked: number | null;
   answer: number | null;
   answered: boolean;
+  /** Display positions containing canonical option indices. */
+  order: number[];
   onPick: (index: number) => void;
 }) {
   const c = useColors();
@@ -80,24 +83,25 @@ export function ImageOptions({
 
   return (
     <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.md }}>
-      {media.files.map((file, i) => {
-        const correct = answered && i === answer;
-        const wrong = answered && i === picked && i !== answer;
+      {order.map((originalIndex, displayIndex) => {
+        const file = media.files[originalIndex];
+        const correct = answered && originalIndex === answer;
+        const wrong = answered && originalIndex === picked && originalIndex !== answer;
         const border = correct ? c.correct : wrong ? c.wrong : c.border;
         return (
           <Pressable
             key={file}
-            onPress={() => onPick(i)}
+            onPress={() => onPick(originalIndex)}
             disabled={answered}
             accessibilityRole="radio"
-            accessibilityState={{ selected: picked === i, disabled: answered }}
-            accessibilityLabel={`Bild ${i + 1}. ${media.alt[i] ?? ""}`}
+            accessibilityState={{ selected: picked === originalIndex, disabled: answered }}
+            accessibilityLabel={`Bild ${displayIndex + 1}. ${media.alt[originalIndex] ?? ""}`}
             style={({ pressed }) => ({
               width: "47%",
               flexGrow: 1,
               backgroundColor: c.surface,
-              borderColor: picked === i && !answered ? c.accent : border,
-              borderWidth: correct || wrong || picked === i ? 2 : StyleSheet.hairlineWidth,
+              borderColor: picked === originalIndex && !answered ? c.accent : border,
+              borderWidth: correct || wrong || picked === originalIndex ? 2 : StyleSheet.hairlineWidth,
               borderRadius: radius.md,
               padding: spacing.sm,
               opacity: pressed && !answered ? 0.9 : 1,
@@ -109,7 +113,7 @@ export function ImageOptions({
               style={{ width: "100%", aspectRatio: 1, backgroundColor: c.surface }}
             />
             <Text style={{ ...type.label, color: c.textMuted, textAlign: "center", marginTop: spacing.xs }}>
-              Bild {i + 1}
+              Bild {displayIndex + 1}
             </Text>
           </Pressable>
         );

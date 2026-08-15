@@ -56,7 +56,7 @@ export default function Profile() {
             {statusLabel}
           </Text>
         </Card>
-        <Button label={t.signOut} variant="ghost" onPress={() => supabase.auth.signOut()} />
+        <Button label={t.signOut} variant="ghost" onPress={() => supabase?.auth.signOut()} />
       </View>
     </View>
   );

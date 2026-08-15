@@ -5,7 +5,7 @@ import { ScreenHeader } from "./header";
 import { Illustration } from "./media";
 import { images } from "./imageMap";
 import { Image } from "react-native";
-import type { Question } from "./questions";
+import { shuffledOptionIndices, type Question } from "./questions";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useStore, useT } from "./storage";
 import { radius, spacing, type, useColors } from "./theme";
@@ -72,12 +72,14 @@ function QuestionCard({
   q,
   position,
   mode,
+  optionOrder,
   picked,
   onPick,
 }: {
   q: Question;
   position: string;
   mode: Mode;
+  optionOrder: number[];
   picked?: number;
   onPick?: (index: number) => void;
 }) {
@@ -128,18 +130,20 @@ function QuestionCard({
 
       {picture ? (
         <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.md, marginTop: spacing.xs }}>
-          {q.media!.files.map((file, i) => (
+          {optionOrder.map((originalIndex, displayIndex) => {
+            const file = q.media!.files[originalIndex];
+            return (
             <Pressable
               key={file}
               disabled={mode === "read" || picked !== undefined}
-              onPress={() => onPick?.(i)}
+              onPress={() => onPick?.(originalIndex)}
               accessibilityRole={mode === "attempt" ? "radio" : "image"}
-              accessibilityState={{ selected: picked === i }}
+              accessibilityState={{ selected: picked === originalIndex }}
               style={{
                 width: "47%",
                 flexGrow: 1,
-                borderColor: reveal(i) ? c.correct : wrongPick(i) ? c.wrong : c.border,
-                borderWidth: reveal(i) || wrongPick(i) ? 2 : StyleSheet.hairlineWidth,
+                borderColor: reveal(originalIndex) ? c.correct : wrongPick(originalIndex) ? c.wrong : c.border,
+                borderWidth: reveal(originalIndex) || wrongPick(originalIndex) ? 2 : StyleSheet.hairlineWidth,
                 borderRadius: radius.md,
                 padding: spacing.sm,
                 backgroundColor: c.surface,
@@ -148,7 +152,7 @@ function QuestionCard({
               <Image
                 source={images[file]}
                 resizeMode="contain"
-                accessibilityLabel={q.media!.alt[i]}
+                accessibilityLabel={q.media!.alt[originalIndex]}
                 style={{ width: "100%", height: 96 }}
               />
               <Text
@@ -156,25 +160,26 @@ function QuestionCard({
                   ...type.label,
                   fontSize: 10,
                   textAlign: "center",
-                  color: reveal(i) ? c.correct : wrongPick(i) ? c.wrong : c.textMuted,
+                  color: reveal(originalIndex) ? c.correct : wrongPick(originalIndex) ? c.wrong : c.textMuted,
                 }}
               >
-                Bild {i + 1}
+                Bild {displayIndex + 1}
               </Text>
             </Pressable>
-          ))}
+            );
+          })}
         </View>
       ) : (
         <View style={{ gap: spacing.md, marginTop: spacing.xs }}>
-          {q.options.map((text, i) => (
+          {optionOrder.map((originalIndex, displayIndex) => (
             <Option
-              key={i}
-              index={i}
-              text={text}
+              key={originalIndex}
+              index={displayIndex}
+              text={q.options[originalIndex]}
               disabled={mode === "read" || picked !== undefined}
-              onPress={() => onPick?.(i)}
-              state={reveal(i) ? "correct" : wrongPick(i) ? "wrong" : "idle"}
-              subtitle={tr ? <Translated text={tr.options[i]} small /> : undefined}
+              onPress={() => onPick?.(originalIndex)}
+              state={reveal(originalIndex) ? "correct" : wrongPick(originalIndex) ? "wrong" : "idle"}
+              subtitle={tr ? <Translated text={tr.options[originalIndex]} small /> : undefined}
             />
           ))}
         </View>
@@ -191,7 +196,9 @@ function QuestionCard({
         >
           {picked === q.answer
             ? t.correct
-            : `${t.wrong} — ${fill(t.answerIs, { letter: "ABCD"[q.answer ?? 0] })}`}
+            : `${t.wrong} — ${fill(t.answerIs, {
+                letter: "ABCD"[q.answer === null ? 0 : optionOrder.indexOf(q.answer)],
+              })}`}
         </Text>
       )}
     </View>
@@ -236,13 +243,18 @@ export function QuestionList({
   const c = useColors();
   const insets = useSafeAreaInsets();
   const { t, fill } = useT();
-  const { record } = useStore();
+  const { record, marked, mistakes, progress } = useStore();
   const [active, setActive] = useState<string>(filters?.[0]?.key ?? "");
   const [at, setAt] = useState(0);
   const [pickerOpen, setPickerOpen] = useState(false);
-  // answers are kept per question id, so going back shows what you picked
+  const [revealedQuestion, setRevealedQuestion] = useState<string | null>(null);
+  // Latest attempts drive the session score and picker colors; reveal state is
+  // separate so revisiting a practice question starts a clean new attempt.
   const [picks, setPicks] = useState<Record<string, number>>({});
   const scroller = useRef<ScrollView>(null);
+  // One random order per question and QuestionList mount. Leaving and returning
+  // keeps the order; starting a new reader/practice session creates new ones.
+  const optionOrders = useRef<Record<string, number[]>>({});
 
   const shown = useMemo(() => {
     const f = filters?.find((x) => x.key === active);
@@ -253,6 +265,9 @@ export function QuestionList({
   // past the end of the list
   const index = Math.min(at, Math.max(0, shown.length - 1));
   const q = shown[index];
+  const optionOrder = q
+    ? (optionOrders.current[q.id] ??= shuffledOptionIndices(q.options.length))
+    : [];
 
   const answeredIds = Object.keys(picks);
   const answeredCount = answeredIds.length;
@@ -262,6 +277,7 @@ export function QuestionList({
 
   function go(delta: number) {
     const next = Math.min(shown.length - 1, Math.max(0, index + delta));
+    setRevealedQuestion(null);
     setAt(next);
     scroller.current?.scrollTo({ y: 0, animated: false });
   }
@@ -281,6 +297,7 @@ export function QuestionList({
                 onPress={() => {
                   setActive(f.key);
                   setAt(0);
+                  setRevealedQuestion(null);
                 }}
                 style={{
                   backgroundColor: on ? c.text : c.surface,
@@ -315,10 +332,12 @@ export function QuestionList({
               q={q}
               position={`${index + 1}`}
               mode={mode}
-              picked={picks[q.id]}
+              optionOrder={optionOrder}
+              picked={revealedQuestion === q.id ? picks[q.id] : undefined}
               onPick={(choice) => {
-                if (picks[q.id] !== undefined) return; // first answer counts
+                if (revealedQuestion === q.id) return;
                 setPicks((prev) => ({ ...prev, [q.id]: choice }));
+                setRevealedQuestion(q.id);
                 record(q.id, choice === q.answer);
               }}
             />
@@ -420,16 +439,32 @@ export function QuestionList({
                   padding: spacing.lg,
                   paddingBottom: Math.max(insets.bottom, spacing.lg),
                 }}
-                renderItem={({ index: itemIndex }) => {
+                renderItem={({ item, index: itemIndex }) => {
                   const selected = itemIndex === index;
+                  const picked = picks[item.id];
+                  const status =
+                    picked !== undefined
+                      ? picked === item.answer
+                        ? "correct"
+                        : "incorrect"
+                      : !progress[item.id]
+                        ? "unanswered"
+                        : mistakes.includes(item.id)
+                          ? "incorrect"
+                          : "correct";
+                  const isMarked = marked.includes(item.id);
+                  const statusColor = status === "correct" ? c.correct : status === "incorrect" ? c.wrong : c.border;
+                  const statusBackground =
+                    status === "correct" ? c.correctBg : status === "incorrect" ? c.wrongBg : c.surface;
                   return (
                     <View style={{ width: "100%", height: 56, justifyContent: "center" }}>
                       <Pressable
                         accessibilityRole="button"
-                        accessibilityLabel={`Question ${itemIndex + 1}`}
+                        accessibilityLabel={`Question ${itemIndex + 1}, ${status}${isMarked ? ", marked" : ""}`}
                         accessibilityState={{ selected }}
                         onPress={() => {
                           setAt(itemIndex);
+                          setRevealedQuestion(null);
                           setPickerOpen(false);
                           scroller.current?.scrollTo({ y: 0, animated: false });
                         }}
@@ -439,15 +474,29 @@ export function QuestionList({
                           alignItems: "center",
                           justifyContent: "center",
                           borderRadius: radius.md,
-                          borderWidth: StyleSheet.hairlineWidth,
-                          borderColor: selected ? c.accent : c.border,
-                          backgroundColor: selected ? c.accent : pressed ? c.surfaceAlt : c.surface,
+                          borderWidth: selected ? 2 : StyleSheet.hairlineWidth,
+                          borderColor: selected ? c.accent : statusColor,
+                          backgroundColor: pressed ? c.surfaceAlt : statusBackground,
                           opacity: pressed ? 0.85 : 1,
                         })}
                       >
-                        <Text style={{ ...type.label, ...type.mono, color: selected ? c.accentText : c.text }}>
+                        <Text
+                          style={{
+                            ...type.label,
+                            ...type.mono,
+                            color: status === "correct" ? c.correct : status === "incorrect" ? c.wrong : c.text,
+                          }}
+                        >
                           {itemIndex + 1}
                         </Text>
+                        {isMarked && (
+                          <Text
+                            accessibilityElementsHidden
+                            style={{ position: "absolute", right: spacing.md, fontSize: 17, color: c.warn }}
+                          >
+                            ★
+                          </Text>
+                        )}
                       </Pressable>
                     </View>
                   );

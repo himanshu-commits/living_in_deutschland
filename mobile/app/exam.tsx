@@ -4,7 +4,7 @@ import { Redirect, router } from "expo-router";
 import { Button, Card, Label, Option, ProgressBar } from "@/components";
 import { ScreenHeader } from "@/header";
 import { Illustration, ImageOptions } from "@/media";
-import { EXAM, examPaper, type Question } from "@/questions";
+import { EXAM, examPaper, shuffledOptionIndices, type Question } from "@/questions";
 import { useStore, useT } from "@/storage";
 import { spacing, type, useColors } from "@/theme";
 
@@ -25,6 +25,9 @@ export default function Exam() {
   const [left, setLeft] = useState(EXAM.minutes * 60);
   const [done, setDone] = useState(false);
   const recorded = useRef(false);
+  const q = paper[at];
+  // Recomputed when navigation opens another question (including revisits).
+  const optionOrder = useMemo(() => shuffledOptionIndices(q?.options.length ?? 0), [q?.id, at]);
 
   useEffect(() => {
     if (done) return;
@@ -99,7 +102,6 @@ export default function Exam() {
     );
   }
 
-  const q = paper[at];
   const answeredCount = answers.filter((a) => a !== null).length;
 
   function pick(index: number) {
@@ -145,16 +147,17 @@ export default function Exam() {
             picked={answers[at]}
             answer={null}
             answered={false}
+            order={optionOrder}
             onPick={pick}
           />
         ) : (
-          q.options.map((text, i) => (
+          optionOrder.map((originalIndex, displayIndex) => (
             <Option
-              key={i}
-              index={i}
-              text={text}
-              state={answers[at] === i ? "revealed" : "idle"}
-              onPress={() => pick(i)}
+              key={originalIndex}
+              index={displayIndex}
+              text={q.options[originalIndex]}
+              state={answers[at] === originalIndex ? "revealed" : "idle"}
+              onPress={() => pick(originalIndex)}
             />
           ))
         )}
