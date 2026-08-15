@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Alert, ScrollView, Text, View } from "react-native";
 import { Redirect, router } from "expo-router";
 import { Button, Card, Label, Option, ProgressBar } from "@/components";
-import { ScreenHeader } from "@/header";
+import { HeaderBackButton, ScreenHeader } from "@/header";
 import { Illustration, ImageOptions } from "@/media";
 import { EXAM, examPaper, shuffledOptionIndices, type Question } from "@/questions";
 import { useStore, useT } from "@/storage";
@@ -61,7 +61,11 @@ export default function Exam() {
     const passed = correct >= EXAM.pass;
     return (
       <View style={{ flex: 1, backgroundColor: c.bg }}>
-        <ScreenHeader title={t.test} menu={false} />
+        <ScreenHeader
+          title={t.test}
+          menu={false}
+          left={<HeaderBackButton label={t.back} onPress={() => router.replace("/")} />}
+        />
         <ScrollView style={{ flex: 1 }} contentContainerStyle={{ padding: spacing.lg, gap: spacing.lg }}>
         <Card>
           <Label>{passed ? "Bestanden" : "Nicht bestanden"}</Label>
@@ -121,9 +125,20 @@ export default function Exam() {
     );
   }
 
+  function exitTest() {
+    Alert.alert(t.exitTestTitle, t.exitTestMessage, [
+      { text: t.cancel, style: "cancel" },
+      { text: t.exit, style: "destructive", onPress: () => router.replace("/") },
+    ]);
+  }
+
   return (
     <View style={{ flex: 1, backgroundColor: c.bg }}>
-      <ScreenHeader title={t.test} menu={false} />
+      <ScreenHeader
+        title={t.test}
+        menu={false}
+        left={<HeaderBackButton label={t.exit} onPress={exitTest} />}
+      />
       <View style={{ padding: spacing.lg, gap: spacing.sm }}>
         <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
           <Label>

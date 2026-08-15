@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { Pressable, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { ThemeToggle } from "./components";
 import { SideMenuButton } from "./side-menu";
@@ -15,11 +15,14 @@ import { spacing, type, useColors } from "./theme";
 export function ScreenHeader({
   title,
   menu = true,
+  left,
   right,
 }: {
   title: string;
   /** hidden during the timed exam, so there is no way to wander off */
   menu?: boolean;
+  /** replaces the menu slot, e.g. with a back/exit control */
+  left?: ReactNode;
   /** extra control shown left of the theme toggle, e.g. the translate toggle */
   right?: ReactNode;
 }) {
@@ -40,7 +43,9 @@ export function ScreenHeader({
         gap: spacing.sm,
       }}
     >
-      <View style={{ width: 40, alignItems: "flex-start" }}>{menu ? <SideMenuButton /> : null}</View>
+      <View style={{ width: 40, alignItems: "flex-start" }}>
+        {left ?? (menu ? <SideMenuButton /> : null)}
+      </View>
       <Text
         style={{ ...type.heading, color: c.text, flex: 1, textAlign: "center" }}
         numberOfLines={1}
@@ -60,5 +65,27 @@ export function ScreenHeader({
         <ThemeToggle />
       </View>
     </View>
+  );
+}
+
+export function HeaderBackButton({ label, onPress }: { label: string; onPress: () => void }) {
+  const c = useColors();
+  return (
+    <Pressable
+      accessibilityRole="button"
+      accessibilityLabel={label}
+      hitSlop={10}
+      onPress={onPress}
+      style={({ pressed }) => ({
+        width: 40,
+        height: 40,
+        alignItems: "center",
+        justifyContent: "center",
+        borderRadius: 20,
+        backgroundColor: pressed ? c.surfaceAlt : "transparent",
+      })}
+    >
+      <Text style={{ fontSize: 25, lineHeight: 28, color: c.text }}>←</Text>
+    </Pressable>
   );
 }

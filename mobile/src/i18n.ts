@@ -1,7 +1,19 @@
 /** Interface language. Question text always stays German — the exam is in German —
  *  and the translation of a question is served separately from the dataset. */
 
-export type LangCode = "de" | "en" | "tr" | "ru" | "uk" | "ar" | "fr" | "hi" | "pl" | "ro" | "fa";
+export type LangCode =
+  | "de"
+  | "en"
+  | "tr"
+  | "ru"
+  | "uk"
+  | "ar"
+  | "fr"
+  | "hi"
+  | "pl"
+  | "ro"
+  | "fa"
+  | "ur";
 
 export type Language = {
   code: LangCode;
@@ -25,6 +37,7 @@ export const LANGUAGES: Language[] = [
   { code: "pl", native: "Polski", latin: "Polish" },
   { code: "ro", native: "Română", latin: "Romanian" },
   { code: "fa", native: "فارسی", latin: "Persian", rtl: true },
+  { code: "ur", native: "اردو", latin: "Urdu", rtl: true },
 ];
 
 type Strings = {
@@ -100,6 +113,9 @@ type Strings = {
   resetConfirmMessage: string;
   resetAction: string;
   cancel: string;
+  exit: string;
+  exitTestTitle: string;
+  exitTestMessage: string;
   login: string;
   signUp: string;
   email: string;
@@ -209,6 +225,9 @@ const en: Strings = {
   resetConfirmMessage: "This clears your practice stats and mistakes. This can't be undone.",
   resetAction: "Reset",
   cancel: "Cancel",
+  exit: "Exit",
+  exitTestTitle: "Exit test?",
+  exitTestMessage: "Your answers in this test will not be saved.",
   login: "Login",
   signUp: "Sign Up",
   email: "Email",
@@ -318,6 +337,9 @@ const de: Strings = {
   resetConfirmMessage: "Das löscht deine Übungsstatistik und Fehler. Das kann nicht rückgängig gemacht werden.",
   resetAction: "Zurücksetzen",
   cancel: "Abbrechen",
+  exit: "Beenden",
+  exitTestTitle: "Test beenden?",
+  exitTestMessage: "Deine Antworten in diesem Test werden nicht gespeichert.",
   login: "Anmelden",
   signUp: "Registrieren",
   email: "E-Mail",
@@ -940,7 +962,82 @@ const fa: Strings = {
   startReview: "شروع مرور",
 };
 
-const TABLE: Record<LangCode, Strings> = { de, en, tr, ru, uk, ar, fr, hi, pl, ro, fa };
+const ur: Strings = {
+  ...en,
+  chooseLanguage: "زبان",
+  languageNote: "سوالات جرمن زبان میں رہیں گے۔ آپ کسی بھی وقت ترجمہ دیکھ سکتے ہیں۔",
+  chooseState: "آپ امتحان کہاں دیں گے؟",
+  stateNote: "امتحان میں آپ کی وفاقی ریاست کے بارے میں 3 سوالات شامل ہیں۔",
+  allQuestions: "تمام سوالات",
+  allQuestionsNote: "پڑھیں اور تیاری کریں",
+  practice: "مشق",
+  practiceNote: "جواب دیں اور خود کو جانچیں",
+  readiness: "تیاری",
+  readyYes: "امتحان کے لیے تیار",
+  readyNo: "مشق جاری رکھیں",
+  strong: "مضبوط",
+  shaky: "کمزور",
+  unseen: "نہیں دیکھے گئے",
+  basedOn: "{total} میں سے {n} کے جواب دیے گئے",
+  accuracy: "{p}% درست",
+  showAnswer: "جواب دکھائیں",
+  yourScore: "{total} میں سے {n} درست",
+  marked: "نشان زدہ سوالات",
+  markAction: "نشان لگائیں",
+  markedAction: "نشان زدہ",
+  markedNote: "وہ سوالات جن پر آپ نے نشان لگایا",
+  mistakes: "غلطیاں",
+  mistakesNote: "غلط جواب دیے گئے سوالات",
+  noMistakes: "دہرانے کے لیے کوئی غلطی نہیں۔ غلط جواب والے سوالات یہاں دکھائی دیں گے۔",
+  test: "امتحان",
+  testNote: "33 سوالات · 60 منٹ",
+  lastTest: "آخری امتحان",
+  passed: "کامیاب",
+  notPassed: "ناکام",
+  noTestYet: "ابھی کوئی امتحان نہیں دیا گیا",
+  questionOf: "سوال {n} از {total}",
+  general: "عمومی",
+  correct: "درست۔",
+  wrong: "غلط",
+  answerIs: "درست جواب {letter} ہے۔",
+  continue_: "جاری رکھیں",
+  back: "واپس",
+  next: "اگلا",
+  submit: "جمع کریں",
+  result: "نتیجہ",
+  unverified: "غیر تصدیق شدہ",
+  notAnswered: "جواب نہیں دیا گیا",
+  yourAnswer: "آپ کا جواب",
+  change: "تبدیل کریں",
+  noMarked: "ابھی کچھ نشان زدہ نہیں۔ سوال شامل کرنے کے لیے ستارے کو دبائیں۔",
+  startReview: "دہرائی شروع کریں",
+  settings: "ترتیبات",
+  about: "ایپ کے بارے میں",
+  share: "ایپ شیئر کریں",
+  rate: "ایپ کو ریٹ کریں",
+  contact: "رابطہ",
+  help: "مدد",
+  appearance: "ظاہری شکل",
+  system: "سسٹم",
+  light: "روشن",
+  dark: "تاریک",
+  preferences: "ترجیحات",
+  showTranslations: "ترجمے دکھائیں",
+  data: "ڈیٹا",
+  resetProgress: "پیش رفت دوبارہ ترتیب دیں",
+  resetAction: "دوبارہ ترتیب دیں",
+  cancel: "منسوخ کریں",
+  login: "لاگ ان",
+  signUp: "سائن اپ",
+  email: "ای میل",
+  password: "پاس ورڈ",
+  profile: "پروفائل",
+  signOut: "لاگ آؤٹ",
+  menu: "مینو",
+  homeLabel: "ہوم",
+};
+
+const TABLE: Record<LangCode, Strings> = { de, en, tr, ru, uk, ar, fr, hi, pl, ro, fa, ur };
 
 export function strings(code: LangCode): Strings {
   return TABLE[code] ?? en;

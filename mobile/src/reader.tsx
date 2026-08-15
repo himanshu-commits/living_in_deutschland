@@ -1,7 +1,8 @@
 import { useMemo, useRef, useState } from "react";
 import { FlatList, Modal, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { router } from "expo-router";
 import { Option } from "./components";
-import { ScreenHeader } from "./header";
+import { HeaderBackButton, ScreenHeader } from "./header";
 import { Illustration } from "./media";
 import { images } from "./imageMap";
 import { Image } from "react-native";
@@ -299,7 +300,11 @@ export function QuestionList({
 
   return (
     <View style={{ flex: 1, backgroundColor: c.bg }}>
-      <ScreenHeader title={title} right={<TranslateToggle />} />
+      <ScreenHeader
+        title={title}
+        left={<HeaderBackButton label={t.back} onPress={() => router.back()} />}
+        right={<TranslateToggle />}
+      />
       {filters && (
         <View style={{ flexDirection: "row", gap: spacing.sm, padding: spacing.lg, paddingBottom: spacing.sm }}>
           {filters.map((f) => {
