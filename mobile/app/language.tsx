@@ -50,11 +50,16 @@ export default function LanguagePicker() {
               opacity: pressed ? 0.9 : 1,
             })}
           >
-            <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm, flex: 1 }}>
-              <Text style={{ ...type.body, fontWeight: "600", color: c.text }}>{l.native}</Text>
-              {l.latin && (
-                <Text style={{ ...type.body, fontSize: 13, color: c.textMuted }}>{l.latin}</Text>
-              )}
+            <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.md, flex: 1 }}>
+              <Text accessibilityElementsHidden style={{ fontSize: 28 }}>
+                {l.flag}
+              </Text>
+              <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm, flex: 1 }}>
+                <Text style={{ ...type.body, fontWeight: "600", color: c.text }}>{l.native}</Text>
+                {l.latin && (
+                  <Text style={{ ...type.body, fontSize: 13, color: c.textMuted }}>{l.latin}</Text>
+                )}
+              </View>
             </View>
             {selected && (
               <View style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: c.accent }} />

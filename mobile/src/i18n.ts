@@ -17,6 +17,8 @@ export type LangCode =
 
 export type Language = {
   code: LangCode;
+  /** representative flag shown as a quick visual cue in the picker */
+  flag: string;
   /** the language's name in itself: someone who cannot read German yet
    *  cannot be asked to find their language written in German */
   native: string;
@@ -26,18 +28,18 @@ export type Language = {
 };
 
 export const LANGUAGES: Language[] = [
-  { code: "de", native: "Deutsch" },
-  { code: "en", native: "English" },
-  { code: "tr", native: "Türkçe", latin: "Turkish" },
-  { code: "ru", native: "Русский", latin: "Russian" },
-  { code: "uk", native: "Українська", latin: "Ukrainian" },
-  { code: "ar", native: "العربية", latin: "Arabic", rtl: true },
-  { code: "fr", native: "Français", latin: "French" },
-  { code: "hi", native: "हिन्दी", latin: "Hindi" },
-  { code: "pl", native: "Polski", latin: "Polish" },
-  { code: "ro", native: "Română", latin: "Romanian" },
-  { code: "fa", native: "فارسی", latin: "Persian", rtl: true },
-  { code: "ur", native: "اردو", latin: "Urdu", rtl: true },
+  { code: "de", flag: "🇩🇪", native: "Deutsch" },
+  { code: "en", flag: "🇬🇧", native: "English" },
+  { code: "tr", flag: "🇹🇷", native: "Türkçe", latin: "Turkish" },
+  { code: "ru", flag: "🇷🇺", native: "Русский", latin: "Russian" },
+  { code: "uk", flag: "🇺🇦", native: "Українська", latin: "Ukrainian" },
+  { code: "ar", flag: "🇸🇦", native: "العربية", latin: "Arabic", rtl: true },
+  { code: "fr", flag: "🇫🇷", native: "Français", latin: "French" },
+  { code: "hi", flag: "🇮🇳", native: "हिन्दी", latin: "Hindi" },
+  { code: "pl", flag: "🇵🇱", native: "Polski", latin: "Polish" },
+  { code: "ro", flag: "🇷🇴", native: "Română", latin: "Romanian" },
+  { code: "fa", flag: "🇮🇷", native: "فارسی", latin: "Persian", rtl: true },
+  { code: "ur", flag: "🇵🇰", native: "اردو", latin: "Urdu", rtl: true },
 ];
 
 type Strings = {
