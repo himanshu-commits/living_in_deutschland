@@ -50,15 +50,30 @@ export function TranslateToggle() {
 
 function Star({ on, onPress }: { on: boolean; onPress: () => void }) {
   const c = useColors();
+  const { t } = useT();
+  const label = on ? t.markedAction : t.markAction;
   return (
     <Pressable
       accessibilityRole="button"
       accessibilityState={{ selected: on }}
-      accessibilityLabel={on ? "Marked" : "Not marked"}
+      accessibilityLabel={label}
       hitSlop={10}
       onPress={onPress}
+      style={({ pressed }) => ({
+        flexDirection: "row",
+        alignItems: "center",
+        gap: 5,
+        paddingVertical: 6,
+        paddingHorizontal: 10,
+        borderRadius: radius.pill,
+        borderWidth: StyleSheet.hairlineWidth,
+        borderColor: on ? c.accent : c.border,
+        backgroundColor: on ? c.accent : c.surface,
+        opacity: pressed ? 0.82 : 1,
+      })}
     >
-      <Text style={{ fontSize: 19, color: on ? c.accent : c.textMuted }}>{on ? "★" : "☆"}</Text>
+      <Text style={{ fontSize: 15, color: on ? c.accentText : c.textMuted }}>{on ? "★" : "☆"}</Text>
+      <Text style={{ ...type.label, fontSize: 11, color: on ? c.accentText : c.text }}>{label}</Text>
     </Pressable>
   );
 }
