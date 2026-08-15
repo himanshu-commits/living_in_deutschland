@@ -2,7 +2,7 @@ import { ScrollView, Text, View } from "react-native";
 import { Card } from "@/components";
 import { ScreenHeader } from "@/header";
 import { useT } from "@/storage";
-import { spacing, type, useColors } from "@/theme";
+import { layout, spacing, type, useColors } from "@/theme";
 
 export default function Help() {
   const c = useColors();
@@ -13,7 +13,14 @@ export default function Help() {
       <ScreenHeader title={t.help} />
       <ScrollView
         style={{ flex: 1 }}
-        contentContainerStyle={{ padding: spacing.lg, gap: spacing.md, paddingBottom: spacing.xxl }}
+        contentContainerStyle={{
+          width: "100%",
+          maxWidth: layout.contentMaxWidth,
+          alignSelf: "center",
+          padding: spacing.lg,
+          gap: spacing.md,
+          paddingBottom: spacing.xxl,
+        }}
       >
         {t.faq.map((item) => (
           <Card key={item.q}>

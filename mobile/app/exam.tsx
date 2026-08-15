@@ -6,7 +6,7 @@ import { HeaderBackButton, ScreenHeader } from "@/header";
 import { Illustration, ImageOptions } from "@/media";
 import { EXAM, examPaper, shuffledOptionIndices, type Question } from "@/questions";
 import { useStore, useT } from "@/storage";
-import { spacing, type, useColors } from "@/theme";
+import { layout, spacing, type, useColors } from "@/theme";
 
 function mmss(seconds: number) {
   const m = Math.floor(seconds / 60);
@@ -66,7 +66,16 @@ export default function Exam() {
           menu={false}
           left={<HeaderBackButton label={t.back} onPress={() => router.replace("/")} />}
         />
-        <ScrollView style={{ flex: 1 }} contentContainerStyle={{ padding: spacing.lg, gap: spacing.lg }}>
+        <ScrollView
+          style={{ flex: 1 }}
+          contentContainerStyle={{
+            width: "100%",
+            maxWidth: layout.contentMaxWidth,
+            alignSelf: "center",
+            padding: spacing.lg,
+            gap: spacing.lg,
+          }}
+        >
         <Card>
           <Label>{passed ? "Bestanden" : "Nicht bestanden"}</Label>
           <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm, marginVertical: spacing.sm }}>
@@ -139,7 +148,15 @@ export default function Exam() {
         menu={false}
         left={<HeaderBackButton label={t.exit} onPress={exitTest} />}
       />
-      <View style={{ padding: spacing.lg, gap: spacing.sm }}>
+      <View
+        style={{
+          width: "100%",
+          maxWidth: layout.contentMaxWidth,
+          alignSelf: "center",
+          padding: spacing.lg,
+          gap: spacing.sm,
+        }}
+      >
         <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
           <Label>
             Frage {at + 1} von {paper.length}
@@ -151,7 +168,16 @@ export default function Exam() {
         <ProgressBar value={answeredCount / paper.length} />
       </View>
 
-      <ScrollView contentContainerStyle={{ padding: spacing.lg, paddingTop: 0, gap: spacing.md }}>
+      <ScrollView
+        contentContainerStyle={{
+          width: "100%",
+          maxWidth: layout.contentMaxWidth,
+          alignSelf: "center",
+          padding: spacing.lg,
+          paddingTop: 0,
+          gap: spacing.md,
+        }}
+      >
         <Text style={{ ...type.question, color: c.text, marginBottom: spacing.sm }}>{q.question}</Text>
 
         {q.media && q.media.kind !== "options" && <Illustration media={q.media} />}

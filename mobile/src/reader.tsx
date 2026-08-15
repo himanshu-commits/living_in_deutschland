@@ -9,7 +9,7 @@ import { Image } from "react-native";
 import { shuffledOptionIndices, type Question } from "./questions";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useStore, useT } from "./storage";
-import { radius, spacing, type, useColors } from "./theme";
+import { layout, radius, spacing, type, useColors } from "./theme";
 
 /** The translate control that sits in every reader header. */
 export function TranslateToggle() {
@@ -306,7 +306,18 @@ export function QuestionList({
         right={<TranslateToggle />}
       />
       {filters && (
-        <View style={{ flexDirection: "row", gap: spacing.sm, padding: spacing.lg, paddingBottom: spacing.sm }}>
+        <View
+          style={{
+            width: "100%",
+            maxWidth: layout.contentMaxWidth,
+            alignSelf: "center",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            gap: spacing.sm,
+            padding: spacing.lg,
+            paddingBottom: spacing.sm,
+          }}
+        >
           {filters.map((f) => {
             const on = f.key === active;
             return (
@@ -346,7 +357,14 @@ export function QuestionList({
           <ScrollView
             ref={scroller}
             style={{ flex: 1 }}
-            contentContainerStyle={{ padding: spacing.lg, paddingTop: spacing.sm, paddingBottom: spacing.xl }}
+            contentContainerStyle={{
+              width: "100%",
+              maxWidth: layout.contentMaxWidth,
+              alignSelf: "center",
+              padding: spacing.lg,
+              paddingTop: spacing.sm,
+              paddingBottom: spacing.xl,
+            }}
           >
             <QuestionCard
               q={q}
@@ -368,6 +386,9 @@ export function QuestionList({
               flexDirection: "row",
               alignItems: "center",
               gap: spacing.md,
+              width: "100%",
+              maxWidth: layout.contentMaxWidth,
+              alignSelf: "center",
               paddingHorizontal: spacing.lg,
               paddingTop: spacing.md,
               paddingBottom: Math.max(insets.bottom, spacing.md),
@@ -452,6 +473,11 @@ export function QuestionList({
 
               <FlatList
                 data={shown}
+                style={{
+                  width: "100%",
+                  maxWidth: layout.contentMaxWidth,
+                  alignSelf: "center",
+                }}
                 keyExtractor={(item) => item.id}
                 initialScrollIndex={index}
                 getItemLayout={(_, i) => ({ length: 56, offset: 56 * i, index: i })}
@@ -550,7 +576,8 @@ function NavButton({
         backgroundColor: disabled ? c.surfaceAlt : c.text,
         borderRadius: radius.pill,
         paddingVertical: 12,
-        paddingHorizontal: spacing.xl,
+        minWidth: 68,
+        paddingHorizontal: spacing.md,
         opacity: pressed ? 0.85 : 1,
       })}
     >

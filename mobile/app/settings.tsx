@@ -5,7 +5,7 @@ import { Label } from "@/components";
 import { ScreenHeader } from "@/header";
 import { LANGUAGES } from "@/i18n";
 import { useStore, useT, type ThemeMode } from "@/storage";
-import { radius, spacing, type, useColors } from "@/theme";
+import { layout, radius, spacing, type, useColors } from "@/theme";
 
 const CONTACT_EMAIL = "khushireddy2001@gmail.com";
 
@@ -157,7 +157,14 @@ export default function Settings() {
       <ScreenHeader title={t.settings} />
       <ScrollView
         style={{ flex: 1 }}
-        contentContainerStyle={{ padding: spacing.lg, gap: spacing.lg, paddingBottom: spacing.xxl }}
+        contentContainerStyle={{
+          width: "100%",
+          maxWidth: layout.contentMaxWidth,
+          alignSelf: "center",
+          padding: spacing.lg,
+          gap: spacing.lg,
+          paddingBottom: spacing.xxl,
+        }}
       >
       <View style={{ gap: spacing.sm }}>
         <Label>{t.chooseLanguage}</Label>

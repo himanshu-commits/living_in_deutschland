@@ -5,7 +5,7 @@ import { Card, Label, ProgressBar } from "@/components";
 import { ScreenHeader } from "@/header";
 import { EXAM, poolFor } from "@/questions";
 import { useStore, useT } from "@/storage";
-import { radius, spacing, type, useColors } from "@/theme";
+import { layout, radius, spacing, type, useColors } from "@/theme";
 
 function Tile({
   title,
@@ -88,7 +88,17 @@ export default function Home() {
   return (
     <View style={{ flex: 1, backgroundColor: c.bg }}>
       <ScreenHeader title={t.home} />
-      <ScrollView style={{ flex: 1 }} contentContainerStyle={{ padding: spacing.lg, gap: spacing.md }}>
+      <ScrollView
+        style={{ flex: 1 }}
+        contentContainerStyle={{
+          width: "100%",
+          maxWidth: layout.contentMaxWidth,
+          alignSelf: "center",
+          padding: spacing.lg,
+          gap: spacing.md,
+          paddingBottom: spacing.xxl,
+        }}
+      >
         <Card>
         <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
           <Label>{t.readiness}</Label>
@@ -138,6 +148,36 @@ export default function Home() {
         )}
       </Card>
 
+      <Pressable
+        accessibilityRole="button"
+        accessibilityLabel={`${t.yourState}: ${state}. ${t.change}`}
+        onPress={() => router.push("/bundesland")}
+        style={({ pressed }) => ({
+          flexDirection: "row",
+          alignItems: "center",
+          gap: spacing.md,
+          padding: spacing.lg,
+          backgroundColor: pressed ? c.surfaceAlt : c.surface,
+          borderColor: c.border,
+          borderWidth: StyleSheet.hairlineWidth,
+          borderRadius: radius.lg,
+          opacity: pressed ? 0.9 : 1,
+        })}
+      >
+        <Text accessibilityElementsHidden style={{ fontSize: 24 }}>
+          📍
+        </Text>
+        <View style={{ flex: 1 }}>
+          <Text style={{ ...type.label, color: c.textMuted }}>{t.yourState}</Text>
+          <Text style={{ ...type.body, fontWeight: "700", color: c.text }} numberOfLines={1}>
+            {state}
+          </Text>
+        </View>
+        <Text style={{ ...type.body, fontSize: 14, fontWeight: "600", color: c.accent }}>
+          {t.change} ›
+        </Text>
+      </Pressable>
+
       <Tile
         title={t.allQuestions}
         note={`${t.allQuestionsNote} · ${state}`}
@@ -170,15 +210,6 @@ export default function Home() {
         onPress={() => router.push("/exam")}
       />
 
-      <Pressable
-        style={{ marginTop: spacing.sm }}
-        onPress={() => router.push("/bundesland")}
-        accessibilityRole="button"
-      >
-        <Text style={{ ...type.body, fontSize: 13, color: c.textMuted, textAlign: "center" }}>
-          {state} · {t.change}
-        </Text>
-      </Pressable>
       </ScrollView>
     </View>
   );

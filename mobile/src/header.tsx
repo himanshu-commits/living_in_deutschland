@@ -43,18 +43,19 @@ export function ScreenHeader({
         gap: spacing.sm,
       }}
     >
-      <View style={{ width: 40, alignItems: "flex-start" }}>
+      <View style={{ minWidth: 40, alignItems: "flex-start", flexShrink: 0 }}>
         {left ?? (menu ? <SideMenuButton /> : null)}
       </View>
       <Text
-        style={{ ...type.heading, color: c.text, flex: 1, textAlign: "center" }}
+        style={{ ...type.heading, color: c.text, flex: 1, minWidth: 0, textAlign: "center" }}
         numberOfLines={1}
       >
         {title}
       </Text>
       <View
         style={{
-          width: 40,
+          minWidth: 40,
+          flexShrink: 0,
           flexDirection: "row",
           justifyContent: "flex-end",
           alignItems: "center",

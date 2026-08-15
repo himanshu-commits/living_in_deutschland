@@ -47,6 +47,7 @@ type Strings = {
   languageNote: string;
   chooseState: string;
   stateNote: string;
+  yourState: string;
   home: string;
   allQuestions: string;
   allQuestionsNote: string;
@@ -142,6 +143,7 @@ const en: Strings = {
   languageNote: "The questions stay in German. You can see a translation at any time.",
   chooseState: "Where will you take the test?",
   stateNote: "The exam includes 3 questions about your federal state.",
+  yourState: "Your federal state",
   home: "Leben in Deutschland",
   allQuestions: "All questions",
   allQuestionsNote: "Read and prepare",
@@ -254,6 +256,7 @@ const de: Strings = {
   languageNote: "Die Fragen bleiben auf Deutsch. Die Übersetzung ist jederzeit verfügbar.",
   chooseState: "Wo machst du den Test?",
   stateNote: "Im Test bekommst du 3 Fragen zu deinem Bundesland.",
+  yourState: "Dein Bundesland",
   home: "Leben in Deutschland",
   allQuestions: "Alle Fragen",
   allQuestionsNote: "Lesen und vorbereiten",
@@ -970,6 +973,7 @@ const ur: Strings = {
   languageNote: "سوالات جرمن زبان میں رہیں گے۔ آپ کسی بھی وقت ترجمہ دیکھ سکتے ہیں۔",
   chooseState: "آپ امتحان کہاں دیں گے؟",
   stateNote: "امتحان میں آپ کی وفاقی ریاست کے بارے میں 3 سوالات شامل ہیں۔",
+  yourState: "آپ کی وفاقی ریاست",
   allQuestions: "تمام سوالات",
   allQuestionsNote: "پڑھیں اور تیاری کریں",
   practice: "مشق",

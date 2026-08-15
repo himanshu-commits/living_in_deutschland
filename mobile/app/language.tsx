@@ -3,7 +3,7 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { ScreenHeader } from "@/header";
 import { LANGUAGES, strings, type LangCode } from "@/i18n";
 import { useStore } from "@/storage";
-import { radius, spacing, type, useColors } from "@/theme";
+import { layout, radius, spacing, type, useColors } from "@/theme";
 
 export default function LanguagePicker() {
   const c = useColors();
@@ -24,7 +24,14 @@ export default function LanguagePicker() {
       <ScreenHeader title={t.chooseLanguage} />
       <ScrollView
         style={{ flex: 1 }}
-        contentContainerStyle={{ padding: spacing.lg, gap: spacing.md, paddingBottom: spacing.xxl }}
+        contentContainerStyle={{
+          width: "100%",
+          maxWidth: layout.contentMaxWidth,
+          alignSelf: "center",
+          padding: spacing.lg,
+          gap: spacing.md,
+          paddingBottom: spacing.xxl,
+        }}
       >
       <Text style={{ ...type.body, color: c.textMuted }}>{t.languageNote}</Text>
 

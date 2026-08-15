@@ -38,6 +38,7 @@ export type Colors = typeof palette.light;
 
 export const spacing = { xs: 4, sm: 8, md: 12, lg: 16, xl: 24, xxl: 32 };
 export const radius = { sm: 8, md: 12, lg: 16, xl: 22, pill: 999 };
+export const layout = { contentMaxWidth: 760 };
 
 export const type = {
   title: { fontSize: 28, fontWeight: "700" as const, letterSpacing: -0.4 },
