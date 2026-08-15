@@ -51,6 +51,16 @@ type Strings = {
   home: string;
   allQuestions: string;
   allQuestionsNote: string;
+  topics: string;
+  topicsNote: string;
+  questionsLabel: string;
+  topicClusters: string;
+  readTopic: string;
+  topicGroups: {
+    democracy: string;
+    history: string;
+    society: string;
+  };
   practice: string;
   practiceNote: string;
   readiness: string;
@@ -147,6 +157,16 @@ const en: Strings = {
   home: "Leben in Deutschland",
   allQuestions: "All questions",
   allQuestionsNote: "Read and prepare",
+  topics: "Topics",
+  topicsNote: "Study related questions together, then practise one topic at a time.",
+  questionsLabel: "questions",
+  topicClusters: "topic groups",
+  readTopic: "Read",
+  topicGroups: {
+    democracy: "Life in a democracy",
+    history: "History and responsibility",
+    society: "People and society",
+  },
   practice: "Practice",
   practiceNote: "Answer and check yourself",
   readiness: "Readiness",
@@ -260,6 +280,16 @@ const de: Strings = {
   home: "Leben in Deutschland",
   allQuestions: "Alle Fragen",
   allQuestionsNote: "Lesen und vorbereiten",
+  topics: "Themen",
+  topicsNote: "Lerne ähnliche Fragen zusammen und übe anschließend ein Thema gezielt.",
+  questionsLabel: "Fragen",
+  topicClusters: "Themengruppen",
+  readTopic: "Lesen",
+  topicGroups: {
+    democracy: "Leben in der Demokratie",
+    history: "Geschichte und Verantwortung",
+    society: "Mensch und Gesellschaft",
+  },
   practice: "Üben",
   practiceNote: "Antworten und selbst prüfen",
   readiness: "Bereitschaft",
@@ -976,6 +1006,16 @@ const ur: Strings = {
   yourState: "آپ کی وفاقی ریاست",
   allQuestions: "تمام سوالات",
   allQuestionsNote: "پڑھیں اور تیاری کریں",
+  topics: "موضوعات",
+  topicsNote: "ملتے جلتے سوالات ایک ساتھ پڑھیں، پھر ایک موضوع کی مشق کریں۔",
+  questionsLabel: "سوالات",
+  topicClusters: "موضوعاتی گروپس",
+  readTopic: "پڑھیں",
+  topicGroups: {
+    democracy: "جمہوری زندگی",
+    history: "تاریخ اور ذمہ داری",
+    society: "انسان اور معاشرہ",
+  },
   practice: "مشق",
   practiceNote: "جواب دیں اور خود کو جانچیں",
   readiness: "تیاری",

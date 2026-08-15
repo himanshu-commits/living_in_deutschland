@@ -3,7 +3,7 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { analyse } from "@/analysis";
 import { Card, Label, ProgressBar } from "@/components";
 import { ScreenHeader } from "@/header";
-import { EXAM, poolFor } from "@/questions";
+import { BUNDESLAND_CODES, EXAM, poolFor } from "@/questions";
 import { useStore, useT } from "@/storage";
 import { layout, radius, spacing, type, useColors } from "@/theme";
 
@@ -57,6 +57,50 @@ function Tile({
       >
         {count}
       </Text>
+    </Pressable>
+  );
+}
+
+function UtilityPill({
+  icon,
+  label,
+  accessibilityLabel,
+  onPress,
+}: {
+  icon: string;
+  label: string;
+  accessibilityLabel?: string;
+  onPress: () => void;
+}) {
+  const c = useColors();
+  return (
+    <Pressable
+      accessibilityRole="button"
+      accessibilityLabel={accessibilityLabel ?? label}
+      onPress={onPress}
+      style={({ pressed }) => ({
+        flex: 1,
+        minWidth: 0,
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: spacing.sm,
+        paddingVertical: 10,
+        paddingHorizontal: spacing.md,
+        backgroundColor: pressed ? c.surfaceAlt : c.surface,
+        borderColor: c.border,
+        borderWidth: StyleSheet.hairlineWidth,
+        borderRadius: radius.pill,
+        opacity: pressed ? 0.85 : 1,
+      })}
+    >
+      <Text accessibilityElementsHidden style={{ fontSize: 17, color: c.accent }}>
+        {icon}
+      </Text>
+      <Text style={{ ...type.label, color: c.text, flexShrink: 1 }} numberOfLines={1}>
+        {label}
+      </Text>
+      <Text accessibilityElementsHidden style={{ fontSize: 15, color: c.textMuted }}>›</Text>
     </Pressable>
   );
 }
@@ -148,36 +192,6 @@ export default function Home() {
         )}
       </Card>
 
-      <Pressable
-        accessibilityRole="button"
-        accessibilityLabel={`${t.yourState}: ${state}. ${t.change}`}
-        onPress={() => router.push("/bundesland")}
-        style={({ pressed }) => ({
-          flexDirection: "row",
-          alignItems: "center",
-          gap: spacing.md,
-          padding: spacing.lg,
-          backgroundColor: pressed ? c.surfaceAlt : c.surface,
-          borderColor: c.border,
-          borderWidth: StyleSheet.hairlineWidth,
-          borderRadius: radius.lg,
-          opacity: pressed ? 0.9 : 1,
-        })}
-      >
-        <Text accessibilityElementsHidden style={{ fontSize: 24 }}>
-          📍
-        </Text>
-        <View style={{ flex: 1 }}>
-          <Text style={{ ...type.label, color: c.textMuted }}>{t.yourState}</Text>
-          <Text style={{ ...type.body, fontWeight: "700", color: c.text }} numberOfLines={1}>
-            {state}
-          </Text>
-        </View>
-        <Text style={{ ...type.body, fontSize: 14, fontWeight: "600", color: c.accent }}>
-          {t.change} ›
-        </Text>
-      </Pressable>
-
       <Tile
         title={t.allQuestions}
         note={`${t.allQuestionsNote} · ${state}`}
@@ -197,19 +211,27 @@ export default function Home() {
         onPress={() => router.push("/mistakes")}
       />
       <Tile
-        title={t.marked}
-        note={t.markedNote}
-        count={String(marked.length)}
-        onPress={() => router.push("/marked")}
-      />
-      <Tile
         title={t.test}
         note={t.testNote}
         count="→"
         filled
         onPress={() => router.push("/exam")}
       />
-
+      <View style={{ flexDirection: "row", gap: spacing.sm, marginTop: spacing.xs }}>
+        <UtilityPill
+          icon="📍"
+          label={BUNDESLAND_CODES[state] ?? state}
+          accessibilityLabel={`${t.yourState}: ${state}`}
+          onPress={() => router.push("/bundesland")}
+        />
+        <UtilityPill icon="▦" label={t.topics} onPress={() => router.push("/topics")} />
+        <UtilityPill
+          icon="☆"
+          label={`${t.markedAction} ${marked.length}`}
+          accessibilityLabel={`${t.marked}: ${marked.length}`}
+          onPress={() => router.push("/marked")}
+        />
+      </View>
       </ScrollView>
     </View>
   );

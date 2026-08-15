@@ -31,6 +31,25 @@ export const BUNDESLAENDER: string[] = [...new Set(ALL.map((q) => q.scope))]
   .filter((s) => s !== "ALL")
   .sort((a, b) => a.localeCompare(b, "de"));
 
+export const BUNDESLAND_CODES: Record<string, string> = {
+  "Baden-Württemberg": "BW",
+  Bayern: "BY",
+  Berlin: "BE",
+  Brandenburg: "BB",
+  Bremen: "HB",
+  Hamburg: "HH",
+  Hessen: "HE",
+  "Mecklenburg-Vorpommern": "MV",
+  Niedersachsen: "NI",
+  "Nordrhein-Westfalen": "NRW",
+  "Rheinland-Pfalz": "RP",
+  Saarland: "SL",
+  Sachsen: "SN",
+  "Sachsen-Anhalt": "ST",
+  "Schleswig-Holstein": "SH",
+  Thüringen: "TH",
+};
+
 /** The real exam draws 30 general + 3 state questions, in 60 minutes, pass at 17. */
 export const EXAM = { general: 30, state: 3, minutes: 60, pass: 17 } as const;
 
