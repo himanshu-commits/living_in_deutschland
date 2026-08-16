@@ -1,11 +1,14 @@
 import { router, useLocalSearchParams } from "expo-router";
+import { useEffect, useState } from "react";
 import { ScrollView, Text, View } from "react-native";
+import type { PurchasesPackage } from "react-native-purchases";
 import { Button, Card, Label, Notice } from "@/components";
 import { useEntitlement } from "@/entitlements";
 import { ScreenHeader } from "@/header";
 import type { PremiumFeature } from "@/premium";
 import { useSession } from "@/sync";
 import { layout, spacing, type, useColors } from "@/theme";
+import { buyLifetime, hasPremium, loadLifetimePackage, purchasesConfigured, restorePremium } from "@/purchases";
 
 const BENEFITS = [
   "Detailed explanations and translated hints",
@@ -33,7 +36,65 @@ export default function Premium() {
   const c = useColors();
   const { feature } = useLocalSearchParams<{ feature?: PremiumFeature }>();
   const { session } = useSession();
-  const { status, isPremium } = useEntitlement();
+  const { status, isPremium, grantVerifiedPremium } = useEntitlement();
+  const [offer, setOffer] = useState<PurchasesPackage | null>(null);
+  const [loadingOffer, setLoadingOffer] = useState(false);
+  const [busy, setBusy] = useState<"purchase" | "restore" | null>(null);
+  const [message, setMessage] = useState<string | null>(null);
+  const storeConfigured = purchasesConfigured();
+
+  useEffect(() => {
+    if (!session || isPremium || !storeConfigured) return;
+    let active = true;
+    setLoadingOffer(true);
+    loadLifetimePackage(session.user.id)
+      .then((item) => {
+        if (!active) return;
+        setOffer(item);
+        if (!item) setMessage("The lifetime product is not available in the store yet.");
+      })
+      .catch((error: unknown) => {
+        if (active) setMessage(error instanceof Error ? error.message : "Unable to load the store product.");
+      })
+      .finally(() => { if (active) setLoadingOffer(false); });
+    return () => { active = false; };
+  }, [isPremium, session, storeConfigured]);
+
+  async function purchase() {
+    if (!offer) return;
+    setBusy("purchase");
+    setMessage(null);
+    try {
+      const customerInfo = await buyLifetime(offer);
+      if (!hasPremium(customerInfo)) throw new Error("The purchase completed, but Premium was not returned by the store.");
+      await grantVerifiedPremium();
+      setMessage("Premium is now active. Thank you!");
+    } catch (error: unknown) {
+      const cancelled = typeof error === "object" && error !== null && "userCancelled" in error && error.userCancelled === true;
+      if (!cancelled) setMessage(error instanceof Error ? error.message : "The purchase could not be completed.");
+    } finally {
+      setBusy(null);
+    }
+  }
+
+  async function restore() {
+    if (!session) return;
+    setBusy("restore");
+    setMessage(null);
+    try {
+      const customerInfo = await restorePremium(session.user.id);
+      if (!hasPremium(customerInfo)) {
+        setMessage("No previous Premium purchase was found for this store account.");
+        return;
+      }
+      await grantVerifiedPremium();
+      setMessage("Your Premium purchase has been restored.");
+    } catch (error: unknown) {
+      setMessage(error instanceof Error ? error.message : "Purchases could not be restored.");
+    } finally {
+      setBusy(null);
+    }
+  }
 
   return (
     <View style={{ flex: 1, backgroundColor: c.bg }}>
@@ -50,6 +111,7 @@ export default function Premium() {
 
         {feature && FEATURE_NOTE[feature] ? <Notice tone="info">{FEATURE_NOTE[feature]}</Notice> : null}
         {isPremium ? <Notice tone="info">Premium is active on this account.</Notice> : null}
+        {message ? <Notice tone="info">{message}</Notice> : null}
 
         <Card>
           <Label>Everything in Premium</Label>
@@ -74,8 +136,18 @@ export default function Premium() {
 
         {!isPremium && session ? (
           <>
-            <Button label="Lifetime purchase — coming soon" onPress={() => {}} disabled />
-            <Button label="Restore purchases — coming soon" variant="ghost" onPress={() => {}} disabled />
+            {!storeConfigured ? <Notice tone="info">Store purchases are ready in the app but still need RevenueCat public SDK keys.</Notice> : null}
+            <Button
+              label={loadingOffer ? "Loading store price…" : offer ? `Unlock forever — ${offer.product.priceString}` : "Lifetime purchase unavailable"}
+              onPress={purchase}
+              disabled={!offer || busy !== null || loadingOffer}
+            />
+            <Button
+              label={busy === "restore" ? "Restoring…" : "Restore purchases"}
+              variant="ghost"
+              onPress={restore}
+              disabled={!storeConfigured || busy !== null}
+            />
           </>
         ) : null}
 

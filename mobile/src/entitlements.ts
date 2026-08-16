@@ -11,6 +11,7 @@ type EntitlementState = {
   status: EntitlementStatus;
   isPremium: boolean;
   refresh(): Promise<void>;
+  grantVerifiedPremium(): Promise<void>;
 };
 
 const EntitlementCtx = createContext<EntitlementState | null>(null);
@@ -49,6 +50,11 @@ export function EntitlementProvider({ children }: { children: ReactNode }) {
     }
   }, [session, sessionLoading]);
 
+  const grantVerifiedPremium = useCallback(async () => {
+    await AsyncStorage.setItem(PREMIUM_CACHE_KEY, "1");
+    setStatus("premium");
+  }, []);
+
   useEffect(() => {
     setStatus("loading");
     void refresh();
@@ -63,7 +69,7 @@ export function EntitlementProvider({ children }: { children: ReactNode }) {
 
   return createElement(
     EntitlementCtx.Provider,
-    { value: { status, isPremium: status === "premium", refresh } },
+    { value: { status, isPremium: status === "premium", refresh, grantVerifiedPremium } },
     children,
   );
 }
