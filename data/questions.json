@@ -1293,7 +1293,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What does the German Basic Law forbid?",
+    "options": [
+     "military service",
+     "forced labor",
+     "free choice of occupation",
+     "working abroad"
+    ]
+   },
+   "tr": {
+    "question": "Alman Anayasası (Grundgesetz) neyi yasaklar?",
+    "options": [
+     "Askerlik hizmetini",
+     "Zorla çalıştırmayı",
+     "Serbest meslek seçimini",
+     "Yurt dışında çalışmayı"
+    ]
+   },
+   "ru": {
+    "question": "Что запрещает немецкий Основной закон?",
+    "options": [
+     "воинскую службу",
+     "принудительный труд",
+     "свободный выбор профессии",
+     "работу за границей"
+    ]
+   },
+   "fr": {
+    "question": "Qu'est-ce que la Loi fondamentale allemande interdit ?",
+    "options": [
+     "Le service militaire",
+     "Le travail forcé",
+     "Le libre choix de la profession",
+     "Le travail à l'étranger"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يحظر القانون الأساسي الألماني؟",
+    "options": [
+     "الخدمة العسكرية",
+     "السخرة",
+     "حرية اختيار المهنة",
+     "العمل في الخارج"
+    ]
+   },
+   "uk": {
+    "question": "Що забороняє німецький Основний закон?",
+    "options": [
+     "військову службу",
+     "примусову працю",
+     "вільний вибір професії",
+     "роботу за кордоном"
+    ]
+   },
+   "hi": {
+    "question": "जर्मन मूल कानून (ग्रुंडगेसेत्स) क्या वर्जित करता है?",
+    "options": [
+     "सैन्य सेवा",
+     "जबरन मज़दूरी",
+     "स्वतंत्र पेशा चुनना",
+     "विदेश में काम करना"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.414
@@ -1774,7 +1838,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which is the coat of arms of the Federal Republic of Germany?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Almanya Federal Cumhuriyeti'nin arması hangisidir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой из гербов является гербом Федеративной Республики Германия?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Lequel est le blason de la République fédérale d'Allemagne ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار جمهورية ألمانيا الاتحادية؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить Федеративній Республіці Німеччина?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "जर्मनी संघीय गणराज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.927,
    "lid": 0.463
@@ -3165,7 +3293,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What are the heads of government of most German federal states called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Senator",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Almanya'daki eyaletlerin çoğunda hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Senatör",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют глав правительств большинства федеральных земель Германии?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "сенатор",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on les chefs de gouvernement de la plupart des Länder allemands ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Sénatrice/Sénateur",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رؤساء حكومات معظم الولايات الاتحادية في ألمانيا؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "السيناتورة/السيناتور",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають глав урядів більшості федеральних земель Німеччини?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "сенаторка/сенатор",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "जर्मनी के अधिकांश संघीय राज्यों (बुंडेसलैंडर) के सरकार प्रमुखों को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "सेनेटर (सेनातोरिन/सेनातोर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.712
@@ -7195,7 +7387,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Who leads the German federal cabinet?",
+    "options": [
+     "the President of the Bundestag",
+     "the Federal President",
+     "the President of the Bundesrat",
+     "the Federal Chancellor"
+    ]
+   },
+   "tr": {
+    "question": "Alman Federal Kabinesi'ni kim yönetir?",
+    "options": [
+     "Federal Meclis Başkanı",
+     "Federal Cumhurbaşkanı",
+     "Federal Konsey Başkanı",
+     "Federal Şansölye"
+    ]
+   },
+   "ru": {
+    "question": "Кто возглавляет федеральное правительство (кабинет министров) Германии?",
+    "options": [
+     "председатель бундестага",
+     "федеральный президент",
+     "председатель бундесрата",
+     "федеральный канцлер"
+    ]
+   },
+   "fr": {
+    "question": "Qui dirige le cabinet fédéral allemand ?",
+    "options": [
+     "La présidente/le président du Bundestag",
+     "La présidente fédérale/le président fédéral",
+     "La présidente/le président du Bundesrat",
+     "La chancelière fédérale/le chancelier fédéral"
+    ]
+   },
+   "ar": {
+    "question": "من يرأس مجلس الوزراء الاتحادي الألماني؟",
+    "options": [
+     "رئيسة/رئيس البرلمان الاتحادي (البوندستاغ)",
+     "رئيسة/رئيس الجمهورية الاتحادية",
+     "رئيسة/رئيس المجلس الاتحادي (البوندسرات)",
+     "المستشارة الاتحادية/المستشار الاتحادي"
+    ]
+   },
+   "uk": {
+    "question": "Хто очолює федеральний кабінет міністрів Німеччини?",
+    "options": [
+     "президентка/президент Бундестагу",
+     "федеральна президентка/федеральний президент",
+     "президентка/президент Бундесрату",
+     "федеральна канцлерка/федеральний канцлер"
+    ]
+   },
+   "hi": {
+    "question": "जर्मन संघीय मंत्रिमंडल (बुंडेसकाबिनेट) का नेतृत्व कौन करता है?",
+    "options": [
+     "संघीय संसद अध्यक्ष (बुंडेसटागप्रेजिडेंटिन/बुंडेसटागप्रेजिडेंट)",
+     "संघीय राष्ट्रपति (बुंडेसप्रेजिडेंटिन/बुंडेसप्रेजिडेंट)",
+     "संघीय परिषद अध्यक्ष (बुंडेसरातप्रेजिडेंटिन/बुंडेसरातप्रेजिडेंट)",
+     "संघीय चांसलर (बुंडेसकांत्सलरिन/बुंडेसकांत्सलर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.682
@@ -7585,7 +7841,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Who is the head of state of the Federal Republic of Germany?",
+    "options": [
+     "the Federal Chancellor",
+     "the Federal President",
+     "the President of the Bundesrat",
+     "the President of the Bundestag"
+    ]
+   },
+   "tr": {
+    "question": "Almanya Federal Cumhuriyeti'nin devlet başkanı kimdir?",
+    "options": [
+     "Federal Şansölye",
+     "Federal Cumhurbaşkanı",
+     "Federal Konsey Başkanı",
+     "Federal Meclis Başkanı"
+    ]
+   },
+   "ru": {
+    "question": "Кто является главой государства Федеративной Республики Германия?",
+    "options": [
+     "федеральный канцлер",
+     "федеральный президент",
+     "председатель бундесрата",
+     "председатель бундестага"
+    ]
+   },
+   "fr": {
+    "question": "Qui est le chef de l'État de la République fédérale d'Allemagne ?",
+    "options": [
+     "La chancelière fédérale/le chancelier fédéral",
+     "La présidente fédérale/le président fédéral",
+     "La présidente/le président du Bundesrat",
+     "La présidente/le président du Bundestag"
+    ]
+   },
+   "ar": {
+    "question": "من هو رئيس الدولة في جمهورية ألمانيا الاتحادية؟",
+    "options": [
+     "المستشارة الاتحادية/المستشار الاتحادي",
+     "رئيسة/رئيس الجمهورية الاتحادية",
+     "رئيسة/رئيس المجلس الاتحادي (البوندسرات)",
+     "رئيسة/رئيس البرلمان الاتحادي (البوندستاغ)"
+    ]
+   },
+   "uk": {
+    "question": "Хто є главою держави Федеративної Республіки Німеччина?",
+    "options": [
+     "федеральна канцлерка/федеральний канцлер",
+     "федеральна президентка/федеральний президент",
+     "президентка/президент Бундесрату",
+     "президентка/президент Бундестагу"
+    ]
+   },
+   "hi": {
+    "question": "जर्मनी संघीय गणराज्य का राष्ट्राध्यक्ष कौन है?",
+    "options": [
+     "संघीय चांसलर (बुंडेसकांत्सलरिन/बुंडेसकांत्सलर)",
+     "संघीय राष्ट्रपति (बुंडेसप्रेजिडेंटिन/बुंडेसप्रेजिडेंट)",
+     "संघीय परिषद अध्यक्ष (बुंडेसरातप्रेजिडेंटिन/बुंडेसरातप्रेजिडेंट)",
+     "संघीय संसद अध्यक्ष (बुंडेसटागप्रेजिडेंटिन/बुंडेसटागप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.682
@@ -11251,7 +11571,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Members of parliament who are elected by the citizens are called …",
+    "options": [
+     "members of parliament (Abgeordnete).",
+     "chancellors.",
+     "ambassadors.",
+     "minister presidents."
+    ]
+   },
+   "tr": {
+    "question": "Vatandaşlar tarafından seçilen parlamento üyelerine ne denir?",
+    "options": [
+     "Milletvekilleri.",
+     "Şansölyeler.",
+     "Büyükelçiler.",
+     "Eyalet Başbakanları."
+    ]
+   },
+   "ru": {
+    "question": "Члены парламента, избираемые гражданами, называются …",
+    "options": [
+     "депутаты.",
+     "канцлеры.",
+     "послы.",
+     "министры-президенты."
+    ]
+   },
+   "fr": {
+    "question": "Les membres du Parlement élus par les citoyennes et citoyens sont appelés …",
+    "options": [
+     "Des députés.",
+     "Des chancelières/chanceliers.",
+     "Des ambassadrices/ambassadeurs.",
+     "Des ministres-présidentes/ministres-présidents."
+    ]
+   },
+   "ar": {
+    "question": "أعضاء البرلمان الذين ينتخبهم المواطنون يُطلق عليهم …",
+    "options": [
+     "نواب.",
+     "مستشارات/مستشارون.",
+     "سفيرات/سفراء.",
+     "رئيسات/رؤساء وزراء الولايات."
+    ]
+   },
+   "uk": {
+    "question": "Членів парламенту, обраних громадянами, називають …",
+    "options": [
+     "депутатами.",
+     "канцлерками/канцлерами.",
+     "посольками/послами.",
+     "міністрами-президентами."
+    ]
+   },
+   "hi": {
+    "question": "नागरिकों द्वारा चुने गए संसद सदस्यों को क्या कहा जाता है …",
+    "options": [
+     "सांसद (आब्गेओर्डनेटे)।",
+     "चांसलर।",
+     "राजदूत।",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)।"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.788
@@ -11277,7 +11661,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "In Germany, who is elected by the people?",
+    "options": [
+     "the Federal Chancellor.",
+     "the Minister President of a federal state.",
+     "the Bundestag.",
+     "the Federal President."
+    ]
+   },
+   "tr": {
+    "question": "Almanya'da halk tarafından seçilen kimdir?",
+    "options": [
+     "Federal Şansölye.",
+     "Bir eyaletin Eyalet Başbakanı.",
+     "Federal Meclis (Bundestag).",
+     "Federal Cumhurbaşkanı."
+    ]
+   },
+   "ru": {
+    "question": "Кого в Германии избирает народ?",
+    "options": [
+     "федерального канцлера.",
+     "министра-президента федеральной земли.",
+     "бундестаг.",
+     "федерального президента."
+    ]
+   },
+   "fr": {
+    "question": "En Allemagne, qui est élu(e) par le peuple ?",
+    "options": [
+     "La chancelière fédérale/le chancelier fédéral.",
+     "La ministre-présidente/le ministre-président d'un Land.",
+     "Le Bundestag.",
+     "La présidente fédérale/le président fédéral."
+    ]
+   },
+   "ar": {
+    "question": "الذي ينتخبه الشعب في ألمانيا هو …",
+    "options": [
+     "المستشارة الاتحادية/المستشار الاتحادي.",
+     "رئيسة/رئيس وزراء إحدى الولايات الاتحادية.",
+     "البرلمان الاتحادي (البوندستاغ).",
+     "رئيسة/رئيس الجمهورية الاتحادية."
+    ]
+   },
+   "uk": {
+    "question": "Народом у Німеччині обирається …",
+    "options": [
+     "федеральна канцлерка/федеральний канцлер.",
+     "міністр-президентка/міністр-президент федеральної землі.",
+     "Бундестаг.",
+     "федеральна президентка/федеральний президент."
+    ]
+   },
+   "hi": {
+    "question": "जर्मनी में जनता द्वारा किसे चुना जाता है …",
+    "options": [
+     "संघीय चांसलर को।",
+     "किसी संघीय राज्य के मंत्री-प्रमुख को।",
+     "संघीय संसद (बुंडेसटाग) को।",
+     "संघीय राष्ट्रपति को।"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.786
@@ -13122,7 +13570,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "A lay judge (Schöffe/Schöffin) in Germany is …",
+    "options": [
+     "the deputy of the head of a city.",
+     "a volunteer judge.",
+     "a member of a local council.",
+     "a person who has studied law."
+    ]
+   },
+   "tr": {
+    "question": "Almanya'da bir mahkeme jürisi üyesi (Schöffe) …",
+    "options": [
+     "belediye başkanının vekilidir.",
+     "fahri (gönüllü) bir hâkimdir.",
+     "bir belediye meclisi üyesidir.",
+     "hukuk eğitimi almış bir kişidir."
+    ]
+   },
+   "ru": {
+    "question": "Судебный заседатель (шёффен) в Германии — это …",
+    "options": [
+     "заместитель главы города.",
+     "судья на общественных началах.",
+     "член совета общины.",
+     "человек, получивший юридическое образование."
+    ]
+   },
+   "fr": {
+    "question": "Un échevin/une échevine (Gerichtsschöffe/-in) en Allemagne est …",
+    "options": [
+     "La/le suppléant(e) du chef de la ville.",
+     "Une juge/un juge non professionnel(le) exerçant à titre bénévole.",
+     "Un membre d'un conseil municipal.",
+     "Une personne ayant fait des études de droit."
+    ]
+   },
+   "ar": {
+    "question": "القاضية الشعبية/القاضي الشعبي في ألمانيا هو/هي …",
+    "options": [
+     "نائبة/نائب رئيس المدينة.",
+     "قاضية فخرية/قاضٍ فخري.",
+     "عضو في مجلس بلدي.",
+     "شخص درس الحقوق."
+    ]
+   },
+   "uk": {
+    "question": "Судова засідателька/судовий засідатель у Німеччині — це …",
+    "options": [
+     "заступниця/заступник голови міста.",
+     "почесна суддя/почесний суддя на громадських засадах.",
+     "член громадської ради.",
+     "особа, яка вивчала право."
+    ]
+   },
+   "hi": {
+    "question": "जर्मनी में एक न्यायिक सहायक न्यायाधीश (गेरिष्ट्सशोफे) होता है …",
+    "options": [
+     "शहर प्रमुख का उप-प्रतिनिधि।",
+     "एक अवैतनिक/मानद न्यायाधीश।",
+     "नगर परिषद का सदस्य।",
+     "एक व्यक्ति जिसने कानून की पढ़ाई की हो।"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.751
@@ -18426,7 +18938,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which was the coat of arms of the German Democratic Republic?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Alman Demokratik Cumhuriyeti'nin (Doğu Almanya) arması hangisiydi? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой из гербов был гербом Германской Демократической Республики?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel était le blason de la République démocratique allemande ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار جمهورية ألمانيا الديمقراطية؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належав Німецькій Демократичній Республіці?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "जर्मन जनवादी गणराज्य (डीडीआर/पूर्वी जर्मनी) का राजचिह्न (चित्र) कौन सा था?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.934,
    "lid": 0.469
@@ -26550,7 +27126,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Foreign workers who were recruited by the Federal Republic of Germany in the 1950s and 1960s were called …",
+    "options": [
+     "illegal workers.",
+     "guest workers.",
+     "temporary workers.",
+     "shift workers."
+    ]
+   },
+   "tr": {
+    "question": "1950'li ve 1960'lı yıllarda Almanya Federal Cumhuriyeti tarafından işe alınan yabancı işçilere ne denirdi?",
+    "options": [
+     "Kayıt dışı işçiler.",
+     "Misafir işçiler (Gastarbeiter).",
+     "Geçici işçiler.",
+     "Vardiyalı işçiler."
+    ]
+   },
+   "ru": {
+    "question": "Как называли иностранных работников, приглашённых в ФРГ в 50-е и 60-е годы?",
+    "options": [
+     "нелегальные работники",
+     "гастарбайтеры",
+     "временные работники",
+     "сменные работники"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelait-on les travailleuses et travailleurs étrangers recrutés par la République fédérale d'Allemagne dans les années 1950 et 1960 ?",
+    "options": [
+     "Travailleuses/travailleurs au noir.",
+     "Travailleuses/travailleurs immigrés (Gastarbeiter).",
+     "Travailleuses/travailleurs intérimaires.",
+     "Travailleuses/travailleurs postés."
+    ]
+   },
+   "ar": {
+    "question": "العمال الأجانب الذين استقدمتهم جمهورية ألمانيا الاتحادية في خمسينيات وستينيات القرن الماضي كانوا يُطلق عليهم …",
+    "options": [
+     "عمال السوق السوداء.",
+     "العمال الضيوف.",
+     "العمال المؤقتون.",
+     "عمال الورديات."
+    ]
+   },
+   "uk": {
+    "question": "Іноземних працівниць і працівників, найнятих Федеративною Республікою Німеччина у 50-х і 60-х роках, називали …",
+    "options": [
+     "нелегальними працівниками.",
+     "гастарбайтерами.",
+     "тимчасовими працівниками.",
+     "змінними працівниками."
+    ]
+   },
+   "hi": {
+    "question": "50 और 60 के दशक में जर्मनी संघीय गणराज्य द्वारा भर्ती किए गए विदेशी श्रमिकों को क्या कहा जाता था …",
+    "options": [
+     "अवैध श्रमिक (श्वार्त्सारबाइटरिन/श्वार्त्सारबाइटर)।",
+     "अतिथि श्रमिक (गास्टारबाइटरिन/गास्टारबाइटर)।",
+     "अस्थायी श्रमिक (त्साइटारबाइटरिन/त्साइटारबाइटर)।",
+     "पाली में काम करने वाले श्रमिक (शिष्टारबाइटरिन/शिष्टारबाइटर)।"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.702
@@ -26667,7 +27307,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the federal state of Baden-Württemberg?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Baden-Württemberg eyaletine hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит федеральной земле Баден-Вюртемберг?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient au Land de Bade-Wurtemberg ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية بادن-فورتمبيرغ؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить федеральній землі Баден-Вюртемберг?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "बादेन-व्युर्टेमबर्ग संघीय राज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.926,
    "lid": 0.462
@@ -27329,7 +28033,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Baden-Württemberg called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Baden-Württemberg'de hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства земли Баден-Вюртемберг?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement du Bade-Wurtemberg ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة بادن-فورتمبيرغ؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Баден-Вюртемберзі?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "बादेन-व्युर्टेमबर्ग में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.62
@@ -27355,7 +28123,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Baden-Württemberg not have?",
+    "options": [
+     "Minister of Finance",
+     "Minister of Justice",
+     "Minister of the Interior",
+     "Minister of Foreign Affairs"
+    ]
+   },
+   "tr": {
+    "question": "Baden-Württemberg'de hangi bakanlık yoktur?",
+    "options": [
+     "Maliye Bakanlığı",
+     "Adalet Bakanlığı",
+     "İçişleri Bakanlığı",
+     "Dışişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Баден-Вюртемберге?",
+    "options": [
+     "министр финансов",
+     "министр юстиции",
+     "министр внутренних дел",
+     "министр иностранных дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre le Bade-Wurtemberg n'a-t-il pas ?",
+    "options": [
+     "Ministre des Finances",
+     "Ministre de la Justice",
+     "Ministre de l'Intérieur",
+     "Ministre des Affaires étrangères"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه بادن-فورتمبيرغ؟",
+    "options": [
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الداخلية",
+     "وزيرة/وزير الخارجية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Баден-Вюртемберзі?",
+    "options": [
+     "міністерки/міністра фінансів",
+     "міністерки/міністра юстиції",
+     "міністерки/міністра внутрішніх справ",
+     "міністерки/міністра закордонних справ"
+    ]
+   },
+   "hi": {
+    "question": "बादेन-व्युर्टेमबर्ग में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.59
@@ -27381,7 +28213,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the Free State of Bavaria?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Bavyera Hür Eyaleti'ne hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит Свободному государству Бавария?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient à l'État libre de Bavière ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية بافاريا الحرة؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить Вільній державі Баварія?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "मुक्त राज्य बवेरिया (फ्राइष्टाट बायर्न) का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.91,
    "lid": 0.446
@@ -28043,7 +28939,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Bavaria called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Bavyera'da hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Баварии?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de Bavière ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة بافاريا؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Баварії?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "बवेरिया में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.605
@@ -28069,7 +29029,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Bavaria not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Bavyera'da hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Баварии?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre la Bavière n'a-t-elle pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه بافاريا؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Баварії?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "बवेरिया में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.993,
    "lid": 0.558
@@ -28095,7 +29119,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the federal state of Berlin?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Berlin eyaletine hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит федеральной земле Берлин?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient au Land de Berlin ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية برلين؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить федеральній землі Берлін?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "बर्लिन संघीय राज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.912,
    "lid": 0.447
@@ -28757,7 +29845,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of the city-state of Berlin called?",
+    "options": [
+     "Minister President",
+     "Lord Mayor",
+     "President of the Senate",
+     "Governing Mayor"
+    ]
+   },
+   "tr": {
+    "question": "Berlin şehir eyaletinde hükümet başkanına ne denir?",
+    "options": [
+     "Eyalet Başbakanı (Ministerpräsident)",
+     "Büyükşehir Belediye Başkanı",
+     "Senato Başkanı",
+     "Yönetici Belediye Başkanı (Regierender Bürgermeister)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства города-государства Берлин?",
+    "options": [
+     "министр-президент",
+     "обер-бургомистр",
+     "председатель сената",
+     "правящий бургомистр"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de la cité-État de Berlin ?",
+    "options": [
+     "Ministre-présidente/Ministre-président",
+     "Bourgmestre-maire/Maire supérieur",
+     "Présidente/Président du Sénat",
+     "Bourgmestre-gouvernante/Bourgmestre-gouvernant"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة مدينة-ولاية برلين؟",
+    "options": [
+     "رئيسة/رئيس وزراء الولاية",
+     "رئيسة/رئيس البلدية العليا",
+     "رئيسة/رئيس مجلس الشيوخ",
+     "عمدة/عمدة برلين الحاكم"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду міста-держави Берлін?",
+    "options": [
+     "міністр-президентка/міністр-президент",
+     "обербургомістерка/обербургомістр",
+     "президентка/президент сенату",
+     "правляча бургомістерка/правлячий бургомістр"
+    ]
+   },
+   "hi": {
+    "question": "नगर-राज्य बर्लिन के सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)",
+     "प्रमुख महापौर (ओबरब्युर्गरमाइस्टरिन/ओबरब्युर्गरमाइस्टर)",
+     "सेनेट अध्यक्ष (प्रेजिडेंटिन/प्रेजिडेंट देस सेनाटेस)",
+     "शासी महापौर (रेगिरेंडे ब्युर्गरमाइस्टरिन/रेगिरेंडर ब्युर्गरमाइस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.622
@@ -28783,7 +29935,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which senator does Berlin not have?",
+    "options": [
+     "Senator for Finance",
+     "Senator for the Interior",
+     "Senator for Foreign Relations",
+     "Senator for Justice"
+    ]
+   },
+   "tr": {
+    "question": "Berlin'de hangi senatörlük yoktur?",
+    "options": [
+     "Maliye Senatörlüğü",
+     "İçişleri Senatörlüğü",
+     "Dış İlişkiler Senatörlüğü",
+     "Adalet Senatörlüğü"
+    ]
+   },
+   "ru": {
+    "question": "Какого сенатора нет в Берлине?",
+    "options": [
+     "сенатор по финансам",
+     "сенатор по внутренним делам",
+     "сенатор по внешним связям",
+     "сенатор по юстиции"
+    ]
+   },
+   "fr": {
+    "question": "Quelle sénatrice/quel sénateur Berlin n'a-t-elle pas ?",
+    "options": [
+     "Sénatrice/sénateur des Finances",
+     "Sénatrice/sénateur de l'Intérieur",
+     "Sénatrice/sénateur des Relations extérieures",
+     "Sénatrice/sénateur de la Justice"
+    ]
+   },
+   "ar": {
+    "question": "أي سيناتورة/سيناتور لا تملكه برلين؟",
+    "options": [
+     "سيناتورة/سيناتور المالية",
+     "سيناتورة/سيناتور الداخلية",
+     "سيناتورة/سيناتور العلاقات الخارجية",
+     "سيناتورة/سيناتور العدل"
+    ]
+   },
+   "uk": {
+    "question": "Якого сенатора немає в Берліні?",
+    "options": [
+     "сенаторки/сенатора з фінансів",
+     "сенаторки/сенатора з внутрішніх справ",
+     "сенаторки/сенатора із зовнішніх зв'язків",
+     "сенаторки/сенатора з юстиції"
+    ]
+   },
+   "hi": {
+    "question": "बर्लिन में कौन सा सेनेटर पद नहीं है?",
+    "options": [
+     "वित्त सेनेटर (फिनांत्ससेनातोरिन/फिनांत्ससेनातोर)",
+     "गृह सेनेटर (इनेनसेनातोरिन/इनेनसेनातोर)",
+     "बाह्य संबंध सेनेटर (सेनातोरिन/सेनातोर फ्युर आउसेनबेत्सीउंगेन)",
+     "न्याय सेनेटर (युस्टित्ससेनातोरिन/युस्टित्ससेनातोर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.617
@@ -28809,7 +30025,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the federal state of Brandenburg?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Brandenburg eyaletine hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит федеральной земле Бранденбург?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient au Land de Brandebourg ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية براندنبورغ؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить федеральній землі Бранденбург?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "ब्रांडेनबुर्ग संघीय राज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.919,
    "lid": 0.455
@@ -29290,7 +30570,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "The state capital of Brandenburg is called …",
+    "options": [
+     "Potsdam.",
+     "Cottbus.",
+     "Brandenburg.",
+     "Frankfurt/Oder."
+    ]
+   },
+   "tr": {
+    "question": "Brandenburg'un eyalet başkenti …",
+    "options": [
+     "Potsdam'dır.",
+     "Cottbus'tur.",
+     "Brandenburg'dur.",
+     "Frankfurt/Oder'dir."
+    ]
+   },
+   "ru": {
+    "question": "Столица земли Бранденбург называется …",
+    "options": [
+     "Потсдам.",
+     "Котбус.",
+     "Бранденбург.",
+     "Франкфурт-на-Одере."
+    ]
+   },
+   "fr": {
+    "question": "La capitale régionale du Brandebourg s'appelle …",
+    "options": [
+     "Potsdam.",
+     "Cottbus.",
+     "Brandebourg.",
+     "Francfort-sur-l'Oder."
+    ]
+   },
+   "ar": {
+    "question": "عاصمة ولاية براندنبورغ هي …",
+    "options": [
+     "بوتسدام.",
+     "كوتبوس.",
+     "براندنبورغ.",
+     "فرانكفورت أودر."
+    ]
+   },
+   "uk": {
+    "question": "Столиця землі Бранденбург називається …",
+    "options": [
+     "Потсдам.",
+     "Котбус.",
+     "Бранденбург.",
+     "Франкфурт-на-Одері."
+    ]
+   },
+   "hi": {
+    "question": "ब्रांडेनबुर्ग की राजधानी है …",
+    "options": [
+     "पोत्सडाम।",
+     "कॉटबुस।",
+     "ब्रांडेनबुर्ग।",
+     "फ्रांकफुर्ट/ओडर।"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.55
@@ -29406,7 +30750,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Brandenburg called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Brandenburg'da hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Бранденбурга?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement du Brandebourg ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة براندنبورغ؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Бранденбурзі?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "ब्रांडेनबुर्ग में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.613
@@ -29432,7 +30840,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Brandenburg not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Brandenburg'da hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Бранденбурге?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre le Brandebourg n'a-t-il pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه براندنبورغ؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Бранденбурзі?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "ब्रांडेनबुर्ग में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.579
@@ -29458,7 +30930,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the Free Hanseatic City of Bremen?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Hür Hansa Şehri Bremen'e hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит Вольному ганзейскому городу Бремен?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient à la ville libre hanséatique de Brême ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار مدينة بريمن الهانزية الحرة؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить Вільному ганзейському місту Бремен?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "मुक्त हैंज़ेशहर ब्रेमन (फ्राइए हांज़ेश्टाट ब्रेमन) का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.921,
    "lid": 0.457
@@ -30120,7 +31656,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of the city-state of Bremen called?",
+    "options": [
+     "Minister President",
+     "First Mayor",
+     "President of the Senate",
+     "Governing Mayor"
+    ]
+   },
+   "tr": {
+    "question": "Bremen şehir eyaletinde hükümet başkanına ne denir?",
+    "options": [
+     "Eyalet Başbakanı (Ministerpräsident)",
+     "Birinci Belediye Başkanı",
+     "Senato Başkanı",
+     "Yönetici Belediye Başkanı (Regierender Bürgermeister)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства города-государства Бремен?",
+    "options": [
+     "министр-президент",
+     "первый бургомистр",
+     "председатель сената",
+     "правящий бургомистр"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de la cité-État de Brême ?",
+    "options": [
+     "Ministre-présidente/Ministre-président",
+     "Première bourgmestre/Premier bourgmestre",
+     "Présidente/Président du Sénat",
+     "Bourgmestre-gouvernante/Bourgmestre-gouvernant"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة مدينة-ولاية بريمن؟",
+    "options": [
+     "رئيسة/رئيس وزراء الولاية",
+     "رئيسة/رئيس البلدية الأولى",
+     "رئيسة/رئيس مجلس الشيوخ",
+     "عمدة/عمدة بريمن الحاكم"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду міста-держави Бремен?",
+    "options": [
+     "міністр-президентка/міністр-президент",
+     "перша бургомістерка/перший бургомістр",
+     "президентка/президент сенату",
+     "правляча бургомістерка/правлячий бургомістр"
+    ]
+   },
+   "hi": {
+    "question": "नगर-राज्य ब्रेमन के सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)",
+     "प्रथम महापौर (एर्स्टे ब्युर्गरमाइस्टरिन/एर्स्टर ब्युर्गरमाइस्टर)",
+     "सेनेट अध्यक्ष (प्रेजिडेंटिन/प्रेजिडेंट देस सेनाटेस)",
+     "शासी महापौर (रेगिरेंडे ब्युर्गरमाइस्टरिन/रेगिरेंडर ब्युर्गरमाइस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.62
@@ -30146,7 +31746,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which senator does Bremen not have?",
+    "options": [
+     "Senator for Foreign Relations",
+     "Senator for Finance",
+     "Senator for Justice",
+     "Senator for the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Bremen'de hangi senatörlük yoktur?",
+    "options": [
+     "Dış İlişkiler Senatörlüğü",
+     "Maliye Senatörlüğü",
+     "Adalet Senatörlüğü",
+     "İçişleri Senatörlüğü"
+    ]
+   },
+   "ru": {
+    "question": "Какого сенатора нет в Бремене?",
+    "options": [
+     "сенатор по внешним связям",
+     "сенатор по финансам",
+     "сенатор по юстиции",
+     "сенатор по внутренним делам"
+    ]
+   },
+   "fr": {
+    "question": "Quelle sénatrice/quel sénateur Brême n'a-t-elle pas ?",
+    "options": [
+     "Sénatrice/sénateur des Relations extérieures",
+     "Sénatrice/sénateur des Finances",
+     "Sénatrice/sénateur de la Justice",
+     "Sénatrice/sénateur de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي سيناتورة/سيناتور لا تملكه بريمن؟",
+    "options": [
+     "سيناتورة/سيناتور العلاقات الخارجية",
+     "سيناتورة/سيناتور المالية",
+     "سيناتورة/سيناتور العدل",
+     "سيناتورة/سيناتور الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого сенатора немає в Бремені?",
+    "options": [
+     "сенаторки/сенатора із зовнішніх зв'язків",
+     "сенаторки/сенатора з фінансів",
+     "сенаторки/сенатора з юстиції",
+     "сенаторки/сенатора з внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "ब्रेमन में कौन सा सेनेटर पद नहीं है?",
+    "options": [
+     "बाह्य संबंध सेनेटर (सेनातोरिन/सेनातोर फ्युर आउसेनबेत्सीउंगेन)",
+     "वित्त सेनेटर (फिनांत्ससेनातोरिन/फिनांत्ससेनातोर)",
+     "न्याय सेनेटर (युस्टित्ससेनातोरिन/युस्टित्ससेनातोर)",
+     "गृह सेनेटर (इनेनसेनातोरिन/इनेनसेनातोर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.617
@@ -30172,7 +31836,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the Free and Hanseatic City of Hamburg?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Hür ve Hansa Şehri Hamburg'a hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит Вольному и ганзейскому городу Гамбург?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient à la ville libre et hanséatique de Hambourg ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار مدينة هامبورغ الحرة والهانزية؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить Вільному і ганзейському місту Гамбург?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "मुक्त एवं हैंज़ेशहर हैम्बुर्ग (फ्राइए उंड हांज़ेश्टाट हैम्बुर्ग) का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.927,
    "lid": 0.463
@@ -30834,7 +32562,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of the city-state of Hamburg called?",
+    "options": [
+     "Minister President",
+     "First Mayor",
+     "Governing Senator",
+     "Lord Mayor"
+    ]
+   },
+   "tr": {
+    "question": "Hamburg şehir eyaletinde hükümet başkanına ne denir?",
+    "options": [
+     "Eyalet Başbakanı (Ministerpräsident)",
+     "Birinci Belediye Başkanı",
+     "Yönetici Senatör",
+     "Büyükşehir Belediye Başkanı"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства города-государства Гамбург?",
+    "options": [
+     "министр-президент",
+     "первый бургомистр",
+     "правящий сенатор",
+     "обер-бургомистр"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de la cité-État de Hambourg ?",
+    "options": [
+     "Ministre-présidente/Ministre-président",
+     "Première bourgmestre/Premier bourgmestre",
+     "Sénatrice-gouvernante/Sénateur-gouvernant",
+     "Bourgmestre supérieure/Bourgmestre supérieur"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة مدينة-ولاية هامبورغ؟",
+    "options": [
+     "رئيسة/رئيس وزراء الولاية",
+     "رئيسة/رئيس البلدية الأولى",
+     "السيناتورة الحاكمة/السيناتور الحاكم",
+     "رئيسة/رئيس البلدية العليا"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду міста-держави Гамбург?",
+    "options": [
+     "міністр-президентка/міністр-президент",
+     "перша бургомістерка/перший бургомістр",
+     "правляча сенаторка/правлячий сенатор",
+     "обербургомістерка/обербургомістр"
+    ]
+   },
+   "hi": {
+    "question": "नगर-राज्य हैम्बुर्ग के सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)",
+     "प्रथम महापौर (एर्स्टे ब्युर्गरमाइस्टरिन/एर्स्टर ब्युर्गरमाइस्टर)",
+     "शासी सेनेटर (रेगिरेंडे सेनातोरिन/रेगिरेंडर सेनातोर)",
+     "प्रमुख महापौर (ओबरब्युर्गरमाइस्टरिन/ओबरब्युर्गरमाइस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.594
@@ -30860,7 +32652,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which senator does Hamburg not have?",
+    "options": [
+     "Senator for Justice",
+     "Senator for Foreign Relations",
+     "Senator for Finance",
+     "Senator for the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Hamburg'da hangi senatörlük yoktur?",
+    "options": [
+     "Adalet Senatörlüğü",
+     "Dış İlişkiler Senatörlüğü",
+     "Maliye Senatörlüğü",
+     "İçişleri Senatörlüğü"
+    ]
+   },
+   "ru": {
+    "question": "Какого сенатора нет в Гамбурге?",
+    "options": [
+     "сенатор по юстиции",
+     "сенатор по внешним связям",
+     "сенатор по финансам",
+     "сенатор по внутренним делам"
+    ]
+   },
+   "fr": {
+    "question": "Quelle sénatrice/quel sénateur Hambourg n'a-t-elle pas ?",
+    "options": [
+     "Sénatrice/sénateur de la Justice",
+     "Sénatrice/sénateur des Relations extérieures",
+     "Sénatrice/sénateur des Finances",
+     "Sénatrice/sénateur de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي سيناتورة/سيناتور لا تملكه هامبورغ؟",
+    "options": [
+     "سيناتورة/سيناتور العدل",
+     "سيناتورة/سيناتور العلاقات الخارجية",
+     "سيناتورة/سيناتور المالية",
+     "سيناتورة/سيناتور الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого сенатора немає в Гамбурзі?",
+    "options": [
+     "сенаторки/сенатора з юстиції",
+     "сенаторки/сенатора із зовнішніх зв'язків",
+     "сенаторки/сенатора з фінансів",
+     "сенаторки/сенатора з внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "हैम्बुर्ग में कौन सा सेनेटर पद नहीं है?",
+    "options": [
+     "न्याय सेनेटर (युस्टित्ससेनातोरिन/युस्टित्ससेनातोर)",
+     "बाह्य संबंध सेनेटर (सेनातोरिन/सेनातोर फ्युर आउसेनबेत्सीउंगेन)",
+     "वित्त सेनेटर (फिनांत्ससेनातोरिन/फिनांत्ससेनातोर)",
+     "गृह सेनेटर (इनेनसेनातोरिन/इनेनसेनातोर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.62
@@ -30886,7 +32742,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the federal state of Hesse?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Hessen eyaletine hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит федеральной земле Гессен?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient au Land de Hesse ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية هيسن؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить федеральній землі Гессен?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "हेसेन संघीय राज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.912,
    "lid": 0.447
@@ -31367,7 +33287,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "The state capital of Hesse is called …",
+    "options": [
+     "Kassel.",
+     "Darmstadt.",
+     "Frankfurt.",
+     "Wiesbaden."
+    ]
+   },
+   "tr": {
+    "question": "Hessen'in eyalet başkenti …",
+    "options": [
+     "Kassel'dir.",
+     "Darmstadt'tır.",
+     "Frankfurt'tur.",
+     "Wiesbaden'dir."
+    ]
+   },
+   "ru": {
+    "question": "Столица земли Гессен называется …",
+    "options": [
+     "Кассель.",
+     "Дармштадт.",
+     "Франкфурт.",
+     "Висбаден."
+    ]
+   },
+   "fr": {
+    "question": "La capitale régionale de la Hesse s'appelle …",
+    "options": [
+     "Cassel.",
+     "Darmstadt.",
+     "Francfort.",
+     "Wiesbaden."
+    ]
+   },
+   "ar": {
+    "question": "عاصمة ولاية هيسن هي …",
+    "options": [
+     "كاسل.",
+     "دارمشتات.",
+     "فرانكفورت.",
+     "فيسبادن."
+    ]
+   },
+   "uk": {
+    "question": "Столиця землі Гессен називається …",
+    "options": [
+     "Кассель.",
+     "Дармштадт.",
+     "Франкфурт.",
+     "Вісбаден."
+    ]
+   },
+   "hi": {
+    "question": "हेसेन की राजधानी है …",
+    "options": [
+     "कासेल।",
+     "डार्मश्टाट।",
+     "फ्रांकफुर्ट।",
+     "विसबाडेन।"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.577
@@ -31483,7 +33467,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Hesse called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Hessen'de hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Гессена?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de la Hesse ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة هيسن؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Гессені?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "हेसेन में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.605
@@ -31509,7 +33557,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Hesse not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Hessen'de hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Гессене?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre la Hesse n'a-t-elle pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه هيسن؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Гессені?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "हेसेन में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.569
@@ -31535,7 +33647,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the federal state of Mecklenburg-Vorpommern?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Mecklenburg-Vorpommern eyaletine hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит федеральной земле Мекленбург-Передняя Померания?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient au Land de Mecklembourg-Poméranie-Occidentale ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية مكلنبورغ-فوربومرن؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить федеральній землі Мекленбург-Передня Померанія?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "मेक्लेनबुर्ग-फोरपोमर्न संघीय राज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.931,
    "lid": 0.467
@@ -32197,7 +34373,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Mecklenburg-Vorpommern called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Mecklenburg-Vorpommern'de hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Мекленбурга-Передней Померании?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement du Mecklembourg-Poméranie-Occidentale ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة مكلنبورغ-فوربومرن؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Мекленбурзі-Передній Померанії?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "मेक्लेनबुर्ग-फोरपोमर्न में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.604
@@ -32223,7 +34463,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Mecklenburg-Vorpommern not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Mecklenburg-Vorpommern'de hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Мекленбурге-Передней Померании?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre le Mecklembourg-Poméranie-Occidentale n'a-t-il pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه مكلنبورغ-فوربومرن؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Мекленбурзі-Передній Померанії?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "मेक्लेनबुर्ग-फोरपोमर्न में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.61
@@ -32249,7 +34553,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the federal state of Lower Saxony?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Aşağı Saksonya eyaletine hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит федеральной земле Нижняя Саксония?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient au Land de Basse-Saxe ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية ساكسونيا السفلى؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить федеральній землі Нижня Саксонія?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "निडरजाक्सन संघीय राज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.921,
    "lid": 0.457
@@ -32911,7 +35279,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Lower Saxony called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Aşağı Saksonya'da hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Нижней Саксонии?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de la Basse-Saxe ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة ساكسونيا السفلى؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Нижній Саксонії?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "निडरजाक्सन में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.615
@@ -32937,7 +35369,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Lower Saxony not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Aşağı Saksonya'da hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Нижней Саксонии?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre la Basse-Saxe n'a-t-elle pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه ساكسونيا السفلى؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Нижній Саксонії?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "निडरजाक्सन में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.583
@@ -32963,7 +35459,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the federal state of North Rhine-Westphalia?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Kuzey Ren-Vestfalya eyaletine hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит федеральной земле Северный Рейн-Вестфалия?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient au Land de Rhénanie-du-Nord-Westphalie ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية شمال الراين-وستفاليا؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить федеральній землі Північний Рейн-Вестфалія?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "नोर्डराइन-वेस्टफालेन संघीय राज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.93,
    "lid": 0.466
@@ -33625,7 +36185,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of North Rhine-Westphalia called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Kuzey Ren-Vestfalya'da hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Северного Рейна-Вестфалии?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de la Rhénanie-du-Nord-Westphalie ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة شمال الراين-وستفاليا؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Північному Рейні-Вестфалії?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "नोर्डराइन-वेस्टफालेन में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.623
@@ -33651,7 +36275,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does North Rhine-Westphalia not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Kuzey Ren-Vestfalya'da hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Северном Рейне-Вестфалии?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre la Rhénanie-du-Nord-Westphalie n'a-t-elle pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه شمال الراين-وستفاليا؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Північному Рейні-Вестфалії?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "नोर्डराइन-वेस्टफालेन में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.593
@@ -33677,7 +36365,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the federal state of Rhineland-Palatinate?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Ren-Pfalz eyaletine hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит федеральной земле Рейнланд-Пфальц?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient au Land de Rhénanie-Palatinat ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية راينلاند-بالاتينات؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить федеральній землі Рейнланд-Пфальц?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "राइनलांड-फाल्त्स संघीय राज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.924,
    "lid": 0.459
@@ -34339,7 +37091,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Rhineland-Palatinate called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Ren-Pfalz'da hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Рейнланд-Пфальца?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de la Rhénanie-Palatinat ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة راينلاند-بالاتينات؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Рейнланд-Пфальці?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "राइनलांड-फाल्त्स में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.618
@@ -34365,7 +37181,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Rhineland-Palatinate not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Ren-Pfalz'da hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Рейнланд-Пфальце?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre la Rhénanie-Palatinat n'a-t-elle pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه راينلاند-بالاتينات؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Рейнланд-Пфальці?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "राइनलांड-फाल्त्स में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.586
@@ -34391,7 +37271,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the federal state of Saarland?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Saarland eyaletine hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит федеральной земле Саар?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient au Land de Sarre ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية زارلاند؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить федеральній землі Саар?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "ज़ारलांड संघीय राज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.915,
    "lid": 0.45
@@ -35053,7 +37997,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Saarland called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Saarland'ın hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Саара?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de la Sarre ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة زارلاند؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду землі Саар?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "ज़ारलांड के सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.613
@@ -35079,7 +38087,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Saarland not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Saarland'da hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Сааре?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre la Sarre n'a-t-elle pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه زارلاند؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в землі Саар?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "ज़ारलांड में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.994,
    "lid": 0.571
@@ -35105,7 +38177,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the Free State of Saxony?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Saksonya Hür Eyaleti'ne hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит Свободному государству Саксония?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient à l'État libre de Saxe ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية ساكسونيا الحرة؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить Вільній державі Саксонія?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "मुक्त राज्य जाक्सन (फ्राइष्टाट जाक्सन) का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.912,
    "lid": 0.447
@@ -35767,7 +38903,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Saxony called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Saksonya'da hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Саксонии?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de la Saxe ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة ساكسونيا؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Саксонії?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "जाक्सन में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.606
@@ -35793,7 +38993,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Saxony not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Saksonya'da hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Саксонии?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre la Saxe n'a-t-elle pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه ساكسونيا؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Саксонії?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "जाक्सन में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.993,
    "lid": 0.56
@@ -35819,7 +39083,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the federal state of Saxony-Anhalt?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Saksonya-Anhalt eyaletine hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит федеральной земле Саксония-Анхальт?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient au Land de Saxe-Anhalt ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية زاكسن-أنهالت؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить федеральній землі Саксонія-Ангальт?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "जाक्सन-आनहाल्ट संघीय राज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.923,
    "lid": 0.458
@@ -36481,7 +39809,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Saxony-Anhalt called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Saksonya-Anhalt'ta hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Саксонии-Анхальт?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de la Saxe-Anhalt ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة زاكسن-أنهالت؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Саксонії-Ангальт?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "जाक्सन-आनहाल्ट में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.617
@@ -36507,7 +39899,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Saxony-Anhalt not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Saksonya-Anhalt'ta hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Саксонии-Анхальт?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre la Saxe-Anhalt n'a-t-elle pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه زاكسن-أنهالت؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Саксонії-Ангальт?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "जाक्सन-आनहाल्ट में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.585
@@ -36533,7 +39989,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the federal state of Schleswig-Holstein?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Schleswig-Holstein eyaletine hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит федеральной земле Шлезвиг-Гольштейн?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient au Land de Schleswig-Holstein ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية شليسفيغ-هولشتاين؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить федеральній землі Шлезвіг-Гольштейн?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "श्लेजविष-होल्श्टाइन संघीय राज्य का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.927,
    "lid": 0.463
@@ -37195,7 +40715,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Schleswig-Holstein called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Schleswig-Holstein'da hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Шлезвиг-Гольштейна?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement du Schleswig-Holstein ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة شليسفيغ-هولشتاين؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Шлезвіг-Гольштейні?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "श्लेजविष-होल्श्टाइन में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.622
@@ -37221,7 +40805,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Schleswig-Holstein not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Schleswig-Holstein'da hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Шлезвиг-Гольштейне?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre le Schleswig-Holstein n'a-t-il pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه شليسفيغ-هولشتاين؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Шлезвіг-Гольштейні?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "श्लेजविष-होल्श्टाइन में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.591
@@ -37247,7 +40895,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which coat of arms belongs to the Free State of Thuringia?",
+    "options": [
+     "Picture 1",
+     "Picture 2",
+     "Picture 3",
+     "Picture 4"
+    ]
+   },
+   "tr": {
+    "question": "Thüringen Hür Eyaleti'ne hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+    "options": [
+     "Resim 1",
+     "Resim 2",
+     "Resim 3",
+     "Resim 4"
+    ]
+   },
+   "ru": {
+    "question": "Какой герб принадлежит Свободному государству Тюрингия?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "fr": {
+    "question": "Quel blason appartient à l'État libre de Thuringe ? Image 1 Image 2 Image 3 Image 4",
+    "options": [
+     "Image 1",
+     "Image 2",
+     "Image 3",
+     "Image 4"
+    ]
+   },
+   "ar": {
+    "question": "ما هو شعار ولاية تورينغن الحرة؟",
+    "options": [
+     "صورة 1",
+     "صورة 2",
+     "صورة 3",
+     "صورة 4"
+    ]
+   },
+   "uk": {
+    "question": "Який герб належить Вільній державі Тюрингія?",
+    "options": [
+     "Картинка 1",
+     "Картинка 2",
+     "Картинка 3",
+     "Картинка 4"
+    ]
+   },
+   "hi": {
+    "question": "मुक्त राज्य थ्युरिंगन (फ्राइष्टाट थ्युरिंगन) का राजचिह्न (चित्र) कौन सा है?",
+    "options": [
+     "चित्र 1",
+     "चित्र 2",
+     "चित्र 3",
+     "चित्र 4"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 0.915,
    "lid": 0.45
@@ -37909,7 +41621,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "What is the head of government of Thuringia called?",
+    "options": [
+     "First Minister",
+     "Prime Minister",
+     "Mayor",
+     "Minister President"
+    ]
+   },
+   "tr": {
+    "question": "Thüringen'de hükümet başkanına ne denir?",
+    "options": [
+     "Birinci Bakan",
+     "Başbakan (Premierminister)",
+     "Belediye Başkanı",
+     "Eyalet Başbakanı (Ministerpräsident)"
+    ]
+   },
+   "ru": {
+    "question": "Как называют главу правительства Тюрингии?",
+    "options": [
+     "первый министр",
+     "премьер-министр",
+     "бургомистр",
+     "министр-президент"
+    ]
+   },
+   "fr": {
+    "question": "Comment appelle-t-on le chef de gouvernement de la Thuringe ?",
+    "options": [
+     "Ministre d'État (Erste Ministerin/Erster Minister)",
+     "Première ministre/Premier ministre (Premierminister)",
+     "Maire/bourgmestre",
+     "Ministre-présidente/Ministre-président"
+    ]
+   },
+   "ar": {
+    "question": "ماذا يُطلق على رئيسة/رئيس حكومة تورينغن؟",
+    "options": [
+     "الوزيرة الأولى/الوزير الأول",
+     "رئيسة الوزراء/رئيس الوزراء",
+     "رئيسة/رئيس البلدية",
+     "رئيسة/رئيس وزراء الولاية"
+    ]
+   },
+   "uk": {
+    "question": "Як називають главу уряду в Тюрингії?",
+    "options": [
+     "перша міністерка/перший міністр",
+     "прем'єр-міністерка/прем'єр-міністр",
+     "бургомістерка/бургомістр",
+     "міністр-президентка/міністр-президент"
+    ]
+   },
+   "hi": {
+    "question": "थ्युरिंगन में सरकार प्रमुख को क्या कहा जाता है?",
+    "options": [
+     "प्रथम मंत्री (एर्स्टे मिनिस्टरिन/एर्स्टर मिनिस्टर)",
+     "प्रधानमंत्री (प्रेमियरमिनिस्टरिन/प्रेमियरमिनिस्टर)",
+     "महापौर (ब्युर्गरमाइस्टरिन/ब्युर्गरमाइस्टर)",
+     "मंत्री-प्रमुख (मिनिस्टरप्रेजिडेंटिन/मिनिस्टरप्रेजिडेंट)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.61
@@ -37935,7 +41711,71 @@
   "sources": [
    "human"
   ],
-  "translations": {},
+  "translations": {
+   "en": {
+    "question": "Which minister does Thuringia not have?",
+    "options": [
+     "Minister of Justice",
+     "Minister of Foreign Affairs",
+     "Minister of Finance",
+     "Minister of the Interior"
+    ]
+   },
+   "tr": {
+    "question": "Thüringen'de hangi bakanlık yoktur?",
+    "options": [
+     "Adalet Bakanlığı",
+     "Dışişleri Bakanlığı",
+     "Maliye Bakanlığı",
+     "İçişleri Bakanlığı"
+    ]
+   },
+   "ru": {
+    "question": "Какого министра нет в Тюрингии?",
+    "options": [
+     "министр юстиции",
+     "министр иностранных дел",
+     "министр финансов",
+     "министр внутренних дел"
+    ]
+   },
+   "fr": {
+    "question": "Quelle ministre/quel ministre la Thuringe n'a-t-elle pas ?",
+    "options": [
+     "Ministre de la Justice",
+     "Ministre des Affaires étrangères",
+     "Ministre des Finances",
+     "Ministre de l'Intérieur"
+    ]
+   },
+   "ar": {
+    "question": "أي وزيرة/وزير لا تملكه تورينغن؟",
+    "options": [
+     "وزيرة/وزير العدل",
+     "وزيرة/وزير الخارجية",
+     "وزيرة/وزير المالية",
+     "وزيرة/وزير الداخلية"
+    ]
+   },
+   "uk": {
+    "question": "Якого міністра немає в Тюрингії?",
+    "options": [
+     "міністерки/міністра юстиції",
+     "міністерки/міністра закордонних справ",
+     "міністерки/міністра фінансів",
+     "міністерки/міністра внутрішніх справ"
+    ]
+   },
+   "hi": {
+    "question": "थ्युरिंगन में कौन सा मंत्री पद नहीं है?",
+    "options": [
+     "न्याय मंत्री (युस्टित्सिमिनिस्टरिन/युस्टित्सिमिनिस्टर)",
+     "विदेश मंत्री (आउसेनमिनिस्टरिन/आउसेनमिनिस्टर)",
+     "वित्त मंत्री (फिनांत्सिमिनिस्टरिन/फिनांत्सिमिनिस्टर)",
+     "गृह मंत्री (इनेनमिनिस्टरिन/इनेनमिनिस्टर)"
+    ]
+   }
+  },
   "scores": {
    "flexsurfer": 1.0,
    "lid": 0.575
