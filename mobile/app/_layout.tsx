@@ -13,7 +13,7 @@ import { SessionProvider, SyncEngine } from "@/sync";
  */
 function Navigator() {
   return (
-    <Stack screenOptions={{ headerShown: false }}>
+    <Stack screenOptions={{ headerShown: false, animation: "fade", animationDuration: 150 }}>
       <Stack.Screen name="exam" options={{ gestureEnabled: false }} />
     </Stack>
   );
