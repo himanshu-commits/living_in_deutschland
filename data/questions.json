@@ -92,6 +92,15 @@
      "ludzie mają prawo wyborcze.",
      "obowiązuje tu wolność słowa."
     ]
+   },
+   "ro": {
+    "question": "În Germania, oamenii pot spune deschis ceva împotriva guvernului deoarece …",
+    "options": [
+     "aici este valabilă libertatea religioasă.",
+     "oamenii plătesc impozite.",
+     "oamenii au drept de vot.",
+     "aici este valabilă libertatea de opinie."
+    ]
    }
   },
   "scores": {
@@ -191,6 +200,15 @@
      "lekcjach religii.",
      "lekcjach polityki.",
      "lekcjach języka."
+    ]
+   },
+   "ro": {
+    "question": "În Germania, părinții pot decide, până la împlinirea vârstei de 14 ani a copilului lor, dacă acesta participă la școală la …",
+    "options": [
+     "ora de istorie.",
+     "ora de religie.",
+     "ora de educație politică.",
+     "ora de limbi străine."
     ]
    }
   },
@@ -292,6 +310,15 @@
      "Tylko Niemcy muszą przestrzegać ustaw.",
      "Sądy tworzą ustawy."
     ]
+   },
+   "ro": {
+    "question": "Germania este un stat de drept. Ce înseamnă asta?",
+    "options": [
+     "Toți locuitorii și statul trebuie să respecte legile.",
+     "Statul nu trebuie să respecte legile.",
+     "Numai cetățenii germani trebuie să respecte legile.",
+     "Instanțele fac legile."
+    ]
    }
   },
   "scores": {
@@ -391,6 +418,15 @@
      "prawo pięści",
      "wolność słowa",
      "samosąd"
+    ]
+   },
+   "ro": {
+    "question": "Care drept face parte din drepturile fundamentale din Germania?",
+    "options": [
+     "dreptul de a deține arme",
+     "legea celui mai puternic",
+     "libertatea de opinie",
+     "autojustiția"
     ]
    }
   },
@@ -492,6 +528,15 @@
      "Wyborczyni/wyborca nie może być podczas wyborów w żaden sposób wpływana/wpływany ani zmuszana/zmuszany do konkretnego głosu i nie może ponosić żadnych negatywnych konsekwencji z powodu wyborów.",
      "Wszystkie osoby uprawnione do głosowania muszą głosować."
     ]
+   },
+   "ro": {
+    "question": "Alegerile din Germania sunt libere. Ce înseamnă asta?",
+    "options": [
+     "Este permis să accepți bani dacă în schimb votezi cu un anumit candidat/o anumită candidată.",
+     "Numai persoanele care nu au fost niciodată în închisoare au voie să voteze.",
+     "Alegătoarea/alegătorul nu poate fi nici influențat(ă), nici constrâns(ă) să voteze într-un anumit fel și nu poate avea dezavantaje din cauza votului.",
+     "Toate persoanele cu drept de vot trebuie să voteze."
+    ]
    }
   },
   "scores": {
@@ -591,6 +636,15 @@
      "Ustawa Federalna",
      "Ustawa Niemiecka",
      "Ustawa Zasadnicza"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește constituția germană?",
+    "options": [
+     "Legea Poporului",
+     "Legea Federală",
+     "Legea Germană",
+     "Legea Fundamentală"
     ]
    }
   },
@@ -692,6 +746,15 @@
      "pracy",
      "mieszkania"
     ]
+   },
+   "ro": {
+    "question": "Care drept face parte din drepturile fundamentale garantate de constituția germană? Dreptul la …",
+    "options": [
+     "libertatea de credință și de conștiință",
+     "divertisment",
+     "muncă",
+     "locuință"
+    ]
    }
   },
   "scores": {
@@ -791,6 +854,15 @@
      "Wszyscy powinni mieć tyle samo pieniędzy.",
      "Każdy człowiek może wyrażać swoją opinię.",
      "Wszyscy są równi wobec prawa."
+    ]
+   },
+   "ro": {
+    "question": "Ce nu este prevăzut în Legea Fundamentală a Germaniei?",
+    "options": [
+     "Demnitatea omului este intangibilă.",
+     "Toți ar trebui să aibă aceeași sumă de bani.",
+     "Fiecare om are voie să își spună părerea.",
+     "Toți sunt egali în fața legii."
     ]
    }
   },
@@ -892,6 +964,15 @@
      "azylu",
      "wolności słowa"
     ]
+   },
+   "ro": {
+    "question": "Care drept fundamental este valabil în Germania doar pentru străini? Dreptul la …",
+    "options": [
+     "protecția familiei",
+     "demnitatea umană",
+     "azil",
+     "libertatea de opinie"
+    ]
    }
   },
   "scores": {
@@ -991,6 +1072,15 @@
      "tortury",
      "kara śmierci",
      "kara grzywny"
+    ]
+   },
+   "ro": {
+    "question": "Ce este compatibil cu Legea Fundamentală germană?",
+    "options": [
+     "pedeapsa cu bătaia",
+     "tortura",
+     "pedeapsa cu moartea",
+     "amenda"
     ]
    }
   },
@@ -1092,6 +1182,15 @@
      "Kodeks Ustaw",
      "Traktat Konstytucyjny"
     ]
+   },
+   "ro": {
+    "question": "Cum se numește constituția Republicii Federale Germania?",
+    "options": [
+     "Legea Fundamentală",
+     "Constituția Federală",
+     "Codul de Legi",
+     "Tratatul Constituțional"
+    ]
    }
   },
   "scores": {
@@ -1191,6 +1290,15 @@
      "Tak, ale musi za tym opowiedzieć się dwie trzecie deputowanych w Bundestagu.",
      "Nie, ponieważ wolność prasy jest prawem podstawowym. Nie można jej znieść.",
      "Nie, ponieważ tylko Bundesrat może znieść wolność prasy."
+    ]
+   },
+   "ro": {
+    "question": "Un partid din Bundestagul german vrea să desființeze libertatea presei. Este posibil acest lucru?",
+    "options": [
+     "Da, dacă mai mult de jumătate dintre deputați sunt de acord.",
+     "Da, dar pentru asta trebuie ca două treimi dintre deputați să fie de acord.",
+     "Nu, deoarece libertatea presei este un drept fundamental. Ea nu poate fi desființată.",
+     "Nu, deoarece numai Bundesratul poate desființa libertatea presei."
     ]
    }
   },
@@ -1292,6 +1400,15 @@
      "wszystkie partie, które w ostatnich wyborach przekroczyły próg 5%.",
      "wszystkich deputowanych, którzy nie należą do partii rządzącej/partii rządzących."
     ]
+   },
+   "ro": {
+    "question": "În parlament, termenul „opoziție” înseamnă …",
+    "options": [
+     "partidele aflate la guvernare.",
+     "fracțiunea cu cei mai mulți deputați.",
+     "toate partidele care au reușit să depășească pragul de 5% la ultimele alegeri.",
+     "toți deputații care nu aparțin partidului/partidelor de guvernământ."
+    ]
    }
   },
   "scores": {
@@ -1392,6 +1509,15 @@
      "publicznie nosić symbole nazistowskie, Hamasu lub Państwa Islamskiego.",
      "wyrażać swoją opinię tylko wtedy, gdy nie sprzeciwiam się rządowi."
     ]
+   },
+   "ro": {
+    "question": "Libertatea de opinie în Germania înseamnă că eu …",
+    "options": [
+     "am voie să jignesc trecătorii pe stradă.",
+     "îmi pot exprima părerea pe internet.",
+     "am voie să port în public simboluri naziste, ale Hamas sau ale Statului Islamic.",
+     "am voie să îmi exprim părerea doar atâta timp cât nu contrazic guvernul."
+    ]
    }
   },
   "scores": {
@@ -1427,6 +1553,15 @@
      "pracy przymusowej",
      "swobodnego wyboru zawodu",
      "pracy za granicą"
+    ]
+   },
+   "ro": {
+    "question": "Ce interzice Legea Fundamentală germană?",
+    "options": [
+     "serviciul militar",
+     "munca forțată",
+     "libera alegere a profesiei",
+     "munca în străinătate"
     ]
    }
   },
@@ -1528,6 +1663,15 @@
      "przy dyskusjach o religiach",
      "przy krytyce państwa"
     ]
+   },
+   "ro": {
+    "question": "Când este restrânsă libertatea de opinie în Germania?",
+    "options": [
+     "la răspândirea publică a unor afirmații false despre anumite persoane",
+     "la exprimarea unor opinii despre guvernul federal",
+     "la discuții despre religii",
+     "la critica la adresa statului"
+    ]
    }
   },
   "scores": {
@@ -1627,6 +1771,15 @@
      "petycji obywatelek i obywateli.",
      "wolności zgromadzeń mieszkanek i mieszkańców.",
      "nierównego traktowania obywatelek i obywateli przez państwo."
+    ]
+   },
+   "ro": {
+    "question": "Legile germane interzic …",
+    "options": [
+     "libertatea de opinie a locuitorilor.",
+     "petițiile cetățenilor.",
+     "libertatea de întrunire a locuitorilor.",
+     "tratamentul inegal al cetățenilor de către stat."
     ]
    }
   },
@@ -1728,6 +1881,15 @@
      "wolność religijna",
      "wolność słowa"
     ]
+   },
+   "ro": {
+    "question": "Care drept fundamental este garantat în articolul 1 al Legii Fundamentale a Republicii Federale Germania?",
+    "options": [
+     "intangibilitatea demnității umane",
+     "dreptul la viață",
+     "libertatea religioasă",
+     "libertatea de opinie"
+    ]
    }
   },
   "scores": {
@@ -1827,6 +1989,15 @@
      "Można zmienić zawód.",
      "Można wybrać inną religię.",
      "Można poruszać się w miejscach publicznych tylko w lekkim ubraniu."
+    ]
+   },
+   "ro": {
+    "question": "Ce se înțelege prin dreptul la „libera circulație” (Freizügigkeit) în Germania?",
+    "options": [
+     "Ai voie să îți alegi singur locul de reședință.",
+     "Îți poți schimba profesia.",
+     "Ai voie să te decizi pentru o altă religie.",
+     "Ai voie să te miști în public doar îmbrăcat sumar."
     ]
    }
   },
@@ -1928,6 +2099,15 @@
      "praworządna.",
      "niezgodna z konstytucją."
     ]
+   },
+   "ro": {
+    "question": "Un partid din Germania urmărește scopul de a instaura o dictatură. Acesta este atunci …",
+    "options": [
+     "tolerant.",
+     "orientat spre statul de drept.",
+     "respectuos față de legi.",
+     "neconstituțional."
+    ]
    }
   },
   "scores": {
@@ -1963,6 +2143,15 @@
      "Obraz 2",
      "Obraz 3",
      "Obraz 4"
+    ]
+   },
+   "ro": {
+    "question": "Care este stema Republicii Federale Germania? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -2064,6 +2253,15 @@
      "republika",
      "księstwo"
     ]
+   },
+   "ro": {
+    "question": "Ce formă de stat are Germania?",
+    "options": [
+     "monarhie",
+     "dictatură",
+     "republică",
+     "principat"
+    ]
    }
   },
   "scores": {
@@ -2164,6 +2362,15 @@
      "prowadzi samodzielnie własną firmę.",
      "zatrudniona w firmie lub urzędzie."
     ]
+   },
+   "ro": {
+    "question": "În Germania, majoritatea persoanelor active profesional sunt …",
+    "options": [
+     "angajate în mici întreprinderi de familie.",
+     "active în mod voluntar pentru un land federal.",
+     "independente, cu firmă proprie.",
+     "angajate la o firmă sau instituție publică."
+    ]
    }
   },
   "scores": {
@@ -2258,6 +2465,15 @@
    },
    "pl": {
     "question": "Ile krajów związkowych ma Republika Federalna Niemiec?",
+    "options": [
+     "14",
+     "15",
+     "16",
+     "17"
+    ]
+   },
+   "ro": {
+    "question": "Câte landuri federale are Republica Federală Germania?",
     "options": [
      "14",
      "15",
@@ -2364,6 +2580,15 @@
      "Meklemburgia-Pomorze Przednie",
      "Saksonia-Anhalt"
     ]
+   },
+   "ro": {
+    "question": "Ce nu este un land federal al Republicii Federale Germania?",
+    "options": [
+     "Alsacia-Lorena",
+     "Renania de Nord-Westfalia",
+     "Mecklenburg-Pomerania Anterioară",
+     "Saxonia-Anhalt"
+    ]
    }
   },
   "scores": {
@@ -2463,6 +2688,15 @@
      "demokratycznym i socjalnym państwem federalnym.",
      "kapitalistyczną i socjalną monarchią.",
      "socjalnym i socjalistycznym państwem federalnym."
+    ]
+   },
+   "ro": {
+    "question": "Germania este …",
+    "options": [
+     "o republică comunistă.",
+     "un stat federal democratic și social.",
+     "o monarhie capitalistă și socială.",
+     "un stat federal social și socialist."
     ]
    }
   },
@@ -2564,6 +2798,15 @@
      "dyktaturą.",
      "monarchią."
     ]
+   },
+   "ro": {
+    "question": "Germania este …",
+    "options": [
+     "un stat socialist.",
+     "un stat federal.",
+     "o dictatură.",
+     "o monarhie."
+    ]
    }
   },
   "scores": {
@@ -2663,6 +2906,15 @@
      "gospodarka",
      "uprawniony do głosowania naród",
      "administracja"
+    ]
+   },
+   "ro": {
+    "question": "Cine îi alege în Germania pe deputații Bundestagului?",
+    "options": [
+     "armata",
+     "mediul economic",
+     "poporul cu drept de vot",
+     "administrația"
     ]
    }
   },
@@ -2764,6 +3016,15 @@
      "niedźwiedź",
      "koń"
     ]
+   },
+   "ro": {
+    "question": "Ce animal este emblema heraldică a Republicii Federale Germania?",
+    "options": [
+     "leul",
+     "acvila",
+     "ursul",
+     "calul"
+    ]
    }
   },
   "scores": {
@@ -2863,6 +3124,15 @@
      "cenzura prasy",
      "wolność słowa",
      "różne partie"
+    ]
+   },
+   "ro": {
+    "question": "Ce nu este o trăsătură a democrației noastre?",
+    "options": [
+     "alegeri periodice",
+     "cenzura presei",
+     "libertatea de opinie",
+     "partide diferite"
     ]
    }
   },
@@ -2964,6 +3234,15 @@
      "ministerstwem.",
      "frakcją."
     ]
+   },
+   "ro": {
+    "question": "Colaborarea dintre partide pentru formarea unui guvern se numește în Germania …",
+    "options": [
+     "unitate.",
+     "coaliție.",
+     "minister.",
+     "fracțiune."
+    ]
    }
   },
   "scores": {
@@ -3063,6 +3342,15 @@
      "rząd",
      "prasa",
      "władza sądownicza"
+    ]
+   },
+   "ro": {
+    "question": "Ce nu este o putere a statului în Germania?",
+    "options": [
+     "legislativul",
+     "guvernul",
+     "presa",
+     "justiția"
     ]
    }
   },
@@ -3164,6 +3452,15 @@
      "państwo jest zależne od wspólnot religijnych.",
      "państwo i wspólnoty religijne tworzą jedność."
     ]
+   },
+   "ro": {
+    "question": "Care afirmație este corectă? În Germania …",
+    "options": [
+     "statul și comunitățile religioase sunt separate una de cealaltă.",
+     "comunitățile religioase formează statul.",
+     "statul depinde de comunitățile religioase.",
+     "statul și comunitățile religioase formează o unitate."
+    ]
    }
   },
   "scores": {
@@ -3263,6 +3560,15 @@
      "państwem prawa",
      "monarchią",
      "państwem socjalnym"
+    ]
+   },
+   "ro": {
+    "question": "Ce nu este Germania?",
+    "options": [
+     "o democrație",
+     "un stat de drept",
+     "o monarhie",
+     "un stat social"
     ]
    }
   },
@@ -3364,6 +3670,15 @@
      "darowizny",
      "składki członkowskie stowarzyszeń"
     ]
+   },
+   "ro": {
+    "question": "Cu ce finanțează statul german asigurările sociale?",
+    "options": [
+     "impozitul bisericesc",
+     "contribuțiile sociale",
+     "donații",
+     "cotizații de asociație"
+    ]
    }
   },
   "scores": {
@@ -3464,6 +3779,15 @@
      "ubezpieczenie budynku",
      "ubezpieczenie odpowiedzialności cywilnej"
     ]
+   },
+   "ro": {
+    "question": "Ce măsură asigură securitatea socială în Germania?",
+    "options": [
+     "asigurarea de sănătate",
+     "asigurarea auto",
+     "asigurarea clădirilor",
+     "asigurarea de răspundere civilă"
+    ]
    }
   },
   "scores": {
@@ -3499,6 +3823,15 @@
      "premierka/premier",
      "senatorka/senator",
      "premierka kraju związkowego/premier kraju związkowego"
+    ]
+   },
+   "ro": {
+    "question": "Cum sunt numiți șefii de guvern ai majorității landurilor federale din Germania?",
+    "options": [
+     "Prim-ministru/Primă-ministră",
+     "Premier/Premieră",
+     "Senator/Senatoare",
+     "Ministru-președinte/Ministră-președintă"
     ]
    }
   },
@@ -3600,6 +3933,15 @@
      "konfederacją państw.",
      "państwem scentralizowanym."
     ]
+   },
+   "ro": {
+    "question": "Republica Federală Germania este un stat federal democratic și social …",
+    "options": [
+     "uniune de state.",
+     "stat federal.",
+     "confederație de state.",
+     "stat centralizat."
+    ]
    }
   },
   "scores": {
@@ -3699,6 +4041,15 @@
      "własną walutę",
      "własną armię",
      "własny rząd"
+    ]
+   },
+   "ro": {
+    "question": "Ce are fiecare land federal german?",
+    "options": [
+     "un ministru de externe propriu",
+     "o monedă proprie",
+     "o armată proprie",
+     "un guvern propriu"
     ]
    }
   },
@@ -3800,6 +4151,15 @@
      "Radości, iskro bogów …",
      "Niemcy, zjednoczona ojczyzno …"
     ]
+   },
+   "ro": {
+    "question": "Cu ce cuvinte începe imnul național german?",
+    "options": [
+     "„Popoare, auziți semnalele …”",
+     "„Unitate și dreptate și libertate …”",
+     "„Bucurie, scânteie divină …”",
+     "„Germania, unită patrie …”"
+    ]
    }
   },
   "scores": {
@@ -3899,6 +4259,15 @@
      "aby ograniczyć korupcję w polityce",
      "aby zapobiec demonstracjom politycznym",
      "aby pobudzić konkurencję gospodarczą"
+    ]
+   },
+   "ro": {
+    "question": "De ce există într-o democrație mai mult de un partid?",
+    "options": [
+     "pentru că astfel sunt reprezentate diferitele opinii ale cetățenilor",
+     "pentru a limita corupția în politică",
+     "pentru a împiedica demonstrațiile politice",
+     "pentru a stimula concurența economică"
     ]
    }
   },
@@ -4000,6 +4369,15 @@
      "sądy",
      "policja"
     ]
+   },
+   "ro": {
+    "question": "Cine hotărăște în Germania asupra unei legi noi?",
+    "options": [
+     "guvernul",
+     "parlamentul",
+     "instanțele",
+     "poliția"
+    ]
    }
   },
   "scores": {
@@ -4099,6 +4477,15 @@
      "gdy walczy przeciwko konstytucji",
      "gdy krytykuje głowę państwa",
      "gdy jej program proponuje nowy kierunek"
+    ]
+   },
+   "ro": {
+    "question": "Când poate fi interzis un partid în Germania?",
+    "options": [
+     "când campania sa electorală este prea costisitoare",
+     "când luptă împotriva constituției",
+     "când critică șeful statului",
+     "când programul său propune o direcție nouă"
     ]
    }
   },
@@ -4200,6 +4587,15 @@
      "deputowanych do landtagu",
      "deputowanych do Bundestagu"
     ]
+   },
+   "ro": {
+    "question": "Pe cine nu poate alege direct un cetățean/o cetățeană în Germania?",
+    "options": [
+     "deputații Parlamentului European",
+     "președintele federal/președinta federală",
+     "deputații landului (Landtag)",
+     "deputații Bundestagului"
+    ]
    }
   },
   "scores": {
@@ -4299,6 +4695,15 @@
      "ubezpieczenie wypadkowe",
      "ubezpieczenie mienia domowego",
      "ubezpieczenie odpowiedzialności cywilnej i od ognia"
+    ]
+   },
+   "ro": {
+    "question": "Din ce categorie de asigurare face parte asigurarea de îngrijire (Pflegeversicherung)?",
+    "options": [
+     "asigurarea socială",
+     "asigurarea de accidente",
+     "asigurarea locuinței/bunurilor casnice",
+     "asigurarea de răspundere civilă și de incendiu"
     ]
    }
   },
@@ -4400,6 +4805,15 @@
      "Zaopatruje wszystkich mieszkańców bezpłatnie w gazety.",
      "Produkuje samochody i autobusy."
     ]
+   },
+   "ro": {
+    "question": "Statul german are multe sarcini. Care sarcină face parte dintre acestea?",
+    "options": [
+     "Construiește drumuri și școli.",
+     "Vinde alimente și îmbrăcăminte.",
+     "Asigură tuturor locuitorilor ziare gratuite.",
+     "Produce mașini și autobuze."
+    ]
    }
   },
   "scores": {
@@ -4499,6 +4913,15 @@
      "Wypłaca zasiłek na dziecko.",
      "Wspiera muzea.",
      "Wspiera sportsmenki i sportowców."
+    ]
+   },
+   "ro": {
+    "question": "Statul german are multe sarcini. Care sarcină nu face parte dintre acestea?",
+    "options": [
+     "Plătește călătorii de vacanță pentru toți cetățenii.",
+     "Plătește alocația pentru copii.",
+     "Sprijină muzeele.",
+     "Susține sportivii și sportivele."
     ]
    }
   },
@@ -4600,6 +5023,15 @@
      "zgromadzenie obywatelskie",
      "rząd"
     ]
+   },
+   "ro": {
+    "question": "Care organ nu face parte dintre organele constituționale ale Germaniei?",
+    "options": [
+     "Bundesratul",
+     "președintele federal/președinta federală",
+     "adunarea cetățenilor",
+     "guvernul"
+    ]
    }
   },
   "scores": {
@@ -4699,6 +5131,15 @@
      "kraje związkowe",
      "ministerstwo do spraw rodziny",
      "uniwersytety"
+    ]
+   },
+   "ro": {
+    "question": "Cine stabilește în Germania politica școlară?",
+    "options": [
+     "profesorii și profesoarele",
+     "landurile federale",
+     "ministerul familiei",
+     "universitățile"
     ]
    }
   },
@@ -4800,6 +5241,15 @@
      "sterowaną gospodarką centralną.",
      "gospodarką planową."
     ]
+   },
+   "ro": {
+    "question": "Forma de economie din Germania se numește …",
+    "options": [
+     "economie centralizată liberă.",
+     "economie socială de piață.",
+     "economie centralizată dirijată.",
+     "economie planificată."
+    ]
    }
   },
   "scores": {
@@ -4899,6 +5349,15 @@
      "obywatele mogą pokojowo demonstrować.",
      "ludzie są zatrzymywani bez powodu przez prywatną policję.",
      "ktoś popełnia przestępstwo i dlatego zostaje zatrzymany."
+    ]
+   },
+   "ro": {
+    "question": "Nu face parte dintr-un stat de drept democratic ca …",
+    "options": [
+     "oamenii să se poată exprima critic despre guvern.",
+     "cetățenii să aibă voie să meargă la demonstrații pașnice.",
+     "oamenii să fie arestați fără motiv de o poliție privată.",
+     "cineva să comită o infracțiune și din acest motiv să fie arestat."
     ]
    }
   },
@@ -5000,6 +5459,15 @@
      "króla pruskiego.",
      "Federalnego Trybunału Konstytucyjnego."
     ]
+   },
+   "ro": {
+    "question": "Ce înseamnă „suveranitatea poporului”? Întreaga putere de stat emană de la ...",
+    "options": [
+     "popor.",
+     "Bundestag.",
+     "regele Prusiei.",
+     "Curtea Constituțională Federală."
+    ]
    }
   },
   "scores": {
@@ -5099,6 +5567,15 @@
      "Istnieją tylko partie prawicowe.",
      "Obywatelki i obywatele decydują o ustawach.",
      "Państwo musi przestrzegać ustaw."
+    ]
+   },
+   "ro": {
+    "question": "Ce înseamnă „stat de drept” în Germania?",
+    "options": [
+     "Statul are întotdeauna dreptate.",
+     "Există doar partide de dreapta.",
+     "Cetățenii decid asupra legilor.",
+     "Statul trebuie să respecte legile."
     ]
    }
   },
@@ -5200,6 +5677,15 @@
      "władza wykonawcza",
      "władza dyrektywna"
     ]
+   },
+   "ro": {
+    "question": "Ce nu este o putere a statului în Germania?",
+    "options": [
+     "legislativul",
+     "judiciarul",
+     "executivul",
+     "directiva"
+    ]
    }
   },
   "scores": {
@@ -5299,6 +5785,15 @@
      "Federalny Trybunał Konstytucyjny w Karlsruhe",
      "budynek Bundesratu w Berlinie",
      "Urząd Kanclerski w Berlinie"
+    ]
+   },
+   "ro": {
+    "question": "Ce arată această imagine? © Deutscher Bundestag/Achim Melde",
+    "options": [
+     "sediul Bundestagului la Berlin",
+     "Curtea Constituțională Federală de la Karlsruhe",
+     "clădirea Bundesratului la Berlin",
+     "Cancelaria Federală la Berlin"
     ]
    }
   },
@@ -5400,6 +5895,15 @@
      "urząd skarbowy",
      "urząd spraw zagranicznych"
     ]
+   },
+   "ro": {
+    "question": "Care birou aparține în Germania administrației comunale?",
+    "options": [
+     "oficiul parohial",
+     "oficiul de ordine publică",
+     "oficiul fiscal",
+     "Ministerul de Externe"
+    ]
    }
   },
   "scores": {
@@ -5499,6 +6003,15 @@
      "premierka/premier największego kraju związkowego",
      "była kanclerz federalna/były kanclerz federalny",
      "deputowana/deputowany z najsilniejszej frakcji"
+    ]
+   },
+   "ro": {
+    "question": "Cine este ales de cele mai multe ori ca președinte/președintă al Bundestagului german?",
+    "options": [
+     "cel mai în vârstă deputat din parlament",
+     "ministrul-președinte/ministra-președintă al/a celui mai mare land",
+     "un fost cancelar federal/o fostă cancelară federală",
+     "un deputat/o deputată al/a celei mai puternice fracțiuni"
     ]
    }
   },
@@ -5600,6 +6113,15 @@
      "przewodnicząca/przewodniczący Bundesratu",
      "przewodnicząca/przewodniczący Bundestagu"
     ]
+   },
+   "ro": {
+    "question": "Cine numește în Germania miniștrii guvernului federal?",
+    "options": [
+     "președintele/președinta Curții Constituționale Federale",
+     "președintele federal/președinta federală",
+     "președintele/președinta Bundesratului",
+     "președintele/președinta Bundestagului"
+    ]
    }
   },
   "scores": {
@@ -5699,6 +6221,15 @@
      "około 700 lat temu",
      "około 1150 lat temu",
      "około 1700 lat temu"
+    ]
+   },
+   "ro": {
+    "question": "Cu câți ani în urmă a existat pentru prima dată o comunitate evreiască pe teritoriul Germaniei de astăzi?",
+    "options": [
+     "acum aproximativ 300 de ani",
+     "acum aproximativ 700 de ani",
+     "acum aproximativ 1150 de ani",
+     "acum aproximativ 1700 de ani"
     ]
    }
   },
@@ -5800,6 +6331,15 @@
      "władzy dyrektywnej.",
      "władzy sądowniczej."
     ]
+   },
+   "ro": {
+    "question": "În Germania, Bundestagul și Bundesratul fac parte din …",
+    "options": [
+     "executiv.",
+     "legislativ.",
+     "directivă.",
+     "judiciar."
+    ]
    }
   },
   "scores": {
@@ -5899,6 +6439,15 @@
      "Federalny Trybunał Konstytucyjny stoi ponad konstytucją.",
      "Grupy interesu sprawują suwerenność wspólnie z rządem.",
      "Władza państwowa pochodzi od narodu."
+    ]
+   },
+   "ro": {
+    "question": "Ce înseamnă „suveranitatea poporului”?",
+    "options": [
+     "Regina/regele domnește peste popor.",
+     "Curtea Constituțională Federală se află deasupra constituției.",
+     "Grupurile de interese exercită suveranitatea împreună cu guvernul.",
+     "Puterea de stat emană de la popor."
     ]
    }
   },
@@ -6000,6 +6549,15 @@
      "wyborami europejskimi",
      "wyborami do Bundestagu"
     ]
+   },
+   "ro": {
+    "question": "Când este ales parlamentul unui land federal german, aceasta se numește …",
+    "options": [
+     "alegeri comunale",
+     "alegeri pentru landtag",
+     "alegeri europene",
+     "alegeri pentru Bundestag"
+    ]
    }
   },
   "scores": {
@@ -6099,6 +6657,15 @@
      "sądy",
      "urząd skarbowy",
      "ministerstwa"
+    ]
+   },
+   "ro": {
+    "question": "Ce nu face parte din executiv în Germania?",
+    "options": [
+     "poliția",
+     "instanțele",
+     "oficiul fiscal",
+     "ministerele"
     ]
    }
   },
@@ -6200,6 +6767,15 @@
      "16 kantonów.",
      "federację, kraje związkowe i gminy."
     ]
+   },
+   "ro": {
+    "question": "Astăzi, Republica Federală Germania este structurată în …",
+    "options": [
+     "patru zone de ocupație.",
+     "un stat estic și un stat vestic.",
+     "16 cantoane.",
+     "federație, landuri și comune."
+    ]
    }
   },
   "scores": {
@@ -6299,6 +6875,15 @@
      "kontrolowanie rządu federalnego.",
      "wybieranie kanclerz federalnej/kanclerza federalnego.",
      "tworzenie gabinetu federalnego."
+    ]
+   },
+   "ro": {
+    "question": "Nu face parte din sarcinile Bundestagului german …",
+    "options": [
+     "elaborarea legilor.",
+     "controlul guvernului federal.",
+     "alegerea cancelarului federal/cancelarei federale.",
+     "formarea cabinetului federal."
     ]
    }
   },
@@ -6400,6 +6985,15 @@
      "Norymberga i Stuttgart",
      "Worms i Spira"
     ]
+   },
+   "ro": {
+    "question": "Care orașe au cele mai mari comunități evreiești din Germania?",
+    "options": [
+     "Berlin și München",
+     "Hamburg și Essen",
+     "Nürnberg și Stuttgart",
+     "Worms și Speyer"
+    ]
    }
   },
   "scores": {
@@ -6499,6 +7093,15 @@
      "polityka zagraniczna",
      "polityka gospodarcza",
      "polityka szkolna"
+    ]
+   },
+   "ro": {
+    "question": "Ce este în Germania mai ales o sarcină a landurilor federale?",
+    "options": [
+     "politica de apărare",
+     "politica externă",
+     "politica economică",
+     "politica școlară"
     ]
    }
   },
@@ -6600,6 +7203,15 @@
      "ponieważ w krajach związkowych istnieją różne szkoły",
      "ponieważ zgodnie z Ustawą Zasadniczą jest to jego zadanie"
     ]
+   },
+   "ro": {
+    "question": "De ce controlează statul sistemul școlar în Germania?",
+    "options": [
+     "pentru că în Germania există doar școli de stat",
+     "pentru că toți elevii și toate elevele trebuie să aibă o diplomă de absolvire",
+     "pentru că există școli diferite în landurile federale",
+     "pentru că aceasta este sarcina lui conform Legii Fundamentale"
+    ]
    }
   },
   "scores": {
@@ -6699,6 +7311,15 @@
      "starostowie powiatowi",
      "gminy",
      "urzędy dzielnicowe"
+    ]
+   },
+   "ro": {
+    "question": "Republica Federală Germania are o structură administrativă pe trei niveluri. Cum se numește cel mai de jos nivel politic?",
+    "options": [
+     "consiliile orășenești",
+     "consiliile districtuale (Landräte)",
+     "comunele",
+     "oficiile de district"
     ]
    }
   },
@@ -6800,6 +7421,15 @@
      "Wybiera ministrów.",
      "Proponuje kandydatkę/kandydata na kanclerza do wyboru."
     ]
+   },
+   "ro": {
+    "question": "Președintele federal german Gustav Heinemann îi înmânează lui Helmut Schmidt, în 1974, actul de numire ca cancelar federal german. Ce face parte din sarcinile președintelui federal/președintei federale germane? © Bundesregierung/Engelbert Reineke",
+    "options": [
+     "Conduce activitatea guvernului.",
+     "Controlează partidul de guvernământ.",
+     "Alege miniștrii.",
+     "Propune candidatul/candidata pentru alegerea cancelarului federal/cancelarei federale."
+    ]
    }
   },
   "scores": {
@@ -6900,6 +7530,15 @@
      "w zamku Bellevue, siedzibie prezydentki federalnej/prezydenta federalnego, aby przyjmować gości państwowych.",
      "w Berlinie, ponieważ tam znajdują się Urząd Kanclerski i Bundestag."
     ]
+   },
+   "ro": {
+    "question": "Unde se află cel mai des cancelarul federal/cancelara federală a Germaniei? Cel mai adesea se află …",
+    "options": [
+     "la Bonn, deoarece acolo se află Cancelaria Federală și Bundestagul.",
+     "la castelul Meseberg, casa de oaspeți a guvernului federal, pentru a primi oaspeți de stat.",
+     "la castelul Bellevue, reședința oficială a președintelui federal/președintei federale, pentru a primi oaspeți de stat.",
+     "la Berlin, deoarece acolo se află Cancelaria Federală și Bundestagul."
+    ]
    }
   },
   "scores": {
@@ -6994,6 +7633,15 @@
    },
    "pl": {
     "question": "Jak nazywa się obecna kanclerz federalna/obecny kanclerz federalny Niemiec?",
+    "options": [
+     "Gerhard Schröder",
+     "Angela Merkel",
+     "Ursula von der Leyen",
+     "Friedrich Merz"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește actualul cancelar federal/actuala cancelară federală a Germaniei?",
     "options": [
      "Gerhard Schröder",
      "Angela Merkel",
@@ -7100,6 +7748,15 @@
      "Bündnis 90/Die Grünen i SPD.",
      "Die Linke i CDU/CSU."
     ]
+   },
+   "ro": {
+    "question": "Cele două cele mai mari fracțiuni din Bundestagul german se numesc în prezent …",
+    "options": [
+     "CDU/CSU și AfD.",
+     "Die Linke și Bündnis 90/Die Grünen.",
+     "Bündnis 90/Die Grünen și SPD.",
+     "Die Linke și CDU/CSU."
+    ]
    }
   },
   "scores": {
@@ -7200,6 +7857,15 @@
      "Bundestag",
      "Federalny Trybunał Sprawiedliwości"
     ]
+   },
+   "ro": {
+    "question": "Cum se numește parlamentul pentru întreaga Germanie?",
+    "options": [
+     "Adunarea Federală",
+     "Camera Poporului",
+     "Bundestag",
+     "Curtea Federală de Justiție"
+    ]
    }
   },
   "scores": {
@@ -7294,6 +7960,15 @@
    },
    "pl": {
     "question": "Jak nazywa się obecna głowa państwa Niemiec?",
+    "options": [
+     "Frank-Walter Steinmeier",
+     "Bärbel Bas",
+     "Bodo Ramelow",
+     "Joachim Gauck"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește actualul șef de stat al Germaniei?",
     "options": [
      "Frank-Walter Steinmeier",
      "Bärbel Bas",
@@ -7400,6 +8075,15 @@
      "Chrześcijańska Niemiecka Ochrona Środowiska",
      "Unia Chrześcijańsko-Demokratyczna"
     ]
+   },
+   "ro": {
+    "question": "Ce înseamnă abrevierea CDU în Germania?",
+    "options": [
+     "Uniunea Creștină Germană",
+     "Clubul Antreprenorilor Germani",
+     "Protecția Creștină Germană a Mediului",
+     "Uniunea Creștin Democrată"
+    ]
    }
   },
   "scores": {
@@ -7499,6 +8183,15 @@
      "niemieckim portem",
      "niemiecką inicjatywą obywatelską",
      "niemiecką armią"
+    ]
+   },
+   "ro": {
+    "question": "Ce este Bundeswehr?",
+    "options": [
+     "poliția germană",
+     "un port german",
+     "o inițiativă cetățenească germană",
+     "armata germană"
     ]
    }
   },
@@ -7600,6 +8293,15 @@
      "Socjaldemokratyczna Partia Niemiec",
      "Sprawiedliwa Socjalnie Partia Niemiec"
     ]
+   },
+   "ro": {
+    "question": "Ce înseamnă abrevierea SPD?",
+    "options": [
+     "Partidul Socialist German",
+     "Partidul Social-Politic German",
+     "Partidul Social Democrat German",
+     "Partidul Social-Echitabil German"
+    ]
    }
   },
   "scores": {
@@ -7699,6 +8401,15 @@
      "Wolna Partia Niemiec",
      "Wiodąca Partia Demokratyczna",
      "Wolna Partia Demokratyczna"
+    ]
+   },
+   "ro": {
+    "question": "Ce înseamnă abrevierea FDP în Germania?",
+    "options": [
+     "Partidul Demonstrativ Pașnic",
+     "Partidul Germaniei Libere",
+     "Partidul Democrat Conducător",
+     "Partidul Liber Democrat"
     ]
    }
   },
@@ -7800,6 +8511,15 @@
      "Federalny Trybunał Konstytucyjny",
      "Sąd Administracyjny"
     ]
+   },
+   "ro": {
+    "question": "Care instanță din Germania este competentă pentru interpretarea Legii Fundamentale?",
+    "options": [
+     "Tribunalul Regional Superior",
+     "Judecătoria",
+     "Curtea Constituțională Federală",
+     "Tribunalul Administrativ"
+    ]
    }
   },
   "scores": {
@@ -7900,6 +8620,15 @@
      "naród",
      "Bundestag"
     ]
+   },
+   "ro": {
+    "question": "Cine alege cancelarul federal în Germania?",
+    "options": [
+     "Bundesrat-ul",
+     "Adunarea Federală",
+     "poporul",
+     "Bundestag-ul"
+    ]
    }
   },
   "scores": {
@@ -7935,6 +8664,15 @@
      "prezydentka/prezydent federalny",
      "przewodnicząca/przewodniczący Bundesratu",
      "kanclerz/kanclerz federalny"
+    ]
+   },
+   "ro": {
+    "question": "Cine conduce cabinetul federal german?",
+    "options": [
+     "președintele Bundestag-ului",
+     "președintele federal",
+     "președintele Bundesrat-ului",
+     "cancelarul federal"
     ]
    }
   },
@@ -8036,6 +8774,15 @@
      "Bundestag",
      "rząd federalny"
     ]
+   },
+   "ro": {
+    "question": "Cine alege cancelarul federal german?",
+    "options": [
+     "poporul",
+     "Adunarea Federală",
+     "Bundestag-ul",
+     "guvernul federal"
+    ]
    }
   },
   "scores": {
@@ -8135,6 +8882,15 @@
      "opracowuje ustawy.",
      "reprezentuje kraj.",
      "nadzoruje przestrzeganie ustaw."
+    ]
+   },
+   "ro": {
+    "question": "Care este sarcina principală a președintelui federal german? El/Ea …",
+    "options": [
+     "guvernează țara.",
+     "elaborează legile.",
+     "reprezintă țara.",
+     "supraveghează respectarea legilor."
     ]
    }
   },
@@ -8236,6 +8992,15 @@
      "przedstawiciele rządów krajów związkowych",
      "członkowie partii"
     ]
+   },
+   "ro": {
+    "question": "Cine formează Bundesrat-ul german?",
+    "options": [
+     "deputații Bundestag-ului",
+     "miniștrii guvernului federal",
+     "reprezentanții guvernelor landurilor",
+     "membrii de partid"
+    ]
    }
   },
   "scores": {
@@ -8336,6 +9101,15 @@
      "Parlament Federalny",
      "Federalny Trybunał Konstytucyjny"
     ]
+   },
+   "ro": {
+    "question": "Cine alege președintele federal în Germania?",
+    "options": [
+     "Adunarea Federală",
+     "Bundesrat-ul",
+     "Parlamentul Federal",
+     "Curtea Constituțională Federală"
+    ]
    }
   },
   "scores": {
@@ -8371,6 +9145,15 @@
      "prezydentka/prezydent federalny",
      "przewodnicząca/przewodniczący Bundesratu",
      "przewodnicząca/przewodniczący Bundestagu"
+    ]
+   },
+   "ro": {
+    "question": "Cine este șeful statului Republicii Federale Germania?",
+    "options": [
+     "cancelarul federal",
+     "președintele federal",
+     "președintele Bundesrat-ului",
+     "președintele Bundestag-ului"
     ]
    }
   },
@@ -8472,6 +9255,15 @@
      "decyduje, kto zasiada w Bundesracie.",
      "proponuje szefów rządów krajów związkowych."
     ]
+   },
+   "ro": {
+    "question": "Opoziția parlamentară din Bundestag-ul german …",
+    "options": [
+     "controlează guvernul.",
+     "decide cine devine ministru federal.",
+     "stabilește cine face parte din Bundesrat.",
+     "propune șefii guvernelor landurilor."
+    ]
    }
   },
   "scores": {
@@ -8571,6 +9363,15 @@
      "Rada Seniorów (Ältestenrat)",
      "frakcja",
      "opozycja"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește în Germania asocierea deputaților unui partid în parlament?",
+    "options": [
+     "asociație",
+     "consiliul senioratului",
+     "fracțiune parlamentară",
+     "opoziție"
     ]
    }
   },
@@ -8672,6 +9473,15 @@
      "Bundestag.",
      "rząd federalny."
     ]
+   },
+   "ro": {
+    "question": "Landurile germane participă la legiferarea federală prin …",
+    "options": [
+     "Bundesrat.",
+     "Adunarea Federală.",
+     "Bundestag.",
+     "guvernul federal."
+    ]
    }
   },
   "scores": {
@@ -8771,6 +9581,15 @@
      "łatwiejsze, jeśli dzięki temu nowe partie wchodzą do Bundesratu.",
      "trudniejsze, jeśli zmienia się przez to większość w Bundesracie.",
      "łatwiejsze, jeśli chodzi o bogaty kraj związkowy."
+    ]
+   },
+   "ro": {
+    "question": "În Germania, o schimbare de guvern într-un land poate avea efecte asupra politicii federale. Guvernarea devine …",
+    "options": [
+     "mai dificilă, dacă astfel se schimbă majoritatea din Bundestag.",
+     "mai ușoară, dacă astfel intră partide noi în Bundesrat.",
+     "mai dificilă, dacă astfel se schimbă majoritatea din Bundesrat.",
+     "mai ușoară, dacă este vorba despre un land bogat."
     ]
    }
   },
@@ -8872,6 +9691,15 @@
      "Chrześcijański Związek Przedsiębiorców Socjalnych",
      "Unia Chrześcijańsko-Społeczna"
     ]
+   },
+   "ro": {
+    "question": "Ce înseamnă abrevierea CSU în Germania?",
+    "options": [
+     "Uniunea Creștină Sigură",
+     "Uniunea Creștină Sud-Germană",
+     "Asociația Antreprenorială Creștin-Socială",
+     "Uniunea Creștin Socială"
+    ]
    }
   },
   "scores": {
@@ -8972,6 +9800,15 @@
      "większe jest ryzyko konieczności utworzenia koalicji.",
      "więcej miejsc otrzymuje partia w parlamencie."
     ]
+   },
+   "ro": {
+    "question": "Cu cât un partid obține mai multe „voturi secundare\" la o alegere pentru Bundestag, cu atât …",
+    "options": [
+     "poate avea mai puține voturi principale.",
+     "mai mulți candidați direcți ai partidului intră în parlament.",
+     "este mai mare riscul de a trebui să formeze o coaliție.",
+     "mai multe locuri obține partidul în parlament."
+    ]
    }
   },
   "scores": {
@@ -9066,6 +9903,15 @@
    },
    "pl": {
     "question": "Od jakiego wieku można brać udział w wyborach do niemieckiego Bundestagu?",
+    "options": [
+     "16",
+     "18",
+     "21",
+     "23"
+    ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate participa în Germania la alegerile pentru Bundestag-ul german?",
     "options": [
      "16",
      "18",
@@ -9172,6 +10018,15 @@
      "obowiązek zachowania tajemnicy",
      "obowiązek religijny"
     ]
+   },
+   "ro": {
+    "question": "Ce este valabil pentru majoritatea copiilor din Germania?",
+    "options": [
+     "obligativitatea votului",
+     "obligativitatea școlarizării",
+     "obligația de a păstra tăcerea",
+     "obligativitatea religioasă"
+    ]
    }
   },
   "scores": {
@@ -9271,6 +10126,15 @@
      "do 100 godzin prac społecznych",
      "w żaden sposób, negowanie Holokaustu jest dozwolone",
      "karą pozbawienia wolności do pięciu lat albo grzywną"
+    ]
+   },
+   "ro": {
+    "question": "Cum poate fi pedepsită o persoană care neagă Holocaustul?",
+    "options": [
+     "reducerea prestațiilor sociale",
+     "până la 100 de ore de muncă în folosul comunității",
+     "deloc, negarea Holocaustului este permisă",
+     "cu pedeapsă privativă de libertate de până la cinci ani sau cu amendă"
     ]
    }
   },
@@ -9372,6 +10236,15 @@
      "zasiłek na dziecko",
      "dodatek mieszkaniowy"
     ]
+   },
+   "ro": {
+    "question": "Ce plătește automat o persoană în Germania dacă este angajată permanent?",
+    "options": [
+     "asigurări sociale",
+     "ajutor social",
+     "alocație pentru copii",
+     "ajutor pentru locuință"
+    ]
    }
   },
   "scores": {
@@ -9471,6 +10344,15 @@
      "rząd może stracić większość.",
      "prezydentka/prezydent federalny musi wcześniej wyrazić zgodę.",
      "wyborcy tych posłów mogą jeszcze raz głosować."
+    ]
+   },
+   "ro": {
+    "question": "Când deputații din Bundestag-ul german își schimbă fracțiunea parlamentară, …",
+    "options": [
+     "nu mai au voie să participe la ședințele parlamentului.",
+     "guvernul își poate pierde majoritatea.",
+     "președintele federal trebuie să își dea în prealabil acordul.",
+     "alegătorii acestor deputați au voie să voteze din nou."
     ]
    }
   },
@@ -9572,6 +10454,15 @@
      "wszyscy obywatele",
      "tylko pracodawcy"
     ]
+   },
+   "ro": {
+    "question": "Cine plătește asigurările sociale în Germania?",
+    "options": [
+     "angajatorii și angajații",
+     "doar angajații",
+     "toți cetățenii",
+     "doar angajatorii"
+    ]
    }
   },
   "scores": {
@@ -9671,6 +10562,15 @@
      "ustawowe ubezpieczenie emerytalne",
      "ubezpieczenie na wypadek bezrobocia",
      "ubezpieczenie pielęgnacyjne"
+    ]
+   },
+   "ro": {
+    "question": "Ce nu face parte din asigurarea socială legală?",
+    "options": [
+     "asigurarea de viață",
+     "asigurarea legală de pensie",
+     "asigurarea de șomaj",
+     "asigurarea de îngrijire"
     ]
    }
   },
@@ -9772,6 +10672,15 @@
      "emerytek i emerytów.",
      "pracodawczyń i pracodawców."
     ]
+   },
+   "ro": {
+    "question": "Sindicatele sunt asociații de interese ale …",
+    "options": [
+     "tinerilor.",
+     "angajaților.",
+     "pensionarilor.",
+     "angajatorilor."
+    ]
    }
   },
   "scores": {
@@ -9871,6 +10780,15 @@
      "Orłem Federalnym",
      "Ojczyźnianym Orderem Zasługi",
      "tytułem honorowym \"Bohater Niemieckiej Republiki Demokratycznej\""
+    ]
+   },
+   "ro": {
+    "question": "Cu ce poate fi onorată o persoană în Republica Federală Germania dacă a adus o contribuție deosebită în domeniul politic, economic, cultural, spiritual sau social? Cu …",
+    "options": [
+     "Crucea de Merit Federală",
+     "Vulturul Federal",
+     "Ordinul Patriotic de Merit",
+     "titlul onorific „Erou al Republicii Democrate Germane\""
     ]
    }
   },
@@ -9972,6 +10890,15 @@
      "CSU, Die LINKE i Sojuszu 90/Zielonych w rządzie",
      "frakcji CDU i SPD w Bundestagu"
     ]
+   },
+   "ro": {
+    "question": "Ce se numește în Germania „coaliție de semafor\"? Colaborarea …",
+    "options": [
+     "dintre fracțiunile din Bundestag ale CDU și CSU",
+     "dintre SPD, FDP și Bündnis 90/Die Grünen într-un guvern",
+     "dintre CSU, Die LINKE și Bündnis 90/Die Grünen într-un guvern",
+     "dintre fracțiunile din Bundestag ale CDU și SPD"
+    ]
    }
   },
   "scores": {
@@ -10071,6 +10998,15 @@
      "Kobieta często spóźniała się do pracy.",
      "Kobieta załatwia prywatne sprawy w czasie pracy.",
      "Kobieta spodziewa się dziecka i jej szef o tym wie."
+    ]
+   },
+   "ro": {
+    "question": "O femeie din Germania își pierde locul de muncă. Ce nu poate fi motivul acestei concedieri?",
+    "options": [
+     "Femeia este bolnavă de mult timp și incapabilă de muncă.",
+     "Femeia a întârziat des la muncă.",
+     "Femeia rezolvă probleme personale în timpul programului de lucru.",
+     "Femeia urmează să aibă un copil, iar șeful ei știe acest lucru."
     ]
    }
   },
@@ -10172,6 +11108,15 @@
      "Przekazują wyniki cząstkowe mediom.",
      "Liczą głosy po zakończeniu wyborów."
     ]
+   },
+   "ro": {
+    "question": "Care este o sarcină a asistenților electorali în Germania?",
+    "options": [
+     "Ajută persoanele în vârstă la exprimarea votului în cabina de vot.",
+     "Scriu înștiințările de vot înainte de alegeri.",
+     "Transmit mass-mediei rezultate parțiale.",
+     "Numără voturile după încheierea alegerilor."
+    ]
    }
   },
   "scores": {
@@ -10271,6 +11216,15 @@
      "Piszą karty i listy z informacją o lokalu wyborczym.",
      "Przekazują wyniki cząstkowe dziennikarzom.",
      "Liczą głosy po zakończeniu wyborów."
+    ]
+   },
+   "ro": {
+    "question": "În Germania, asistenții electorali voluntari ajută la alegeri. Care este o sarcină a asistenților electorali?",
+    "options": [
+     "Ajută copiii și persoanele în vârstă la vot.",
+     "Scriu cărți poștale și scrisori cu indicarea secției de votare.",
+     "Transmit jurnaliștilor rezultate parțiale.",
+     "Numără voturile după încheierea alegerilor."
     ]
    }
   },
@@ -10372,6 +11326,15 @@
      "6 lat",
      "8 lat"
     ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales Bundestag-ul în Germania?",
+    "options": [
+     "2 ani",
+     "4 ani",
+     "6 ani",
+     "8 ani"
+    ]
    }
   },
   "scores": {
@@ -10471,6 +11434,15 @@
      "jest obywatelem Republiki Federalnej Niemiec i ma co najmniej 18 lat.",
      "mieszka w Republice Federalnej Niemiec od co najmniej 3 lat.",
      "jest obywatelem Republiki Federalnej Niemiec i ma co najmniej 21 lat."
+    ]
+   },
+   "ro": {
+    "question": "La o alegere pentru Bundestag în Germania are dreptul de vot orice persoană care …",
+    "options": [
+     "locuiește în Republica Federală Germania și dorește să voteze.",
+     "este cetățean al Republicii Federale Germania și are cel puțin 18 ani.",
+     "trăiește de cel puțin 3 ani în Republica Federală Germania.",
+     "este cetățean al Republicii Federale Germania și are cel puțin 21 de ani."
     ]
    }
   },
@@ -10572,6 +11544,15 @@
      "co pięć lat",
      "co sześć lat"
     ]
+   },
+   "ro": {
+    "question": "Cât de des au loc de obicei alegeri pentru Bundestag în Germania?",
+    "options": [
+     "la fiecare trei ani",
+     "la fiecare patru ani",
+     "la fiecare cinci ani",
+     "la fiecare șase ani"
+    ]
    }
   },
   "scores": {
@@ -10671,6 +11652,15 @@
      "3 lata",
      "4 lata",
      "5 lat"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales Bundestag-ul în Germania?",
+    "options": [
+     "2 ani",
+     "3 ani",
+     "4 ani",
+     "5 ani"
     ]
    }
   },
@@ -10772,6 +11762,15 @@
      "dyskusja o polityce Izraela",
      "publiczne wzywanie do zniszczenia Izraela"
     ]
+   },
+   "ro": {
+    "question": "Ce acțiuni legate de statul Israel sunt interzise în Germania?",
+    "options": [
+     "criticarea publică a politicii Israelului",
+     "arborarea unui steag israelian pe o proprietate privată",
+     "o discuție despre politica Israelului",
+     "îndemnul public la distrugerea Israelului"
+    ]
    }
   },
   "scores": {
@@ -10871,6 +11870,15 @@
      "tajne.",
      "związane z zawodem.",
      "zależne od płci."
+    ]
+   },
+   "ro": {
+    "question": "Alegerile din Germania sunt …",
+    "options": [
+     "speciale.",
+     "secrete.",
+     "legate de profesie.",
+     "dependente de gen."
     ]
    }
   },
@@ -10972,6 +11980,15 @@
      "otrzymała najwięcej głosów wśród robotnic i robotników.",
      "otrzymała najwięcej głosów pierwszych dla swojej kandydatki/swojego kandydata na kanclerza."
     ]
+   },
+   "ro": {
+    "question": "În Germania câștigă alegerile partidul care …",
+    "options": [
+     "obține cele mai multe voturi.",
+     "a fost votat de majoritatea bărbaților.",
+     "a obținut cele mai multe voturi din partea muncitorilor.",
+     "a primit cele mai multe voturi principale pentru candidatul său la cancelariat."
+    ]
    }
   },
   "scores": {
@@ -11071,6 +12088,15 @@
      "prawem.",
      "przymusem.",
      "obciążeniem."
+    ]
+   },
+   "ro": {
+    "question": "Participarea la alegeri democratice în Germania este …",
+    "options": [
+     "o obligație.",
+     "un drept.",
+     "o constrângere.",
+     "o povară."
     ]
    }
   },
@@ -11172,6 +12198,15 @@
      "Można głosować.",
      "Trzeba iść na liczenie głosów."
     ]
+   },
+   "ro": {
+    "question": "Ce înseamnă „drept de vot activ\" în Germania?",
+    "options": [
+     "Poți fi ales.",
+     "Trebuie să mergi la vot.",
+     "Poți vota.",
+     "Trebuie să participi la numărarea voturilor."
+    ]
    }
   },
   "scores": {
@@ -11272,6 +12307,15 @@
      "aktywną walką wyborczą.",
      "czynnym prawem wyborczym."
     ]
+   },
+   "ro": {
+    "question": "Dacă aveți dreptul de a vota la o alegere pentru Bundestag în Germania, aceasta se numește …",
+    "options": [
+     "campanie electorală activă.",
+     "procedură electorală activă.",
+     "campanie electorală activă.",
+     "drept de vot activ."
+    ]
    }
   },
   "scores": {
@@ -11366,6 +12410,15 @@
    },
    "pl": {
     "question": "Ile procent głosów drugich muszą uzyskać partie, aby wejść do niemieckiego Bundestagu?",
+    "options": [
+     "3%",
+     "4%",
+     "5%",
+     "6%"
+    ]
+   },
+   "ro": {
+    "question": "Ce procent minim din voturile secundare trebuie să obțină partidele pentru a fi alese în Bundestag-ul german?",
     "options": [
      "3%",
      "4%",
@@ -11472,6 +12525,15 @@
      "tylko osoby religijne",
      "wszyscy ludzie"
     ]
+   },
+   "ro": {
+    "question": "Cine poate deveni membru al celor aproximativ 40 de cluburi sportive evreiești Makkabi?",
+    "options": [
+     "doar germanii",
+     "doar israelienii",
+     "doar persoanele religioase",
+     "toate persoanele"
+    ]
    }
   },
   "scores": {
@@ -11571,6 +12633,15 @@
      "Jeśli chcę pójść na wybory, mój pracodawca musi udzielić mi wolnego.",
      "Każda osoba może bez przymusu zdecydować, czy chce głosować i na kogo chce głosować.",
      "Mogę swobodnie zdecydować, gdzie chcę pójść głosować."
+    ]
+   },
+   "ro": {
+    "question": "Alegerile din Germania sunt libere. Ce înseamnă asta?",
+    "options": [
+     "Toți infractorii condamnați nu au voie să voteze.",
+     "Dacă doresc să merg la vot, angajatorul meu trebuie să îmi dea liber.",
+     "Fiecare persoană poate decide fără constrângere dacă dorește să voteze și pe cine dorește să voteze.",
+     "Pot decide liber unde doresc să merg la vot."
     ]
    }
   },
@@ -11672,6 +12743,15 @@
      "systemem wyborczym większościowo-proporcjonalnym.",
      "powszechnym prawem wyborczym dla mężczyzn."
     ]
+   },
+   "ro": {
+    "question": "Sistemul electoral din Germania este un …",
+    "options": [
+     "drept de vot cenzitar.",
+     "drept de vot pe trei clase.",
+     "drept de vot majoritar și proporțional.",
+     "drept de vot general masculin."
+    ]
    }
   },
   "scores": {
@@ -11771,6 +12851,15 @@
      "granicą dopuszczenia.",
      "wartością bazową.",
      "wytyczną."
+    ]
+   },
+   "ro": {
+    "question": "Un partid dorește să intre în Bundestag-ul german. Dar trebuie să aibă un procent minim din voturile alegătorilor. Aceasta se numește …",
+    "options": [
+     "pragul de 5%.",
+     "limită de admitere.",
+     "valoare de bază.",
+     "directivă."
     ]
    }
   },
@@ -11872,6 +12961,15 @@
      "zamknięte, równe, bezpieczne.",
      "bezpieczne, otwarte, dobrowolne."
     ]
+   },
+   "ro": {
+    "question": "Ce principiu guvernează alegerile din Germania? Alegerile din Germania sunt …",
+    "options": [
+     "libere, egale, secrete.",
+     "deschise, sigure, libere.",
+     "închise, egale, sigure.",
+     "sigure, deschise, voluntare."
+    ]
    }
   },
   "scores": {
@@ -11971,6 +13069,15 @@
      "kontrolą obecności w Bundestagu podczas głosowań",
      "minimalnym odsetkiem głosów wyborców potrzebnym do wejścia do parlamentu",
      "kontrolą obecności w Bundesracie podczas głosowań"
+    ]
+   },
+   "ro": {
+    "question": "Ce este „pragul de 5%\" în Germania?",
+    "options": [
+     "regulă de vot în Bundestag pentru partidele mici",
+     "control de prezență în Bundestag pentru voturi",
+     "procent minim din voturile alegătorilor necesar pentru a intra în parlament",
+     "control de prezență în Bundesrat pentru voturi"
     ]
    }
   },
@@ -12072,6 +13179,15 @@
      "parlamentu dla Niemiec.",
      "prezydentki/prezydenta federalnego."
     ]
+   },
+   "ro": {
+    "question": "Alegerea pentru Bundestag în Germania este alegerea …",
+    "options": [
+     "cancelarului federal.",
+     "parlamentelor landurilor.",
+     "parlamentului pentru Germania.",
+     "președintelui federal."
+    ]
    }
   },
   "scores": {
@@ -12171,6 +13287,15 @@
      "umożliwienie zmiany rządu zgodnie z wolą większości wyborców.",
      "utrzymanie obowiązujących w kraju ustaw.",
      "danie biednym większej władzy."
+    ]
+   },
+   "ro": {
+    "question": "Într-o democrație, o funcție a alegerilor periodice este …",
+    "options": [
+     "de a obliga cetățenii să își exprime votul.",
+     "de a permite schimbarea guvernului conform voinței majorității alegătorilor.",
+     "de a menține legile existente în țară.",
+     "de a da mai multă putere celor săraci."
     ]
    }
   },
@@ -12272,6 +13397,15 @@
      "zawiadomienie od Zgromadzenia Federalnego",
      "zawiadomienie z parafii"
     ]
+   },
+   "ro": {
+    "question": "Ce primesc cetățenii cu drept de vot în Germania înainte de o alegere?",
+    "options": [
+     "o înștiințare de vot de la primărie",
+     "o autorizație de vot de la președintele federal",
+     "o înștiințare de la Adunarea Federală",
+     "o înștiințare de la parohie"
+    ]
    }
   },
   "scores": {
@@ -12372,6 +13506,15 @@
      "wiele małych partii utrudnia tworzenie rządu.",
      "małe partie nie mają wystarczająco dużo pieniędzy, aby opłacać polityków."
     ]
+   },
+   "ro": {
+    "question": "De ce există pragul de 5% în legea electorală a Republicii Federale Germania? Există pentru că …",
+    "options": [
+     "programele multor partide mici au multe elemente comune.",
+     "cetățenii se pot pierde în orientare dacă există multe partide mici.",
+     "multe partide mici îngreunează formarea guvernului.",
+     "partidele mici nu au suficienți bani pentru a plăti politicienii."
+    ]
    }
   },
   "scores": {
@@ -12408,6 +13551,15 @@
      "ambasadorami.",
      "premierami krajów związkowych."
     ]
+   },
+   "ro": {
+    "question": "Membrii parlamentului aleși de cetățeni se numesc …",
+    "options": [
+     "deputați.",
+     "cancelari.",
+     "ambasadori.",
+     "prim-miniștri de land."
+    ]
    }
   },
   "scores": {
@@ -12443,6 +13595,15 @@
      "premierka/premier kraju związkowego",
      "Bundestag",
      "prezydentka/prezydent federalny"
+    ]
+   },
+   "ro": {
+    "question": "Cine este ales de popor în Germania …",
+    "options": [
+     "cancelarul federal.",
+     "prim-ministrul unui land.",
+     "Bundestag-ul.",
+     "președintele federal."
     ]
    }
   },
@@ -12537,6 +13698,15 @@
    },
    "pl": {
     "question": "Która karta do głosowania byłaby ważna przy wyborach do Bundestagu? Na podstawie Rozporządzenia o wyborach federalnych (BWO), załącznik 26",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "ro": {
+    "question": "Care buletin de vot ar fi valabil la o alegere pentru Bundestag? Conform Regulamentului Electoral Federal (BWO), Anexa 26",
     "options": [
      "1",
      "2",
@@ -12643,6 +13813,15 @@
      "głową gminy.",
      "przewodniczącą/przewodniczącym partii."
     ]
+   },
+   "ro": {
+    "question": "În Germania, un primar este …",
+    "options": [
+     "directorul unei școli.",
+     "șeful unei bănci.",
+     "șeful unei comune.",
+     "președintele unui partid."
+    ]
    }
   },
   "scores": {
@@ -12742,6 +13921,15 @@
      "Pracują dobrowolnie i bez wynagrodzenia w stowarzyszeniach i związkach.",
      "Pracują w rządzie federalnym.",
      "Pracują w szpitalu i zarabiają przy tym pieniądze."
+    ]
+   },
+   "ro": {
+    "question": "Mulți oameni din Germania lucrează voluntar în timpul liber. Ce înseamnă asta?",
+    "options": [
+     "Lucrează ca soldați.",
+     "Lucrează voluntar și neplătit în asociații și cluburi.",
+     "Lucrează în guvernul federal.",
+     "Lucrează într-un spital și câștigă bani în acest fel."
     ]
    }
   },
@@ -12843,6 +14031,15 @@
      "Można oddać głos telefonicznie w dniu wyborów.",
      "Dzieci od 14 roku życia mogą głosować."
     ]
+   },
+   "ro": {
+    "question": "Ce este permis la alegerile pentru Bundestag și pentru parlamentele landurilor în Germania?",
+    "options": [
+     "Soțul votează și pentru soția sa.",
+     "Se poate vota prin corespondență.",
+     "Se poate vota telefonic în ziua alegerilor.",
+     "Copiii de la vârsta de 14 ani au voie să voteze."
+    ]
    }
   },
   "scores": {
@@ -12942,6 +14139,15 @@
      "Zapisuję się do klubu sportowego i trenuję jazdę na rowerze.",
      "Zwracam się do urzędu skarbowego, ponieważ jako podatniczka/podatnik mam prawo do tej linii autobusowej.",
      "Piszę list do urzędu leśnictwa gminy."
+    ]
+   },
+   "ro": {
+    "question": "Se dorește desființarea liniei de autobuz cu care mergeți mereu la muncă. Ce puteți face pentru a păstra linia de autobuz?",
+    "options": [
+     "Particip la o inițiativă cetățenească pentru păstrarea liniei de autobuz sau înființez eu însumi o inițiativă.",
+     "Devin membru al unui club sportiv și mă antrenez la ciclism.",
+     "Mă adresez administrației financiare, deoarece, ca plătitor de impozite, am dreptul la linia de autobuz.",
+     "Scriu o scrisoare către oficiul silvic al comunei."
     ]
    }
   },
@@ -13043,6 +14249,15 @@
      "osoby samozatrudnione",
      "pracownice i pracowników"
     ]
+   },
+   "ro": {
+    "question": "Pe cine reprezintă sindicatele în Germania?",
+    "options": [
+     "marile întreprinderi",
+     "micile întreprinderi",
+     "persoanele care desfășoară activități independente",
+     "angajații"
+    ]
    }
   },
   "scores": {
@@ -13142,6 +14357,15 @@
      "nieuzasadnionego wypowiedzenia przez szefową/szefa.",
      "problemów z sąsiadkami/sąsiadami.",
      "trudności po wypadku drogowym."
+    ]
+   },
+   "ro": {
+    "question": "În Germania, vă adresați tribunalului muncii în cazul …",
+    "options": [
+     "unei decontări greșite a cheltuielilor auxiliare.",
+     "unei concedieri nejustificate din partea șefului dumneavoastră.",
+     "unor probleme cu vecinii.",
+     "unor dificultăți în urma unui accident rutier."
     ]
    }
   },
@@ -13243,6 +14467,15 @@
      "sąd pracy",
      "sąd rejonowy (Amtsgericht)"
     ]
+   },
+   "ro": {
+    "question": "Care instanță este competentă în Germania pentru conflictele din lumea muncii?",
+    "options": [
+     "tribunalul familiei",
+     "tribunalul penal",
+     "tribunalul muncii",
+     "judecătoria"
+    ]
    }
   },
   "scores": {
@@ -13342,6 +14575,15 @@
      "wszcząć postępowanie upominawcze przeciwko pracodawcy",
      "wnieść pozew o ochronę przed zwolnieniem",
      "zgłosić pracodawcę na policji"
+    ]
+   },
+   "ro": {
+    "question": "Ce pot face în Germania dacă angajatorul meu m-a concediat pe nedrept?",
+    "options": [
+     "continui să lucrez și sunt prietenos cu șeful",
+     "inițiez o procedură de somație împotriva angajatorului",
+     "depun o acțiune în instanță împotriva concedierii",
+     "denunț angajatorul la poliție"
     ]
    }
   },
@@ -13443,6 +14685,15 @@
      "reprezentuje inny pogląd niż rząd.",
      "źle zaparkował samochód i zostaje on odholowany."
     ]
+   },
+   "ro": {
+    "question": "Când are loc un proces în instanță în Germania? Când cineva …",
+    "options": [
+     "trece la o altă religie.",
+     "a comis o infracțiune și este pus sub acuzare.",
+     "susține o altă opinie decât cea a guvernului.",
+     "și-a parcat mașina greșit și aceasta este ridicată."
+    ]
    }
   },
   "scores": {
@@ -13542,6 +14793,15 @@
      "udziela obywatelkom/obywatelom porad prawnych.",
      "wystawia dokumenty urzędowe.",
      "broni oskarżonej/oskarżonego."
+    ]
+   },
+   "ro": {
+    "question": "Ce face un jurat în Germania? El/Ea …",
+    "options": [
+     "decide împreună cu judecătorii asupra vinovăției și pedepsei.",
+     "oferă cetățenilor consiliere juridică.",
+     "eliberează acte oficiale.",
+     "apără persoana acuzată."
     ]
    }
   },
@@ -13643,6 +14903,15 @@
      "ławniczka/ławnik",
      "prokuratorka/prokurator"
     ]
+   },
+   "ro": {
+    "question": "Cine consiliază persoanele în probleme juridice în Germania și le reprezintă în instanță?",
+    "options": [
+     "un avocat",
+     "un judecător",
+     "un jurat",
+     "un procuror"
+    ]
    }
   },
   "scores": {
@@ -13742,6 +15011,15 @@
      "pracuje w sądzie i wydaje wyroki.",
      "zmienia ustawy.",
      "opiekuje się młodzieżą przed sądem."
+    ]
+   },
+   "ro": {
+    "question": "Care este sarcina principală a unui judecător în Germania? Un judecător …",
+    "options": [
+     "reprezintă cetățenii în fața unei instanțe.",
+     "lucrează într-o instanță și pronunță hotărâri.",
+     "modifică legile.",
+     "asistă tinerii în instanță."
     ]
    }
   },
@@ -13843,6 +15121,15 @@
      "władzy operacyjnej.",
      "władzy ustawodawczej."
     ]
+   },
+   "ro": {
+    "question": "Un judecător în Germania aparține de …",
+    "options": [
+     "puterea judecătorească.",
+     "puterea executivă.",
+     "puterea operativă.",
+     "puterea legislativă."
+    ]
    }
   },
   "scores": {
@@ -13942,6 +15229,15 @@
      "władzy sądowniczej.",
      "władzy planującej.",
      "władzy ustawodawczej."
+    ]
+   },
+   "ro": {
+    "question": "Un judecător aparține în Germania de …",
+    "options": [
+     "puterea executivă.",
+     "puterea judecătorească.",
+     "puterea de planificare.",
+     "puterea legislativă."
     ]
    }
   },
@@ -14043,6 +15339,15 @@
      "prasy",
      "władzy ustawodawczej"
     ]
+   },
+   "ro": {
+    "question": "În Germania, puterea de stat este împărțită. Pentru care putere lucrează un judecător? Pentru …",
+    "options": [
+     "puterea judecătorească",
+     "puterea executivă",
+     "presă",
+     "puterea legislativă"
+    ]
    }
   },
   "scores": {
@@ -14141,6 +15446,15 @@
      "program",
      "procedura",
      "protokół",
+     "proces"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește în Germania o procedură în fața unei instanțe?",
+    "options": [
+     "program",
+     "procedeu",
+     "protocol",
      "proces"
     ]
    }
@@ -14243,6 +15557,15 @@
      "tworzenie planów",
      "uchwalanie ustaw"
     ]
+   },
+   "ro": {
+    "question": "Care este activitatea unui judecător în Germania?",
+    "options": [
+     "să guverneze Germania",
+     "să înfăptuiască justiția",
+     "să elaboreze planuri",
+     "să emită legi"
+    ]
    }
   },
   "scores": {
@@ -14342,6 +15665,15 @@
      "podsłuchiwanie obywatelek i obywateli",
      "uchwalanie ustaw",
      "nadzorowanie przestrzegania ustaw"
+    ]
+   },
+   "ro": {
+    "question": "Care este o sarcină a poliției în Germania?",
+    "options": [
+     "să apere țara",
+     "să asculte convorbirile cetățenilor",
+     "să adopte legile",
+     "să supravegheze respectarea legilor"
     ]
    }
   },
@@ -14443,6 +15775,15 @@
      "negowanie Holokaustu",
      "gra w piłkę nożną przeciwko Żydom."
     ]
+   },
+   "ro": {
+    "question": "Ce este un exemplu de comportament antisemit?",
+    "options": [
+     "a vizita o sărbătoare evreiască",
+     "a critica guvernul israelian",
+     "a nega Holocaustul",
+     "a juca fotbal împotriva evreilor."
+    ]
    }
   },
   "scores": {
@@ -14478,6 +15819,15 @@
      "honorowa sędzia/honorowy sędzia.",
      "członek rady gminy.",
      "osoba, która studiowała prawo."
+    ]
+   },
+   "ro": {
+    "question": "Un jurat în Germania este …",
+    "options": [
+     "adjunctul șefului orașului.",
+     "un judecător onorific.",
+     "un membru al unui consiliu comunal.",
+     "o persoană care a studiat dreptul."
     ]
    }
   },
@@ -14579,6 +15929,15 @@
      "Republika Federalna Niemiec",
      "USA"
     ]
+   },
+   "ro": {
+    "question": "Cine a construit Zidul Berlinului?",
+    "options": [
+     "Marea Britanie",
+     "RDG",
+     "Republica Federală Germania",
+     "SUA"
+    ]
    }
   },
   "scores": {
@@ -14678,6 +16037,15 @@
      "od 1932 do 1950",
      "od 1933 do 1945",
      "od 1945 do 1989"
+    ]
+   },
+   "ro": {
+    "question": "Când s-au aflat naziștii, conduși de Adolf Hitler, la putere în Germania?",
+    "options": [
+     "1918 până în 1923",
+     "1932 până în 1950",
+     "1933 până în 1945",
+     "1945 până în 1989"
     ]
    }
   },
@@ -14779,6 +16147,15 @@
      "wybór Konrada Adenauera na kanclerza federalnego",
      "koniec drugiej wojny światowej w Europie"
     ]
+   },
+   "ro": {
+    "question": "Ce s-a întâmplat pe 8 mai 1945?",
+    "options": [
+     "Moartea lui Adolf Hitler",
+     "Începutul construcției Zidului Berlinului",
+     "Alegerea lui Konrad Adenauer ca cancelar federal",
+     "Sfârșitul celui de-Al Doilea Război Mondial în Europa"
+    ]
    }
   },
   "scores": {
@@ -14873,6 +16250,15 @@
    },
    "pl": {
     "question": "Kiedy zakończyła się druga wojna światowa?",
+    "options": [
+     "1933",
+     "1945",
+     "1949",
+     "1961"
+    ]
+   },
+   "ro": {
+    "question": "Când s-a încheiat Al Doilea Război Mondial?",
     "options": [
      "1933",
      "1945",
@@ -14979,6 +16365,15 @@
      "od 1933 do 1945",
      "od 1949 do 1963"
     ]
+   },
+   "ro": {
+    "question": "Când s-au aflat naziștii la putere în Germania?",
+    "options": [
+     "1888 până în 1918",
+     "1921 până în 1934",
+     "1933 până în 1945",
+     "1949 până în 1963"
+    ]
    }
   },
   "scores": {
@@ -15073,6 +16468,15 @@
    },
    "pl": {
     "question": "W którym roku Hitler został kanclerzem Rzeszy?",
+    "options": [
+     "1923",
+     "1927",
+     "1933",
+     "1936"
+    ]
+   },
+   "ro": {
+    "question": "În ce an a devenit Hitler cancelar al Reich-ului?",
     "options": [
      "1923",
      "1927",
@@ -15179,6 +16583,15 @@
      "monarchię.",
      "księstwo."
     ]
+   },
+   "ro": {
+    "question": "Naziștii, conduși de Adolf Hitler, au instaurat în 1933 în Germania …",
+    "options": [
+     "o dictatură.",
+     "un stat democratic.",
+     "o monarhie.",
+     "un principat."
+    ]
    }
   },
   "scores": {
@@ -15278,6 +16691,15 @@
      "demokracją.",
      "monarchią.",
      "republiką rad."
+    ]
+   },
+   "ro": {
+    "question": "„Al Treilea Reich” a fost o …",
+    "options": [
+     "dictatură.",
+     "democrație.",
+     "monarhie.",
+     "republică a sfaturilor (Räterepublik)."
     ]
    }
   },
@@ -15379,6 +16801,15 @@
      "arbitralnych aresztowań",
      "prześladowań Żydów"
     ]
+   },
+   "ro": {
+    "question": "Ce nu a existat în Germania în perioada nazismului?",
+    "options": [
+     "alegeri libere",
+     "cenzura presei",
+     "arestări arbitrare",
+     "persecutarea evreilor"
+    ]
    }
   },
   "scores": {
@@ -15478,6 +16909,15 @@
      "druga wojna światowa",
      "wojna wietnamska",
      "wojna w Zatoce Perskiej"
+    ]
+   },
+   "ro": {
+    "question": "Care război a durat din 1939 până în 1945?",
+    "options": [
+     "Primul Război Mondial",
+     "Al Doilea Război Mondial",
+     "Războiul din Vietnam",
+     "Războiul din Golf"
     ]
    }
   },
@@ -15579,6 +17019,15 @@
      "powszechnej wolności religijnej",
      "rozwoju demokracji"
     ]
+   },
+   "ro": {
+    "question": "Ce a caracterizat statul nazist? O politică …",
+    "options": [
+     "a rasismului de stat",
+     "a libertății de opinie",
+     "a libertății religioase generale",
+     "a dezvoltării democrației"
+    ]
    }
   },
   "scores": {
@@ -15679,6 +17128,15 @@
      "rozbudowie Wehrmachtu.",
      "zamachowi na Hitlera 20 lipca 1944 roku."
     ]
+   },
+   "ro": {
+    "question": "Claus Schenk Graf von Stauffenberg a devenit cunoscut prin …",
+    "options": [
+     "o medalie de aur la Jocurile Olimpice din 1936.",
+     "construcția clădirii Reichstagului.",
+     "înființarea Wehrmachtului.",
+     "atentatul asupra lui Hitler din 20 iulie 1944."
+    ]
    }
   },
   "scores": {
@@ -15773,6 +17231,15 @@
    },
    "pl": {
     "question": "W którym roku narodowi socjaliści zniszczyli synagogi i żydowskie sklepy w Niemczech?",
+    "options": [
+     "1925",
+     "1930",
+     "1938",
+     "1945"
+    ]
+   },
+   "ro": {
+    "question": "În ce an au distrus naziștii sinagogi și magazine evreiești în Germania?",
     "options": [
      "1925",
      "1930",
@@ -15879,6 +17346,15 @@
      "Żydowskie sklepy i synagogi zostają zniszczone przez narodowych socjalistów i ich zwolenników.",
      "Hitler zostaje prezydentem Rzeszy i zakazuje działalności wszystkich partii."
     ]
+   },
+   "ro": {
+    "question": "Ce s-a întâmplat pe 9 noiembrie 1938 în Germania?",
+    "options": [
+     "Prin atacul asupra Poloniei începe Al Doilea Război Mondial.",
+     "Naziștii pierd alegerile și dizolvă Reichstagul.",
+     "Magazine și sinagogi evreiești sunt distruse de naziști și susținătorii lor.",
+     "Hitler devine președinte al Reich-ului și interzice toate partidele."
+    ]
    }
   },
   "scores": {
@@ -15973,6 +17449,15 @@
    },
    "pl": {
     "question": "Jak nazywał się pierwszy kanclerz federalny Republiki Federalnej Niemiec?",
+    "options": [
+     "Konrad Adenauer",
+     "Kurt Georg Kiesinger",
+     "Helmut Schmidt",
+     "Willy Brandt"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numea primul cancelar federal al Republicii Federale Germania?",
     "options": [
      "Konrad Adenauer",
      "Kurt Georg Kiesinger",
@@ -16079,6 +17564,15 @@
      "podczas demonstracji antyatomowych w 1985 roku w Republice Federalnej Niemiec",
      "podczas demonstracji poniedziałkowych w 1989 roku w NRD"
     ]
+   },
+   "ro": {
+    "question": "La care demonstrații din Germania au strigat oamenii „Noi suntem poporul”?",
+    "options": [
+     "la revolta muncitorilor din 1953 din RDG",
+     "la demonstrațiile din 1968 din Republica Federală Germania",
+     "la demonstrațiile anti-nucleare din 1985 din Republica Federală Germania",
+     "la demonstrațiile de luni din 1989 din RDG"
+    ]
    }
   },
   "scores": {
@@ -16178,6 +17672,15 @@
      "Francja, Związek Radziecki, Włochy, Japonia",
      "USA, Związek Radziecki, Hiszpania, Portugalia",
      "USA, Związek Radziecki, Wielka Brytania, Francja"
+    ]
+   },
+   "ro": {
+    "question": "Ce țări au fost numite „puteri aliate de ocupație” în Germania după Al Doilea Război Mondial?",
+    "options": [
+     "Uniunea Sovietică, Marea Britanie, Polonia, Suedia",
+     "Franța, Uniunea Sovietică, Italia, Japonia",
+     "SUA, Uniunea Sovietică, Spania, Portugalia",
+     "SUA, Uniunea Sovietică, Marea Britanie, Franța"
     ]
    }
   },
@@ -16279,6 +17782,15 @@
      "Francja",
      "Japonia"
     ]
+   },
+   "ro": {
+    "question": "Care țară nu a fost o „putere aliată de ocupație” în Germania?",
+    "options": [
+     "SUA",
+     "Uniunea Sovietică",
+     "Franța",
+     "Japonia"
+    ]
    }
   },
   "scores": {
@@ -16373,6 +17885,15 @@
    },
    "pl": {
     "question": "Kiedy powstała Republika Federalna Niemiec?",
+    "options": [
+     "1939",
+     "1945",
+     "1949",
+     "1951"
+    ]
+   },
+   "ro": {
+    "question": "Când a fost fondată Republica Federală Germania?",
     "options": [
      "1939",
      "1945",
@@ -16479,6 +18000,15 @@
      "wolność prasy",
      "ochronę godności ludzkiej"
     ]
+   },
+   "ro": {
+    "question": "Ce a existat în Germania în perioada nazismului?",
+    "options": [
+     "interzicerea partidelor",
+     "dreptul la libera dezvoltare a personalității",
+     "libertatea presei",
+     "protecția demnității umane"
+    ]
    }
   },
   "scores": {
@@ -16578,6 +18108,15 @@
      "jest planowana i kierowana przez państwo, podaż i popyt nie są brane pod uwagę.",
      "kieruje się popytem za granicą.",
      "kieruje się podażą i popytem, ale państwo dba o wyrównanie społeczne."
+    ]
+   },
+   "ro": {
+    "question": "Economia socială de piață înseamnă că economia …",
+    "options": [
+     "se reglează exclusiv după cerere și ofertă.",
+     "este planificată și controlată de stat, cererea și oferta nu sunt luate în considerare.",
+     "se orientează după cererea din străinătate.",
+     "se orientează după cerere și ofertă, dar statul asigură un echilibru social."
     ]
    }
   },
@@ -16679,6 +18218,15 @@
      "brytyjskiej",
      "radzieckiej"
     ]
+   },
+   "ro": {
+    "question": "În ce zonă de ocupație a fost fondată RDG? În zona …",
+    "options": [
+     "americană de ocupație",
+     "franceză de ocupație",
+     "britanică de ocupație",
+     "sovietică de ocupație"
+    ]
    }
   },
   "scores": {
@@ -16779,6 +18327,15 @@
      "Unii Europejskiej (UE).",
      "Układu Warszawskiego."
     ]
+   },
+   "ro": {
+    "question": "Republica Federală Germania este membru fondator …",
+    "options": [
+     "al Pactului Nord-Atlantic (NATO).",
+     "al Organizației Națiunilor Unite (ONU).",
+     "al Uniunii Europene (UE).",
+     "al Pactului de la Varșovia."
+    ]
    }
   },
   "scores": {
@@ -16873,6 +18430,15 @@
    },
    "pl": {
     "question": "Kiedy powstała NRD?",
+    "options": [
+     "1947",
+     "1949",
+     "1953",
+     "1956"
+    ]
+   },
+   "ro": {
+    "question": "Când a fost fondată RDG?",
     "options": [
      "1947",
      "1949",
@@ -16979,6 +18545,15 @@
      "5",
      "6"
     ]
+   },
+   "ro": {
+    "question": "Câte zone de ocupație au existat în Germania după Al Doilea Război Mondial?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
    }
   },
   "scores": {
@@ -17078,6 +18653,15 @@
      "1=Związek Radziecki, 2=Wielka Brytania, 3=USA, 4=Francja",
      "1=Wielka Brytania, 2=Związek Radziecki, 3=USA, 4=Francja",
      "1=Wielka Brytania, 2=USA, 3=Związek Radziecki, 4=Francja"
+    ]
+   },
+   "ro": {
+    "question": "Cum erau distribuite zonele de ocupație ale Germaniei după 1945?",
+    "options": [
+     "1=Marea Britanie, 2=Uniunea Sovietică, 3=Franța, 4=SUA",
+     "1=Uniunea Sovietică, 2=Marea Britanie, 3=SUA, 4=Franța",
+     "1=Marea Britanie, 2=Uniunea Sovietică, 3=SUA, 4=Franța",
+     "1=Marea Britanie, 2=SUA, 3=Uniunea Sovietică, 4=Franța"
     ]
    }
   },
@@ -17179,6 +18763,15 @@
      "Drezno",
      "Frankfurt nad Odrą"
     ]
+   },
+   "ro": {
+    "question": "Care oraș german a fost împărțit în patru sectoare după Al Doilea Război Mondial?",
+    "options": [
+     "München",
+     "Berlin",
+     "Dresda",
+     "Frankfurt/Oder"
+    ]
    }
   },
   "scores": {
@@ -17278,6 +18871,15 @@
      "Amerykańscy żołnierze obawiali się napadów podczas transportu lądowego.",
      "Dla Wielkiej Brytanii zaopatrzenie przez most powietrzny było szybsze.",
      "Związek Radziecki wstrzymał cały ruch drogą lądową."
+    ]
+   },
+   "ro": {
+    "question": "Din iunie 1948 până în mai 1949, locuitorii Berlinului de Vest au fost aprovizionați printr-un pod aerian. Ce împrejurare a fost răspunzătoare pentru aceasta?",
+    "options": [
+     "Pentru Franța, aprovizionarea populației din Berlinul de Vest cu avionul era mai ieftină.",
+     "Soldații americani se temeau de atacuri la transportul terestru.",
+     "Pentru Marea Britanie, aprovizionarea prin podul aerian era mai rapidă.",
+     "Uniunea Sovietică a întrerupt întregul trafic pe cale terestră."
     ]
    }
   },
@@ -17379,6 +18981,15 @@
      "wycofaniem się Niemców z terenów okupowanych",
      "rewolucją w Niemczech"
     ]
+   },
+   "ro": {
+    "question": "Cum s-a încheiat oficial Al Doilea Război Mondial în Europa?",
+    "options": [
+     "prin moartea lui Adolf Hitler",
+     "prin capitularea necondiționată a Germaniei",
+     "prin retragerea germanilor din teritoriile ocupate",
+     "printr-o revoluție în Germania"
+    ]
    }
   },
   "scores": {
@@ -17473,6 +19084,15 @@
    },
    "pl": {
     "question": "Pierwszym kanclerzem federalnym Republiki Federalnej Niemiec był...",
+    "options": [
+     "Ludwig Erhard.",
+     "Willy Brandt.",
+     "Konrad Adenauer.",
+     "Gerhard Schröder."
+    ]
+   },
+   "ro": {
+    "question": "Primul cancelar federal al Republicii Federale Germania a fost …",
     "options": [
      "Ludwig Erhard.",
      "Willy Brandt.",
@@ -17579,6 +19199,15 @@
      "Okazał pokorę wobec Układu Warszawskiego.",
      "Odmówił modlitwę przy grobie Nieznanego Żołnierza."
     ]
+   },
+   "ro": {
+    "question": "Ce a vrut să exprime Willy Brandt prin îngenuncherea sa din 1970 în fostul ghetou evreiesc din Varșovia?",
+    "options": [
+     "S-a supus fostelor puteri aliate.",
+     "A cerut iertare Poloniei și evreilor polonezi.",
+     "Și-a arătat smerenia față de Pactul de la Varșovia.",
+     "A rostit o rugăciune la mormântul Soldatului Necunoscut."
+    ]
    }
   },
   "scores": {
@@ -17678,6 +19307,15 @@
      "meczet",
      "synagoga",
      "kościół"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește casa de rugăciune evreiască?",
+    "options": [
+     "Bazilică",
+     "Moschee",
+     "Sinagogă",
+     "Biserică"
     ]
    }
   },
@@ -17779,6 +19417,15 @@
      "w latach 70.",
      "w latach 80."
     ]
+   },
+   "ro": {
+    "question": "Când a avut loc „miracolul economic” (Wirtschaftswunder) în Republica Federală Germania?",
+    "options": [
+     "anii '40",
+     "anii '50",
+     "anii '70",
+     "anii '80"
+    ]
    }
   },
   "scores": {
@@ -17878,6 +19525,15 @@
      "uchwała Kongresu Syjonistycznego",
      "propozycja rządu federalnego",
      "propozycja ZSRR"
+    ]
+   },
+   "ro": {
+    "question": "Pe ce bază juridică a fost fondat statul Israel?",
+    "options": [
+     "o rezoluție a Organizației Națiunilor Unite",
+     "o decizie a Congresului Sionist",
+     "o propunere a guvernului federal",
+     "o propunere a URSS"
     ]
    }
   },
@@ -17979,6 +19635,15 @@
      "nazistowskich Niemiec od aliantów",
      "Europy od USA"
     ]
+   },
+   "ro": {
+    "question": "Ce reprezenta expresia „Cortina de Fier”? Izolarea …",
+    "options": [
+     "Pactului de la Varșovia față de Vest",
+     "Germaniei de Nord față de Germania de Sud",
+     "Germaniei naziste față de Aliați",
+     "Europei față de SUA"
+    ]
    }
   },
   "scores": {
@@ -18078,6 +19743,15 @@
      "17 czerwca",
      "20 lipca",
      "9 listopada"
+    ]
+   },
+   "ro": {
+    "question": "În 1953 a avut loc o răscoală în RDG, de care în Republica Federală Germania a fost amintit multă vreme printr-o zi de sărbătoare. Când a fost aceasta?",
+    "options": [
+     "1 mai",
+     "17 iunie",
+     "20 iulie",
+     "9 noiembrie"
     ]
    }
   },
@@ -18179,6 +19853,15 @@
      "\"Trzecia Rzesza\"",
      "NRD"
     ]
+   },
+   "ro": {
+    "question": "Care stat german avea un steag negru-roșu-auriu cu ciocan, compas și cunună de spice?",
+    "options": [
+     "Prusia",
+     "Republica Federală Germania",
+     "„Al Treilea Reich”",
+     "RDG"
+    ]
    }
   },
   "scores": {
@@ -18273,6 +19956,15 @@
    },
    "pl": {
     "question": "W którym roku zbudowano mur w Berlinie?",
+    "options": [
+     "1953",
+     "1956",
+     "1959",
+     "1961"
+    ]
+   },
+   "ro": {
+    "question": "În ce an a fost construit Zidul Berlinului?",
     "options": [
      "1953",
      "1956",
@@ -18379,6 +20071,15 @@
      "1961",
      "1990"
     ]
+   },
+   "ro": {
+    "question": "Când a construit RDG Zidul Berlinului?",
+    "options": [
+     "1919",
+     "1933",
+     "1961",
+     "1990"
+    ]
    }
   },
   "scores": {
@@ -18479,6 +20180,15 @@
      "Trzecia Republika Niemiecka",
      "Niemiecka Republika Demokratyczna"
     ]
+   },
+   "ro": {
+    "question": "Ce înseamnă abrevierea RDG?",
+    "options": [
+     "Al Treilea Post de Radio German",
+     "Republica Germană",
+     "A Treia Republică Germană",
+     "Republica Democrată Germană"
+    ]
    }
   },
   "scores": {
@@ -18573,6 +20283,15 @@
    },
    "pl": {
     "question": "Kiedy mur w Berlinie został otwarty dla wszystkich?",
+    "options": [
+     "1987",
+     "1989",
+     "1992",
+     "1995"
+    ]
+   },
+   "ro": {
+    "question": "Când a fost deschis Zidul Berlinului pentru toată lumea?",
     "options": [
      "1987",
      "1989",
@@ -18679,6 +20398,15 @@
      "Kraj Saary",
      "Hesja"
     ]
+   },
+   "ro": {
+    "question": "Care landuri (Bundesländer) germane de astăzi au aparținut fostei RDG?",
+    "options": [
+     "Brandenburg",
+     "Bavaria",
+     "Saarland",
+     "Hesse"
+    ]
    }
   },
   "scores": {
@@ -18778,6 +20506,15 @@
      "osobnym państwem.",
      "podzielony murem.",
      "osiągalny tylko samolotem."
+    ]
+   },
+   "ro": {
+    "question": "Din 1961 până în 1989, Berlinul a fost …",
+    "options": [
+     "fără primar.",
+     "un stat de sine stătător.",
+     "despărțit printr-un zid.",
+     "accesibil doar cu avionul."
     ]
    }
   },
@@ -18879,6 +20616,15 @@
      "Krajów Związkowych.",
      "Miast."
     ]
+   },
+   "ro": {
+    "question": "Pe 3 octombrie se sărbătorește în Germania Ziua Unității …",
+    "options": [
+     "Germane.",
+     "Naționale.",
+     "Landurilor.",
+     "Orașelor."
+    ]
    }
   },
   "scores": {
@@ -18978,6 +20724,15 @@
      "Saksonia-Anhalt",
      "Nadrenia Północna-Westfalia",
      "Kraj Saary"
+    ]
+   },
+   "ro": {
+    "question": "Care land (Bundesland) german de astăzi a aparținut fostei RDG?",
+    "options": [
+     "Hesse",
+     "Saxonia-Anhalt",
+     "Renania de Nord-Westfalia",
+     "Saarland"
     ]
    }
   },
@@ -19079,6 +20834,15 @@
      "z monarchii w socjaldemokrację.",
      "z państwa religijnego w państwo komunistyczne."
     ]
+   },
+   "ro": {
+    "question": "De ce se numește perioada din toamna anului 1989 din RDG „Die Wende” (Cotitura)? În această perioadă RDG s-a schimbat politic …",
+    "options": [
+     "dintr-o dictatură într-o democrație.",
+     "dintr-o economie de piață liberală în socialism.",
+     "dintr-o monarhie într-o social-democrație.",
+     "dintr-un stat religios într-un stat comunist."
+    ]
    }
   },
   "scores": {
@@ -19178,6 +20942,15 @@
      "Hesja",
      "Bawaria",
      "Brema"
+    ]
+   },
+   "ro": {
+    "question": "Care land (Bundesland) german de astăzi a aparținut fostei RDG?",
+    "options": [
+     "Turingia",
+     "Hesse",
+     "Bavaria",
+     "Bremen"
     ]
    }
   },
@@ -19279,6 +21052,15 @@
      "Saksonia",
      "Badenia-Wirtembergia"
     ]
+   },
+   "ro": {
+    "question": "Care land (Bundesland) german de astăzi a aparținut fostei RDG?",
+    "options": [
+     "Bavaria",
+     "Saxonia Inferioară",
+     "Saxonia",
+     "Baden-Württemberg"
+    ]
    }
   },
   "scores": {
@@ -19378,6 +21160,15 @@
      "Ministerstwo Bezpieczeństwa Państwowego.",
      "partię rządzącą.",
      "Ministerstwo Oświaty Ludowej."
+    ]
+   },
+   "ro": {
+    "question": "Prin abrevierea „Stasi” se înțelegea în RDG …",
+    "options": [
+     "parlamentul.",
+     "Ministerul Securității de Stat.",
+     "un partid aflat la guvernare.",
+     "Ministerul Educației Populare."
     ]
    }
   },
@@ -19479,6 +21270,15 @@
      "Meklemburgia-Pomorze Przednie",
      "Kraj Saary"
     ]
+   },
+   "ro": {
+    "question": "Care land (Bundesland) german de astăzi a aparținut fostei RDG?",
+    "options": [
+     "Hesse",
+     "Schleswig-Holstein",
+     "Mecklenburg-Pomerania Inferioară",
+     "Saarland"
+    ]
    }
   },
   "scores": {
@@ -19578,6 +21378,15 @@
      "Meklemburgia-Pomorze Przednie, Brandenburgia, Saksonia, Saksonia-Anhalt, Turyngia",
      "Bawaria, Badenia-Wirtembergia, Nadrenia-Palatynat, Turyngia, Saksonia",
      "Saksonia, Turyngia, Hesja, Dolna Saksonia, Brandenburgia"
+    ]
+   },
+   "ro": {
+    "question": "Care dintre următoarele liste conține numai landuri (Bundesländer) care au aparținut fostei RDG?",
+    "options": [
+     "Saxonia Inferioară, Renania de Nord-Westfalia, Hesse, Schleswig-Holstein, Brandenburg",
+     "Mecklenburg-Pomerania Inferioară, Brandenburg, Saxonia, Saxonia-Anhalt, Turingia",
+     "Bavaria, Baden-Württemberg, Renania-Palatinat, Turingia, Saxonia",
+     "Saxonia, Turingia, Hesse, Saxonia Inferioară, Brandenburg"
     ]
    }
   },
@@ -19679,6 +21488,15 @@
      "do NATO",
      "do państw niezaangażowanych"
     ]
+   },
+   "ro": {
+    "question": "De cine aparținea RDG în timpul „Războiului Rece”?",
+    "options": [
+     "de puterile occidentale",
+     "de Pactul de la Varșovia",
+     "de NATO",
+     "de statele nealiniate"
+    ]
    }
   },
   "scores": {
@@ -19778,6 +21596,15 @@
      "gospodarka planowa",
      "podaż i popyt",
      "kapitalizm"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numea sistemul economic al RDG?",
+    "options": [
+     "economie de piață",
+     "economie planificată",
+     "cerere și ofertă",
+     "capitalism"
     ]
    }
   },
@@ -19879,6 +21706,15 @@
      "Zachodnie kraje związkowe przystąpiły do NRD.",
      "NRD zajęła Republikę Federalną Niemiec."
     ]
+   },
+   "ro": {
+    "question": "Cum au devenit Republica Federală Germania și RDG un singur stat?",
+    "options": [
+     "Republica Federală a ocupat RDG.",
+     "Cele cinci landuri estice de astăzi au aderat la Republica Federală Germania.",
+     "Landurile vestice au aderat la RDG.",
+     "RDG a ocupat Republica Federală Germania."
+    ]
    }
   },
   "scores": {
@@ -19978,6 +21814,15 @@
      "do Układu Warszawskiego.",
      "do OPEC.",
      "do Europejskiej Wspólnoty Obronnej."
+    ]
+   },
+   "ro": {
+    "question": "Prin aderarea RDG la Republica Federală Germania, noile landuri fac acum parte și ele …",
+    "options": [
+     "din Uniunea Europeană.",
+     "din Pactul de la Varșovia.",
+     "din OPEC.",
+     "din Comunitatea Europeană de Apărare."
     ]
    }
   },
@@ -20079,6 +21924,15 @@
      "o ofiarach wypadków drogowych",
      "o znanych żydowskich muzykach"
     ]
+   },
+   "ro": {
+    "question": "De ce amintesc așa-numitele „pietre de poticnire” (Stolpersteine) din Germania?",
+    "options": [
+     "de politicieni germani celebri",
+     "de victimele nazismului",
+     "de victimele accidentelor rutiere",
+     "de muzicieni evrei cunoscuți"
+    ]
    }
   },
   "scores": {
@@ -20178,6 +22032,15 @@
      "Związku Reńskiego",
      "Układu Warszawskiego",
      "Sojuszu Europejskiego"
+    ]
+   },
+   "ro": {
+    "question": "Din ce alianță militară a făcut parte RDG?",
+    "options": [
+     "NATO",
+     "Confederația Rinului",
+     "Pactul de la Varșovia",
+     "Alianța Europeană"
     ]
    }
   },
@@ -20279,6 +22142,15 @@
      "służbą bezpieczeństwa NRD",
      "niemieckim klubem sportowym podczas drugiej wojny światowej"
     ]
+   },
+   "ro": {
+    "question": "Ce a fost „Stasi”?",
+    "options": [
+     "serviciul secret din „Al Treilea Reich”",
+     "un memorial german celebru",
+     "serviciul secret al RDG",
+     "un club sportiv german în timpul celui de-Al Doilea Război Mondial"
+    ]
    }
   },
   "scores": {
@@ -20314,6 +22186,15 @@
      "Obraz 2",
      "Obraz 3",
      "Obraz 4"
+    ]
+   },
+   "ro": {
+    "question": "Care a fost stema Republicii Democrate Germane? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -20415,6 +22296,15 @@
      "1. zjazd partii SED",
      "pierwsza wizyta Fidela Castro"
     ]
+   },
+   "ro": {
+    "question": "Ce s-a întâmplat pe 17 iunie 1953 în RDG?",
+    "options": [
+     "aderarea festivă la Pactul de la Varșovia",
+     "greve la nivel național și o răscoală populară",
+     "primul congres al partidului SED",
+     "prima vizită a lui Fidel Castro"
+    ]
    }
   },
   "scores": {
@@ -20513,6 +22403,15 @@
      "Helmut Kohl",
      "Willy Brandt",
      "Michaił Gorbaczow",
+     "Ludwig Erhard"
+    ]
+   },
+   "ro": {
+    "question": "Care politician este asociat cu „tratatele cu Estul” (Ostverträge)?",
+    "options": [
+     "Helmut Kohl",
+     "Willy Brandt",
+     "Mihail Gorbaciov",
      "Ludwig Erhard"
     ]
    }
@@ -20615,6 +22514,15 @@
      "Republika Federalna Niemiec",
      "Okręg Związkowy Niemcy"
     ]
+   },
+   "ro": {
+    "question": "Care este numele complet al Germaniei?",
+    "options": [
+     "Statul Federal Germania",
+     "Landurile Germania",
+     "Republica Federală Germania",
+     "Districtul Federal Germania"
+    ]
    }
   },
   "scores": {
@@ -20714,6 +22622,15 @@
      "78 milionów",
      "84 miliony",
      "90 milionów"
+    ]
+   },
+   "ro": {
+    "question": "Câți locuitori are Germania?",
+    "options": [
+     "70 de milioane",
+     "78 de milioane",
+     "84 de milioane",
+     "90 de milioane"
     ]
    }
   },
@@ -20815,6 +22732,15 @@
      "czarno-czerwono-zielony",
      "czarno-żółto-czerwony"
     ]
+   },
+   "ro": {
+    "question": "Ce culori are steagul german?",
+    "options": [
+     "negru-roșu-auriu",
+     "roșu-alb-negru",
+     "negru-roșu-verde",
+     "negru-galben-roșu"
+    ]
    }
   },
   "scores": {
@@ -20909,6 +22835,15 @@
    },
    "pl": {
     "question": "Kogo nazywa się \"kanclerzem niemieckiej jedności\"?",
+    "options": [
+     "Gerhard Schröder",
+     "Helmut Kohl",
+     "Konrad Adenauer",
+     "Helmut Schmidt"
+    ]
+   },
+   "ro": {
+    "question": "Cine este numit „cancelarul unității germane”?",
     "options": [
      "Gerhard Schröder",
      "Helmut Kohl",
@@ -21015,6 +22950,15 @@
      "orzeł Rzeszy",
      "korona Rzeszy"
     ]
+   },
+   "ro": {
+    "question": "Ce simbol se poate vedea în sala de plen a Bundestagului german?",
+    "options": [
+     "acvila federală",
+     "steagul orașului Berlin",
+     "acvila Reichului",
+     "coroana imperială"
+    ]
    }
   },
   "scores": {
@@ -21115,6 +23059,15 @@
      "od 1945 do 1961",
      "od 1949 do 1990"
     ]
+   },
+   "ro": {
+    "question": "În ce perioadă a existat Republica Democrată Germană (RDG)?",
+    "options": [
+     "1919 până în 1927",
+     "1933 până în 1945",
+     "1945 până în 1961",
+     "1949 până în 1990"
+    ]
    }
   },
   "scores": {
@@ -21209,6 +23162,15 @@
    },
    "pl": {
     "question": "Ile krajów związkowych dołączyło do Republiki Federalnej Niemiec podczas zjednoczenia w 1990 roku?",
+    "options": [
+     "4",
+     "5",
+     "6",
+     "7"
+    ]
+   },
+   "ro": {
+    "question": "Câte landuri (Bundesländer) s-au alăturat Republicii Federale Germania la reunificarea din 1990?",
     "options": [
      "4",
      "5",
@@ -21315,6 +23277,15 @@
      "1971",
      "1990"
     ]
+   },
+   "ro": {
+    "question": "Republica Federală Germania are granițele de astăzi din anul …",
+    "options": [
+     "1933",
+     "1949",
+     "1971",
+     "1990"
+    ]
    }
   },
   "scores": {
@@ -21414,6 +23385,15 @@
      "o uchwaleniu Ustawy Zasadniczej",
      "o zjednoczeniu Niemiec",
      "o ofiarach narodowego socjalizmu (dzień wyzwolenia obozu zagłady Auschwitz)"
+    ]
+   },
+   "ro": {
+    "question": "27 ianuarie este în Germania o zi oficială de comemorare. De ce amintește această zi?",
+    "options": [
+     "de sfârșitul celui de-Al Doilea Război Mondial",
+     "de adoptarea Legii Fundamentale",
+     "de reunificarea Germaniei",
+     "de victimele nazismului (ziua eliberării lagărului de exterminare Auschwitz)"
     ]
    }
   },
@@ -21515,6 +23495,15 @@
      "Niemcy mogą podróżować bez kontroli paszportowej do każdego kraju.",
      "Niemcy mogą płacić euro w każdym kraju."
     ]
+   },
+   "ro": {
+    "question": "Germania este membră a Acordului Schengen. Ce înseamnă asta?",
+    "options": [
+     "Germanii pot călători în multe țări din Europa fără control de pașapoarte.",
+     "Toți oamenii pot intra în Germania fără control al persoanelor.",
+     "Germanii pot călători fără control de pașapoarte în orice țară.",
+     "Germanii pot plăti cu euro în orice țară."
+    ]
    }
   },
   "scores": {
@@ -21614,6 +23603,15 @@
      "Portugalia",
      "Hiszpania",
      "Szwajcaria"
+    ]
+   },
+   "ro": {
+    "question": "Care țară este vecină cu Germania?",
+    "options": [
+     "Ungaria",
+     "Portugalia",
+     "Spania",
+     "Elveția"
     ]
    }
   },
@@ -21715,6 +23713,15 @@
      "Polska",
      "Grecja"
     ]
+   },
+   "ro": {
+    "question": "Care țară este vecină cu Germania?",
+    "options": [
+     "România",
+     "Bulgaria",
+     "Polonia",
+     "Grecia"
+    ]
    }
   },
   "scores": {
@@ -21814,6 +23821,15 @@
      "Unia Europejska",
      "Unia Jednolita",
      "Unia Euro"
+    ]
+   },
+   "ro": {
+    "question": "Ce înseamnă abrevierea UE?",
+    "options": [
+     "Întreprinderi Europene",
+     "Uniunea Europeană",
+     "Uniunea Unitară",
+     "Uniunea Euro"
     ]
    }
   },
@@ -21915,6 +23931,15 @@
      "Hiszpania",
      "Austria"
     ]
+   },
+   "ro": {
+    "question": "În care altă țară există o populație numeroasă de limbă germană?",
+    "options": [
+     "Cehia",
+     "Norvegia",
+     "Spania",
+     "Austria"
+    ]
    }
   },
   "scores": {
@@ -22013,6 +24038,15 @@
      "Obraz 2",
      "Obraz 3",
      "Obraz 4"
+    ]
+   },
+   "ro": {
+    "question": "Care este steagul Uniunii Europene? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -22114,6 +24148,15 @@
      "Norwegia",
      "Szwecja"
     ]
+   },
+   "ro": {
+    "question": "Care țară este vecină cu Germania?",
+    "options": [
+     "Finlanda",
+     "Danemarca",
+     "Norvegia",
+     "Suedia"
+    ]
    }
   },
   "scores": {
@@ -22213,6 +24256,15 @@
      "Rozszerzenie UE na wschód",
      "Zjednoczenie Niemiec",
      "Wspólnota Europejska"
+    ]
+   },
+   "ro": {
+    "question": "Cum este numită în general aderarea RDG la Republica Federală Germania în anul 1990?",
+    "options": [
+     "Extinderea NATO spre est",
+     "Extinderea UE spre est",
+     "Reunificarea germană",
+     "Comunitatea Europeană"
     ]
    }
   },
@@ -22314,6 +24366,15 @@
      "Norwegia",
      "Luksemburg"
     ]
+   },
+   "ro": {
+    "question": "Care țară este vecină cu Germania?",
+    "options": [
+     "Spania",
+     "Bulgaria",
+     "Norvegia",
+     "Luxemburg"
+    ]
    }
   },
   "scores": {
@@ -22413,6 +24474,15 @@
      "6 lat.",
      "7 lat.",
      "8 lat."
+    ]
+   },
+   "ro": {
+    "question": "Parlamentul European este ales periodic, și anume la fiecare …",
+    "options": [
+     "5 ani.",
+     "6 ani.",
+     "7 ani.",
+     "8 ani."
     ]
    }
   },
@@ -22514,6 +24584,15 @@
      "Chodzi o europejskich emigrantów i emigrantki w USA.",
      "Pojęcie to oznacza zjednoczenie państw europejskich w UE."
     ]
+   },
+   "ro": {
+    "question": "Ce înseamnă termenul „integrare europeană”?",
+    "options": [
+     "Se referă la imigranții americani în Europa.",
+     "Termenul se referă la oprirea imigrației în Europa.",
+     "Se referă la emigranții europeni în SUA.",
+     "Termenul se referă la unirea statelor europene în UE."
+    ]
    }
   },
   "scores": {
@@ -22614,6 +24693,15 @@
      "posłów i posłanki do Parlamentu Europejskiego",
      "konstytucję europejską"
     ]
+   },
+   "ro": {
+    "question": "Cine este ales la alegerile europene?",
+    "options": [
+     "Comisia Europeană",
+     "țările cărora li se permite să adere la UE",
+     "deputații Parlamentului European",
+     "constituția europeană"
+    ]
    }
   },
   "scores": {
@@ -22712,6 +24800,15 @@
      "Czechy",
      "Bułgaria",
      "Grecja",
+     "Portugalia"
+    ]
+   },
+   "ro": {
+    "question": "Care țară este vecină cu Germania?",
+    "options": [
+     "Cehia",
+     "Bulgaria",
+     "Grecia",
      "Portugalia"
     ]
    }
@@ -22814,6 +24911,15 @@
      "Berlin",
      "Strasburg"
     ]
+   },
+   "ro": {
+    "question": "Unde se află un sediu al Parlamentului European?",
+    "options": [
+     "Londra",
+     "Paris",
+     "Berlin",
+     "Strasbourg"
+    ]
    }
   },
   "scores": {
@@ -22914,6 +25020,15 @@
      "pokój i bezpieczeństwo w krajach UE",
      "jednolite dni świąteczne w krajach UE"
     ]
+   },
+   "ro": {
+    "question": "Fostul președinte francez François Mitterrand și fostul cancelar german Helmut Kohl comemorează împreună la Verdun morții din ambele războaie mondiale. Ce obiectiv al Uniunii Europene devine evident cu ocazia acestei întâlniri? © Bundesregierung/Richard Schulze-Vorberg",
+    "options": [
+     "prietenia dintre Anglia și Germania",
+     "libertatea de călătorie în toate țările UE",
+     "pace și securitate în țările UE",
+     "sărbători legale unificate în țările UE"
+    ]
    }
   },
   "scores": {
@@ -23008,6 +25123,15 @@
    },
    "pl": {
     "question": "Ile państw członkowskich liczy dziś UE?",
+    "options": [
+     "21",
+     "23",
+     "25",
+     "27"
+    ]
+   },
+   "ro": {
+    "question": "Câte state membre are UE în prezent?",
     "options": [
      "21",
      "23",
@@ -23114,6 +25238,15 @@
      "zobowiązania Niemiec do wypłaty reparacji",
      "ustalenia linii Odra-Nysa jako wschodniej granicy"
     ]
+   },
+   "ro": {
+    "question": "În 2007 a fost sărbătorită aniversarea a 50 de ani de la „Tratatele de la Roma”. Care a fost conținutul acestor tratate?",
+    "options": [
+     "aderarea Germaniei la NATO",
+     "înființarea Comunității Economice Europene (CEE)",
+     "obligația Germaniei de a plăti reparații de război",
+     "stabilirea liniei Oder-Neisse ca graniță de est"
+    ]
    }
   },
   "scores": {
@@ -23213,6 +25346,15 @@
      "Strasburg, Luksemburg i Bruksela",
      "Rzym, Berno i Wiedeń",
      "Bonn, Zurych i Mediolan"
+    ]
+   },
+   "ro": {
+    "question": "În ce localități funcționează Parlamentul European?",
+    "options": [
+     "Paris, Londra și Haga",
+     "Strasbourg, Luxemburg și Bruxelles",
+     "Roma, Berna și Viena",
+     "Bonn, Zürich și Milano"
     ]
    }
   },
@@ -23314,6 +25456,15 @@
      "na mocy \"traktatów paryskich\"",
      "na mocy \"traktatów londyńskich\""
     ]
+   },
+   "ro": {
+    "question": "Prin ce tratate s-a unit Republica Federală Germania cu alte state pentru a forma Comunitatea Economică Europeană?",
+    "options": [
+     "prin „Tratatele de la Hamburg”",
+     "prin „Tratatele de la Roma”",
+     "prin „Tratatele de la Paris”",
+     "prin „Tratatele de la Londra”"
+    ]
    }
   },
   "scores": {
@@ -23408,6 +25559,15 @@
    },
    "pl": {
     "question": "Od kiedy w Niemczech płaci się gotówką w euro?",
+    "options": [
+     "1995",
+     "1998",
+     "2002",
+     "2005"
+    ]
+   },
+   "ro": {
+    "question": "Din ce an se plătește în Germania cu euro în numerar?",
     "options": [
      "1995",
      "1998",
@@ -23514,6 +25674,15 @@
      "Nie musi nic robić, ponieważ automatycznie otrzyma zasiłek rodzicielski.",
      "Musi poprosić urząd pracy o pozwolenie."
     ]
+   },
+   "ro": {
+    "question": "Doamna Seger are un copil. Ce trebuie să facă pentru a primi alocația parentală (Elterngeld)?",
+    "options": [
+     "Trebuie să scrie casei ei de asigurări de sănătate.",
+     "Trebuie să depună o cerere la biroul pentru alocația parentală.",
+     "Nu trebuie să facă nimic, deoarece primește automat alocația parentală.",
+     "Trebuie să ceară permisiunea oficiului forței de muncă."
+    ]
    }
   },
   "scores": {
@@ -23613,6 +25782,15 @@
      "kraje związkowe",
      "rodzice/opiekunowie prawni",
      "szkoły"
+    ]
+   },
+   "ro": {
+    "question": "Cine decide dacă un copil merge la grădiniță în Germania?",
+    "options": [
+     "statul",
+     "landurile",
+     "părinții/tutorii legali",
+     "școlile"
     ]
    }
   },
@@ -23714,6 +25892,15 @@
      "Nie mogą nic zrobić, ponieważ demonstracje są w Niemczech co do zasady zakazane.",
      "Maik i Sybille muszą założyć nowe stowarzyszenie, ponieważ demonstrować mogą tylko stowarzyszenia."
     ]
+   },
+   "ro": {
+    "question": "Maik și Sybille vor să organizeze împreună cu prieteni o demonstrație pe stradă în localitatea lor din Germania. Ce trebuie să facă înainte?",
+    "options": [
+     "Trebuie să înregistreze demonstrația.",
+     "Nu trebuie să facă nimic. În Germania se poate demonstra oricând și oriunde.",
+     "Nu pot face nimic, deoarece demonstrațiile sunt în principiu interzise în Germania.",
+     "Maik și Sybille trebuie să înființeze o asociație nouă, deoarece numai asociațiile au voie să demonstreze."
+    ]
    }
   },
   "scores": {
@@ -23813,6 +26000,15 @@
      "dyplom",
      "prokurę",
      "egzamin czeladniczy"
+    ]
+   },
+   "ro": {
+    "question": "Ce diplomă de absolvire școlară este de obicei necesară pentru a începe studii la o universitate în Germania?",
+    "options": [
+     "bacalaureatul (Abitur)",
+     "o diplomă (Diplom)",
+     "procura",
+     "un examen de calificare profesională (Gesellenprüfung)"
     ]
    }
   },
@@ -23914,6 +26110,15 @@
      "Sofie (35 lat) i Lisa (40 lat)",
      "Anne (13 lat) i Tim (25 lat)"
     ]
+   },
+   "ro": {
+    "question": "Cine nu are voie să trăiască în cuplu în Germania?",
+    "options": [
+     "Hans (20 de ani) și Marie (19 ani)",
+     "Tom (20 de ani) și Klaus (45 de ani)",
+     "Sofie (35 de ani) și Lisa (40 de ani)",
+     "Anne (13 ani) și Tim (25 de ani)"
+    ]
    }
   },
   "scores": {
@@ -24008,6 +26213,15 @@
    },
    "pl": {
     "question": "Od jakiego wieku osiąga się w Niemczech pełnoletność?",
+    "options": [
+     "16",
+     "18",
+     "19",
+     "21"
+    ]
+   },
+   "ro": {
+    "question": "De la ce vârstă este cineva major în Germania?",
     "options": [
      "16",
      "18",
@@ -24114,6 +26328,15 @@
      "przygotowanie do porodu",
      "połóg"
     ]
+   },
+   "ro": {
+    "question": "O femeie este însărcinată. Ea este special protejată prin lege puțin înainte și după nașterea copilului. Cum se numește această protecție?",
+    "options": [
+     "concediu parental",
+     "protecția maternității",
+     "pregătirea pentru naștere",
+     "lăuzie"
+    ]
    }
   },
   "scores": {
@@ -24213,6 +26436,15 @@
      "rodziców.",
      "dziadków.",
      "szkół."
+    ]
+   },
+   "ro": {
+    "question": "Educarea copiilor este în Germania în primul rând sarcina …",
+    "options": [
+     "statului.",
+     "părinților.",
+     "bunicilor.",
+     "școlilor."
     ]
    }
   },
@@ -24314,6 +26546,15 @@
      "krewni",
      "szkoły"
     ]
+   },
+   "ro": {
+    "question": "Cine este în principal responsabil pentru educarea copiilor în Germania?",
+    "options": [
+     "statul",
+     "părinții",
+     "rudele",
+     "școlile"
+    ]
    }
   },
   "scores": {
@@ -24413,6 +26654,15 @@
      "jest się dobrze wykształconym/wykształconą.",
      "jest się kobietą.",
      "jest się członkiem/członkinią partii."
+    ]
+   },
+   "ro": {
+    "question": "În Germania ai cele mai bune șanse la un loc de muncă bine plătit dacă …",
+    "options": [
+     "ești catolic.",
+     "ești bine pregătit/calificat.",
+     "ești femeie.",
+     "ești membru al unui partid."
     ]
    }
   },
@@ -24514,6 +26764,15 @@
      "nie można za to zostać ukaranym.",
      "można za to zostać ukaranym."
     ]
+   },
+   "ro": {
+    "question": "Dacă cineva lovește un copil în Germania, …",
+    "options": [
+     "nu privește pe nimeni.",
+     "privește doar familia.",
+     "nu poate fi pedepsit pentru asta.",
+     "poate fi pedepsit pentru asta."
+    ]
    }
   },
   "scores": {
@@ -24613,6 +26872,15 @@
      "można mieć jednocześnie kilku małżonków/kilka małżonek.",
      "nie wolno ponownie wyjść za mąż/ożenić się, jeśli było się już w związku małżeńskim.",
      "kobieta nie może ponownie wyjść za mąż, jeśli jej mąż zmarł."
+    ]
+   },
+   "ro": {
+    "question": "În Germania …",
+    "options": [
+     "ai voie să fii căsătorit în același timp doar cu o singură parteneră/un singur partener.",
+     "poți avea mai multe soții/soți în același timp.",
+     "nu ai voie să te recăsătorești dacă ai mai fost căsătorit.",
+     "o femeie nu are voie să se recăsătorească dacă soțul ei a murit."
     ]
    }
   },
@@ -24714,6 +26982,15 @@
      "w urzędzie porządkowym",
      "w urzędzie ds. działalności gospodarczej"
     ]
+   },
+   "ro": {
+    "question": "Unde trebuie să vă înregistrați dacă vă mutați în Germania?",
+    "options": [
+     "la biroul de evidență a populației (Einwohnermeldeamt)",
+     "la ofițerul stării civile (Standesamt)",
+     "la biroul de ordine publică (Ordnungsamt)",
+     "la biroul de autorizare a activităților comerciale (Gewerbeamt)"
+    ]
    }
   },
   "scores": {
@@ -24813,6 +27090,15 @@
      "Małżonkowie są małżeństwem rok, a potem rozwód jest możliwy.",
      "Prawo do odwiedzin dzieci obowiązuje przez rok.",
      "Małżonkowie prowadzą przez co najmniej rok osobne życie w rozłączeniu. Dopiero potem rozwód jest możliwy."
+    ]
+   },
+   "ro": {
+    "question": "În Germania, cuplurile căsătorite au voie să divorțeze. De obicei trebuie să respecte „anul de separare”. Ce înseamnă asta?",
+    "options": [
+     "Procesul de divorț durează un an.",
+     "Soții sunt căsătoriți un an, apoi divorțul este posibil.",
+     "Dreptul de vizită pentru copii este valabil un an.",
+     "Soții își duc viața separat cel puțin un an. După aceea divorțul este posibil."
     ]
    }
   },
@@ -24914,6 +27200,15 @@
      "urzędzie ds. młodzieży (Jugendamt).",
      "urzędzie ds. zdrowia."
     ]
+   },
+   "ro": {
+    "question": "În caz de probleme educaționale, părinții din Germania pot primi ajutor de la …",
+    "options": [
+     "biroul de ordine publică.",
+     "inspectoratul școlar.",
+     "oficiul pentru tineret (Jugendamt).",
+     "oficiul de sănătate."
+    ]
    }
   },
   "scores": {
@@ -25013,6 +27308,15 @@
      "zgoda partii politycznej",
      "zgoda urzędu meldunkowego",
      "koncesja gastronomiczna wydana przez właściwy urząd"
+    ]
+   },
+   "ro": {
+    "question": "Un cuplu căsătorit dorește să deschidă un restaurant în Germania. De ce are neapărat nevoie pentru asta?",
+    "options": [
+     "o autorizație de la poliție",
+     "o aprobare din partea unui partid",
+     "o aprobare de la biroul de evidență a populației",
+     "o autorizație de funcționare pentru unități de alimentație publică de la autoritatea competentă"
     ]
    }
   },
@@ -25114,6 +27418,15 @@
      "szkole podstawowej wyższego stopnia (Hauptschule).",
      "prywatnym uniwersytecie."
     ]
+   },
+   "ro": {
+    "question": "O femeie adultă dorește să recupereze bacalaureatul (Abitur) în Germania. Poate face asta la …",
+    "options": [
+     "o universitate.",
+     "un liceu seral.",
+     "o școală generală (Hauptschule).",
+     "o universitate privată."
+    ]
    }
   },
   "scores": {
@@ -25213,6 +27526,15 @@
      "Może zabrać z rodziny dziecko, które jest bite lub głodzone.",
      "Wypłaca rodzicom zasiłek na dziecko (Kindergeld).",
      "Kontroluje, czy dziecko chodzi do przedszkola."
+    ]
+   },
+   "ro": {
+    "question": "Ce are voie să facă oficiul pentru tineret (Jugendamt) în Germania?",
+    "options": [
+     "Decide ce școală frecventează copilul.",
+     "Poate scoate din familie un copil care este bătut sau lăsat să sufere de foame.",
+     "Plătește alocația pentru copii părinților.",
+     "Verifică dacă un copil merge la grădiniță."
     ]
    }
   },
@@ -25314,6 +27636,15 @@
      "rozliczeniu podatkowym.",
      "ubezpieczeniu zdrowotnym."
     ]
+   },
+   "ro": {
+    "question": "Centrul de informare profesională BIZ din cadrul Agenției Federale a Muncii din Germania ajută la …",
+    "options": [
+     "calcularea pensiei.",
+     "căutarea unui loc de ucenicie.",
+     "declarația de impozit.",
+     "asigurarea de sănătate."
+    ]
    }
   },
   "scores": {
@@ -25413,6 +27744,15 @@
      "dowolność wyboru wszystkich przedmiotów.",
      "prawo do czesnego.",
      "obowiązek uczęszczania na zajęcia."
+    ]
+   },
+   "ro": {
+    "question": "În Germania, un copil are la școală …",
+    "options": [
+     "dreptul la timp liber nelimitat.",
+     "libertate de alegere pentru toate materiile.",
+     "dreptul la taxe școlare.",
+     "obligația de a fi prezent (frecvență obligatorie)."
     ]
    }
   },
@@ -25514,6 +27854,15 @@
      "szkole podstawowej wyższego stopnia (Hauptschule).",
      "prywatnym uniwersytecie."
     ]
+   },
+   "ro": {
+    "question": "Un bărbat dorește să recupereze bacalaureatul (Abitur) la 30 de ani în Germania. Unde poate face asta? La …",
+    "options": [
+     "o universitate.",
+     "un liceu seral.",
+     "o școală generală (Hauptschule).",
+     "o universitate privată."
+    ]
    }
   },
   "scores": {
@@ -25613,6 +27962,15 @@
      "Można dyskryminować inne osoby, jeśli istnieją ku temu wystarczające osobiste powody.",
      "Nikt nie może pozwać innych osób, jeśli był dyskryminowany.",
      "Wszyscy są zobowiązani prawnie co roku przekazywać pieniądze grupom dyskryminowanym."
+    ]
+   },
+   "ro": {
+    "question": "Ce înseamnă în Germania principiul egalității de tratament?",
+    "options": [
+     "Nimeni nu poate fi dezavantajat, de exemplu, din cauza unui handicap.",
+     "Este permis să dezavantajezi alte persoane dacă există motive personale suficiente pentru asta.",
+     "Nimeni nu poate da în judecată o persoană care a fost dezavantajată.",
+     "Este obligatoriu prin lege ca toată lumea să doneze anual bani grupurilor dezavantajate."
     ]
    }
   },
@@ -25714,6 +28072,15 @@
      "dzieli karę z rodzicami.",
      "nie zostaje ukarana."
     ]
+   },
+   "ro": {
+    "question": "În Germania, tinerii de la 14 ani au răspundere penală. Aceasta înseamnă: tinerii de 14 ani și mai mari care încalcă legile penale …",
+    "options": [
+     "sunt pedepsiți.",
+     "sunt tratați ca adulți.",
+     "împart pedeapsa cu părinții lor.",
+     "nu sunt pedepsiți."
+    ]
    }
   },
   "scores": {
@@ -25813,6 +28180,15 @@
      "w Święto Pracy (1 maja)",
      "podczas Oktoberfestu",
      "w Zielone Świątki"
+    ]
+   },
+   "ro": {
+    "question": "La ce sărbătoare poartă oamenii din Germania costume colorate și măști?",
+    "options": [
+     "de Rosenmontag",
+     "de 1 Mai",
+     "la Oktoberfest",
+     "de Rusalii"
     ]
    }
   },
@@ -25914,6 +28290,15 @@
      "do agencji pracy",
      "do urzędu stanu cywilnego"
     ]
+   },
+   "ro": {
+    "question": "Unde trebuie să meargă cineva mai întâi în Germania dacă vrea să se căsătorească?",
+    "options": [
+     "la biroul de evidență a populației",
+     "la biroul de ordine publică",
+     "la agenția pentru ocuparea forței de muncă",
+     "la ofițerul stării civile"
+    ]
    }
   },
   "scores": {
@@ -26013,6 +28398,15 @@
      "gdy sąsiedzi idą spać",
      "o godzinie 0, o północy",
      "o godzinie 22"
+    ]
+   },
+   "ro": {
+    "question": "Când începe liniștea nocturnă legală în Germania?",
+    "options": [
+     "când apune soarele",
+     "când vecinii se culcă",
+     "la ora 0, miezul nopții",
+     "la ora 22"
     ]
    }
   },
@@ -26114,6 +28508,15 @@
      "Mogą pójść na policję i zgłosić córkę.",
      "Szukają dla córki innego mężczyzny."
     ]
+   },
+   "ro": {
+    "question": "O tânără din Germania, în vârstă de 22 de ani, locuiește împreună cu prietenul ei. Părinții femeii nu sunt de acord, deoarece nu le place prietenul ei. Ce pot face părinții?",
+    "options": [
+     "Trebuie să respecte decizia fiicei lor majore.",
+     "Au dreptul să o aducă pe fiică înapoi în locuința părintească.",
+     "Pot merge la poliție și pot depune plângere împotriva fiicei.",
+     "Caută un alt bărbat pentru fiica lor."
+    ]
    }
   },
   "scores": {
@@ -26213,6 +28616,15 @@
      "Jeśli nie zna niemieckiego, nie wolno jej mieć prawa jazdy.",
      "Musi zrobić prawo jazdy w kraju, w którym mówi się jej językiem.",
      "Może zdawać egzamin teoretyczny prawdopodobnie w swoim języku ojczystym. Do wyboru jest ponad dziesięć języków."
+    ]
+   },
+   "ro": {
+    "question": "O tânără dorește să obțină permisul de conducere. Îi este teamă de examen deoarece limba ei maternă nu este germana. Ce este corect?",
+    "options": [
+     "Trebuie să locuiască cel puțin zece ani în Germania înainte de a putea obține permisul de conducere.",
+     "Dacă nu vorbește germana, nu are voie să obțină permisul de conducere.",
+     "Trebuie să obțină permisul de conducere în țara în care se vorbește limba ei maternă.",
+     "Poate susține examenul teoretic eventual în limba ei maternă. Există mai mult de zece limbi disponibile."
     ]
    }
   },
@@ -26314,6 +28726,15 @@
      "miejsca w przedszkolu.",
      "karty wakacyjnej."
     ]
+   },
+   "ro": {
+    "question": "În Germania, copiii de la vârsta de trei ani până la începerea școlii au dreptul la …",
+    "options": [
+     "bani de buzunar lunar.",
+     "un loc într-un club sportiv.",
+     "un loc la grădiniță.",
+     "un permis de vacanță."
+    ]
    }
   },
   "scores": {
@@ -26413,6 +28834,15 @@
      "przeznaczoną wyłącznie dla młodzieży.",
      "kształcenia ustawicznego.",
      "przeznaczoną wyłącznie dla emerytów i emerytek."
+    ]
+   },
+   "ro": {
+    "question": "Volkshochschule (universitatea populară) din Germania este o instituție …",
+    "options": [
+     "pentru educație religioasă.",
+     "doar pentru tineri.",
+     "de formare continuă.",
+     "doar pentru pensionari."
     ]
    }
   },
@@ -26514,6 +28944,15 @@
      "przebieranie się w maski i kostiumy",
      "stawianie dyni przed drzwiami"
     ]
+   },
+   "ro": {
+    "question": "Care este un obicei de Crăciun în Germania?",
+    "options": [
+     "ascunderea ouălor colorate",
+     "împodobirea unui brad",
+     "deghizarea în măști și costume",
+     "așezarea dovlecilor în fața ușii"
+    ]
    }
   },
   "scores": {
@@ -26613,6 +29052,15 @@
      "Dwie kobiety mieszkają razem.",
      "Samotnie wychowujący ojciec mieszka ze swoimi dwojgiem dzieci.",
      "Mężczyzna jest jednocześnie żonaty z dwiema kobietami."
+    ]
+   },
+   "ro": {
+    "question": "Ce formă de viață nu este permisă în Germania?",
+    "options": [
+     "Un bărbat și o femeie sunt divorțați și trăiesc împreună cu noi parteneri.",
+     "Două femei locuiesc împreună.",
+     "Un tată singur locuiește împreună cu cei doi copii ai săi.",
+     "Un bărbat este căsătorit cu două femei în același timp."
     ]
    }
   },
@@ -26714,6 +29162,15 @@
      "do urzędu meldunkowego.",
      "do urzędu ds. młodzieży (Jugendamt)."
     ]
+   },
+   "ro": {
+    "question": "În caz de probleme educaționale, în Germania mergeți …",
+    "options": [
+     "la medic.",
+     "la oficiul de sănătate.",
+     "la biroul de evidență a populației.",
+     "la oficiul pentru tineret."
+    ]
    }
   },
   "scores": {
@@ -26813,6 +29270,15 @@
      "tajemnicy korespondencji",
      "obowiązku zachowania tajemnicy",
      "wolności słowa"
+    ]
+   },
+   "ro": {
+    "question": "Ați deschis intenționat în Germania o scrisoare adresată unei alte persoane. Ce nu ați respectat?",
+    "options": [
+     "dreptul la tăcere",
+     "secretul corespondenței",
+     "obligația de confidențialitate",
+     "libertatea de exprimare"
     ]
    }
   },
@@ -26914,6 +29380,15 @@
      "zgody dzieci",
      "wsparcia adwokatki/adwokata"
     ]
+   },
+   "ro": {
+    "question": "De ce este nevoie în Germania pentru un divorț?",
+    "options": [
+     "consimțământul părinților",
+     "un certificat medical",
+     "consimțământul copiilor",
+     "sprijinul unui avocat"
+    ]
    }
   },
   "scores": {
@@ -27013,6 +29488,15 @@
      "Muszę się z tym pogodzić.",
      "Grożę tej osobie.",
      "Mogę złożyć skargę u kierownika/kierowniczki urzędu."
+    ]
+   },
+   "ro": {
+    "question": "Ce ar trebui să faceți dacă sunteți tratat/tratată prost de persoana de contact dintr-o instituție publică germană?",
+    "options": [
+     "Nu pot face nimic.",
+     "Trebuie să accept acest tratament.",
+     "Amenințez persoana respectivă.",
+     "Mă pot plânge conducerii instituției."
     ]
    }
   },
@@ -27114,6 +29598,15 @@
      "nie ma doświadczenia w tym zawodzie.",
      "jest matką."
     ]
+   },
+   "ro": {
+    "question": "O femeie care are un copil de doi ani aplică pentru un post de muncă în Germania. Ce este un exemplu de discriminare? Nu primește postul doar pentru că …",
+    "options": [
+     "nu vorbește engleza.",
+     "are pretenții salariale prea mari.",
+     "nu are experiență în această profesie.",
+     "este mamă."
+    ]
    }
   },
   "scores": {
@@ -27213,6 +29706,15 @@
      "nie ma doświadczenia.",
      "ma zbyt wysokie oczekiwania płacowe.",
      "nie mówi po angielsku."
+    ]
+   },
+   "ro": {
+    "question": "Un bărbat în scaun cu rotile a aplicat pentru un post de contabil. Ce este un exemplu de discriminare? Nu primește postul doar pentru că …",
+    "options": [
+     "este în scaun cu rotile.",
+     "nu are experiență.",
+     "are pretenții salariale prea mari.",
+     "nu vorbește engleza."
     ]
    }
   },
@@ -27314,6 +29816,15 @@
      "zasady, których muszą przestrzegać wszyscy mieszkańcy i mieszkanki.",
      "adres najbliższego urzędu porządkowego."
     ]
+   },
+   "ro": {
+    "question": "În majoritatea blocurilor de locuințe închiriate din Germania există un „regulament de ordine interioară” (Hausordnung). Ce conține un astfel de regulament? El specifică …",
+    "options": [
+     "reguli pentru utilizarea transportului public.",
+     "toți chiriașii din clădire.",
+     "reguli pe care trebuie să le respecte toți locatarii.",
+     "adresa celui mai apropiat birou de ordine publică."
+    ]
    }
   },
   "scores": {
@@ -27413,6 +29924,15 @@
      "wyrzucić decyzję.",
      "wnieść odwołanie (Einspruch).",
      "poczekać, aż przyjdzie inna decyzja."
+    ]
+   },
+   "ro": {
+    "question": "Dacă doriți să contestați o decizie de impunere fiscală greșită în Germania, trebuie să …",
+    "options": [
+     "nu faceți nimic.",
+     "aruncați decizia.",
+     "depuneți contestație (Einspruch).",
+     "așteptați până vine o altă decizie."
     ]
    }
   },
@@ -27514,6 +30034,15 @@
      "wolności zgromadzeń",
      "swobody przemieszczania się"
     ]
+   },
+   "ro": {
+    "question": "Doi prieteni vor să meargă la un ștrand public în Germania. Amândoi au pielea închisă la culoare și, din acest motiv, nu sunt lăsați să intre. Ce drept este încălcat în această situație? Dreptul la …",
+    "options": [
+     "libertatea de exprimare",
+     "egalitate de tratament",
+     "libertatea de întrunire",
+     "libertatea de circulație"
+    ]
    }
   },
   "scores": {
@@ -27613,6 +30142,15 @@
      "urzędniczki/urzędnika wyborczego",
      "nadzoru w bibliotece",
      "nauczycielki/nauczyciela"
+    ]
+   },
+   "ro": {
+    "question": "Ce funcție onorifică trebuie să o accepte cetățenii germani dacă sunt solicitați pentru aceasta?",
+    "options": [
+     "antrenor/antrenoare de club sportiv",
+     "asistent/asistentă la vot (Wahlhelfer/in)",
+     "supraveghetor de bibliotecă",
+     "profesor/profesoară"
     ]
    }
   },
@@ -27714,6 +30252,15 @@
      "Odsyłam rachunek do urzędu.",
      "Idę z rachunkiem do urzędu skarbowego."
     ]
+   },
+   "ro": {
+    "question": "Ce faceți dacă primiți o factură greșită de la o instituție publică germană?",
+    "options": [
+     "Las factura deoparte.",
+     "Depun contestație la instituție.",
+     "Trimit factura înapoi la instituție.",
+     "Merg cu factura la administrația financiară (Finanzamt)."
+    ]
    }
   },
   "scores": {
@@ -27813,6 +30360,15 @@
      "Dorośli muszą uczyć się dalej także po zakończeniu wykształcenia zawodowego.",
      "Dzieci uczą się w szkole wszystkiego, co jest ważne w zawodzie. Po szkole nie trzeba się dalej uczyć.",
      "Wszyscy muszą wcześniej przestać pracować, ponieważ wszystko się zmienia."
+    ]
+   },
+   "ro": {
+    "question": "Ceea ce trebuie să știi pentru muncă se schimbă foarte rapid în viitor. Ce se poate face?",
+    "options": [
+     "Nu contează ce înveți.",
+     "Adulții trebuie să continue să învețe și după terminarea formării profesionale.",
+     "Copiii învață la școală tot ce este important pentru profesie. După școală nu mai trebuie să înveți.",
+     "Toată lumea trebuie să înceteze să mai lucreze mai devreme, deoarece totul se schimbă."
     ]
    }
   },
@@ -27914,6 +30470,15 @@
      "składek na ubezpieczenie emerytalne i zdrowotne",
      "podatku VAT"
     ]
+   },
+   "ro": {
+    "question": "Doamna Frost lucrează ca angajată permanentă într-un birou. Ce nu trebuie să plătească din salariul ei?",
+    "options": [
+     "impozitul pe salariu",
+     "contribuțiile la asigurarea de șomaj",
+     "contribuțiile la asigurarea de pensie și de sănătate",
+     "taxa pe valoarea adăugată"
+    ]
    }
   },
   "scores": {
@@ -28013,6 +30578,15 @@
      "kontroler/kontrolerka zakładowa",
      "grupa zakładowa",
      "kierownictwo zakładu"
+    ]
+   },
+   "ro": {
+    "question": "Ce organizație dintr-o firmă ajută angajații în cazul problemelor cu angajatorul?",
+    "options": [
+     "comitetul de întreprindere (Betriebsrat)",
+     "auditorul intern",
+     "grupul de întreprindere",
+     "conducerea întreprinderii"
     ]
    }
   },
@@ -28114,6 +30688,15 @@
      "okres wypowiedzenia",
      "obowiązek ubezpieczenia"
     ]
+   },
+   "ro": {
+    "question": "Doriți să încheiați raportul de muncă la o firmă din Germania. Ce trebuie să respectați?",
+    "options": [
+     "plățile salariale",
+     "programul de lucru",
+     "termenul de preaviz (Kündigungsfrist)",
+     "obligația de asigurare"
+    ]
    }
   },
   "scores": {
@@ -28213,6 +30796,15 @@
      "na zbrodniach narodowosocjalistycznych wobec Żydów",
      "na Ustawie Zasadniczej Republiki Federalnej Niemiec",
      "na tradycji chrześcijańskiej"
+    ]
+   },
+   "ro": {
+    "question": "Din ce se întemeiază responsabilitatea specială a Germaniei față de Israel?",
+    "options": [
+     "din apartenența la Uniunea Europeană (UE)",
+     "din crimele naționalsocialiste împotriva evreilor",
+     "din Legea Fundamentală a Republicii Federale Germania",
+     "din tradiția creștină"
     ]
    }
   },
@@ -28314,6 +30906,15 @@
      "ma ciemny kolor skóry.",
      "nie ma doświadczenia w zawodzie."
     ]
+   },
+   "ro": {
+    "question": "Un bărbat cu pielea închisă la culoare aplică pentru un post de chelner la un restaurant din Germania. Ce este un exemplu de discriminare? Nu primește postul doar pentru că …",
+    "options": [
+     "cunoștințele lui de limbă germană sunt prea slabe.",
+     "are pretenții salariale prea mari.",
+     "are pielea închisă la culoare.",
+     "nu are experiență în această profesie."
+    ]
    }
   },
   "scores": {
@@ -28413,6 +31014,15 @@
      "złożyć reklamację telewizora",
      "wymienić urządzenie bez pytania",
      "przedłużyć gwarancję"
+    ]
+   },
+   "ro": {
+    "question": "Ați cumpărat un televizor în Germania. Acasă despachetați televizorul, dar acesta nu funcționează. Televizorul este defect. Ce puteți face?",
+    "options": [
+     "să scrieți o plângere la poliție",
+     "să reclamați televizorul",
+     "să înlocuiți aparatul fără să întrebați",
+     "să prelungiți garanția"
     ]
    }
   },
@@ -28514,6 +31124,15 @@
      "trzeba płacić wyższe podatki, jeśli nie należy się do kościoła.",
      "kościół jest odpowiedzialny za zeznanie podatkowe."
     ]
+   },
+   "ro": {
+    "question": "De ce trebuie să indicați în Germania, la declarația de impozit, dacă aparțineți sau nu unei biserici? Deoarece …",
+    "options": [
+     "există un impozit bisericesc (Kirchensteuer) legat de impozitul pe venit și pe salariu.",
+     "acest lucru este important pentru statistica din Germania.",
+     "trebuie să plătiți mai multe impozite dacă nu aparțineți unei biserici.",
+     "biserica este responsabilă pentru declarația de impozit."
+    ]
    }
   },
   "scores": {
@@ -28613,6 +31232,15 @@
      "Wszyscy ludzie wierzą w Boga.",
      "Każdy może wierzyć w to, co chce.",
      "Państwo decyduje, w jakiego boga wierzą ludzie."
+    ]
+   },
+   "ro": {
+    "question": "Oamenii din Germania trăiesc după principiul toleranței religioase. Ce înseamnă asta?",
+    "options": [
+     "Nu au voie să fie construite moschei.",
+     "Toți oamenii cred în Dumnezeu.",
+     "Fiecare poate crede în ce dorește.",
+     "Statul decide în ce Dumnezeu cred oamenii."
     ]
    }
   },
@@ -28714,6 +31342,15 @@
      "malowanie jajek",
      "wystrzeliwanie rakiet w powietrze"
     ]
+   },
+   "ro": {
+    "question": "Care este un obicei de Paște în Germania?",
+    "options": [
+     "așezarea dovlecilor în fața ușii",
+     "împodobirea unui brad",
+     "vopsirea ouălor",
+     "lansarea de rachete în aer"
+    ]
    }
   },
   "scores": {
@@ -28813,6 +31450,15 @@
      "niemieckim dniem pamięci.",
      "międzynarodowym dniem żałoby.",
      "bawarskim zwyczajem."
+    ]
+   },
+   "ro": {
+    "question": "Rusaliile (Pfingsten) sunt …",
+    "options": [
+     "o sărbătoare creștină.",
+     "o zi comemorativă germană.",
+     "o zi internațională de doliu.",
+     "un obicei bavarez."
     ]
    }
   },
@@ -28914,6 +31560,15 @@
      "buddyzm",
      "islam"
     ]
+   },
+   "ro": {
+    "question": "Ce religie a marcat cultura europeană și germană?",
+    "options": [
+     "hinduismul",
+     "creștinismul",
+     "budismul",
+     "islamul"
+    ]
    }
   },
   "scores": {
@@ -29013,6 +31668,15 @@
      "Świętem Dziękczynienia za Plony (Erntedankfest).",
      "Adwentem.",
      "Dniem Wszystkich Świętych."
+    ]
+   },
+   "ro": {
+    "question": "În Germania, ultimele patru săptămâni dinaintea Crăciunului se numesc …",
+    "options": [
+     "Buß- und Bettag (Ziua de Rugăciune și Pocăință).",
+     "sărbătoarea recoltei (Erntedankfest).",
+     "perioada Adventului.",
+     "Ziua Tuturor Sfinților (Allerheiligen)."
     ]
    }
   },
@@ -29114,6 +31778,15 @@
      "Maroko",
      "Turcja"
     ]
+   },
+   "ro": {
+    "question": "Din ce țară au venit cei mai mulți migranți în Germania?",
+    "options": [
+     "Italia",
+     "Polonia",
+     "Maroc",
+     "Turcia"
+    ]
    }
   },
   "scores": {
@@ -29214,6 +31887,15 @@
      "Chile, Węgier, Zimbabwe.",
      "Korei Północnej, Meksyku, Egiptu."
     ]
+   },
+   "ro": {
+    "question": "În RDG au trăit în principal migranți din …",
+    "options": [
+     "Vietnam, Polonia, Mozambic.",
+     "Franța, România, Somalia.",
+     "Chile, Ungaria, Zimbabwe.",
+     "Coreea de Nord, Mexic, Egipt."
+    ]
    }
   },
   "scores": {
@@ -29249,6 +31931,15 @@
      "gastarbeiterami/gastarbeiterkami (pracownikami gościnnymi).",
      "pracownikami/pracownicami tymczasowymi.",
      "pracownikami/pracownicami zmianowymi."
+    ]
+   },
+   "ro": {
+    "question": "Muncitorii străini care au fost recrutați de Republica Federală Germania în anii '50 și '60 erau numiți …",
+    "options": [
+     "muncitori la negru.",
+     "muncitori oaspeți (Gastarbeiter).",
+     "muncitori temporari.",
+     "muncitori în ture."
     ]
    }
   },
@@ -29350,6 +32041,15 @@
      "Portugalia",
      "Turcja"
     ]
+   },
+   "ro": {
+    "question": "Din ce țară au venit primii muncitori oaspeți (Gastarbeiter) în Republica Federală Germania?",
+    "options": [
+     "Italia",
+     "Spania",
+     "Portugalia",
+     "Turcia"
+    ]
    }
   },
   "scores": {
@@ -29385,6 +32085,15 @@
      "Obraz 2",
      "Obraz 3",
      "Obraz 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține landului Baden-Württemberg? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -29486,6 +32195,15 @@
      "Fryzja Północna",
      "Altötting"
     ]
+   },
+   "ro": {
+    "question": "Care dintre următoarele este un district rural (Landkreis) din Baden-Württemberg?",
+    "options": [
+     "Mecklenburgische Seenplatte",
+     "Neckar-Odenwald-Kreis",
+     "Nordfriesland",
+     "Altötting"
+    ]
    }
   },
   "scores": {
@@ -29580,6 +32298,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag w Badenii-Wirtembergii?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Baden-Württemberg?",
     "options": [
      "3",
      "4",
@@ -29686,6 +32413,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Baden-Württemberg?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -29785,6 +32521,15 @@
      "czarno-złota",
      "biało-niebieska",
      "zielono-biało-czerwona"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Baden-Württemberg?",
+    "options": [
+     "albastru-alb-roșu",
+     "negru-auriu",
+     "alb-albastru",
+     "verde-alb-roșu"
     ]
    }
   },
@@ -29886,6 +32631,15 @@
      "w krajowej centrali edukacji politycznej",
      "w kościołach"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Baden-Württemberg despre teme politice?",
+    "options": [
+     "la Oficiul de Ordine Publică al comunei",
+     "la Centrala pentru Protecția Consumatorilor",
+     "la Centrala Landului pentru Educație Politică",
+     "la biserici"
+    ]
    }
   },
   "scores": {
@@ -29980,6 +32734,15 @@
    },
    "pl": {
     "question": "Stolicą kraju związkowego Badenia-Wirtembergia jest …",
+    "options": [
+     "Heidelberg.",
+     "Stuttgart.",
+     "Karlsruhe.",
+     "Mannheim."
+    ]
+   },
+   "ro": {
+    "question": "Capitala landului Baden-Württemberg se numește …",
     "options": [
      "Heidelberg.",
      "Stuttgart.",
@@ -30085,6 +32848,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land este Baden-Württemberg?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -30120,6 +32892,15 @@
      "Premierka/Premier",
      "Burmistrzyni/Burmistrz",
      "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șefa/șeful guvernului în Baden-Württemberg?",
+    "options": [
+     "Prim-ministră/Prim-ministru (Erste Ministerin/Erster Minister)",
+     "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
+     "Primăriță/Primar",
+     "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
     ]
    }
   },
@@ -30157,6 +32938,15 @@
      "Ministry spraw wewnętrznych/Ministra spraw wewnętrznych",
      "Ministry spraw zagranicznych/Ministra spraw zagranicznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministră/ministru nu are Baden-Württemberg?",
+    "options": [
+     "Ministră/Ministru de Finanțe",
+     "Ministră/Ministru de Justiție",
+     "Ministră/Ministru de Interne",
+     "Ministră/Ministru de Externe"
+    ]
    }
   },
   "scores": {
@@ -30192,6 +32982,15 @@
      "Obraz 2",
      "Obraz 3",
      "Obraz 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține statului liber Bavaria? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -30293,6 +33092,15 @@
      "Fryzja Północna",
      "Altötting"
     ]
+   },
+   "ro": {
+    "question": "Care dintre următoarele este un district rural (Landkreis) din Bavaria?",
+    "options": [
+     "Prignitz",
+     "Rhein-Sieg-Kreis",
+     "Nordfriesland",
+     "Altötting"
+    ]
    }
   },
   "scores": {
@@ -30387,6 +33195,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag w Bawarii?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Bavaria?",
     "options": [
      "3",
      "4",
@@ -30493,6 +33310,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Bavaria?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -30592,6 +33418,15 @@
      "biało-niebieska",
      "zielono-biało-czerwona",
      "czarno-żółta"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Bavaria?",
+    "options": [
+     "albastru-alb-roșu",
+     "alb-albastru",
+     "verde-alb-roșu",
+     "negru-galben"
     ]
    }
   },
@@ -30693,6 +33528,15 @@
      "w centrali ochrony konsumentów",
      "w kościołach"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Bavaria despre teme politice?",
+    "options": [
+     "la Oficiul de Ordine Publică al comunei",
+     "la Centrala Landului pentru Educație Politică",
+     "la Centrala pentru Protecția Consumatorilor",
+     "la biserici"
+    ]
    }
   },
   "scores": {
@@ -30793,6 +33637,15 @@
      "Norymberga.",
      "Monachium."
     ]
+   },
+   "ro": {
+    "question": "Capitala landului Bavaria se numește …",
+    "options": [
+     "Ingolstadt.",
+     "Regensburg.",
+     "Nürnberg.",
+     "München."
+    ]
    }
   },
   "scores": {
@@ -30892,6 +33745,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land este Bavaria?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -30927,6 +33789,15 @@
      "Premierka/Premier",
      "Burmistrzyni/Burmistrz",
      "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șefa/șeful guvernului în Bavaria?",
+    "options": [
+     "Prim-ministră/Prim-ministru (Erste Ministerin/Erster Minister)",
+     "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
+     "Primăriță/Primar",
+     "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
     ]
    }
   },
@@ -30964,6 +33835,15 @@
      "Ministry finansów/Ministra finansów",
      "Ministry spraw wewnętrznych/Ministra spraw wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministră/ministru nu are Bavaria?",
+    "options": [
+     "Ministră/Ministru de Justiție",
+     "Ministră/Ministru de Externe",
+     "Ministră/Ministru de Finanțe",
+     "Ministră/Ministru de Interne"
+    ]
    }
   },
   "scores": {
@@ -30999,6 +33879,15 @@
      "Obraz 2",
      "Obraz 3",
      "Obraz 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține landului Berlin? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -31100,6 +33989,15 @@
      "Pankow",
      "Meklemburskie Pojezierze"
     ]
+   },
+   "ro": {
+    "question": "Care dintre următoarele este un cartier (Bezirk) al Berlinului?",
+    "options": [
+     "Altona",
+     "Prignitz",
+     "Pankow",
+     "Mecklenburgische Seenplatte"
+    ]
    }
   },
   "scores": {
@@ -31194,6 +34092,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest parlament krajowy w Berlinie?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales parlamentul landului în Berlin?",
     "options": [
      "3",
      "4",
@@ -31300,6 +34207,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota în Berlin la alegerile locale (alegerea Adunării de Cartier)?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -31399,6 +34315,15 @@
      "biało-czerwona",
      "zielono-biało-czerwona",
      "czarno-złota"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Berlin?",
+    "options": [
+     "albastru-alb-roșu",
+     "alb-roșu",
+     "verde-alb-roșu",
+     "negru-auriu"
     ]
    }
   },
@@ -31500,6 +34425,15 @@
      "w centrali ochrony konsumentów",
      "w krajowej centrali edukacji politycznej"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Berlin despre teme politice?",
+    "options": [
+     "la Oficiul de Ordine Publică al comunei",
+     "la biserici",
+     "la Centrala pentru Protecția Consumatorilor",
+     "la Centrala Landului pentru Educație Politică"
+    ]
    }
   },
   "scores": {
@@ -31600,6 +34534,15 @@
      "Brandenburgia",
      "Hesja"
     ]
+   },
+   "ro": {
+    "question": "Care land este un oraș-stat?",
+    "options": [
+     "Berlin",
+     "Saarland",
+     "Brandenburg",
+     "Hessa"
+    ]
    }
   },
   "scores": {
@@ -31699,6 +34642,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land este Berlin?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -31734,6 +34686,15 @@
      "Nadburmistrzyni/Nadburmistrz",
      "Przewodnicząca/Przewodniczący Senatu",
      "Rządząca Burmistrzyni/Rządzący Burmistrz"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șefa/șeful guvernului orașului-stat Berlin?",
+    "options": [
+     "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)",
+     "Primăriță-generală/Primar-general",
+     "Președinta/Președintele Senatului",
+     "Primăriță guvernantă/Primar guvernant (Regierende Bürgermeisterin/Regierender Bürgermeister)"
     ]
    }
   },
@@ -31771,6 +34732,15 @@
      "Senator ds. stosunków zewnętrznych/Senatora ds. stosunków zewnętrznych",
      "Senator sprawiedliwości/Senatora sprawiedliwości"
     ]
+   },
+   "ro": {
+    "question": "Ce senatoare/senator nu are Berlinul?",
+    "options": [
+     "Senatoare/Senator de Finanțe",
+     "Senatoare/Senator de Interne",
+     "Senatoare/Senator pentru Relații Externe",
+     "Senatoare/Senator de Justiție"
+    ]
    }
   },
   "scores": {
@@ -31806,6 +34776,15 @@
      "Obraz 2",
      "Obraz 3",
      "Obraz 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține landului Brandenburg? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -31907,6 +34886,15 @@
      "Powiat Vogtland",
      "Amberg-Sulzbach"
     ]
+   },
+   "ro": {
+    "question": "Care dintre următoarele este un district rural (Landkreis) din Brandenburg?",
+    "options": [
+     "Prignitz",
+     "Rhein-Sieg-Kreis",
+     "Vogtlandkreis",
+     "Amberg-Sulzbach"
+    ]
    }
   },
   "scores": {
@@ -32001,6 +34989,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag w Brandenburgii?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Brandenburg?",
     "options": [
      "3",
      "4",
@@ -32107,6 +35104,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Brandenburg?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -32206,6 +35212,15 @@
      "czerwono-biała",
      "zielono-biało-czerwona",
      "czarno-żółta"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Brandenburg?",
+    "options": [
+     "albastru-alb-roșu",
+     "roșu-alb",
+     "verde-alb-roșu",
+     "negru-galben"
     ]
    }
   },
@@ -32307,6 +35322,15 @@
      "w krajowej centrali edukacji politycznej",
      "w centrali ochrony konsumentów"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Brandenburg despre teme politice?",
+    "options": [
+     "la biserici",
+     "la Oficiul de Ordine Publică al comunei",
+     "la Centrala Landului pentru Educație Politică",
+     "la Centrala pentru Protecția Consumatorilor"
+    ]
    }
   },
   "scores": {
@@ -32342,6 +35366,15 @@
      "Cottbus.",
      "Brandenburg nad Hawelą.",
      "Frankfurt nad Odrą."
+    ]
+   },
+   "ro": {
+    "question": "Capitala landului Brandenburg se numește …",
+    "options": [
+     "Potsdam.",
+     "Cottbus.",
+     "Brandenburg.",
+     "Frankfurt/Oder."
     ]
    }
   },
@@ -32442,6 +35475,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land este Brandenburg?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -32477,6 +35519,15 @@
      "Premierka/Premier",
      "Burmistrzyni/Burmistrz",
      "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șefa/șeful guvernului în Brandenburg?",
+    "options": [
+     "Prim-ministră/Prim-ministru (Erste Ministerin/Erster Minister)",
+     "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
+     "Primăriță/Primar",
+     "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
     ]
    }
   },
@@ -32514,6 +35565,15 @@
      "Ministry finansów/Ministra finansów",
      "Ministry spraw wewnętrznych/Ministra spraw wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministră/ministru nu are Brandenburg?",
+    "options": [
+     "Ministră/Ministru de Justiție",
+     "Ministră/Ministru de Externe",
+     "Ministră/Ministru de Finanțe",
+     "Ministră/Ministru de Interne"
+    ]
    }
   },
   "scores": {
@@ -32549,6 +35609,15 @@
      "Obraz 2",
      "Obraz 3",
      "Obraz 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține Liberului Oraș Hanseatic Bremen? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -32644,6 +35713,15 @@
    },
    "pl": {
     "question": "Która z poniższych jest dzielnicą Bremy?",
+    "options": [
+     "Altona",
+     "Hemelingen",
+     "Pankow",
+     "Babelsberg"
+    ]
+   },
+   "ro": {
+    "question": "Care dintre următoarele este un cartier al orașului Bremen?",
     "options": [
      "Altona",
      "Hemelingen",
@@ -32750,6 +35828,15 @@
      "5",
      "6"
     ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales parlamentul landului în Bremen?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
    }
   },
   "scores": {
@@ -32844,6 +35931,15 @@
    },
    "pl": {
     "question": "Od jakiego wieku można głosować w Bremie w wyborach do Bürgerschaft (landtagu)?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota în Bremen la alegerile pentru Bürgerschaft (parlamentul landului)?",
     "options": [
      "14",
      "16",
@@ -32950,6 +36046,15 @@
      "zielono-biało-czerwona",
      "czarno-złota"
     ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Bremen?",
+    "options": [
+     "albastru-alb-roșu",
+     "roșu-alb",
+     "verde-alb-roșu",
+     "negru-auriu"
+    ]
    }
   },
   "scores": {
@@ -33050,6 +36155,15 @@
      "w kościołach",
      "w centrali ochrony konsumentów"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Bremen despre teme politice?",
+    "options": [
+     "la Oficiul de Ordine Publică al comunei",
+     "la Centrala Landului pentru Educație Politică",
+     "la biserici",
+     "la Centrala pentru Protecția Consumatorilor"
+    ]
    }
   },
   "scores": {
@@ -33147,6 +36261,15 @@
     "options": [
      "Brema",
      "Monachium",
+     "Frankfurt",
+     "Erfurt"
+    ]
+   },
+   "ro": {
+    "question": "Ce este un oraș-stat german?",
+    "options": [
+     "Bremen",
+     "München",
      "Frankfurt",
      "Erfurt"
     ]
@@ -33249,6 +36372,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land este Bremen?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -33284,6 +36416,15 @@
      "Pierwsza Burmistrzyni/Pierwszy Burmistrz",
      "Przewodnicząca/Przewodniczący Senatu",
      "Rządząca Burmistrzyni/Rządzący Burmistrz"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șefa/șeful guvernului orașului-stat Bremen?",
+    "options": [
+     "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)",
+     "Primăriță-generală/Primar-general (Erste Bürgermeisterin/Erster Bürgermeister)",
+     "Președinta/Președintele Senatului",
+     "Primăriță guvernantă/Primar guvernant (Regierende Bürgermeisterin/Regierender Bürgermeister)"
     ]
    }
   },
@@ -33321,6 +36462,15 @@
      "Senator sprawiedliwości/Senatora sprawiedliwości",
      "Senator spraw wewnętrznych/Senatora spraw wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce senatoare/senator nu are Bremen?",
+    "options": [
+     "Senatoare/Senator pentru Relații Externe",
+     "Senatoare/Senator de Finanțe",
+     "Senatoare/Senator de Justiție",
+     "Senatoare/Senator de Interne"
+    ]
    }
   },
   "scores": {
@@ -33356,6 +36506,15 @@
      "Obraz 2",
      "Obraz 3",
      "Obraz 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține Liberului și Hanseaticului Oraș Hamburg? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -33457,6 +36616,15 @@
      "Pankow",
      "Meklemburskie Pojezierze"
     ]
+   },
+   "ro": {
+    "question": "Care dintre următoarele este un cartier (Bezirk) al Hamburgului?",
+    "options": [
+     "Altona",
+     "Hemelingen",
+     "Pankow",
+     "Mecklenburgische Seenplatte"
+    ]
    }
   },
   "scores": {
@@ -33551,6 +36719,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest parlament krajowy w Hamburgu?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales parlamentul landului în Hamburg?",
     "options": [
      "3",
      "4",
@@ -33657,6 +36834,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota în Hamburg la alegerile locale (alegerea Adunărilor de Cartier)?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -33756,6 +36942,15 @@
      "biało-czerwona",
      "zielono-biało-czerwona",
      "czarno-żółta"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Hamburg?",
+    "options": [
+     "albastru-alb-roșu",
+     "alb-roșu",
+     "verde-alb-roșu",
+     "negru-galben"
     ]
    }
   },
@@ -33857,6 +37052,15 @@
      "w kościołach",
      "w krajowej centrali edukacji politycznej"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Hamburg despre teme politice?",
+    "options": [
+     "la Oficiul de Ordine Publică al comunei",
+     "la Centrala pentru Protecția Consumatorilor",
+     "la biserici",
+     "la Centrala Landului pentru Educație Politică"
+    ]
    }
   },
   "scores": {
@@ -33957,6 +37161,15 @@
      "Bawaria",
      "Turyngia"
     ]
+   },
+   "ro": {
+    "question": "Care land este un oraș-stat?",
+    "options": [
+     "Hamburg",
+     "Saxonia",
+     "Bavaria",
+     "Turingia"
+    ]
    }
   },
   "scores": {
@@ -34056,6 +37269,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land este Hamburg?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -34091,6 +37313,15 @@
      "Pierwsza Burmistrzyni/Pierwszy Burmistrz",
      "Rządząca Senator/Rządzący Senator",
      "Nadburmistrzyni/Nadburmistrz"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șefa/șeful guvernului orașului-stat Hamburg?",
+    "options": [
+     "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)",
+     "Primăriță-generală/Primar-general (Erste Bürgermeisterin/Erster Bürgermeister)",
+     "Senatoare guvernantă/Senator guvernant",
+     "Primăriță-generală/Primar-general (Oberbürgermeisterin/Oberbürgermeister)"
     ]
    }
   },
@@ -34128,6 +37359,15 @@
      "Senator finansów/Senatora finansów",
      "Senator spraw wewnętrznych/Senatora spraw wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce senatoare/senator nu are Hamburg?",
+    "options": [
+     "Senatoare/Senator de Justiție",
+     "Senatoare/Senator pentru Relații Externe",
+     "Senatoare/Senator de Finanțe",
+     "Senatoare/Senator de Interne"
+    ]
    }
   },
   "scores": {
@@ -34163,6 +37403,15 @@
      "Obraz 2",
      "Obraz 3",
      "Obraz 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține landului Hessa? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -34264,6 +37513,15 @@
      "Prignitz",
      "Powiat Main-Taunus"
     ]
+   },
+   "ro": {
+    "question": "Care dintre următoarele este un district rural (Landkreis) din Hessa?",
+    "options": [
+     "Ammerland",
+     "Altötting",
+     "Prignitz",
+     "Main-Taunus-Kreis"
+    ]
    }
   },
   "scores": {
@@ -34358,6 +37616,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag w Hesji?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Hessa?",
     "options": [
      "3",
      "4",
@@ -34464,6 +37731,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Hessa?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -34563,6 +37839,15 @@
      "czerwono-biała",
      "czarno-złota",
      "zielono-biało-czerwona"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Hessa?",
+    "options": [
+     "albastru-alb-roșu",
+     "roșu-alb",
+     "negru-auriu",
+     "verde-alb-roșu"
     ]
    }
   },
@@ -34664,6 +37949,15 @@
      "w urzędzie porządkowym gminy",
      "w kościołach"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Hessa despre teme politice?",
+    "options": [
+     "la Centrala Landului pentru Educație Politică",
+     "la Centrala pentru Protecția Consumatorilor",
+     "la Oficiul de Ordine Publică al comunei",
+     "la biserici"
+    ]
    }
   },
   "scores": {
@@ -34694,6 +37988,15 @@
   "translations": {
    "pl": {
     "question": "Stolicą kraju związkowego Hesja jest …",
+    "options": [
+     "Kassel.",
+     "Darmstadt.",
+     "Frankfurt.",
+     "Wiesbaden."
+    ]
+   },
+   "ro": {
+    "question": "Capitala landului Hessa se numește …",
     "options": [
      "Kassel.",
      "Darmstadt.",
@@ -34799,6 +38102,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land este Hessa?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -34834,6 +38146,15 @@
      "Premierka/Premier",
      "Burmistrzyni/Burmistrz",
      "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șefa/șeful guvernului în Hessa?",
+    "options": [
+     "Prim-ministră/Prim-ministru (Erste Ministerin/Erster Minister)",
+     "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
+     "Primăriță/Primar",
+     "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
     ]
    }
   },
@@ -34871,6 +38192,15 @@
      "Ministry finansów/Ministra finansów",
      "Ministry spraw wewnętrznych/Ministra spraw wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministră/ministru nu are Hessa?",
+    "options": [
+     "Ministră/Ministru de Justiție",
+     "Ministră/Ministru de Externe",
+     "Ministră/Ministru de Finanțe",
+     "Ministră/Ministru de Interne"
+    ]
    }
   },
   "scores": {
@@ -34906,6 +38236,15 @@
      "Obraz 2",
      "Obraz 3",
      "Obraz 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține landului Mecklenburg-Pomerania Inferioară? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -35007,6 +38346,15 @@
      "Powiat Vogtland",
      "Powiat Rhein-Sieg"
     ]
+   },
+   "ro": {
+    "question": "Care dintre următoarele este un district rural (Landkreis) din Mecklenburg-Pomerania Inferioară?",
+    "options": [
+     "Prignitz",
+     "Mecklenburgische Seenplatte",
+     "Vogtlandkreis",
+     "Rhein-Sieg-Kreis"
+    ]
    }
   },
   "scores": {
@@ -35101,6 +38449,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag w Meklemburgii-Pomorzu Przednim?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Mecklenburg-Pomerania Inferioară?",
     "options": [
      "3",
      "4",
@@ -35207,6 +38564,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Mecklenburg-Pomerania Inferioară?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -35306,6 +38672,15 @@
      "niebiesko-biało-żółto-czerwona",
      "zielono-biało-czerwona",
      "czarno-żółta"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Mecklenburg-Pomerania Inferioară?",
+    "options": [
+     "negru-roșu-auriu",
+     "albastru-alb-galben-roșu",
+     "verde-alb-roșu",
+     "negru-galben"
     ]
    }
   },
@@ -35407,6 +38782,15 @@
      "w urzędzie porządkowym gminy",
      "w centrali ochrony konsumentów"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Mecklenburg-Pomerania Inferioară despre teme politice?",
+    "options": [
+     "la Centrala Landului pentru Educație Politică",
+     "la biserici",
+     "la Oficiul de Ordine Publică al comunei",
+     "la Centrala pentru Protecția Consumatorilor"
+    ]
    }
   },
   "scores": {
@@ -35501,6 +38885,15 @@
    },
    "pl": {
     "question": "Stolicą kraju związkowego Meklemburgia-Pomorze Przednie jest …",
+    "options": [
+     "Greifswald.",
+     "Schwerin.",
+     "Rostock.",
+     "Wismar."
+    ]
+   },
+   "ro": {
+    "question": "Capitala landului Mecklenburg-Pomerania Inferioară se numește …",
     "options": [
      "Greifswald.",
      "Schwerin.",
@@ -35606,6 +38999,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land este Mecklenburg-Pomerania Inferioară?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -35641,6 +39043,15 @@
      "Premierka/Premier",
      "Burmistrzyni/Burmistrz",
      "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șefa/șeful guvernului în Mecklenburg-Pomerania Inferioară?",
+    "options": [
+     "Prim-ministră/Prim-ministru (Erste Ministerin/Erster Minister)",
+     "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
+     "Primăriță/Primar",
+     "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
     ]
    }
   },
@@ -35678,6 +39089,15 @@
      "Ministry finansów/Ministra finansów",
      "Ministry spraw wewnętrznych/Ministra spraw wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministră/ministru nu are Mecklenburg-Pomerania Inferioară?",
+    "options": [
+     "Ministră/Ministru de Justiție",
+     "Ministră/Ministru de Externe",
+     "Ministră/Ministru de Finanțe",
+     "Ministră/Ministru de Interne"
+    ]
    }
   },
   "scores": {
@@ -35713,6 +39133,15 @@
      "Zdjęcie 2",
      "Zdjęcie 3",
      "Zdjęcie 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține landului Saxonia Inferioară? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -35814,6 +39243,15 @@
      "Nordfriesland",
      "Powiat Vogtland"
     ]
+   },
+   "ro": {
+    "question": "Care dintre acestea este un district rural (Landkreis) din Saxonia Inferioară?",
+    "options": [
+     "Ammerland",
+     "Rhein-Sieg-Kreis",
+     "Frizia de Nord (Nordfriesland)",
+     "Vogtlandkreis"
+    ]
    }
   },
   "scores": {
@@ -35908,6 +39346,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag w Dolnej Saksonii?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Saxonia Inferioară?",
     "options": [
      "3",
      "4",
@@ -36014,6 +39461,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Saxonia Inferioară?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -36113,6 +39569,15 @@
      "czarno-czerwono-złota",
      "czarno-żółta",
      "niebiesko-biało-czerwona"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Saxonia Inferioară?",
+    "options": [
+     "alb-albastru",
+     "negru-roșu-auriu",
+     "negru-galben",
+     "albastru-alb-roșu"
     ]
    }
   },
@@ -36214,6 +39679,15 @@
      "w centrali ochrony konsumentów",
      "w kościołach"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Saxonia Inferioară despre teme politice?",
+    "options": [
+     "la Centrul Regional pentru Educație Politică",
+     "la Serviciul de Ordine Publică al comunei",
+     "la Centrul pentru Protecția Consumatorilor",
+     "la biserici"
+    ]
    }
   },
   "scores": {
@@ -36311,6 +39785,15 @@
     "options": [
      "Hanower.",
      "Brunszwik.",
+     "Wolfsburg.",
+     "Osnabrück."
+    ]
+   },
+   "ro": {
+    "question": "Capitala landului Saxonia Inferioară se numește …",
+    "options": [
+     "Hanovra.",
+     "Braunschweig.",
      "Wolfsburg.",
      "Osnabrück."
     ]
@@ -36413,6 +39896,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land federal este Saxonia Inferioară?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -36448,6 +39940,15 @@
      "Premier",
      "Burmistrzyni/Burmistrz",
      "Premier Kraju Związkowego"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șeful/șefa guvernului în Saxonia Inferioară?",
+    "options": [
+     "Prim-ministru/Prim-ministră",
+     "Premier/Premieră",
+     "Primar/Primăriță",
+     "Ministru-președinte/Ministră-președintă"
     ]
    }
   },
@@ -36485,6 +39986,15 @@
      "Minister Finansów",
      "Minister Spraw Wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministru nu are Saxonia Inferioară?",
+    "options": [
+     "Ministru al Justiției",
+     "Ministru de Externe",
+     "Ministru de Finanțe",
+     "Ministru de Interne"
+    ]
    }
   },
   "scores": {
@@ -36520,6 +40030,15 @@
      "Zdjęcie 2",
      "Zdjęcie 3",
      "Zdjęcie 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține landului Renania de Nord-Westfalia? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -36621,6 +40140,15 @@
      "Nordfriesland",
      "Powiat Vogtland"
     ]
+   },
+   "ro": {
+    "question": "Care dintre acestea este un district rural (Landkreis) din Renania de Nord-Westfalia?",
+    "options": [
+     "Ammerland",
+     "Rhein-Sieg-Kreis",
+     "Frizia de Nord (Nordfriesland)",
+     "Vogtlandkreis"
+    ]
    }
   },
   "scores": {
@@ -36715,6 +40243,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag w Nadrenii Północnej-Westfalii?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Renania de Nord-Westfalia?",
     "options": [
      "3",
      "4",
@@ -36821,6 +40358,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Renania de Nord-Westfalia?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -36920,6 +40466,15 @@
      "zielono-biało-czerwona",
      "czarno-złota",
      "niebiesko-biało-czerwona"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Renania de Nord-Westfalia?",
+    "options": [
+     "roșu-alb",
+     "verde-alb-roșu",
+     "negru-auriu",
+     "albastru-alb-roșu"
     ]
    }
   },
@@ -37021,6 +40576,15 @@
      "w centrali ochrony konsumentów",
      "w krajowej centrali edukacji politycznej"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Renania de Nord-Westfalia despre teme politice?",
+    "options": [
+     "la biserici",
+     "la Serviciul de Ordine Publică al comunei",
+     "la Centrul pentru Protecția Consumatorilor",
+     "la Centrul Regional pentru Educație Politică"
+    ]
    }
   },
   "scores": {
@@ -37117,6 +40681,15 @@
     "question": "Stolicą kraju związkowego Nadrenia Północna-Westfalia jest …",
     "options": [
      "Kolonia.",
+     "Bonn.",
+     "Düsseldorf.",
+     "Dortmund."
+    ]
+   },
+   "ro": {
+    "question": "Capitala landului Renania de Nord-Westfalia se numește …",
+    "options": [
+     "Köln.",
      "Bonn.",
      "Düsseldorf.",
      "Dortmund."
@@ -37220,6 +40793,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land federal este Renania de Nord-Westfalia?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -37255,6 +40837,15 @@
      "Premier",
      "Burmistrzyni/Burmistrz",
      "Premier Kraju Związkowego"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șeful/șefa guvernului în Renania de Nord-Westfalia?",
+    "options": [
+     "Prim-ministru/Prim-ministră",
+     "Premier/Premieră",
+     "Primar/Primăriță",
+     "Ministru-președinte/Ministră-președintă"
     ]
    }
   },
@@ -37292,6 +40883,15 @@
      "Minister Finansów",
      "Minister Spraw Wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministru nu are Renania de Nord-Westfalia?",
+    "options": [
+     "Ministru al Justiției",
+     "Ministru de Externe",
+     "Ministru de Finanțe",
+     "Ministru de Interne"
+    ]
    }
   },
   "scores": {
@@ -37327,6 +40927,15 @@
      "Zdjęcie 2",
      "Zdjęcie 3",
      "Zdjęcie 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține landului Renania-Palatinat? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -37428,6 +41037,15 @@
      "Emsland",
      "Prignitz"
     ]
+   },
+   "ro": {
+    "question": "Care dintre acestea este un district rural (Landkreis) din Renania-Palatinat?",
+    "options": [
+     "Westerwaldkreis",
+     "Altötting",
+     "Emsland",
+     "Prignitz"
+    ]
    }
   },
   "scores": {
@@ -37522,6 +41140,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag w Nadrenii-Palatynacie?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Renania-Palatinat?",
     "options": [
      "3",
      "4",
@@ -37628,6 +41255,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Renania-Palatinat?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -37727,6 +41363,15 @@
      "czarno-czerwono-złota",
      "czarno-żółta",
      "zielono-biało-czerwona"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Renania-Palatinat?",
+    "options": [
+     "alb-roșu",
+     "negru-roșu-auriu",
+     "negru-galben",
+     "verde-alb-roșu"
     ]
    }
   },
@@ -37828,6 +41473,15 @@
      "w urzędzie porządkowym gminy",
      "w krajowej centrali edukacji politycznej"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Renania-Palatinat despre teme politice?",
+    "options": [
+     "la biserici",
+     "la Centrul pentru Protecția Consumatorilor",
+     "la Serviciul de Ordine Publică al comunei",
+     "la Centrul Regional pentru Educație Politică"
+    ]
    }
   },
   "scores": {
@@ -37928,6 +41582,15 @@
      "Ludwigshafen.",
      "Koblencja."
     ]
+   },
+   "ro": {
+    "question": "Capitala landului Renania-Palatinat se numește …",
+    "options": [
+     "Mainz.",
+     "Kaiserslautern.",
+     "Ludwigshafen.",
+     "Koblenz."
+    ]
    }
   },
   "scores": {
@@ -38027,6 +41690,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land federal este Renania-Palatinat?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -38062,6 +41734,15 @@
      "Premier",
      "Burmistrzyni/Burmistrz",
      "Premier Kraju Związkowego"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șeful/șefa guvernului în Renania-Palatinat?",
+    "options": [
+     "Prim-ministru/Prim-ministră",
+     "Premier/Premieră",
+     "Primar/Primăriță",
+     "Ministru-președinte/Ministră-președintă"
     ]
    }
   },
@@ -38099,6 +41780,15 @@
      "Minister Finansów",
      "Minister Spraw Wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministru nu are Renania-Palatinat?",
+    "options": [
+     "Ministru al Justiției",
+     "Ministru de Externe",
+     "Ministru de Finanțe",
+     "Ministru de Interne"
+    ]
    }
   },
   "scores": {
@@ -38134,6 +41824,15 @@
      "Zdjęcie 2",
      "Zdjęcie 3",
      "Zdjęcie 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține landului Saarland? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -38235,6 +41934,15 @@
      "Neunkirchen",
      "Powiat Rhein-Sieg"
     ]
+   },
+   "ro": {
+    "question": "Care dintre acestea este un district rural (Landkreis) din Saarland?",
+    "options": [
+     "Regiunea Lacurilor din Mecklenburg (Mecklenburgische Seenplatte)",
+     "Altötting",
+     "Neunkirchen",
+     "Rhein-Sieg-Kreis"
+    ]
    }
   },
   "scores": {
@@ -38329,6 +42037,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag Kraju Saary?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales Landtagul (parlamentul regional) al landului Saarland?",
     "options": [
      "3",
      "4",
@@ -38435,6 +42152,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Saarland?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -38534,6 +42260,15 @@
      "czarno-czerwono-złota",
      "czarno-żółta",
      "zielono-biało-czerwona"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Saarland?",
+    "options": [
+     "alb-albastru",
+     "negru-roșu-auriu",
+     "negru-galben",
+     "verde-alb-roșu"
     ]
    }
   },
@@ -38635,6 +42370,15 @@
      "w centrali ochrony konsumentów",
      "w urzędzie porządkowym gminy"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Saarland despre teme politice?",
+    "options": [
+     "la biserici",
+     "la Centrul Regional pentru Educație Politică",
+     "la Centrul pentru Protecția Consumatorilor",
+     "la Serviciul de Ordine Publică al comunei"
+    ]
    }
   },
   "scores": {
@@ -38729,6 +42473,15 @@
    },
    "pl": {
     "question": "Stolicą Kraju Saary jest …",
+    "options": [
+     "Neunkirchen.",
+     "Homburg.",
+     "Saarbrücken.",
+     "Völklingen."
+    ]
+   },
+   "ro": {
+    "question": "Capitala landului Saarland se numește …",
     "options": [
      "Neunkirchen.",
      "Homburg.",
@@ -38834,6 +42587,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land federal este Saarland?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -38869,6 +42631,15 @@
      "Premier",
      "Burmistrzyni/Burmistrz",
      "Premier Kraju Związkowego"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șeful/șefa guvernului landului Saarland?",
+    "options": [
+     "Prim-ministru/Prim-ministră",
+     "Premier/Premieră",
+     "Primar/Primăriță",
+     "Ministru-președinte/Ministră-președintă"
     ]
    }
   },
@@ -38906,6 +42677,15 @@
      "Minister Finansów",
      "Minister Spraw Wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministru nu are landul Saarland?",
+    "options": [
+     "Ministru al Justiției",
+     "Ministru de Externe",
+     "Ministru de Finanțe",
+     "Ministru de Interne"
+    ]
    }
   },
   "scores": {
@@ -38941,6 +42721,15 @@
      "Zdjęcie 2",
      "Zdjęcie 3",
      "Zdjęcie 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține Statului Liber Saxonia? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -39042,6 +42831,15 @@
      "Uckermark",
      "Nordfriesland"
     ]
+   },
+   "ro": {
+    "question": "Care dintre acestea este un district rural (Landkreis) din Saxonia?",
+    "options": [
+     "Vogtlandkreis",
+     "Altötting",
+     "Uckermark",
+     "Frizia de Nord (Nordfriesland)"
+    ]
    }
   },
   "scores": {
@@ -39136,6 +42934,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag w Saksonii?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Saxonia?",
     "options": [
      "3",
      "4",
@@ -39242,6 +43049,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Saxonia?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -39341,6 +43157,15 @@
      "biało-zielona",
      "zielono-biało-czerwona",
      "czarno-żółta"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Saxonia?",
+    "options": [
+     "albastru-alb-roșu",
+     "alb-verde",
+     "verde-alb-roșu",
+     "negru-galben"
     ]
    }
   },
@@ -39442,6 +43267,15 @@
      "w kościołach",
      "w centrali ochrony konsumentów"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Saxonia despre teme politice?",
+    "options": [
+     "la Centrul Regional pentru Educație Politică",
+     "la Serviciul de Ordine Publică al comunei",
+     "la biserici",
+     "la Centrul pentru Protecția Consumatorilor"
+    ]
    }
   },
   "scores": {
@@ -39539,6 +43373,15 @@
     "options": [
      "Lipsk.",
      "Drezno.",
+     "Chemnitz.",
+     "Zwickau."
+    ]
+   },
+   "ro": {
+    "question": "Capitala landului Saxonia se numește …",
+    "options": [
+     "Leipzig.",
+     "Dresda.",
      "Chemnitz.",
      "Zwickau."
     ]
@@ -39641,6 +43484,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land federal este Saxonia?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -39676,6 +43528,15 @@
      "Premier",
      "Burmistrzyni/Burmistrz",
      "Premier Kraju Związkowego"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șeful/șefa guvernului în Saxonia?",
+    "options": [
+     "Prim-ministru/Prim-ministră",
+     "Premier/Premieră",
+     "Primar/Primăriță",
+     "Ministru-președinte/Ministră-președintă"
     ]
    }
   },
@@ -39713,6 +43574,15 @@
      "Minister Finansów",
      "Minister Spraw Wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministru nu are Saxonia?",
+    "options": [
+     "Ministru al Justiției",
+     "Ministru de Externe",
+     "Ministru de Finanțe",
+     "Ministru de Interne"
+    ]
    }
   },
   "scores": {
@@ -39748,6 +43618,15 @@
      "Zdjęcie 2",
      "Zdjęcie 3",
      "Zdjęcie 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține landului Saxonia-Anhalt? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -39843,6 +43722,15 @@
    },
    "pl": {
     "question": "Który z nich jest powiatem w Saksonii-Anhalt?",
+    "options": [
+     "Ammerland",
+     "Altötting",
+     "Uckermark",
+     "Börde"
+    ]
+   },
+   "ro": {
+    "question": "Care dintre acestea este un district rural (Landkreis) din Saxonia-Anhalt?",
     "options": [
      "Ammerland",
      "Altötting",
@@ -39949,6 +43837,15 @@
      "5",
      "6"
     ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Saxonia-Anhalt?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
    }
   },
   "scores": {
@@ -40043,6 +43940,15 @@
    },
    "pl": {
     "question": "Od jakiego wieku można głosować w wyborach komunalnych w Saksonii-Anhalt?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Saxonia-Anhalt?",
     "options": [
      "14",
      "16",
@@ -40149,6 +44055,15 @@
      "zielono-biało-czerwona",
      "biało-czerwona"
     ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Saxonia-Anhalt?",
+    "options": [
+     "albastru-alb-roșu",
+     "galben-negru",
+     "verde-alb-roșu",
+     "alb-roșu"
+    ]
    }
   },
   "scores": {
@@ -40248,6 +44163,15 @@
      "w krajowej centrali edukacji politycznej",
      "w urzędzie porządkowym gminy",
      "w centrali ochrony konsumentów"
+    ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Saxonia-Anhalt despre teme politice?",
+    "options": [
+     "la biserici",
+     "la Centrul Regional pentru Educație Politică",
+     "la Serviciul de Ordine Publică al comunei",
+     "la Centrul pentru Protecția Consumatorilor"
     ]
    }
   },
@@ -40349,6 +44273,15 @@
      "Magdeburg.",
      "Wittenberga."
     ]
+   },
+   "ro": {
+    "question": "Capitala landului Saxonia-Anhalt se numește …",
+    "options": [
+     "Halle.",
+     "Dessau.",
+     "Magdeburg.",
+     "Wittenberg."
+    ]
    }
   },
   "scores": {
@@ -40448,6 +44381,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land federal este Saxonia-Anhalt?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -40483,6 +44425,15 @@
      "Premier",
      "Burmistrzyni/Burmistrz",
      "Premier Kraju Związkowego"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șeful/șefa guvernului în Saxonia-Anhalt?",
+    "options": [
+     "Prim-ministru/Prim-ministră",
+     "Premier/Premieră",
+     "Primar/Primăriță",
+     "Ministru-președinte/Ministră-președintă"
     ]
    }
   },
@@ -40520,6 +44471,15 @@
      "Minister Finansów",
      "Minister Spraw Wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministru nu are Saxonia-Anhalt?",
+    "options": [
+     "Ministru al Justiției",
+     "Ministru de Externe",
+     "Ministru de Finanțe",
+     "Ministru de Interne"
+    ]
    }
   },
   "scores": {
@@ -40555,6 +44515,15 @@
      "Zdjęcie 2",
      "Zdjęcie 3",
      "Zdjęcie 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține landului Schleswig-Holstein? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -40656,6 +44625,15 @@
      "Nordfriesland",
      "Powiat Rhein-Sieg"
     ]
+   },
+   "ro": {
+    "question": "Care dintre acestea este un district rural (Landkreis) din Schleswig-Holstein?",
+    "options": [
+     "Ammerland",
+     "Regiunea Lacurilor din Mecklenburg (Mecklenburgische Seenplatte)",
+     "Frizia de Nord (Nordfriesland)",
+     "Rhein-Sieg-Kreis"
+    ]
    }
   },
   "scores": {
@@ -40750,6 +44728,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag w Szlezwiku-Holsztynie?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Schleswig-Holstein?",
     "options": [
      "3",
      "4",
@@ -40856,6 +44843,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Schleswig-Holstein?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -40955,6 +44951,15 @@
      "niebiesko-biało-czerwona",
      "biało-czerwona",
      "zielono-biało-czerwona"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Schleswig-Holstein?",
+    "options": [
+     "alb-albastru",
+     "albastru-alb-roșu",
+     "alb-roșu",
+     "verde-alb-roșu"
     ]
    }
   },
@@ -41056,6 +45061,15 @@
      "u pełnomocnika/pełnomocniczki kraju związkowego ds. edukacji politycznej",
      "w kościołach"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Schleswig-Holstein despre teme politice?",
+    "options": [
+     "la Centrul pentru Protecția Consumatorilor",
+     "la Serviciul de Ordine Publică al comunei",
+     "la Împuternicitul/Împuternicita regională pentru Educație Politică",
+     "la biserici"
+    ]
    }
   },
   "scores": {
@@ -41156,6 +45170,15 @@
      "Lubeka.",
      "Kilonia."
     ]
+   },
+   "ro": {
+    "question": "Capitala landului Schleswig-Holstein se numește …",
+    "options": [
+     "Husum.",
+     "Flensburg.",
+     "Lübeck.",
+     "Kiel."
+    ]
    }
   },
   "scores": {
@@ -41255,6 +45278,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land federal este Schleswig-Holstein?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -41290,6 +45322,15 @@
      "Premier",
      "Burmistrzyni/Burmistrz",
      "Premier Kraju Związkowego"
+    ]
+   },
+   "ro": {
+    "question": "Cum se numește șeful/șefa guvernului în Schleswig-Holstein?",
+    "options": [
+     "Prim-ministru/Prim-ministră",
+     "Premier/Premieră",
+     "Primar/Primăriță",
+     "Ministru-președinte/Ministră-președintă"
     ]
    }
   },
@@ -41327,6 +45368,15 @@
      "Minister Finansów",
      "Minister Spraw Wewnętrznych"
     ]
+   },
+   "ro": {
+    "question": "Ce ministru nu are Schleswig-Holstein?",
+    "options": [
+     "Ministru al Justiției",
+     "Ministru de Externe",
+     "Ministru de Finanțe",
+     "Ministru de Interne"
+    ]
    }
   },
   "scores": {
@@ -41362,6 +45412,15 @@
      "Zdjęcie 2",
      "Zdjęcie 3",
      "Zdjęcie 4"
+    ]
+   },
+   "ro": {
+    "question": "Care stemă aparține Statului Liber Turingia? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+    "options": [
+     "Imaginea 1",
+     "Imaginea 2",
+     "Imaginea 3",
+     "Imaginea 4"
     ]
    }
   },
@@ -41463,6 +45522,15 @@
      "Nordfriesland",
      "Powiat Wartburg"
     ]
+   },
+   "ro": {
+    "question": "Care dintre acestea este un district rural (Landkreis) din Turingia?",
+    "options": [
+     "Ammerland",
+     "Altötting",
+     "Frizia de Nord (Nordfriesland)",
+     "Wartburgkreis"
+    ]
    }
   },
   "scores": {
@@ -41557,6 +45625,15 @@
    },
    "pl": {
     "question": "Na ile lat wybierany jest landtag w Turyngii?",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "ro": {
+    "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Turingia?",
     "options": [
      "3",
      "4",
@@ -41663,6 +45740,15 @@
      "18",
      "20"
     ]
+   },
+   "ro": {
+    "question": "De la ce vârstă se poate vota la alegerile locale în Turingia?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ]
    }
   },
   "scores": {
@@ -41762,6 +45848,15 @@
      "biało-czerwona",
      "zielono-biało-czerwona",
      "czarno-złota"
+    ]
+   },
+   "ro": {
+    "question": "Ce culori are drapelul landului Turingia?",
+    "options": [
+     "albastru-alb-roșu",
+     "alb-roșu",
+     "verde-alb-roșu",
+     "negru-auriu"
     ]
    }
   },
@@ -41863,6 +45958,15 @@
      "w krajowej centrali edukacji politycznej",
      "w urzędzie porządkowym gminy"
     ]
+   },
+   "ro": {
+    "question": "Unde vă puteți informa în Turingia despre teme politice?",
+    "options": [
+     "la biserici",
+     "la Centrul pentru Protecția Consumatorilor",
+     "la Centrul Regional pentru Educație Politică",
+     "la Serviciul de Ordine Publică al comunei"
+    ]
    }
   },
   "scores": {
@@ -41957,6 +46061,15 @@
    },
    "pl": {
     "question": "Stolicą kraju związkowego Turyngia jest …",
+    "options": [
+     "Eisenach.",
+     "Erfurt.",
+     "Gera.",
+     "Jena."
+    ]
+   },
+   "ro": {
+    "question": "Capitala landului Turingia se numește …",
     "options": [
      "Eisenach.",
      "Erfurt.",
@@ -42062,6 +46175,15 @@
      "3",
      "4"
     ]
+   },
+   "ro": {
+    "question": "Care land federal este Turingia?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
    }
   },
   "scores": {
@@ -42098,6 +46220,15 @@
      "Burmistrzyni/Burmistrz",
      "Premier Kraju Związkowego"
     ]
+   },
+   "ro": {
+    "question": "Cum se numește șeful/șefa guvernului în Turingia?",
+    "options": [
+     "Prim-ministru/Prim-ministră",
+     "Premier/Premieră",
+     "Primar/Primăriță",
+     "Ministru-președinte/Ministră-președintă"
+    ]
    }
   },
   "scores": {
@@ -42133,6 +46264,15 @@
      "Minister Spraw Zagranicznych",
      "Minister Finansów",
      "Minister Spraw Wewnętrznych"
+    ]
+   },
+   "ro": {
+    "question": "Ce ministru nu are Turingia?",
+    "options": [
+     "Ministru al Justiției",
+     "Ministru de Externe",
+     "Ministru de Finanțe",
+     "Ministru de Interne"
     ]
    }
   },
