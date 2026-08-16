@@ -1,0 +1,4145 @@
+{
+ "_note": "Question translations for languages the two source datasets (flexsurfer, lid) do not cover. Machine-translated from the German, not cross-checked by a native speaker the way answers are. Always wins over anything build_dataset.py finds from the scrapers, mirroring overrides.json for answers. Keyed by language code, then question id.",
+ "ro": {
+  "ALL-001": {
+   "question": "În Germania, oamenii pot spune deschis ceva împotriva guvernului deoarece …",
+   "options": [
+    "aici este valabilă libertatea religioasă.",
+    "oamenii plătesc impozite.",
+    "oamenii au drept de vot.",
+    "aici este valabilă libertatea de opinie."
+   ]
+  },
+  "ALL-002": {
+   "question": "În Germania, părinții pot decide, până la împlinirea vârstei de 14 ani a copilului lor, dacă acesta participă la școală la …",
+   "options": [
+    "ora de istorie.",
+    "ora de religie.",
+    "ora de educație politică.",
+    "ora de limbi străine."
+   ]
+  },
+  "ALL-003": {
+   "question": "Germania este un stat de drept. Ce înseamnă asta?",
+   "options": [
+    "Toți locuitorii și statul trebuie să respecte legile.",
+    "Statul nu trebuie să respecte legile.",
+    "Numai cetățenii germani trebuie să respecte legile.",
+    "Instanțele fac legile."
+   ]
+  },
+  "ALL-004": {
+   "question": "Care drept face parte din drepturile fundamentale din Germania?",
+   "options": [
+    "dreptul de a deține arme",
+    "legea celui mai puternic",
+    "libertatea de opinie",
+    "autojustiția"
+   ]
+  },
+  "ALL-005": {
+   "question": "Alegerile din Germania sunt libere. Ce înseamnă asta?",
+   "options": [
+    "Este permis să accepți bani dacă în schimb votezi cu un anumit candidat/o anumită candidată.",
+    "Numai persoanele care nu au fost niciodată în închisoare au voie să voteze.",
+    "Alegătoarea/alegătorul nu poate fi nici influențat(ă), nici constrâns(ă) să voteze într-un anumit fel și nu poate avea dezavantaje din cauza votului.",
+    "Toate persoanele cu drept de vot trebuie să voteze."
+   ]
+  },
+  "ALL-006": {
+   "question": "Cum se numește constituția germană?",
+   "options": [
+    "Legea Poporului",
+    "Legea Federală",
+    "Legea Germană",
+    "Legea Fundamentală"
+   ]
+  },
+  "ALL-007": {
+   "question": "Care drept face parte din drepturile fundamentale garantate de constituția germană? Dreptul la …",
+   "options": [
+    "libertatea de credință și de conștiință",
+    "divertisment",
+    "muncă",
+    "locuință"
+   ]
+  },
+  "ALL-008": {
+   "question": "Ce nu este prevăzut în Legea Fundamentală a Germaniei?",
+   "options": [
+    "Demnitatea omului este intangibilă.",
+    "Toți ar trebui să aibă aceeași sumă de bani.",
+    "Fiecare om are voie să își spună părerea.",
+    "Toți sunt egali în fața legii."
+   ]
+  },
+  "ALL-009": {
+   "question": "Care drept fundamental este valabil în Germania doar pentru străini? Dreptul la …",
+   "options": [
+    "protecția familiei",
+    "demnitatea umană",
+    "azil",
+    "libertatea de opinie"
+   ]
+  },
+  "ALL-010": {
+   "question": "Ce este compatibil cu Legea Fundamentală germană?",
+   "options": [
+    "pedeapsa cu bătaia",
+    "tortura",
+    "pedeapsa cu moartea",
+    "amenda"
+   ]
+  },
+  "ALL-011": {
+   "question": "Cum se numește constituția Republicii Federale Germania?",
+   "options": [
+    "Legea Fundamentală",
+    "Constituția Federală",
+    "Codul de Legi",
+    "Tratatul Constituțional"
+   ]
+  },
+  "ALL-012": {
+   "question": "Un partid din Bundestagul german vrea să desființeze libertatea presei. Este posibil acest lucru?",
+   "options": [
+    "Da, dacă mai mult de jumătate dintre deputați sunt de acord.",
+    "Da, dar pentru asta trebuie ca două treimi dintre deputați să fie de acord.",
+    "Nu, deoarece libertatea presei este un drept fundamental. Ea nu poate fi desființată.",
+    "Nu, deoarece numai Bundesratul poate desființa libertatea presei."
+   ]
+  },
+  "ALL-013": {
+   "question": "În parlament, termenul „opoziție” înseamnă …",
+   "options": [
+    "partidele aflate la guvernare.",
+    "fracțiunea cu cei mai mulți deputați.",
+    "toate partidele care au reușit să depășească pragul de 5% la ultimele alegeri.",
+    "toți deputații care nu aparțin partidului/partidelor de guvernământ."
+   ]
+  },
+  "ALL-014": {
+   "question": "Libertatea de opinie în Germania înseamnă că eu …",
+   "options": [
+    "am voie să jignesc trecătorii pe stradă.",
+    "îmi pot exprima părerea pe internet.",
+    "am voie să port în public simboluri naziste, ale Hamas sau ale Statului Islamic.",
+    "am voie să îmi exprim părerea doar atâta timp cât nu contrazic guvernul."
+   ]
+  },
+  "ALL-015": {
+   "question": "Ce interzice Legea Fundamentală germană?",
+   "options": [
+    "serviciul militar",
+    "munca forțată",
+    "libera alegere a profesiei",
+    "munca în străinătate"
+   ]
+  },
+  "ALL-016": {
+   "question": "Când este restrânsă libertatea de opinie în Germania?",
+   "options": [
+    "la răspândirea publică a unor afirmații false despre anumite persoane",
+    "la exprimarea unor opinii despre guvernul federal",
+    "la discuții despre religii",
+    "la critica la adresa statului"
+   ]
+  },
+  "ALL-017": {
+   "question": "Legile germane interzic …",
+   "options": [
+    "libertatea de opinie a locuitorilor.",
+    "petițiile cetățenilor.",
+    "libertatea de întrunire a locuitorilor.",
+    "tratamentul inegal al cetățenilor de către stat."
+   ]
+  },
+  "ALL-018": {
+   "question": "Care drept fundamental este garantat în articolul 1 al Legii Fundamentale a Republicii Federale Germania?",
+   "options": [
+    "intangibilitatea demnității umane",
+    "dreptul la viață",
+    "libertatea religioasă",
+    "libertatea de opinie"
+   ]
+  },
+  "ALL-019": {
+   "question": "Ce se înțelege prin dreptul la „libera circulație” (Freizügigkeit) în Germania?",
+   "options": [
+    "Ai voie să îți alegi singur locul de reședință.",
+    "Îți poți schimba profesia.",
+    "Ai voie să te decizi pentru o altă religie.",
+    "Ai voie să te miști în public doar îmbrăcat sumar."
+   ]
+  },
+  "ALL-020": {
+   "question": "Un partid din Germania urmărește scopul de a instaura o dictatură. Acesta este atunci …",
+   "options": [
+    "tolerant.",
+    "orientat spre statul de drept.",
+    "respectuos față de legi.",
+    "neconstituțional."
+   ]
+  },
+  "ALL-021": {
+   "question": "Care este stema Republicii Federale Germania? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "ALL-022": {
+   "question": "Ce formă de stat are Germania?",
+   "options": [
+    "monarhie",
+    "dictatură",
+    "republică",
+    "principat"
+   ]
+  },
+  "ALL-023": {
+   "question": "În Germania, majoritatea persoanelor active profesional sunt …",
+   "options": [
+    "angajate în mici întreprinderi de familie.",
+    "active în mod voluntar pentru un land federal.",
+    "independente, cu firmă proprie.",
+    "angajate la o firmă sau instituție publică."
+   ]
+  },
+  "ALL-024": {
+   "question": "Câte landuri federale are Republica Federală Germania?",
+   "options": [
+    "14",
+    "15",
+    "16",
+    "17"
+   ]
+  },
+  "ALL-025": {
+   "question": "Ce nu este un land federal al Republicii Federale Germania?",
+   "options": [
+    "Alsacia-Lorena",
+    "Renania de Nord-Westfalia",
+    "Mecklenburg-Pomerania Anterioară",
+    "Saxonia-Anhalt"
+   ]
+  },
+  "ALL-026": {
+   "question": "Germania este …",
+   "options": [
+    "o republică comunistă.",
+    "un stat federal democratic și social.",
+    "o monarhie capitalistă și socială.",
+    "un stat federal social și socialist."
+   ]
+  },
+  "ALL-027": {
+   "question": "Germania este …",
+   "options": [
+    "un stat socialist.",
+    "un stat federal.",
+    "o dictatură.",
+    "o monarhie."
+   ]
+  },
+  "ALL-028": {
+   "question": "Cine îi alege în Germania pe deputații Bundestagului?",
+   "options": [
+    "armata",
+    "mediul economic",
+    "poporul cu drept de vot",
+    "administrația"
+   ]
+  },
+  "ALL-029": {
+   "question": "Ce animal este emblema heraldică a Republicii Federale Germania?",
+   "options": [
+    "leul",
+    "acvila",
+    "ursul",
+    "calul"
+   ]
+  },
+  "ALL-030": {
+   "question": "Ce nu este o trăsătură a democrației noastre?",
+   "options": [
+    "alegeri periodice",
+    "cenzura presei",
+    "libertatea de opinie",
+    "partide diferite"
+   ]
+  },
+  "ALL-031": {
+   "question": "Colaborarea dintre partide pentru formarea unui guvern se numește în Germania …",
+   "options": [
+    "unitate.",
+    "coaliție.",
+    "minister.",
+    "fracțiune."
+   ]
+  },
+  "ALL-032": {
+   "question": "Ce nu este o putere a statului în Germania?",
+   "options": [
+    "legislativul",
+    "guvernul",
+    "presa",
+    "justiția"
+   ]
+  },
+  "ALL-033": {
+   "question": "Care afirmație este corectă? În Germania …",
+   "options": [
+    "statul și comunitățile religioase sunt separate una de cealaltă.",
+    "comunitățile religioase formează statul.",
+    "statul depinde de comunitățile religioase.",
+    "statul și comunitățile religioase formează o unitate."
+   ]
+  },
+  "ALL-034": {
+   "question": "Ce nu este Germania?",
+   "options": [
+    "o democrație",
+    "un stat de drept",
+    "o monarhie",
+    "un stat social"
+   ]
+  },
+  "ALL-035": {
+   "question": "Cu ce finanțează statul german asigurările sociale?",
+   "options": [
+    "impozitul bisericesc",
+    "contribuțiile sociale",
+    "donații",
+    "cotizații de asociație"
+   ]
+  },
+  "ALL-036": {
+   "question": "Ce măsură asigură securitatea socială în Germania?",
+   "options": [
+    "asigurarea de sănătate",
+    "asigurarea auto",
+    "asigurarea clădirilor",
+    "asigurarea de răspundere civilă"
+   ]
+  },
+  "ALL-037": {
+   "question": "Cum sunt numiți șefii de guvern ai majorității landurilor federale din Germania?",
+   "options": [
+    "Prim-ministru/Primă-ministră",
+    "Premier/Premieră",
+    "Senator/Senatoare",
+    "Ministru-președinte/Ministră-președintă"
+   ]
+  },
+  "ALL-038": {
+   "question": "Republica Federală Germania este un stat federal democratic și social …",
+   "options": [
+    "uniune de state.",
+    "stat federal.",
+    "confederație de state.",
+    "stat centralizat."
+   ]
+  },
+  "ALL-039": {
+   "question": "Ce are fiecare land federal german?",
+   "options": [
+    "un ministru de externe propriu",
+    "o monedă proprie",
+    "o armată proprie",
+    "un guvern propriu"
+   ]
+  },
+  "ALL-040": {
+   "question": "Cu ce cuvinte începe imnul național german?",
+   "options": [
+    "„Popoare, auziți semnalele …”",
+    "„Unitate și dreptate și libertate …”",
+    "„Bucurie, scânteie divină …”",
+    "„Germania, unită patrie …”"
+   ]
+  },
+  "ALL-041": {
+   "question": "De ce există într-o democrație mai mult de un partid?",
+   "options": [
+    "pentru că astfel sunt reprezentate diferitele opinii ale cetățenilor",
+    "pentru a limita corupția în politică",
+    "pentru a împiedica demonstrațiile politice",
+    "pentru a stimula concurența economică"
+   ]
+  },
+  "ALL-042": {
+   "question": "Cine hotărăște în Germania asupra unei legi noi?",
+   "options": [
+    "guvernul",
+    "parlamentul",
+    "instanțele",
+    "poliția"
+   ]
+  },
+  "ALL-043": {
+   "question": "Când poate fi interzis un partid în Germania?",
+   "options": [
+    "când campania sa electorală este prea costisitoare",
+    "când luptă împotriva constituției",
+    "când critică șeful statului",
+    "când programul său propune o direcție nouă"
+   ]
+  },
+  "ALL-044": {
+   "question": "Pe cine nu poate alege direct un cetățean/o cetățeană în Germania?",
+   "options": [
+    "deputații Parlamentului European",
+    "președintele federal/președinta federală",
+    "deputații landului (Landtag)",
+    "deputații Bundestagului"
+   ]
+  },
+  "ALL-045": {
+   "question": "Din ce categorie de asigurare face parte asigurarea de îngrijire (Pflegeversicherung)?",
+   "options": [
+    "asigurarea socială",
+    "asigurarea de accidente",
+    "asigurarea locuinței/bunurilor casnice",
+    "asigurarea de răspundere civilă și de incendiu"
+   ]
+  },
+  "ALL-046": {
+   "question": "Statul german are multe sarcini. Care sarcină face parte dintre acestea?",
+   "options": [
+    "Construiește drumuri și școli.",
+    "Vinde alimente și îmbrăcăminte.",
+    "Asigură tuturor locuitorilor ziare gratuite.",
+    "Produce mașini și autobuze."
+   ]
+  },
+  "ALL-047": {
+   "question": "Statul german are multe sarcini. Care sarcină nu face parte dintre acestea?",
+   "options": [
+    "Plătește călătorii de vacanță pentru toți cetățenii.",
+    "Plătește alocația pentru copii.",
+    "Sprijină muzeele.",
+    "Susține sportivii și sportivele."
+   ]
+  },
+  "ALL-048": {
+   "question": "Care organ nu face parte dintre organele constituționale ale Germaniei?",
+   "options": [
+    "Bundesratul",
+    "președintele federal/președinta federală",
+    "adunarea cetățenilor",
+    "guvernul"
+   ]
+  },
+  "ALL-049": {
+   "question": "Cine stabilește în Germania politica școlară?",
+   "options": [
+    "profesorii și profesoarele",
+    "landurile federale",
+    "ministerul familiei",
+    "universitățile"
+   ]
+  },
+  "ALL-050": {
+   "question": "Forma de economie din Germania se numește …",
+   "options": [
+    "economie centralizată liberă.",
+    "economie socială de piață.",
+    "economie centralizată dirijată.",
+    "economie planificată."
+   ]
+  },
+  "ALL-051": {
+   "question": "Nu face parte dintr-un stat de drept democratic ca …",
+   "options": [
+    "oamenii să se poată exprima critic despre guvern.",
+    "cetățenii să aibă voie să meargă la demonstrații pașnice.",
+    "oamenii să fie arestați fără motiv de o poliție privată.",
+    "cineva să comită o infracțiune și din acest motiv să fie arestat."
+   ]
+  },
+  "ALL-052": {
+   "question": "Ce înseamnă „suveranitatea poporului”? Întreaga putere de stat emană de la ...",
+   "options": [
+    "popor.",
+    "Bundestag.",
+    "regele Prusiei.",
+    "Curtea Constituțională Federală."
+   ]
+  },
+  "ALL-053": {
+   "question": "Ce înseamnă „stat de drept” în Germania?",
+   "options": [
+    "Statul are întotdeauna dreptate.",
+    "Există doar partide de dreapta.",
+    "Cetățenii decid asupra legilor.",
+    "Statul trebuie să respecte legile."
+   ]
+  },
+  "ALL-054": {
+   "question": "Ce nu este o putere a statului în Germania?",
+   "options": [
+    "legislativul",
+    "judiciarul",
+    "executivul",
+    "directiva"
+   ]
+  },
+  "ALL-055": {
+   "question": "Ce arată această imagine? © Deutscher Bundestag/Achim Melde",
+   "options": [
+    "sediul Bundestagului la Berlin",
+    "Curtea Constituțională Federală de la Karlsruhe",
+    "clădirea Bundesratului la Berlin",
+    "Cancelaria Federală la Berlin"
+   ]
+  },
+  "ALL-056": {
+   "question": "Care birou aparține în Germania administrației comunale?",
+   "options": [
+    "oficiul parohial",
+    "oficiul de ordine publică",
+    "oficiul fiscal",
+    "Ministerul de Externe"
+   ]
+  },
+  "ALL-057": {
+   "question": "Cine este ales de cele mai multe ori ca președinte/președintă al Bundestagului german?",
+   "options": [
+    "cel mai în vârstă deputat din parlament",
+    "ministrul-președinte/ministra-președintă al/a celui mai mare land",
+    "un fost cancelar federal/o fostă cancelară federală",
+    "un deputat/o deputată al/a celei mai puternice fracțiuni"
+   ]
+  },
+  "ALL-058": {
+   "question": "Cine numește în Germania miniștrii guvernului federal?",
+   "options": [
+    "președintele/președinta Curții Constituționale Federale",
+    "președintele federal/președinta federală",
+    "președintele/președinta Bundesratului",
+    "președintele/președinta Bundestagului"
+   ]
+  },
+  "ALL-059": {
+   "question": "Cu câți ani în urmă a existat pentru prima dată o comunitate evreiască pe teritoriul Germaniei de astăzi?",
+   "options": [
+    "acum aproximativ 300 de ani",
+    "acum aproximativ 700 de ani",
+    "acum aproximativ 1150 de ani",
+    "acum aproximativ 1700 de ani"
+   ]
+  },
+  "ALL-060": {
+   "question": "În Germania, Bundestagul și Bundesratul fac parte din …",
+   "options": [
+    "executiv.",
+    "legislativ.",
+    "directivă.",
+    "judiciar."
+   ]
+  },
+  "ALL-061": {
+   "question": "Ce înseamnă „suveranitatea poporului”?",
+   "options": [
+    "Regina/regele domnește peste popor.",
+    "Curtea Constituțională Federală se află deasupra constituției.",
+    "Grupurile de interese exercită suveranitatea împreună cu guvernul.",
+    "Puterea de stat emană de la popor."
+   ]
+  },
+  "ALL-062": {
+   "question": "Când este ales parlamentul unui land federal german, aceasta se numește …",
+   "options": [
+    "alegeri comunale",
+    "alegeri pentru landtag",
+    "alegeri europene",
+    "alegeri pentru Bundestag"
+   ]
+  },
+  "ALL-063": {
+   "question": "Ce nu face parte din executiv în Germania?",
+   "options": [
+    "poliția",
+    "instanțele",
+    "oficiul fiscal",
+    "ministerele"
+   ]
+  },
+  "ALL-064": {
+   "question": "Astăzi, Republica Federală Germania este structurată în …",
+   "options": [
+    "patru zone de ocupație.",
+    "un stat estic și un stat vestic.",
+    "16 cantoane.",
+    "federație, landuri și comune."
+   ]
+  },
+  "ALL-065": {
+   "question": "Nu face parte din sarcinile Bundestagului german …",
+   "options": [
+    "elaborarea legilor.",
+    "controlul guvernului federal.",
+    "alegerea cancelarului federal/cancelarei federale.",
+    "formarea cabinetului federal."
+   ]
+  },
+  "ALL-066": {
+   "question": "Care orașe au cele mai mari comunități evreiești din Germania?",
+   "options": [
+    "Berlin și München",
+    "Hamburg și Essen",
+    "Nürnberg și Stuttgart",
+    "Worms și Speyer"
+   ]
+  },
+  "ALL-067": {
+   "question": "Ce este în Germania mai ales o sarcină a landurilor federale?",
+   "options": [
+    "politica de apărare",
+    "politica externă",
+    "politica economică",
+    "politica școlară"
+   ]
+  },
+  "ALL-068": {
+   "question": "De ce controlează statul sistemul școlar în Germania?",
+   "options": [
+    "pentru că în Germania există doar școli de stat",
+    "pentru că toți elevii și toate elevele trebuie să aibă o diplomă de absolvire",
+    "pentru că există școli diferite în landurile federale",
+    "pentru că aceasta este sarcina lui conform Legii Fundamentale"
+   ]
+  },
+  "ALL-069": {
+   "question": "Republica Federală Germania are o structură administrativă pe trei niveluri. Cum se numește cel mai de jos nivel politic?",
+   "options": [
+    "consiliile orășenești",
+    "consiliile districtuale (Landräte)",
+    "comunele",
+    "oficiile de district"
+   ]
+  },
+  "ALL-070": {
+   "question": "Președintele federal german Gustav Heinemann îi înmânează lui Helmut Schmidt, în 1974, actul de numire ca cancelar federal german. Ce face parte din sarcinile președintelui federal/președintei federale germane? © Bundesregierung/Engelbert Reineke",
+   "options": [
+    "Conduce activitatea guvernului.",
+    "Controlează partidul de guvernământ.",
+    "Alege miniștrii.",
+    "Propune candidatul/candidata pentru alegerea cancelarului federal/cancelarei federale."
+   ]
+  },
+  "ALL-071": {
+   "question": "Unde se află cel mai des cancelarul federal/cancelara federală a Germaniei? Cel mai adesea se află …",
+   "options": [
+    "la Bonn, deoarece acolo se află Cancelaria Federală și Bundestagul.",
+    "la castelul Meseberg, casa de oaspeți a guvernului federal, pentru a primi oaspeți de stat.",
+    "la castelul Bellevue, reședința oficială a președintelui federal/președintei federale, pentru a primi oaspeți de stat.",
+    "la Berlin, deoarece acolo se află Cancelaria Federală și Bundestagul."
+   ]
+  },
+  "ALL-072": {
+   "question": "Cum se numește actualul cancelar federal/actuala cancelară federală a Germaniei?",
+   "options": [
+    "Gerhard Schröder",
+    "Angela Merkel",
+    "Ursula von der Leyen",
+    "Friedrich Merz"
+   ]
+  },
+  "ALL-073": {
+   "question": "Cele două cele mai mari fracțiuni din Bundestagul german se numesc în prezent …",
+   "options": [
+    "CDU/CSU și AfD.",
+    "Die Linke și Bündnis 90/Die Grünen.",
+    "Bündnis 90/Die Grünen și SPD.",
+    "Die Linke și CDU/CSU."
+   ]
+  },
+  "ALL-074": {
+   "question": "Cum se numește parlamentul pentru întreaga Germanie?",
+   "options": [
+    "Adunarea Federală",
+    "Camera Poporului",
+    "Bundestag",
+    "Curtea Federală de Justiție"
+   ]
+  },
+  "ALL-075": {
+   "question": "Cum se numește actualul șef de stat al Germaniei?",
+   "options": [
+    "Frank-Walter Steinmeier",
+    "Bärbel Bas",
+    "Bodo Ramelow",
+    "Joachim Gauck"
+   ]
+  },
+  "ALL-076": {
+   "question": "Ce înseamnă abrevierea CDU în Germania?",
+   "options": [
+    "Uniunea Creștină Germană",
+    "Clubul Antreprenorilor Germani",
+    "Protecția Creștină Germană a Mediului",
+    "Uniunea Creștin Democrată"
+   ]
+  },
+  "ALL-077": {
+   "question": "Ce este Bundeswehr?",
+   "options": [
+    "poliția germană",
+    "un port german",
+    "o inițiativă cetățenească germană",
+    "armata germană"
+   ]
+  },
+  "ALL-078": {
+   "question": "Ce înseamnă abrevierea SPD?",
+   "options": [
+    "Partidul Socialist German",
+    "Partidul Social-Politic German",
+    "Partidul Social Democrat German",
+    "Partidul Social-Echitabil German"
+   ]
+  },
+  "ALL-079": {
+   "question": "Ce înseamnă abrevierea FDP în Germania?",
+   "options": [
+    "Partidul Demonstrativ Pașnic",
+    "Partidul Germaniei Libere",
+    "Partidul Democrat Conducător",
+    "Partidul Liber Democrat"
+   ]
+  },
+  "ALL-080": {
+   "question": "Care instanță din Germania este competentă pentru interpretarea Legii Fundamentale?",
+   "options": [
+    "Tribunalul Regional Superior",
+    "Judecătoria",
+    "Curtea Constituțională Federală",
+    "Tribunalul Administrativ"
+   ]
+  },
+  "ALL-081": {
+   "question": "Cine alege cancelarul federal în Germania?",
+   "options": [
+    "Bundesrat-ul",
+    "Adunarea Federală",
+    "poporul",
+    "Bundestag-ul"
+   ]
+  },
+  "ALL-082": {
+   "question": "Cine conduce cabinetul federal german?",
+   "options": [
+    "președintele Bundestag-ului",
+    "președintele federal",
+    "președintele Bundesrat-ului",
+    "cancelarul federal"
+   ]
+  },
+  "ALL-083": {
+   "question": "Cine alege cancelarul federal german?",
+   "options": [
+    "poporul",
+    "Adunarea Federală",
+    "Bundestag-ul",
+    "guvernul federal"
+   ]
+  },
+  "ALL-084": {
+   "question": "Care este sarcina principală a președintelui federal german? El/Ea …",
+   "options": [
+    "guvernează țara.",
+    "elaborează legile.",
+    "reprezintă țara.",
+    "supraveghează respectarea legilor."
+   ]
+  },
+  "ALL-085": {
+   "question": "Cine formează Bundesrat-ul german?",
+   "options": [
+    "deputații Bundestag-ului",
+    "miniștrii guvernului federal",
+    "reprezentanții guvernelor landurilor",
+    "membrii de partid"
+   ]
+  },
+  "ALL-086": {
+   "question": "Cine alege președintele federal în Germania?",
+   "options": [
+    "Adunarea Federală",
+    "Bundesrat-ul",
+    "Parlamentul Federal",
+    "Curtea Constituțională Federală"
+   ]
+  },
+  "ALL-087": {
+   "question": "Cine este șeful statului Republicii Federale Germania?",
+   "options": [
+    "cancelarul federal",
+    "președintele federal",
+    "președintele Bundesrat-ului",
+    "președintele Bundestag-ului"
+   ]
+  },
+  "ALL-088": {
+   "question": "Opoziția parlamentară din Bundestag-ul german …",
+   "options": [
+    "controlează guvernul.",
+    "decide cine devine ministru federal.",
+    "stabilește cine face parte din Bundesrat.",
+    "propune șefii guvernelor landurilor."
+   ]
+  },
+  "ALL-089": {
+   "question": "Cum se numește în Germania asocierea deputaților unui partid în parlament?",
+   "options": [
+    "asociație",
+    "consiliul senioratului",
+    "fracțiune parlamentară",
+    "opoziție"
+   ]
+  },
+  "ALL-090": {
+   "question": "Landurile germane participă la legiferarea federală prin …",
+   "options": [
+    "Bundesrat.",
+    "Adunarea Federală.",
+    "Bundestag.",
+    "guvernul federal."
+   ]
+  },
+  "ALL-091": {
+   "question": "În Germania, o schimbare de guvern într-un land poate avea efecte asupra politicii federale. Guvernarea devine …",
+   "options": [
+    "mai dificilă, dacă astfel se schimbă majoritatea din Bundestag.",
+    "mai ușoară, dacă astfel intră partide noi în Bundesrat.",
+    "mai dificilă, dacă astfel se schimbă majoritatea din Bundesrat.",
+    "mai ușoară, dacă este vorba despre un land bogat."
+   ]
+  },
+  "ALL-092": {
+   "question": "Ce înseamnă abrevierea CSU în Germania?",
+   "options": [
+    "Uniunea Creștină Sigură",
+    "Uniunea Creștină Sud-Germană",
+    "Asociația Antreprenorială Creștin-Socială",
+    "Uniunea Creștin Socială"
+   ]
+  },
+  "ALL-093": {
+   "question": "Cu cât un partid obține mai multe „voturi secundare\" la o alegere pentru Bundestag, cu atât …",
+   "options": [
+    "poate avea mai puține voturi principale.",
+    "mai mulți candidați direcți ai partidului intră în parlament.",
+    "este mai mare riscul de a trebui să formeze o coaliție.",
+    "mai multe locuri obține partidul în parlament."
+   ]
+  },
+  "ALL-094": {
+   "question": "De la ce vârstă se poate participa în Germania la alegerile pentru Bundestag-ul german?",
+   "options": [
+    "16",
+    "18",
+    "21",
+    "23"
+   ]
+  },
+  "ALL-095": {
+   "question": "Ce este valabil pentru majoritatea copiilor din Germania?",
+   "options": [
+    "obligativitatea votului",
+    "obligativitatea școlarizării",
+    "obligația de a păstra tăcerea",
+    "obligativitatea religioasă"
+   ]
+  },
+  "ALL-096": {
+   "question": "Cum poate fi pedepsită o persoană care neagă Holocaustul?",
+   "options": [
+    "reducerea prestațiilor sociale",
+    "până la 100 de ore de muncă în folosul comunității",
+    "deloc, negarea Holocaustului este permisă",
+    "cu pedeapsă privativă de libertate de până la cinci ani sau cu amendă"
+   ]
+  },
+  "ALL-097": {
+   "question": "Ce plătește automat o persoană în Germania dacă este angajată permanent?",
+   "options": [
+    "asigurări sociale",
+    "ajutor social",
+    "alocație pentru copii",
+    "ajutor pentru locuință"
+   ]
+  },
+  "ALL-098": {
+   "question": "Când deputații din Bundestag-ul german își schimbă fracțiunea parlamentară, …",
+   "options": [
+    "nu mai au voie să participe la ședințele parlamentului.",
+    "guvernul își poate pierde majoritatea.",
+    "președintele federal trebuie să își dea în prealabil acordul.",
+    "alegătorii acestor deputați au voie să voteze din nou."
+   ]
+  },
+  "ALL-099": {
+   "question": "Cine plătește asigurările sociale în Germania?",
+   "options": [
+    "angajatorii și angajații",
+    "doar angajații",
+    "toți cetățenii",
+    "doar angajatorii"
+   ]
+  },
+  "ALL-100": {
+   "question": "Ce nu face parte din asigurarea socială legală?",
+   "options": [
+    "asigurarea de viață",
+    "asigurarea legală de pensie",
+    "asigurarea de șomaj",
+    "asigurarea de îngrijire"
+   ]
+  },
+  "ALL-101": {
+   "question": "Sindicatele sunt asociații de interese ale …",
+   "options": [
+    "tinerilor.",
+    "angajaților.",
+    "pensionarilor.",
+    "angajatorilor."
+   ]
+  },
+  "ALL-102": {
+   "question": "Cu ce poate fi onorată o persoană în Republica Federală Germania dacă a adus o contribuție deosebită în domeniul politic, economic, cultural, spiritual sau social? Cu …",
+   "options": [
+    "Crucea de Merit Federală",
+    "Vulturul Federal",
+    "Ordinul Patriotic de Merit",
+    "titlul onorific „Erou al Republicii Democrate Germane\""
+   ]
+  },
+  "ALL-103": {
+   "question": "Ce se numește în Germania „coaliție de semafor\"? Colaborarea …",
+   "options": [
+    "dintre fracțiunile din Bundestag ale CDU și CSU",
+    "dintre SPD, FDP și Bündnis 90/Die Grünen într-un guvern",
+    "dintre CSU, Die LINKE și Bündnis 90/Die Grünen într-un guvern",
+    "dintre fracțiunile din Bundestag ale CDU și SPD"
+   ]
+  },
+  "ALL-104": {
+   "question": "O femeie din Germania își pierde locul de muncă. Ce nu poate fi motivul acestei concedieri?",
+   "options": [
+    "Femeia este bolnavă de mult timp și incapabilă de muncă.",
+    "Femeia a întârziat des la muncă.",
+    "Femeia rezolvă probleme personale în timpul programului de lucru.",
+    "Femeia urmează să aibă un copil, iar șeful ei știe acest lucru."
+   ]
+  },
+  "ALL-105": {
+   "question": "Care este o sarcină a asistenților electorali în Germania?",
+   "options": [
+    "Ajută persoanele în vârstă la exprimarea votului în cabina de vot.",
+    "Scriu înștiințările de vot înainte de alegeri.",
+    "Transmit mass-mediei rezultate parțiale.",
+    "Numără voturile după încheierea alegerilor."
+   ]
+  },
+  "ALL-106": {
+   "question": "În Germania, asistenții electorali voluntari ajută la alegeri. Care este o sarcină a asistenților electorali?",
+   "options": [
+    "Ajută copiii și persoanele în vârstă la vot.",
+    "Scriu cărți poștale și scrisori cu indicarea secției de votare.",
+    "Transmit jurnaliștilor rezultate parțiale.",
+    "Numără voturile după încheierea alegerilor."
+   ]
+  },
+  "ALL-107": {
+   "question": "Pentru câți ani este ales Bundestag-ul în Germania?",
+   "options": [
+    "2 ani",
+    "4 ani",
+    "6 ani",
+    "8 ani"
+   ]
+  },
+  "ALL-108": {
+   "question": "La o alegere pentru Bundestag în Germania are dreptul de vot orice persoană care …",
+   "options": [
+    "locuiește în Republica Federală Germania și dorește să voteze.",
+    "este cetățean al Republicii Federale Germania și are cel puțin 18 ani.",
+    "trăiește de cel puțin 3 ani în Republica Federală Germania.",
+    "este cetățean al Republicii Federale Germania și are cel puțin 21 de ani."
+   ]
+  },
+  "ALL-109": {
+   "question": "Cât de des au loc de obicei alegeri pentru Bundestag în Germania?",
+   "options": [
+    "la fiecare trei ani",
+    "la fiecare patru ani",
+    "la fiecare cinci ani",
+    "la fiecare șase ani"
+   ]
+  },
+  "ALL-110": {
+   "question": "Pentru câți ani este ales Bundestag-ul în Germania?",
+   "options": [
+    "2 ani",
+    "3 ani",
+    "4 ani",
+    "5 ani"
+   ]
+  },
+  "ALL-111": {
+   "question": "Ce acțiuni legate de statul Israel sunt interzise în Germania?",
+   "options": [
+    "criticarea publică a politicii Israelului",
+    "arborarea unui steag israelian pe o proprietate privată",
+    "o discuție despre politica Israelului",
+    "îndemnul public la distrugerea Israelului"
+   ]
+  },
+  "ALL-112": {
+   "question": "Alegerile din Germania sunt …",
+   "options": [
+    "speciale.",
+    "secrete.",
+    "legate de profesie.",
+    "dependente de gen."
+   ]
+  },
+  "ALL-113": {
+   "question": "În Germania câștigă alegerile partidul care …",
+   "options": [
+    "obține cele mai multe voturi.",
+    "a fost votat de majoritatea bărbaților.",
+    "a obținut cele mai multe voturi din partea muncitorilor.",
+    "a primit cele mai multe voturi principale pentru candidatul său la cancelariat."
+   ]
+  },
+  "ALL-114": {
+   "question": "Participarea la alegeri democratice în Germania este …",
+   "options": [
+    "o obligație.",
+    "un drept.",
+    "o constrângere.",
+    "o povară."
+   ]
+  },
+  "ALL-115": {
+   "question": "Ce înseamnă „drept de vot activ\" în Germania?",
+   "options": [
+    "Poți fi ales.",
+    "Trebuie să mergi la vot.",
+    "Poți vota.",
+    "Trebuie să participi la numărarea voturilor."
+   ]
+  },
+  "ALL-116": {
+   "question": "Dacă aveți dreptul de a vota la o alegere pentru Bundestag în Germania, aceasta se numește …",
+   "options": [
+    "campanie electorală activă.",
+    "procedură electorală activă.",
+    "campanie electorală activă.",
+    "drept de vot activ."
+   ]
+  },
+  "ALL-117": {
+   "question": "Ce procent minim din voturile secundare trebuie să obțină partidele pentru a fi alese în Bundestag-ul german?",
+   "options": [
+    "3%",
+    "4%",
+    "5%",
+    "6%"
+   ]
+  },
+  "ALL-118": {
+   "question": "Cine poate deveni membru al celor aproximativ 40 de cluburi sportive evreiești Makkabi?",
+   "options": [
+    "doar germanii",
+    "doar israelienii",
+    "doar persoanele religioase",
+    "toate persoanele"
+   ]
+  },
+  "ALL-119": {
+   "question": "Alegerile din Germania sunt libere. Ce înseamnă asta?",
+   "options": [
+    "Toți infractorii condamnați nu au voie să voteze.",
+    "Dacă doresc să merg la vot, angajatorul meu trebuie să îmi dea liber.",
+    "Fiecare persoană poate decide fără constrângere dacă dorește să voteze și pe cine dorește să voteze.",
+    "Pot decide liber unde doresc să merg la vot."
+   ]
+  },
+  "ALL-120": {
+   "question": "Sistemul electoral din Germania este un …",
+   "options": [
+    "drept de vot cenzitar.",
+    "drept de vot pe trei clase.",
+    "drept de vot majoritar și proporțional.",
+    "drept de vot general masculin."
+   ]
+  },
+  "ALL-121": {
+   "question": "Un partid dorește să intre în Bundestag-ul german. Dar trebuie să aibă un procent minim din voturile alegătorilor. Aceasta se numește …",
+   "options": [
+    "pragul de 5%.",
+    "limită de admitere.",
+    "valoare de bază.",
+    "directivă."
+   ]
+  },
+  "ALL-122": {
+   "question": "Ce principiu guvernează alegerile din Germania? Alegerile din Germania sunt …",
+   "options": [
+    "libere, egale, secrete.",
+    "deschise, sigure, libere.",
+    "închise, egale, sigure.",
+    "sigure, deschise, voluntare."
+   ]
+  },
+  "ALL-123": {
+   "question": "Ce este „pragul de 5%\" în Germania?",
+   "options": [
+    "regulă de vot în Bundestag pentru partidele mici",
+    "control de prezență în Bundestag pentru voturi",
+    "procent minim din voturile alegătorilor necesar pentru a intra în parlament",
+    "control de prezență în Bundesrat pentru voturi"
+   ]
+  },
+  "ALL-124": {
+   "question": "Alegerea pentru Bundestag în Germania este alegerea …",
+   "options": [
+    "cancelarului federal.",
+    "parlamentelor landurilor.",
+    "parlamentului pentru Germania.",
+    "președintelui federal."
+   ]
+  },
+  "ALL-125": {
+   "question": "Într-o democrație, o funcție a alegerilor periodice este …",
+   "options": [
+    "de a obliga cetățenii să își exprime votul.",
+    "de a permite schimbarea guvernului conform voinței majorității alegătorilor.",
+    "de a menține legile existente în țară.",
+    "de a da mai multă putere celor săraci."
+   ]
+  },
+  "ALL-126": {
+   "question": "Ce primesc cetățenii cu drept de vot în Germania înainte de o alegere?",
+   "options": [
+    "o înștiințare de vot de la primărie",
+    "o autorizație de vot de la președintele federal",
+    "o înștiințare de la Adunarea Federală",
+    "o înștiințare de la parohie"
+   ]
+  },
+  "ALL-127": {
+   "question": "De ce există pragul de 5% în legea electorală a Republicii Federale Germania? Există pentru că …",
+   "options": [
+    "programele multor partide mici au multe elemente comune.",
+    "cetățenii se pot pierde în orientare dacă există multe partide mici.",
+    "multe partide mici îngreunează formarea guvernului.",
+    "partidele mici nu au suficienți bani pentru a plăti politicienii."
+   ]
+  },
+  "ALL-128": {
+   "question": "Membrii parlamentului aleși de cetățeni se numesc …",
+   "options": [
+    "deputați.",
+    "cancelari.",
+    "ambasadori.",
+    "prim-miniștri de land."
+   ]
+  },
+  "ALL-129": {
+   "question": "Cine este ales de popor în Germania …",
+   "options": [
+    "cancelarul federal.",
+    "prim-ministrul unui land.",
+    "Bundestag-ul.",
+    "președintele federal."
+   ]
+  },
+  "ALL-130": {
+   "question": "Care buletin de vot ar fi valabil la o alegere pentru Bundestag? Conform Regulamentului Electoral Federal (BWO), Anexa 26",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "ALL-131": {
+   "question": "În Germania, un primar este …",
+   "options": [
+    "directorul unei școli.",
+    "șeful unei bănci.",
+    "șeful unei comune.",
+    "președintele unui partid."
+   ]
+  },
+  "ALL-132": {
+   "question": "Mulți oameni din Germania lucrează voluntar în timpul liber. Ce înseamnă asta?",
+   "options": [
+    "Lucrează ca soldați.",
+    "Lucrează voluntar și neplătit în asociații și cluburi.",
+    "Lucrează în guvernul federal.",
+    "Lucrează într-un spital și câștigă bani în acest fel."
+   ]
+  },
+  "ALL-133": {
+   "question": "Ce este permis la alegerile pentru Bundestag și pentru parlamentele landurilor în Germania?",
+   "options": [
+    "Soțul votează și pentru soția sa.",
+    "Se poate vota prin corespondență.",
+    "Se poate vota telefonic în ziua alegerilor.",
+    "Copiii de la vârsta de 14 ani au voie să voteze."
+   ]
+  },
+  "ALL-134": {
+   "question": "Se dorește desființarea liniei de autobuz cu care mergeți mereu la muncă. Ce puteți face pentru a păstra linia de autobuz?",
+   "options": [
+    "Particip la o inițiativă cetățenească pentru păstrarea liniei de autobuz sau înființez eu însumi o inițiativă.",
+    "Devin membru al unui club sportiv și mă antrenez la ciclism.",
+    "Mă adresez administrației financiare, deoarece, ca plătitor de impozite, am dreptul la linia de autobuz.",
+    "Scriu o scrisoare către oficiul silvic al comunei."
+   ]
+  },
+  "ALL-135": {
+   "question": "Pe cine reprezintă sindicatele în Germania?",
+   "options": [
+    "marile întreprinderi",
+    "micile întreprinderi",
+    "persoanele care desfășoară activități independente",
+    "angajații"
+   ]
+  },
+  "ALL-136": {
+   "question": "În Germania, vă adresați tribunalului muncii în cazul …",
+   "options": [
+    "unei decontări greșite a cheltuielilor auxiliare.",
+    "unei concedieri nejustificate din partea șefului dumneavoastră.",
+    "unor probleme cu vecinii.",
+    "unor dificultăți în urma unui accident rutier."
+   ]
+  },
+  "ALL-137": {
+   "question": "Care instanță este competentă în Germania pentru conflictele din lumea muncii?",
+   "options": [
+    "tribunalul familiei",
+    "tribunalul penal",
+    "tribunalul muncii",
+    "judecătoria"
+   ]
+  },
+  "ALL-138": {
+   "question": "Ce pot face în Germania dacă angajatorul meu m-a concediat pe nedrept?",
+   "options": [
+    "continui să lucrez și sunt prietenos cu șeful",
+    "inițiez o procedură de somație împotriva angajatorului",
+    "depun o acțiune în instanță împotriva concedierii",
+    "denunț angajatorul la poliție"
+   ]
+  },
+  "ALL-139": {
+   "question": "Când are loc un proces în instanță în Germania? Când cineva …",
+   "options": [
+    "trece la o altă religie.",
+    "a comis o infracțiune și este pus sub acuzare.",
+    "susține o altă opinie decât cea a guvernului.",
+    "și-a parcat mașina greșit și aceasta este ridicată."
+   ]
+  },
+  "ALL-140": {
+   "question": "Ce face un jurat în Germania? El/Ea …",
+   "options": [
+    "decide împreună cu judecătorii asupra vinovăției și pedepsei.",
+    "oferă cetățenilor consiliere juridică.",
+    "eliberează acte oficiale.",
+    "apără persoana acuzată."
+   ]
+  },
+  "ALL-141": {
+   "question": "Cine consiliază persoanele în probleme juridice în Germania și le reprezintă în instanță?",
+   "options": [
+    "un avocat",
+    "un judecător",
+    "un jurat",
+    "un procuror"
+   ]
+  },
+  "ALL-142": {
+   "question": "Care este sarcina principală a unui judecător în Germania? Un judecător …",
+   "options": [
+    "reprezintă cetățenii în fața unei instanțe.",
+    "lucrează într-o instanță și pronunță hotărâri.",
+    "modifică legile.",
+    "asistă tinerii în instanță."
+   ]
+  },
+  "ALL-143": {
+   "question": "Un judecător în Germania aparține de …",
+   "options": [
+    "puterea judecătorească.",
+    "puterea executivă.",
+    "puterea operativă.",
+    "puterea legislativă."
+   ]
+  },
+  "ALL-144": {
+   "question": "Un judecător aparține în Germania de …",
+   "options": [
+    "puterea executivă.",
+    "puterea judecătorească.",
+    "puterea de planificare.",
+    "puterea legislativă."
+   ]
+  },
+  "ALL-145": {
+   "question": "În Germania, puterea de stat este împărțită. Pentru care putere lucrează un judecător? Pentru …",
+   "options": [
+    "puterea judecătorească",
+    "puterea executivă",
+    "presă",
+    "puterea legislativă"
+   ]
+  },
+  "ALL-146": {
+   "question": "Cum se numește în Germania o procedură în fața unei instanțe?",
+   "options": [
+    "program",
+    "procedeu",
+    "protocol",
+    "proces"
+   ]
+  },
+  "ALL-147": {
+   "question": "Care este activitatea unui judecător în Germania?",
+   "options": [
+    "să guverneze Germania",
+    "să înfăptuiască justiția",
+    "să elaboreze planuri",
+    "să emită legi"
+   ]
+  },
+  "ALL-148": {
+   "question": "Care este o sarcină a poliției în Germania?",
+   "options": [
+    "să apere țara",
+    "să asculte convorbirile cetățenilor",
+    "să adopte legile",
+    "să supravegheze respectarea legilor"
+   ]
+  },
+  "ALL-149": {
+   "question": "Ce este un exemplu de comportament antisemit?",
+   "options": [
+    "a vizita o sărbătoare evreiască",
+    "a critica guvernul israelian",
+    "a nega Holocaustul",
+    "a juca fotbal împotriva evreilor."
+   ]
+  },
+  "ALL-150": {
+   "question": "Un jurat în Germania este …",
+   "options": [
+    "adjunctul șefului orașului.",
+    "un judecător onorific.",
+    "un membru al unui consiliu comunal.",
+    "o persoană care a studiat dreptul."
+   ]
+  },
+  "ALL-151": {
+   "question": "Cine a construit Zidul Berlinului?",
+   "options": [
+    "Marea Britanie",
+    "RDG",
+    "Republica Federală Germania",
+    "SUA"
+   ]
+  },
+  "ALL-152": {
+   "question": "Când s-au aflat naziștii, conduși de Adolf Hitler, la putere în Germania?",
+   "options": [
+    "1918 până în 1923",
+    "1932 până în 1950",
+    "1933 până în 1945",
+    "1945 până în 1989"
+   ]
+  },
+  "ALL-153": {
+   "question": "Ce s-a întâmplat pe 8 mai 1945?",
+   "options": [
+    "Moartea lui Adolf Hitler",
+    "Începutul construcției Zidului Berlinului",
+    "Alegerea lui Konrad Adenauer ca cancelar federal",
+    "Sfârșitul celui de-Al Doilea Război Mondial în Europa"
+   ]
+  },
+  "ALL-154": {
+   "question": "Când s-a încheiat Al Doilea Război Mondial?",
+   "options": [
+    "1933",
+    "1945",
+    "1949",
+    "1961"
+   ]
+  },
+  "ALL-155": {
+   "question": "Când s-au aflat naziștii la putere în Germania?",
+   "options": [
+    "1888 până în 1918",
+    "1921 până în 1934",
+    "1933 până în 1945",
+    "1949 până în 1963"
+   ]
+  },
+  "ALL-156": {
+   "question": "În ce an a devenit Hitler cancelar al Reich-ului?",
+   "options": [
+    "1923",
+    "1927",
+    "1933",
+    "1936"
+   ]
+  },
+  "ALL-157": {
+   "question": "Naziștii, conduși de Adolf Hitler, au instaurat în 1933 în Germania …",
+   "options": [
+    "o dictatură.",
+    "un stat democratic.",
+    "o monarhie.",
+    "un principat."
+   ]
+  },
+  "ALL-158": {
+   "question": "„Al Treilea Reich” a fost o …",
+   "options": [
+    "dictatură.",
+    "democrație.",
+    "monarhie.",
+    "republică a sfaturilor (Räterepublik)."
+   ]
+  },
+  "ALL-159": {
+   "question": "Ce nu a existat în Germania în perioada nazismului?",
+   "options": [
+    "alegeri libere",
+    "cenzura presei",
+    "arestări arbitrare",
+    "persecutarea evreilor"
+   ]
+  },
+  "ALL-160": {
+   "question": "Care război a durat din 1939 până în 1945?",
+   "options": [
+    "Primul Război Mondial",
+    "Al Doilea Război Mondial",
+    "Războiul din Vietnam",
+    "Războiul din Golf"
+   ]
+  },
+  "ALL-161": {
+   "question": "Ce a caracterizat statul nazist? O politică …",
+   "options": [
+    "a rasismului de stat",
+    "a libertății de opinie",
+    "a libertății religioase generale",
+    "a dezvoltării democrației"
+   ]
+  },
+  "ALL-162": {
+   "question": "Claus Schenk Graf von Stauffenberg a devenit cunoscut prin …",
+   "options": [
+    "o medalie de aur la Jocurile Olimpice din 1936.",
+    "construcția clădirii Reichstagului.",
+    "înființarea Wehrmachtului.",
+    "atentatul asupra lui Hitler din 20 iulie 1944."
+   ]
+  },
+  "ALL-163": {
+   "question": "În ce an au distrus naziștii sinagogi și magazine evreiești în Germania?",
+   "options": [
+    "1925",
+    "1930",
+    "1938",
+    "1945"
+   ]
+  },
+  "ALL-164": {
+   "question": "Ce s-a întâmplat pe 9 noiembrie 1938 în Germania?",
+   "options": [
+    "Prin atacul asupra Poloniei începe Al Doilea Război Mondial.",
+    "Naziștii pierd alegerile și dizolvă Reichstagul.",
+    "Magazine și sinagogi evreiești sunt distruse de naziști și susținătorii lor.",
+    "Hitler devine președinte al Reich-ului și interzice toate partidele."
+   ]
+  },
+  "ALL-165": {
+   "question": "Cum se numea primul cancelar federal al Republicii Federale Germania?",
+   "options": [
+    "Konrad Adenauer",
+    "Kurt Georg Kiesinger",
+    "Helmut Schmidt",
+    "Willy Brandt"
+   ]
+  },
+  "ALL-166": {
+   "question": "La care demonstrații din Germania au strigat oamenii „Noi suntem poporul”?",
+   "options": [
+    "la revolta muncitorilor din 1953 din RDG",
+    "la demonstrațiile din 1968 din Republica Federală Germania",
+    "la demonstrațiile anti-nucleare din 1985 din Republica Federală Germania",
+    "la demonstrațiile de luni din 1989 din RDG"
+   ]
+  },
+  "ALL-167": {
+   "question": "Ce țări au fost numite „puteri aliate de ocupație” în Germania după Al Doilea Război Mondial?",
+   "options": [
+    "Uniunea Sovietică, Marea Britanie, Polonia, Suedia",
+    "Franța, Uniunea Sovietică, Italia, Japonia",
+    "SUA, Uniunea Sovietică, Spania, Portugalia",
+    "SUA, Uniunea Sovietică, Marea Britanie, Franța"
+   ]
+  },
+  "ALL-168": {
+   "question": "Care țară nu a fost o „putere aliată de ocupație” în Germania?",
+   "options": [
+    "SUA",
+    "Uniunea Sovietică",
+    "Franța",
+    "Japonia"
+   ]
+  },
+  "ALL-169": {
+   "question": "Când a fost fondată Republica Federală Germania?",
+   "options": [
+    "1939",
+    "1945",
+    "1949",
+    "1951"
+   ]
+  },
+  "ALL-170": {
+   "question": "Ce a existat în Germania în perioada nazismului?",
+   "options": [
+    "interzicerea partidelor",
+    "dreptul la libera dezvoltare a personalității",
+    "libertatea presei",
+    "protecția demnității umane"
+   ]
+  },
+  "ALL-171": {
+   "question": "Economia socială de piață înseamnă că economia …",
+   "options": [
+    "se reglează exclusiv după cerere și ofertă.",
+    "este planificată și controlată de stat, cererea și oferta nu sunt luate în considerare.",
+    "se orientează după cererea din străinătate.",
+    "se orientează după cerere și ofertă, dar statul asigură un echilibru social."
+   ]
+  },
+  "ALL-172": {
+   "question": "În ce zonă de ocupație a fost fondată RDG? În zona …",
+   "options": [
+    "americană de ocupație",
+    "franceză de ocupație",
+    "britanică de ocupație",
+    "sovietică de ocupație"
+   ]
+  },
+  "ALL-173": {
+   "question": "Republica Federală Germania este membru fondator …",
+   "options": [
+    "al Pactului Nord-Atlantic (NATO).",
+    "al Organizației Națiunilor Unite (ONU).",
+    "al Uniunii Europene (UE).",
+    "al Pactului de la Varșovia."
+   ]
+  },
+  "ALL-174": {
+   "question": "Când a fost fondată RDG?",
+   "options": [
+    "1947",
+    "1949",
+    "1953",
+    "1956"
+   ]
+  },
+  "ALL-175": {
+   "question": "Câte zone de ocupație au existat în Germania după Al Doilea Război Mondial?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "ALL-176": {
+   "question": "Cum erau distribuite zonele de ocupație ale Germaniei după 1945?",
+   "options": [
+    "1=Marea Britanie, 2=Uniunea Sovietică, 3=Franța, 4=SUA",
+    "1=Uniunea Sovietică, 2=Marea Britanie, 3=SUA, 4=Franța",
+    "1=Marea Britanie, 2=Uniunea Sovietică, 3=SUA, 4=Franța",
+    "1=Marea Britanie, 2=SUA, 3=Uniunea Sovietică, 4=Franța"
+   ]
+  },
+  "ALL-177": {
+   "question": "Care oraș german a fost împărțit în patru sectoare după Al Doilea Război Mondial?",
+   "options": [
+    "München",
+    "Berlin",
+    "Dresda",
+    "Frankfurt/Oder"
+   ]
+  },
+  "ALL-178": {
+   "question": "Din iunie 1948 până în mai 1949, locuitorii Berlinului de Vest au fost aprovizionați printr-un pod aerian. Ce împrejurare a fost răspunzătoare pentru aceasta?",
+   "options": [
+    "Pentru Franța, aprovizionarea populației din Berlinul de Vest cu avionul era mai ieftină.",
+    "Soldații americani se temeau de atacuri la transportul terestru.",
+    "Pentru Marea Britanie, aprovizionarea prin podul aerian era mai rapidă.",
+    "Uniunea Sovietică a întrerupt întregul trafic pe cale terestră."
+   ]
+  },
+  "ALL-179": {
+   "question": "Cum s-a încheiat oficial Al Doilea Război Mondial în Europa?",
+   "options": [
+    "prin moartea lui Adolf Hitler",
+    "prin capitularea necondiționată a Germaniei",
+    "prin retragerea germanilor din teritoriile ocupate",
+    "printr-o revoluție în Germania"
+   ]
+  },
+  "ALL-180": {
+   "question": "Primul cancelar federal al Republicii Federale Germania a fost …",
+   "options": [
+    "Ludwig Erhard.",
+    "Willy Brandt.",
+    "Konrad Adenauer.",
+    "Gerhard Schröder."
+   ]
+  },
+  "ALL-181": {
+   "question": "Ce a vrut să exprime Willy Brandt prin îngenuncherea sa din 1970 în fostul ghetou evreiesc din Varșovia?",
+   "options": [
+    "S-a supus fostelor puteri aliate.",
+    "A cerut iertare Poloniei și evreilor polonezi.",
+    "Și-a arătat smerenia față de Pactul de la Varșovia.",
+    "A rostit o rugăciune la mormântul Soldatului Necunoscut."
+   ]
+  },
+  "ALL-182": {
+   "question": "Cum se numește casa de rugăciune evreiască?",
+   "options": [
+    "Bazilică",
+    "Moschee",
+    "Sinagogă",
+    "Biserică"
+   ]
+  },
+  "ALL-183": {
+   "question": "Când a avut loc „miracolul economic” (Wirtschaftswunder) în Republica Federală Germania?",
+   "options": [
+    "anii '40",
+    "anii '50",
+    "anii '70",
+    "anii '80"
+   ]
+  },
+  "ALL-184": {
+   "question": "Pe ce bază juridică a fost fondat statul Israel?",
+   "options": [
+    "o rezoluție a Organizației Națiunilor Unite",
+    "o decizie a Congresului Sionist",
+    "o propunere a guvernului federal",
+    "o propunere a URSS"
+   ]
+  },
+  "ALL-185": {
+   "question": "Ce reprezenta expresia „Cortina de Fier”? Izolarea …",
+   "options": [
+    "Pactului de la Varșovia față de Vest",
+    "Germaniei de Nord față de Germania de Sud",
+    "Germaniei naziste față de Aliați",
+    "Europei față de SUA"
+   ]
+  },
+  "ALL-186": {
+   "question": "În 1953 a avut loc o răscoală în RDG, de care în Republica Federală Germania a fost amintit multă vreme printr-o zi de sărbătoare. Când a fost aceasta?",
+   "options": [
+    "1 mai",
+    "17 iunie",
+    "20 iulie",
+    "9 noiembrie"
+   ]
+  },
+  "ALL-187": {
+   "question": "Care stat german avea un steag negru-roșu-auriu cu ciocan, compas și cunună de spice?",
+   "options": [
+    "Prusia",
+    "Republica Federală Germania",
+    "„Al Treilea Reich”",
+    "RDG"
+   ]
+  },
+  "ALL-188": {
+   "question": "În ce an a fost construit Zidul Berlinului?",
+   "options": [
+    "1953",
+    "1956",
+    "1959",
+    "1961"
+   ]
+  },
+  "ALL-189": {
+   "question": "Când a construit RDG Zidul Berlinului?",
+   "options": [
+    "1919",
+    "1933",
+    "1961",
+    "1990"
+   ]
+  },
+  "ALL-190": {
+   "question": "Ce înseamnă abrevierea RDG?",
+   "options": [
+    "Al Treilea Post de Radio German",
+    "Republica Germană",
+    "A Treia Republică Germană",
+    "Republica Democrată Germană"
+   ]
+  },
+  "ALL-191": {
+   "question": "Când a fost deschis Zidul Berlinului pentru toată lumea?",
+   "options": [
+    "1987",
+    "1989",
+    "1992",
+    "1995"
+   ]
+  },
+  "ALL-192": {
+   "question": "Care landuri (Bundesländer) germane de astăzi au aparținut fostei RDG?",
+   "options": [
+    "Brandenburg",
+    "Bavaria",
+    "Saarland",
+    "Hesse"
+   ]
+  },
+  "ALL-193": {
+   "question": "Din 1961 până în 1989, Berlinul a fost …",
+   "options": [
+    "fără primar.",
+    "un stat de sine stătător.",
+    "despărțit printr-un zid.",
+    "accesibil doar cu avionul."
+   ]
+  },
+  "ALL-194": {
+   "question": "Pe 3 octombrie se sărbătorește în Germania Ziua Unității …",
+   "options": [
+    "Germane.",
+    "Naționale.",
+    "Landurilor.",
+    "Orașelor."
+   ]
+  },
+  "ALL-195": {
+   "question": "Care land (Bundesland) german de astăzi a aparținut fostei RDG?",
+   "options": [
+    "Hesse",
+    "Saxonia-Anhalt",
+    "Renania de Nord-Westfalia",
+    "Saarland"
+   ]
+  },
+  "ALL-196": {
+   "question": "De ce se numește perioada din toamna anului 1989 din RDG „Die Wende” (Cotitura)? În această perioadă RDG s-a schimbat politic …",
+   "options": [
+    "dintr-o dictatură într-o democrație.",
+    "dintr-o economie de piață liberală în socialism.",
+    "dintr-o monarhie într-o social-democrație.",
+    "dintr-un stat religios într-un stat comunist."
+   ]
+  },
+  "ALL-197": {
+   "question": "Care land (Bundesland) german de astăzi a aparținut fostei RDG?",
+   "options": [
+    "Turingia",
+    "Hesse",
+    "Bavaria",
+    "Bremen"
+   ]
+  },
+  "ALL-198": {
+   "question": "Care land (Bundesland) german de astăzi a aparținut fostei RDG?",
+   "options": [
+    "Bavaria",
+    "Saxonia Inferioară",
+    "Saxonia",
+    "Baden-Württemberg"
+   ]
+  },
+  "ALL-199": {
+   "question": "Prin abrevierea „Stasi” se înțelegea în RDG …",
+   "options": [
+    "parlamentul.",
+    "Ministerul Securității de Stat.",
+    "un partid aflat la guvernare.",
+    "Ministerul Educației Populare."
+   ]
+  },
+  "ALL-200": {
+   "question": "Care land (Bundesland) german de astăzi a aparținut fostei RDG?",
+   "options": [
+    "Hesse",
+    "Schleswig-Holstein",
+    "Mecklenburg-Pomerania Inferioară",
+    "Saarland"
+   ]
+  },
+  "ALL-201": {
+   "question": "Care dintre următoarele liste conține numai landuri (Bundesländer) care au aparținut fostei RDG?",
+   "options": [
+    "Saxonia Inferioară, Renania de Nord-Westfalia, Hesse, Schleswig-Holstein, Brandenburg",
+    "Mecklenburg-Pomerania Inferioară, Brandenburg, Saxonia, Saxonia-Anhalt, Turingia",
+    "Bavaria, Baden-Württemberg, Renania-Palatinat, Turingia, Saxonia",
+    "Saxonia, Turingia, Hesse, Saxonia Inferioară, Brandenburg"
+   ]
+  },
+  "ALL-202": {
+   "question": "De cine aparținea RDG în timpul „Războiului Rece”?",
+   "options": [
+    "de puterile occidentale",
+    "de Pactul de la Varșovia",
+    "de NATO",
+    "de statele nealiniate"
+   ]
+  },
+  "ALL-203": {
+   "question": "Cum se numea sistemul economic al RDG?",
+   "options": [
+    "economie de piață",
+    "economie planificată",
+    "cerere și ofertă",
+    "capitalism"
+   ]
+  },
+  "ALL-204": {
+   "question": "Cum au devenit Republica Federală Germania și RDG un singur stat?",
+   "options": [
+    "Republica Federală a ocupat RDG.",
+    "Cele cinci landuri estice de astăzi au aderat la Republica Federală Germania.",
+    "Landurile vestice au aderat la RDG.",
+    "RDG a ocupat Republica Federală Germania."
+   ]
+  },
+  "ALL-205": {
+   "question": "Prin aderarea RDG la Republica Federală Germania, noile landuri fac acum parte și ele …",
+   "options": [
+    "din Uniunea Europeană.",
+    "din Pactul de la Varșovia.",
+    "din OPEC.",
+    "din Comunitatea Europeană de Apărare."
+   ]
+  },
+  "ALL-206": {
+   "question": "De ce amintesc așa-numitele „pietre de poticnire” (Stolpersteine) din Germania?",
+   "options": [
+    "de politicieni germani celebri",
+    "de victimele nazismului",
+    "de victimele accidentelor rutiere",
+    "de muzicieni evrei cunoscuți"
+   ]
+  },
+  "ALL-207": {
+   "question": "Din ce alianță militară a făcut parte RDG?",
+   "options": [
+    "NATO",
+    "Confederația Rinului",
+    "Pactul de la Varșovia",
+    "Alianța Europeană"
+   ]
+  },
+  "ALL-208": {
+   "question": "Ce a fost „Stasi”?",
+   "options": [
+    "serviciul secret din „Al Treilea Reich”",
+    "un memorial german celebru",
+    "serviciul secret al RDG",
+    "un club sportiv german în timpul celui de-Al Doilea Război Mondial"
+   ]
+  },
+  "ALL-209": {
+   "question": "Care a fost stema Republicii Democrate Germane? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "ALL-210": {
+   "question": "Ce s-a întâmplat pe 17 iunie 1953 în RDG?",
+   "options": [
+    "aderarea festivă la Pactul de la Varșovia",
+    "greve la nivel național și o răscoală populară",
+    "primul congres al partidului SED",
+    "prima vizită a lui Fidel Castro"
+   ]
+  },
+  "ALL-211": {
+   "question": "Care politician este asociat cu „tratatele cu Estul” (Ostverträge)?",
+   "options": [
+    "Helmut Kohl",
+    "Willy Brandt",
+    "Mihail Gorbaciov",
+    "Ludwig Erhard"
+   ]
+  },
+  "ALL-212": {
+   "question": "Care este numele complet al Germaniei?",
+   "options": [
+    "Statul Federal Germania",
+    "Landurile Germania",
+    "Republica Federală Germania",
+    "Districtul Federal Germania"
+   ]
+  },
+  "ALL-213": {
+   "question": "Câți locuitori are Germania?",
+   "options": [
+    "70 de milioane",
+    "78 de milioane",
+    "84 de milioane",
+    "90 de milioane"
+   ]
+  },
+  "ALL-214": {
+   "question": "Ce culori are steagul german?",
+   "options": [
+    "negru-roșu-auriu",
+    "roșu-alb-negru",
+    "negru-roșu-verde",
+    "negru-galben-roșu"
+   ]
+  },
+  "ALL-215": {
+   "question": "Cine este numit „cancelarul unității germane”?",
+   "options": [
+    "Gerhard Schröder",
+    "Helmut Kohl",
+    "Konrad Adenauer",
+    "Helmut Schmidt"
+   ]
+  },
+  "ALL-216": {
+   "question": "Ce simbol se poate vedea în sala de plen a Bundestagului german?",
+   "options": [
+    "acvila federală",
+    "steagul orașului Berlin",
+    "acvila Reichului",
+    "coroana imperială"
+   ]
+  },
+  "ALL-217": {
+   "question": "În ce perioadă a existat Republica Democrată Germană (RDG)?",
+   "options": [
+    "1919 până în 1927",
+    "1933 până în 1945",
+    "1945 până în 1961",
+    "1949 până în 1990"
+   ]
+  },
+  "ALL-218": {
+   "question": "Câte landuri (Bundesländer) s-au alăturat Republicii Federale Germania la reunificarea din 1990?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  "ALL-219": {
+   "question": "Republica Federală Germania are granițele de astăzi din anul …",
+   "options": [
+    "1933",
+    "1949",
+    "1971",
+    "1990"
+   ]
+  },
+  "ALL-220": {
+   "question": "27 ianuarie este în Germania o zi oficială de comemorare. De ce amintește această zi?",
+   "options": [
+    "de sfârșitul celui de-Al Doilea Război Mondial",
+    "de adoptarea Legii Fundamentale",
+    "de reunificarea Germaniei",
+    "de victimele nazismului (ziua eliberării lagărului de exterminare Auschwitz)"
+   ]
+  },
+  "ALL-221": {
+   "question": "Germania este membră a Acordului Schengen. Ce înseamnă asta?",
+   "options": [
+    "Germanii pot călători în multe țări din Europa fără control de pașapoarte.",
+    "Toți oamenii pot intra în Germania fără control al persoanelor.",
+    "Germanii pot călători fără control de pașapoarte în orice țară.",
+    "Germanii pot plăti cu euro în orice țară."
+   ]
+  },
+  "ALL-222": {
+   "question": "Care țară este vecină cu Germania?",
+   "options": [
+    "Ungaria",
+    "Portugalia",
+    "Spania",
+    "Elveția"
+   ]
+  },
+  "ALL-223": {
+   "question": "Care țară este vecină cu Germania?",
+   "options": [
+    "România",
+    "Bulgaria",
+    "Polonia",
+    "Grecia"
+   ]
+  },
+  "ALL-224": {
+   "question": "Ce înseamnă abrevierea UE?",
+   "options": [
+    "Întreprinderi Europene",
+    "Uniunea Europeană",
+    "Uniunea Unitară",
+    "Uniunea Euro"
+   ]
+  },
+  "ALL-225": {
+   "question": "În care altă țară există o populație numeroasă de limbă germană?",
+   "options": [
+    "Cehia",
+    "Norvegia",
+    "Spania",
+    "Austria"
+   ]
+  },
+  "ALL-226": {
+   "question": "Care este steagul Uniunii Europene? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "ALL-227": {
+   "question": "Care țară este vecină cu Germania?",
+   "options": [
+    "Finlanda",
+    "Danemarca",
+    "Norvegia",
+    "Suedia"
+   ]
+  },
+  "ALL-228": {
+   "question": "Cum este numită în general aderarea RDG la Republica Federală Germania în anul 1990?",
+   "options": [
+    "Extinderea NATO spre est",
+    "Extinderea UE spre est",
+    "Reunificarea germană",
+    "Comunitatea Europeană"
+   ]
+  },
+  "ALL-229": {
+   "question": "Care țară este vecină cu Germania?",
+   "options": [
+    "Spania",
+    "Bulgaria",
+    "Norvegia",
+    "Luxemburg"
+   ]
+  },
+  "ALL-230": {
+   "question": "Parlamentul European este ales periodic, și anume la fiecare …",
+   "options": [
+    "5 ani.",
+    "6 ani.",
+    "7 ani.",
+    "8 ani."
+   ]
+  },
+  "ALL-231": {
+   "question": "Ce înseamnă termenul „integrare europeană”?",
+   "options": [
+    "Se referă la imigranții americani în Europa.",
+    "Termenul se referă la oprirea imigrației în Europa.",
+    "Se referă la emigranții europeni în SUA.",
+    "Termenul se referă la unirea statelor europene în UE."
+   ]
+  },
+  "ALL-232": {
+   "question": "Cine este ales la alegerile europene?",
+   "options": [
+    "Comisia Europeană",
+    "țările cărora li se permite să adere la UE",
+    "deputații Parlamentului European",
+    "constituția europeană"
+   ]
+  },
+  "ALL-233": {
+   "question": "Care țară este vecină cu Germania?",
+   "options": [
+    "Cehia",
+    "Bulgaria",
+    "Grecia",
+    "Portugalia"
+   ]
+  },
+  "ALL-234": {
+   "question": "Unde se află un sediu al Parlamentului European?",
+   "options": [
+    "Londra",
+    "Paris",
+    "Berlin",
+    "Strasbourg"
+   ]
+  },
+  "ALL-235": {
+   "question": "Fostul președinte francez François Mitterrand și fostul cancelar german Helmut Kohl comemorează împreună la Verdun morții din ambele războaie mondiale. Ce obiectiv al Uniunii Europene devine evident cu ocazia acestei întâlniri? © Bundesregierung/Richard Schulze-Vorberg",
+   "options": [
+    "prietenia dintre Anglia și Germania",
+    "libertatea de călătorie în toate țările UE",
+    "pace și securitate în țările UE",
+    "sărbători legale unificate în țările UE"
+   ]
+  },
+  "ALL-236": {
+   "question": "Câte state membre are UE în prezent?",
+   "options": [
+    "21",
+    "23",
+    "25",
+    "27"
+   ]
+  },
+  "ALL-237": {
+   "question": "În 2007 a fost sărbătorită aniversarea a 50 de ani de la „Tratatele de la Roma”. Care a fost conținutul acestor tratate?",
+   "options": [
+    "aderarea Germaniei la NATO",
+    "înființarea Comunității Economice Europene (CEE)",
+    "obligația Germaniei de a plăti reparații de război",
+    "stabilirea liniei Oder-Neisse ca graniță de est"
+   ]
+  },
+  "ALL-238": {
+   "question": "În ce localități funcționează Parlamentul European?",
+   "options": [
+    "Paris, Londra și Haga",
+    "Strasbourg, Luxemburg și Bruxelles",
+    "Roma, Berna și Viena",
+    "Bonn, Zürich și Milano"
+   ]
+  },
+  "ALL-239": {
+   "question": "Prin ce tratate s-a unit Republica Federală Germania cu alte state pentru a forma Comunitatea Economică Europeană?",
+   "options": [
+    "prin „Tratatele de la Hamburg”",
+    "prin „Tratatele de la Roma”",
+    "prin „Tratatele de la Paris”",
+    "prin „Tratatele de la Londra”"
+   ]
+  },
+  "ALL-240": {
+   "question": "Din ce an se plătește în Germania cu euro în numerar?",
+   "options": [
+    "1995",
+    "1998",
+    "2002",
+    "2005"
+   ]
+  },
+  "ALL-241": {
+   "question": "Doamna Seger are un copil. Ce trebuie să facă pentru a primi alocația parentală (Elterngeld)?",
+   "options": [
+    "Trebuie să scrie casei ei de asigurări de sănătate.",
+    "Trebuie să depună o cerere la biroul pentru alocația parentală.",
+    "Nu trebuie să facă nimic, deoarece primește automat alocația parentală.",
+    "Trebuie să ceară permisiunea oficiului forței de muncă."
+   ]
+  },
+  "ALL-242": {
+   "question": "Cine decide dacă un copil merge la grădiniță în Germania?",
+   "options": [
+    "statul",
+    "landurile",
+    "părinții/tutorii legali",
+    "școlile"
+   ]
+  },
+  "ALL-243": {
+   "question": "Maik și Sybille vor să organizeze împreună cu prieteni o demonstrație pe stradă în localitatea lor din Germania. Ce trebuie să facă înainte?",
+   "options": [
+    "Trebuie să înregistreze demonstrația.",
+    "Nu trebuie să facă nimic. În Germania se poate demonstra oricând și oriunde.",
+    "Nu pot face nimic, deoarece demonstrațiile sunt în principiu interzise în Germania.",
+    "Maik și Sybille trebuie să înființeze o asociație nouă, deoarece numai asociațiile au voie să demonstreze."
+   ]
+  },
+  "ALL-244": {
+   "question": "Ce diplomă de absolvire școlară este de obicei necesară pentru a începe studii la o universitate în Germania?",
+   "options": [
+    "bacalaureatul (Abitur)",
+    "o diplomă (Diplom)",
+    "procura",
+    "un examen de calificare profesională (Gesellenprüfung)"
+   ]
+  },
+  "ALL-245": {
+   "question": "Cine nu are voie să trăiască în cuplu în Germania?",
+   "options": [
+    "Hans (20 de ani) și Marie (19 ani)",
+    "Tom (20 de ani) și Klaus (45 de ani)",
+    "Sofie (35 de ani) și Lisa (40 de ani)",
+    "Anne (13 ani) și Tim (25 de ani)"
+   ]
+  },
+  "ALL-246": {
+   "question": "De la ce vârstă este cineva major în Germania?",
+   "options": [
+    "16",
+    "18",
+    "19",
+    "21"
+   ]
+  },
+  "ALL-247": {
+   "question": "O femeie este însărcinată. Ea este special protejată prin lege puțin înainte și după nașterea copilului. Cum se numește această protecție?",
+   "options": [
+    "concediu parental",
+    "protecția maternității",
+    "pregătirea pentru naștere",
+    "lăuzie"
+   ]
+  },
+  "ALL-248": {
+   "question": "Educarea copiilor este în Germania în primul rând sarcina …",
+   "options": [
+    "statului.",
+    "părinților.",
+    "bunicilor.",
+    "școlilor."
+   ]
+  },
+  "ALL-249": {
+   "question": "Cine este în principal responsabil pentru educarea copiilor în Germania?",
+   "options": [
+    "statul",
+    "părinții",
+    "rudele",
+    "școlile"
+   ]
+  },
+  "ALL-250": {
+   "question": "În Germania ai cele mai bune șanse la un loc de muncă bine plătit dacă …",
+   "options": [
+    "ești catolic.",
+    "ești bine pregătit/calificat.",
+    "ești femeie.",
+    "ești membru al unui partid."
+   ]
+  },
+  "ALL-251": {
+   "question": "Dacă cineva lovește un copil în Germania, …",
+   "options": [
+    "nu privește pe nimeni.",
+    "privește doar familia.",
+    "nu poate fi pedepsit pentru asta.",
+    "poate fi pedepsit pentru asta."
+   ]
+  },
+  "ALL-252": {
+   "question": "În Germania …",
+   "options": [
+    "ai voie să fii căsătorit în același timp doar cu o singură parteneră/un singur partener.",
+    "poți avea mai multe soții/soți în același timp.",
+    "nu ai voie să te recăsătorești dacă ai mai fost căsătorit.",
+    "o femeie nu are voie să se recăsătorească dacă soțul ei a murit."
+   ]
+  },
+  "ALL-253": {
+   "question": "Unde trebuie să vă înregistrați dacă vă mutați în Germania?",
+   "options": [
+    "la biroul de evidență a populației (Einwohnermeldeamt)",
+    "la ofițerul stării civile (Standesamt)",
+    "la biroul de ordine publică (Ordnungsamt)",
+    "la biroul de autorizare a activităților comerciale (Gewerbeamt)"
+   ]
+  },
+  "ALL-254": {
+   "question": "În Germania, cuplurile căsătorite au voie să divorțeze. De obicei trebuie să respecte „anul de separare”. Ce înseamnă asta?",
+   "options": [
+    "Procesul de divorț durează un an.",
+    "Soții sunt căsătoriți un an, apoi divorțul este posibil.",
+    "Dreptul de vizită pentru copii este valabil un an.",
+    "Soții își duc viața separat cel puțin un an. După aceea divorțul este posibil."
+   ]
+  },
+  "ALL-255": {
+   "question": "În caz de probleme educaționale, părinții din Germania pot primi ajutor de la …",
+   "options": [
+    "biroul de ordine publică.",
+    "inspectoratul școlar.",
+    "oficiul pentru tineret (Jugendamt).",
+    "oficiul de sănătate."
+   ]
+  },
+  "ALL-256": {
+   "question": "Un cuplu căsătorit dorește să deschidă un restaurant în Germania. De ce are neapărat nevoie pentru asta?",
+   "options": [
+    "o autorizație de la poliție",
+    "o aprobare din partea unui partid",
+    "o aprobare de la biroul de evidență a populației",
+    "o autorizație de funcționare pentru unități de alimentație publică de la autoritatea competentă"
+   ]
+  },
+  "ALL-257": {
+   "question": "O femeie adultă dorește să recupereze bacalaureatul (Abitur) în Germania. Poate face asta la …",
+   "options": [
+    "o universitate.",
+    "un liceu seral.",
+    "o școală generală (Hauptschule).",
+    "o universitate privată."
+   ]
+  },
+  "ALL-258": {
+   "question": "Ce are voie să facă oficiul pentru tineret (Jugendamt) în Germania?",
+   "options": [
+    "Decide ce școală frecventează copilul.",
+    "Poate scoate din familie un copil care este bătut sau lăsat să sufere de foame.",
+    "Plătește alocația pentru copii părinților.",
+    "Verifică dacă un copil merge la grădiniță."
+   ]
+  },
+  "ALL-259": {
+   "question": "Centrul de informare profesională BIZ din cadrul Agenției Federale a Muncii din Germania ajută la …",
+   "options": [
+    "calcularea pensiei.",
+    "căutarea unui loc de ucenicie.",
+    "declarația de impozit.",
+    "asigurarea de sănătate."
+   ]
+  },
+  "ALL-260": {
+   "question": "În Germania, un copil are la școală …",
+   "options": [
+    "dreptul la timp liber nelimitat.",
+    "libertate de alegere pentru toate materiile.",
+    "dreptul la taxe școlare.",
+    "obligația de a fi prezent (frecvență obligatorie)."
+   ]
+  },
+  "ALL-261": {
+   "question": "Un bărbat dorește să recupereze bacalaureatul (Abitur) la 30 de ani în Germania. Unde poate face asta? La …",
+   "options": [
+    "o universitate.",
+    "un liceu seral.",
+    "o școală generală (Hauptschule).",
+    "o universitate privată."
+   ]
+  },
+  "ALL-262": {
+   "question": "Ce înseamnă în Germania principiul egalității de tratament?",
+   "options": [
+    "Nimeni nu poate fi dezavantajat, de exemplu, din cauza unui handicap.",
+    "Este permis să dezavantajezi alte persoane dacă există motive personale suficiente pentru asta.",
+    "Nimeni nu poate da în judecată o persoană care a fost dezavantajată.",
+    "Este obligatoriu prin lege ca toată lumea să doneze anual bani grupurilor dezavantajate."
+   ]
+  },
+  "ALL-263": {
+   "question": "În Germania, tinerii de la 14 ani au răspundere penală. Aceasta înseamnă: tinerii de 14 ani și mai mari care încalcă legile penale …",
+   "options": [
+    "sunt pedepsiți.",
+    "sunt tratați ca adulți.",
+    "împart pedeapsa cu părinții lor.",
+    "nu sunt pedepsiți."
+   ]
+  },
+  "ALL-264": {
+   "question": "La ce sărbătoare poartă oamenii din Germania costume colorate și măști?",
+   "options": [
+    "de Rosenmontag",
+    "de 1 Mai",
+    "la Oktoberfest",
+    "de Rusalii"
+   ]
+  },
+  "ALL-265": {
+   "question": "Unde trebuie să meargă cineva mai întâi în Germania dacă vrea să se căsătorească?",
+   "options": [
+    "la biroul de evidență a populației",
+    "la biroul de ordine publică",
+    "la agenția pentru ocuparea forței de muncă",
+    "la ofițerul stării civile"
+   ]
+  },
+  "ALL-266": {
+   "question": "Când începe liniștea nocturnă legală în Germania?",
+   "options": [
+    "când apune soarele",
+    "când vecinii se culcă",
+    "la ora 0, miezul nopții",
+    "la ora 22"
+   ]
+  },
+  "ALL-267": {
+   "question": "O tânără din Germania, în vârstă de 22 de ani, locuiește împreună cu prietenul ei. Părinții femeii nu sunt de acord, deoarece nu le place prietenul ei. Ce pot face părinții?",
+   "options": [
+    "Trebuie să respecte decizia fiicei lor majore.",
+    "Au dreptul să o aducă pe fiică înapoi în locuința părintească.",
+    "Pot merge la poliție și pot depune plângere împotriva fiicei.",
+    "Caută un alt bărbat pentru fiica lor."
+   ]
+  },
+  "ALL-268": {
+   "question": "O tânără dorește să obțină permisul de conducere. Îi este teamă de examen deoarece limba ei maternă nu este germana. Ce este corect?",
+   "options": [
+    "Trebuie să locuiască cel puțin zece ani în Germania înainte de a putea obține permisul de conducere.",
+    "Dacă nu vorbește germana, nu are voie să obțină permisul de conducere.",
+    "Trebuie să obțină permisul de conducere în țara în care se vorbește limba ei maternă.",
+    "Poate susține examenul teoretic eventual în limba ei maternă. Există mai mult de zece limbi disponibile."
+   ]
+  },
+  "ALL-269": {
+   "question": "În Germania, copiii de la vârsta de trei ani până la începerea școlii au dreptul la …",
+   "options": [
+    "bani de buzunar lunar.",
+    "un loc într-un club sportiv.",
+    "un loc la grădiniță.",
+    "un permis de vacanță."
+   ]
+  },
+  "ALL-270": {
+   "question": "Volkshochschule (universitatea populară) din Germania este o instituție …",
+   "options": [
+    "pentru educație religioasă.",
+    "doar pentru tineri.",
+    "de formare continuă.",
+    "doar pentru pensionari."
+   ]
+  },
+  "ALL-271": {
+   "question": "Care este un obicei de Crăciun în Germania?",
+   "options": [
+    "ascunderea ouălor colorate",
+    "împodobirea unui brad",
+    "deghizarea în măști și costume",
+    "așezarea dovlecilor în fața ușii"
+   ]
+  },
+  "ALL-272": {
+   "question": "Ce formă de viață nu este permisă în Germania?",
+   "options": [
+    "Un bărbat și o femeie sunt divorțați și trăiesc împreună cu noi parteneri.",
+    "Două femei locuiesc împreună.",
+    "Un tată singur locuiește împreună cu cei doi copii ai săi.",
+    "Un bărbat este căsătorit cu două femei în același timp."
+   ]
+  },
+  "ALL-273": {
+   "question": "În caz de probleme educaționale, în Germania mergeți …",
+   "options": [
+    "la medic.",
+    "la oficiul de sănătate.",
+    "la biroul de evidență a populației.",
+    "la oficiul pentru tineret."
+   ]
+  },
+  "ALL-274": {
+   "question": "Ați deschis intenționat în Germania o scrisoare adresată unei alte persoane. Ce nu ați respectat?",
+   "options": [
+    "dreptul la tăcere",
+    "secretul corespondenței",
+    "obligația de confidențialitate",
+    "libertatea de exprimare"
+   ]
+  },
+  "ALL-275": {
+   "question": "De ce este nevoie în Germania pentru un divorț?",
+   "options": [
+    "consimțământul părinților",
+    "un certificat medical",
+    "consimțământul copiilor",
+    "sprijinul unui avocat"
+   ]
+  },
+  "ALL-276": {
+   "question": "Ce ar trebui să faceți dacă sunteți tratat/tratată prost de persoana de contact dintr-o instituție publică germană?",
+   "options": [
+    "Nu pot face nimic.",
+    "Trebuie să accept acest tratament.",
+    "Amenințez persoana respectivă.",
+    "Mă pot plânge conducerii instituției."
+   ]
+  },
+  "ALL-277": {
+   "question": "O femeie care are un copil de doi ani aplică pentru un post de muncă în Germania. Ce este un exemplu de discriminare? Nu primește postul doar pentru că …",
+   "options": [
+    "nu vorbește engleza.",
+    "are pretenții salariale prea mari.",
+    "nu are experiență în această profesie.",
+    "este mamă."
+   ]
+  },
+  "ALL-278": {
+   "question": "Un bărbat în scaun cu rotile a aplicat pentru un post de contabil. Ce este un exemplu de discriminare? Nu primește postul doar pentru că …",
+   "options": [
+    "este în scaun cu rotile.",
+    "nu are experiență.",
+    "are pretenții salariale prea mari.",
+    "nu vorbește engleza."
+   ]
+  },
+  "ALL-279": {
+   "question": "În majoritatea blocurilor de locuințe închiriate din Germania există un „regulament de ordine interioară” (Hausordnung). Ce conține un astfel de regulament? El specifică …",
+   "options": [
+    "reguli pentru utilizarea transportului public.",
+    "toți chiriașii din clădire.",
+    "reguli pe care trebuie să le respecte toți locatarii.",
+    "adresa celui mai apropiat birou de ordine publică."
+   ]
+  },
+  "ALL-280": {
+   "question": "Dacă doriți să contestați o decizie de impunere fiscală greșită în Germania, trebuie să …",
+   "options": [
+    "nu faceți nimic.",
+    "aruncați decizia.",
+    "depuneți contestație (Einspruch).",
+    "așteptați până vine o altă decizie."
+   ]
+  },
+  "ALL-281": {
+   "question": "Doi prieteni vor să meargă la un ștrand public în Germania. Amândoi au pielea închisă la culoare și, din acest motiv, nu sunt lăsați să intre. Ce drept este încălcat în această situație? Dreptul la …",
+   "options": [
+    "libertatea de exprimare",
+    "egalitate de tratament",
+    "libertatea de întrunire",
+    "libertatea de circulație"
+   ]
+  },
+  "ALL-282": {
+   "question": "Ce funcție onorifică trebuie să o accepte cetățenii germani dacă sunt solicitați pentru aceasta?",
+   "options": [
+    "antrenor/antrenoare de club sportiv",
+    "asistent/asistentă la vot (Wahlhelfer/in)",
+    "supraveghetor de bibliotecă",
+    "profesor/profesoară"
+   ]
+  },
+  "ALL-283": {
+   "question": "Ce faceți dacă primiți o factură greșită de la o instituție publică germană?",
+   "options": [
+    "Las factura deoparte.",
+    "Depun contestație la instituție.",
+    "Trimit factura înapoi la instituție.",
+    "Merg cu factura la administrația financiară (Finanzamt)."
+   ]
+  },
+  "ALL-284": {
+   "question": "Ceea ce trebuie să știi pentru muncă se schimbă foarte rapid în viitor. Ce se poate face?",
+   "options": [
+    "Nu contează ce înveți.",
+    "Adulții trebuie să continue să învețe și după terminarea formării profesionale.",
+    "Copiii învață la școală tot ce este important pentru profesie. După școală nu mai trebuie să înveți.",
+    "Toată lumea trebuie să înceteze să mai lucreze mai devreme, deoarece totul se schimbă."
+   ]
+  },
+  "ALL-285": {
+   "question": "Doamna Frost lucrează ca angajată permanentă într-un birou. Ce nu trebuie să plătească din salariul ei?",
+   "options": [
+    "impozitul pe salariu",
+    "contribuțiile la asigurarea de șomaj",
+    "contribuțiile la asigurarea de pensie și de sănătate",
+    "taxa pe valoarea adăugată"
+   ]
+  },
+  "ALL-286": {
+   "question": "Ce organizație dintr-o firmă ajută angajații în cazul problemelor cu angajatorul?",
+   "options": [
+    "comitetul de întreprindere (Betriebsrat)",
+    "auditorul intern",
+    "grupul de întreprindere",
+    "conducerea întreprinderii"
+   ]
+  },
+  "ALL-287": {
+   "question": "Doriți să încheiați raportul de muncă la o firmă din Germania. Ce trebuie să respectați?",
+   "options": [
+    "plățile salariale",
+    "programul de lucru",
+    "termenul de preaviz (Kündigungsfrist)",
+    "obligația de asigurare"
+   ]
+  },
+  "ALL-288": {
+   "question": "Din ce se întemeiază responsabilitatea specială a Germaniei față de Israel?",
+   "options": [
+    "din apartenența la Uniunea Europeană (UE)",
+    "din crimele naționalsocialiste împotriva evreilor",
+    "din Legea Fundamentală a Republicii Federale Germania",
+    "din tradiția creștină"
+   ]
+  },
+  "ALL-289": {
+   "question": "Un bărbat cu pielea închisă la culoare aplică pentru un post de chelner la un restaurant din Germania. Ce este un exemplu de discriminare? Nu primește postul doar pentru că …",
+   "options": [
+    "cunoștințele lui de limbă germană sunt prea slabe.",
+    "are pretenții salariale prea mari.",
+    "are pielea închisă la culoare.",
+    "nu are experiență în această profesie."
+   ]
+  },
+  "ALL-290": {
+   "question": "Ați cumpărat un televizor în Germania. Acasă despachetați televizorul, dar acesta nu funcționează. Televizorul este defect. Ce puteți face?",
+   "options": [
+    "să scrieți o plângere la poliție",
+    "să reclamați televizorul",
+    "să înlocuiți aparatul fără să întrebați",
+    "să prelungiți garanția"
+   ]
+  },
+  "ALL-291": {
+   "question": "De ce trebuie să indicați în Germania, la declarația de impozit, dacă aparțineți sau nu unei biserici? Deoarece …",
+   "options": [
+    "există un impozit bisericesc (Kirchensteuer) legat de impozitul pe venit și pe salariu.",
+    "acest lucru este important pentru statistica din Germania.",
+    "trebuie să plătiți mai multe impozite dacă nu aparțineți unei biserici.",
+    "biserica este responsabilă pentru declarația de impozit."
+   ]
+  },
+  "ALL-292": {
+   "question": "Oamenii din Germania trăiesc după principiul toleranței religioase. Ce înseamnă asta?",
+   "options": [
+    "Nu au voie să fie construite moschei.",
+    "Toți oamenii cred în Dumnezeu.",
+    "Fiecare poate crede în ce dorește.",
+    "Statul decide în ce Dumnezeu cred oamenii."
+   ]
+  },
+  "ALL-293": {
+   "question": "Care este un obicei de Paște în Germania?",
+   "options": [
+    "așezarea dovlecilor în fața ușii",
+    "împodobirea unui brad",
+    "vopsirea ouălor",
+    "lansarea de rachete în aer"
+   ]
+  },
+  "ALL-294": {
+   "question": "Rusaliile (Pfingsten) sunt …",
+   "options": [
+    "o sărbătoare creștină.",
+    "o zi comemorativă germană.",
+    "o zi internațională de doliu.",
+    "un obicei bavarez."
+   ]
+  },
+  "ALL-295": {
+   "question": "Ce religie a marcat cultura europeană și germană?",
+   "options": [
+    "hinduismul",
+    "creștinismul",
+    "budismul",
+    "islamul"
+   ]
+  },
+  "ALL-296": {
+   "question": "În Germania, ultimele patru săptămâni dinaintea Crăciunului se numesc …",
+   "options": [
+    "Buß- und Bettag (Ziua de Rugăciune și Pocăință).",
+    "sărbătoarea recoltei (Erntedankfest).",
+    "perioada Adventului.",
+    "Ziua Tuturor Sfinților (Allerheiligen)."
+   ]
+  },
+  "ALL-297": {
+   "question": "Din ce țară au venit cei mai mulți migranți în Germania?",
+   "options": [
+    "Italia",
+    "Polonia",
+    "Maroc",
+    "Turcia"
+   ]
+  },
+  "ALL-298": {
+   "question": "În RDG au trăit în principal migranți din …",
+   "options": [
+    "Vietnam, Polonia, Mozambic.",
+    "Franța, România, Somalia.",
+    "Chile, Ungaria, Zimbabwe.",
+    "Coreea de Nord, Mexic, Egipt."
+   ]
+  },
+  "ALL-299": {
+   "question": "Muncitorii străini care au fost recrutați de Republica Federală Germania în anii '50 și '60 erau numiți …",
+   "options": [
+    "muncitori la negru.",
+    "muncitori oaspeți (Gastarbeiter).",
+    "muncitori temporari.",
+    "muncitori în ture."
+   ]
+  },
+  "ALL-300": {
+   "question": "Din ce țară au venit primii muncitori oaspeți (Gastarbeiter) în Republica Federală Germania?",
+   "options": [
+    "Italia",
+    "Spania",
+    "Portugalia",
+    "Turcia"
+   ]
+  },
+  "Baden-Württemberg-01": {
+   "question": "Care stemă aparține landului Baden-Württemberg? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Baden-Württemberg-02": {
+   "question": "Care dintre următoarele este un district rural (Landkreis) din Baden-Württemberg?",
+   "options": [
+    "Mecklenburgische Seenplatte",
+    "Neckar-Odenwald-Kreis",
+    "Nordfriesland",
+    "Altötting"
+   ]
+  },
+  "Baden-Württemberg-03": {
+   "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Baden-Württemberg?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Baden-Württemberg-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Baden-Württemberg?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Baden-Württemberg-05": {
+   "question": "Ce culori are drapelul landului Baden-Württemberg?",
+   "options": [
+    "albastru-alb-roșu",
+    "negru-auriu",
+    "alb-albastru",
+    "verde-alb-roșu"
+   ]
+  },
+  "Baden-Württemberg-06": {
+   "question": "Unde vă puteți informa în Baden-Württemberg despre teme politice?",
+   "options": [
+    "la Oficiul de Ordine Publică al comunei",
+    "la Centrala pentru Protecția Consumatorilor",
+    "la Centrala Landului pentru Educație Politică",
+    "la biserici"
+   ]
+  },
+  "Baden-Württemberg-07": {
+   "question": "Capitala landului Baden-Württemberg se numește …",
+   "options": [
+    "Heidelberg.",
+    "Stuttgart.",
+    "Karlsruhe.",
+    "Mannheim."
+   ]
+  },
+  "Baden-Württemberg-08": {
+   "question": "Care land este Baden-Württemberg?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Baden-Württemberg-09": {
+   "question": "Cum se numește șefa/șeful guvernului în Baden-Württemberg?",
+   "options": [
+    "Prim-ministră/Prim-ministru (Erste Ministerin/Erster Minister)",
+    "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
+    "Primăriță/Primar",
+    "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
+   ]
+  },
+  "Baden-Württemberg-10": {
+   "question": "Ce ministră/ministru nu are Baden-Württemberg?",
+   "options": [
+    "Ministră/Ministru de Finanțe",
+    "Ministră/Ministru de Justiție",
+    "Ministră/Ministru de Interne",
+    "Ministră/Ministru de Externe"
+   ]
+  },
+  "Bayern-01": {
+   "question": "Care stemă aparține statului liber Bavaria? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Bayern-02": {
+   "question": "Care dintre următoarele este un district rural (Landkreis) din Bavaria?",
+   "options": [
+    "Prignitz",
+    "Rhein-Sieg-Kreis",
+    "Nordfriesland",
+    "Altötting"
+   ]
+  },
+  "Bayern-03": {
+   "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Bavaria?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Bayern-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Bavaria?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Bayern-05": {
+   "question": "Ce culori are drapelul landului Bavaria?",
+   "options": [
+    "albastru-alb-roșu",
+    "alb-albastru",
+    "verde-alb-roșu",
+    "negru-galben"
+   ]
+  },
+  "Bayern-06": {
+   "question": "Unde vă puteți informa în Bavaria despre teme politice?",
+   "options": [
+    "la Oficiul de Ordine Publică al comunei",
+    "la Centrala Landului pentru Educație Politică",
+    "la Centrala pentru Protecția Consumatorilor",
+    "la biserici"
+   ]
+  },
+  "Bayern-07": {
+   "question": "Capitala landului Bavaria se numește …",
+   "options": [
+    "Ingolstadt.",
+    "Regensburg.",
+    "Nürnberg.",
+    "München."
+   ]
+  },
+  "Bayern-08": {
+   "question": "Care land este Bavaria?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Bayern-09": {
+   "question": "Cum se numește șefa/șeful guvernului în Bavaria?",
+   "options": [
+    "Prim-ministră/Prim-ministru (Erste Ministerin/Erster Minister)",
+    "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
+    "Primăriță/Primar",
+    "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
+   ]
+  },
+  "Bayern-10": {
+   "question": "Ce ministră/ministru nu are Bavaria?",
+   "options": [
+    "Ministră/Ministru de Justiție",
+    "Ministră/Ministru de Externe",
+    "Ministră/Ministru de Finanțe",
+    "Ministră/Ministru de Interne"
+   ]
+  },
+  "Berlin-01": {
+   "question": "Care stemă aparține landului Berlin? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Berlin-02": {
+   "question": "Care dintre următoarele este un cartier (Bezirk) al Berlinului?",
+   "options": [
+    "Altona",
+    "Prignitz",
+    "Pankow",
+    "Mecklenburgische Seenplatte"
+   ]
+  },
+  "Berlin-03": {
+   "question": "Pentru câți ani este ales parlamentul landului în Berlin?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Berlin-04": {
+   "question": "De la ce vârstă se poate vota în Berlin la alegerile locale (alegerea Adunării de Cartier)?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Berlin-05": {
+   "question": "Ce culori are drapelul landului Berlin?",
+   "options": [
+    "albastru-alb-roșu",
+    "alb-roșu",
+    "verde-alb-roșu",
+    "negru-auriu"
+   ]
+  },
+  "Berlin-06": {
+   "question": "Unde vă puteți informa în Berlin despre teme politice?",
+   "options": [
+    "la Oficiul de Ordine Publică al comunei",
+    "la biserici",
+    "la Centrala pentru Protecția Consumatorilor",
+    "la Centrala Landului pentru Educație Politică"
+   ]
+  },
+  "Berlin-07": {
+   "question": "Care land este un oraș-stat?",
+   "options": [
+    "Berlin",
+    "Saarland",
+    "Brandenburg",
+    "Hessa"
+   ]
+  },
+  "Berlin-08": {
+   "question": "Care land este Berlin?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Berlin-09": {
+   "question": "Cum se numește șefa/șeful guvernului orașului-stat Berlin?",
+   "options": [
+    "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)",
+    "Primăriță-generală/Primar-general",
+    "Președinta/Președintele Senatului",
+    "Primăriță guvernantă/Primar guvernant (Regierende Bürgermeisterin/Regierender Bürgermeister)"
+   ]
+  },
+  "Berlin-10": {
+   "question": "Ce senatoare/senator nu are Berlinul?",
+   "options": [
+    "Senatoare/Senator de Finanțe",
+    "Senatoare/Senator de Interne",
+    "Senatoare/Senator pentru Relații Externe",
+    "Senatoare/Senator de Justiție"
+   ]
+  },
+  "Brandenburg-01": {
+   "question": "Care stemă aparține landului Brandenburg? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Brandenburg-02": {
+   "question": "Care dintre următoarele este un district rural (Landkreis) din Brandenburg?",
+   "options": [
+    "Prignitz",
+    "Rhein-Sieg-Kreis",
+    "Vogtlandkreis",
+    "Amberg-Sulzbach"
+   ]
+  },
+  "Brandenburg-03": {
+   "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Brandenburg?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Brandenburg-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Brandenburg?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Brandenburg-05": {
+   "question": "Ce culori are drapelul landului Brandenburg?",
+   "options": [
+    "albastru-alb-roșu",
+    "roșu-alb",
+    "verde-alb-roșu",
+    "negru-galben"
+   ]
+  },
+  "Brandenburg-06": {
+   "question": "Unde vă puteți informa în Brandenburg despre teme politice?",
+   "options": [
+    "la biserici",
+    "la Oficiul de Ordine Publică al comunei",
+    "la Centrala Landului pentru Educație Politică",
+    "la Centrala pentru Protecția Consumatorilor"
+   ]
+  },
+  "Brandenburg-07": {
+   "question": "Capitala landului Brandenburg se numește …",
+   "options": [
+    "Potsdam.",
+    "Cottbus.",
+    "Brandenburg.",
+    "Frankfurt/Oder."
+   ]
+  },
+  "Brandenburg-08": {
+   "question": "Care land este Brandenburg?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Brandenburg-09": {
+   "question": "Cum se numește șefa/șeful guvernului în Brandenburg?",
+   "options": [
+    "Prim-ministră/Prim-ministru (Erste Ministerin/Erster Minister)",
+    "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
+    "Primăriță/Primar",
+    "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
+   ]
+  },
+  "Brandenburg-10": {
+   "question": "Ce ministră/ministru nu are Brandenburg?",
+   "options": [
+    "Ministră/Ministru de Justiție",
+    "Ministră/Ministru de Externe",
+    "Ministră/Ministru de Finanțe",
+    "Ministră/Ministru de Interne"
+   ]
+  },
+  "Bremen-01": {
+   "question": "Care stemă aparține Liberului Oraș Hanseatic Bremen? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Bremen-02": {
+   "question": "Care dintre următoarele este un cartier al orașului Bremen?",
+   "options": [
+    "Altona",
+    "Hemelingen",
+    "Pankow",
+    "Babelsberg"
+   ]
+  },
+  "Bremen-03": {
+   "question": "Pentru câți ani este ales parlamentul landului în Bremen?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Bremen-04": {
+   "question": "De la ce vârstă se poate vota în Bremen la alegerile pentru Bürgerschaft (parlamentul landului)?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Bremen-05": {
+   "question": "Ce culori are drapelul landului Bremen?",
+   "options": [
+    "albastru-alb-roșu",
+    "roșu-alb",
+    "verde-alb-roșu",
+    "negru-auriu"
+   ]
+  },
+  "Bremen-06": {
+   "question": "Unde vă puteți informa în Bremen despre teme politice?",
+   "options": [
+    "la Oficiul de Ordine Publică al comunei",
+    "la Centrala Landului pentru Educație Politică",
+    "la biserici",
+    "la Centrala pentru Protecția Consumatorilor"
+   ]
+  },
+  "Bremen-07": {
+   "question": "Ce este un oraș-stat german?",
+   "options": [
+    "Bremen",
+    "München",
+    "Frankfurt",
+    "Erfurt"
+   ]
+  },
+  "Bremen-08": {
+   "question": "Care land este Bremen?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Bremen-09": {
+   "question": "Cum se numește șefa/șeful guvernului orașului-stat Bremen?",
+   "options": [
+    "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)",
+    "Primăriță-generală/Primar-general (Erste Bürgermeisterin/Erster Bürgermeister)",
+    "Președinta/Președintele Senatului",
+    "Primăriță guvernantă/Primar guvernant (Regierende Bürgermeisterin/Regierender Bürgermeister)"
+   ]
+  },
+  "Bremen-10": {
+   "question": "Ce senatoare/senator nu are Bremen?",
+   "options": [
+    "Senatoare/Senator pentru Relații Externe",
+    "Senatoare/Senator de Finanțe",
+    "Senatoare/Senator de Justiție",
+    "Senatoare/Senator de Interne"
+   ]
+  },
+  "Hamburg-01": {
+   "question": "Care stemă aparține Liberului și Hanseaticului Oraș Hamburg? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Hamburg-02": {
+   "question": "Care dintre următoarele este un cartier (Bezirk) al Hamburgului?",
+   "options": [
+    "Altona",
+    "Hemelingen",
+    "Pankow",
+    "Mecklenburgische Seenplatte"
+   ]
+  },
+  "Hamburg-03": {
+   "question": "Pentru câți ani este ales parlamentul landului în Hamburg?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Hamburg-04": {
+   "question": "De la ce vârstă se poate vota în Hamburg la alegerile locale (alegerea Adunărilor de Cartier)?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Hamburg-05": {
+   "question": "Ce culori are drapelul landului Hamburg?",
+   "options": [
+    "albastru-alb-roșu",
+    "alb-roșu",
+    "verde-alb-roșu",
+    "negru-galben"
+   ]
+  },
+  "Hamburg-06": {
+   "question": "Unde vă puteți informa în Hamburg despre teme politice?",
+   "options": [
+    "la Oficiul de Ordine Publică al comunei",
+    "la Centrala pentru Protecția Consumatorilor",
+    "la biserici",
+    "la Centrala Landului pentru Educație Politică"
+   ]
+  },
+  "Hamburg-07": {
+   "question": "Care land este un oraș-stat?",
+   "options": [
+    "Hamburg",
+    "Saxonia",
+    "Bavaria",
+    "Turingia"
+   ]
+  },
+  "Hamburg-08": {
+   "question": "Care land este Hamburg?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Hamburg-09": {
+   "question": "Cum se numește șefa/șeful guvernului orașului-stat Hamburg?",
+   "options": [
+    "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)",
+    "Primăriță-generală/Primar-general (Erste Bürgermeisterin/Erster Bürgermeister)",
+    "Senatoare guvernantă/Senator guvernant",
+    "Primăriță-generală/Primar-general (Oberbürgermeisterin/Oberbürgermeister)"
+   ]
+  },
+  "Hamburg-10": {
+   "question": "Ce senatoare/senator nu are Hamburg?",
+   "options": [
+    "Senatoare/Senator de Justiție",
+    "Senatoare/Senator pentru Relații Externe",
+    "Senatoare/Senator de Finanțe",
+    "Senatoare/Senator de Interne"
+   ]
+  },
+  "Hessen-01": {
+   "question": "Care stemă aparține landului Hessa? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Hessen-02": {
+   "question": "Care dintre următoarele este un district rural (Landkreis) din Hessa?",
+   "options": [
+    "Ammerland",
+    "Altötting",
+    "Prignitz",
+    "Main-Taunus-Kreis"
+   ]
+  },
+  "Hessen-03": {
+   "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Hessa?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Hessen-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Hessa?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Hessen-05": {
+   "question": "Ce culori are drapelul landului Hessa?",
+   "options": [
+    "albastru-alb-roșu",
+    "roșu-alb",
+    "negru-auriu",
+    "verde-alb-roșu"
+   ]
+  },
+  "Hessen-06": {
+   "question": "Unde vă puteți informa în Hessa despre teme politice?",
+   "options": [
+    "la Centrala Landului pentru Educație Politică",
+    "la Centrala pentru Protecția Consumatorilor",
+    "la Oficiul de Ordine Publică al comunei",
+    "la biserici"
+   ]
+  },
+  "Hessen-07": {
+   "question": "Capitala landului Hessa se numește …",
+   "options": [
+    "Kassel.",
+    "Darmstadt.",
+    "Frankfurt.",
+    "Wiesbaden."
+   ]
+  },
+  "Hessen-08": {
+   "question": "Care land este Hessa?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Hessen-09": {
+   "question": "Cum se numește șefa/șeful guvernului în Hessa?",
+   "options": [
+    "Prim-ministră/Prim-ministru (Erste Ministerin/Erster Minister)",
+    "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
+    "Primăriță/Primar",
+    "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
+   ]
+  },
+  "Hessen-10": {
+   "question": "Ce ministră/ministru nu are Hessa?",
+   "options": [
+    "Ministră/Ministru de Justiție",
+    "Ministră/Ministru de Externe",
+    "Ministră/Ministru de Finanțe",
+    "Ministră/Ministru de Interne"
+   ]
+  },
+  "Mecklenburg-Vorpommern-01": {
+   "question": "Care stemă aparține landului Mecklenburg-Pomerania Inferioară? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Mecklenburg-Vorpommern-02": {
+   "question": "Care dintre următoarele este un district rural (Landkreis) din Mecklenburg-Pomerania Inferioară?",
+   "options": [
+    "Prignitz",
+    "Mecklenburgische Seenplatte",
+    "Vogtlandkreis",
+    "Rhein-Sieg-Kreis"
+   ]
+  },
+  "Mecklenburg-Vorpommern-03": {
+   "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Mecklenburg-Pomerania Inferioară?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Mecklenburg-Vorpommern-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Mecklenburg-Pomerania Inferioară?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Mecklenburg-Vorpommern-05": {
+   "question": "Ce culori are drapelul landului Mecklenburg-Pomerania Inferioară?",
+   "options": [
+    "negru-roșu-auriu",
+    "albastru-alb-galben-roșu",
+    "verde-alb-roșu",
+    "negru-galben"
+   ]
+  },
+  "Mecklenburg-Vorpommern-06": {
+   "question": "Unde vă puteți informa în Mecklenburg-Pomerania Inferioară despre teme politice?",
+   "options": [
+    "la Centrala Landului pentru Educație Politică",
+    "la biserici",
+    "la Oficiul de Ordine Publică al comunei",
+    "la Centrala pentru Protecția Consumatorilor"
+   ]
+  },
+  "Mecklenburg-Vorpommern-07": {
+   "question": "Capitala landului Mecklenburg-Pomerania Inferioară se numește …",
+   "options": [
+    "Greifswald.",
+    "Schwerin.",
+    "Rostock.",
+    "Wismar."
+   ]
+  },
+  "Mecklenburg-Vorpommern-08": {
+   "question": "Care land este Mecklenburg-Pomerania Inferioară?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Mecklenburg-Vorpommern-09": {
+   "question": "Cum se numește șefa/șeful guvernului în Mecklenburg-Pomerania Inferioară?",
+   "options": [
+    "Prim-ministră/Prim-ministru (Erste Ministerin/Erster Minister)",
+    "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
+    "Primăriță/Primar",
+    "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
+   ]
+  },
+  "Mecklenburg-Vorpommern-10": {
+   "question": "Ce ministră/ministru nu are Mecklenburg-Pomerania Inferioară?",
+   "options": [
+    "Ministră/Ministru de Justiție",
+    "Ministră/Ministru de Externe",
+    "Ministră/Ministru de Finanțe",
+    "Ministră/Ministru de Interne"
+   ]
+  },
+  "Niedersachsen-01": {
+   "question": "Care stemă aparține landului Saxonia Inferioară? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Niedersachsen-02": {
+   "question": "Care dintre acestea este un district rural (Landkreis) din Saxonia Inferioară?",
+   "options": [
+    "Ammerland",
+    "Rhein-Sieg-Kreis",
+    "Frizia de Nord (Nordfriesland)",
+    "Vogtlandkreis"
+   ]
+  },
+  "Niedersachsen-03": {
+   "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Saxonia Inferioară?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Niedersachsen-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Saxonia Inferioară?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Niedersachsen-05": {
+   "question": "Ce culori are drapelul landului Saxonia Inferioară?",
+   "options": [
+    "alb-albastru",
+    "negru-roșu-auriu",
+    "negru-galben",
+    "albastru-alb-roșu"
+   ]
+  },
+  "Niedersachsen-06": {
+   "question": "Unde vă puteți informa în Saxonia Inferioară despre teme politice?",
+   "options": [
+    "la Centrul Regional pentru Educație Politică",
+    "la Serviciul de Ordine Publică al comunei",
+    "la Centrul pentru Protecția Consumatorilor",
+    "la biserici"
+   ]
+  },
+  "Niedersachsen-07": {
+   "question": "Capitala landului Saxonia Inferioară se numește …",
+   "options": [
+    "Hanovra.",
+    "Braunschweig.",
+    "Wolfsburg.",
+    "Osnabrück."
+   ]
+  },
+  "Niedersachsen-08": {
+   "question": "Care land federal este Saxonia Inferioară?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Niedersachsen-09": {
+   "question": "Cum se numește șeful/șefa guvernului în Saxonia Inferioară?",
+   "options": [
+    "Prim-ministru/Prim-ministră",
+    "Premier/Premieră",
+    "Primar/Primăriță",
+    "Ministru-președinte/Ministră-președintă"
+   ]
+  },
+  "Niedersachsen-10": {
+   "question": "Ce ministru nu are Saxonia Inferioară?",
+   "options": [
+    "Ministru al Justiției",
+    "Ministru de Externe",
+    "Ministru de Finanțe",
+    "Ministru de Interne"
+   ]
+  },
+  "Nordrhein-Westfalen-01": {
+   "question": "Care stemă aparține landului Renania de Nord-Westfalia? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Nordrhein-Westfalen-02": {
+   "question": "Care dintre acestea este un district rural (Landkreis) din Renania de Nord-Westfalia?",
+   "options": [
+    "Ammerland",
+    "Rhein-Sieg-Kreis",
+    "Frizia de Nord (Nordfriesland)",
+    "Vogtlandkreis"
+   ]
+  },
+  "Nordrhein-Westfalen-03": {
+   "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Renania de Nord-Westfalia?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Nordrhein-Westfalen-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Renania de Nord-Westfalia?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Nordrhein-Westfalen-05": {
+   "question": "Ce culori are drapelul landului Renania de Nord-Westfalia?",
+   "options": [
+    "roșu-alb",
+    "verde-alb-roșu",
+    "negru-auriu",
+    "albastru-alb-roșu"
+   ]
+  },
+  "Nordrhein-Westfalen-06": {
+   "question": "Unde vă puteți informa în Renania de Nord-Westfalia despre teme politice?",
+   "options": [
+    "la biserici",
+    "la Serviciul de Ordine Publică al comunei",
+    "la Centrul pentru Protecția Consumatorilor",
+    "la Centrul Regional pentru Educație Politică"
+   ]
+  },
+  "Nordrhein-Westfalen-07": {
+   "question": "Capitala landului Renania de Nord-Westfalia se numește …",
+   "options": [
+    "Köln.",
+    "Bonn.",
+    "Düsseldorf.",
+    "Dortmund."
+   ]
+  },
+  "Nordrhein-Westfalen-08": {
+   "question": "Care land federal este Renania de Nord-Westfalia?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Nordrhein-Westfalen-09": {
+   "question": "Cum se numește șeful/șefa guvernului în Renania de Nord-Westfalia?",
+   "options": [
+    "Prim-ministru/Prim-ministră",
+    "Premier/Premieră",
+    "Primar/Primăriță",
+    "Ministru-președinte/Ministră-președintă"
+   ]
+  },
+  "Nordrhein-Westfalen-10": {
+   "question": "Ce ministru nu are Renania de Nord-Westfalia?",
+   "options": [
+    "Ministru al Justiției",
+    "Ministru de Externe",
+    "Ministru de Finanțe",
+    "Ministru de Interne"
+   ]
+  },
+  "Rheinland-Pfalz-01": {
+   "question": "Care stemă aparține landului Renania-Palatinat? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Rheinland-Pfalz-02": {
+   "question": "Care dintre acestea este un district rural (Landkreis) din Renania-Palatinat?",
+   "options": [
+    "Westerwaldkreis",
+    "Altötting",
+    "Emsland",
+    "Prignitz"
+   ]
+  },
+  "Rheinland-Pfalz-03": {
+   "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Renania-Palatinat?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Rheinland-Pfalz-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Renania-Palatinat?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Rheinland-Pfalz-05": {
+   "question": "Ce culori are drapelul landului Renania-Palatinat?",
+   "options": [
+    "alb-roșu",
+    "negru-roșu-auriu",
+    "negru-galben",
+    "verde-alb-roșu"
+   ]
+  },
+  "Rheinland-Pfalz-06": {
+   "question": "Unde vă puteți informa în Renania-Palatinat despre teme politice?",
+   "options": [
+    "la biserici",
+    "la Centrul pentru Protecția Consumatorilor",
+    "la Serviciul de Ordine Publică al comunei",
+    "la Centrul Regional pentru Educație Politică"
+   ]
+  },
+  "Rheinland-Pfalz-07": {
+   "question": "Capitala landului Renania-Palatinat se numește …",
+   "options": [
+    "Mainz.",
+    "Kaiserslautern.",
+    "Ludwigshafen.",
+    "Koblenz."
+   ]
+  },
+  "Rheinland-Pfalz-08": {
+   "question": "Care land federal este Renania-Palatinat?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Rheinland-Pfalz-09": {
+   "question": "Cum se numește șeful/șefa guvernului în Renania-Palatinat?",
+   "options": [
+    "Prim-ministru/Prim-ministră",
+    "Premier/Premieră",
+    "Primar/Primăriță",
+    "Ministru-președinte/Ministră-președintă"
+   ]
+  },
+  "Rheinland-Pfalz-10": {
+   "question": "Ce ministru nu are Renania-Palatinat?",
+   "options": [
+    "Ministru al Justiției",
+    "Ministru de Externe",
+    "Ministru de Finanțe",
+    "Ministru de Interne"
+   ]
+  },
+  "Saarland-01": {
+   "question": "Care stemă aparține landului Saarland? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Saarland-02": {
+   "question": "Care dintre acestea este un district rural (Landkreis) din Saarland?",
+   "options": [
+    "Regiunea Lacurilor din Mecklenburg (Mecklenburgische Seenplatte)",
+    "Altötting",
+    "Neunkirchen",
+    "Rhein-Sieg-Kreis"
+   ]
+  },
+  "Saarland-03": {
+   "question": "Pentru câți ani este ales Landtagul (parlamentul regional) al landului Saarland?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Saarland-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Saarland?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Saarland-05": {
+   "question": "Ce culori are drapelul landului Saarland?",
+   "options": [
+    "alb-albastru",
+    "negru-roșu-auriu",
+    "negru-galben",
+    "verde-alb-roșu"
+   ]
+  },
+  "Saarland-06": {
+   "question": "Unde vă puteți informa în Saarland despre teme politice?",
+   "options": [
+    "la biserici",
+    "la Centrul Regional pentru Educație Politică",
+    "la Centrul pentru Protecția Consumatorilor",
+    "la Serviciul de Ordine Publică al comunei"
+   ]
+  },
+  "Saarland-07": {
+   "question": "Capitala landului Saarland se numește …",
+   "options": [
+    "Neunkirchen.",
+    "Homburg.",
+    "Saarbrücken.",
+    "Völklingen."
+   ]
+  },
+  "Saarland-08": {
+   "question": "Care land federal este Saarland?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Saarland-09": {
+   "question": "Cum se numește șeful/șefa guvernului landului Saarland?",
+   "options": [
+    "Prim-ministru/Prim-ministră",
+    "Premier/Premieră",
+    "Primar/Primăriță",
+    "Ministru-președinte/Ministră-președintă"
+   ]
+  },
+  "Saarland-10": {
+   "question": "Ce ministru nu are landul Saarland?",
+   "options": [
+    "Ministru al Justiției",
+    "Ministru de Externe",
+    "Ministru de Finanțe",
+    "Ministru de Interne"
+   ]
+  },
+  "Sachsen-01": {
+   "question": "Care stemă aparține Statului Liber Saxonia? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Sachsen-02": {
+   "question": "Care dintre acestea este un district rural (Landkreis) din Saxonia?",
+   "options": [
+    "Vogtlandkreis",
+    "Altötting",
+    "Uckermark",
+    "Frizia de Nord (Nordfriesland)"
+   ]
+  },
+  "Sachsen-03": {
+   "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Saxonia?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Sachsen-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Saxonia?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Sachsen-05": {
+   "question": "Ce culori are drapelul landului Saxonia?",
+   "options": [
+    "albastru-alb-roșu",
+    "alb-verde",
+    "verde-alb-roșu",
+    "negru-galben"
+   ]
+  },
+  "Sachsen-06": {
+   "question": "Unde vă puteți informa în Saxonia despre teme politice?",
+   "options": [
+    "la Centrul Regional pentru Educație Politică",
+    "la Serviciul de Ordine Publică al comunei",
+    "la biserici",
+    "la Centrul pentru Protecția Consumatorilor"
+   ]
+  },
+  "Sachsen-07": {
+   "question": "Capitala landului Saxonia se numește …",
+   "options": [
+    "Leipzig.",
+    "Dresda.",
+    "Chemnitz.",
+    "Zwickau."
+   ]
+  },
+  "Sachsen-08": {
+   "question": "Care land federal este Saxonia?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Sachsen-09": {
+   "question": "Cum se numește șeful/șefa guvernului în Saxonia?",
+   "options": [
+    "Prim-ministru/Prim-ministră",
+    "Premier/Premieră",
+    "Primar/Primăriță",
+    "Ministru-președinte/Ministră-președintă"
+   ]
+  },
+  "Sachsen-10": {
+   "question": "Ce ministru nu are Saxonia?",
+   "options": [
+    "Ministru al Justiției",
+    "Ministru de Externe",
+    "Ministru de Finanțe",
+    "Ministru de Interne"
+   ]
+  },
+  "Sachsen-Anhalt-01": {
+   "question": "Care stemă aparține landului Saxonia-Anhalt? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Sachsen-Anhalt-02": {
+   "question": "Care dintre acestea este un district rural (Landkreis) din Saxonia-Anhalt?",
+   "options": [
+    "Ammerland",
+    "Altötting",
+    "Uckermark",
+    "Börde"
+   ]
+  },
+  "Sachsen-Anhalt-03": {
+   "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Saxonia-Anhalt?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Sachsen-Anhalt-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Saxonia-Anhalt?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Sachsen-Anhalt-05": {
+   "question": "Ce culori are drapelul landului Saxonia-Anhalt?",
+   "options": [
+    "albastru-alb-roșu",
+    "galben-negru",
+    "verde-alb-roșu",
+    "alb-roșu"
+   ]
+  },
+  "Sachsen-Anhalt-06": {
+   "question": "Unde vă puteți informa în Saxonia-Anhalt despre teme politice?",
+   "options": [
+    "la biserici",
+    "la Centrul Regional pentru Educație Politică",
+    "la Serviciul de Ordine Publică al comunei",
+    "la Centrul pentru Protecția Consumatorilor"
+   ]
+  },
+  "Sachsen-Anhalt-07": {
+   "question": "Capitala landului Saxonia-Anhalt se numește …",
+   "options": [
+    "Halle.",
+    "Dessau.",
+    "Magdeburg.",
+    "Wittenberg."
+   ]
+  },
+  "Sachsen-Anhalt-08": {
+   "question": "Care land federal este Saxonia-Anhalt?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Sachsen-Anhalt-09": {
+   "question": "Cum se numește șeful/șefa guvernului în Saxonia-Anhalt?",
+   "options": [
+    "Prim-ministru/Prim-ministră",
+    "Premier/Premieră",
+    "Primar/Primăriță",
+    "Ministru-președinte/Ministră-președintă"
+   ]
+  },
+  "Sachsen-Anhalt-10": {
+   "question": "Ce ministru nu are Saxonia-Anhalt?",
+   "options": [
+    "Ministru al Justiției",
+    "Ministru de Externe",
+    "Ministru de Finanțe",
+    "Ministru de Interne"
+   ]
+  },
+  "Schleswig-Holstein-01": {
+   "question": "Care stemă aparține landului Schleswig-Holstein? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Schleswig-Holstein-02": {
+   "question": "Care dintre acestea este un district rural (Landkreis) din Schleswig-Holstein?",
+   "options": [
+    "Ammerland",
+    "Regiunea Lacurilor din Mecklenburg (Mecklenburgische Seenplatte)",
+    "Frizia de Nord (Nordfriesland)",
+    "Rhein-Sieg-Kreis"
+   ]
+  },
+  "Schleswig-Holstein-03": {
+   "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Schleswig-Holstein?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Schleswig-Holstein-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Schleswig-Holstein?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Schleswig-Holstein-05": {
+   "question": "Ce culori are drapelul landului Schleswig-Holstein?",
+   "options": [
+    "alb-albastru",
+    "albastru-alb-roșu",
+    "alb-roșu",
+    "verde-alb-roșu"
+   ]
+  },
+  "Schleswig-Holstein-06": {
+   "question": "Unde vă puteți informa în Schleswig-Holstein despre teme politice?",
+   "options": [
+    "la Centrul pentru Protecția Consumatorilor",
+    "la Serviciul de Ordine Publică al comunei",
+    "la Împuternicitul/Împuternicita regională pentru Educație Politică",
+    "la biserici"
+   ]
+  },
+  "Schleswig-Holstein-07": {
+   "question": "Capitala landului Schleswig-Holstein se numește …",
+   "options": [
+    "Husum.",
+    "Flensburg.",
+    "Lübeck.",
+    "Kiel."
+   ]
+  },
+  "Schleswig-Holstein-08": {
+   "question": "Care land federal este Schleswig-Holstein?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Schleswig-Holstein-09": {
+   "question": "Cum se numește șeful/șefa guvernului în Schleswig-Holstein?",
+   "options": [
+    "Prim-ministru/Prim-ministră",
+    "Premier/Premieră",
+    "Primar/Primăriță",
+    "Ministru-președinte/Ministră-președintă"
+   ]
+  },
+  "Schleswig-Holstein-10": {
+   "question": "Ce ministru nu are Schleswig-Holstein?",
+   "options": [
+    "Ministru al Justiției",
+    "Ministru de Externe",
+    "Ministru de Finanțe",
+    "Ministru de Interne"
+   ]
+  },
+  "Thüringen-01": {
+   "question": "Care stemă aparține Statului Liber Turingia? Imaginea 1 Imaginea 2 Imaginea 3 Imaginea 4",
+   "options": [
+    "Imaginea 1",
+    "Imaginea 2",
+    "Imaginea 3",
+    "Imaginea 4"
+   ]
+  },
+  "Thüringen-02": {
+   "question": "Care dintre acestea este un district rural (Landkreis) din Turingia?",
+   "options": [
+    "Ammerland",
+    "Altötting",
+    "Frizia de Nord (Nordfriesland)",
+    "Wartburgkreis"
+   ]
+  },
+  "Thüringen-03": {
+   "question": "Pentru câți ani este ales Landtagul (parlamentul regional) în Turingia?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Thüringen-04": {
+   "question": "De la ce vârstă se poate vota la alegerile locale în Turingia?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Thüringen-05": {
+   "question": "Ce culori are drapelul landului Turingia?",
+   "options": [
+    "albastru-alb-roșu",
+    "alb-roșu",
+    "verde-alb-roșu",
+    "negru-auriu"
+   ]
+  },
+  "Thüringen-06": {
+   "question": "Unde vă puteți informa în Turingia despre teme politice?",
+   "options": [
+    "la biserici",
+    "la Centrul pentru Protecția Consumatorilor",
+    "la Centrul Regional pentru Educație Politică",
+    "la Serviciul de Ordine Publică al comunei"
+   ]
+  },
+  "Thüringen-07": {
+   "question": "Capitala landului Turingia se numește …",
+   "options": [
+    "Eisenach.",
+    "Erfurt.",
+    "Gera.",
+    "Jena."
+   ]
+  },
+  "Thüringen-08": {
+   "question": "Care land federal este Turingia?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Thüringen-09": {
+   "question": "Cum se numește șeful/șefa guvernului în Turingia?",
+   "options": [
+    "Prim-ministru/Prim-ministră",
+    "Premier/Premieră",
+    "Primar/Primăriță",
+    "Ministru-președinte/Ministră-președintă"
+   ]
+  },
+  "Thüringen-10": {
+   "question": "Ce ministru nu are Turingia?",
+   "options": [
+    "Ministru al Justiției",
+    "Ministru de Externe",
+    "Ministru de Finanțe",
+    "Ministru de Interne"
+   ]
+  }
+ }
+}
