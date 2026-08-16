@@ -1,4 +1,5 @@
-import { useMemo, useRef, useState } from "react";
+import { Ionicons } from "@expo/vector-icons";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { FlatList, Modal, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { router } from "expo-router";
 import { Option } from "./components";
@@ -8,6 +9,7 @@ import { images } from "./imageMap";
 import { Image } from "react-native";
 import { shuffledOptionIndices, type Question } from "./questions";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { speakSegments, type Segment } from "./speech";
 import { useStore, useT } from "./storage";
 import { layout, radius, spacing, type, useColors } from "./theme";
 
@@ -79,6 +81,41 @@ function Star({ on, onPress }: { on: boolean; onPress: () => void }) {
   );
 }
 
+/** Reads the current question and its options aloud via the device's own
+ *  text-to-speech, German first and — if a translation is showing — the
+ *  translated line after it, matching the visual order rather than
+ *  replacing German the way the "no translation during the exam" rule
+ *  already protects against for text. Icon-only, like the ☰ menu button:
+ *  a translated label would need adding a key to all 18 language blocks
+ *  for a supplementary control. */
+function Speaker({ speaking, onPress }: { speaking: boolean; onPress: () => void }) {
+  const c = useColors();
+  return (
+    <Pressable
+      accessibilityRole="button"
+      accessibilityState={{ selected: speaking }}
+      accessibilityLabel={speaking ? "Stop reading aloud" : "Read aloud"}
+      hitSlop={10}
+      onPress={onPress}
+      style={({ pressed }) => ({
+        paddingVertical: 6,
+        paddingHorizontal: 10,
+        borderRadius: radius.pill,
+        borderWidth: StyleSheet.hairlineWidth,
+        borderColor: speaking ? c.accent : c.border,
+        backgroundColor: speaking ? c.accent : c.surface,
+        opacity: pressed ? 0.82 : 1,
+      })}
+    >
+      <Ionicons
+        name={speaking ? "stop-circle" : "volume-high-outline"}
+        size={17}
+        color={speaking ? c.accentText : c.textMuted}
+      />
+    </Pressable>
+  );
+}
+
 export type Mode = "read" | "attempt";
 
 /** A question card.
@@ -110,6 +147,38 @@ function QuestionCard({
   const reveal = (i: number) => answered && i === q.answer;
   const wrongPick = (i: number) => picked !== undefined && i === picked && i !== q.answer;
 
+  const [speaking, setSpeaking] = useState(false);
+  const stopRef = useRef<(() => void) | null>(null);
+
+  // switching questions (or leaving the screen) must never leave audio
+  // playing for a question that's no longer on screen
+  useEffect(() => {
+    return () => {
+      stopRef.current?.();
+      stopRef.current = null;
+    };
+  }, [q.id]);
+
+  function toggleSpeak() {
+    if (speaking) {
+      stopRef.current?.();
+      stopRef.current = null;
+      setSpeaking(false);
+      return;
+    }
+    const segments: Segment[] = [{ text: q.question, lang: "de" }];
+    if (tr) segments.push({ text: tr.question, lang: lang! });
+    optionOrder.forEach((originalIndex, displayIndex) => {
+      segments.push({ text: `${"ABCD"[displayIndex]}. ${q.options[originalIndex]}`, lang: "de" });
+      if (tr) segments.push({ text: tr.options[originalIndex], lang: lang! });
+    });
+    setSpeaking(true);
+    stopRef.current = speakSegments(segments, () => {
+      stopRef.current = null;
+      setSpeaking(false);
+    });
+  }
+
   return (
     // no card around it: one question already fills the screen, and a border
     // inside a border is what made this feel cramped next to the exam
@@ -135,6 +204,7 @@ function QuestionCard({
           {!q.verified && (
             <Text style={{ ...type.label, fontSize: 10, color: c.warn }}>!</Text>
           )}
+          <Speaker speaking={speaking} onPress={toggleSpeak} />
           <Star on={isMarked} onPress={() => toggleMark(q.id)} />
         </View>
       </View>
