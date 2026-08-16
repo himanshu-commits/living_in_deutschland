@@ -11,7 +11,7 @@ import { layout, spacing, type, useColors } from "@/theme";
 import { buyLifetime, hasPremium, loadLifetimePackage, purchasesConfigured, restorePremium } from "@/purchases";
 
 const BENEFITS = [
-  "Detailed explanations and translated hints",
+  "Detailed translated explanations",
   "Audio pronunciation",
   "Adaptive weak-topic practice",
   "Unlimited mock exams",

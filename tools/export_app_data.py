@@ -15,6 +15,7 @@ SRC = ROOT / "data" / "questions.json"
 IMAGES = ROOT / "data" / "images.json"
 OUT = ROOT / "mobile" / "assets" / "questions.json"
 IMAGE_MAP = ROOT / "mobile" / "src" / "imageMap.ts"
+SUPPORT = ROOT / "data" / "explanation_overrides.json"
 
 
 def write_image_map(files):
@@ -36,6 +37,7 @@ def write_image_map(files):
 def main():
     questions = json.loads(SRC.read_text(encoding="utf8"))
     bindings = json.loads(IMAGES.read_text(encoding="utf8")) if IMAGES.exists() else {}
+    support_overrides = json.loads(SUPPORT.read_text(encoding="utf8")) if SUPPORT.exists() else {}
 
     bundled = set()
     for entry in bindings.values():
@@ -64,6 +66,7 @@ def main():
                 "image": q["imageQuestion"],
                 "verified": q["verified"],
                 **({"tr": q["translations"]} if q.get("translations") else {}),
+                **({"support": support} if (support := support_overrides.get(q["id"], q.get("support"))) else {}),
                 **({"media": m} if (m := media(q)) else {}),
             }
             for q in questions

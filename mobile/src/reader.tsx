@@ -12,6 +12,8 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { speakSegments, type Segment } from "./speech";
 import { useStore, useT } from "./storage";
 import { layout, radius, spacing, type, useColors } from "./theme";
+import { useEntitlement } from "./entitlements";
+import { usePremiumGate } from "./premium";
 
 /** The translate control that sits in every reader header. */
 export function TranslateToggle() {
@@ -139,7 +141,12 @@ function QuestionCard({
   const c = useColors();
   const { t, fill } = useT();
   const { lang, translate, marked, toggleMark } = useStore();
+  const { isPremium } = useEntitlement();
+  const premiumGate = usePremiumGate();
   const tr = lang && lang !== "de" && translate ? q.tr?.[lang] : undefined;
+  const germanSupport = q.support?.de;
+  const translatedSupport = lang && lang !== "de" && translate ? q.support?.[lang] : undefined;
+  const support = germanSupport ?? translatedSupport;
   const isMarked = marked.includes(q.id);
   const picture = q.media?.kind === "options" && q.media.files.length === 4;
   const answered = mode === "read" || picked !== undefined;
@@ -148,11 +155,13 @@ function QuestionCard({
   const wrongPick = (i: number) => picked !== undefined && i === picked && i !== q.answer;
 
   const [speaking, setSpeaking] = useState(false);
+  const [explanationOpen, setExplanationOpen] = useState(false);
   const stopRef = useRef<(() => void) | null>(null);
 
   // switching questions (or leaving the screen) must never leave audio
   // playing for a question that's no longer on screen
   useEffect(() => {
+    setExplanationOpen(false);
     return () => {
       stopRef.current?.();
       stopRef.current = null;
@@ -177,6 +186,13 @@ function QuestionCard({
       stopRef.current = null;
       setSpeaking(false);
     });
+  }
+
+  function pickAnswer(index: number) {
+    onPick?.(index);
+    if (mode === "attempt" && index !== q.answer && support && isPremium) {
+      setExplanationOpen(true);
+    }
   }
 
   return (
@@ -204,6 +220,34 @@ function QuestionCard({
           {!q.verified && (
             <Text style={{ ...type.label, fontSize: 10, color: c.warn }}>!</Text>
           )}
+          {support && answered ? (
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel={isPremium ? "Show explanation" : "Premium explanation"}
+              onPress={() => premiumGate("explanations", () => setExplanationOpen(true))}
+              hitSlop={10}
+              style={({ pressed }) => ({
+                flexDirection: "row",
+                alignItems: "center",
+                gap: 4,
+                borderRadius: radius.pill,
+                borderWidth: StyleSheet.hairlineWidth,
+                borderColor: isPremium ? c.accent : c.border,
+                paddingVertical: 5,
+                paddingHorizontal: spacing.sm,
+                opacity: pressed ? 0.6 : 1,
+              })}
+            >
+              <Ionicons
+                name={isPremium ? "bulb-outline" : "lock-closed-outline"}
+                size={16}
+                color={isPremium ? c.accent : c.textMuted}
+              />
+              <Text style={{ ...type.label, fontSize: 11, color: isPremium ? c.accent : c.textMuted }}>
+                Explain
+              </Text>
+            </Pressable>
+          ) : null}
           <Speaker speaking={speaking} onPress={toggleSpeak} />
           <Star on={isMarked} onPress={() => toggleMark(q.id)} />
         </View>
@@ -222,7 +266,7 @@ function QuestionCard({
             <Pressable
               key={file}
               disabled={mode === "read" || picked !== undefined}
-              onPress={() => onPick?.(originalIndex)}
+              onPress={() => pickAnswer(originalIndex)}
               accessibilityRole={mode === "attempt" ? "radio" : "image"}
               accessibilityState={{ selected: picked === originalIndex }}
               style={{
@@ -263,7 +307,7 @@ function QuestionCard({
               index={displayIndex}
               text={q.options[originalIndex]}
               disabled={mode === "read" || picked !== undefined}
-              onPress={() => onPick?.(originalIndex)}
+              onPress={() => pickAnswer(originalIndex)}
               state={reveal(originalIndex) ? "correct" : wrongPick(originalIndex) ? "wrong" : "idle"}
               subtitle={tr ? <Translated text={tr.options[originalIndex]} small /> : undefined}
             />
@@ -287,6 +331,47 @@ function QuestionCard({
               })}`}
         </Text>
       )}
+
+      <Modal
+        visible={explanationOpen}
+        transparent
+        animationType="fade"
+        onRequestClose={() => setExplanationOpen(false)}
+      >
+        <View style={{ flex: 1, backgroundColor: "rgba(0,0,0,0.55)", justifyContent: "center", padding: spacing.xl }}>
+          <View style={{ backgroundColor: c.surface, borderRadius: radius.xl, padding: spacing.xl, gap: spacing.lg }}>
+            <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.sm }}>
+              <Ionicons name="information-circle-outline" size={24} color={c.accent} />
+              <Text style={{ ...type.heading, color: c.text, flex: 1 }}>Explanation</Text>
+            </View>
+            <Text style={{ ...type.body, color: c.text }}>{germanSupport?.explanation ?? support?.explanation}</Text>
+            {translatedSupport ? <Translated text={translatedSupport.explanation} /> : null}
+            {q.answer !== null ? (
+              <View style={{ backgroundColor: c.correctBg, borderRadius: radius.md, padding: spacing.md, gap: spacing.xs }}>
+                <Text style={{ ...type.label, color: c.correct }}>CORRECT ANSWER</Text>
+                <Text style={{ ...type.body, fontWeight: "700", color: c.text }}>
+                  {"ABCD"[optionOrder.indexOf(q.answer)]}. {q.options[q.answer]}
+                </Text>
+                {tr ? <Text style={{ ...type.body, fontSize: 13, color: c.textMuted }}>{tr.options[q.answer]}</Text> : null}
+              </View>
+            ) : null}
+            <Pressable
+              accessibilityRole="button"
+              onPress={() => setExplanationOpen(false)}
+              style={({ pressed }) => ({
+                alignSelf: "flex-end",
+                backgroundColor: c.accent,
+                borderRadius: radius.pill,
+                paddingVertical: spacing.sm,
+                paddingHorizontal: spacing.xl,
+                opacity: pressed ? 0.8 : 1,
+              })}
+            >
+              <Text style={{ ...type.label, color: c.accentText }}>OK</Text>
+            </Pressable>
+          </View>
+        </View>
+      </Modal>
     </View>
   );
 }

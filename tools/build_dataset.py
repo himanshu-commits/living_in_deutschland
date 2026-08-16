@@ -169,6 +169,15 @@ def load_translation_overrides():
     return {lang: entries for lang, entries in raw.items() if not lang.startswith("_")}
 
 
+def load_explanation_overrides():
+    """Human-reviewed Premium explanations keyed by question ID."""
+    path = DATA / "explanation_overrides.json"
+    if not path.exists():
+        return {}
+    raw = json.loads(path.read_text(encoding="utf8"))
+    return {qid: value for qid, value in raw.items() if not qid.startswith("_")}
+
+
 def main():
     """Build the merged question dataset and its human review queue."""
     questions = json.loads((DATA / "pdf_questions.json").read_text(encoding="utf8"))
@@ -176,6 +185,7 @@ def main():
     lid = fetch("lid", SOURCES["lid"])
     overrides = load_overrides()
     translation_overrides = load_translation_overrides()
+    explanation_overrides = load_explanation_overrides()
     letter = {"a": 0, "b": 1, "c": 2, "d": 3}
     contradicted = []
 
@@ -248,6 +258,7 @@ def main():
                 "verified": verified,
                 "sources": sources,
                 "translations": tr,
+                **({"support": explanation_overrides[qid]} if qid in explanation_overrides else {}),
                 "scores": {"flexsurfer": round(f_score, 3), "lid": round(l_score, 3)},
             }
         )

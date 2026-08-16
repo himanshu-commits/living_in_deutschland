@@ -9,6 +9,7 @@ export type Media = {
 };
 
 export type Translation = { question: string; options: string[] };
+export type LearningSupport = { explanation: string };
 
 export type Question = {
   id: string;
@@ -21,6 +22,8 @@ export type Question = {
   verified: boolean;
   /** per-language question + options, already in OUR option order */
   tr?: Record<string, Translation>;
+  /** Human-reviewed Premium learning content, keyed by app language code. */
+  support?: Record<string, LearningSupport>;
   media?: Media;
 };
 
@@ -73,7 +76,15 @@ export function shuffle<T>(items: T[]): T[] {
 
 /** Display order only: every value remains the option's canonical dataset index. */
 export function shuffledOptionIndices(length: number): number[] {
-  return shuffle(Array.from({ length }, (_, index) => index));
+  const canonical = Array.from({ length }, (_, index) => index);
+  const shuffled = shuffle(canonical);
+  // A valid random shuffle can return the original order (1 in 24 times for
+  // four options), which looks like shuffling is broken. Guarantee a visible
+  // change while keeping each value tied to its canonical answer index.
+  if (length > 1 && shuffled.every((value, index) => value === index)) {
+    shuffled.push(shuffled.shift()!);
+  }
+  return shuffled;
 }
 
 /** One exam paper: 30 general + 3 from the chosen state, in random order. */
