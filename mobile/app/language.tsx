@@ -61,7 +61,15 @@ export default function LanguagePicker() {
               <Text accessibilityElementsHidden style={{ fontSize: 28 }}>
                 {l.flag}
               </Text>
-              <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm, flex: 1 }}>
+              <View
+                style={{
+                  flexDirection: "row",
+                  flexWrap: "wrap",
+                  alignItems: "baseline",
+                  gap: spacing.sm,
+                  flex: 1,
+                }}
+              >
                 <Text style={{ ...type.body, fontWeight: "600", color: c.text }}>{l.native}</Text>
                 {l.latin && (
                   <Text style={{ ...type.body, fontSize: 13, color: c.textMuted }}>{l.latin}</Text>
