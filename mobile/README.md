@@ -1,6 +1,7 @@
 # Leben in Deutschland — mobile app
 
-Expo (React Native) app for iOS and Android. Offline, no account, no backend.
+Expo (React Native) app for iOS and Android. The catalogue works offline; an
+optional Supabase account syncs progress across devices.
 
 ## Requirements
 
@@ -18,6 +19,17 @@ npm install
 npx expo install --fix   # aligns native dependency versions with the installed SDK
 npm start                # then press i (iOS) or a (Android), or scan with Expo Go
 ```
+
+## Login and progress sync
+
+Create a Supabase project, copy `.env.example` to `.env`, and replace both
+placeholder values with the project's URL and publishable/anon key. Then run
+`supabase/migrations/0001_progress_sync.sql` in the project's SQL editor and
+restart Expo (environment changes are only read when the dev server starts).
+
+Email/password authentication must be enabled in Supabase. If **Confirm email**
+is enabled, a new user confirms the message and then returns to the app to log
+in. Never put the service-role key in this file or in a mobile build.
 
 The pinned versions in `package.json` are a starting point; `expo install --fix` is
 the authority and will correct them for whichever SDK resolves.

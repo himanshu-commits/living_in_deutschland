@@ -1,0 +1,79 @@
+import * as Linking from "expo-linking";
+import { router } from "expo-router";
+import { useEffect, useState } from "react";
+import { Text, TextInput, View } from "react-native";
+import { Button, Notice } from "@/components";
+import { authErrorMessage } from "@/auth";
+import { authCopy } from "@/auth-copy";
+import { ScreenHeader } from "@/header";
+import { useT } from "@/storage";
+import { supabase } from "@/supabase";
+import { radius, spacing, type, useColors } from "@/theme";
+
+async function acceptRecoveryUrl(url: string) {
+  if (!supabase) throw new Error("Cloud sign-in is not configured for this build.");
+  const parsed = new URL(url.replace("#", "?"));
+  const code = parsed.searchParams.get("code");
+  if (code) {
+    const { error } = await supabase.auth.exchangeCodeForSession(code);
+    if (error) throw error;
+    return;
+  }
+  const access_token = parsed.searchParams.get("access_token");
+  const refresh_token = parsed.searchParams.get("refresh_token");
+  if (!access_token || !refresh_token) throw new Error("This reset link is invalid or has expired.");
+  const { error } = await supabase.auth.setSession({ access_token, refresh_token });
+  if (error) throw error;
+}
+
+export default function ResetPassword() {
+  const c = useColors();
+  const { lang } = useT();
+  const a = authCopy(lang);
+  const incomingUrl = Linking.useLinkingURL();
+  const [ready, setReady] = useState(false);
+  const [password, setPassword] = useState("");
+  const [confirm, setConfirm] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!incomingUrl) return;
+    acceptRecoveryUrl(incomingUrl)
+      .then(() => setReady(true))
+      .catch((e: unknown) => setError(authErrorMessage(e)));
+  }, [incomingUrl]);
+
+  async function updatePassword() {
+    setError(null);
+    if (!supabase) return setError("Cloud sign-in is not configured for this build.");
+    if (password.length < 6) return setError(a.passwordMin);
+    if (password !== confirm) return setError(a.mismatch);
+    setBusy(true);
+    const { error } = await supabase.auth.updateUser({ password });
+    setBusy(false);
+    if (error) return setError(authErrorMessage(error));
+    router.replace("/profile");
+  }
+
+  return (
+    <View style={{ flex: 1, backgroundColor: c.bg }}>
+      <ScreenHeader title={a.newTitle} />
+      <View style={{ padding: spacing.lg, gap: spacing.lg }}>
+        {error ? <Notice tone="warn">{error}</Notice> : null}
+        {!ready && !error ? <Notice tone="info">{a.validating}</Notice> : null}
+        {ready ? <>
+          <Text style={{ ...type.body, color: c.textMuted }}>{a.enterNew}</Text>
+          {[{ value: password, set: setPassword, placeholder: a.newPassword },
+            { value: confirm, set: setConfirm, placeholder: a.confirmPassword }].map((field) => (
+            <TextInput key={field.placeholder} value={field.value} onChangeText={field.set} secureTextEntry
+              autoCapitalize="none" placeholder={field.placeholder} placeholderTextColor={c.textMuted}
+              style={{ ...type.body, color: c.text, backgroundColor: c.surface, borderColor: c.border,
+                borderWidth: 1, borderRadius: radius.md, paddingVertical: spacing.md, paddingHorizontal: spacing.lg }} />
+          ))}
+          <Button label={a.updatePassword} onPress={updatePassword} disabled={busy || !password || !confirm} />
+        </> : null}
+      </View>
+    </View>
+  );
+}

@@ -1,8 +1,10 @@
 import { router } from "expo-router";
-import { Text, View } from "react-native";
-import { Button, Card, Label } from "@/components";
+import { useState } from "react";
+import { Alert, Text, View } from "react-native";
+import { Button, Card, Label, Notice } from "@/components";
+import { authErrorMessage } from "@/auth";
 import { ScreenHeader } from "@/header";
-import { useT } from "@/storage";
+import { useStore, useT } from "@/storage";
 import { useSession, useSyncStatus } from "@/sync";
 import { supabase } from "@/supabase";
 import { spacing, type, useColors } from "@/theme";
@@ -12,6 +14,61 @@ export default function Profile() {
   const { t, fill } = useT();
   const { session, loading } = useSession();
   const status = useSyncStatus();
+  const { clearAll } = useStore();
+  const [deleting, setDeleting] = useState(false);
+  const [deleteError, setDeleteError] = useState<string | null>(null);
+
+  function confirmDelete() {
+    Alert.alert(
+      "Delete account?",
+      "Your cloud account, synced data, and all data stored on this device will be permanently deleted.",
+      [
+        { text: t.cancel, style: "cancel" },
+        {
+          text: "Delete account",
+          style: "destructive",
+          onPress: async () => {
+            if (!supabase) return;
+            setDeleting(true);
+            setDeleteError(null);
+            const { error } = await supabase.rpc("delete_own_account");
+            if (error) {
+              setDeleteError(authErrorMessage(error));
+              setDeleting(false);
+              return;
+            }
+            await supabase.auth.signOut({ scope: "local" });
+            await clearAll();
+            router.replace("/language");
+          },
+        },
+      ],
+    );
+  }
+
+  function confirmSignOut() {
+    Alert.alert(
+      "Sign out and reset this device?",
+      "All progress and preferences stored on this device will be removed. Your synced cloud progress will remain.",
+      [
+        { text: t.cancel, style: "cancel" },
+        {
+          text: t.signOut,
+          style: "destructive",
+          onPress: async () => {
+            if (!supabase) return;
+            const { error } = await supabase.auth.signOut({ scope: "local" });
+            if (error) {
+              setDeleteError(authErrorMessage(error));
+              return;
+            }
+            await clearAll();
+            router.replace("/language");
+          },
+        },
+      ],
+    );
+  }
 
   if (loading) {
     return (
@@ -56,7 +113,9 @@ export default function Profile() {
             {statusLabel}
           </Text>
         </Card>
-        <Button label={t.signOut} variant="ghost" onPress={() => supabase?.auth.signOut()} />
+        {deleteError ? <Notice tone="warn">{deleteError}</Notice> : null}
+        <Button label={t.signOut} variant="ghost" onPress={confirmSignOut} />
+        <Button label="Delete account" variant="ghost" onPress={confirmDelete} disabled={deleting} />
       </View>
     </View>
   );

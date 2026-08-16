@@ -3,7 +3,7 @@ import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { SideMenuProvider } from "@/side-menu";
 import { StoreProvider } from "@/storage";
-import { SyncEngine } from "@/sync";
+import { SessionProvider, SyncEngine } from "@/sync";
 
 /**
  * Headers are drawn by each screen itself (see @/header) rather than the
@@ -21,12 +21,14 @@ export default function RootLayout() {
   return (
     <SafeAreaProvider>
       <StoreProvider>
-        <SyncEngine>
-          <SideMenuProvider>
-            <StatusBar style="auto" />
-            <Navigator />
-          </SideMenuProvider>
-        </SyncEngine>
+        <SessionProvider>
+          <SyncEngine>
+            <SideMenuProvider>
+              <StatusBar style="auto" />
+              <Navigator />
+            </SideMenuProvider>
+          </SyncEngine>
+        </SessionProvider>
       </StoreProvider>
     </SafeAreaProvider>
   );

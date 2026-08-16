@@ -3,7 +3,16 @@ import { createContext, createElement, useContext, useEffect, useRef, useState, 
 import { useStore } from "./storage";
 import { supabase } from "./supabase";
 
+type SessionState = { session: Session | null; loading: boolean };
+const SessionCtx = createContext<SessionState | null>(null);
+
 export function useSession() {
+  const value = useContext(SessionCtx);
+  if (!value) throw new Error("useSession must be used inside <SessionProvider>");
+  return value;
+}
+
+export function SessionProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -12,15 +21,24 @@ export function useSession() {
       setLoading(false);
       return;
     }
+    let active = true;
     supabase.auth.getSession().then(({ data }) => {
+      if (!active) return;
       setSession(data.session);
       setLoading(false);
     });
-    const { data: sub } = supabase.auth.onAuthStateChange((_event, s) => setSession(s));
-    return () => sub.subscription.unsubscribe();
+    const { data: sub } = supabase.auth.onAuthStateChange((_event, nextSession) => {
+      if (!active) return;
+      setSession(nextSession);
+      setLoading(false);
+    });
+    return () => {
+      active = false;
+      sub.subscription.unsubscribe();
+    };
   }, []);
 
-  return { session, loading };
+  return createElement(SessionCtx.Provider, { value: { session, loading } }, children);
 }
 
 type SyncStatus = "idle" | "syncing" | "synced" | "error";

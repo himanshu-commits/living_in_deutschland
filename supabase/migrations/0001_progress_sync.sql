@@ -14,14 +14,17 @@ create table if not exists public.progress (
 
 alter table public.progress enable row level security;
 
+drop policy if exists "select own progress" on public.progress;
 create policy "select own progress"
   on public.progress for select
   using (auth.uid() = user_id);
 
+drop policy if exists "insert own progress" on public.progress;
 create policy "insert own progress"
   on public.progress for insert
   with check (auth.uid() = user_id);
 
+drop policy if exists "update own progress" on public.progress;
 create policy "update own progress"
   on public.progress for update
   using (auth.uid() = user_id)
@@ -37,6 +40,7 @@ begin
 end;
 $$ language plpgsql;
 
+drop trigger if exists progress_set_updated_at on public.progress;
 create trigger progress_set_updated_at
   before update on public.progress
   for each row execute function public.set_updated_at();

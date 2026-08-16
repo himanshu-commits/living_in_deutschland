@@ -30,6 +30,8 @@ type State = {
   saveTest(result: TestResult): Promise<void>;
   record(id: string, correct: boolean): Promise<void>;
   reset(): Promise<void>;
+  /** Removes every app-owned local value, used for privacy-preserving logout. */
+  clearAll(): Promise<void>;
   /** Overwrites local progress with a remote snapshot pulled on sign-in. */
   hydrate(remote: { progress: Progress; marked: string[]; mistakes: string[]; lastTest: TestResult | null }): Promise<void>;
 };
@@ -158,6 +160,26 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       setProgress({});
       setMistakes([]);
       await AsyncStorage.multiRemove([KEY_PROGRESS, KEY_MISTAKES]);
+    },
+    async clearAll() {
+      setLangState(null);
+      setLand(null);
+      setProgress({});
+      setMarked([]);
+      setMistakes([]);
+      setTranslateState(false);
+      setThemeState(null);
+      setLastTest(null);
+      await AsyncStorage.multiRemove([
+        KEY_LANG,
+        KEY_STATE,
+        KEY_PROGRESS,
+        KEY_MARKED,
+        KEY_MISTAKES,
+        KEY_TRANSLATE,
+        KEY_THEME,
+        KEY_LASTTEST,
+      ]);
     },
     async hydrate(remote) {
       setProgress(remote.progress);
