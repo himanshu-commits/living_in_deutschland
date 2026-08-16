@@ -1,3 +1,4 @@
+import { Ionicons } from "@expo/vector-icons";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { FlatList, Modal, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { router } from "expo-router";
@@ -106,7 +107,11 @@ function Speaker({ speaking, onPress }: { speaking: boolean; onPress: () => void
         opacity: pressed ? 0.82 : 1,
       })}
     >
-      <Text style={{ fontSize: 15 }}>{speaking ? "⏹" : "🔊"}</Text>
+      <Ionicons
+        name={speaking ? "stop-circle" : "volume-high-outline"}
+        size={17}
+        color={speaking ? c.accentText : c.textMuted}
+      />
     </Pressable>
   );
 }
