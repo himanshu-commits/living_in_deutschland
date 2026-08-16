@@ -3,6 +3,7 @@ import { createContext, useContext, useRef, useState, type ReactNode } from "rea
 import { Animated, Dimensions, Pressable, StyleSheet, Text, View } from "react-native";
 import { useT } from "./storage";
 import { useSession } from "./sync";
+import { useEntitlement } from "./entitlements";
 import { spacing, type, useColors } from "./theme";
 
 const WIDTH = Math.min(300, Dimensions.get("window").width * 0.8);
@@ -55,8 +56,9 @@ function SideMenu({ x, open, onClose }: { x: Animated.Value; open: boolean; onCl
   const c = useColors();
   const { t } = useT();
   const { session } = useSession();
+  const { isPremium } = useEntitlement();
 
-  function go(path: "/" | "/profile" | "/login" | "/settings" | "/help") {
+  function go(path: "/" | "/profile" | "/login" | "/premium" | "/settings" | "/help") {
     onClose();
     router.push(path);
   }
@@ -98,6 +100,7 @@ function SideMenu({ x, open, onClose }: { x: Animated.Value; open: boolean; onCl
         <View style={{ padding: spacing.lg, gap: spacing.xs }}>
           <MenuItem label={t.homeLabel} onPress={() => go("/")} />
           <MenuItem label={session ? t.profile : t.login} onPress={() => go(session ? "/profile" : "/login")} />
+          <MenuItem label={isPremium ? "★ Premium active" : "☆ Premium"} onPress={() => go("/premium")} />
           <MenuItem label={t.settings} onPress={() => go("/settings")} />
           <MenuItem label={t.help} onPress={() => go("/help")} />
         </View>

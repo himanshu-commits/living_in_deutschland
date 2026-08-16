@@ -1,12 +1,15 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Alert, ScrollView, Text, View } from "react-native";
 import { Redirect, router } from "expo-router";
-import { Button, Card, Label, Option, ProgressBar } from "@/components";
+import { Button, Card, Label, Notice, Option, ProgressBar } from "@/components";
+import { useEntitlement } from "@/entitlements";
+import { FREE_EXAMS_TOTAL, useFreeExamAccess } from "@/exam-limits";
 import { HeaderBackButton, ScreenHeader } from "@/header";
 import { Illustration, ImageOptions } from "@/media";
 import { EXAM, examPaper, shuffledOptionIndices, type Question } from "@/questions";
 import { useStore, useT } from "@/storage";
 import { layout, spacing, type, useColors } from "@/theme";
+import { useAds } from "@/ads";
 
 function mmss(seconds: number) {
   const m = Math.floor(seconds / 60);
@@ -18,6 +21,9 @@ export default function Exam() {
   const c = useColors();
   const { t } = useT();
   const { ready, state, record, saveTest } = useStore();
+  const { isPremium, status: entitlementStatus } = useEntitlement();
+  const { showInterstitial } = useAds();
+  const examAccess = useFreeExamAccess(isPremium, entitlementStatus === "loading" || !ready || !state);
   const paper = useMemo<Question[]>(() => (state ? examPaper(state) : []), [state]);
 
   const [at, setAt] = useState(0);
@@ -30,10 +36,10 @@ export default function Exam() {
   const optionOrder = useMemo(() => shuffledOptionIndices(q?.options.length ?? 0), [q?.id, at]);
 
   useEffect(() => {
-    if (done) return;
+    if (done || examAccess.state !== "allowed") return;
     const t = setInterval(() => setLeft((s) => Math.max(0, s - 1)), 1000);
     return () => clearInterval(t);
-  }, [done]);
+  }, [done, examAccess.state]);
 
   // time up ends the exam; doing this in its own effect keeps the tick pure
   useEffect(() => {
@@ -52,10 +58,30 @@ export default function Exam() {
     });
   }, [done]);
 
-  if (!ready) return <View style={{ flex: 1, backgroundColor: c.bg }} />;
+  if (!ready || examAccess.state === "checking") return <View style={{ flex: 1, backgroundColor: c.bg }} />;
   if (!state) return <Redirect href="/bundesland" />;
 
+  if (examAccess.state === "blocked") {
+    return (
+      <View style={{ flex: 1, backgroundColor: c.bg }}>
+        <ScreenHeader title={t.test} />
+        <View style={{ padding: spacing.lg, gap: spacing.lg }}>
+          <Notice tone="info">
+            You have used all {FREE_EXAMS_TOTAL} free mock exams. Premium includes unlimited mock exams.
+          </Notice>
+          <Button label="See Premium" onPress={() => router.push({ pathname: "/premium", params: { feature: "unlimited_exams" } })} />
+          <Button label={t.back} variant="ghost" onPress={() => router.replace("/")} />
+        </View>
+      </View>
+    );
+  }
+
   const correct = paper.filter((q, i) => answers[i] === q.answer).length;
+
+  async function leaveResults() {
+    await showInterstitial();
+    router.replace("/");
+  }
 
   if (done) {
     const passed = correct >= EXAM.pass;
@@ -64,7 +90,7 @@ export default function Exam() {
         <ScreenHeader
           title={t.test}
           menu={false}
-          left={<HeaderBackButton label={t.back} onPress={() => router.replace("/")} />}
+          left={<HeaderBackButton label={t.back} onPress={leaveResults} />}
         />
         <ScrollView
           style={{ flex: 1 }}
@@ -109,7 +135,7 @@ export default function Exam() {
           );
         })}
 
-        <Button label="Zurück" onPress={() => router.replace("/")} />
+        <Button label="Zurück" onPress={leaveResults} />
         </ScrollView>
       </View>
     );

@@ -2,6 +2,8 @@ import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { SideMenuProvider } from "@/side-menu";
+import { EntitlementProvider } from "@/entitlements";
+import { AdProvider } from "@/ads";
 import { StoreProvider } from "@/storage";
 import { SessionProvider, SyncEngine } from "@/sync";
 
@@ -22,12 +24,16 @@ export default function RootLayout() {
     <SafeAreaProvider>
       <StoreProvider>
         <SessionProvider>
-          <SyncEngine>
-            <SideMenuProvider>
-              <StatusBar style="auto" />
-              <Navigator />
-            </SideMenuProvider>
-          </SyncEngine>
+          <EntitlementProvider>
+            <AdProvider>
+              <SyncEngine>
+                <SideMenuProvider>
+                  <StatusBar style="auto" />
+                  <Navigator />
+                </SideMenuProvider>
+              </SyncEngine>
+            </AdProvider>
+          </EntitlementProvider>
         </SessionProvider>
       </StoreProvider>
     </SafeAreaProvider>

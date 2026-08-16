@@ -44,6 +44,7 @@ const KEY_MISTAKES = "lid.mistakes";
 const KEY_TRANSLATE = "lid.translate";
 const KEY_THEME = "lid.theme";
 const KEY_LASTTEST = "lid.lasttest";
+const KEY_PREMIUM_CACHE = "lid.entitlement.premium";
 
 const Ctx = createContext<State | null>(null);
 
@@ -179,6 +180,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         KEY_TRANSLATE,
         KEY_THEME,
         KEY_LASTTEST,
+        KEY_PREMIUM_CACHE,
       ]);
     },
     async hydrate(remote) {

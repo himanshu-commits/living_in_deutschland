@@ -6,6 +6,9 @@ import { ScreenHeader } from "@/header";
 import { BUNDESLAND_CODES, EXAM, poolFor } from "@/questions";
 import { useStore, useT } from "@/storage";
 import { layout, radius, spacing, type, useColors } from "@/theme";
+import { useFreeExamRemaining } from "@/exam-limits";
+import { AdBanner } from "@/ads";
+import { useEntitlement } from "@/entitlements";
 
 function Tile({
   title,
@@ -119,6 +122,8 @@ export default function Home() {
   const c = useColors();
   const { ready, lang, state, marked, mistakes, lastTest, progress } = useStore();
   const { t, fill } = useT();
+  const { isPremium, status: entitlementStatus } = useEntitlement();
+  const freeExamsRemaining = useFreeExamRemaining(isPremium, entitlementStatus === "loading");
 
   if (!ready) return <View style={{ flex: 1, backgroundColor: c.bg }} />;
   // language decides the whole interface, so it is asked before anything else
@@ -212,7 +217,7 @@ export default function Home() {
       />
       <Tile
         title={t.test}
-        note={t.testNote}
+        note={`${t.testNote} · ${isPremium ? "Unlimited with Premium" : `${freeExamsRemaining ?? 0} free ${freeExamsRemaining === 1 ? "attempt" : "attempts"} left`}`}
         count="→"
         filled
         onPress={() => router.push("/exam")}
@@ -232,6 +237,7 @@ export default function Home() {
           onPress={() => router.push("/marked")}
         />
       </View>
+      <AdBanner />
       </ScrollView>
     </View>
   );
