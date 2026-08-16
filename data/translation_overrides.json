@@ -1,5 +1,4147 @@
 {
  "_note": "Question translations for languages the two source datasets (flexsurfer, lid) do not cover. Machine-translated from the German, not cross-checked by a native speaker the way answers are. Always wins over anything build_dataset.py finds from the scrapers, mirroring overrides.json for answers. Keyed by language code, then question id.",
+ "pl": {
+  "ALL-001": {
+   "question": "W Niemczech ludzie mogą otwarcie mówić coś przeciwko rządowi, ponieważ …",
+   "options": [
+    "obowiązuje tu wolność religijna.",
+    "ludzie płacą podatki.",
+    "ludzie mają prawo wyborcze.",
+    "obowiązuje tu wolność słowa."
+   ]
+  },
+  "ALL-002": {
+   "question": "W Niemczech rodzice mogą do ukończenia przez dziecko 14. roku życia decydować, czy będzie ono w szkole uczestniczyć w …",
+   "options": [
+    "lekcjach historii.",
+    "lekcjach religii.",
+    "lekcjach polityki.",
+    "lekcjach języka."
+   ]
+  },
+  "ALL-003": {
+   "question": "Niemcy są państwem prawa. Co to oznacza?",
+   "options": [
+    "Wszyscy mieszkańcy i państwo muszą przestrzegać ustaw.",
+    "Państwo nie musi przestrzegać ustaw.",
+    "Tylko Niemcy muszą przestrzegać ustaw.",
+    "Sądy tworzą ustawy."
+   ]
+  },
+  "ALL-004": {
+   "question": "Które prawo należy do praw podstawowych w Niemczech?",
+   "options": [
+    "posiadanie broni",
+    "prawo pięści",
+    "wolność słowa",
+    "samosąd"
+   ]
+  },
+  "ALL-005": {
+   "question": "Wybory w Niemczech są wolne. Co to oznacza?",
+   "options": [
+    "Można przyjąć pieniądze za głosowanie na określonego kandydata/określoną kandydatkę.",
+    "Wybierać mogą tylko osoby, które nigdy nie były w więzieniu.",
+    "Wyborczyni/wyborca nie może być podczas wyborów w żaden sposób wpływana/wpływany ani zmuszana/zmuszany do konkretnego głosu i nie może ponosić żadnych negatywnych konsekwencji z powodu wyborów.",
+    "Wszystkie osoby uprawnione do głosowania muszą głosować."
+   ]
+  },
+  "ALL-006": {
+   "question": "Jak nazywa się niemiecka konstytucja?",
+   "options": [
+    "Ustawa Ludowa",
+    "Ustawa Federalna",
+    "Ustawa Niemiecka",
+    "Ustawa Zasadnicza"
+   ]
+  },
+  "ALL-007": {
+   "question": "Które prawo należy do praw podstawowych gwarantowanych przez niemiecką konstytucję? Prawo do …",
+   "options": [
+    "wolności wyznania i sumienia",
+    "rozrywki",
+    "pracy",
+    "mieszkania"
+   ]
+  },
+  "ALL-008": {
+   "question": "Czego nie ma w niemieckiej Ustawie Zasadniczej?",
+   "options": [
+    "Godność człowieka jest nienaruszalna.",
+    "Wszyscy powinni mieć tyle samo pieniędzy.",
+    "Każdy człowiek może wyrażać swoją opinię.",
+    "Wszyscy są równi wobec prawa."
+   ]
+  },
+  "ALL-009": {
+   "question": "Które prawo podstawowe obowiązuje w Niemczech tylko cudzoziemki/cudzoziemców? Prawo podstawowe do …",
+   "options": [
+    "ochrony rodziny",
+    "godności ludzkiej",
+    "azylu",
+    "wolności słowa"
+   ]
+  },
+  "ALL-010": {
+   "question": "Co jest zgodne z niemiecką Ustawą Zasadniczą?",
+   "options": [
+    "kara chłosty",
+    "tortury",
+    "kara śmierci",
+    "kara grzywny"
+   ]
+  },
+  "ALL-011": {
+   "question": "Jak nazywana jest konstytucja Republiki Federalnej Niemiec?",
+   "options": [
+    "Ustawa Zasadnicza",
+    "Konstytucja Federalna",
+    "Kodeks Ustaw",
+    "Traktat Konstytucyjny"
+   ]
+  },
+  "ALL-012": {
+   "question": "Pewna partia w niemieckim Bundestagu chce znieść wolność prasy. Czy to możliwe?",
+   "options": [
+    "Tak, jeśli za tym opowie się więcej niż połowa deputowanych w Bundestagu.",
+    "Tak, ale musi za tym opowiedzieć się dwie trzecie deputowanych w Bundestagu.",
+    "Nie, ponieważ wolność prasy jest prawem podstawowym. Nie można jej znieść.",
+    "Nie, ponieważ tylko Bundesrat może znieść wolność prasy."
+   ]
+  },
+  "ALL-013": {
+   "question": "W parlamencie pojęcie „opozycja” oznacza …",
+   "options": [
+    "partie rządzące.",
+    "frakcję z największą liczbą deputowanych.",
+    "wszystkie partie, które w ostatnich wyborach przekroczyły próg 5%.",
+    "wszystkich deputowanych, którzy nie należą do partii rządzącej/partii rządzących."
+   ]
+  },
+  "ALL-014": {
+   "question": "Wolność słowa w Niemczech oznacza, że mogę …",
+   "options": [
+    "obrażać przechodniów na ulicy.",
+    "wyrażać swoją opinię w internecie.",
+    "publicznie nosić symbole nazistowskie, Hamasu lub Państwa Islamskiego.",
+    "wyrażać swoją opinię tylko wtedy, gdy nie sprzeciwiam się rządowi."
+   ]
+  },
+  "ALL-015": {
+   "question": "Co zakazuje niemiecka Ustawa Zasadnicza?",
+   "options": [
+    "służby wojskowej",
+    "pracy przymusowej",
+    "swobodnego wyboru zawodu",
+    "pracy za granicą"
+   ]
+  },
+  "ALL-016": {
+   "question": "Kiedy wolność słowa w Niemczech jest ograniczona?",
+   "options": [
+    "przy publicznym rozpowszechnianiu fałszywych twierdzeń o poszczególnych osobach",
+    "przy wypowiadaniu opinii na temat rządu federalnego",
+    "przy dyskusjach o religiach",
+    "przy krytyce państwa"
+   ]
+  },
+  "ALL-017": {
+   "question": "Niemieckie ustawy zakazują …",
+   "options": [
+    "wolności słowa mieszkanek i mieszkańców.",
+    "petycji obywatelek i obywateli.",
+    "wolności zgromadzeń mieszkanek i mieszkańców.",
+    "nierównego traktowania obywatelek i obywateli przez państwo."
+   ]
+  },
+  "ALL-018": {
+   "question": "Które prawo podstawowe jest gwarantowane w Artykule 1 Ustawy Zasadniczej Republiki Federalnej Niemiec?",
+   "options": [
+    "nienaruszalność godności ludzkiej",
+    "prawo do życia",
+    "wolność religijna",
+    "wolność słowa"
+   ]
+  },
+  "ALL-019": {
+   "question": "Co rozumie się pod pojęciem prawa do „swobody przemieszczania się” w Niemczech?",
+   "options": [
+    "Można samodzielnie wybrać swoje miejsce zamieszkania.",
+    "Można zmienić zawód.",
+    "Można wybrać inną religię.",
+    "Można poruszać się w miejscach publicznych tylko w lekkim ubraniu."
+   ]
+  },
+  "ALL-020": {
+   "question": "Pewna partia w Niemczech dąży do ustanowienia dyktatury. Jest wtedy …",
+   "options": [
+    "tolerancyjna.",
+    "zorientowana na państwo prawa.",
+    "praworządna.",
+    "niezgodna z konstytucją."
+   ]
+  },
+  "ALL-021": {
+   "question": "Które jest godłem Republiki Federalnej Niemiec? Obraz 1 Obraz 2 Obraz 3 Obraz 4",
+   "options": [
+    "Obraz 1",
+    "Obraz 2",
+    "Obraz 3",
+    "Obraz 4"
+   ]
+  },
+  "ALL-022": {
+   "question": "Jaki ustrój ma Republika Federalna Niemiec?",
+   "options": [
+    "monarchia",
+    "dyktatura",
+    "republika",
+    "księstwo"
+   ]
+  },
+  "ALL-023": {
+   "question": "W Niemczech większość osób pracujących jest …",
+   "options": [
+    "zatrudniona w małych firmach rodzinnych.",
+    "działa społecznie na rzecz kraju związkowego.",
+    "prowadzi samodzielnie własną firmę.",
+    "zatrudniona w firmie lub urzędzie."
+   ]
+  },
+  "ALL-024": {
+   "question": "Ile krajów związkowych ma Republika Federalna Niemiec?",
+   "options": [
+    "14",
+    "15",
+    "16",
+    "17"
+   ]
+  },
+  "ALL-025": {
+   "question": "Co nie jest krajem związkowym Republiki Federalnej Niemiec?",
+   "options": [
+    "Alzacja-Lotaryngia",
+    "Nadrenia Północna-Westfalia",
+    "Meklemburgia-Pomorze Przednie",
+    "Saksonia-Anhalt"
+   ]
+  },
+  "ALL-026": {
+   "question": "Niemcy są …",
+   "options": [
+    "republiką komunistyczną.",
+    "demokratycznym i socjalnym państwem federalnym.",
+    "kapitalistyczną i socjalną monarchią.",
+    "socjalnym i socjalistycznym państwem federalnym."
+   ]
+  },
+  "ALL-027": {
+   "question": "Niemcy są …",
+   "options": [
+    "państwem socjalistycznym.",
+    "państwem federalnym.",
+    "dyktaturą.",
+    "monarchią."
+   ]
+  },
+  "ALL-028": {
+   "question": "Kto w Niemczech wybiera deputowanych do Bundestagu?",
+   "options": [
+    "wojsko",
+    "gospodarka",
+    "uprawniony do głosowania naród",
+    "administracja"
+   ]
+  },
+  "ALL-029": {
+   "question": "Które zwierzę jest zwierzęciem heraldycznym Republiki Federalnej Niemiec?",
+   "options": [
+    "lew",
+    "orzeł",
+    "niedźwiedź",
+    "koń"
+   ]
+  },
+  "ALL-030": {
+   "question": "Co nie jest cechą naszej demokracji?",
+   "options": [
+    "regularne wybory",
+    "cenzura prasy",
+    "wolność słowa",
+    "różne partie"
+   ]
+  },
+  "ALL-031": {
+   "question": "Współpracę partii w celu utworzenia rządu nazywa się w Niemczech …",
+   "options": [
+    "jednością.",
+    "koalicją.",
+    "ministerstwem.",
+    "frakcją."
+   ]
+  },
+  "ALL-032": {
+   "question": "Co nie jest władzą państwową w Niemczech?",
+   "options": [
+    "władza ustawodawcza",
+    "rząd",
+    "prasa",
+    "władza sądownicza"
+   ]
+  },
+  "ALL-033": {
+   "question": "Które stwierdzenie jest prawdziwe? W Niemczech …",
+   "options": [
+    "państwo i wspólnoty religijne są od siebie rozdzielone.",
+    "wspólnoty religijne tworzą państwo.",
+    "państwo jest zależne od wspólnot religijnych.",
+    "państwo i wspólnoty religijne tworzą jedność."
+   ]
+  },
+  "ALL-034": {
+   "question": "Czym Niemcy nie są?",
+   "options": [
+    "demokracją",
+    "państwem prawa",
+    "monarchią",
+    "państwem socjalnym"
+   ]
+  },
+  "ALL-035": {
+   "question": "Z czego niemieckie państwo finansuje ubezpieczenia społeczne?",
+   "options": [
+    "podatek kościelny",
+    "składki na ubezpieczenia społeczne",
+    "darowizny",
+    "składki członkowskie stowarzyszeń"
+   ]
+  },
+  "ALL-036": {
+   "question": "Który środek zapewnia w Niemczech bezpieczeństwo socjalne?",
+   "options": [
+    "ubezpieczenie zdrowotne",
+    "ubezpieczenie samochodowe",
+    "ubezpieczenie budynku",
+    "ubezpieczenie odpowiedzialności cywilnej"
+   ]
+  },
+  "ALL-037": {
+   "question": "Jak nazywa się szefowe/szefów rządów większości krajów związkowych w Niemczech?",
+   "options": [
+    "pierwsza ministra/pierwszy minister",
+    "premierka/premier",
+    "senatorka/senator",
+    "premierka kraju związkowego/premier kraju związkowego"
+   ]
+  },
+  "ALL-038": {
+   "question": "Republika Federalna Niemiec jest demokratycznym i socjalnym …",
+   "options": [
+    "związkiem państw.",
+    "państwem federalnym.",
+    "konfederacją państw.",
+    "państwem scentralizowanym."
+   ]
+  },
+  "ALL-039": {
+   "question": "Co ma każdy niemiecki kraj związkowy?",
+   "options": [
+    "własną minister/własnego ministra spraw zagranicznych",
+    "własną walutę",
+    "własną armię",
+    "własny rząd"
+   ]
+  },
+  "ALL-040": {
+   "question": "Jakimi słowami zaczyna się niemiecki hymn narodowy?",
+   "options": [
+    "Narody, słuchajcie sygnałów …",
+    "Jedność i prawo, i wolność …",
+    "Radości, iskro bogów …",
+    "Niemcy, zjednoczona ojczyzno …"
+   ]
+  },
+  "ALL-041": {
+   "question": "Dlaczego w demokracji istnieje więcej niż jedna partia?",
+   "options": [
+    "ponieważ dzięki temu reprezentowane są różne opinie obywatelek i obywateli",
+    "aby ograniczyć korupcję w polityce",
+    "aby zapobiec demonstracjom politycznym",
+    "aby pobudzić konkurencję gospodarczą"
+   ]
+  },
+  "ALL-042": {
+   "question": "Kto uchwala w Niemczech nową ustawę?",
+   "options": [
+    "rząd",
+    "parlament",
+    "sądy",
+    "policja"
+   ]
+  },
+  "ALL-043": {
+   "question": "Kiedy w Niemczech partia może zostać zdelegalizowana?",
+   "options": [
+    "gdy jej kampania wyborcza jest zbyt droga",
+    "gdy walczy przeciwko konstytucji",
+    "gdy krytykuje głowę państwa",
+    "gdy jej program proponuje nowy kierunek"
+   ]
+  },
+  "ALL-044": {
+   "question": "Kogo obywatelka/obywatel w Niemczech nie może wybrać bezpośrednio?",
+   "options": [
+    "deputowanych do Parlamentu Europejskiego",
+    "prezydentki federalnej/prezydenta federalnego",
+    "deputowanych do landtagu",
+    "deputowanych do Bundestagu"
+   ]
+  },
+  "ALL-045": {
+   "question": "Do którego ubezpieczenia należy ubezpieczenie pielęgnacyjne?",
+   "options": [
+    "ubezpieczenie społeczne",
+    "ubezpieczenie wypadkowe",
+    "ubezpieczenie mienia domowego",
+    "ubezpieczenie odpowiedzialności cywilnej i od ognia"
+   ]
+  },
+  "ALL-046": {
+   "question": "Niemieckie państwo ma wiele zadań. Które zadanie do nich należy?",
+   "options": [
+    "Buduje drogi i szkoły.",
+    "Sprzedaje żywność i odzież.",
+    "Zaopatruje wszystkich mieszkańców bezpłatnie w gazety.",
+    "Produkuje samochody i autobusy."
+   ]
+  },
+  "ALL-047": {
+   "question": "Niemieckie państwo ma wiele zadań. Które zadanie do nich nie należy?",
+   "options": [
+    "Opłaca wszystkim obywatelom wyjazdy wakacyjne.",
+    "Wypłaca zasiłek na dziecko.",
+    "Wspiera muzea.",
+    "Wspiera sportsmenki i sportowców."
+   ]
+  },
+  "ALL-048": {
+   "question": "Który organ nie należy do organów konstytucyjnych Niemiec?",
+   "options": [
+    "Bundesrat",
+    "prezydentka federalna/prezydent federalny",
+    "zgromadzenie obywatelskie",
+    "rząd"
+   ]
+  },
+  "ALL-049": {
+   "question": "Kto ustala w Niemczech politykę szkolną?",
+   "options": [
+    "nauczycielki i nauczyciele",
+    "kraje związkowe",
+    "ministerstwo do spraw rodziny",
+    "uniwersytety"
+   ]
+  },
+  "ALL-050": {
+   "question": "Formę gospodarki w Niemczech nazywa się …",
+   "options": [
+    "wolną gospodarką centralnie planowaną.",
+    "społeczną gospodarką rynkową.",
+    "sterowaną gospodarką centralną.",
+    "gospodarką planową."
+   ]
+  },
+  "ALL-051": {
+   "question": "Do demokratycznego państwa prawa nie należy to, że …",
+   "options": [
+    "ludzie mogą krytycznie wypowiadać się o rządzie.",
+    "obywatele mogą pokojowo demonstrować.",
+    "ludzie są zatrzymywani bez powodu przez prywatną policję.",
+    "ktoś popełnia przestępstwo i dlatego zostaje zatrzymany."
+   ]
+  },
+  "ALL-052": {
+   "question": "Co oznacza „suwerenność narodu”? Cała władza państwowa pochodzi od …",
+   "options": [
+    "narodu.",
+    "Bundestagu.",
+    "króla pruskiego.",
+    "Federalnego Trybunału Konstytucyjnego."
+   ]
+  },
+  "ALL-053": {
+   "question": "Co oznacza „państwo prawa” w Niemczech?",
+   "options": [
+    "Państwo ma rację.",
+    "Istnieją tylko partie prawicowe.",
+    "Obywatelki i obywatele decydują o ustawach.",
+    "Państwo musi przestrzegać ustaw."
+   ]
+  },
+  "ALL-054": {
+   "question": "Co nie jest władzą państwową w Niemczech?",
+   "options": [
+    "władza ustawodawcza",
+    "władza sądownicza",
+    "władza wykonawcza",
+    "władza dyrektywna"
+   ]
+  },
+  "ALL-055": {
+   "question": "Co przedstawia to zdjęcie? © Deutscher Bundestag/Achim Melde",
+   "options": [
+    "siedzibę Bundestagu w Berlinie",
+    "Federalny Trybunał Konstytucyjny w Karlsruhe",
+    "budynek Bundesratu w Berlinie",
+    "Urząd Kanclerski w Berlinie"
+   ]
+  },
+  "ALL-056": {
+   "question": "Który urząd należy w Niemczech do administracji gminnej?",
+   "options": [
+    "urząd parafialny",
+    "urząd porządkowy",
+    "urząd skarbowy",
+    "urząd spraw zagranicznych"
+   ]
+  },
+  "ALL-057": {
+   "question": "Kto zazwyczaj zostaje wybrany na przewodniczącą/przewodniczącego niemieckiego Bundestagu?",
+   "options": [
+    "najstarsza/najstarszy deputowana/deputowany w parlamencie",
+    "premierka/premier największego kraju związkowego",
+    "była kanclerz federalna/były kanclerz federalny",
+    "deputowana/deputowany z najsilniejszej frakcji"
+   ]
+  },
+  "ALL-058": {
+   "question": "Kto mianuje w Niemczech ministrów rządu federalnego?",
+   "options": [
+    "prezeska/prezes Federalnego Trybunału Konstytucyjnego",
+    "prezydentka federalna/prezydent federalny",
+    "przewodnicząca/przewodniczący Bundesratu",
+    "przewodnicząca/przewodniczący Bundestagu"
+   ]
+  },
+  "ALL-059": {
+   "question": "Ile lat temu po raz pierwszy istniała gmina żydowska na terenie dzisiejszych Niemiec?",
+   "options": [
+    "około 300 lat temu",
+    "około 700 lat temu",
+    "około 1150 lat temu",
+    "około 1700 lat temu"
+   ]
+  },
+  "ALL-060": {
+   "question": "W Niemczech Bundestag i Bundesrat należą do …",
+   "options": [
+    "władzy wykonawczej.",
+    "władzy ustawodawczej.",
+    "władzy dyrektywnej.",
+    "władzy sądowniczej."
+   ]
+  },
+  "ALL-061": {
+   "question": "Co oznacza „suwerenność narodu”?",
+   "options": [
+    "Królowa/król panuje nad narodem.",
+    "Federalny Trybunał Konstytucyjny stoi ponad konstytucją.",
+    "Grupy interesu sprawują suwerenność wspólnie z rządem.",
+    "Władza państwowa pochodzi od narodu."
+   ]
+  },
+  "ALL-062": {
+   "question": "Gdy wybierany jest parlament niemieckiego kraju związkowego, nazywa się to …",
+   "options": [
+    "wyborami komunalnymi",
+    "wyborami do landtagu",
+    "wyborami europejskimi",
+    "wyborami do Bundestagu"
+   ]
+  },
+  "ALL-063": {
+   "question": "Co w Niemczech nie należy do władzy wykonawczej?",
+   "options": [
+    "policja",
+    "sądy",
+    "urząd skarbowy",
+    "ministerstwa"
+   ]
+  },
+  "ALL-064": {
+   "question": "Republika Federalna Niemiec jest dziś podzielona na …",
+   "options": [
+    "cztery strefy okupacyjne.",
+    "państwo wschodnie i państwo zachodnie.",
+    "16 kantonów.",
+    "federację, kraje związkowe i gminy."
+   ]
+  },
+  "ALL-065": {
+   "question": "Do zadań niemieckiego Bundestagu nie należy …",
+   "options": [
+    "opracowywanie projektów ustaw.",
+    "kontrolowanie rządu federalnego.",
+    "wybieranie kanclerz federalnej/kanclerza federalnego.",
+    "tworzenie gabinetu federalnego."
+   ]
+  },
+  "ALL-066": {
+   "question": "Które miasta mają największe gminy żydowskie w Niemczech?",
+   "options": [
+    "Berlin i Monachium",
+    "Hamburg i Essen",
+    "Norymberga i Stuttgart",
+    "Worms i Spira"
+   ]
+  },
+  "ALL-067": {
+   "question": "Co w Niemczech należy przede wszystkim do zadań krajów związkowych?",
+   "options": [
+    "polityka obronna",
+    "polityka zagraniczna",
+    "polityka gospodarcza",
+    "polityka szkolna"
+   ]
+  },
+  "ALL-068": {
+   "question": "Dlaczego państwo w Niemczech kontroluje system szkolnictwa?",
+   "options": [
+    "ponieważ w Niemczech istnieją tylko szkoły państwowe",
+    "ponieważ wszyscy uczniowie i uczennice muszą mieć ukończoną szkołę",
+    "ponieważ w krajach związkowych istnieją różne szkoły",
+    "ponieważ zgodnie z Ustawą Zasadniczą jest to jego zadanie"
+   ]
+  },
+  "ALL-069": {
+   "question": "Republika Federalna Niemiec ma trójstopniową strukturę administracyjną. Jak nazywa się najniższy szczebel polityczny?",
+   "options": [
+    "rady miejskie",
+    "starostowie powiatowi",
+    "gminy",
+    "urzędy dzielnicowe"
+   ]
+  },
+  "ALL-070": {
+   "question": "Niemiecki prezydent federalny Gustav Heinemann wręcza w 1974 roku Helmutowi Schmidtowi akt powołania na niemieckiego kanclerza federalnego. Co należy do zadań niemieckiej prezydentki federalnej/niemieckiego prezydenta federalnego? © Bundesregierung/Engelbert Reineke",
+   "options": [
+    "Prowadzi sprawy rządowe.",
+    "Kontroluje partię rządzącą.",
+    "Wybiera ministrów.",
+    "Proponuje kandydatkę/kandydata na kanclerza do wyboru."
+   ]
+  },
+  "ALL-071": {
+   "question": "Gdzie najczęściej przebywa niemiecka kanclerz federalna/niemiecki kanclerz federalny? Najczęściej przebywa …",
+   "options": [
+    "w Bonn, ponieważ tam znajdują się Urząd Kanclerski i Bundestag.",
+    "w zamku Meseberg, domu gościnnym rządu federalnego, aby przyjmować gości państwowych.",
+    "w zamku Bellevue, siedzibie prezydentki federalnej/prezydenta federalnego, aby przyjmować gości państwowych.",
+    "w Berlinie, ponieważ tam znajdują się Urząd Kanclerski i Bundestag."
+   ]
+  },
+  "ALL-072": {
+   "question": "Jak nazywa się obecna kanclerz federalna/obecny kanclerz federalny Niemiec?",
+   "options": [
+    "Gerhard Schröder",
+    "Angela Merkel",
+    "Ursula von der Leyen",
+    "Friedrich Merz"
+   ]
+  },
+  "ALL-073": {
+   "question": "Dwie największe frakcje w niemieckim Bundestagu nazywają się obecnie …",
+   "options": [
+    "CDU/CSU i AfD.",
+    "Die Linke i Bündnis 90/Die Grünen.",
+    "Bündnis 90/Die Grünen i SPD.",
+    "Die Linke i CDU/CSU."
+   ]
+  },
+  "ALL-074": {
+   "question": "Jak nazywa się parlament dla całych Niemiec?",
+   "options": [
+    "Zgromadzenie Federalne",
+    "Izba Ludowa",
+    "Bundestag",
+    "Federalny Trybunał Sprawiedliwości"
+   ]
+  },
+  "ALL-075": {
+   "question": "Jak nazywa się obecna głowa państwa Niemiec?",
+   "options": [
+    "Frank-Walter Steinmeier",
+    "Bärbel Bas",
+    "Bodo Ramelow",
+    "Joachim Gauck"
+   ]
+  },
+  "ALL-076": {
+   "question": "Co oznacza skrót CDU w Niemczech?",
+   "options": [
+    "Chrześcijańska Unia Niemiecka",
+    "Klub Niemieckich Przedsiębiorców",
+    "Chrześcijańska Niemiecka Ochrona Środowiska",
+    "Unia Chrześcijańsko-Demokratyczna"
+   ]
+  },
+  "ALL-077": {
+   "question": "Czym jest Bundeswehra?",
+   "options": [
+    "niemiecką policją",
+    "niemieckim portem",
+    "niemiecką inicjatywą obywatelską",
+    "niemiecką armią"
+   ]
+  },
+  "ALL-078": {
+   "question": "Co oznacza skrót SPD?",
+   "options": [
+    "Socjalistyczna Partia Niemiec",
+    "Socjalno-Polityczna Partia Niemiec",
+    "Socjaldemokratyczna Partia Niemiec",
+    "Sprawiedliwa Socjalnie Partia Niemiec"
+   ]
+  },
+  "ALL-079": {
+   "question": "Co oznacza skrót FDP w Niemczech?",
+   "options": [
+    "Pokojowa Partia Demonstracyjna",
+    "Wolna Partia Niemiec",
+    "Wiodąca Partia Demokratyczna",
+    "Wolna Partia Demokratyczna"
+   ]
+  },
+  "ALL-080": {
+   "question": "Który sąd w Niemczech jest właściwy do interpretacji Ustawy Zasadniczej?",
+   "options": [
+    "Wyższy Sąd Krajowy (Oberlandesgericht)",
+    "Sąd Rejonowy (Amtsgericht)",
+    "Federalny Trybunał Konstytucyjny",
+    "Sąd Administracyjny"
+   ]
+  },
+  "ALL-081": {
+   "question": "Kto wybiera kanclerz/kanclerza federalnego w Niemczech?",
+   "options": [
+    "Bundesrat",
+    "Zgromadzenie Federalne",
+    "naród",
+    "Bundestag"
+   ]
+  },
+  "ALL-082": {
+   "question": "Kto kieruje niemieckim gabinetem federalnym?",
+   "options": [
+    "przewodnicząca/przewodniczący Bundestagu",
+    "prezydentka/prezydent federalny",
+    "przewodnicząca/przewodniczący Bundesratu",
+    "kanclerz/kanclerz federalny"
+   ]
+  },
+  "ALL-083": {
+   "question": "Kto wybiera niemiecką kanclerz/niemieckiego kanclerza federalnego?",
+   "options": [
+    "naród",
+    "Zgromadzenie Federalne",
+    "Bundestag",
+    "rząd federalny"
+   ]
+  },
+  "ALL-084": {
+   "question": "Jakie jest główne zadanie niemieckiej prezydentki/niemieckiego prezydenta federalnego? On/ona…",
+   "options": [
+    "rządzi krajem.",
+    "opracowuje ustawy.",
+    "reprezentuje kraj.",
+    "nadzoruje przestrzeganie ustaw."
+   ]
+  },
+  "ALL-085": {
+   "question": "Kto tworzy niemiecki Bundesrat?",
+   "options": [
+    "posłowie do Bundestagu",
+    "ministrowie rządu federalnego",
+    "przedstawiciele rządów krajów związkowych",
+    "członkowie partii"
+   ]
+  },
+  "ALL-086": {
+   "question": "Kto wybiera w Niemczech prezydentkę/prezydenta federalnego?",
+   "options": [
+    "Zgromadzenie Federalne",
+    "Bundesrat",
+    "Parlament Federalny",
+    "Federalny Trybunał Konstytucyjny"
+   ]
+  },
+  "ALL-087": {
+   "question": "Kto jest głową państwa Republiki Federalnej Niemiec?",
+   "options": [
+    "kanclerz/kanclerz federalny",
+    "prezydentka/prezydent federalny",
+    "przewodnicząca/przewodniczący Bundesratu",
+    "przewodnicząca/przewodniczący Bundestagu"
+   ]
+  },
+  "ALL-088": {
+   "question": "Opozycja parlamentarna w niemieckim Bundestagu…",
+   "options": [
+    "kontroluje rząd.",
+    "decyduje, kto zostanie ministrem federalnym.",
+    "decyduje, kto zasiada w Bundesracie.",
+    "proponuje szefów rządów krajów związkowych."
+   ]
+  },
+  "ALL-089": {
+   "question": "Jak nazywa się w Niemczech zrzeszenie posłów jednej partii w parlamencie?",
+   "options": [
+    "związek",
+    "Rada Seniorów (Ältestenrat)",
+    "frakcja",
+    "opozycja"
+   ]
+  },
+  "ALL-090": {
+   "question": "Niemieckie kraje związkowe uczestniczą w ustawodawstwie federalnym poprzez…",
+   "options": [
+    "Bundesrat.",
+    "Zgromadzenie Federalne.",
+    "Bundestag.",
+    "rząd federalny."
+   ]
+  },
+  "ALL-091": {
+   "question": "W Niemczech zmiana rządu w kraju związkowym może mieć wpływ na politykę federalną. Rządzenie staje się…",
+   "options": [
+    "trudniejsze, jeśli zmienia się przez to większość w Bundestagu.",
+    "łatwiejsze, jeśli dzięki temu nowe partie wchodzą do Bundesratu.",
+    "trudniejsze, jeśli zmienia się przez to większość w Bundesracie.",
+    "łatwiejsze, jeśli chodzi o bogaty kraj związkowy."
+   ]
+  },
+  "ALL-092": {
+   "question": "Co oznacza skrót CSU w Niemczech?",
+   "options": [
+    "Chrześcijańska Bezpieczna Unia",
+    "Chrześcijańska Południowoniemiecka Unia",
+    "Chrześcijański Związek Przedsiębiorców Socjalnych",
+    "Unia Chrześcijańsko-Społeczna"
+   ]
+  },
+  "ALL-093": {
+   "question": "Im więcej \"drugich głosów\" (Zweitstimmen) otrzyma partia w wyborach do Bundestagu, tym…",
+   "options": [
+    "mniej głosów pierwszych może mieć.",
+    "więcej kandydatów bezpośrednich partii wchodzi do parlamentu.",
+    "większe jest ryzyko konieczności utworzenia koalicji.",
+    "więcej miejsc otrzymuje partia w parlamencie."
+   ]
+  },
+  "ALL-094": {
+   "question": "Od jakiego wieku można brać udział w wyborach do niemieckiego Bundestagu?",
+   "options": [
+    "16",
+    "18",
+    "21",
+    "23"
+   ]
+  },
+  "ALL-095": {
+   "question": "Co obowiązuje większość dzieci w Niemczech?",
+   "options": [
+    "obowiązek głosowania",
+    "obowiązek szkolny",
+    "obowiązek zachowania tajemnicy",
+    "obowiązek religijny"
+   ]
+  },
+  "ALL-096": {
+   "question": "Jak można ukarać osobę, która neguje Holokaust?",
+   "options": [
+    "obniżeniem świadczeń socjalnych",
+    "do 100 godzin prac społecznych",
+    "w żaden sposób, negowanie Holokaustu jest dozwolone",
+    "karą pozbawienia wolności do pięciu lat albo grzywną"
+   ]
+  },
+  "ALL-097": {
+   "question": "Co płaci się w Niemczech automatycznie w przypadku zatrudnienia na stałe?",
+   "options": [
+    "ubezpieczenie społeczne",
+    "pomoc społeczną",
+    "zasiłek na dziecko",
+    "dodatek mieszkaniowy"
+   ]
+  },
+  "ALL-098": {
+   "question": "Gdy posłowie w niemieckim Bundestagu zmieniają frakcję…",
+   "options": [
+    "nie mogą już uczestniczyć w posiedzeniach parlamentu.",
+    "rząd może stracić większość.",
+    "prezydentka/prezydent federalny musi wcześniej wyrazić zgodę.",
+    "wyborcy tych posłów mogą jeszcze raz głosować."
+   ]
+  },
+  "ALL-099": {
+   "question": "Kto płaci w Niemczech składki na ubezpieczenia społeczne?",
+   "options": [
+    "pracodawcy i pracownicy",
+    "tylko pracownicy",
+    "wszyscy obywatele",
+    "tylko pracodawcy"
+   ]
+  },
+  "ALL-100": {
+   "question": "Co nie należy do ustawowego ubezpieczenia społecznego?",
+   "options": [
+    "ubezpieczenie na życie",
+    "ustawowe ubezpieczenie emerytalne",
+    "ubezpieczenie na wypadek bezrobocia",
+    "ubezpieczenie pielęgnacyjne"
+   ]
+  },
+  "ALL-101": {
+   "question": "Związki zawodowe są organizacjami reprezentującymi interesy…",
+   "options": [
+    "młodzieży.",
+    "pracownic i pracowników.",
+    "emerytek i emerytów.",
+    "pracodawczyń i pracodawców."
+   ]
+  },
+  "ALL-102": {
+   "question": "Czym można zostać uhonorowanym w Republice Federalnej Niemiec za szczególne osiągnięcia w dziedzinie polityki, gospodarki, kultury, nauki lub spraw społecznych?",
+   "options": [
+    "Federalnym Krzyżem Zasługi",
+    "Orłem Federalnym",
+    "Ojczyźnianym Orderem Zasługi",
+    "tytułem honorowym \"Bohater Niemieckiej Republiki Demokratycznej\""
+   ]
+  },
+  "ALL-103": {
+   "question": "Co nazywa się w Niemczech \"koalicją sygnalizacji świetlnej\" (Ampelkoalition)? Współpracę…",
+   "options": [
+    "frakcji CDU i CSU w Bundestagu",
+    "SPD, FDP i Sojuszu 90/Zielonych w rządzie",
+    "CSU, Die LINKE i Sojuszu 90/Zielonych w rządzie",
+    "frakcji CDU i SPD w Bundestagu"
+   ]
+  },
+  "ALL-104": {
+   "question": "Kobieta w Niemczech traci pracę. Co nie może być powodem tego zwolnienia?",
+   "options": [
+    "Kobieta jest długo chora i niezdolna do pracy.",
+    "Kobieta często spóźniała się do pracy.",
+    "Kobieta załatwia prywatne sprawy w czasie pracy.",
+    "Kobieta spodziewa się dziecka i jej szef o tym wie."
+   ]
+  },
+  "ALL-105": {
+   "question": "Jakie jest zadanie osób pomagających przy wyborach (Wahlhelferinnen/Wahlhelfer) w Niemczech?",
+   "options": [
+    "Pomagają starszym osobom w oddaniu głosu w kabinie wyborczej.",
+    "Piszą zawiadomienia wyborcze przed wyborami.",
+    "Przekazują wyniki cząstkowe mediom.",
+    "Liczą głosy po zakończeniu wyborów."
+   ]
+  },
+  "ALL-106": {
+   "question": "W Niemczech przy wyborach pomagają ochotniczo osoby pełniące funkcję pomocników wyborczych. Jakie jest zadanie takiej osoby?",
+   "options": [
+    "Pomagają dzieciom i starszym osobom przy głosowaniu.",
+    "Piszą karty i listy z informacją o lokalu wyborczym.",
+    "Przekazują wyniki cząstkowe dziennikarzom.",
+    "Liczą głosy po zakończeniu wyborów."
+   ]
+  },
+  "ALL-107": {
+   "question": "Na ile lat wybierany jest Bundestag w Niemczech?",
+   "options": [
+    "2 lata",
+    "4 lata",
+    "6 lat",
+    "8 lat"
+   ]
+  },
+  "ALL-108": {
+   "question": "W wyborach do Bundestagu w Niemczech może głosować każdy, kto…",
+   "options": [
+    "mieszka w Republice Federalnej Niemiec i chce głosować.",
+    "jest obywatelem Republiki Federalnej Niemiec i ma co najmniej 18 lat.",
+    "mieszka w Republice Federalnej Niemiec od co najmniej 3 lat.",
+    "jest obywatelem Republiki Federalnej Niemiec i ma co najmniej 21 lat."
+   ]
+  },
+  "ALL-109": {
+   "question": "Jak często zwykle odbywają się wybory do Bundestagu w Niemczech?",
+   "options": [
+    "co trzy lata",
+    "co cztery lata",
+    "co pięć lat",
+    "co sześć lat"
+   ]
+  },
+  "ALL-110": {
+   "question": "Na ile lat wybierany jest Bundestag w Niemczech?",
+   "options": [
+    "2 lata",
+    "3 lata",
+    "4 lata",
+    "5 lat"
+   ]
+  },
+  "ALL-111": {
+   "question": "Jakie działania związane z państwem Izrael są zakazane w Niemczech?",
+   "options": [
+    "publiczna krytyka polityki Izraela",
+    "zawieszenie izraelskiej flagi na prywatnej posesji",
+    "dyskusja o polityce Izraela",
+    "publiczne wzywanie do zniszczenia Izraela"
+   ]
+  },
+  "ALL-112": {
+   "question": "Wybory w Niemczech są…",
+   "options": [
+    "specjalne.",
+    "tajne.",
+    "związane z zawodem.",
+    "zależne od płci."
+   ]
+  },
+  "ALL-113": {
+   "question": "Wybory w Niemczech wygrywa partia, która…",
+   "options": [
+    "otrzyma najwięcej głosów.",
+    "została wybrana przez większość mężczyzn.",
+    "otrzymała najwięcej głosów wśród robotnic i robotników.",
+    "otrzymała najwięcej głosów pierwszych dla swojej kandydatki/swojego kandydata na kanclerza."
+   ]
+  },
+  "ALL-114": {
+   "question": "Udział w demokratycznych wyborach w Niemczech jest…",
+   "options": [
+    "obowiązkiem.",
+    "prawem.",
+    "przymusem.",
+    "obciążeniem."
+   ]
+  },
+  "ALL-115": {
+   "question": "Co oznacza \"czynne prawo wyborcze\" w Niemczech?",
+   "options": [
+    "Można zostać wybranym.",
+    "Trzeba iść na wybory.",
+    "Można głosować.",
+    "Trzeba iść na liczenie głosów."
+   ]
+  },
+  "ALL-116": {
+   "question": "Jeśli w wyborach do Bundestagu w Niemczech wolno Państwu głosować, nazywa się to…",
+   "options": [
+    "aktywną kampanią wyborczą.",
+    "aktywną procedurą wyborczą.",
+    "aktywną walką wyborczą.",
+    "czynnym prawem wyborczym."
+   ]
+  },
+  "ALL-117": {
+   "question": "Ile procent głosów drugich muszą uzyskać partie, aby wejść do niemieckiego Bundestagu?",
+   "options": [
+    "3%",
+    "4%",
+    "5%",
+    "6%"
+   ]
+  },
+  "ALL-118": {
+   "question": "Kto może zostać członkiem jednego z około 40 żydowskich klubów sportowych Makkabi?",
+   "options": [
+    "tylko Niemcy",
+    "tylko Izraelczycy",
+    "tylko osoby religijne",
+    "wszyscy ludzie"
+   ]
+  },
+  "ALL-119": {
+   "question": "Wybory w Niemczech są wolne. Co to oznacza?",
+   "options": [
+    "Wszyscy skazani przestępcy nie mogą głosować.",
+    "Jeśli chcę pójść na wybory, mój pracodawca musi udzielić mi wolnego.",
+    "Każda osoba może bez przymusu zdecydować, czy chce głosować i na kogo chce głosować.",
+    "Mogę swobodnie zdecydować, gdzie chcę pójść głosować."
+   ]
+  },
+  "ALL-120": {
+   "question": "System wyborczy w Niemczech jest…",
+   "options": [
+    "prawem wyborczym opartym na cenzusie majątkowym.",
+    "trzyklasowym prawem wyborczym.",
+    "systemem wyborczym większościowo-proporcjonalnym.",
+    "powszechnym prawem wyborczym dla mężczyzn."
+   ]
+  },
+  "ALL-121": {
+   "question": "Partia chce wejść do niemieckiego Bundestagu. Musi jednak uzyskać minimalny odsetek głosów wyborców. Nazywa się to…",
+   "options": [
+    "progiem 5%.",
+    "granicą dopuszczenia.",
+    "wartością bazową.",
+    "wytyczną."
+   ]
+  },
+  "ALL-122": {
+   "question": "Jakiej zasadzie podlegają wybory w Niemczech? Wybory w Niemczech są…",
+   "options": [
+    "wolne, równe, tajne.",
+    "otwarte, bezpieczne, wolne.",
+    "zamknięte, równe, bezpieczne.",
+    "bezpieczne, otwarte, dobrowolne."
+   ]
+  },
+  "ALL-123": {
+   "question": "Czym jest w Niemczech \"próg 5%\"?",
+   "options": [
+    "regulacją głosowania w Bundestagu dla małych partii",
+    "kontrolą obecności w Bundestagu podczas głosowań",
+    "minimalnym odsetkiem głosów wyborców potrzebnym do wejścia do parlamentu",
+    "kontrolą obecności w Bundesracie podczas głosowań"
+   ]
+  },
+  "ALL-124": {
+   "question": "Wybory do Bundestagu w Niemczech są wyborem…",
+   "options": [
+    "kanclerz/kanclerza federalnego.",
+    "parlamentów krajów związkowych.",
+    "parlamentu dla Niemiec.",
+    "prezydentki/prezydenta federalnego."
+   ]
+  },
+  "ALL-125": {
+   "question": "W demokracji jedną z funkcji regularnych wyborów jest…",
+   "options": [
+    "zmuszanie obywatelek i obywateli do oddania głosu.",
+    "umożliwienie zmiany rządu zgodnie z wolą większości wyborców.",
+    "utrzymanie obowiązujących w kraju ustaw.",
+    "danie biednym większej władzy."
+   ]
+  },
+  "ALL-126": {
+   "question": "Co otrzymują uprawnione do głosowania obywatelki i obywatele w Niemczech przed wyborami?",
+   "options": [
+    "zawiadomienie wyborcze od gminy",
+    "zezwolenie na głosowanie od prezydentki/prezydenta federalnego",
+    "zawiadomienie od Zgromadzenia Federalnego",
+    "zawiadomienie z parafii"
+   ]
+  },
+  "ALL-127": {
+   "question": "Dlaczego w ustawie wyborczej Republiki Federalnej Niemiec istnieje próg 5%? Istnieje on, ponieważ…",
+   "options": [
+    "programy wielu małych partii mają wiele wspólnych cech.",
+    "obywatelki i obywatele mogą się pogubić przy dużej liczbie małych partii.",
+    "wiele małych partii utrudnia tworzenie rządu.",
+    "małe partie nie mają wystarczająco dużo pieniędzy, aby opłacać polityków."
+   ]
+  },
+  "ALL-128": {
+   "question": "Członków parlamentu wybieranych przez obywatelki i obywateli nazywa się…",
+   "options": [
+    "posłami.",
+    "kanclerzami.",
+    "ambasadorami.",
+    "premierami krajów związkowych."
+   ]
+  },
+  "ALL-129": {
+   "question": "Kto jest wybierany przez naród w Niemczech?",
+   "options": [
+    "kanclerz/kanclerz federalny",
+    "premierka/premier kraju związkowego",
+    "Bundestag",
+    "prezydentka/prezydent federalny"
+   ]
+  },
+  "ALL-130": {
+   "question": "Która karta do głosowania byłaby ważna przy wyborach do Bundestagu? Na podstawie Rozporządzenia o wyborach federalnych (BWO), załącznik 26",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "ALL-131": {
+   "question": "W Niemczech burmistrzyni/burmistrz jest…",
+   "options": [
+    "dyrektorką/dyrektorem szkoły.",
+    "szefową/szefem banku.",
+    "głową gminy.",
+    "przewodniczącą/przewodniczącym partii."
+   ]
+  },
+  "ALL-132": {
+   "question": "Wiele osób w Niemczech pracuje w wolnym czasie honorowo (ehrenamtlich). Co to oznacza?",
+   "options": [
+    "Pracują jako żołnierze.",
+    "Pracują dobrowolnie i bez wynagrodzenia w stowarzyszeniach i związkach.",
+    "Pracują w rządzie federalnym.",
+    "Pracują w szpitalu i zarabiają przy tym pieniądze."
+   ]
+  },
+  "ALL-133": {
+   "question": "Co jest dozwolone przy wyborach do Bundestagu i parlamentów krajów związkowych w Niemczech?",
+   "options": [
+    "Mąż głosuje za swoją żonę.",
+    "Można oddać głos w drodze głosowania korespondencyjnego.",
+    "Można oddać głos telefonicznie w dniu wyborów.",
+    "Dzieci od 14 roku życia mogą głosować."
+   ]
+  },
+  "ALL-134": {
+   "question": "Chce się zlikwidować linię autobusową, którą Pan/Pani zawsze jeździ do pracy. Co można zrobić, aby zachować tę linię autobusową?",
+   "options": [
+    "Włączam się w inicjatywę obywatelską na rzecz zachowania linii autobusowej lub sam/sama zakładam taką inicjatywę.",
+    "Zapisuję się do klubu sportowego i trenuję jazdę na rowerze.",
+    "Zwracam się do urzędu skarbowego, ponieważ jako podatniczka/podatnik mam prawo do tej linii autobusowej.",
+    "Piszę list do urzędu leśnictwa gminy."
+   ]
+  },
+  "ALL-135": {
+   "question": "Kogo reprezentują związki zawodowe w Niemczech?",
+   "options": [
+    "duże przedsiębiorstwa",
+    "małe przedsiębiorstwa",
+    "osoby samozatrudnione",
+    "pracownice i pracowników"
+   ]
+  },
+  "ALL-136": {
+   "question": "W Niemczech udaje się Pan/Pani do sądu pracy w przypadku…",
+   "options": [
+    "błędnego rozliczenia kosztów eksploatacyjnych.",
+    "nieuzasadnionego wypowiedzenia przez szefową/szefa.",
+    "problemów z sąsiadkami/sąsiadami.",
+    "trudności po wypadku drogowym."
+   ]
+  },
+  "ALL-137": {
+   "question": "Który sąd w Niemczech jest właściwy w sporach dotyczących spraw pracowniczych?",
+   "options": [
+    "sąd rodzinny",
+    "sąd karny",
+    "sąd pracy",
+    "sąd rejonowy (Amtsgericht)"
+   ]
+  },
+  "ALL-138": {
+   "question": "Co mogę zrobić w Niemczech, jeśli mój pracodawca niesłusznie mnie zwolnił?",
+   "options": [
+    "dalej pracować i być miłym wobec szefowej/szefa",
+    "wszcząć postępowanie upominawcze przeciwko pracodawcy",
+    "wnieść pozew o ochronę przed zwolnieniem",
+    "zgłosić pracodawcę na policji"
+   ]
+  },
+  "ALL-139": {
+   "question": "Kiedy dochodzi w Niemczech do procesu sądowego? Gdy ktoś…",
+   "options": [
+    "przechodzi na inną religię.",
+    "popełnił przestępstwo i zostaje oskarżony.",
+    "reprezentuje inny pogląd niż rząd.",
+    "źle zaparkował samochód i zostaje on odholowany."
+   ]
+  },
+  "ALL-140": {
+   "question": "Co robi ławniczka/ławnik w Niemczech? On/ona…",
+   "options": [
+    "wraz z sędziami decyduje o winie i karze.",
+    "udziela obywatelkom/obywatelom porad prawnych.",
+    "wystawia dokumenty urzędowe.",
+    "broni oskarżonej/oskarżonego."
+   ]
+  },
+  "ALL-141": {
+   "question": "Kto w Niemczech doradza osobom w sprawach prawnych i reprezentuje je przed sądem?",
+   "options": [
+    "adwokatka/adwokat",
+    "sędzia",
+    "ławniczka/ławnik",
+    "prokuratorka/prokurator"
+   ]
+  },
+  "ALL-142": {
+   "question": "Jakie jest główne zadanie sędzi/sędziego w Niemczech? Sędzia…",
+   "options": [
+    "reprezentuje obywatelki i obywateli przed sądem.",
+    "pracuje w sądzie i wydaje wyroki.",
+    "zmienia ustawy.",
+    "opiekuje się młodzieżą przed sądem."
+   ]
+  },
+  "ALL-143": {
+   "question": "Sędzia w Niemczech należy do…",
+   "options": [
+    "władzy sądowniczej.",
+    "władzy wykonawczej.",
+    "władzy operacyjnej.",
+    "władzy ustawodawczej."
+   ]
+  },
+  "ALL-144": {
+   "question": "Sędzia należy w Niemczech do…",
+   "options": [
+    "władzy wykonawczej.",
+    "władzy sądowniczej.",
+    "władzy planującej.",
+    "władzy ustawodawczej."
+   ]
+  },
+  "ALL-145": {
+   "question": "W Niemczech władza państwowa jest podzielona. Dla której władzy pracuje sędzia? Dla…",
+   "options": [
+    "władzy sądowniczej",
+    "władzy wykonawczej",
+    "prasy",
+    "władzy ustawodawczej"
+   ]
+  },
+  "ALL-146": {
+   "question": "Jak nazywa się w Niemczech postępowanie przed sądem?",
+   "options": [
+    "program",
+    "procedura",
+    "protokół",
+    "proces"
+   ]
+  },
+  "ALL-147": {
+   "question": "Na czym polega praca sędzi/sędziego w Niemczech?",
+   "options": [
+    "rządzenie Niemcami",
+    "wymierzanie sprawiedliwości",
+    "tworzenie planów",
+    "uchwalanie ustaw"
+   ]
+  },
+  "ALL-148": {
+   "question": "Jakie jest jedno z zadań policji w Niemczech?",
+   "options": [
+    "obrona kraju",
+    "podsłuchiwanie obywatelek i obywateli",
+    "uchwalanie ustaw",
+    "nadzorowanie przestrzegania ustaw"
+   ]
+  },
+  "ALL-149": {
+   "question": "Co jest przykładem zachowania antysemickiego?",
+   "options": [
+    "odwiedzenie żydowskiego święta",
+    "krytykowanie rządu izraelskiego",
+    "negowanie Holokaustu",
+    "gra w piłkę nożną przeciwko Żydom."
+   ]
+  },
+  "ALL-150": {
+   "question": "Ławniczka sądowa/ławnik sądowy w Niemczech to…",
+   "options": [
+    "zastępczyni/zastępca przewodniczącego miasta.",
+    "honorowa sędzia/honorowy sędzia.",
+    "członek rady gminy.",
+    "osoba, która studiowała prawo."
+   ]
+  },
+  "ALL-151": {
+   "question": "Kto zbudował mur w Berlinie?",
+   "options": [
+    "Wielka Brytania",
+    "NRD",
+    "Republika Federalna Niemiec",
+    "USA"
+   ]
+  },
+  "ALL-152": {
+   "question": "Kiedy narodowi socjaliści z Adolfem Hitlerem sprawowali władzę w Niemczech?",
+   "options": [
+    "od 1918 do 1923",
+    "od 1932 do 1950",
+    "od 1933 do 1945",
+    "od 1945 do 1989"
+   ]
+  },
+  "ALL-153": {
+   "question": "Co wydarzyło się 8 maja 1945 roku?",
+   "options": [
+    "śmierć Adolfa Hitlera",
+    "początek budowy muru berlińskiego",
+    "wybór Konrada Adenauera na kanclerza federalnego",
+    "koniec drugiej wojny światowej w Europie"
+   ]
+  },
+  "ALL-154": {
+   "question": "Kiedy zakończyła się druga wojna światowa?",
+   "options": [
+    "1933",
+    "1945",
+    "1949",
+    "1961"
+   ]
+  },
+  "ALL-155": {
+   "question": "Kiedy narodowi socjaliści sprawowali władzę w Niemczech?",
+   "options": [
+    "od 1888 do 1918",
+    "od 1921 do 1934",
+    "od 1933 do 1945",
+    "od 1949 do 1963"
+   ]
+  },
+  "ALL-156": {
+   "question": "W którym roku Hitler został kanclerzem Rzeszy?",
+   "options": [
+    "1923",
+    "1927",
+    "1933",
+    "1936"
+   ]
+  },
+  "ALL-157": {
+   "question": "Narodowi socjaliści z Adolfem Hitlerem ustanowili w 1933 roku w Niemczech...",
+   "options": [
+    "dyktaturę.",
+    "państwo demokratyczne.",
+    "monarchię.",
+    "księstwo."
+   ]
+  },
+  "ALL-158": {
+   "question": "\"Trzecia Rzesza\" była...",
+   "options": [
+    "dyktaturą.",
+    "demokracją.",
+    "monarchią.",
+    "republiką rad."
+   ]
+  },
+  "ALL-159": {
+   "question": "Czego nie było w Niemczech w czasach narodowego socjalizmu?",
+   "options": [
+    "wolnych wyborów",
+    "cenzury prasowej",
+    "arbitralnych aresztowań",
+    "prześladowań Żydów"
+   ]
+  },
+  "ALL-160": {
+   "question": "Która wojna trwała od 1939 do 1945 roku?",
+   "options": [
+    "pierwsza wojna światowa",
+    "druga wojna światowa",
+    "wojna wietnamska",
+    "wojna w Zatoce Perskiej"
+   ]
+  },
+  "ALL-161": {
+   "question": "Co charakteryzowało państwo narodowosocjalistyczne? Politykę...",
+   "options": [
+    "rasizmu państwowego",
+    "wolności słowa",
+    "powszechnej wolności religijnej",
+    "rozwoju demokracji"
+   ]
+  },
+  "ALL-162": {
+   "question": "Claus Schenk Graf von Stauffenberg stał się znany dzięki...",
+   "options": [
+    "złotemu medalowi na Igrzyskach Olimpijskich w 1936 roku.",
+    "budowie gmachu Reichstagu.",
+    "rozbudowie Wehrmachtu.",
+    "zamachowi na Hitlera 20 lipca 1944 roku."
+   ]
+  },
+  "ALL-163": {
+   "question": "W którym roku narodowi socjaliści zniszczyli synagogi i żydowskie sklepy w Niemczech?",
+   "options": [
+    "1925",
+    "1930",
+    "1938",
+    "1945"
+   ]
+  },
+  "ALL-164": {
+   "question": "Co wydarzyło się 9 listopada 1938 roku w Niemczech?",
+   "options": [
+    "Atakiem na Polskę rozpoczyna się druga wojna światowa.",
+    "Narodowi socjaliści przegrywają wybory i rozwiązują Reichstag.",
+    "Żydowskie sklepy i synagogi zostają zniszczone przez narodowych socjalistów i ich zwolenników.",
+    "Hitler zostaje prezydentem Rzeszy i zakazuje działalności wszystkich partii."
+   ]
+  },
+  "ALL-165": {
+   "question": "Jak nazywał się pierwszy kanclerz federalny Republiki Federalnej Niemiec?",
+   "options": [
+    "Konrad Adenauer",
+    "Kurt Georg Kiesinger",
+    "Helmut Schmidt",
+    "Willy Brandt"
+   ]
+  },
+  "ALL-166": {
+   "question": "Podczas których demonstracji w Niemczech ludzie skandowali \"Wir sind das Volk\" (\"My jesteśmy narodem\")?",
+   "options": [
+    "podczas powstania robotniczego w 1953 roku w NRD",
+    "podczas demonstracji w 1968 roku w Republice Federalnej Niemiec",
+    "podczas demonstracji antyatomowych w 1985 roku w Republice Federalnej Niemiec",
+    "podczas demonstracji poniedziałkowych w 1989 roku w NRD"
+   ]
+  },
+  "ALL-167": {
+   "question": "Które kraje po drugiej wojnie światowej były określane w Niemczech jako \"alianckie mocarstwa okupacyjne\"?",
+   "options": [
+    "Związek Radziecki, Wielka Brytania, Polska, Szwecja",
+    "Francja, Związek Radziecki, Włochy, Japonia",
+    "USA, Związek Radziecki, Hiszpania, Portugalia",
+    "USA, Związek Radziecki, Wielka Brytania, Francja"
+   ]
+  },
+  "ALL-168": {
+   "question": "Który kraj nie był \"alianckim mocarstwem okupacyjnym\" w Niemczech?",
+   "options": [
+    "USA",
+    "Związek Radziecki",
+    "Francja",
+    "Japonia"
+   ]
+  },
+  "ALL-169": {
+   "question": "Kiedy powstała Republika Federalna Niemiec?",
+   "options": [
+    "1939",
+    "1945",
+    "1949",
+    "1951"
+   ]
+  },
+  "ALL-170": {
+   "question": "Co istniało w Niemczech w czasach narodowego socjalizmu?",
+   "options": [
+    "zakaz działalności partii",
+    "prawo do swobodnego rozwoju osobowości",
+    "wolność prasy",
+    "ochronę godności ludzkiej"
+   ]
+  },
+  "ALL-171": {
+   "question": "Społeczna gospodarka rynkowa oznacza, że gospodarka...",
+   "options": [
+    "kieruje się wyłącznie podażą i popytem.",
+    "jest planowana i kierowana przez państwo, podaż i popyt nie są brane pod uwagę.",
+    "kieruje się popytem za granicą.",
+    "kieruje się podażą i popytem, ale państwo dba o wyrównanie społeczne."
+   ]
+  },
+  "ALL-172": {
+   "question": "W której strefie okupacyjnej powstała NRD? W strefie...",
+   "options": [
+    "amerykańskiej",
+    "francuskiej",
+    "brytyjskiej",
+    "radzieckiej"
+   ]
+  },
+  "ALL-173": {
+   "question": "Republika Federalna Niemiec jest członkiem założycielem...",
+   "options": [
+    "Paktu Północnoatlantyckiego (NATO).",
+    "Organizacji Narodów Zjednoczonych (ONZ).",
+    "Unii Europejskiej (UE).",
+    "Układu Warszawskiego."
+   ]
+  },
+  "ALL-174": {
+   "question": "Kiedy powstała NRD?",
+   "options": [
+    "1947",
+    "1949",
+    "1953",
+    "1956"
+   ]
+  },
+  "ALL-175": {
+   "question": "Ile stref okupacyjnych istniało w Niemczech po drugiej wojnie światowej?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "ALL-176": {
+   "question": "Jak rozdzielone były strefy okupacyjne Niemiec po 1945 roku?",
+   "options": [
+    "1=Wielka Brytania, 2=Związek Radziecki, 3=Francja, 4=USA",
+    "1=Związek Radziecki, 2=Wielka Brytania, 3=USA, 4=Francja",
+    "1=Wielka Brytania, 2=Związek Radziecki, 3=USA, 4=Francja",
+    "1=Wielka Brytania, 2=USA, 3=Związek Radziecki, 4=Francja"
+   ]
+  },
+  "ALL-177": {
+   "question": "Które niemieckie miasto zostało po drugiej wojnie światowej podzielone na cztery sektory?",
+   "options": [
+    "Monachium",
+    "Berlin",
+    "Drezno",
+    "Frankfurt nad Odrą"
+   ]
+  },
+  "ALL-178": {
+   "question": "Od czerwca 1948 do maja 1949 mieszkańcy Berlina Zachodniego byli zaopatrywani za pomocą mostu powietrznego. Jaka okoliczność była tego przyczyną?",
+   "options": [
+    "Dla Francji zaopatrzenie ludności Berlina Zachodniego drogą lotniczą było tańsze.",
+    "Amerykańscy żołnierze obawiali się napadów podczas transportu lądowego.",
+    "Dla Wielkiej Brytanii zaopatrzenie przez most powietrzny było szybsze.",
+    "Związek Radziecki wstrzymał cały ruch drogą lądową."
+   ]
+  },
+  "ALL-179": {
+   "question": "Jak oficjalnie zakończyła się druga wojna światowa w Europie?",
+   "options": [
+    "śmiercią Adolfa Hitlera",
+    "bezwarunkową kapitulacją Niemiec",
+    "wycofaniem się Niemców z terenów okupowanych",
+    "rewolucją w Niemczech"
+   ]
+  },
+  "ALL-180": {
+   "question": "Pierwszym kanclerzem federalnym Republiki Federalnej Niemiec był...",
+   "options": [
+    "Ludwig Erhard.",
+    "Willy Brandt.",
+    "Konrad Adenauer.",
+    "Gerhard Schröder."
+   ]
+  },
+  "ALL-181": {
+   "question": "Co Willy Brandt chciał wyrazić swoim klękiem w 1970 roku w byłym getcie żydowskim w Warszawie? © Bundesregierung/Engelbert Reineke",
+   "options": [
+    "Podporządkował się byłym aliantom.",
+    "Prosił Polskę i polskich Żydów o wybaczenie.",
+    "Okazał pokorę wobec Układu Warszawskiego.",
+    "Odmówił modlitwę przy grobie Nieznanego Żołnierza."
+   ]
+  },
+  "ALL-182": {
+   "question": "Jak nazywa się żydowski dom modlitwy?",
+   "options": [
+    "bazylika",
+    "meczet",
+    "synagoga",
+    "kościół"
+   ]
+  },
+  "ALL-183": {
+   "question": "Kiedy w Republice Federalnej Niemiec miał miejsce \"cud gospodarczy\"?",
+   "options": [
+    "w latach 40.",
+    "w latach 50.",
+    "w latach 70.",
+    "w latach 80."
+   ]
+  },
+  "ALL-184": {
+   "question": "Na jakiej podstawie prawnej powstało państwo Izrael?",
+   "options": [
+    "rezolucja Organizacji Narodów Zjednoczonych",
+    "uchwała Kongresu Syjonistycznego",
+    "propozycja rządu federalnego",
+    "propozycja ZSRR"
+   ]
+  },
+  "ALL-185": {
+   "question": "Co oznaczało określenie \"żelazna kurtyna\"? Odgrodzenie...",
+   "options": [
+    "Układu Warszawskiego od Zachodu",
+    "północnych Niemiec od południowych Niemiec",
+    "nazistowskich Niemiec od aliantów",
+    "Europy od USA"
+   ]
+  },
+  "ALL-186": {
+   "question": "W 1953 roku w NRD doszło do powstania, które przez długi czas było upamiętniane w Republice Federalnej Niemiec dniem świątecznym. Kiedy to było?",
+   "options": [
+    "1 maja",
+    "17 czerwca",
+    "20 lipca",
+    "9 listopada"
+   ]
+  },
+  "ALL-187": {
+   "question": "Które niemieckie państwo miało flagę czarno-czerwono-złotą z młotem, cyrklem i wieńcem kłosów?",
+   "options": [
+    "Prusy",
+    "Republika Federalna Niemiec",
+    "\"Trzecia Rzesza\"",
+    "NRD"
+   ]
+  },
+  "ALL-188": {
+   "question": "W którym roku zbudowano mur w Berlinie?",
+   "options": [
+    "1953",
+    "1956",
+    "1959",
+    "1961"
+   ]
+  },
+  "ALL-189": {
+   "question": "Kiedy NRD zbudowała mur w Berlinie?",
+   "options": [
+    "1919",
+    "1933",
+    "1961",
+    "1990"
+   ]
+  },
+  "ALL-190": {
+   "question": "Co oznacza skrót NRD?",
+   "options": [
+    "Trzecie Radio Niemieckie",
+    "Republika Niemiecka",
+    "Trzecia Republika Niemiecka",
+    "Niemiecka Republika Demokratyczna"
+   ]
+  },
+  "ALL-191": {
+   "question": "Kiedy mur w Berlinie został otwarty dla wszystkich?",
+   "options": [
+    "1987",
+    "1989",
+    "1992",
+    "1995"
+   ]
+  },
+  "ALL-192": {
+   "question": "Który dzisiejszy niemiecki kraj związkowy należał wcześniej do terytorium NRD?",
+   "options": [
+    "Brandenburgia",
+    "Bawaria",
+    "Kraj Saary",
+    "Hesja"
+   ]
+  },
+  "ALL-193": {
+   "question": "Od 1961 do 1989 roku Berlin był...",
+   "options": [
+    "bez burmistrza.",
+    "osobnym państwem.",
+    "podzielony murem.",
+    "osiągalny tylko samolotem."
+   ]
+  },
+  "ALL-194": {
+   "question": "3 października obchodzi się w Niemczech Dzień Niemieckiej...",
+   "options": [
+    "Jedności.",
+    "Narodu.",
+    "Krajów Związkowych.",
+    "Miast."
+   ]
+  },
+  "ALL-195": {
+   "question": "Który dzisiejszy niemiecki kraj związkowy należał wcześniej do terytorium NRD?",
+   "options": [
+    "Hesja",
+    "Saksonia-Anhalt",
+    "Nadrenia Północna-Westfalia",
+    "Kraj Saary"
+   ]
+  },
+  "ALL-196": {
+   "question": "Dlaczego okres jesienią 1989 roku w NRD nazywa się \"Die Wende\" (\"Przełom\")? W tym czasie NRD zmieniła się politycznie...",
+   "options": [
+    "z dyktatury w demokrację.",
+    "z liberalnej gospodarki rynkowej w socjalizm.",
+    "z monarchii w socjaldemokrację.",
+    "z państwa religijnego w państwo komunistyczne."
+   ]
+  },
+  "ALL-197": {
+   "question": "Który dzisiejszy niemiecki kraj związkowy należał wcześniej do terytorium NRD?",
+   "options": [
+    "Turyngia",
+    "Hesja",
+    "Bawaria",
+    "Brema"
+   ]
+  },
+  "ALL-198": {
+   "question": "Który dzisiejszy niemiecki kraj związkowy należał wcześniej do terytorium NRD?",
+   "options": [
+    "Bawaria",
+    "Dolna Saksonia",
+    "Saksonia",
+    "Badenia-Wirtembergia"
+   ]
+  },
+  "ALL-199": {
+   "question": "Skrótem \"Stasi\" określano w NRD...",
+   "options": [
+    "parlament.",
+    "Ministerstwo Bezpieczeństwa Państwowego.",
+    "partię rządzącą.",
+    "Ministerstwo Oświaty Ludowej."
+   ]
+  },
+  "ALL-200": {
+   "question": "Który dzisiejszy niemiecki kraj związkowy należał wcześniej do terytorium NRD?",
+   "options": [
+    "Hesja",
+    "Szlezwik-Holsztyn",
+    "Meklemburgia-Pomorze Przednie",
+    "Kraj Saary"
+   ]
+  },
+  "ALL-201": {
+   "question": "Które z poniższych zestawień zawiera wyłącznie kraje związkowe należące wcześniej do terytorium NRD?",
+   "options": [
+    "Dolna Saksonia, Nadrenia Północna-Westfalia, Hesja, Szlezwik-Holsztyn, Brandenburgia",
+    "Meklemburgia-Pomorze Przednie, Brandenburgia, Saksonia, Saksonia-Anhalt, Turyngia",
+    "Bawaria, Badenia-Wirtembergia, Nadrenia-Palatynat, Turyngia, Saksonia",
+    "Saksonia, Turyngia, Hesja, Dolna Saksonia, Brandenburgia"
+   ]
+  },
+  "ALL-202": {
+   "question": "Do kogo należała NRD w czasach \"zimnej wojny\"?",
+   "options": [
+    "do mocarstw zachodnich",
+    "do Układu Warszawskiego",
+    "do NATO",
+    "do państw niezaangażowanych"
+   ]
+  },
+  "ALL-203": {
+   "question": "Jak nazywał się system gospodarczy NRD?",
+   "options": [
+    "gospodarka rynkowa",
+    "gospodarka planowa",
+    "podaż i popyt",
+    "kapitalizm"
+   ]
+  },
+  "ALL-204": {
+   "question": "W jaki sposób Republika Federalna Niemiec i NRD stały się jednym państwem?",
+   "options": [
+    "Republika Federalna zajęła NRD.",
+    "Dzisiejsze pięć wschodnich krajów związkowych przystąpiło do Republiki Federalnej Niemiec.",
+    "Zachodnie kraje związkowe przystąpiły do NRD.",
+    "NRD zajęła Republikę Federalną Niemiec."
+   ]
+  },
+  "ALL-205": {
+   "question": "Wraz z przystąpieniem NRD do Republiki Federalnej Niemiec nowe kraje związkowe należą teraz również...",
+   "options": [
+    "do Unii Europejskiej.",
+    "do Układu Warszawskiego.",
+    "do OPEC.",
+    "do Europejskiej Wspólnoty Obronnej."
+   ]
+  },
+  "ALL-206": {
+   "question": "O czym przypominają tak zwane \"Stolpersteine\" (kamienie pamięci) w Niemczech?",
+   "options": [
+    "o słynnych niemieckich politykach",
+    "o ofiarach narodowego socjalizmu",
+    "o ofiarach wypadków drogowych",
+    "o znanych żydowskich muzykach"
+   ]
+  },
+  "ALL-207": {
+   "question": "Członkiem którego sojuszu wojskowego była NRD?",
+   "options": [
+    "NATO",
+    "Związku Reńskiego",
+    "Układu Warszawskiego",
+    "Sojuszu Europejskiego"
+   ]
+  },
+  "ALL-208": {
+   "question": "Czym była \"Stasi\"?",
+   "options": [
+    "wywiadem w \"Trzeciej Rzeszy\"",
+    "znanym niemieckim miejscem pamięci",
+    "służbą bezpieczeństwa NRD",
+    "niemieckim klubem sportowym podczas drugiej wojny światowej"
+   ]
+  },
+  "ALL-209": {
+   "question": "Który był herbem Niemieckiej Republiki Demokratycznej? Obraz 1 Obraz 2 Obraz 3 Obraz 4",
+   "options": [
+    "Obraz 1",
+    "Obraz 2",
+    "Obraz 3",
+    "Obraz 4"
+   ]
+  },
+  "ALL-210": {
+   "question": "Co wydarzyło się 17 czerwca 1953 roku w NRD?",
+   "options": [
+    "uroczyste przystąpienie do Układu Warszawskiego",
+    "ogólnokrajowe strajki i powstanie ludowe",
+    "1. zjazd partii SED",
+    "pierwsza wizyta Fidela Castro"
+   ]
+  },
+  "ALL-211": {
+   "question": "Który polityk kojarzony jest z \"traktatami wschodnimi\" (Ostverträge)?",
+   "options": [
+    "Helmut Kohl",
+    "Willy Brandt",
+    "Michaił Gorbaczow",
+    "Ludwig Erhard"
+   ]
+  },
+  "ALL-212": {
+   "question": "Jak brzmi pełna nazwa Niemiec?",
+   "options": [
+    "Państwo Związkowe Niemcy",
+    "Kraje Związkowe Niemcy",
+    "Republika Federalna Niemiec",
+    "Okręg Związkowy Niemcy"
+   ]
+  },
+  "ALL-213": {
+   "question": "Ilu mieszkańców ma Niemcy?",
+   "options": [
+    "70 milionów",
+    "78 milionów",
+    "84 miliony",
+    "90 milionów"
+   ]
+  },
+  "ALL-214": {
+   "question": "Jakie kolory ma niemiecka flaga?",
+   "options": [
+    "czarno-czerwono-złoty",
+    "czerwono-biało-czarny",
+    "czarno-czerwono-zielony",
+    "czarno-żółto-czerwony"
+   ]
+  },
+  "ALL-215": {
+   "question": "Kogo nazywa się \"kanclerzem niemieckiej jedności\"?",
+   "options": [
+    "Gerhard Schröder",
+    "Helmut Kohl",
+    "Konrad Adenauer",
+    "Helmut Schmidt"
+   ]
+  },
+  "ALL-216": {
+   "question": "Jaki symbol widoczny jest w sali plenarnej Bundestagu? © Deutscher Bundestag/Janine Schmitz",
+   "options": [
+    "orzeł federalny",
+    "flaga miasta Berlina",
+    "orzeł Rzeszy",
+    "korona Rzeszy"
+   ]
+  },
+  "ALL-217": {
+   "question": "W jakim okresie istniała Niemiecka Republika Demokratyczna (NRD)?",
+   "options": [
+    "od 1919 do 1927",
+    "od 1933 do 1945",
+    "od 1945 do 1961",
+    "od 1949 do 1990"
+   ]
+  },
+  "ALL-218": {
+   "question": "Ile krajów związkowych dołączyło do Republiki Federalnej Niemiec podczas zjednoczenia w 1990 roku?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  "ALL-219": {
+   "question": "Republika Federalna Niemiec ma dzisiejsze granice od...",
+   "options": [
+    "1933",
+    "1949",
+    "1971",
+    "1990"
+   ]
+  },
+  "ALL-220": {
+   "question": "27 stycznia jest w Niemczech oficjalnym dniem pamięci. O czym przypomina ten dzień?",
+   "options": [
+    "o zakończeniu drugiej wojny światowej",
+    "o uchwaleniu Ustawy Zasadniczej",
+    "o zjednoczeniu Niemiec",
+    "o ofiarach narodowego socjalizmu (dzień wyzwolenia obozu zagłady Auschwitz)"
+   ]
+  },
+  "ALL-221": {
+   "question": "Niemcy są członkiem układu z Schengen. Co to oznacza?",
+   "options": [
+    "Niemcy mogą podróżować do wielu krajów Europy bez kontroli paszportowej.",
+    "Wszyscy ludzie mogą wjeżdżać do Niemiec bez kontroli osobowej.",
+    "Niemcy mogą podróżować bez kontroli paszportowej do każdego kraju.",
+    "Niemcy mogą płacić euro w każdym kraju."
+   ]
+  },
+  "ALL-222": {
+   "question": "Który kraj jest sąsiadem Niemiec?",
+   "options": [
+    "Węgry",
+    "Portugalia",
+    "Hiszpania",
+    "Szwajcaria"
+   ]
+  },
+  "ALL-223": {
+   "question": "Który kraj jest sąsiadem Niemiec?",
+   "options": [
+    "Rumunia",
+    "Bułgaria",
+    "Polska",
+    "Grecja"
+   ]
+  },
+  "ALL-224": {
+   "question": "Co oznacza skrót UE?",
+   "options": [
+    "Europejskie Przedsiębiorstwa",
+    "Unia Europejska",
+    "Unia Jednolita",
+    "Unia Euro"
+   ]
+  },
+  "ALL-225": {
+   "question": "W którym innym kraju żyje duża ludność niemieckojęzyczna?",
+   "options": [
+    "Czechy",
+    "Norwegia",
+    "Hiszpania",
+    "Austria"
+   ]
+  },
+  "ALL-226": {
+   "question": "Która flaga jest flagą Unii Europejskiej? Obraz 1 Obraz 2 Obraz 3 Obraz 4",
+   "options": [
+    "Obraz 1",
+    "Obraz 2",
+    "Obraz 3",
+    "Obraz 4"
+   ]
+  },
+  "ALL-227": {
+   "question": "Który kraj jest krajem sąsiadującym z Niemcami?",
+   "options": [
+    "Finlandia",
+    "Dania",
+    "Norwegia",
+    "Szwecja"
+   ]
+  },
+  "ALL-228": {
+   "question": "Jak powszechnie nazywa się przystąpienie NRD do Republiki Federalnej Niemiec w 1990 roku?",
+   "options": [
+    "Rozszerzenie NATO na wschód",
+    "Rozszerzenie UE na wschód",
+    "Zjednoczenie Niemiec",
+    "Wspólnota Europejska"
+   ]
+  },
+  "ALL-229": {
+   "question": "Który kraj jest krajem sąsiadującym z Niemcami?",
+   "options": [
+    "Hiszpania",
+    "Bułgaria",
+    "Norwegia",
+    "Luksemburg"
+   ]
+  },
+  "ALL-230": {
+   "question": "Parlament Europejski jest wybierany regularnie, a mianowicie co…",
+   "options": [
+    "5 lat.",
+    "6 lat.",
+    "7 lat.",
+    "8 lat."
+   ]
+  },
+  "ALL-231": {
+   "question": "Co oznacza pojęcie \"integracja europejska\"?",
+   "options": [
+    "Chodzi o amerykańskich imigrantów i imigrantki w Europie.",
+    "Pojęcie to oznacza wstrzymanie imigracji do Europy.",
+    "Chodzi o europejskich emigrantów i emigrantki w USA.",
+    "Pojęcie to oznacza zjednoczenie państw europejskich w UE."
+   ]
+  },
+  "ALL-232": {
+   "question": "Kogo wybiera się w wyborach europejskich?",
+   "options": [
+    "Komisję Europejską",
+    "kraje, którym wolno wstąpić do UE",
+    "posłów i posłanki do Parlamentu Europejskiego",
+    "konstytucję europejską"
+   ]
+  },
+  "ALL-233": {
+   "question": "Który kraj jest krajem sąsiadującym z Niemcami?",
+   "options": [
+    "Czechy",
+    "Bułgaria",
+    "Grecja",
+    "Portugalia"
+   ]
+  },
+  "ALL-234": {
+   "question": "Gdzie znajduje się jedna z siedzib Parlamentu Europejskiego?",
+   "options": [
+    "Londyn",
+    "Paryż",
+    "Berlin",
+    "Strasburg"
+   ]
+  },
+  "ALL-235": {
+   "question": "Ówczesny prezydent Francji François Mitterrand i ówczesny kanclerz Niemiec Helmut Kohl wspólnie upamiętniają w Verdun ofiary obu wojen światowych. Jaki cel Unii Europejskiej staje się widoczny podczas tego spotkania? © Bundesregierung/Richard Schulze-Vorberg",
+   "options": [
+    "przyjaźń między Anglią a Niemcami",
+    "swoboda podróżowania do wszystkich krajów UE",
+    "pokój i bezpieczeństwo w krajach UE",
+    "jednolite dni świąteczne w krajach UE"
+   ]
+  },
+  "ALL-236": {
+   "question": "Ile państw członkowskich liczy dziś UE?",
+   "options": [
+    "21",
+    "23",
+    "25",
+    "27"
+   ]
+  },
+  "ALL-237": {
+   "question": "W 2007 roku obchodzono 50. rocznicę \"traktatów rzymskich\". Czego dotyczyły te traktaty?",
+   "options": [
+    "przystąpienia Niemiec do NATO",
+    "utworzenia Europejskiej Wspólnoty Gospodarczej (EWG)",
+    "zobowiązania Niemiec do wypłaty reparacji",
+    "ustalenia linii Odra-Nysa jako wschodniej granicy"
+   ]
+  },
+  "ALL-238": {
+   "question": "W jakich miejscowościach pracuje Parlament Europejski?",
+   "options": [
+    "Paryż, Londyn i Haga",
+    "Strasburg, Luksemburg i Bruksela",
+    "Rzym, Berno i Wiedeń",
+    "Bonn, Zurych i Mediolan"
+   ]
+  },
+  "ALL-239": {
+   "question": "Na mocy jakich traktatów Republika Federalna Niemiec połączyła się z innymi państwami w Europejską Wspólnotę Gospodarczą?",
+   "options": [
+    "na mocy \"traktatów hamburskich\"",
+    "na mocy \"traktatów rzymskich\"",
+    "na mocy \"traktatów paryskich\"",
+    "na mocy \"traktatów londyńskich\""
+   ]
+  },
+  "ALL-240": {
+   "question": "Od kiedy w Niemczech płaci się gotówką w euro?",
+   "options": [
+    "1995",
+    "1998",
+    "2002",
+    "2005"
+   ]
+  },
+  "ALL-241": {
+   "question": "Pani Seger urodziła dziecko. Co musi zrobić, aby otrzymać zasiłek rodzicielski (Elterngeld)?",
+   "options": [
+    "Musi napisać do swojej kasy chorych.",
+    "Musi złożyć wniosek w urzędzie ds. zasiłku rodzicielskiego.",
+    "Nie musi nic robić, ponieważ automatycznie otrzyma zasiłek rodzicielski.",
+    "Musi poprosić urząd pracy o pozwolenie."
+   ]
+  },
+  "ALL-242": {
+   "question": "Kto decyduje, czy dziecko w Niemczech chodzi do przedszkola?",
+   "options": [
+    "państwo",
+    "kraje związkowe",
+    "rodzice/opiekunowie prawni",
+    "szkoły"
+   ]
+  },
+  "ALL-243": {
+   "question": "Maik i Sybille chcą wraz z przyjaciółmi zorganizować demonstrację na ulicy w swojej niemieckiej miejscowości. Co muszą wcześniej zrobić?",
+   "options": [
+    "Muszą zgłosić demonstrację.",
+    "Nie muszą nic robić. W Niemczech wolno demonstrować zawsze i wszędzie.",
+    "Nie mogą nic zrobić, ponieważ demonstracje są w Niemczech co do zasady zakazane.",
+    "Maik i Sybille muszą założyć nowe stowarzyszenie, ponieważ demonstrować mogą tylko stowarzyszenia."
+   ]
+  },
+  "ALL-244": {
+   "question": "Jakie świadectwo szkolne jest zazwyczaj potrzebne, aby rozpocząć studia na uniwersytecie w Niemczech?",
+   "options": [
+    "maturę (Abitur)",
+    "dyplom",
+    "prokurę",
+    "egzamin czeladniczy"
+   ]
+  },
+  "ALL-245": {
+   "question": "Kto w Niemczech nie może żyć jako para?",
+   "options": [
+    "Hans (20 lat) i Marie (19 lat)",
+    "Tom (20 lat) i Klaus (45 lat)",
+    "Sofie (35 lat) i Lisa (40 lat)",
+    "Anne (13 lat) i Tim (25 lat)"
+   ]
+  },
+  "ALL-246": {
+   "question": "Od jakiego wieku osiąga się w Niemczech pełnoletność?",
+   "options": [
+    "16",
+    "18",
+    "19",
+    "21"
+   ]
+  },
+  "ALL-247": {
+   "question": "Kobieta jest w ciąży. Krótko przed i po porodzie podlega szczególnej ochronie prawnej. Jak nazywa się ta ochrona?",
+   "options": [
+    "urlop rodzicielski",
+    "ochrona macierzyństwa (Mutterschutz)",
+    "przygotowanie do porodu",
+    "połóg"
+   ]
+  },
+  "ALL-248": {
+   "question": "Wychowanie dzieci w Niemczech jest przede wszystkim zadaniem…",
+   "options": [
+    "państwa.",
+    "rodziców.",
+    "dziadków.",
+    "szkół."
+   ]
+  },
+  "ALL-249": {
+   "question": "Kto w Niemczech jest głównie odpowiedzialny za wychowanie dzieci?",
+   "options": [
+    "państwo",
+    "rodzice",
+    "krewni",
+    "szkoły"
+   ]
+  },
+  "ALL-250": {
+   "question": "W Niemczech ma się największe szanse na dobrze płatną pracę, jeśli…",
+   "options": [
+    "jest się katolikiem/katoliczką.",
+    "jest się dobrze wykształconym/wykształconą.",
+    "jest się kobietą.",
+    "jest się członkiem/członkinią partii."
+   ]
+  },
+  "ALL-251": {
+   "question": "Jeśli w Niemczech ktoś bije dziecko,…",
+   "options": [
+    "nikogo to nie obchodzi.",
+    "dotyczy to tylko rodziny.",
+    "nie można za to zostać ukaranym.",
+    "można za to zostać ukaranym."
+   ]
+  },
+  "ALL-252": {
+   "question": "W Niemczech…",
+   "options": [
+    "można być w danym momencie w związku małżeńskim tylko z jedną partnerką/jednym partnerem.",
+    "można mieć jednocześnie kilku małżonków/kilka małżonek.",
+    "nie wolno ponownie wyjść za mąż/ożenić się, jeśli było się już w związku małżeńskim.",
+    "kobieta nie może ponownie wyjść za mąż, jeśli jej mąż zmarł."
+   ]
+  },
+  "ALL-253": {
+   "question": "Gdzie należy się zameldować, jeśli przeprowadza się Pan/Pani w Niemczech?",
+   "options": [
+    "w urzędzie meldunkowym",
+    "w urzędzie stanu cywilnego",
+    "w urzędzie porządkowym",
+    "w urzędzie ds. działalności gospodarczej"
+   ]
+  },
+  "ALL-254": {
+   "question": "W Niemczech małżonkowie mogą się rozwieść. Zazwyczaj muszą wcześniej zachować tzw. \"rok separacji\". Co to oznacza?",
+   "options": [
+    "Proces rozwodowy trwa rok.",
+    "Małżonkowie są małżeństwem rok, a potem rozwód jest możliwy.",
+    "Prawo do odwiedzin dzieci obowiązuje przez rok.",
+    "Małżonkowie prowadzą przez co najmniej rok osobne życie w rozłączeniu. Dopiero potem rozwód jest możliwy."
+   ]
+  },
+  "ALL-255": {
+   "question": "W przypadku problemów wychowawczych rodzice w Niemczech mogą uzyskać pomoc w…",
+   "options": [
+    "urzędzie porządkowym.",
+    "urzędzie ds. szkolnictwa.",
+    "urzędzie ds. młodzieży (Jugendamt).",
+    "urzędzie ds. zdrowia."
+   ]
+  },
+  "ALL-256": {
+   "question": "Małżeństwo chce otworzyć w Niemczech restaurację. Co jest do tego koniecznie potrzebne?",
+   "options": [
+    "pozwolenie policji",
+    "zgoda partii politycznej",
+    "zgoda urzędu meldunkowego",
+    "koncesja gastronomiczna wydana przez właściwy urząd"
+   ]
+  },
+  "ALL-257": {
+   "question": "Dorosła kobieta chce w Niemczech uzupełnić maturę. Może to zrobić w…",
+   "options": [
+    "szkole wyższej.",
+    "gimnazjum wieczorowym.",
+    "szkole podstawowej wyższego stopnia (Hauptschule).",
+    "prywatnym uniwersytecie."
+   ]
+  },
+  "ALL-258": {
+   "question": "Co wolno zrobić urzędowi ds. młodzieży (Jugendamt) w Niemczech?",
+   "options": [
+    "Decyduje, do jakiej szkoły chodzi dziecko.",
+    "Może zabrać z rodziny dziecko, które jest bite lub głodzone.",
+    "Wypłaca rodzicom zasiłek na dziecko (Kindergeld).",
+    "Kontroluje, czy dziecko chodzi do przedszkola."
+   ]
+  },
+  "ALL-259": {
+   "question": "Centrum Informacji Zawodowej (BIZ) przy Federalnej Agencji Pracy w Niemczech pomaga w…",
+   "options": [
+    "obliczaniu emerytury.",
+    "poszukiwaniu miejsca nauki zawodu.",
+    "rozliczeniu podatkowym.",
+    "ubezpieczeniu zdrowotnym."
+   ]
+  },
+  "ALL-260": {
+   "question": "W Niemczech dziecko w szkole ma…",
+   "options": [
+    "prawo do nieograniczonego czasu wolnego.",
+    "dowolność wyboru wszystkich przedmiotów.",
+    "prawo do czesnego.",
+    "obowiązek uczęszczania na zajęcia."
+   ]
+  },
+  "ALL-261": {
+   "question": "Mężczyzna w wieku 30 lat chce w Niemczech uzupełnić maturę. Gdzie może to zrobić? W…",
+   "options": [
+    "szkole wyższej.",
+    "gimnazjum wieczorowym.",
+    "szkole podstawowej wyższego stopnia (Hauptschule).",
+    "prywatnym uniwersytecie."
+   ]
+  },
+  "ALL-262": {
+   "question": "Co oznacza w Niemczech zasada równego traktowania?",
+   "options": [
+    "Nikt nie może być np. dyskryminowany z powodu niepełnosprawności.",
+    "Można dyskryminować inne osoby, jeśli istnieją ku temu wystarczające osobiste powody.",
+    "Nikt nie może pozwać innych osób, jeśli był dyskryminowany.",
+    "Wszyscy są zobowiązani prawnie co roku przekazywać pieniądze grupom dyskryminowanym."
+   ]
+  },
+  "ALL-263": {
+   "question": "W Niemczech młodzież od 14. roku życia podlega odpowiedzialności karnej. Oznacza to, że młodzież w wieku 14 lat i starsza, która narusza przepisy karne,…",
+   "options": [
+    "zostaje ukarana.",
+    "jest traktowana jak dorośli.",
+    "dzieli karę z rodzicami.",
+    "nie zostaje ukarana."
+   ]
+  },
+  "ALL-264": {
+   "question": "Z okazji jakiego święta ludzie w Niemczech noszą kolorowe kostiumy i maski?",
+   "options": [
+    "w Różany Poniedziałek (Rosenmontag)",
+    "w Święto Pracy (1 maja)",
+    "podczas Oktoberfestu",
+    "w Zielone Świątki"
+   ]
+  },
+  "ALL-265": {
+   "question": "Dokąd należy się najpierw udać w Niemczech, jeśli chce się zawrzeć małżeństwo?",
+   "options": [
+    "do urzędu meldunkowego",
+    "do urzędu porządkowego",
+    "do agencji pracy",
+    "do urzędu stanu cywilnego"
+   ]
+  },
+  "ALL-266": {
+   "question": "Kiedy rozpoczyna się w Niemczech ustawowa cisza nocna?",
+   "options": [
+    "gdy zachodzi słońce",
+    "gdy sąsiedzi idą spać",
+    "o godzinie 0, o północy",
+    "o godzinie 22"
+   ]
+  },
+  "ALL-267": {
+   "question": "Młoda kobieta w Niemczech, w wieku 22 lat, mieszka razem ze swoim chłopakiem. Rodzice kobiety nie akceptują tego, ponieważ nie podoba im się jej chłopak. Co mogą zrobić rodzice?",
+   "options": [
+    "Muszą uszanować decyzję pełnoletniej córki.",
+    "Mają prawo sprowadzić córkę z powrotem do domu rodzinnego.",
+    "Mogą pójść na policję i zgłosić córkę.",
+    "Szukają dla córki innego mężczyzny."
+   ]
+  },
+  "ALL-268": {
+   "question": "Młoda kobieta chce zrobić prawo jazdy. Boi się egzaminu, ponieważ jej językiem ojczystym nie jest niemiecki. Co jest prawdą?",
+   "options": [
+    "Musi mieszkać w Niemczech co najmniej dziesięć lat, zanim będzie mogła zrobić prawo jazdy.",
+    "Jeśli nie zna niemieckiego, nie wolno jej mieć prawa jazdy.",
+    "Musi zrobić prawo jazdy w kraju, w którym mówi się jej językiem.",
+    "Może zdawać egzamin teoretyczny prawdopodobnie w swoim języku ojczystym. Do wyboru jest ponad dziesięć języków."
+   ]
+  },
+  "ALL-269": {
+   "question": "W Niemczech dzieci od trzeciego roku życia do rozpoczęcia nauki szkolnej mają prawo do…",
+   "options": [
+    "comiesięcznego kieszonkowego.",
+    "miejsca w klubie sportowym.",
+    "miejsca w przedszkolu.",
+    "karty wakacyjnej."
+   ]
+  },
+  "ALL-270": {
+   "question": "Uniwersytet Ludowy (Volkshochschule) w Niemczech jest placówką…",
+   "options": [
+    "do nauki religii.",
+    "przeznaczoną wyłącznie dla młodzieży.",
+    "kształcenia ustawicznego.",
+    "przeznaczoną wyłącznie dla emerytów i emerytek."
+   ]
+  },
+  "ALL-271": {
+   "question": "Jaki jest zwyczaj bożonarodzeniowy w Niemczech?",
+   "options": [
+    "chowanie kolorowych jajek",
+    "ubieranie choinki",
+    "przebieranie się w maski i kostiumy",
+    "stawianie dyni przed drzwiami"
+   ]
+  },
+  "ALL-272": {
+   "question": "Jaka forma życia rodzinnego jest w Niemczech niedozwolona?",
+   "options": [
+    "Mężczyzna i kobieta są rozwiedzeni i mieszkają z nowymi partnerami.",
+    "Dwie kobiety mieszkają razem.",
+    "Samotnie wychowujący ojciec mieszka ze swoimi dwojgiem dzieci.",
+    "Mężczyzna jest jednocześnie żonaty z dwiema kobietami."
+   ]
+  },
+  "ALL-273": {
+   "question": "W przypadku problemów wychowawczych udaje się Pan/Pani w Niemczech…",
+   "options": [
+    "do lekarki/lekarza.",
+    "do urzędu ds. zdrowia.",
+    "do urzędu meldunkowego.",
+    "do urzędu ds. młodzieży (Jugendamt)."
+   ]
+  },
+  "ALL-274": {
+   "question": "Celowo otworzył/otworzyła Pan/Pani w Niemczech list zaadresowany do innej osoby. Czego Pan/Pani nie uwzględnił/uwzględniła?",
+   "options": [
+    "prawa do milczenia",
+    "tajemnicy korespondencji",
+    "obowiązku zachowania tajemnicy",
+    "wolności słowa"
+   ]
+  },
+  "ALL-275": {
+   "question": "Co jest potrzebne w Niemczech do uzyskania rozwodu?",
+   "options": [
+    "zgody rodziców",
+    "zaświadczenia lekarskiego",
+    "zgody dzieci",
+    "wsparcia adwokatki/adwokata"
+   ]
+  },
+  "ALL-276": {
+   "question": "Co powinien/powinna Pan/Pani zrobić, jeśli jest Pan/Pani źle traktowany/traktowana przez swojego urzędnika/swoją urzędniczkę w niemieckim urzędzie?",
+   "options": [
+    "Nie mogę nic zrobić.",
+    "Muszę się z tym pogodzić.",
+    "Grożę tej osobie.",
+    "Mogę złożyć skargę u kierownika/kierowniczki urzędu."
+   ]
+  },
+  "ALL-277": {
+   "question": "Kobieta z dwuletnim dzieckiem ubiega się w Niemczech o pracę. Co jest przykładem dyskryminacji? Nie dostaje pracy tylko dlatego, że…",
+   "options": [
+    "nie mówi po angielsku.",
+    "ma zbyt wysokie oczekiwania płacowe.",
+    "nie ma doświadczenia w tym zawodzie.",
+    "jest matką."
+   ]
+  },
+  "ALL-278": {
+   "question": "Mężczyzna na wózku inwalidzkim ubiegał się o stanowisko księgowego. Co jest przykładem dyskryminacji? Nie dostaje pracy tylko dlatego, że…",
+   "options": [
+    "porusza się na wózku inwalidzkim.",
+    "nie ma doświadczenia.",
+    "ma zbyt wysokie oczekiwania płacowe.",
+    "nie mówi po angielsku."
+   ]
+  },
+  "ALL-279": {
+   "question": "W większości kamienic czynszowych w Niemczech obowiązuje \"regulamin domowy\" (Hausordnung). Co zawiera taki regulamin? Zawiera…",
+   "options": [
+    "zasady korzystania z transportu publicznego.",
+    "wykaz wszystkich najemców i najemczyń w budynku.",
+    "zasady, których muszą przestrzegać wszyscy mieszkańcy i mieszkanki.",
+    "adres najbliższego urzędu porządkowego."
+   ]
+  },
+  "ALL-280": {
+   "question": "Jeśli chce Pan/Pani odwołać się w Niemczech od błędnej decyzji podatkowej, musi Pan/Pani…",
+   "options": [
+    "nic nie robić.",
+    "wyrzucić decyzję.",
+    "wnieść odwołanie (Einspruch).",
+    "poczekać, aż przyjdzie inna decyzja."
+   ]
+  },
+  "ALL-281": {
+   "question": "Dwaj przyjaciele chcą pójść do publicznego basenu w Niemczech. Obaj mają ciemny kolor skóry i z tego powodu nie zostają wpuszczeni. Które prawo zostaje w tej sytuacji naruszone? Prawo do…",
+   "options": [
+    "wolności słowa",
+    "równego traktowania",
+    "wolności zgromadzeń",
+    "swobody przemieszczania się"
+   ]
+  },
+  "ALL-282": {
+   "question": "Jaką funkcję honorową muszą przyjąć niemieccy obywatele i obywatelki, jeśli zostaną do tego wezwani?",
+   "options": [
+    "trenerki/trenera w klubie",
+    "urzędniczki/urzędnika wyborczego",
+    "nadzoru w bibliotece",
+    "nauczycielki/nauczyciela"
+   ]
+  },
+  "ALL-283": {
+   "question": "Co Pan/Pani robi, gdy otrzyma błędny rachunek od niemieckiego urzędu?",
+   "options": [
+    "Zostawiam rachunek bez odpowiedzi.",
+    "Wnoszę sprzeciw do urzędu.",
+    "Odsyłam rachunek do urzędu.",
+    "Idę z rachunkiem do urzędu skarbowego."
+   ]
+  },
+  "ALL-284": {
+   "question": "To, co trzeba umieć do wykonywania pracy, zmienia się w przyszłości bardzo szybko. Co można zrobić?",
+   "options": [
+    "Nie ma znaczenia, czego się uczy.",
+    "Dorośli muszą uczyć się dalej także po zakończeniu wykształcenia zawodowego.",
+    "Dzieci uczą się w szkole wszystkiego, co jest ważne w zawodzie. Po szkole nie trzeba się dalej uczyć.",
+    "Wszyscy muszą wcześniej przestać pracować, ponieważ wszystko się zmienia."
+   ]
+  },
+  "ALL-285": {
+   "question": "Pani Frost pracuje na stałe jako pracownica biurowa. Czego nie musi płacić ze swojego wynagrodzenia?",
+   "options": [
+    "podatku od wynagrodzeń",
+    "składek na ubezpieczenie na wypadek bezrobocia",
+    "składek na ubezpieczenie emerytalne i zdrowotne",
+    "podatku VAT"
+   ]
+  },
+  "ALL-286": {
+   "question": "Jaka organizacja w firmie pomaga pracownikom i pracownicom w problemach z pracodawcą?",
+   "options": [
+    "rada zakładowa (Betriebsrat)",
+    "kontroler/kontrolerka zakładowa",
+    "grupa zakładowa",
+    "kierownictwo zakładu"
+   ]
+  },
+  "ALL-287": {
+   "question": "Chce Pan/Pani zakończyć stosunek pracy w firmie w Niemczech. Co należy wziąć pod uwagę?",
+   "options": [
+    "wypłaty wynagrodzenia",
+    "czas pracy",
+    "okres wypowiedzenia",
+    "obowiązek ubezpieczenia"
+   ]
+  },
+  "ALL-288": {
+   "question": "Na czym opiera się szczególna odpowiedzialność Niemiec wobec Izraela?",
+   "options": [
+    "na członkostwie w Unii Europejskiej (UE)",
+    "na zbrodniach narodowosocjalistycznych wobec Żydów",
+    "na Ustawie Zasadniczej Republiki Federalnej Niemiec",
+    "na tradycji chrześcijańskiej"
+   ]
+  },
+  "ALL-289": {
+   "question": "Mężczyzna o ciemnym kolorze skóry ubiega się o pracę kelnera w restauracji w Niemczech. Co jest przykładem dyskryminacji? Nie dostaje pracy tylko dlatego, że…",
+   "options": [
+    "jego znajomość języka niemieckiego jest zbyt słaba.",
+    "ma zbyt wysokie oczekiwania płacowe.",
+    "ma ciemny kolor skóry.",
+    "nie ma doświadczenia w zawodzie."
+   ]
+  },
+  "ALL-290": {
+   "question": "Kupił/kupiła Pan/Pani w Niemczech telewizor. W domu rozpakowuje Pan/Pani telewizor, ale nie działa. Telewizor jest uszkodzony. Co może Pan/Pani zrobić?",
+   "options": [
+    "napisać zgłoszenie na policję",
+    "złożyć reklamację telewizora",
+    "wymienić urządzenie bez pytania",
+    "przedłużyć gwarancję"
+   ]
+  },
+  "ALL-291": {
+   "question": "Dlaczego w Niemczech w zeznaniu podatkowym trzeba podać, czy należy się do kościoła, czy nie? Ponieważ…",
+   "options": [
+    "istnieje podatek kościelny, powiązany z podatkiem dochodowym i podatkiem od wynagrodzeń.",
+    "jest to ważne dla statystyki w Niemczech.",
+    "trzeba płacić wyższe podatki, jeśli nie należy się do kościoła.",
+    "kościół jest odpowiedzialny za zeznanie podatkowe."
+   ]
+  },
+  "ALL-292": {
+   "question": "Ludzie w Niemczech żyją według zasady tolerancji religijnej. Co to oznacza?",
+   "options": [
+    "Nie wolno budować meczetów.",
+    "Wszyscy ludzie wierzą w Boga.",
+    "Każdy może wierzyć w to, co chce.",
+    "Państwo decyduje, w jakiego boga wierzą ludzie."
+   ]
+  },
+  "ALL-293": {
+   "question": "Jaki jest zwyczaj wielkanocny w Niemczech?",
+   "options": [
+    "stawianie dyni przed drzwiami",
+    "ubieranie choinki",
+    "malowanie jajek",
+    "wystrzeliwanie rakiet w powietrze"
+   ]
+  },
+  "ALL-294": {
+   "question": "Zielone Świątki (Pfingsten) są…",
+   "options": [
+    "świętem chrześcijańskim.",
+    "niemieckim dniem pamięci.",
+    "międzynarodowym dniem żałoby.",
+    "bawarskim zwyczajem."
+   ]
+  },
+  "ALL-295": {
+   "question": "Jaka religia ukształtowała kulturę europejską i niemiecką?",
+   "options": [
+    "hinduizm",
+    "chrześcijaństwo",
+    "buddyzm",
+    "islam"
+   ]
+  },
+  "ALL-296": {
+   "question": "W Niemczech ostatnie cztery tygodnie przed Bożym Narodzeniem nazywa się…",
+   "options": [
+    "Dniem Pokuty i Modlitwy (Buß- und Bettag).",
+    "Świętem Dziękczynienia za Plony (Erntedankfest).",
+    "Adwentem.",
+    "Dniem Wszystkich Świętych."
+   ]
+  },
+  "ALL-297": {
+   "question": "Z jakiego kraju przybyło do Niemiec najwięcej migrantek i migrantów?",
+   "options": [
+    "Włochy",
+    "Polska",
+    "Maroko",
+    "Turcja"
+   ]
+  },
+  "ALL-298": {
+   "question": "W NRD mieszkali przede wszystkim migranci i migrantki z…",
+   "options": [
+    "Wietnamu, Polski, Mozambiku.",
+    "Francji, Rumunii, Somalii.",
+    "Chile, Węgier, Zimbabwe.",
+    "Korei Północnej, Meksyku, Egiptu."
+   ]
+  },
+  "ALL-299": {
+   "question": "Jak nazywano zagranicznych pracowników i pracownice, których Republika Federalna Niemiec zwerbowała w latach 50. i 60.?",
+   "options": [
+    "pracownikami/pracownicami na czarno.",
+    "gastarbeiterami/gastarbeiterkami (pracownikami gościnnymi).",
+    "pracownikami/pracownicami tymczasowymi.",
+    "pracownikami/pracownicami zmianowymi."
+   ]
+  },
+  "ALL-300": {
+   "question": "Z jakiego kraju przybyli pierwsi gastarbeiterzy do Republiki Federalnej Niemiec?",
+   "options": [
+    "Włochy",
+    "Hiszpania",
+    "Portugalia",
+    "Turcja"
+   ]
+  },
+  "Baden-Württemberg-01": {
+   "question": "Który herb należy do kraju związkowego Badenia-Wirtembergia? Obraz 1 Obraz 2 Obraz 3 Obraz 4",
+   "options": [
+    "Obraz 1",
+    "Obraz 2",
+    "Obraz 3",
+    "Obraz 4"
+   ]
+  },
+  "Baden-Württemberg-02": {
+   "question": "Który z poniższych jest powiatem w Badenii-Wirtembergii?",
+   "options": [
+    "Meklemburskie Pojezierze",
+    "Powiat Neckar-Odenwald",
+    "Fryzja Północna",
+    "Altötting"
+   ]
+  },
+  "Baden-Württemberg-03": {
+   "question": "Na ile lat wybierany jest landtag w Badenii-Wirtembergii?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Baden-Württemberg-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Badenii-Wirtembergii?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Baden-Württemberg-05": {
+   "question": "Jakie kolory ma flaga krajowa Badenii-Wirtembergii?",
+   "options": [
+    "niebiesko-biało-czerwona",
+    "czarno-złota",
+    "biało-niebieska",
+    "zielono-biało-czerwona"
+   ]
+  },
+  "Baden-Württemberg-06": {
+   "question": "Gdzie w Badenii-Wirtembergii można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w urzędzie porządkowym gminy",
+    "w centrali ochrony konsumentów",
+    "w krajowej centrali edukacji politycznej",
+    "w kościołach"
+   ]
+  },
+  "Baden-Württemberg-07": {
+   "question": "Stolicą kraju związkowego Badenia-Wirtembergia jest …",
+   "options": [
+    "Heidelberg.",
+    "Stuttgart.",
+    "Karlsruhe.",
+    "Mannheim."
+   ]
+  },
+  "Baden-Württemberg-08": {
+   "question": "Który kraj związkowy jest Badenią-Wirtembergią?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Baden-Württemberg-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Badenii-Wirtembergii?",
+   "options": [
+    "Pierwsza Ministra/Pierwszy Minister",
+    "Premierka/Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)"
+   ]
+  },
+  "Baden-Württemberg-10": {
+   "question": "Której ministry/którego ministra nie ma w Badenii-Wirtembergii?",
+   "options": [
+    "Ministry finansów/Ministra finansów",
+    "Ministry sprawiedliwości/Ministra sprawiedliwości",
+    "Ministry spraw wewnętrznych/Ministra spraw wewnętrznych",
+    "Ministry spraw zagranicznych/Ministra spraw zagranicznych"
+   ]
+  },
+  "Bayern-01": {
+   "question": "Który herb należy do wolnego kraju związkowego Bawaria? Obraz 1 Obraz 2 Obraz 3 Obraz 4",
+   "options": [
+    "Obraz 1",
+    "Obraz 2",
+    "Obraz 3",
+    "Obraz 4"
+   ]
+  },
+  "Bayern-02": {
+   "question": "Który z poniższych jest powiatem w Bawarii?",
+   "options": [
+    "Prignitz",
+    "Powiat Rhein-Sieg",
+    "Fryzja Północna",
+    "Altötting"
+   ]
+  },
+  "Bayern-03": {
+   "question": "Na ile lat wybierany jest landtag w Bawarii?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Bayern-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Bawarii?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Bayern-05": {
+   "question": "Jakie kolory ma flaga krajowa Bawarii?",
+   "options": [
+    "niebiesko-biało-czerwona",
+    "biało-niebieska",
+    "zielono-biało-czerwona",
+    "czarno-żółta"
+   ]
+  },
+  "Bayern-06": {
+   "question": "Gdzie w Bawarii można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w urzędzie porządkowym gminy",
+    "w krajowej centrali edukacji politycznej",
+    "w centrali ochrony konsumentów",
+    "w kościołach"
+   ]
+  },
+  "Bayern-07": {
+   "question": "Stolicą kraju związkowego Bawaria jest …",
+   "options": [
+    "Ingolstadt.",
+    "Ratyzbona.",
+    "Norymberga.",
+    "Monachium."
+   ]
+  },
+  "Bayern-08": {
+   "question": "Który kraj związkowy jest Bawarią?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Bayern-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Bawarii?",
+   "options": [
+    "Pierwsza Ministra/Pierwszy Minister",
+    "Premierka/Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)"
+   ]
+  },
+  "Bayern-10": {
+   "question": "Której ministry/którego ministra nie ma w Bawarii?",
+   "options": [
+    "Ministry sprawiedliwości/Ministra sprawiedliwości",
+    "Ministry spraw zagranicznych/Ministra spraw zagranicznych",
+    "Ministry finansów/Ministra finansów",
+    "Ministry spraw wewnętrznych/Ministra spraw wewnętrznych"
+   ]
+  },
+  "Berlin-01": {
+   "question": "Który herb należy do kraju związkowego Berlin? Obraz 1 Obraz 2 Obraz 3 Obraz 4",
+   "options": [
+    "Obraz 1",
+    "Obraz 2",
+    "Obraz 3",
+    "Obraz 4"
+   ]
+  },
+  "Berlin-02": {
+   "question": "Która z poniższych jest dzielnicą Berlina?",
+   "options": [
+    "Altona",
+    "Prignitz",
+    "Pankow",
+    "Meklemburskie Pojezierze"
+   ]
+  },
+  "Berlin-03": {
+   "question": "Na ile lat wybierany jest parlament krajowy w Berlinie?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Berlin-04": {
+   "question": "Od jakiego wieku można głosować w Berlinie w wyborach komunalnych (wybory do rady dzielnicy)?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Berlin-05": {
+   "question": "Jakie kolory ma flaga krajowa Berlina?",
+   "options": [
+    "niebiesko-biało-czerwona",
+    "biało-czerwona",
+    "zielono-biało-czerwona",
+    "czarno-złota"
+   ]
+  },
+  "Berlin-06": {
+   "question": "Gdzie w Berlinie można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w urzędzie porządkowym gminy",
+    "w kościołach",
+    "w centrali ochrony konsumentów",
+    "w krajowej centrali edukacji politycznej"
+   ]
+  },
+  "Berlin-07": {
+   "question": "Który kraj związkowy jest miastem-krajem związkowym?",
+   "options": [
+    "Berlin",
+    "Kraj Saary",
+    "Brandenburgia",
+    "Hesja"
+   ]
+  },
+  "Berlin-08": {
+   "question": "Który kraj związkowy jest Berlinem?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Berlin-09": {
+   "question": "Jak nazywa się szefowa/szef rządu miasta-kraju związkowego Berlin?",
+   "options": [
+    "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)",
+    "Nadburmistrzyni/Nadburmistrz",
+    "Przewodnicząca/Przewodniczący Senatu",
+    "Rządząca Burmistrzyni/Rządzący Burmistrz"
+   ]
+  },
+  "Berlin-10": {
+   "question": "Której senator/którego senatora nie ma w Berlinie?",
+   "options": [
+    "Senator finansów/Senatora finansów",
+    "Senator spraw wewnętrznych/Senatora spraw wewnętrznych",
+    "Senator ds. stosunków zewnętrznych/Senatora ds. stosunków zewnętrznych",
+    "Senator sprawiedliwości/Senatora sprawiedliwości"
+   ]
+  },
+  "Brandenburg-01": {
+   "question": "Który herb należy do kraju związkowego Brandenburgia? Obraz 1 Obraz 2 Obraz 3 Obraz 4",
+   "options": [
+    "Obraz 1",
+    "Obraz 2",
+    "Obraz 3",
+    "Obraz 4"
+   ]
+  },
+  "Brandenburg-02": {
+   "question": "Który z poniższych jest powiatem w Brandenburgii?",
+   "options": [
+    "Prignitz",
+    "Powiat Rhein-Sieg",
+    "Powiat Vogtland",
+    "Amberg-Sulzbach"
+   ]
+  },
+  "Brandenburg-03": {
+   "question": "Na ile lat wybierany jest landtag w Brandenburgii?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Brandenburg-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Brandenburgii?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Brandenburg-05": {
+   "question": "Jakie kolory ma flaga krajowa Brandenburgii?",
+   "options": [
+    "niebiesko-biało-czerwona",
+    "czerwono-biała",
+    "zielono-biało-czerwona",
+    "czarno-żółta"
+   ]
+  },
+  "Brandenburg-06": {
+   "question": "Gdzie w Brandenburgii można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w kościołach",
+    "w urzędzie porządkowym gminy",
+    "w krajowej centrali edukacji politycznej",
+    "w centrali ochrony konsumentów"
+   ]
+  },
+  "Brandenburg-07": {
+   "question": "Stolicą kraju związkowego Brandenburgia jest …",
+   "options": [
+    "Poczdam.",
+    "Cottbus.",
+    "Brandenburg nad Hawelą.",
+    "Frankfurt nad Odrą."
+   ]
+  },
+  "Brandenburg-08": {
+   "question": "Który kraj związkowy jest Brandenburgią?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Brandenburg-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Brandenburgii?",
+   "options": [
+    "Pierwsza Ministra/Pierwszy Minister",
+    "Premierka/Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)"
+   ]
+  },
+  "Brandenburg-10": {
+   "question": "Której ministry/którego ministra nie ma w Brandenburgii?",
+   "options": [
+    "Ministry sprawiedliwości/Ministra sprawiedliwości",
+    "Ministry spraw zagranicznych/Ministra spraw zagranicznych",
+    "Ministry finansów/Ministra finansów",
+    "Ministry spraw wewnętrznych/Ministra spraw wewnętrznych"
+   ]
+  },
+  "Bremen-01": {
+   "question": "Który herb należy do Wolnego Hanzeatyckiego Miasta Brema? Obraz 1 Obraz 2 Obraz 3 Obraz 4",
+   "options": [
+    "Obraz 1",
+    "Obraz 2",
+    "Obraz 3",
+    "Obraz 4"
+   ]
+  },
+  "Bremen-02": {
+   "question": "Która z poniższych jest dzielnicą Bremy?",
+   "options": [
+    "Altona",
+    "Hemelingen",
+    "Pankow",
+    "Babelsberg"
+   ]
+  },
+  "Bremen-03": {
+   "question": "Na ile lat wybierany jest parlament krajowy w Bremie?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Bremen-04": {
+   "question": "Od jakiego wieku można głosować w Bremie w wyborach do Bürgerschaft (landtagu)?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Bremen-05": {
+   "question": "Jakie kolory ma flaga krajowa Bremy?",
+   "options": [
+    "niebiesko-biało-czerwona",
+    "czerwono-biała",
+    "zielono-biało-czerwona",
+    "czarno-złota"
+   ]
+  },
+  "Bremen-06": {
+   "question": "Gdzie w Bremie można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w urzędzie porządkowym gminy",
+    "w krajowej centrali edukacji politycznej",
+    "w kościołach",
+    "w centrali ochrony konsumentów"
+   ]
+  },
+  "Bremen-07": {
+   "question": "Co jest niemieckim miastem-krajem związkowym?",
+   "options": [
+    "Brema",
+    "Monachium",
+    "Frankfurt",
+    "Erfurt"
+   ]
+  },
+  "Bremen-08": {
+   "question": "Który kraj związkowy jest Bremą?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Bremen-09": {
+   "question": "Jak nazywa się szefowa/szef rządu miasta-kraju związkowego Brema?",
+   "options": [
+    "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)",
+    "Pierwsza Burmistrzyni/Pierwszy Burmistrz",
+    "Przewodnicząca/Przewodniczący Senatu",
+    "Rządząca Burmistrzyni/Rządzący Burmistrz"
+   ]
+  },
+  "Bremen-10": {
+   "question": "Której senator/którego senatora nie ma w Bremie?",
+   "options": [
+    "Senator ds. stosunków zewnętrznych/Senatora ds. stosunków zewnętrznych",
+    "Senator finansów/Senatora finansów",
+    "Senator sprawiedliwości/Senatora sprawiedliwości",
+    "Senator spraw wewnętrznych/Senatora spraw wewnętrznych"
+   ]
+  },
+  "Hamburg-01": {
+   "question": "Który herb należy do Wolnego i Hanzeatyckiego Miasta Hamburg? Obraz 1 Obraz 2 Obraz 3 Obraz 4",
+   "options": [
+    "Obraz 1",
+    "Obraz 2",
+    "Obraz 3",
+    "Obraz 4"
+   ]
+  },
+  "Hamburg-02": {
+   "question": "Która z poniższych jest dzielnicą Hamburga?",
+   "options": [
+    "Altona",
+    "Hemelingen",
+    "Pankow",
+    "Meklemburskie Pojezierze"
+   ]
+  },
+  "Hamburg-03": {
+   "question": "Na ile lat wybierany jest parlament krajowy w Hamburgu?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Hamburg-04": {
+   "question": "Od jakiego wieku można głosować w Hamburgu w wyborach komunalnych (wybory do zgromadzeń dzielnicowych)?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Hamburg-05": {
+   "question": "Jakie kolory ma flaga krajowa Hamburga?",
+   "options": [
+    "niebiesko-biało-czerwona",
+    "biało-czerwona",
+    "zielono-biało-czerwona",
+    "czarno-żółta"
+   ]
+  },
+  "Hamburg-06": {
+   "question": "Gdzie w Hamburgu można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w urzędzie porządkowym gminy",
+    "w centrali ochrony konsumentów",
+    "w kościołach",
+    "w krajowej centrali edukacji politycznej"
+   ]
+  },
+  "Hamburg-07": {
+   "question": "Który kraj związkowy jest miastem-krajem związkowym?",
+   "options": [
+    "Hamburg",
+    "Saksonia",
+    "Bawaria",
+    "Turyngia"
+   ]
+  },
+  "Hamburg-08": {
+   "question": "Który kraj związkowy jest Hamburgiem?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Hamburg-09": {
+   "question": "Jak nazywa się szefowa/szef rządu miasta-kraju związkowego Hamburg?",
+   "options": [
+    "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)",
+    "Pierwsza Burmistrzyni/Pierwszy Burmistrz",
+    "Rządząca Senator/Rządzący Senator",
+    "Nadburmistrzyni/Nadburmistrz"
+   ]
+  },
+  "Hamburg-10": {
+   "question": "Której senator/którego senatora nie ma w Hamburgu?",
+   "options": [
+    "Senator sprawiedliwości/Senatora sprawiedliwości",
+    "Senator ds. stosunków zewnętrznych/Senatora ds. stosunków zewnętrznych",
+    "Senator finansów/Senatora finansów",
+    "Senator spraw wewnętrznych/Senatora spraw wewnętrznych"
+   ]
+  },
+  "Hessen-01": {
+   "question": "Który herb należy do kraju związkowego Hesja? Obraz 1 Obraz 2 Obraz 3 Obraz 4",
+   "options": [
+    "Obraz 1",
+    "Obraz 2",
+    "Obraz 3",
+    "Obraz 4"
+   ]
+  },
+  "Hessen-02": {
+   "question": "Który z poniższych jest powiatem w Hesji?",
+   "options": [
+    "Ammerland",
+    "Altötting",
+    "Prignitz",
+    "Powiat Main-Taunus"
+   ]
+  },
+  "Hessen-03": {
+   "question": "Na ile lat wybierany jest landtag w Hesji?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Hessen-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Hesji?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Hessen-05": {
+   "question": "Jakie kolory ma flaga krajowa Hesji?",
+   "options": [
+    "niebiesko-biało-czerwona",
+    "czerwono-biała",
+    "czarno-złota",
+    "zielono-biało-czerwona"
+   ]
+  },
+  "Hessen-06": {
+   "question": "Gdzie w Hesji można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w krajowej centrali edukacji politycznej",
+    "w centrali ochrony konsumentów",
+    "w urzędzie porządkowym gminy",
+    "w kościołach"
+   ]
+  },
+  "Hessen-07": {
+   "question": "Stolicą kraju związkowego Hesja jest …",
+   "options": [
+    "Kassel.",
+    "Darmstadt.",
+    "Frankfurt.",
+    "Wiesbaden."
+   ]
+  },
+  "Hessen-08": {
+   "question": "Który kraj związkowy jest Hesją?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Hessen-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Hesji?",
+   "options": [
+    "Pierwsza Ministra/Pierwszy Minister",
+    "Premierka/Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)"
+   ]
+  },
+  "Hessen-10": {
+   "question": "Której ministry/którego ministra nie ma w Hesji?",
+   "options": [
+    "Ministry sprawiedliwości/Ministra sprawiedliwości",
+    "Ministry spraw zagranicznych/Ministra spraw zagranicznych",
+    "Ministry finansów/Ministra finansów",
+    "Ministry spraw wewnętrznych/Ministra spraw wewnętrznych"
+   ]
+  },
+  "Mecklenburg-Vorpommern-01": {
+   "question": "Który herb należy do kraju związkowego Meklemburgia-Pomorze Przednie? Obraz 1 Obraz 2 Obraz 3 Obraz 4",
+   "options": [
+    "Obraz 1",
+    "Obraz 2",
+    "Obraz 3",
+    "Obraz 4"
+   ]
+  },
+  "Mecklenburg-Vorpommern-02": {
+   "question": "Który z poniższych jest powiatem w Meklemburgii-Pomorzu Przednim?",
+   "options": [
+    "Prignitz",
+    "Meklemburskie Pojezierze",
+    "Powiat Vogtland",
+    "Powiat Rhein-Sieg"
+   ]
+  },
+  "Mecklenburg-Vorpommern-03": {
+   "question": "Na ile lat wybierany jest landtag w Meklemburgii-Pomorzu Przednim?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Mecklenburg-Vorpommern-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Meklemburgii-Pomorzu Przednim?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Mecklenburg-Vorpommern-05": {
+   "question": "Jakie kolory ma flaga krajowa Meklemburgii-Pomorza Przedniego?",
+   "options": [
+    "czarno-czerwono-złota",
+    "niebiesko-biało-żółto-czerwona",
+    "zielono-biało-czerwona",
+    "czarno-żółta"
+   ]
+  },
+  "Mecklenburg-Vorpommern-06": {
+   "question": "Gdzie w Meklemburgii-Pomorzu Przednim można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w krajowej centrali edukacji politycznej",
+    "w kościołach",
+    "w urzędzie porządkowym gminy",
+    "w centrali ochrony konsumentów"
+   ]
+  },
+  "Mecklenburg-Vorpommern-07": {
+   "question": "Stolicą kraju związkowego Meklemburgia-Pomorze Przednie jest …",
+   "options": [
+    "Greifswald.",
+    "Schwerin.",
+    "Rostock.",
+    "Wismar."
+   ]
+  },
+  "Mecklenburg-Vorpommern-08": {
+   "question": "Który kraj związkowy jest Meklemburgią-Pomorzem Przednim?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Mecklenburg-Vorpommern-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Meklemburgii-Pomorzu Przednim?",
+   "options": [
+    "Pierwsza Ministra/Pierwszy Minister",
+    "Premierka/Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier krajowy/Premierka krajowa (Ministerpräsidentin/Ministerpräsident)"
+   ]
+  },
+  "Mecklenburg-Vorpommern-10": {
+   "question": "Której ministry/którego ministra nie ma w Meklemburgii-Pomorzu Przednim?",
+   "options": [
+    "Ministry sprawiedliwości/Ministra sprawiedliwości",
+    "Ministry spraw zagranicznych/Ministra spraw zagranicznych",
+    "Ministry finansów/Ministra finansów",
+    "Ministry spraw wewnętrznych/Ministra spraw wewnętrznych"
+   ]
+  },
+  "Niedersachsen-01": {
+   "question": "Który herb należy do kraju związkowego Dolna Saksonia? Zdjęcie 1 Zdjęcie 2 Zdjęcie 3 Zdjęcie 4",
+   "options": [
+    "Zdjęcie 1",
+    "Zdjęcie 2",
+    "Zdjęcie 3",
+    "Zdjęcie 4"
+   ]
+  },
+  "Niedersachsen-02": {
+   "question": "Który z nich jest powiatem w Dolnej Saksonii?",
+   "options": [
+    "Ammerland",
+    "Powiat Rhein-Sieg",
+    "Nordfriesland",
+    "Powiat Vogtland"
+   ]
+  },
+  "Niedersachsen-03": {
+   "question": "Na ile lat wybierany jest landtag w Dolnej Saksonii?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Niedersachsen-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Dolnej Saksonii?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Niedersachsen-05": {
+   "question": "Jakie kolory ma flaga kraju związkowego Dolna Saksonia?",
+   "options": [
+    "biało-niebieska",
+    "czarno-czerwono-złota",
+    "czarno-żółta",
+    "niebiesko-biało-czerwona"
+   ]
+  },
+  "Niedersachsen-06": {
+   "question": "Gdzie w Dolnej Saksonii można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w krajowej centrali edukacji politycznej",
+    "w urzędzie porządkowym gminy",
+    "w centrali ochrony konsumentów",
+    "w kościołach"
+   ]
+  },
+  "Niedersachsen-07": {
+   "question": "Stolicą kraju związkowego Dolna Saksonia jest …",
+   "options": [
+    "Hanower.",
+    "Brunszwik.",
+    "Wolfsburg.",
+    "Osnabrück."
+   ]
+  },
+  "Niedersachsen-08": {
+   "question": "Który to kraj związkowy: Dolna Saksonia?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Niedersachsen-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Dolnej Saksonii?",
+   "options": [
+    "Pierwsza Minister/Pierwszy Minister",
+    "Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier Kraju Związkowego"
+   ]
+  },
+  "Niedersachsen-10": {
+   "question": "Którego ministra/której minister nie ma Dolna Saksonia?",
+   "options": [
+    "Minister Sprawiedliwości",
+    "Minister Spraw Zagranicznych",
+    "Minister Finansów",
+    "Minister Spraw Wewnętrznych"
+   ]
+  },
+  "Nordrhein-Westfalen-01": {
+   "question": "Który herb należy do kraju związkowego Nadrenia Północna-Westfalia? Zdjęcie 1 Zdjęcie 2 Zdjęcie 3 Zdjęcie 4",
+   "options": [
+    "Zdjęcie 1",
+    "Zdjęcie 2",
+    "Zdjęcie 3",
+    "Zdjęcie 4"
+   ]
+  },
+  "Nordrhein-Westfalen-02": {
+   "question": "Który z nich jest powiatem w Nadrenii Północnej-Westfalii?",
+   "options": [
+    "Ammerland",
+    "Powiat Rhein-Sieg",
+    "Nordfriesland",
+    "Powiat Vogtland"
+   ]
+  },
+  "Nordrhein-Westfalen-03": {
+   "question": "Na ile lat wybierany jest landtag w Nadrenii Północnej-Westfalii?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Nordrhein-Westfalen-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Nadrenii Północnej-Westfalii?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Nordrhein-Westfalen-05": {
+   "question": "Jakie kolory ma flaga kraju związkowego Nadrenia Północna-Westfalia?",
+   "options": [
+    "czerwono-biała",
+    "zielono-biało-czerwona",
+    "czarno-złota",
+    "niebiesko-biało-czerwona"
+   ]
+  },
+  "Nordrhein-Westfalen-06": {
+   "question": "Gdzie w Nadrenii Północnej-Westfalii można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w kościołach",
+    "w urzędzie porządkowym gminy",
+    "w centrali ochrony konsumentów",
+    "w krajowej centrali edukacji politycznej"
+   ]
+  },
+  "Nordrhein-Westfalen-07": {
+   "question": "Stolicą kraju związkowego Nadrenia Północna-Westfalia jest …",
+   "options": [
+    "Kolonia.",
+    "Bonn.",
+    "Düsseldorf.",
+    "Dortmund."
+   ]
+  },
+  "Nordrhein-Westfalen-08": {
+   "question": "Który to kraj związkowy: Nadrenia Północna-Westfalia?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Nordrhein-Westfalen-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Nadrenii Północnej-Westfalii?",
+   "options": [
+    "Pierwsza Minister/Pierwszy Minister",
+    "Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier Kraju Związkowego"
+   ]
+  },
+  "Nordrhein-Westfalen-10": {
+   "question": "Którego ministra/której minister nie ma Nadrenia Północna-Westfalia?",
+   "options": [
+    "Minister Sprawiedliwości",
+    "Minister Spraw Zagranicznych",
+    "Minister Finansów",
+    "Minister Spraw Wewnętrznych"
+   ]
+  },
+  "Rheinland-Pfalz-01": {
+   "question": "Który herb należy do kraju związkowego Nadrenia-Palatynat? Zdjęcie 1 Zdjęcie 2 Zdjęcie 3 Zdjęcie 4",
+   "options": [
+    "Zdjęcie 1",
+    "Zdjęcie 2",
+    "Zdjęcie 3",
+    "Zdjęcie 4"
+   ]
+  },
+  "Rheinland-Pfalz-02": {
+   "question": "Który z nich jest powiatem w Nadrenii-Palatynacie?",
+   "options": [
+    "Powiat Westerwald",
+    "Altötting",
+    "Emsland",
+    "Prignitz"
+   ]
+  },
+  "Rheinland-Pfalz-03": {
+   "question": "Na ile lat wybierany jest landtag w Nadrenii-Palatynacie?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Rheinland-Pfalz-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Nadrenii-Palatynacie?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Rheinland-Pfalz-05": {
+   "question": "Jakie kolory ma flaga kraju związkowego Nadrenia-Palatynat?",
+   "options": [
+    "biało-czerwona",
+    "czarno-czerwono-złota",
+    "czarno-żółta",
+    "zielono-biało-czerwona"
+   ]
+  },
+  "Rheinland-Pfalz-06": {
+   "question": "Gdzie w Nadrenii-Palatynacie można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w kościołach",
+    "w centrali ochrony konsumentów",
+    "w urzędzie porządkowym gminy",
+    "w krajowej centrali edukacji politycznej"
+   ]
+  },
+  "Rheinland-Pfalz-07": {
+   "question": "Stolicą kraju związkowego Nadrenia-Palatynat jest …",
+   "options": [
+    "Moguncja.",
+    "Kaiserslautern.",
+    "Ludwigshafen.",
+    "Koblencja."
+   ]
+  },
+  "Rheinland-Pfalz-08": {
+   "question": "Który to kraj związkowy: Nadrenia-Palatynat?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Rheinland-Pfalz-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Nadrenii-Palatynacie?",
+   "options": [
+    "Pierwsza Minister/Pierwszy Minister",
+    "Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier Kraju Związkowego"
+   ]
+  },
+  "Rheinland-Pfalz-10": {
+   "question": "Którego ministra/której minister nie ma Nadrenia-Palatynat?",
+   "options": [
+    "Minister Sprawiedliwości",
+    "Minister Spraw Zagranicznych",
+    "Minister Finansów",
+    "Minister Spraw Wewnętrznych"
+   ]
+  },
+  "Saarland-01": {
+   "question": "Który herb należy do kraju związkowego Saara? Zdjęcie 1 Zdjęcie 2 Zdjęcie 3 Zdjęcie 4",
+   "options": [
+    "Zdjęcie 1",
+    "Zdjęcie 2",
+    "Zdjęcie 3",
+    "Zdjęcie 4"
+   ]
+  },
+  "Saarland-02": {
+   "question": "Który z nich jest powiatem w Kraju Saary?",
+   "options": [
+    "Pojezierze Meklemburskie",
+    "Altötting",
+    "Neunkirchen",
+    "Powiat Rhein-Sieg"
+   ]
+  },
+  "Saarland-03": {
+   "question": "Na ile lat wybierany jest landtag Kraju Saary?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Saarland-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Kraju Saary?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Saarland-05": {
+   "question": "Jakie kolory ma flaga Kraju Saary?",
+   "options": [
+    "biało-niebieska",
+    "czarno-czerwono-złota",
+    "czarno-żółta",
+    "zielono-biało-czerwona"
+   ]
+  },
+  "Saarland-06": {
+   "question": "Gdzie w Kraju Saary można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w kościołach",
+    "w krajowej centrali edukacji politycznej",
+    "w centrali ochrony konsumentów",
+    "w urzędzie porządkowym gminy"
+   ]
+  },
+  "Saarland-07": {
+   "question": "Stolicą Kraju Saary jest …",
+   "options": [
+    "Neunkirchen.",
+    "Homburg.",
+    "Saarbrücken.",
+    "Völklingen."
+   ]
+  },
+  "Saarland-08": {
+   "question": "Który to kraj związkowy: Kraj Saary?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Saarland-09": {
+   "question": "Jak nazywa się szefowa/szef rządu Kraju Saary?",
+   "options": [
+    "Pierwsza Minister/Pierwszy Minister",
+    "Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier Kraju Związkowego"
+   ]
+  },
+  "Saarland-10": {
+   "question": "Którego ministra/której minister nie ma Kraj Saary?",
+   "options": [
+    "Minister Sprawiedliwości",
+    "Minister Spraw Zagranicznych",
+    "Minister Finansów",
+    "Minister Spraw Wewnętrznych"
+   ]
+  },
+  "Sachsen-01": {
+   "question": "Który herb należy do Wolnego Państwa Saksonii? Zdjęcie 1 Zdjęcie 2 Zdjęcie 3 Zdjęcie 4",
+   "options": [
+    "Zdjęcie 1",
+    "Zdjęcie 2",
+    "Zdjęcie 3",
+    "Zdjęcie 4"
+   ]
+  },
+  "Sachsen-02": {
+   "question": "Który z nich jest powiatem w Saksonii?",
+   "options": [
+    "Powiat Vogtland",
+    "Altötting",
+    "Uckermark",
+    "Nordfriesland"
+   ]
+  },
+  "Sachsen-03": {
+   "question": "Na ile lat wybierany jest landtag w Saksonii?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Sachsen-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Saksonii?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Sachsen-05": {
+   "question": "Jakie kolory ma flaga kraju związkowego Saksonia?",
+   "options": [
+    "niebiesko-biało-czerwona",
+    "biało-zielona",
+    "zielono-biało-czerwona",
+    "czarno-żółta"
+   ]
+  },
+  "Sachsen-06": {
+   "question": "Gdzie w Saksonii można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w krajowej centrali edukacji politycznej",
+    "w urzędzie porządkowym gminy",
+    "w kościołach",
+    "w centrali ochrony konsumentów"
+   ]
+  },
+  "Sachsen-07": {
+   "question": "Stolicą kraju związkowego Saksonia jest …",
+   "options": [
+    "Lipsk.",
+    "Drezno.",
+    "Chemnitz.",
+    "Zwickau."
+   ]
+  },
+  "Sachsen-08": {
+   "question": "Który to kraj związkowy: Saksonia?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Sachsen-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Saksonii?",
+   "options": [
+    "Pierwsza Minister/Pierwszy Minister",
+    "Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier Kraju Związkowego"
+   ]
+  },
+  "Sachsen-10": {
+   "question": "Którego ministra/której minister nie ma Saksonia?",
+   "options": [
+    "Minister Sprawiedliwości",
+    "Minister Spraw Zagranicznych",
+    "Minister Finansów",
+    "Minister Spraw Wewnętrznych"
+   ]
+  },
+  "Sachsen-Anhalt-01": {
+   "question": "Który herb należy do kraju związkowego Saksonia-Anhalt? Zdjęcie 1 Zdjęcie 2 Zdjęcie 3 Zdjęcie 4",
+   "options": [
+    "Zdjęcie 1",
+    "Zdjęcie 2",
+    "Zdjęcie 3",
+    "Zdjęcie 4"
+   ]
+  },
+  "Sachsen-Anhalt-02": {
+   "question": "Który z nich jest powiatem w Saksonii-Anhalt?",
+   "options": [
+    "Ammerland",
+    "Altötting",
+    "Uckermark",
+    "Börde"
+   ]
+  },
+  "Sachsen-Anhalt-03": {
+   "question": "Na ile lat wybierany jest landtag w Saksonii-Anhalt?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Sachsen-Anhalt-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Saksonii-Anhalt?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Sachsen-Anhalt-05": {
+   "question": "Jakie kolory ma flaga kraju związkowego Saksonia-Anhalt?",
+   "options": [
+    "niebiesko-biało-czerwona",
+    "żółto-czarna",
+    "zielono-biało-czerwona",
+    "biało-czerwona"
+   ]
+  },
+  "Sachsen-Anhalt-06": {
+   "question": "Gdzie w Saksonii-Anhalt można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w kościołach",
+    "w krajowej centrali edukacji politycznej",
+    "w urzędzie porządkowym gminy",
+    "w centrali ochrony konsumentów"
+   ]
+  },
+  "Sachsen-Anhalt-07": {
+   "question": "Stolicą kraju związkowego Saksonia-Anhalt jest …",
+   "options": [
+    "Halle.",
+    "Dessau.",
+    "Magdeburg.",
+    "Wittenberga."
+   ]
+  },
+  "Sachsen-Anhalt-08": {
+   "question": "Który to kraj związkowy: Saksonia-Anhalt?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Sachsen-Anhalt-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Saksonii-Anhalt?",
+   "options": [
+    "Pierwsza Minister/Pierwszy Minister",
+    "Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier Kraju Związkowego"
+   ]
+  },
+  "Sachsen-Anhalt-10": {
+   "question": "Którego ministra/której minister nie ma Saksonia-Anhalt?",
+   "options": [
+    "Minister Sprawiedliwości",
+    "Minister Spraw Zagranicznych",
+    "Minister Finansów",
+    "Minister Spraw Wewnętrznych"
+   ]
+  },
+  "Schleswig-Holstein-01": {
+   "question": "Który herb należy do kraju związkowego Szlezwik-Holsztyn? Zdjęcie 1 Zdjęcie 2 Zdjęcie 3 Zdjęcie 4",
+   "options": [
+    "Zdjęcie 1",
+    "Zdjęcie 2",
+    "Zdjęcie 3",
+    "Zdjęcie 4"
+   ]
+  },
+  "Schleswig-Holstein-02": {
+   "question": "Który z nich jest powiatem w Szlezwiku-Holsztynie?",
+   "options": [
+    "Ammerland",
+    "Pojezierze Meklemburskie",
+    "Nordfriesland",
+    "Powiat Rhein-Sieg"
+   ]
+  },
+  "Schleswig-Holstein-03": {
+   "question": "Na ile lat wybierany jest landtag w Szlezwiku-Holsztynie?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Schleswig-Holstein-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Szlezwiku-Holsztynie?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Schleswig-Holstein-05": {
+   "question": "Jakie kolory ma flaga kraju związkowego Szlezwik-Holsztyn?",
+   "options": [
+    "biało-niebieska",
+    "niebiesko-biało-czerwona",
+    "biało-czerwona",
+    "zielono-biało-czerwona"
+   ]
+  },
+  "Schleswig-Holstein-06": {
+   "question": "Gdzie w Szlezwiku-Holsztynie można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w centrali ochrony konsumentów",
+    "w urzędzie porządkowym gminy",
+    "u pełnomocnika/pełnomocniczki kraju związkowego ds. edukacji politycznej",
+    "w kościołach"
+   ]
+  },
+  "Schleswig-Holstein-07": {
+   "question": "Stolicą kraju związkowego Szlezwik-Holsztyn jest …",
+   "options": [
+    "Husum.",
+    "Flensburg.",
+    "Lubeka.",
+    "Kilonia."
+   ]
+  },
+  "Schleswig-Holstein-08": {
+   "question": "Który to kraj związkowy: Szlezwik-Holsztyn?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Schleswig-Holstein-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Szlezwiku-Holsztynie?",
+   "options": [
+    "Pierwsza Minister/Pierwszy Minister",
+    "Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier Kraju Związkowego"
+   ]
+  },
+  "Schleswig-Holstein-10": {
+   "question": "Którego ministra/której minister nie ma Szlezwik-Holsztyn?",
+   "options": [
+    "Minister Sprawiedliwości",
+    "Minister Spraw Zagranicznych",
+    "Minister Finansów",
+    "Minister Spraw Wewnętrznych"
+   ]
+  },
+  "Thüringen-01": {
+   "question": "Który herb należy do Wolnego Państwa Turyngii? Zdjęcie 1 Zdjęcie 2 Zdjęcie 3 Zdjęcie 4",
+   "options": [
+    "Zdjęcie 1",
+    "Zdjęcie 2",
+    "Zdjęcie 3",
+    "Zdjęcie 4"
+   ]
+  },
+  "Thüringen-02": {
+   "question": "Który z nich jest powiatem w Turyngii?",
+   "options": [
+    "Ammerland",
+    "Altötting",
+    "Nordfriesland",
+    "Powiat Wartburg"
+   ]
+  },
+  "Thüringen-03": {
+   "question": "Na ile lat wybierany jest landtag w Turyngii?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  "Thüringen-04": {
+   "question": "Od jakiego wieku można głosować w wyborach komunalnych w Turyngii?",
+   "options": [
+    "14",
+    "16",
+    "18",
+    "20"
+   ]
+  },
+  "Thüringen-05": {
+   "question": "Jakie kolory ma flaga kraju związkowego Turyngia?",
+   "options": [
+    "niebiesko-biało-czerwona",
+    "biało-czerwona",
+    "zielono-biało-czerwona",
+    "czarno-złota"
+   ]
+  },
+  "Thüringen-06": {
+   "question": "Gdzie w Turyngii można uzyskać informacje na tematy polityczne?",
+   "options": [
+    "w kościołach",
+    "w centrali ochrony konsumentów",
+    "w krajowej centrali edukacji politycznej",
+    "w urzędzie porządkowym gminy"
+   ]
+  },
+  "Thüringen-07": {
+   "question": "Stolicą kraju związkowego Turyngia jest …",
+   "options": [
+    "Eisenach.",
+    "Erfurt.",
+    "Gera.",
+    "Jena."
+   ]
+  },
+  "Thüringen-08": {
+   "question": "Który to kraj związkowy: Turyngia?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  "Thüringen-09": {
+   "question": "Jak nazywa się szefowa/szef rządu w Turyngii?",
+   "options": [
+    "Pierwsza Minister/Pierwszy Minister",
+    "Premier",
+    "Burmistrzyni/Burmistrz",
+    "Premier Kraju Związkowego"
+   ]
+  },
+  "Thüringen-10": {
+   "question": "Którego ministra/której minister nie ma Turyngia?",
+   "options": [
+    "Minister Sprawiedliwości",
+    "Minister Spraw Zagranicznych",
+    "Minister Finansów",
+    "Minister Spraw Wewnętrznych"
+   ]
+  }
+ },
  "ro": {
   "ALL-001": {
    "question": "În Germania, oamenii pot spune deschis ceva împotriva guvernului deoarece …",
