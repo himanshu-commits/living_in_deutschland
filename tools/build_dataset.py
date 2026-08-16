@@ -154,12 +154,28 @@ def load_overrides():
     return json.loads(path.read_text(encoding="utf8"))
 
 
+def load_translation_overrides():
+    """Question translations for languages neither scraper covers, so a
+    rebuild never discards that work either.
+
+    data/translation_overrides.json: {"pl": {"ALL-021": {"question": ...,
+    "options": [...]}, ...}}  Always wins over a scraper match for that
+    language, same as load_overrides() does for answers.
+    """
+    path = DATA / "translation_overrides.json"
+    if not path.exists():
+        return {}
+    raw = json.loads(path.read_text(encoding="utf8"))
+    return {lang: entries for lang, entries in raw.items() if not lang.startswith("_")}
+
+
 def main():
     """Build the merged question dataset and its human review queue."""
     questions = json.loads((DATA / "pdf_questions.json").read_text(encoding="utf8"))
     flex = fetch("flexsurfer", SOURCES["flexsurfer"])
     lid = fetch("lid", SOURCES["lid"])
     overrides = load_overrides()
+    translation_overrides = load_translation_overrides()
     letter = {"a": 0, "b": 1, "c": 2, "d": 3}
     contradicted = []
 
@@ -203,6 +219,12 @@ def main():
             qid = f"{q['scope']}-{q['num']:03d}"
         else:
             qid = f"{q['scope']}-{q['num']:02d}"
+
+        # a translation override always wins over whatever a scraper matched
+        # for that language, same reasoning as the answer overrides below
+        for lang, entries in translation_overrides.items():
+            if qid in entries:
+                tr[lang] = entries[qid]
 
         # a human always wins over the scrapers
         if qid in overrides:
