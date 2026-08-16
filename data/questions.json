@@ -101,6 +101,15 @@
      "oamenii au drept de vot.",
      "aici este valabilă libertatea de opinie."
     ]
+   },
+   "fa": {
+    "question": "در آلمان مردم اجازه دارند آشکارا علیه دولت چیزی بگویند، زیرا …",
+    "options": [
+     "در اینجا آزادی مذهب حاکم است.",
+     "مردم مالیات پرداخت می‌کنند.",
+     "مردم حق رأی دارند.",
+     "در اینجا آزادی بیان حاکم است."
+    ]
    }
   },
   "scores": {
@@ -209,6 +218,15 @@
      "ora de religie.",
      "ora de educație politică.",
      "ora de limbi străine."
+    ]
+   },
+   "fa": {
+    "question": "در آلمان والدین می‌توانند تا سن ۱۴ سالگی فرزندشان تصمیم بگیرند که آیا او در مدرسه در …",
+    "options": [
+     "درس تاریخ شرکت کند.",
+     "درس دینی شرکت کند.",
+     "درس علوم سیاسی شرکت کند.",
+     "درس زبان شرکت کند."
     ]
    }
   },
@@ -319,6 +337,15 @@
      "Numai cetățenii germani trebuie să respecte legile.",
      "Instanțele fac legile."
     ]
+   },
+   "fa": {
+    "question": "آلمان یک دولت حقوقی (Rechtsstaat) است. منظور از این چیست؟",
+    "options": [
+     "همه ساکنان و دولت باید از قوانین پیروی کنند.",
+     "دولت مجبور نیست از قوانین پیروی کند.",
+     "فقط آلمانی‌ها باید از قوانین پیروی کنند.",
+     "دادگاه‌ها قوانین را وضع می‌کنند."
+    ]
    }
   },
   "scores": {
@@ -427,6 +454,15 @@
      "legea celui mai puternic",
      "libertatea de opinie",
      "autojustiția"
+    ]
+   },
+   "fa": {
+    "question": "کدام حق جزو حقوق اساسی در آلمان است؟",
+    "options": [
+     "حق داشتن سلاح",
+     "حق زور (قانون مشت)",
+     "آزادی بیان",
+     "خودسری در اجرای عدالت"
     ]
    }
   },
@@ -537,6 +573,15 @@
      "Alegătoarea/alegătorul nu poate fi nici influențat(ă), nici constrâns(ă) să voteze într-un anumit fel și nu poate avea dezavantaje din cauza votului.",
      "Toate persoanele cu drept de vot trebuie să voteze."
     ]
+   },
+   "fa": {
+    "question": "انتخابات در آلمان آزاد است. این به چه معناست؟",
+    "options": [
+     "اگر کسی به یک نامزد مشخص رأی دهد، می‌تواند پول دریافت کند.",
+     "فقط افرادی که هرگز در زندان نبوده‌اند اجازه رأی دادن دارند.",
+     "رأی‌دهنده نباید در هنگام رأی‌گیری تحت تأثیر قرار گیرد یا مجبور به رأی معینی شود و نباید به دلیل رأی خود متضرر شود.",
+     "همه افراد واجد شرایط رأی باید حتماً رأی دهند."
+    ]
    }
   },
   "scores": {
@@ -645,6 +690,15 @@
      "Legea Federală",
      "Legea Germană",
      "Legea Fundamentală"
+    ]
+   },
+   "fa": {
+    "question": "قانون اساسی آلمان چه نام دارد؟",
+    "options": [
+     "قانون ملی (Volksgesetz)",
+     "قانون فدرال (Bundesgesetz)",
+     "قانون آلمانی (Deutsches Gesetz)",
+     "قانون اساسی (Grundgesetz)"
     ]
    }
   },
@@ -755,6 +809,15 @@
      "muncă",
      "locuință"
     ]
+   },
+   "fa": {
+    "question": "کدام حق جزو حقوق اساسی است که طبق قانون اساسی آلمان تضمین شده است؟ حق …",
+    "options": [
+     "آزادی عقیده و وجدان",
+     "سرگرمی",
+     "کار",
+     "مسکن"
+    ]
    }
   },
   "scores": {
@@ -863,6 +926,15 @@
      "Toți ar trebui să aibă aceeași sumă de bani.",
      "Fiecare om are voie să își spună părerea.",
      "Toți sunt egali în fața legii."
+    ]
+   },
+   "fa": {
+    "question": "کدام مورد در قانون اساسی آلمان نیامده است؟",
+    "options": [
+     "کرامت انسانی مصون از تعرض است.",
+     "همه باید پول یکسانی داشته باشند.",
+     "هر انسانی می‌تواند نظر خود را بیان کند.",
+     "همه در برابر قانون برابرند."
     ]
    }
   },
@@ -973,6 +1045,15 @@
      "azil",
      "libertatea de opinie"
     ]
+   },
+   "fa": {
+    "question": "کدام حق اساسی در آلمان فقط برای اتباع خارجی اعمال می‌شود؟ حق اساسی بر …",
+    "options": [
+     "حمایت از خانواده",
+     "کرامت انسانی",
+     "پناهندگی",
+     "آزادی بیان"
+    ]
    }
   },
   "scores": {
@@ -1081,6 +1162,15 @@
      "tortura",
      "pedeapsa cu moartea",
      "amenda"
+    ]
+   },
+   "fa": {
+    "question": "کدام مورد با قانون اساسی آلمان سازگار است؟",
+    "options": [
+     "مجازات با ضرب و شتم",
+     "شکنجه",
+     "مجازات اعدام",
+     "جریمه نقدی"
     ]
    }
   },
@@ -1191,6 +1281,15 @@
      "Codul de Legi",
      "Tratatul Constituțional"
     ]
+   },
+   "fa": {
+    "question": "قانون اساسی جمهوری فدرال آلمان چه نامیده می‌شود؟",
+    "options": [
+     "قانون اساسی (Grundgesetz)",
+     "قانون اساسی فدرال (Bundesverfassung)",
+     "کتاب قانون (Gesetzbuch)",
+     "پیمان قانون اساسی (Verfassungsvertrag)"
+    ]
    }
   },
   "scores": {
@@ -1299,6 +1398,15 @@
      "Da, dar pentru asta trebuie ca două treimi dintre deputați să fie de acord.",
      "Nu, deoarece libertatea presei este un drept fundamental. Ea nu poate fi desființată.",
      "Nu, deoarece numai Bundesratul poate desființa libertatea presei."
+    ]
+   },
+   "fa": {
+    "question": "یک حزب در بوندستاگ آلمان می‌خواهد آزادی مطبوعات را لغو کند. آیا این ممکن است؟",
+    "options": [
+     "بله، اگر بیش از نیمی از نمایندگان بوندستاگ موافق باشند.",
+     "بله، اما برای این کار باید دو سوم نمایندگان بوندستاگ موافق باشند.",
+     "خیر، زیرا آزادی مطبوعات یک حق اساسی است. این حق قابل لغو نیست.",
+     "خیر، زیرا فقط بوندسرات می‌تواند آزادی مطبوعات را لغو کند."
     ]
    }
   },
@@ -1409,6 +1517,15 @@
      "toate partidele care au reușit să depășească pragul de 5% la ultimele alegeri.",
      "toți deputații care nu aparțin partidului/partidelor de guvernământ."
     ]
+   },
+   "fa": {
+    "question": "در پارلمان، اصطلاح «اپوزیسیون» به چه معناست؟",
+    "options": [
+     "احزاب حاکم.",
+     "بزرگ‌ترین فراکسیون از نظر تعداد نمایندگان.",
+     "همه احزابی که در آخرین انتخابات توانستند از سد ۵ درصد عبور کنند.",
+     "همه نمایندگانی که به حزب یا احزاب حاکم تعلق ندارند."
+    ]
    }
   },
   "scores": {
@@ -1518,6 +1635,15 @@
      "am voie să port în public simboluri naziste, ale Hamas sau ale Statului Islamic.",
      "am voie să îmi exprim părerea doar atâta timp cât nu contrazic guvernul."
     ]
+   },
+   "fa": {
+    "question": "آزادی بیان در آلمان به این معناست که من …",
+    "options": [
+     "می‌توانم به عابران در خیابان توهین کنم.",
+     "می‌توانم نظرم را در اینترنت بیان کنم.",
+     "می‌توانم علناً نمادهای نازی، حماس یا داعش را حمل کنم.",
+     "فقط زمانی می‌توانم نظرم را بیان کنم که با دولت مخالفت نکنم."
+    ]
    }
   },
   "scores": {
@@ -1562,6 +1688,15 @@
      "munca forțată",
      "libera alegere a profesiei",
      "munca în străinătate"
+    ]
+   },
+   "fa": {
+    "question": "قانون اساسی آلمان چه چیزی را ممنوع می‌کند؟",
+    "options": [
+     "خدمت نظام وظیفه",
+     "کار اجباری",
+     "آزادی انتخاب شغل",
+     "کار در خارج از کشور"
     ]
    }
   },
@@ -1672,6 +1807,15 @@
      "la discuții despre religii",
      "la critica la adresa statului"
     ]
+   },
+   "fa": {
+    "question": "آزادی بیان در آلمان چه زمانی محدود می‌شود؟",
+    "options": [
+     "در صورت انتشار عمومی ادعاهای نادرست درباره افراد",
+     "در بیان نظر درباره دولت فدرال",
+     "در بحث‌های مربوط به ادیان",
+     "در انتقاد از دولت"
+    ]
    }
   },
   "scores": {
@@ -1780,6 +1924,15 @@
      "petițiile cetățenilor.",
      "libertatea de întrunire a locuitorilor.",
      "tratamentul inegal al cetățenilor de către stat."
+    ]
+   },
+   "fa": {
+    "question": "قوانین آلمان چه چیزی را ممنوع می‌کنند؟",
+    "options": [
+     "آزادی بیان ساکنان.",
+     "درخواست‌ها (دادخواست) شهروندان.",
+     "آزادی تجمع ساکنان.",
+     "رفتار نابرابر دولت با شهروندان."
     ]
    }
   },
@@ -1890,6 +2043,15 @@
      "libertatea religioasă",
      "libertatea de opinie"
     ]
+   },
+   "fa": {
+    "question": "کدام حق اساسی در اصل ۱ قانون اساسی جمهوری فدرال آلمان تضمین شده است؟",
+    "options": [
+     "مصونیت کرامت انسانی",
+     "حق حیات",
+     "آزادی مذهب",
+     "آزادی بیان"
+    ]
    }
   },
   "scores": {
@@ -1998,6 +2160,15 @@
      "Îți poți schimba profesia.",
      "Ai voie să te decizi pentru o altă religie.",
      "Ai voie să te miști în public doar îmbrăcat sumar."
+    ]
+   },
+   "fa": {
+    "question": "منظور از حق «آزادی جابه‌جایی» (Freizügigkeit) در آلمان چیست؟",
+    "options": [
+     "فرد می‌تواند محل سکونت خود را خودش انتخاب کند.",
+     "فرد می‌تواند شغل خود را تغییر دهد.",
+     "فرد می‌تواند دین دیگری را انتخاب کند.",
+     "فرد فقط می‌تواند با پوشش کم در اماکن عمومی حاضر شود."
     ]
    }
   },
@@ -2108,6 +2279,15 @@
      "respectuos față de legi.",
      "neconstituțional."
     ]
+   },
+   "fa": {
+    "question": "یک حزب در آلمان هدف برقراری دیکتاتوری را دنبال می‌کند. این حزب …",
+    "options": [
+     "بامدارا (تولرانت) است.",
+     "بر اساس دولت حقوقی عمل می‌کند.",
+     "پایبند قانون است.",
+     "خلاف قانون اساسی است."
+    ]
    }
   },
   "scores": {
@@ -2152,6 +2332,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام یک نشان (آرم) جمهوری فدرال آلمان است؟ تصویر ۱، تصویر ۲، تصویر ۳، تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -2262,6 +2451,15 @@
      "republică",
      "principat"
     ]
+   },
+   "fa": {
+    "question": "شکل حکومت آلمان چیست؟",
+    "options": [
+     "پادشاهی (مونارشی)",
+     "دیکتاتوری",
+     "جمهوری",
+     "امیرنشین"
+    ]
    }
   },
   "scores": {
@@ -2370,6 +2568,15 @@
      "active în mod voluntar pentru un land federal.",
      "independente, cu firmă proprie.",
      "angajate la o firmă sau instituție publică."
+    ]
+   },
+   "fa": {
+    "question": "بیشتر شاغلان در آلمان …",
+    "options": [
+     "در کسب‌وکارهای کوچک خانوادگی مشغول به کار هستند.",
+     "به‌صورت داوطلبانه برای یک ایالت فعالیت می‌کنند.",
+     "با شرکت خودشان به‌صورت مستقل فعالیت می‌کنند.",
+     "در یک شرکت یا اداره دولتی مشغول به کار هستند."
     ]
    }
   },
@@ -2480,6 +2687,15 @@
      "16",
      "17"
     ]
+   },
+   "fa": {
+    "question": "جمهوری فدرال آلمان چند ایالت دارد؟",
+    "options": [
+     "۱۴",
+     "۱۵",
+     "۱۶",
+     "۱۷"
+    ]
    }
   },
   "scores": {
@@ -2588,6 +2804,15 @@
      "Renania de Nord-Westfalia",
      "Mecklenburg-Pomerania Anterioară",
      "Saxonia-Anhalt"
+    ]
+   },
+   "fa": {
+    "question": "کدام یک ایالت جمهوری فدرال آلمان نیست؟",
+    "options": [
+     "آلزاس-لورن",
+     "نوردراین-وستفالن",
+     "مکلنبورگ-فورپومرن",
+     "زاکسن-آنهالت"
     ]
    }
   },
@@ -2698,6 +2923,15 @@
      "o monarhie capitalistă și socială.",
      "un stat federal social și socialist."
     ]
+   },
+   "fa": {
+    "question": "آلمان …",
+    "options": [
+     "یک جمهوری کمونیستی است.",
+     "یک دولت فدرال دموکراتیک و اجتماعی است.",
+     "یک پادشاهی سرمایه‌داری و اجتماعی است.",
+     "یک دولت فدرال اجتماعی و سوسیالیستی است."
+    ]
    }
   },
   "scores": {
@@ -2806,6 +3040,15 @@
      "un stat federal.",
      "o dictatură.",
      "o monarhie."
+    ]
+   },
+   "fa": {
+    "question": "آلمان …",
+    "options": [
+     "یک کشور سوسیالیستی است.",
+     "یک دولت فدرال است.",
+     "یک دیکتاتوری است.",
+     "یک پادشاهی است."
     ]
    }
   },
@@ -2916,6 +3159,15 @@
      "poporul cu drept de vot",
      "administrația"
     ]
+   },
+   "fa": {
+    "question": "چه کسی در آلمان نمایندگان بوندستاگ را انتخاب می‌کند؟",
+    "options": [
+     "ارتش",
+     "بخش اقتصاد",
+     "مردم واجد شرایط رأی",
+     "اداره‌های دولتی"
+    ]
    }
   },
   "scores": {
@@ -3024,6 +3276,15 @@
      "acvila",
      "ursul",
      "calul"
+    ]
+   },
+   "fa": {
+    "question": "کدام حیوان نماد آرم جمهوری فدرال آلمان است؟",
+    "options": [
+     "شیر",
+     "عقاب",
+     "خرس",
+     "اسب"
     ]
    }
   },
@@ -3134,6 +3395,15 @@
      "libertatea de opinie",
      "partide diferite"
     ]
+   },
+   "fa": {
+    "question": "کدام مورد از ویژگی‌های دموکراسی ما نیست؟",
+    "options": [
+     "انتخابات منظم",
+     "سانسور مطبوعات",
+     "آزادی بیان",
+     "احزاب مختلف"
+    ]
    }
   },
   "scores": {
@@ -3242,6 +3512,15 @@
      "coaliție.",
      "minister.",
      "fracțiune."
+    ]
+   },
+   "fa": {
+    "question": "همکاری احزاب برای تشکیل دولت در آلمان چه نامیده می‌شود؟",
+    "options": [
+     "اتحاد (Einheit)",
+     "ائتلاف (Koalition)",
+     "وزارتخانه (Ministerium)",
+     "فراکسیون (Fraktion)"
     ]
    }
   },
@@ -3352,6 +3631,15 @@
      "presa",
      "justiția"
     ]
+   },
+   "fa": {
+    "question": "کدام مورد یکی از قوای حکومتی در آلمان نیست؟",
+    "options": [
+     "قوه مقننه",
+     "دولت",
+     "مطبوعات",
+     "قوه قضاییه"
+    ]
    }
   },
   "scores": {
@@ -3460,6 +3748,15 @@
      "comunitățile religioase formează statul.",
      "statul depinde de comunitățile religioase.",
      "statul și comunitățile religioase formează o unitate."
+    ]
+   },
+   "fa": {
+    "question": "کدام گزینه درست است؟ در آلمان …",
+    "options": [
+     "دولت و جوامع مذهبی از یکدیگر جدا هستند.",
+     "جوامع مذهبی دولت را تشکیل می‌دهند.",
+     "دولت به جوامع مذهبی وابسته است.",
+     "دولت و جوامع مذهبی یک واحد را تشکیل می‌دهند."
     ]
    }
   },
@@ -3570,6 +3867,15 @@
      "o monarhie",
      "un stat social"
     ]
+   },
+   "fa": {
+    "question": "آلمان چه چیزی نیست؟",
+    "options": [
+     "یک دموکراسی",
+     "یک دولت حقوقی",
+     "یک پادشاهی",
+     "یک دولت رفاه اجتماعی"
+    ]
    }
   },
   "scores": {
@@ -3678,6 +3984,15 @@
      "contribuțiile sociale",
      "donații",
      "cotizații de asociație"
+    ]
+   },
+   "fa": {
+    "question": "دولت آلمان بیمه اجتماعی را از چه محلی تأمین مالی می‌کند؟",
+    "options": [
+     "مالیات کلیسا",
+     "حق بیمه‌های اجتماعی",
+     "کمک‌های مالی خیریه",
+     "حق عضویت انجمن‌ها"
     ]
    }
   },
@@ -3788,6 +4103,15 @@
      "asigurarea clădirilor",
      "asigurarea de răspundere civilă"
     ]
+   },
+   "fa": {
+    "question": "کدام اقدام در آلمان امنیت اجتماعی ایجاد می‌کند؟",
+    "options": [
+     "بیمه درمانی",
+     "بیمه خودرو",
+     "بیمه ساختمان",
+     "بیمه مسئولیت مدنی"
+    ]
    }
   },
   "scores": {
@@ -3832,6 +4156,15 @@
      "Premier/Premieră",
      "Senator/Senatoare",
      "Ministru-președinte/Ministră-președintă"
+    ]
+   },
+   "fa": {
+    "question": "رؤسای دولت در بیشتر ایالت‌های آلمان چه نامیده می‌شوند؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "سناتور",
+     "نخست‌وزیر ایالتی (Ministerpräsident/in)"
     ]
    }
   },
@@ -3942,6 +4275,15 @@
      "confederație de state.",
      "stat centralizat."
     ]
+   },
+   "fa": {
+    "question": "جمهوری فدرال آلمان یک … دموکراتیک و اجتماعی است.",
+    "options": [
+     "اتحادیه کشورها (Staatenverbund)",
+     "دولت فدرال (Bundesstaat)",
+     "کنفدراسیون (Staatenbund)",
+     "دولت متمرکز (Zentralstaat)"
+    ]
    }
   },
   "scores": {
@@ -4050,6 +4392,15 @@
      "o monedă proprie",
      "o armată proprie",
      "un guvern propriu"
+    ]
+   },
+   "fa": {
+    "question": "هر ایالت آلمانی چه چیزی دارد؟",
+    "options": [
+     "وزیر امور خارجه مخصوص به خود",
+     "واحد پول مخصوص به خود",
+     "ارتش مخصوص به خود",
+     "دولت مخصوص به خود"
     ]
    }
   },
@@ -4160,6 +4511,15 @@
      "„Bucurie, scânteie divină …”",
      "„Germania, unită patrie …”"
     ]
+   },
+   "fa": {
+    "question": "سرود ملی آلمان با چه کلماتی آغاز می‌شود؟",
+    "options": [
+     "«ای ملت‌ها، صدای هشدار را بشنوید …» (Völker, hört die Signale)",
+     "«وحدت و حق و آزادی …» (Einigkeit und Recht und Freiheit)",
+     "«شادی، جرقه زیبای الهی …» (Freude schöner Götterfunken)",
+     "«آلمان، میهن متحد …» (Deutschland einig Vaterland)"
+    ]
    }
   },
   "scores": {
@@ -4268,6 +4628,15 @@
      "pentru a limita corupția în politică",
      "pentru a împiedica demonstrațiile politice",
      "pentru a stimula concurența economică"
+    ]
+   },
+   "fa": {
+    "question": "چرا در یک دموکراسی بیش از یک حزب وجود دارد؟",
+    "options": [
+     "زیرا از این طریق نظرات مختلف شهروندان نمایندگی می‌شود",
+     "تا رشوه‌خواری در سیاست محدود شود",
+     "برای جلوگیری از تظاهرات سیاسی",
+     "برای تحریک رقابت اقتصادی"
     ]
    }
   },
@@ -4378,6 +4747,15 @@
      "instanțele",
      "poliția"
     ]
+   },
+   "fa": {
+    "question": "چه کسی در آلمان قانون جدید را تصویب می‌کند؟",
+    "options": [
+     "دولت",
+     "پارلمان",
+     "دادگاه‌ها",
+     "پلیس"
+    ]
    }
   },
   "scores": {
@@ -4486,6 +4864,15 @@
      "când luptă împotriva constituției",
      "când critică șeful statului",
      "când programul său propune o direcție nouă"
+    ]
+   },
+   "fa": {
+    "question": "در آلمان یک حزب چه زمانی می‌تواند ممنوع شود؟",
+    "options": [
+     "اگر تبلیغات انتخاباتی‌اش بیش از حد گران باشد",
+     "اگر علیه قانون اساسی مبارزه کند",
+     "اگر از رئیس کشور انتقاد کند",
+     "اگر برنامه‌اش جهت‌گیری تازه‌ای پیشنهاد دهد"
     ]
    }
   },
@@ -4596,6 +4983,15 @@
      "deputații landului (Landtag)",
      "deputații Bundestagului"
     ]
+   },
+   "fa": {
+    "question": "شهروندان در آلمان نمی‌توانند مستقیماً چه کسی را انتخاب کنند؟",
+    "options": [
+     "نمایندگان پارلمان اروپا",
+     "رئیس‌جمهور فدرال",
+     "نمایندگان مجلس ایالتی (لانتاگ)",
+     "نمایندگان بوندستاگ"
+    ]
    }
   },
   "scores": {
@@ -4704,6 +5100,15 @@
      "asigurarea de accidente",
      "asigurarea locuinței/bunurilor casnice",
      "asigurarea de răspundere civilă și de incendiu"
+    ]
+   },
+   "fa": {
+    "question": "بیمه مراقبت پرستاری (Pflegeversicherung) جزو کدام بیمه است؟",
+    "options": [
+     "بیمه اجتماعی",
+     "بیمه حوادث",
+     "بیمه اثاثیه منزل",
+     "بیمه مسئولیت مدنی و آتش‌سوزی"
     ]
    }
   },
@@ -4814,6 +5219,15 @@
      "Asigură tuturor locuitorilor ziare gratuite.",
      "Produce mașini și autobuze."
     ]
+   },
+   "fa": {
+    "question": "دولت آلمان وظایف زیادی دارد. کدام یک از این وظایف است؟",
+    "options": [
+     "جاده و مدرسه می‌سازد.",
+     "مواد غذایی و پوشاک می‌فروشد.",
+     "روزنامه را به‌صورت رایگان در اختیار همه ساکنان قرار می‌دهد.",
+     "خودرو و اتوبوس تولید می‌کند."
+    ]
    }
   },
   "scores": {
@@ -4922,6 +5336,15 @@
      "Plătește alocația pentru copii.",
      "Sprijină muzeele.",
      "Susține sportivii și sportivele."
+    ]
+   },
+   "fa": {
+    "question": "دولت آلمان وظایف زیادی دارد. کدام یک از این وظایف نیست؟",
+    "options": [
+     "هزینه سفرهای تعطیلات همه اتباع را پرداخت می‌کند.",
+     "کمک‌هزینه فرزند (Kindergeld) پرداخت می‌کند.",
+     "از موزه‌ها حمایت می‌کند.",
+     "از ورزشکاران حمایت می‌کند."
     ]
    }
   },
@@ -5032,6 +5455,15 @@
      "adunarea cetățenilor",
      "guvernul"
     ]
+   },
+   "fa": {
+    "question": "کدام نهاد جزو نهادهای قانون اساسی آلمان نیست؟",
+    "options": [
+     "بوندسرات",
+     "رئیس‌جمهور فدرال",
+     "مجمع شهروندان",
+     "دولت"
+    ]
    }
   },
   "scores": {
@@ -5140,6 +5572,15 @@
      "landurile federale",
      "ministerul familiei",
      "universitățile"
+    ]
+   },
+   "fa": {
+    "question": "چه کسی در آلمان سیاست آموزشی مدارس را تعیین می‌کند؟",
+    "options": [
+     "معلمان",
+     "ایالت‌ها",
+     "وزارت خانواده",
+     "دانشگاه‌ها"
     ]
    }
   },
@@ -5250,6 +5691,15 @@
      "economie centralizată dirijată.",
      "economie planificată."
     ]
+   },
+   "fa": {
+    "question": "شکل نظام اقتصادی در آلمان چه نامیده می‌شود؟",
+    "options": [
+     "اقتصاد متمرکز آزاد",
+     "اقتصاد بازار اجتماعی",
+     "اقتصاد متمرکز هدایت‌شده",
+     "اقتصاد برنامه‌ریزی‌شده"
+    ]
    }
   },
   "scores": {
@@ -5358,6 +5808,15 @@
      "cetățenii să aibă voie să meargă la demonstrații pașnice.",
      "oamenii să fie arestați fără motiv de o poliție privată.",
      "cineva să comită o infracțiune și din acest motiv să fie arestat."
+    ]
+   },
+   "fa": {
+    "question": "کدام مورد جزو ویژگی‌های یک دولت حقوقی دموکراتیک نیست، اینکه …",
+    "options": [
+     "مردم بتوانند نظرات انتقادی درباره دولت بیان کنند.",
+     "شهروندان اجازه تظاهرات مسالمت‌آمیز داشته باشند.",
+     "افراد بدون دلیل توسط یک پلیس خصوصی بازداشت شوند.",
+     "کسی مرتکب جرمی شود و به همین دلیل بازداشت شود."
     ]
    }
   },
@@ -5468,6 +5927,15 @@
      "regele Prusiei.",
      "Curtea Constituțională Federală."
     ]
+   },
+   "fa": {
+    "question": "«حاکمیت مردم» (Volkssouveränität) به چه معناست؟ همه قدرت حکومتی از …",
+    "options": [
+     "مردم سرچشمه می‌گیرد.",
+     "بوندستاگ سرچشمه می‌گیرد.",
+     "پادشاه پروس سرچشمه می‌گیرد.",
+     "دادگاه قانون اساسی فدرال سرچشمه می‌گیرد."
+    ]
    }
   },
   "scores": {
@@ -5576,6 +6044,15 @@
      "Există doar partide de dreapta.",
      "Cetățenii decid asupra legilor.",
      "Statul trebuie să respecte legile."
+    ]
+   },
+   "fa": {
+    "question": "«دولت حقوقی» (Rechtsstaat) در آلمان به چه معناست؟",
+    "options": [
+     "دولت همیشه حق دارد.",
+     "فقط احزاب راست‌گرا وجود دارند.",
+     "شهروندان درباره قوانین تصمیم می‌گیرند.",
+     "دولت باید از قوانین پیروی کند."
     ]
    }
   },
@@ -5686,6 +6163,15 @@
      "executivul",
      "directiva"
     ]
+   },
+   "fa": {
+    "question": "کدام مورد یکی از قوای حکومتی در آلمان نیست؟",
+    "options": [
+     "قوه مقننه",
+     "قوه قضاییه",
+     "قوه مجریه",
+     "قوه هدایتگر (Direktive)"
+    ]
    }
   },
   "scores": {
@@ -5794,6 +6280,15 @@
      "Curtea Constituțională Federală de la Karlsruhe",
      "clădirea Bundesratului la Berlin",
      "Cancelaria Federală la Berlin"
+    ]
+   },
+   "fa": {
+    "question": "این تصویر چه چیزی را نشان می‌دهد؟",
+    "options": [
+     "مقر بوندستاگ در برلین",
+     "دادگاه قانون اساسی فدرال در کارلسروهه",
+     "ساختمان بوندسرات در برلین",
+     "دفتر صدراعظمی فدرال در برلین"
     ]
    }
   },
@@ -5904,6 +6399,15 @@
      "oficiul fiscal",
      "Ministerul de Externe"
     ]
+   },
+   "fa": {
+    "question": "کدام اداره در آلمان جزو اداره شهرداری است؟",
+    "options": [
+     "دفتر کلیسا",
+     "اداره نظم عمومی (Ordnungsamt)",
+     "اداره مالیات",
+     "وزارت امور خارجه"
+    ]
    }
   },
   "scores": {
@@ -6012,6 +6516,15 @@
      "ministrul-președinte/ministra-președintă al/a celui mai mare land",
      "un fost cancelar federal/o fostă cancelară federală",
      "un deputat/o deputată al/a celei mai puternice fracțiuni"
+    ]
+   },
+   "fa": {
+    "question": "معمولاً چه کسی به عنوان رئیس بوندستاگ آلمان انتخاب می‌شود؟",
+    "options": [
+     "مسن‌ترین نماینده پارلمان",
+     "نخست‌وزیر ایالتی بزرگ‌ترین ایالت",
+     "یک صدراعظم فدرال پیشین",
+     "یکی از نمایندگان بزرگ‌ترین فراکسیون"
     ]
    }
   },
@@ -6122,6 +6635,15 @@
      "președintele/președinta Bundesratului",
      "președintele/președinta Bundestagului"
     ]
+   },
+   "fa": {
+    "question": "چه کسی در آلمان وزیران دولت فدرال را منصوب می‌کند؟",
+    "options": [
+     "رئیس دادگاه قانون اساسی فدرال",
+     "رئیس‌جمهور فدرال",
+     "رئیس بوندسرات",
+     "رئیس بوندستاگ"
+    ]
    }
   },
   "scores": {
@@ -6230,6 +6752,15 @@
      "acum aproximativ 700 de ani",
      "acum aproximativ 1150 de ani",
      "acum aproximativ 1700 de ani"
+    ]
+   },
+   "fa": {
+    "question": "اولین جامعه یهودی در قلمرو آلمان امروزی چند سال پیش شکل گرفت؟",
+    "options": [
+     "حدود ۳۰۰ سال پیش",
+     "حدود ۷۰۰ سال پیش",
+     "حدود ۱۱۵۰ سال پیش",
+     "حدود ۱۷۰۰ سال پیش"
     ]
    }
   },
@@ -6340,6 +6871,15 @@
      "directivă.",
      "judiciar."
     ]
+   },
+   "fa": {
+    "question": "در آلمان بوندستاگ و بوندسرات جزو کدام قوه هستند؟",
+    "options": [
+     "قوه مجریه",
+     "قوه مقننه",
+     "قوه هدایتگر",
+     "قوه قضاییه"
+    ]
    }
   },
   "scores": {
@@ -6448,6 +6988,15 @@
      "Curtea Constituțională Federală se află deasupra constituției.",
      "Grupurile de interese exercită suveranitatea împreună cu guvernul.",
      "Puterea de stat emană de la popor."
+    ]
+   },
+   "fa": {
+    "question": "«حاکمیت مردم» (Volkssouveränität) به چه معناست؟",
+    "options": [
+     "ملکه/پادشاه بر مردم حکومت می‌کند.",
+     "دادگاه قانون اساسی فدرال بالاتر از قانون اساسی است.",
+     "گروه‌های ذی‌نفع حاکمیت را همراه با دولت اعمال می‌کنند.",
+     "قدرت حکومتی از مردم سرچشمه می‌گیرد."
     ]
    }
   },
@@ -6558,6 +7107,15 @@
      "alegeri europene",
      "alegeri pentru Bundestag"
     ]
+   },
+   "fa": {
+    "question": "هنگامی که پارلمان یکی از ایالت‌های آلمان انتخاب می‌شود، آن را چه می‌نامند؟",
+    "options": [
+     "انتخابات شهرداری",
+     "انتخابات مجلس ایالتی (لانتاگ)",
+     "انتخابات پارلمان اروپا",
+     "انتخابات بوندستاگ"
+    ]
    }
   },
   "scores": {
@@ -6666,6 +7224,15 @@
      "instanțele",
      "oficiul fiscal",
      "ministerele"
+    ]
+   },
+   "fa": {
+    "question": "کدام مورد در آلمان جزو قوه مجریه نیست؟",
+    "options": [
+     "پلیس",
+     "دادگاه‌ها",
+     "اداره مالیات",
+     "وزارتخانه‌ها"
     ]
    }
   },
@@ -6776,6 +7343,15 @@
      "16 cantoane.",
      "federație, landuri și comune."
     ]
+   },
+   "fa": {
+    "question": "جمهوری فدرال آلمان امروز به چه صورت تقسیم‌بندی شده است؟",
+    "options": [
+     "چهار منطقه اشغالی.",
+     "یک ایالت شرقی و یک ایالت غربی.",
+     "۱۶ کانتون.",
+     "دولت فدرال، ایالت‌ها و شهرداری‌ها."
+    ]
    }
   },
   "scores": {
@@ -6884,6 +7460,15 @@
      "controlul guvernului federal.",
      "alegerea cancelarului federal/cancelarei federale.",
      "formarea cabinetului federal."
+    ]
+   },
+   "fa": {
+    "question": "کدام مورد جزو وظایف بوندستاگ آلمان نیست؟",
+    "options": [
+     "تدوین لایحه‌های قانونی.",
+     "نظارت بر دولت فدرال.",
+     "انتخاب صدراعظم فدرال.",
+     "تشکیل کابینه فدرال."
     ]
    }
   },
@@ -6994,6 +7579,15 @@
      "Nürnberg și Stuttgart",
      "Worms și Speyer"
     ]
+   },
+   "fa": {
+    "question": "بزرگ‌ترین جوامع یهودی در آلمان در کدام شهرها هستند؟",
+    "options": [
+     "برلین و مونیخ",
+     "هامبورگ و اسن",
+     "نورنبرگ و اشتوتگارت",
+     "ورمس و اشپایر"
+    ]
    }
   },
   "scores": {
@@ -7102,6 +7696,15 @@
      "politica externă",
      "politica economică",
      "politica școlară"
+    ]
+   },
+   "fa": {
+    "question": "در آلمان چه چیزی عمدتاً وظیفه ایالت‌هاست؟",
+    "options": [
+     "سیاست دفاعی",
+     "سیاست خارجی",
+     "سیاست اقتصادی",
+     "سیاست آموزشی مدارس"
     ]
    }
   },
@@ -7212,6 +7815,15 @@
      "pentru că există școli diferite în landurile federale",
      "pentru că aceasta este sarcina lui conform Legii Fundamentale"
     ]
+   },
+   "fa": {
+    "question": "چرا دولت در آلمان نظام مدارس را کنترل می‌کند؟",
+    "options": [
+     "زیرا در آلمان فقط مدارس دولتی وجود دارد",
+     "زیرا همه دانش‌آموزان باید مدرک تحصیلی داشته باشند",
+     "زیرا در ایالت‌های مختلف مدارس متفاوتی وجود دارد",
+     "زیرا طبق قانون اساسی این وظیفه دولت است"
+    ]
    }
   },
   "scores": {
@@ -7320,6 +7932,15 @@
      "consiliile districtuale (Landräte)",
      "comunele",
      "oficiile de district"
+    ]
+   },
+   "fa": {
+    "question": "جمهوری فدرال آلمان دارای یک ساختار اداری سه‌سطحی است. پایین‌ترین سطح سیاسی چه نامیده می‌شود؟",
+    "options": [
+     "شوراهای شهر",
+     "فرمانداران منطقه (Landrat)",
+     "شهرداری‌ها (Gemeinden)",
+     "ادارات منطقه‌ای"
     ]
    }
   },
@@ -7430,6 +8051,15 @@
      "Alege miniștrii.",
      "Propune candidatul/candidata pentru alegerea cancelarului federal/cancelarei federale."
     ]
+   },
+   "fa": {
+    "question": "رئیس‌جمهور فدرال آلمان گوستاو هاینه‌مان در سال ۱۹۷۴ حکم انتصاب هلموت اشمیت را به عنوان صدراعظم فدرال آلمان تحویل می‌دهد. کدام مورد جزو وظایف رئیس‌جمهور فدرال آلمان است؟",
+    "options": [
+     "او امور دولت را اداره می‌کند.",
+     "او بر حزب حاکم نظارت می‌کند.",
+     "او وزیران را انتخاب می‌کند.",
+     "او صدراعظم را برای انتخاب پیشنهاد می‌دهد."
+    ]
    }
   },
   "scores": {
@@ -7538,6 +8168,15 @@
      "la castelul Meseberg, casa de oaspeți a guvernului federal, pentru a primi oaspeți de stat.",
      "la castelul Bellevue, reședința oficială a președintelui federal/președintei federale, pentru a primi oaspeți de stat.",
      "la Berlin, deoarece acolo se află Cancelaria Federală și Bundestagul."
+    ]
+   },
+   "fa": {
+    "question": "صدراعظم فدرال آلمان بیشتر اوقات کجا حضور دارد؟ او بیشتر اوقات …",
+    "options": [
+     "در بن است، زیرا دفتر صدراعظمی فدرال و بوندستاگ در آنجا قرار دارند.",
+     "در قصر مزه‌برگ، خانه مهمان دولت فدرال، برای پذیرایی از میهمانان دولتی است.",
+     "در قصر بلوو، محل کار رئیس‌جمهور فدرال، برای پذیرایی از میهمانان دولتی است.",
+     "در برلین است، زیرا دفتر صدراعظمی فدرال و بوندستاگ در آنجا قرار دارند."
     ]
    }
   },
@@ -7648,6 +8287,15 @@
      "Ursula von der Leyen",
      "Friedrich Merz"
     ]
+   },
+   "fa": {
+    "question": "نام صدراعظم فعلی آلمان چیست؟",
+    "options": [
+     "گرهارد شرودر",
+     "آنگلا مرکل",
+     "اورزولا فون در لاین",
+     "فریدریش مرتس"
+    ]
    }
   },
   "scores": {
@@ -7756,6 +8404,15 @@
      "Die Linke și Bündnis 90/Die Grünen.",
      "Bündnis 90/Die Grünen și SPD.",
      "Die Linke și CDU/CSU."
+    ]
+   },
+   "fa": {
+    "question": "نام دو فراکسیون بزرگ فعلی در بوندستاگ آلمان چیست؟",
+    "options": [
+     "اتحادیه دموکرات مسیحی/سوسیال مسیحی (CDU/CSU) و آلترناتیو برای آلمان (AfD).",
+     "حزب چپ (Die Linke) و اتحاد ۹۰/سبزها.",
+     "اتحاد ۹۰/سبزها و حزب سوسیال دموکرات (SPD).",
+     "حزب چپ (Die Linke) و اتحادیه دموکرات مسیحی/سوسیال مسیحی (CDU/CSU)."
     ]
    }
   },
@@ -7866,6 +8523,15 @@
      "Bundestag",
      "Curtea Federală de Justiție"
     ]
+   },
+   "fa": {
+    "question": "پارلمان سراسر آلمان چه نامیده می‌شود؟",
+    "options": [
+     "مجمع فدرال (Bundesversammlung)",
+     "مجلس خلق (Volkskammer)",
+     "بوندستاگ",
+     "دیوان عالی فدرال (Bundesgerichtshof)"
+    ]
    }
   },
   "scores": {
@@ -7974,6 +8640,15 @@
      "Bärbel Bas",
      "Bodo Ramelow",
      "Joachim Gauck"
+    ]
+   },
+   "fa": {
+    "question": "نام رئیس کشور فعلی آلمان چیست؟",
+    "options": [
+     "فرانک-والتر اشتاین‌مایر",
+     "بربل باس",
+     "بودو رامه‌لوو",
+     "یوآخیم گاوک"
     ]
    }
   },
@@ -8084,6 +8759,15 @@
      "Protecția Creștină Germană a Mediului",
      "Uniunea Creștin Democrată"
     ]
+   },
+   "fa": {
+    "question": "مخفف CDU در آلمان به چه معناست؟",
+    "options": [
+     "اتحادیه مسیحی آلمان",
+     "باشگاه کارآفرینان آلمانی",
+     "حفاظت محیط‌زیست مسیحی آلمانی",
+     "اتحادیه دموکرات مسیحی"
+    ]
    }
   },
   "scores": {
@@ -8192,6 +8876,15 @@
      "un port german",
      "o inițiativă cetățenească germană",
      "armata germană"
+    ]
+   },
+   "fa": {
+    "question": "بوندس‌ور (Bundeswehr) چیست؟",
+    "options": [
+     "پلیس آلمان",
+     "یک بندر آلمانی",
+     "یک ابتکار مدنی آلمانی",
+     "ارتش آلمان"
     ]
    }
   },
@@ -8302,6 +8995,15 @@
      "Partidul Social Democrat German",
      "Partidul Social-Echitabil German"
     ]
+   },
+   "fa": {
+    "question": "مخفف SPD به چه معناست؟",
+    "options": [
+     "حزب سوسیالیست آلمان",
+     "حزب سیاست اجتماعی آلمان",
+     "حزب سوسیال دموکرات آلمان",
+     "حزب عدالت اجتماعی آلمان"
+    ]
    }
   },
   "scores": {
@@ -8410,6 +9112,15 @@
      "Partidul Germaniei Libere",
      "Partidul Democrat Conducător",
      "Partidul Liber Democrat"
+    ]
+   },
+   "fa": {
+    "question": "مخفف FDP در آلمان به چه معناست؟",
+    "options": [
+     "حزب تظاهرات مسالمت‌آمیز",
+     "حزب آزاد آلمان",
+     "حزب دموکرات پیشرو",
+     "حزب دموکرات آزاد"
     ]
    }
   },
@@ -8520,6 +9231,15 @@
      "Curtea Constituțională Federală",
      "Tribunalul Administrativ"
     ]
+   },
+   "fa": {
+    "question": "کدام دادگاه در آلمان مسئول تفسیر قانون اساسی است؟",
+    "options": [
+     "دادگاه عالی ایالتی",
+     "دادگاه بخش",
+     "دادگاه قانون اساسی فدرال",
+     "دادگاه اداری"
+    ]
    }
   },
   "scores": {
@@ -8629,6 +9349,15 @@
      "poporul",
      "Bundestag-ul"
     ]
+   },
+   "fa": {
+    "question": "در آلمان صدراعظم را چه کسی انتخاب می‌کند؟",
+    "options": [
+     "بوندسرات",
+     "مجمع فدرال",
+     "مردم",
+     "بوندستاگ"
+    ]
    }
   },
   "scores": {
@@ -8673,6 +9402,15 @@
      "președintele federal",
      "președintele Bundesrat-ului",
      "cancelarul federal"
+    ]
+   },
+   "fa": {
+    "question": "کابینه فدرال آلمان را چه کسی رهبری می‌کند؟",
+    "options": [
+     "رئیس بوندستاگ",
+     "رئیس‌جمهور فدرال",
+     "رئیس بوندسرات",
+     "صدراعظم فدرال"
     ]
    }
   },
@@ -8783,6 +9521,15 @@
      "Bundestag-ul",
      "guvernul federal"
     ]
+   },
+   "fa": {
+    "question": "صدراعظم فدرال آلمان را چه کسی انتخاب می‌کند؟",
+    "options": [
+     "مردم",
+     "مجمع فدرال",
+     "بوندستاگ",
+     "دولت فدرال"
+    ]
    }
   },
   "scores": {
@@ -8891,6 +9638,15 @@
      "elaborează legile.",
      "reprezintă țara.",
      "supraveghează respectarea legilor."
+    ]
+   },
+   "fa": {
+    "question": "وظیفه اصلی رئیس‌جمهور فدرال آلمان چیست؟ او …",
+    "options": [
+     "کشور را اداره می‌کند.",
+     "قوانین را تنظیم می‌کند.",
+     "کشور را نمایندگی می‌کند.",
+     "بر اجرای قوانین نظارت می‌کند."
     ]
    }
   },
@@ -9001,6 +9757,15 @@
      "reprezentanții guvernelor landurilor",
      "membrii de partid"
     ]
+   },
+   "fa": {
+    "question": "بوندسرات آلمان از چه کسانی تشکیل می‌شود؟",
+    "options": [
+     "نمایندگان بوندستاگ",
+     "وزرای دولت فدرال",
+     "نمایندگان دولت‌های ایالتی",
+     "اعضای احزاب"
+    ]
    }
   },
   "scores": {
@@ -9110,6 +9875,15 @@
      "Parlamentul Federal",
      "Curtea Constituțională Federală"
     ]
+   },
+   "fa": {
+    "question": "در آلمان رئیس‌جمهور فدرال را چه کسی انتخاب می‌کند؟",
+    "options": [
+     "مجمع فدرال",
+     "بوندسرات",
+     "پارلمان فدرال",
+     "دادگاه قانون اساسی فدرال"
+    ]
    }
   },
   "scores": {
@@ -9154,6 +9928,15 @@
      "președintele federal",
      "președintele Bundesrat-ului",
      "președintele Bundestag-ului"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت جمهوری فدرال آلمان چه کسی است؟",
+    "options": [
+     "صدراعظم فدرال",
+     "رئیس‌جمهور فدرال",
+     "رئیس بوندسرات",
+     "رئیس بوندستاگ"
     ]
    }
   },
@@ -9264,6 +10047,15 @@
      "stabilește cine face parte din Bundesrat.",
      "propune șefii guvernelor landurilor."
     ]
+   },
+   "fa": {
+    "question": "اپوزیسیون پارلمانی در بوندستاگ آلمان …",
+    "options": [
+     "دولت را کنترل می‌کند.",
+     "تعیین می‌کند چه کسی وزیر فدرال شود.",
+     "تعیین می‌کند چه کسی در بوندسرات باشد.",
+     "روسای دولت ایالت‌ها را پیشنهاد می‌دهد."
+    ]
    }
   },
   "scores": {
@@ -9372,6 +10164,15 @@
      "consiliul senioratului",
      "fracțiune parlamentară",
      "opoziție"
+    ]
+   },
+   "fa": {
+    "question": "در آلمان اتحاد نمایندگان یک حزب در پارلمان را چه می‌نامند؟",
+    "options": [
+     "انجمن",
+     "شورای سالمندان",
+     "فراکسیون",
+     "اپوزیسیون"
     ]
    }
   },
@@ -9482,6 +10283,15 @@
      "Bundestag.",
      "guvernul federal."
     ]
+   },
+   "fa": {
+    "question": "ایالت‌های آلمان از طریق … در قانون‌گذاری فدرال مشارکت می‌کنند.",
+    "options": [
+     "بوندسرات",
+     "مجمع فدرال",
+     "بوندستاگ",
+     "دولت فدرال"
+    ]
    }
   },
   "scores": {
@@ -9590,6 +10400,15 @@
      "mai ușoară, dacă astfel intră partide noi în Bundesrat.",
      "mai dificilă, dacă astfel se schimbă majoritatea din Bundesrat.",
      "mai ușoară, dacă este vorba despre un land bogat."
+    ]
+   },
+   "fa": {
+    "question": "در آلمان تغییر دولت در یک ایالت می‌تواند بر سیاست فدرال تأثیر بگذارد. اداره کشور …",
+    "options": [
+     "اگر اکثریت در بوندستاگ به این خاطر تغییر کند، دشوارتر می‌شود.",
+     "اگر احزاب جدید به این خاطر وارد بوندسرات شوند، آسان‌تر می‌شود.",
+     "اگر اکثریت در بوندسرات به این خاطر تغییر کند، دشوارتر می‌شود.",
+     "اگر مربوط به یک ایالت ثروتمند باشد، آسان‌تر می‌شود."
     ]
    }
   },
@@ -9700,6 +10519,15 @@
      "Asociația Antreprenorială Creștin-Socială",
      "Uniunea Creștin Socială"
     ]
+   },
+   "fa": {
+    "question": "مخفف CSU در آلمان به چه معناست؟",
+    "options": [
+     "اتحادیه ایمن مسیحی",
+     "اتحادیه مسیحی آلمان جنوبی",
+     "انجمن کارآفرینان اجتماعی مسیحی",
+     "اتحادیه سوسیال مسیحی"
+    ]
    }
   },
   "scores": {
@@ -9808,6 +10636,15 @@
      "mai mulți candidați direcți ai partidului intră în parlament.",
      "este mai mare riscul de a trebui să formeze o coaliție.",
      "mai multe locuri obține partidul în parlament."
+    ]
+   },
+   "fa": {
+    "question": "هرچه یک حزب در انتخابات بوندستاگ «رأی دوم» بیشتری کسب کند، …",
+    "options": [
+     "می‌تواند رأی اول کمتری داشته باشد.",
+     "کاندیداهای مستقیم بیشتری از آن حزب وارد پارلمان می‌شوند.",
+     "خطر لزوم تشکیل ائتلاف بزرگ‌تر می‌شود.",
+     "کرسی‌های بیشتری در پارلمان به دست می‌آورد."
     ]
    }
   },
@@ -9918,6 +10755,15 @@
      "21",
      "23"
     ]
+   },
+   "fa": {
+    "question": "از چه سنی می‌توان در انتخابات بوندستاگ آلمان شرکت کرد؟",
+    "options": [
+     "۱۶",
+     "۱۸",
+     "۲۱",
+     "۲۳"
+    ]
    }
   },
   "scores": {
@@ -10026,6 +10872,15 @@
      "obligativitatea școlarizării",
      "obligația de a păstra tăcerea",
      "obligativitatea religioasă"
+    ]
+   },
+   "fa": {
+    "question": "برای اکثر کودکان در آلمان چه چیزی الزامی است؟",
+    "options": [
+     "الزام به رأی دادن",
+     "الزام به تحصیل",
+     "الزام به سکوت",
+     "الزام مذهبی"
     ]
    }
   },
@@ -10136,6 +10991,15 @@
      "deloc, negarea Holocaustului este permisă",
      "cu pedeapsă privativă de libertate de până la cinci ani sau cu amendă"
     ]
+   },
+   "fa": {
+    "question": "کسی که هولوکاست را انکار کند چگونه مجازات می‌شود؟",
+    "options": [
+     "کاهش مزایای اجتماعی",
+     "تا ۱۰۰ ساعت خدمات اجتماعی",
+     "هیچ مجازاتی، انکار هولوکاست مجاز است",
+     "با حبس تا پنج سال یا جریمه نقدی"
+    ]
    }
   },
   "scores": {
@@ -10244,6 +11108,15 @@
      "ajutor social",
      "alocație pentru copii",
      "ajutor pentru locuință"
+    ]
+   },
+   "fa": {
+    "question": "در آلمان وقتی کسی استخدام دائم دارد، چه چیزی به‌طور خودکار پرداخت می‌کند؟",
+    "options": [
+     "بیمه اجتماعی",
+     "کمک‌هزینه اجتماعی",
+     "کمک‌هزینه فرزند",
+     "کمک‌هزینه مسکن"
     ]
    }
   },
@@ -10354,6 +11227,15 @@
      "președintele federal trebuie să își dea în prealabil acordul.",
      "alegătorii acestor deputați au voie să voteze din nou."
     ]
+   },
+   "fa": {
+    "question": "وقتی نمایندگان بوندستاگ آلمان فراکسیون خود را تغییر می‌دهند، …",
+    "options": [
+     "دیگر اجازه شرکت در جلسات پارلمان را ندارند.",
+     "دولت ممکن است اکثریت خود را از دست بدهد.",
+     "رئیس‌جمهور فدرال باید از قبل موافقت کند.",
+     "رأی‌دهندگان آن نماینده می‌توانند دوباره رأی بدهند."
+    ]
    }
   },
   "scores": {
@@ -10462,6 +11344,15 @@
      "doar angajații",
      "toți cetățenii",
      "doar angajatorii"
+    ]
+   },
+   "fa": {
+    "question": "در آلمان حق‌بیمه‌های اجتماعی را چه کسی پرداخت می‌کند؟",
+    "options": [
+     "کارفرمایان و کارمندان",
+     "فقط کارمندان",
+     "همه اتباع",
+     "فقط کارفرمایان"
     ]
    }
   },
@@ -10572,6 +11463,15 @@
      "asigurarea de șomaj",
      "asigurarea de îngrijire"
     ]
+   },
+   "fa": {
+    "question": "کدام یک جزو بیمه اجتماعی قانونی نیست؟",
+    "options": [
+     "بیمه عمر",
+     "بیمه بازنشستگی قانونی",
+     "بیمه بیکاری",
+     "بیمه مراقبت (نگهداری)"
+    ]
    }
   },
   "scores": {
@@ -10680,6 +11580,15 @@
      "angajaților.",
      "pensionarilor.",
      "angajatorilor."
+    ]
+   },
+   "fa": {
+    "question": "اتحادیه‌های کارگری نمایندگان منافع … هستند.",
+    "options": [
+     "جوانان",
+     "کارمندان",
+     "بازنشستگان",
+     "کارفرمایان"
     ]
    }
   },
@@ -10790,6 +11699,15 @@
      "Ordinul Patriotic de Merit",
      "titlul onorific „Erou al Republicii Democrate Germane\""
     ]
+   },
+   "fa": {
+    "question": "در جمهوری فدرال آلمان با چه چیزی می‌توان کسی را که در زمینه سیاسی، اقتصادی، فرهنگی، فکری یا اجتماعی خدمت ویژه‌ای انجام داده تقدیر کرد؟ با …",
+    "options": [
+     "نشان لیاقت فدرال",
+     "عقاب فدرال",
+     "نشان لیاقت میهنی",
+     "لقب افتخاری «قهرمان جمهوری دموکراتیک آلمان»"
+    ]
    }
   },
   "scores": {
@@ -10898,6 +11816,15 @@
      "dintre SPD, FDP și Bündnis 90/Die Grünen într-un guvern",
      "dintre CSU, Die LINKE și Bündnis 90/Die Grünen într-un guvern",
      "dintre fracțiunile din Bundestag ale CDU și SPD"
+    ]
+   },
+   "fa": {
+    "question": "در آلمان به چه چیزی «ائتلاف چراغ‌راهنمایی» می‌گویند؟ همکاری …",
+    "options": [
+     "فراکسیون‌های بوندستاگ CDU و CSU",
+     "احزاب SPD، FDP و اتحاد ۹۰/سبزها در یک دولت",
+     "احزاب CSU، چپ و اتحاد ۹۰/سبزها در یک دولت",
+     "فراکسیون‌های بوندستاگ CDU و SPD"
     ]
    }
   },
@@ -11008,6 +11935,15 @@
      "Femeia rezolvă probleme personale în timpul programului de lucru.",
      "Femeia urmează să aibă un copil, iar șeful ei știe acest lucru."
     ]
+   },
+   "fa": {
+    "question": "یک زن در آلمان شغلش را از دست می‌دهد. چه چیزی نباید دلیل این اخراج باشد؟",
+    "options": [
+     "این زن مدت زیادی بیمار و ناتوان از کار بوده است.",
+     "این زن اغلب دیر سر کار می‌آمده است.",
+     "این زن در ساعات کاری به کارهای شخصی می‌پردازد.",
+     "این زن باردار است و رئیسش این را می‌داند."
+    ]
    }
   },
   "scores": {
@@ -11116,6 +12052,15 @@
      "Scriu înștiințările de vot înainte de alegeri.",
      "Transmit mass-mediei rezultate parțiale.",
      "Numără voturile după încheierea alegerilor."
+    ]
+   },
+   "fa": {
+    "question": "یکی از وظایف داوطلبان کمک‌رأی‌گیری در آلمان چیست؟",
+    "options": [
+     "آن‌ها به افراد مسن در غرفه رأی‌گیری کمک می‌کنند.",
+     "آن‌ها پیش از انتخابات اطلاعیه‌های رأی‌گیری را می‌نویسند.",
+     "آن‌ها نتایج موقت را به رسانه‌ها اطلاع می‌دهند.",
+     "آن‌ها پس از پایان رأی‌گیری آرا را می‌شمارند."
     ]
    }
   },
@@ -11226,6 +12171,15 @@
      "Transmit jurnaliștilor rezultate parțiale.",
      "Numără voturile după încheierea alegerilor."
     ]
+   },
+   "fa": {
+    "question": "در آلمان داوطلبان افتخاری در انتخابات کمک می‌کنند. یکی از وظایف این داوطلبان چیست؟",
+    "options": [
+     "به کودکان و افراد مسن در رأی دادن کمک می‌کنند.",
+     "کارت‌ها و نامه‌هایی حاوی آدرس محل رأی‌گیری می‌نویسند.",
+     "نتایج موقت را به خبرنگاران اطلاع می‌دهند.",
+     "پس از پایان رأی‌گیری آرا را می‌شمارند."
+    ]
    }
   },
   "scores": {
@@ -11334,6 +12288,15 @@
      "4 ani",
      "6 ani",
      "8 ani"
+    ]
+   },
+   "fa": {
+    "question": "بوندستاگ آلمان برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۲ سال",
+     "۴ سال",
+     "۶ سال",
+     "۸ سال"
     ]
    }
   },
@@ -11444,6 +12407,15 @@
      "trăiește de cel puțin 3 ani în Republica Federală Germania.",
      "este cetățean al Republicii Federale Germania și are cel puțin 21 de ani."
     ]
+   },
+   "fa": {
+    "question": "در انتخابات بوندستاگ آلمان چه کسی حق رأی دارد؟ کسی که …",
+    "options": [
+     "در جمهوری فدرال آلمان زندگی می‌کند و بخواهد رأی دهد.",
+     "شهروند جمهوری فدرال آلمان باشد و حداقل ۱۸ سال سن داشته باشد.",
+     "حداقل ۳ سال است در جمهوری فدرال آلمان زندگی می‌کند.",
+     "شهروند جمهوری فدرال آلمان باشد و حداقل ۲۱ سال سن داشته باشد."
+    ]
    }
   },
   "scores": {
@@ -11552,6 +12524,15 @@
      "la fiecare patru ani",
      "la fiecare cinci ani",
      "la fiecare șase ani"
+    ]
+   },
+   "fa": {
+    "question": "معمولاً هر چند وقت یک‌بار انتخابات بوندستاگ در آلمان برگزار می‌شود؟",
+    "options": [
+     "هر سه سال",
+     "هر چهار سال",
+     "هر پنج سال",
+     "هر شش سال"
     ]
    }
   },
@@ -11662,6 +12643,15 @@
      "4 ani",
      "5 ani"
     ]
+   },
+   "fa": {
+    "question": "بوندستاگ آلمان برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۲ سال",
+     "۳ سال",
+     "۴ سال",
+     "۵ سال"
+    ]
    }
   },
   "scores": {
@@ -11770,6 +12760,15 @@
      "arborarea unui steag israelian pe o proprietate privată",
      "o discuție despre politica Israelului",
      "îndemnul public la distrugerea Israelului"
+    ]
+   },
+   "fa": {
+    "question": "کدام اقدامات مرتبط با کشور اسرائیل در آلمان ممنوع است؟",
+    "options": [
+     "انتقاد علنی از سیاست اسرائیل",
+     "آویزان کردن پرچم اسرائیل در ملک خصوصی",
+     "بحث درباره سیاست اسرائیل",
+     "فراخوان علنی برای نابودی اسرائیل"
     ]
    }
   },
@@ -11880,6 +12879,15 @@
      "legate de profesie.",
      "dependente de gen."
     ]
+   },
+   "fa": {
+    "question": "انتخابات در آلمان … است.",
+    "options": [
+     "ویژه",
+     "مخفی",
+     "مرتبط با شغل",
+     "وابسته به جنسیت"
+    ]
    }
   },
   "scores": {
@@ -11988,6 +12996,15 @@
      "a fost votat de majoritatea bărbaților.",
      "a obținut cele mai multe voturi din partea muncitorilor.",
      "a primit cele mai multe voturi principale pentru candidatul său la cancelariat."
+    ]
+   },
+   "fa": {
+    "question": "در انتخابات آلمان حزبی برنده می‌شود که …",
+    "options": [
+     "بیشترین آرا را کسب کند.",
+     "بیشتر مردان به آن رأی داده باشند.",
+     "بیشترین آرا را در میان کارگران کسب کرده باشد.",
+     "بیشترین رأی اول را برای کاندیدای صدراعظمی خود گرفته باشد."
     ]
    }
   },
@@ -12098,6 +13115,15 @@
      "o constrângere.",
      "o povară."
     ]
+   },
+   "fa": {
+    "question": "شرکت در انتخابات دموکراتیک در آلمان … است.",
+    "options": [
+     "یک تکلیف",
+     "یک حق",
+     "یک اجبار",
+     "یک بار سنگین"
+    ]
    }
   },
   "scores": {
@@ -12206,6 +13232,15 @@
      "Trebuie să mergi la vot.",
      "Poți vota.",
      "Trebuie să participi la numărarea voturilor."
+    ]
+   },
+   "fa": {
+    "question": "«حق رأی فعال» در آلمان به چه معناست؟",
+    "options": [
+     "می‌توان انتخاب شد.",
+     "باید رأی داد.",
+     "می‌توان رأی داد.",
+     "باید به شمارش آرا رفت."
     ]
    }
   },
@@ -12316,6 +13351,15 @@
      "campanie electorală activă.",
      "drept de vot activ."
     ]
+   },
+   "fa": {
+    "question": "وقتی در انتخابات بوندستاگ آلمان اجازه رأی دادن دارید، این را … می‌نامند.",
+    "options": [
+     "کمپین انتخاباتی فعال",
+     "روند انتخاباتی فعال",
+     "مبارزه انتخاباتی فعال",
+     "حق رأی فعال"
+    ]
    }
   },
   "scores": {
@@ -12424,6 +13468,15 @@
      "4%",
      "5%",
      "6%"
+    ]
+   },
+   "fa": {
+    "question": "احزاب برای راه‌یابی به بوندستاگ آلمان حداقل باید چند درصد از آرای دوم را کسب کنند؟",
+    "options": [
+     "۳٪",
+     "۴٪",
+     "۵٪",
+     "۶٪"
     ]
    }
   },
@@ -12534,6 +13587,15 @@
      "doar persoanele religioase",
      "toate persoanele"
     ]
+   },
+   "fa": {
+    "question": "چه کسی می‌تواند در حدود ۴۰ باشگاه ورزشی یهودی «مکابی» عضو شود؟",
+    "options": [
+     "فقط آلمانی‌ها",
+     "فقط اسرائیلی‌ها",
+     "فقط افراد مذهبی",
+     "همه افراد"
+    ]
    }
   },
   "scores": {
@@ -12642,6 +13704,15 @@
      "Dacă doresc să merg la vot, angajatorul meu trebuie să îmi dea liber.",
      "Fiecare persoană poate decide fără constrângere dacă dorește să voteze și pe cine dorește să voteze.",
      "Pot decide liber unde doresc să merg la vot."
+    ]
+   },
+   "fa": {
+    "question": "انتخابات در آلمان آزاد است. این به چه معناست؟",
+    "options": [
+     "همه مجرمان محکوم‌شده حق رأی دادن ندارند.",
+     "اگر بخواهم رأی بدهم، کارفرمایم باید به من مرخصی بدهد.",
+     "هر فرد می‌تواند بدون اجبار تصمیم بگیرد که آیا رأی می‌دهد و به چه کسی رأی می‌دهد.",
+     "می‌توانم آزادانه تصمیم بگیرم کجا رأی بدهم."
     ]
    }
   },
@@ -12752,6 +13823,15 @@
      "drept de vot majoritar și proporțional.",
      "drept de vot general masculin."
     ]
+   },
+   "fa": {
+    "question": "نظام انتخاباتی آلمان … است.",
+    "options": [
+     "حق رأی مبتنی بر دارایی (سرشماری)",
+     "حق رأی سه‌طبقه‌ای",
+     "نظام اکثریتی و تناسبی",
+     "حق رأی عمومی مردان"
+    ]
    }
   },
   "scores": {
@@ -12860,6 +13940,15 @@
      "limită de admitere.",
      "valoare de bază.",
      "directivă."
+    ]
+   },
+   "fa": {
+    "question": "یک حزب می‌خواهد وارد بوندستاگ آلمان شود، اما باید حداقل سهمی از آرای رأی‌دهندگان را داشته باشد. به این می‌گویند …",
+    "options": [
+     "آستانه ۵ درصد",
+     "حد مجاز ورود",
+     "ارزش پایه",
+     "دستورالعمل"
     ]
    }
   },
@@ -12970,6 +14059,15 @@
      "închise, egale, sigure.",
      "sigure, deschise, voluntare."
     ]
+   },
+   "fa": {
+    "question": "انتخابات در آلمان تابع چه اصلی است؟ انتخابات در آلمان … است.",
+    "options": [
+     "آزاد، برابر، مخفی",
+     "باز، امن، آزاد",
+     "بسته، برابر، امن",
+     "امن، باز، داوطلبانه"
+    ]
    }
   },
   "scores": {
@@ -13078,6 +14176,15 @@
      "control de prezență în Bundestag pentru voturi",
      "procent minim din voturile alegătorilor necesar pentru a intra în parlament",
      "control de prezență în Bundesrat pentru voturi"
+    ]
+   },
+   "fa": {
+    "question": "«آستانه ۵ درصد» در آلمان چیست؟",
+    "options": [
+     "قانون رأی‌گیری در بوندستاگ برای احزاب کوچک",
+     "کنترل حضور در بوندستاگ برای رأی‌گیری‌ها",
+     "حداقل سهم آرای رأی‌دهندگان برای راه‌یابی به پارلمان",
+     "کنترل حضور در بوندسرات برای رأی‌گیری‌ها"
     ]
    }
   },
@@ -13188,6 +14295,15 @@
      "parlamentului pentru Germania.",
      "președintelui federal."
     ]
+   },
+   "fa": {
+    "question": "انتخابات بوندستاگ در آلمان انتخاب … است.",
+    "options": [
+     "صدراعظم فدرال",
+     "پارلمان‌های ایالت‌ها",
+     "پارلمان آلمان",
+     "رئیس‌جمهور فدرال"
+    ]
    }
   },
   "scores": {
@@ -13296,6 +14412,15 @@
      "de a permite schimbarea guvernului conform voinței majorității alegătorilor.",
      "de a menține legile existente în țară.",
      "de a da mai multă putere celor săraci."
+    ]
+   },
+   "fa": {
+    "question": "در یک دموکراسی، یکی از کارکردهای انتخابات منظم این است که …",
+    "options": [
+     "شهروندان را مجبور به رأی دادن کند.",
+     "امکان تغییر دولت را طبق خواست اکثریت رأی‌دهندگان فراهم کند.",
+     "قوانین موجود در کشور را حفظ کند.",
+     "به فقرا قدرت بیشتری بدهد."
     ]
    }
   },
@@ -13406,6 +14531,15 @@
      "o înștiințare de la Adunarea Federală",
      "o înștiințare de la parohie"
     ]
+   },
+   "fa": {
+    "question": "شهروندان واجد شرایط رأی در آلمان پیش از انتخابات چه چیزی دریافت می‌کنند؟",
+    "options": [
+     "اطلاعیه رأی‌گیری از شهرداری",
+     "مجوز رأی‌گیری از رئیس‌جمهور فدرال",
+     "اطلاعیه از مجمع فدرال",
+     "اطلاعیه از کلیسا"
+    ]
    }
   },
   "scores": {
@@ -13515,6 +14649,15 @@
      "multe partide mici îngreunează formarea guvernului.",
      "partidele mici nu au suficienți bani pentru a plăti politicienii."
     ]
+   },
+   "fa": {
+    "question": "چرا در قانون انتخابات جمهوری فدرال آلمان آستانه ۵ درصد وجود دارد؟ این آستانه وجود دارد زیرا …",
+    "options": [
+     "برنامه‌های بسیاری از احزاب کوچک وجوه اشتراک زیادی دارند.",
+     "شهروندان ممکن است در میان احزاب کوچک بسیار سردرگم شوند.",
+     "احزاب کوچک زیاد تشکیل دولت را دشوار می‌کنند.",
+     "احزاب کوچک پول کافی برای پرداخت دستمزد سیاستمداران ندارند."
+    ]
    }
   },
   "scores": {
@@ -13560,6 +14703,15 @@
      "ambasadori.",
      "prim-miniștri de land."
     ]
+   },
+   "fa": {
+    "question": "اعضای پارلمان که توسط شهروندان انتخاب می‌شوند را چه می‌نامند؟",
+    "options": [
+     "نمایندگان",
+     "صدراعظم‌ها",
+     "سفیران",
+     "نخست‌وزیران ایالتی"
+    ]
    }
   },
   "scores": {
@@ -13604,6 +14756,15 @@
      "prim-ministrul unui land.",
      "Bundestag-ul.",
      "președintele federal."
+    ]
+   },
+   "fa": {
+    "question": "در آلمان چه کسی توسط مردم انتخاب می‌شود؟",
+    "options": [
+     "صدراعظم فدرال",
+     "نخست‌وزیر یک ایالت",
+     "بوندستاگ",
+     "رئیس‌جمهور فدرال"
     ]
    }
   },
@@ -13712,6 +14873,15 @@
      "2",
      "3",
      "4"
+    ]
+   },
+   "fa": {
+    "question": "در انتخابات بوندستاگ کدام برگه رأی معتبر است؟ (بر اساس آیین‌نامه انتخابات فدرال، پیوست ۲۶)",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
     ]
    }
   },
@@ -13822,6 +14992,15 @@
      "șeful unei comune.",
      "președintele unui partid."
     ]
+   },
+   "fa": {
+    "question": "شهردار در آلمان … است.",
+    "options": [
+     "مدیر یک مدرسه",
+     "رئیس یک بانک",
+     "رئیس یک شهرداری/شهرک",
+     "رئیس یک حزب"
+    ]
    }
   },
   "scores": {
@@ -13930,6 +15109,15 @@
      "Lucrează voluntar și neplătit în asociații și cluburi.",
      "Lucrează în guvernul federal.",
      "Lucrează într-un spital și câștigă bani în acest fel."
+    ]
+   },
+   "fa": {
+    "question": "بسیاری از مردم در آلمان در اوقات فراغت خود کار داوطلبانه (افتخاری) انجام می‌دهند. این یعنی چه؟",
+    "options": [
+     "به عنوان سرباز کار می‌کنند.",
+     "به‌طور داوطلبانه و بدون دستمزد در انجمن‌ها و اتحادیه‌ها کار می‌کنند.",
+     "در دولت فدرال کار می‌کنند.",
+     "در بیمارستان کار می‌کنند و از این راه پول درمی‌آورند."
     ]
    }
   },
@@ -14040,6 +15228,15 @@
      "Se poate vota telefonic în ziua alegerilor.",
      "Copiii de la vârsta de 14 ani au voie să voteze."
     ]
+   },
+   "fa": {
+    "question": "در انتخابات بوندستاگ و پارلمان ایالتی آلمان چه چیزی مجاز است؟",
+    "options": [
+     "شوهر به‌جای همسرش رأی می‌دهد.",
+     "می‌توان از طریق رأی پستی رأی داد.",
+     "می‌توان در روز انتخابات از طریق تلفن رأی داد.",
+     "کودکان از سن ۱۴ سالگی اجازه رأی دادن دارند."
+    ]
    }
   },
   "scores": {
@@ -14148,6 +15345,15 @@
      "Devin membru al unui club sportiv și mă antrenez la ciclism.",
      "Mă adresez administrației financiare, deoarece, ca plătitor de impozite, am dreptul la linia de autobuz.",
      "Scriu o scrisoare către oficiul silvic al comunei."
+    ]
+   },
+   "fa": {
+    "question": "قرار است خط اتوبوسی که همیشه با آن سر کار می‌روید حذف شود. برای حفظ این خط اتوبوس چه کاری می‌توانید انجام دهید؟",
+    "options": [
+     "در یک ابتکار مدنی برای حفظ خط اتوبوس شرکت می‌کنم یا خودم یکی راه‌اندازی می‌کنم.",
+     "عضو یک باشگاه ورزشی می‌شوم و دوچرخه‌سواری تمرین می‌کنم.",
+     "به اداره دارایی مراجعه می‌کنم، چون به عنوان مالیات‌دهنده حق دارم از این خط اتوبوس استفاده کنم.",
+     "نامه‌ای به اداره جنگل‌داری شهرداری می‌نویسم."
     ]
    }
   },
@@ -14258,6 +15464,15 @@
      "persoanele care desfășoară activități independente",
      "angajații"
     ]
+   },
+   "fa": {
+    "question": "اتحادیه‌های کارگری در آلمان نماینده چه کسانی هستند؟",
+    "options": [
+     "شرکت‌های بزرگ",
+     "شرکت‌های کوچک",
+     "افراد خوداشتغال",
+     "کارمندان"
+    ]
    }
   },
   "scores": {
@@ -14366,6 +15581,15 @@
      "unei concedieri nejustificate din partea șefului dumneavoastră.",
      "unor probleme cu vecinii.",
      "unor dificultăți în urma unui accident rutier."
+    ]
+   },
+   "fa": {
+    "question": "در آلمان در چه موردی به دادگاه کار مراجعه می‌کنید؟",
+    "options": [
+     "صورتحساب نادرست هزینه‌های جانبی",
+     "اخراج ناعادلانه توسط رئیس‌تان",
+     "مشکلات با همسایگان",
+     "مشکلات پس از یک تصادف رانندگی"
     ]
    }
   },
@@ -14476,6 +15700,15 @@
      "tribunalul muncii",
      "judecătoria"
     ]
+   },
+   "fa": {
+    "question": "کدام دادگاه در آلمان مسئول رسیدگی به اختلافات محیط کار است؟",
+    "options": [
+     "دادگاه خانواده",
+     "دادگاه کیفری",
+     "دادگاه کار",
+     "دادگاه بخش"
+    ]
    }
   },
   "scores": {
@@ -14584,6 +15817,15 @@
      "inițiez o procedură de somație împotriva angajatorului",
      "depun o acțiune în instanță împotriva concedierii",
      "denunț angajatorul la poliție"
+    ]
+   },
+   "fa": {
+    "question": "اگر کارفرمایم به‌ناحق مرا اخراج کند، در آلمان چه کاری می‌توانم انجام دهم؟",
+    "options": [
+     "به کار ادامه دهم و با رئیسم دوستانه رفتار کنم",
+     "علیه کارفرما دادخواست مطالبه دین (اخطاریه پرداخت) طرح کنم",
+     "دادخواست اعتراض به اخراج (شکایت از فسخ قرارداد) مطرح کنم",
+     "از کارفرما به پلیس شکایت کنم"
     ]
    }
   },
@@ -14694,6 +15936,15 @@
      "susține o altă opinie decât cea a guvernului.",
      "și-a parcat mașina greșit și aceasta este ridicată."
     ]
+   },
+   "fa": {
+    "question": "در آلمان چه زمانی محاکمه در دادگاه برگزار می‌شود؟ وقتی کسی …",
+    "options": [
+     "به دینی دیگر تغییر مذهب می‌دهد.",
+     "جرمی مرتکب شده و متهم شده است.",
+     "نظری متفاوت از دولت دارد.",
+     "خودرویش را اشتباه پارک کرده و بکسل شده است."
+    ]
    }
   },
   "scores": {
@@ -14802,6 +16053,15 @@
      "oferă cetățenilor consiliere juridică.",
      "eliberează acte oficiale.",
      "apără persoana acuzată."
+    ]
+   },
+   "fa": {
+    "question": "یک قاضی مشاور (شوفه) در آلمان چه کاری انجام می‌دهد؟ او …",
+    "options": [
+     "همراه با قضات درباره جرم و مجازات تصمیم می‌گیرد.",
+     "به شهروندان مشاوره حقوقی می‌دهد.",
+     "اسناد رسمی صادر می‌کند.",
+     "از متهم دفاع می‌کند."
     ]
    }
   },
@@ -14912,6 +16172,15 @@
      "un jurat",
      "un procuror"
     ]
+   },
+   "fa": {
+    "question": "در آلمان چه کسی افراد را در مسائل حقوقی مشاوره می‌دهد و در دادگاه نمایندگی می‌کند؟",
+    "options": [
+     "یک وکیل دادگستری",
+     "یک قاضی",
+     "یک قاضی مشاور (شوفه)",
+     "یک دادستان"
+    ]
    }
   },
   "scores": {
@@ -15020,6 +16289,15 @@
      "lucrează într-o instanță și pronunță hotărâri.",
      "modifică legile.",
      "asistă tinerii în instanță."
+    ]
+   },
+   "fa": {
+    "question": "وظیفه اصلی یک قاضی در آلمان چیست؟ یک قاضی …",
+    "options": [
+     "شهروندان را در دادگاه نمایندگی می‌کند.",
+     "در یک دادگاه کار می‌کند و رأی صادر می‌کند.",
+     "قوانین را تغییر می‌دهد.",
+     "از نوجوانان در دادگاه مراقبت می‌کند."
     ]
    }
   },
@@ -15130,6 +16408,15 @@
      "puterea operativă.",
      "puterea legislativă."
     ]
+   },
+   "fa": {
+    "question": "یک قاضی در آلمان بخشی از … است.",
+    "options": [
+     "قوه قضاییه",
+     "قوه مجریه",
+     "قوه عملیاتی",
+     "قوه مقننه"
+    ]
    }
   },
   "scores": {
@@ -15238,6 +16525,15 @@
      "puterea judecătorească.",
      "puterea de planificare.",
      "puterea legislativă."
+    ]
+   },
+   "fa": {
+    "question": "یک قاضی در آلمان بخشی از … است.",
+    "options": [
+     "قوه اجرایی",
+     "قوه قضایی",
+     "قوه برنامه‌ریزی",
+     "قوه قانون‌گذاری"
     ]
    }
   },
@@ -15348,6 +16644,15 @@
      "presă",
      "puterea legislativă"
     ]
+   },
+   "fa": {
+    "question": "در آلمان قدرت دولتی تقسیم شده است. یک قاضی برای کدام قوه کار می‌کند؟ برای قوه …",
+    "options": [
+     "قضاییه",
+     "مجریه",
+     "مطبوعات",
+     "مقننه"
+    ]
    }
   },
   "scores": {
@@ -15456,6 +16761,15 @@
      "procedeu",
      "protocol",
      "proces"
+    ]
+   },
+   "fa": {
+    "question": "در آلمان به یک رسیدگی در دادگاه چه می‌گویند؟",
+    "options": [
+     "برنامه",
+     "روال",
+     "صورت‌جلسه",
+     "دادرسی (پروسه)"
     ]
    }
   },
@@ -15566,6 +16880,15 @@
      "să elaboreze planuri",
      "să emită legi"
     ]
+   },
+   "fa": {
+    "question": "کار یک قاضی در آلمان چیست؟",
+    "options": [
+     "اداره آلمان",
+     "صدور حکم / دادرسی",
+     "تهیه طرح‌ها",
+     "تصویب قوانین"
+    ]
    }
   },
   "scores": {
@@ -15674,6 +16997,15 @@
      "să asculte convorbirile cetățenilor",
      "să adopte legile",
      "să supravegheze respectarea legilor"
+    ]
+   },
+   "fa": {
+    "question": "یکی از وظایف پلیس در آلمان چیست؟",
+    "options": [
+     "دفاع از کشور",
+     "شنود شهروندان",
+     "تصویب قوانین",
+     "نظارت بر رعایت قوانین"
     ]
    }
   },
@@ -15784,6 +17116,15 @@
      "a nega Holocaustul",
      "a juca fotbal împotriva evreilor."
     ]
+   },
+   "fa": {
+    "question": "نمونه‌ای از رفتار ضدیهودی (آنتی‌سمیتیسم) چیست؟",
+    "options": [
+     "شرکت در یک جشن یهودی",
+     "انتقاد از دولت اسرائیل",
+     "انکار هولوکاست",
+     "بازی فوتبال علیه یهودیان"
+    ]
    }
   },
   "scores": {
@@ -15828,6 +17169,15 @@
      "un judecător onorific.",
      "un membru al unui consiliu comunal.",
      "o persoană care a studiat dreptul."
+    ]
+   },
+   "fa": {
+    "question": "یک قاضی مشاور (شوفه) دادگاه در آلمان … است.",
+    "options": [
+     "معاون شهردار",
+     "یک قاضی افتخاری (داوطلب)",
+     "یکی از اعضای شورای شهر",
+     "کسی که حقوق خوانده است"
     ]
    }
   },
@@ -15938,6 +17288,15 @@
      "Republica Federală Germania",
      "SUA"
     ]
+   },
+   "fa": {
+    "question": "دیوار برلین را چه کسی ساخت؟",
+    "options": [
+     "بریتانیا",
+     "آلمان شرقی (DDR)",
+     "جمهوری فدرال آلمان",
+     "ایالات متحده آمریکا"
+    ]
    }
   },
   "scores": {
@@ -16046,6 +17405,15 @@
      "1932 până în 1950",
      "1933 până în 1945",
      "1945 până în 1989"
+    ]
+   },
+   "fa": {
+    "question": "ناسیونال‌سوسیالیست‌ها به رهبری آدولف هیتلر چه زمانی در آلمان در قدرت بودند؟",
+    "options": [
+     "از ۱۹۱۸ تا ۱۹۲۳",
+     "از ۱۹۳۲ تا ۱۹۵۰",
+     "از ۱۹۳۳ تا ۱۹۴۵",
+     "از ۱۹۴۵ تا ۱۹۸۹"
     ]
    }
   },
@@ -16156,6 +17524,15 @@
      "Alegerea lui Konrad Adenauer ca cancelar federal",
      "Sfârșitul celui de-Al Doilea Război Mondial în Europa"
     ]
+   },
+   "fa": {
+    "question": "در ۸ مه ۱۹۴۵ چه اتفاقی افتاد؟",
+    "options": [
+     "مرگ آدولف هیتلر",
+     "آغاز ساخت دیوار برلین",
+     "انتخاب کنراد آدناوئر به عنوان صدراعظم فدرال",
+     "پایان جنگ جهانی دوم در اروپا"
+    ]
    }
   },
   "scores": {
@@ -16264,6 +17641,15 @@
      "1945",
      "1949",
      "1961"
+    ]
+   },
+   "fa": {
+    "question": "جنگ جهانی دوم چه زمانی پایان یافت؟",
+    "options": [
+     "۱۹۳۳",
+     "۱۹۴۵",
+     "۱۹۴۹",
+     "۱۹۶۱"
     ]
    }
   },
@@ -16374,6 +17760,15 @@
      "1933 până în 1945",
      "1949 până în 1963"
     ]
+   },
+   "fa": {
+    "question": "ناسیونال‌سوسیالیست‌ها چه زمانی در آلمان در قدرت بودند؟",
+    "options": [
+     "از ۱۸۸۸ تا ۱۹۱۸",
+     "از ۱۹۲۱ تا ۱۹۳۴",
+     "از ۱۹۳۳ تا ۱۹۴۵",
+     "از ۱۹۴۹ تا ۱۹۶۳"
+    ]
    }
   },
   "scores": {
@@ -16482,6 +17877,15 @@
      "1927",
      "1933",
      "1936"
+    ]
+   },
+   "fa": {
+    "question": "هیتلر در چه سالی صدراعظم رایش شد؟",
+    "options": [
+     "۱۹۲۳",
+     "۱۹۲۷",
+     "۱۹۳۳",
+     "۱۹۳۶"
     ]
    }
   },
@@ -16592,6 +17996,15 @@
      "o monarhie.",
      "un principat."
     ]
+   },
+   "fa": {
+    "question": "ناسیونال‌سوسیالیست‌ها به رهبری آدولف هیتلر در سال ۱۹۳۳ در آلمان … برقرار کردند.",
+    "options": [
+     "یک دیکتاتوری",
+     "یک دولت دموکراتیک",
+     "یک نظام سلطنتی",
+     "یک امیرنشین"
+    ]
    }
   },
   "scores": {
@@ -16700,6 +18113,15 @@
      "democrație.",
      "monarhie.",
      "republică a sfaturilor (Räterepublik)."
+    ]
+   },
+   "fa": {
+    "question": "\"رایش سوم\" یک … بود.",
+    "options": [
+     "دیکتاتوری",
+     "دموکراسی",
+     "نظام سلطنتی",
+     "جمهوری شورایی"
     ]
    }
   },
@@ -16810,6 +18232,15 @@
      "arestări arbitrare",
      "persecutarea evreilor"
     ]
+   },
+   "fa": {
+    "question": "در دوران ناسیونال‌سوسیالیسم در آلمان چه چیزی وجود نداشت؟",
+    "options": [
+     "انتخابات آزاد",
+     "سانسور مطبوعات",
+     "بازداشت‌های خودسرانه",
+     "آزار و شکنجه یهودیان"
+    ]
    }
   },
   "scores": {
@@ -16918,6 +18349,15 @@
      "Al Doilea Război Mondial",
      "Războiul din Vietnam",
      "Războiul din Golf"
+    ]
+   },
+   "fa": {
+    "question": "کدام جنگ از سال ۱۹۳۹ تا ۱۹۴۵ ادامه داشت؟",
+    "options": [
+     "جنگ جهانی اول",
+     "جنگ جهانی دوم",
+     "جنگ ویتنام",
+     "جنگ خلیج فارس"
     ]
    }
   },
@@ -17028,6 +18468,15 @@
      "a libertății religioase generale",
      "a dezvoltării democrației"
     ]
+   },
+   "fa": {
+    "question": "چه چیزی مشخصهٔ دولت نازی بود؟ سیاست …",
+    "options": [
+     "نژادپرستی دولتی",
+     "آزادی بیان",
+     "آزادی عمومی مذهب",
+     "توسعهٔ دموکراسی"
+    ]
    }
   },
   "scores": {
@@ -17136,6 +18585,15 @@
      "construcția clădirii Reichstagului.",
      "înființarea Wehrmachtului.",
      "atentatul asupra lui Hitler din 20 iulie 1944."
+    ]
+   },
+   "fa": {
+    "question": "کلاوس شنک گراف فون اشتاوفنبرگ به خاطر … شهرت یافت.",
+    "options": [
+     "کسب مدال طلا در بازی‌های المپیک ۱۹۳۶",
+     "ساخت ساختمان رایشستاگ",
+     "تأسیس ورماخت (نیروهای مسلح آلمان)",
+     "سوءقصد به جان هیتلر در ۲۰ ژوئیهٔ ۱۹۴۴"
     ]
    }
   },
@@ -17246,6 +18704,15 @@
      "1938",
      "1945"
     ]
+   },
+   "fa": {
+    "question": "ناسیونال‌سوسیالیست‌ها در چه سالی کنیسه‌ها و مغازه‌های یهودیان را در آلمان ویران کردند؟",
+    "options": [
+     "۱۹۲۵",
+     "۱۹۳۰",
+     "۱۹۳۸",
+     "۱۹۴۵"
+    ]
    }
   },
   "scores": {
@@ -17354,6 +18821,15 @@
      "Naziștii pierd alegerile și dizolvă Reichstagul.",
      "Magazine și sinagogi evreiești sunt distruse de naziști și susținătorii lor.",
      "Hitler devine președinte al Reich-ului și interzice toate partidele."
+    ]
+   },
+   "fa": {
+    "question": "در ۹ نوامبر ۱۹۳۸ در آلمان چه اتفاقی افتاد؟",
+    "options": [
+     "با حمله به لهستان، جنگ جهانی دوم آغاز شد.",
+     "ناسیونال‌سوسیالیست‌ها یک انتخابات را باختند و رایشستاگ را منحل کردند.",
+     "مغازه‌ها و کنیسه‌های یهودیان توسط ناسیونال‌سوسیالیست‌ها و هوادارانشان ویران شد.",
+     "هیتلر رئیس‌جمهور رایش شد و همهٔ احزاب را ممنوع کرد."
     ]
    }
   },
@@ -17464,6 +18940,15 @@
      "Helmut Schmidt",
      "Willy Brandt"
     ]
+   },
+   "fa": {
+    "question": "نام نخستین صدراعظم فدرال جمهوری فدرال آلمان چه بود؟",
+    "options": [
+     "کنراد آدناوئر",
+     "کورت گئورگ کیزینگر",
+     "هلموت اشمیت",
+     "ویلی برانت"
+    ]
    }
   },
   "scores": {
@@ -17572,6 +19057,15 @@
      "la demonstrațiile din 1968 din Republica Federală Germania",
      "la demonstrațiile anti-nucleare din 1985 din Republica Federală Germania",
      "la demonstrațiile de luni din 1989 din RDG"
+    ]
+   },
+   "fa": {
+    "question": "در کدام تظاهرات در آلمان مردم شعار \"ما مردم هستیم\" (Wir sind das Volk) سر دادند؟",
+    "options": [
+     "در قیام کارگری سال ۱۹۵۳ در آلمان شرقی (DDR)",
+     "در تظاهرات سال ۱۹۶۸ در جمهوری فدرال آلمان",
+     "در تظاهرات ضد انرژی هسته‌ای سال ۱۹۸۵ در جمهوری فدرال آلمان",
+     "در تظاهرات دوشنبه‌های سال ۱۹۸۹ در آلمان شرقی (DDR)"
     ]
    }
   },
@@ -17682,6 +19176,15 @@
      "SUA, Uniunea Sovietică, Spania, Portugalia",
      "SUA, Uniunea Sovietică, Marea Britanie, Franța"
     ]
+   },
+   "fa": {
+    "question": "پس از جنگ جهانی دوم، کدام کشورها در آلمان \"قدرت‌های اشغالگر متفقین\" نامیده می‌شدند؟",
+    "options": [
+     "اتحاد جماهیر شوروی، بریتانیا، لهستان، سوئد",
+     "فرانسه، اتحاد جماهیر شوروی، ایتالیا، ژاپن",
+     "ایالات متحده، اتحاد جماهیر شوروی، اسپانیا، پرتغال",
+     "ایالات متحده، اتحاد جماهیر شوروی، بریتانیا، فرانسه"
+    ]
    }
   },
   "scores": {
@@ -17790,6 +19293,15 @@
      "Uniunea Sovietică",
      "Franța",
      "Japonia"
+    ]
+   },
+   "fa": {
+    "question": "کدام کشور یک \"قدرت اشغالگر متفق\" در آلمان نبود؟",
+    "options": [
+     "ایالات متحده آمریکا",
+     "اتحاد جماهیر شوروی",
+     "فرانسه",
+     "ژاپن"
     ]
    }
   },
@@ -17900,6 +19412,15 @@
      "1949",
      "1951"
     ]
+   },
+   "fa": {
+    "question": "جمهوری فدرال آلمان چه زمانی تأسیس شد؟",
+    "options": [
+     "۱۹۳۹",
+     "۱۹۴۵",
+     "۱۹۴۹",
+     "۱۹۵۱"
+    ]
    }
   },
   "scores": {
@@ -18008,6 +19529,15 @@
      "dreptul la libera dezvoltare a personalității",
      "libertatea presei",
      "protecția demnității umane"
+    ]
+   },
+   "fa": {
+    "question": "در دوران ناسیونال‌سوسیالیسم در آلمان چه چیزی وجود داشت؟",
+    "options": [
+     "ممنوعیت احزاب",
+     "حق آزادی رشد شخصیت",
+     "آزادی مطبوعات",
+     "حفاظت از کرامت انسانی"
     ]
    }
   },
@@ -18118,6 +19648,15 @@
      "se orientează după cererea din străinătate.",
      "se orientează după cerere și ofertă, dar statul asigură un echilibru social."
     ]
+   },
+   "fa": {
+    "question": "اقتصاد بازار اجتماعی به این معناست که اقتصاد …",
+    "options": [
+     "فقط بر اساس عرضه و تقاضا تنظیم می‌شود.",
+     "توسط دولت برنامه‌ریزی و هدایت می‌شود و عرضه و تقاضا در نظر گرفته نمی‌شود.",
+     "بر اساس تقاضای خارجی تنظیم می‌شود.",
+     "بر اساس عرضه و تقاضا تنظیم می‌شود، اما دولت عدالت اجتماعی را تأمین می‌کند."
+    ]
    }
   },
   "scores": {
@@ -18226,6 +19765,15 @@
      "franceză de ocupație",
      "britanică de ocupație",
      "sovietică de ocupație"
+    ]
+   },
+   "fa": {
+    "question": "آلمان شرقی (DDR) در کدام منطقهٔ اشغالی تأسیس شد؟ در منطقهٔ اشغالی …",
+    "options": [
+     "آمریکا",
+     "فرانسه",
+     "بریتانیا",
+     "شوروی"
     ]
    }
   },
@@ -18336,6 +19884,15 @@
      "al Uniunii Europene (UE).",
      "al Pactului de la Varșovia."
     ]
+   },
+   "fa": {
+    "question": "جمهوری فدرال آلمان یکی از اعضای مؤسس … است.",
+    "options": [
+     "پیمان آتلانتیک شمالی (ناتو)",
+     "سازمان ملل متحد (UN)",
+     "اتحادیهٔ اروپا (EU)",
+     "پیمان ورشو"
+    ]
    }
   },
   "scores": {
@@ -18444,6 +20001,15 @@
      "1949",
      "1953",
      "1956"
+    ]
+   },
+   "fa": {
+    "question": "آلمان شرقی (DDR) چه زمانی تأسیس شد؟",
+    "options": [
+     "۱۹۴۷",
+     "۱۹۴۹",
+     "۱۹۵۳",
+     "۱۹۵۶"
     ]
    }
   },
@@ -18554,6 +20120,15 @@
      "5",
      "6"
     ]
+   },
+   "fa": {
+    "question": "پس از جنگ جهانی دوم چند منطقهٔ اشغالی در آلمان وجود داشت؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
+    ]
    }
   },
   "scores": {
@@ -18662,6 +20237,15 @@
      "1=Uniunea Sovietică, 2=Marea Britanie, 3=SUA, 4=Franța",
      "1=Marea Britanie, 2=Uniunea Sovietică, 3=SUA, 4=Franța",
      "1=Marea Britanie, 2=SUA, 3=Uniunea Sovietică, 4=Franța"
+    ]
+   },
+   "fa": {
+    "question": "مناطق اشغالی آلمان پس از ۱۹۴۵ چگونه تقسیم شده بودند؟",
+    "options": [
+     "۱= بریتانیا، ۲= شوروی، ۳= فرانسه، ۴= آمریکا",
+     "۱= شوروی، ۲= بریتانیا، ۳= آمریکا، ۴= فرانسه",
+     "۱= بریتانیا، ۲= شوروی، ۳= آمریکا، ۴= فرانسه",
+     "۱= بریتانیا، ۲= آمریکا، ۳= شوروی، ۴= فرانسه"
     ]
    }
   },
@@ -18772,6 +20356,15 @@
      "Dresda",
      "Frankfurt/Oder"
     ]
+   },
+   "fa": {
+    "question": "کدام شهر آلمانی پس از جنگ جهانی دوم به چهار بخش تقسیم شد؟",
+    "options": [
+     "مونیخ",
+     "برلین",
+     "درسدن",
+     "فرانکفورت/اودر"
+    ]
    }
   },
   "scores": {
@@ -18880,6 +20473,15 @@
      "Soldații americani se temeau de atacuri la transportul terestru.",
      "Pentru Marea Britanie, aprovizionarea prin podul aerian era mai rapidă.",
      "Uniunea Sovietică a întrerupt întregul trafic pe cale terestră."
+    ]
+   },
+   "fa": {
+    "question": "از ژوئن ۱۹۴۸ تا مه ۱۹۴۹، شهروندان برلین غربی از طریق یک پل هوایی تأمین می‌شدند. علت این امر چه بود؟",
+    "options": [
+     "برای فرانسه، تأمین جمعیت برلین غربی با هواپیما ارزان‌تر بود.",
+     "سربازان آمریکایی از خطر حمله در حمل‌ونقل زمینی می‌ترسیدند.",
+     "برای بریتانیا، تأمین از طریق پل هوایی سریع‌تر بود.",
+     "اتحاد جماهیر شوروی تمام ترددهای زمینی را قطع کرد."
     ]
    }
   },
@@ -18990,6 +20592,15 @@
      "prin retragerea germanilor din teritoriile ocupate",
      "printr-o revoluție în Germania"
     ]
+   },
+   "fa": {
+    "question": "جنگ جهانی دوم در اروپا رسماً چگونه پایان یافت؟",
+    "options": [
+     "با مرگ آدولف هیتلر",
+     "با تسلیم بدون قید و شرط آلمان",
+     "با عقب‌نشینی آلمانی‌ها از مناطق اشغالی",
+     "با یک انقلاب در آلمان"
+    ]
    }
   },
   "scores": {
@@ -19098,6 +20709,15 @@
      "Willy Brandt.",
      "Konrad Adenauer.",
      "Gerhard Schröder."
+    ]
+   },
+   "fa": {
+    "question": "نخستین صدراعظم فدرال جمهوری فدرال آلمان … بود.",
+    "options": [
+     "لودویگ ارهارد",
+     "ویلی برانت",
+     "کنراد آدناوئر",
+     "گرهارد شرودر"
     ]
    }
   },
@@ -19208,6 +20828,15 @@
      "Și-a arătat smerenia față de Pactul de la Varșovia.",
      "A rostit o rugăciune la mormântul Soldatului Necunoscut."
     ]
+   },
+   "fa": {
+    "question": "ویلی برانت با زانو زدن خود در سال ۱۹۷۰ در محل گتوی سابق یهودیان در ورشو چه چیزی می‌خواست بیان کند؟",
+    "options": [
+     "او تسلیم متفقین سابق شده بود.",
+     "او از لهستان و یهودیان لهستانی طلب بخشش کرد.",
+     "او فروتنی خود را در برابر پیمان ورشو نشان داد.",
+     "او دعایی بر سر مقبرهٔ سرباز گمنام خواند."
+    ]
    }
   },
   "scores": {
@@ -19316,6 +20945,15 @@
      "Moschee",
      "Sinagogă",
      "Biserică"
+    ]
+   },
+   "fa": {
+    "question": "خانهٔ عبادت یهودیان چه نام دارد؟",
+    "options": [
+     "بازیلیکا",
+     "مسجد",
+     "کنیسه",
+     "کلیسا"
     ]
    }
   },
@@ -19426,6 +21064,15 @@
      "anii '70",
      "anii '80"
     ]
+   },
+   "fa": {
+    "question": "\"معجزهٔ اقتصادی\" (Wirtschaftswunder) در جمهوری فدرال آلمان در چه دوره‌ای بود؟",
+    "options": [
+     "دههٔ ۴۰ میلادی",
+     "دههٔ ۵۰ میلادی",
+     "دههٔ ۷۰ میلادی",
+     "دههٔ ۸۰ میلادی"
+    ]
    }
   },
   "scores": {
@@ -19534,6 +21181,15 @@
      "o decizie a Congresului Sionist",
      "o propunere a guvernului federal",
      "o propunere a URSS"
+    ]
+   },
+   "fa": {
+    "question": "کشور اسرائیل بر چه اساس حقوقی تأسیس شد؟",
+    "options": [
+     "قطع‌نامهٔ سازمان ملل متحد",
+     "تصمیم کنگرهٔ صهیونیستی",
+     "پیشنهاد دولت فدرال آلمان",
+     "پیشنهاد اتحاد جماهیر شوروی"
     ]
    }
   },
@@ -19644,6 +21300,15 @@
      "Germaniei naziste față de Aliați",
      "Europei față de SUA"
     ]
+   },
+   "fa": {
+    "question": "عبارت \"پردهٔ آهنین\" نشان‌دهندهٔ جداسازی … بود.",
+    "options": [
+     "پیمان ورشو در برابر غرب",
+     "آلمان شمالی در برابر آلمان جنوبی",
+     "آلمان نازی در برابر متفقین",
+     "اروپا در برابر ایالات متحده"
+    ]
    }
   },
   "scores": {
@@ -19752,6 +21417,15 @@
      "17 iunie",
      "20 iulie",
      "9 noiembrie"
+    ]
+   },
+   "fa": {
+    "question": "در سال ۱۹۵۳ در آلمان شرقی (DDR) قیامی رخ داد که مدت‌ها در جمهوری فدرال آلمان با یک روز تعطیل رسمی یادآوری می‌شد. آن روز چه زمانی بود؟",
+    "options": [
+     "۱ مه",
+     "۱۷ ژوئن",
+     "۲۰ ژوئیه",
+     "۹ نوامبر"
     ]
    }
   },
@@ -19862,6 +21536,15 @@
      "„Al Treilea Reich”",
      "RDG"
     ]
+   },
+   "fa": {
+    "question": "کدام دولت آلمانی پرچمی مشکی-قرمز-طلایی با چکش، پرگار و تاج خوشهٔ گندم داشت؟",
+    "options": [
+     "پروس",
+     "جمهوری فدرال آلمان",
+     "\"رایش سوم\"",
+     "آلمان شرقی (DDR)"
+    ]
    }
   },
   "scores": {
@@ -19970,6 +21653,15 @@
      "1956",
      "1959",
      "1961"
+    ]
+   },
+   "fa": {
+    "question": "دیوار برلین در چه سالی ساخته شد؟",
+    "options": [
+     "۱۹۵۳",
+     "۱۹۵۶",
+     "۱۹۵۹",
+     "۱۹۶۱"
     ]
    }
   },
@@ -20080,6 +21772,15 @@
      "1961",
      "1990"
     ]
+   },
+   "fa": {
+    "question": "آلمان شرقی (DDR) دیوار برلین را چه زمانی ساخت؟",
+    "options": [
+     "۱۹۱۹",
+     "۱۹۳۳",
+     "۱۹۶۱",
+     "۱۹۹۰"
+    ]
    }
   },
   "scores": {
@@ -20188,6 +21889,15 @@
      "Republica Germană",
      "A Treia Republică Germană",
      "Republica Democrată Germană"
+    ]
+   },
+   "fa": {
+    "question": "مخفف DDR به چه معناست؟",
+    "options": [
+     "رادیوی سوم آلمان",
+     "جمهوری آلمان",
+     "جمهوری سوم آلمان",
+     "جمهوری دموکراتیک آلمان"
     ]
    }
   },
@@ -20298,6 +22008,15 @@
      "1992",
      "1995"
     ]
+   },
+   "fa": {
+    "question": "دیوار برلین چه زمانی برای همه باز شد؟",
+    "options": [
+     "۱۹۸۷",
+     "۱۹۸۹",
+     "۱۹۹۲",
+     "۱۹۹۵"
+    ]
    }
   },
   "scores": {
@@ -20406,6 +22125,15 @@
      "Bavaria",
      "Saarland",
      "Hesse"
+    ]
+   },
+   "fa": {
+    "question": "کدام ایالت فدرال کنونی آلمان پیش‌تر بخشی از قلمرو آلمان شرقی (DDR) بود؟",
+    "options": [
+     "براندنبورگ",
+     "باواریا",
+     "زارلند",
+     "هسن"
     ]
    }
   },
@@ -20516,6 +22244,15 @@
      "despărțit printr-un zid.",
      "accesibil doar cu avionul."
     ]
+   },
+   "fa": {
+    "question": "از سال ۱۹۶۱ تا ۱۹۸۹ برلین …",
+    "options": [
+     "بدون شهردار بود.",
+     "یک کشور مستقل بود.",
+     "با یک دیوار به دو بخش تقسیم شده بود.",
+     "فقط با هواپیما قابل دسترسی بود."
+    ]
    }
   },
   "scores": {
@@ -20624,6 +22361,15 @@
      "Naționale.",
      "Landurilor.",
      "Orașelor."
+    ]
+   },
+   "fa": {
+    "question": "در ۳ اکتبر، در آلمان روز وحدت … جشن گرفته می‌شود.",
+    "options": [
+     "آلمان",
+     "ملت",
+     "ایالت‌های فدرال",
+     "شهرها"
     ]
    }
   },
@@ -20734,6 +22480,15 @@
      "Renania de Nord-Westfalia",
      "Saarland"
     ]
+   },
+   "fa": {
+    "question": "کدام ایالت فدرال کنونی آلمان پیش‌تر بخشی از قلمرو آلمان شرقی (DDR) بود؟",
+    "options": [
+     "هسن",
+     "زاکسن-آنهالت",
+     "نوردراین-وستفالن",
+     "زارلند"
+    ]
    }
   },
   "scores": {
@@ -20842,6 +22597,15 @@
      "dintr-o economie de piață liberală în socialism.",
      "dintr-o monarhie într-o social-democrație.",
      "dintr-un stat religios într-un stat comunist."
+    ]
+   },
+   "fa": {
+    "question": "چرا به دورهٔ پاییز ۱۹۸۹ در آلمان شرقی (DDR) \"چرخش\" (Die Wende) می‌گویند؟ در این دوره، آلمان شرقی از نظر سیاسی … تغییر کرد.",
+    "options": [
+     "از یک دیکتاتوری به دموکراسی",
+     "از یک اقتصاد بازار لیبرال به سوسیالیسم",
+     "از یک نظام سلطنتی به سوسیال‌دموکراسی",
+     "از یک دولت مذهبی به یک دولت کمونیستی"
     ]
    }
   },
@@ -20952,6 +22716,15 @@
      "Bavaria",
      "Bremen"
     ]
+   },
+   "fa": {
+    "question": "کدام ایالت فدرال کنونی آلمان پیش‌تر بخشی از قلمرو آلمان شرقی (DDR) بود؟",
+    "options": [
+     "تورینگن",
+     "هسن",
+     "باواریا",
+     "برمن"
+    ]
    }
   },
   "scores": {
@@ -21060,6 +22833,15 @@
      "Saxonia Inferioară",
      "Saxonia",
      "Baden-Württemberg"
+    ]
+   },
+   "fa": {
+    "question": "کدام ایالت فدرال کنونی آلمان پیش‌تر بخشی از قلمرو آلمان شرقی (DDR) بود؟",
+    "options": [
+     "باواریا",
+     "زاکسن پایین",
+     "زاکسن",
+     "بادن-وورتمبرگ"
     ]
    }
   },
@@ -21170,6 +22952,15 @@
      "un partid aflat la guvernare.",
      "Ministerul Educației Populare."
     ]
+   },
+   "fa": {
+    "question": "منظور از مخفف \"اشتازی\" (Stasi) در آلمان شرقی (DDR) چه بود؟",
+    "options": [
+     "پارلمان",
+     "وزارت امنیت دولتی",
+     "یک حزب حاکم",
+     "وزارت آموزش همگانی"
+    ]
    }
   },
   "scores": {
@@ -21278,6 +23069,15 @@
      "Schleswig-Holstein",
      "Mecklenburg-Pomerania Inferioară",
      "Saarland"
+    ]
+   },
+   "fa": {
+    "question": "کدام ایالت فدرال کنونی آلمان پیش‌تر بخشی از قلمرو آلمان شرقی (DDR) بود؟",
+    "options": [
+     "هسن",
+     "شلسویگ-هولشتاین",
+     "مکلنبورگ-فورپومرن",
+     "زارلند"
     ]
    }
   },
@@ -21388,6 +23188,15 @@
      "Bavaria, Baden-Württemberg, Renania-Palatinat, Turingia, Saxonia",
      "Saxonia, Turingia, Hesse, Saxonia Inferioară, Brandenburg"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از فهرست‌های زیر تنها شامل ایالت‌های فدرالی است که پیش‌تر بخشی از قلمرو آلمان شرقی (DDR) بودند؟",
+    "options": [
+     "زاکسن پایین، نوردراین-وستفالن، هسن، شلسویگ-هولشتاین، براندنبورگ",
+     "مکلنبورگ-فورپومرن، براندنبورگ، زاکسن، زاکسن-آنهالت، تورینگن",
+     "باواریا، بادن-وورتمبرگ، راینلند-فالتس، تورینگن، زاکسن",
+     "زاکسن، تورینگن، هسن، زاکسن پایین، براندنبورگ"
+    ]
    }
   },
   "scores": {
@@ -21496,6 +23305,15 @@
      "de Pactul de la Varșovia",
      "de NATO",
      "de statele nealiniate"
+    ]
+   },
+   "fa": {
+    "question": "آلمان شرقی (DDR) در دوران \"جنگ سرد\" به کدام سو تعلق داشت؟",
+    "options": [
+     "به قدرت‌های غربی",
+     "به پیمان ورشو",
+     "به ناتو",
+     "به کشورهای غیرمتعهد"
     ]
    }
   },
@@ -21606,6 +23424,15 @@
      "cerere și ofertă",
      "capitalism"
     ]
+   },
+   "fa": {
+    "question": "نظام اقتصادی آلمان شرقی (DDR) چه نام داشت؟",
+    "options": [
+     "اقتصاد بازار",
+     "اقتصاد برنامه‌ریزی‌شده",
+     "عرضه و تقاضا",
+     "سرمایه‌داری"
+    ]
    }
   },
   "scores": {
@@ -21714,6 +23541,15 @@
      "Cele cinci landuri estice de astăzi au aderat la Republica Federală Germania.",
      "Landurile vestice au aderat la RDG.",
      "RDG a ocupat Republica Federală Germania."
+    ]
+   },
+   "fa": {
+    "question": "جمهوری فدرال آلمان و آلمان شرقی (DDR) چگونه به یک کشور واحد تبدیل شدند؟",
+    "options": [
+     "جمهوری فدرال آلمان شرقی را اشغال کرد.",
+     "پنج ایالت فدرال کنونی شرقی به جمهوری فدرال آلمان پیوستند.",
+     "ایالت‌های فدرال غربی به آلمان شرقی پیوستند.",
+     "آلمان شرقی جمهوری فدرال آلمان را اشغال کرد."
     ]
    }
   },
@@ -21824,6 +23660,15 @@
      "din OPEC.",
      "din Comunitatea Europeană de Apărare."
     ]
+   },
+   "fa": {
+    "question": "با الحاق آلمان شرقی به جمهوری فدرال آلمان، ایالت‌های فدرال جدید اکنون همچنین عضو … نیز هستند.",
+    "options": [
+     "اتحادیهٔ اروپا",
+     "پیمان ورشو",
+     "اوپک (OPEC)",
+     "جامعهٔ دفاعی اروپا"
+    ]
    }
   },
   "scores": {
@@ -21932,6 +23777,15 @@
      "de victimele nazismului",
      "de victimele accidentelor rutiere",
      "de muzicieni evrei cunoscuți"
+    ]
+   },
+   "fa": {
+    "question": "سنگ‌های موسوم به \"اشتولپرشتاینه\" (Stolpersteine) در آلمان یادآور چه چیزی هستند؟",
+    "options": [
+     "سیاستمداران مشهور آلمانی",
+     "قربانیان ناسیونال‌سوسیالیسم",
+     "کشته‌شدگان تصادفات رانندگی",
+     "موسیقی‌دانان شناخته‌شدهٔ یهودی"
     ]
    }
   },
@@ -22042,6 +23896,15 @@
      "Pactul de la Varșovia",
      "Alianța Europeană"
     ]
+   },
+   "fa": {
+    "question": "آلمان شرقی (DDR) عضو کدام پیمان نظامی بود؟",
+    "options": [
+     "ناتو",
+     "کنفدراسیون راین",
+     "پیمان ورشو",
+     "پیمان اروپا"
+    ]
    }
   },
   "scores": {
@@ -22151,6 +24014,15 @@
      "serviciul secret al RDG",
      "un club sportiv german în timpul celui de-Al Doilea Război Mondial"
     ]
+   },
+   "fa": {
+    "question": "\"اشتازی\" (Stasi) چه بود؟",
+    "options": [
+     "سازمان اطلاعاتی \"رایش سوم\"",
+     "یک بنای یادبود مشهور آلمانی",
+     "سازمان اطلاعاتی آلمان شرقی (DDR)",
+     "یک باشگاه ورزشی آلمانی در دوران جنگ جهانی دوم"
+    ]
    }
   },
   "scores": {
@@ -22195,6 +24067,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام یک نشان ملی جمهوری دموکراتیک آلمان (DDR) بود؟ تصویر ۱، تصویر ۲، تصویر ۳، تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -22305,6 +24186,15 @@
      "primul congres al partidului SED",
      "prima vizită a lui Fidel Castro"
     ]
+   },
+   "fa": {
+    "question": "در ۱۷ ژوئن ۱۹۵۳ در آلمان شرقی (DDR) چه اتفاقی افتاد؟",
+    "options": [
+     "الحاق رسمی به پیمان ورشو",
+     "اعتصابات سراسری و یک قیام مردمی",
+     "نخستین کنگرهٔ حزب اتحاد سوسیالیستی (SED)",
+     "نخستین دیدار با فیدل کاسترو"
+    ]
    }
   },
   "scores": {
@@ -22413,6 +24303,15 @@
      "Willy Brandt",
      "Mihail Gorbaciov",
      "Ludwig Erhard"
+    ]
+   },
+   "fa": {
+    "question": "کدام سیاستمدار نماد \"پیمان‌های شرقی\" (Ostverträge) است؟",
+    "options": [
+     "هلموت کهل",
+     "ویلی برانت",
+     "میخائیل گورباچف",
+     "لودویگ ارهارد"
     ]
    }
   },
@@ -22523,6 +24422,15 @@
      "Republica Federală Germania",
      "Districtul Federal Germania"
     ]
+   },
+   "fa": {
+    "question": "نام کامل آلمان چیست؟",
+    "options": [
+     "کشور فدرال آلمان",
+     "ایالت‌های فدرال آلمان",
+     "جمهوری فدرال آلمان",
+     "ناحیهٔ فدرال آلمان"
+    ]
    }
   },
   "scores": {
@@ -22631,6 +24539,15 @@
      "78 de milioane",
      "84 de milioane",
      "90 de milioane"
+    ]
+   },
+   "fa": {
+    "question": "جمعیت آلمان چقدر است؟",
+    "options": [
+     "۷۰ میلیون نفر",
+     "۷۸ میلیون نفر",
+     "۸۴ میلیون نفر",
+     "۹۰ میلیون نفر"
     ]
    }
   },
@@ -22741,6 +24658,15 @@
      "negru-roșu-verde",
      "negru-galben-roșu"
     ]
+   },
+   "fa": {
+    "question": "پرچم آلمان چه رنگ‌هایی دارد؟",
+    "options": [
+     "مشکی-قرمز-طلایی",
+     "قرمز-سفید-مشکی",
+     "مشکی-قرمز-سبز",
+     "مشکی-زرد-قرمز"
+    ]
    }
   },
   "scores": {
@@ -22849,6 +24775,15 @@
      "Helmut Kohl",
      "Konrad Adenauer",
      "Helmut Schmidt"
+    ]
+   },
+   "fa": {
+    "question": "به چه کسی \"صدراعظم وحدت آلمان\" می‌گویند؟",
+    "options": [
+     "گرهارد شرودر",
+     "هلموت کهل",
+     "کنراد آدناوئر",
+     "هلموت اشمیت"
     ]
    }
   },
@@ -22959,6 +24894,15 @@
      "acvila Reichului",
      "coroana imperială"
     ]
+   },
+   "fa": {
+    "question": "در تالار جلسات علنی بوندستاگ آلمان چه نمادی دیده می‌شود؟",
+    "options": [
+     "عقاب فدرال",
+     "پرچم شهر برلین",
+     "عقاب رایش",
+     "تاج رایش"
+    ]
    }
   },
   "scores": {
@@ -23067,6 +25011,15 @@
      "1933 până în 1945",
      "1945 până în 1961",
      "1949 până în 1990"
+    ]
+   },
+   "fa": {
+    "question": "جمهوری دموکراتیک آلمان (DDR) در چه بازه‌ای وجود داشت؟",
+    "options": [
+     "از ۱۹۱۹ تا ۱۹۲۷",
+     "از ۱۹۳۳ تا ۱۹۴۵",
+     "از ۱۹۴۵ تا ۱۹۶۱",
+     "از ۱۹۴۹ تا ۱۹۹۰"
     ]
    }
   },
@@ -23177,6 +25130,15 @@
      "6",
      "7"
     ]
+   },
+   "fa": {
+    "question": "هنگام اتحاد مجدد در سال ۱۹۹۰، چند ایالت فدرال به جمهوری فدرال آلمان پیوستند؟",
+    "options": [
+     "۴",
+     "۵",
+     "۶",
+     "۷"
+    ]
    }
   },
   "scores": {
@@ -23285,6 +25247,15 @@
      "1949",
      "1971",
      "1990"
+    ]
+   },
+   "fa": {
+    "question": "جمهوری فدرال آلمان مرزهای کنونی خود را از سال … دارد.",
+    "options": [
+     "۱۹۳۳",
+     "۱۹۴۹",
+     "۱۹۷۱",
+     "۱۹۹۰"
     ]
    }
   },
@@ -23395,6 +25366,15 @@
      "de reunificarea Germaniei",
      "de victimele nazismului (ziua eliberării lagărului de exterminare Auschwitz)"
     ]
+   },
+   "fa": {
+    "question": "۲۷ ژانویه در آلمان یک روز یادبود رسمی است. این روز یادآور چیست؟",
+    "options": [
+     "پایان جنگ جهانی دوم",
+     "تصویب قانون اساسی (Grundgesetz)",
+     "اتحاد مجدد آلمان",
+     "قربانیان ناسیونال‌سوسیالیسم (روز آزادسازی اردوگاه نابودسازی آشویتس)"
+    ]
    }
   },
   "scores": {
@@ -23503,6 +25483,15 @@
      "Toți oamenii pot intra în Germania fără control al persoanelor.",
      "Germanii pot călători fără control de pașapoarte în orice țară.",
      "Germanii pot plăti cu euro în orice țară."
+    ]
+   },
+   "fa": {
+    "question": "آلمان عضو پیمان شنگن است. این به چه معناست؟",
+    "options": [
+     "آلمانی‌ها می‌توانند بدون کنترل گذرنامه به بسیاری از کشورهای اروپا سفر کنند.",
+     "همهٔ افراد می‌توانند بدون کنترل هویت وارد آلمان شوند.",
+     "آلمانی‌ها می‌توانند بدون کنترل گذرنامه به هر کشوری سفر کنند.",
+     "آلمانی‌ها می‌توانند در هر کشوری با یورو پرداخت کنند."
     ]
    }
   },
@@ -23613,6 +25602,15 @@
      "Spania",
      "Elveția"
     ]
+   },
+   "fa": {
+    "question": "کدام کشور همسایهٔ آلمان است؟",
+    "options": [
+     "مجارستان",
+     "پرتغال",
+     "اسپانیا",
+     "سوئیس"
+    ]
    }
   },
   "scores": {
@@ -23721,6 +25719,15 @@
      "Bulgaria",
      "Polonia",
      "Grecia"
+    ]
+   },
+   "fa": {
+    "question": "کدام کشور همسایهٔ آلمان است؟",
+    "options": [
+     "رومانی",
+     "بلغارستان",
+     "لهستان",
+     "یونان"
     ]
    }
   },
@@ -23831,6 +25838,15 @@
      "Uniunea Unitară",
      "Uniunea Euro"
     ]
+   },
+   "fa": {
+    "question": "مخفف EU به چه معناست؟",
+    "options": [
+     "شرکت‌های اروپایی",
+     "اتحادیهٔ اروپا",
+     "اتحادیهٔ یکپارچه",
+     "اتحادیهٔ یورو"
+    ]
    }
   },
   "scores": {
@@ -23940,6 +25956,15 @@
      "Spania",
      "Austria"
     ]
+   },
+   "fa": {
+    "question": "در کدام کشور دیگر جمعیت زیادی آلمانی‌زبان وجود دارد؟",
+    "options": [
+     "چک",
+     "نروژ",
+     "اسپانیا",
+     "اتریش"
+    ]
    }
   },
   "scores": {
@@ -24047,6 +26072,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "پرچم اتحادیه اروپا کدام است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -24157,6 +26191,15 @@
      "Norvegia",
      "Suedia"
     ]
+   },
+   "fa": {
+    "question": "کدام کشور همسایه آلمان است؟",
+    "options": [
+     "فنلاند",
+     "دانمارک",
+     "نروژ",
+     "سوئد"
+    ]
    }
   },
   "scores": {
@@ -24265,6 +26308,15 @@
      "Extinderea UE spre est",
      "Reunificarea germană",
      "Comunitatea Europeană"
+    ]
+   },
+   "fa": {
+    "question": "الحاق جمهوری دموکراتیک آلمان (DDR) به جمهوری فدرال آلمان در سال ۱۹۹۰ عموماً چه نامیده می‌شود؟",
+    "options": [
+     "گسترش ناتو به شرق",
+     "گسترش اتحادیه اروپا به شرق",
+     "اتحاد دوباره آلمان",
+     "جامعه اروپا"
     ]
    }
   },
@@ -24375,6 +26427,15 @@
      "Norvegia",
      "Luxemburg"
     ]
+   },
+   "fa": {
+    "question": "کدام کشور همسایه آلمان است؟",
+    "options": [
+     "اسپانیا",
+     "بلغارستان",
+     "نروژ",
+     "لوکزامبورگ"
+    ]
    }
   },
   "scores": {
@@ -24483,6 +26544,15 @@
      "6 ani.",
      "7 ani.",
      "8 ani."
+    ]
+   },
+   "fa": {
+    "question": "پارلمان اروپا هر … یک‌بار به‌طور منظم انتخاب می‌شود.",
+    "options": [
+     "۵ سال",
+     "۶ سال",
+     "۷ سال",
+     "۸ سال"
     ]
    }
   },
@@ -24593,6 +26663,15 @@
      "Se referă la emigranții europeni în SUA.",
      "Termenul se referă la unirea statelor europene în UE."
     ]
+   },
+   "fa": {
+    "question": "مفهوم «یکپارچگی اروپایی» به چه معناست؟",
+    "options": [
+     "منظور از آن مهاجران آمریکایی در اروپاست.",
+     "این اصطلاح به معنای توقف مهاجرت به اروپاست.",
+     "منظور از آن مهاجران اروپایی در آمریکاست.",
+     "این اصطلاح به معنای اتحاد کشورهای اروپایی در قالب اتحادیه اروپاست."
+    ]
    }
   },
   "scores": {
@@ -24701,6 +26780,15 @@
      "țările cărora li se permite să adere la UE",
      "deputații Parlamentului European",
      "constituția europeană"
+    ]
+   },
+   "fa": {
+    "question": "در انتخابات اروپا چه کسانی انتخاب می‌شوند؟",
+    "options": [
+     "کمیسیون اروپا",
+     "کشورهایی که اجازه عضویت در اتحادیه اروپا را دارند",
+     "نمایندگان پارلمان اروپا",
+     "قانون اساسی اروپا"
     ]
    }
   },
@@ -24811,6 +26899,15 @@
      "Grecia",
      "Portugalia"
     ]
+   },
+   "fa": {
+    "question": "کدام کشور همسایه آلمان است؟",
+    "options": [
+     "جمهوری چک",
+     "بلغارستان",
+     "یونان",
+     "پرتغال"
+    ]
    }
   },
   "scores": {
@@ -24919,6 +27016,15 @@
      "Paris",
      "Berlin",
      "Strasbourg"
+    ]
+   },
+   "fa": {
+    "question": "یکی از مقرهای پارلمان اروپا کجاست؟",
+    "options": [
+     "لندن",
+     "پاریس",
+     "برلین",
+     "استراسبورگ"
     ]
    }
   },
@@ -25029,6 +27135,15 @@
      "pace și securitate în țările UE",
      "sărbători legale unificate în țările UE"
     ]
+   },
+   "fa": {
+    "question": "رئیس‌جمهور وقت فرانسه فرانسوا میتران و صدراعظم وقت آلمان هلموت کهل در وردن مشترکاً یاد کشته‌شدگان هر دو جنگ جهانی را گرامی می‌دارند. کدام هدف اتحادیه اروپا در این دیدار آشکار می‌شود؟",
+    "options": [
+     "دوستی میان انگلستان و آلمان",
+     "آزادی سفر به همه کشورهای اتحادیه اروپا",
+     "صلح و امنیت در کشورهای اتحادیه اروپا",
+     "تعطیلات یکسان در کشورهای اتحادیه اروپا"
+    ]
    }
   },
   "scores": {
@@ -25137,6 +27252,15 @@
      "23",
      "25",
      "27"
+    ]
+   },
+   "fa": {
+    "question": "اتحادیه اروپا امروزه چند کشور عضو دارد؟",
+    "options": [
+     "۲۱",
+     "۲۳",
+     "۲۵",
+     "۲۷"
     ]
    }
   },
@@ -25247,6 +27371,15 @@
      "obligația Germaniei de a plăti reparații de război",
      "stabilirea liniei Oder-Neisse ca graniță de est"
     ]
+   },
+   "fa": {
+    "question": "در سال ۲۰۰۷ پنجاهمین سالگرد «پیمان‌های رم» جشن گرفته شد. محتوای این پیمان‌ها چه بود؟",
+    "options": [
+     "پیوستن آلمان به ناتو",
+     "تأسیس جامعه اقتصادی اروپا (EWG)",
+     "تعهد آلمان به پرداخت غرامت جنگی",
+     "تعیین خط اودر-نایسه به‌عنوان مرز شرقی"
+    ]
    }
   },
   "scores": {
@@ -25355,6 +27488,15 @@
      "Strasbourg, Luxemburg și Bruxelles",
      "Roma, Berna și Viena",
      "Bonn, Zürich și Milano"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان اروپا در چه مکان‌هایی کار می‌کند؟",
+    "options": [
+     "پاریس، لندن و لاهه",
+     "استراسبورگ، لوکزامبورگ و بروکسل",
+     "رم، برن و وین",
+     "بن، زوریخ و میلان"
     ]
    }
   },
@@ -25465,6 +27607,15 @@
      "prin „Tratatele de la Paris”",
      "prin „Tratatele de la Londra”"
     ]
+   },
+   "fa": {
+    "question": "جمهوری فدرال آلمان از طریق کدام پیمان‌ها با دیگر کشورها به جامعه اقتصادی اروپا پیوست؟",
+    "options": [
+     "از طریق «پیمان‌های هامبورگ»",
+     "از طریق «پیمان‌های رم»",
+     "از طریق «پیمان‌های پاریس»",
+     "از طریق «پیمان‌های لندن»"
+    ]
    }
   },
   "scores": {
@@ -25573,6 +27724,15 @@
      "1998",
      "2002",
      "2005"
+    ]
+   },
+   "fa": {
+    "question": "از چه زمانی در آلمان با یورو نقدی پرداخت می‌شود؟",
+    "options": [
+     "۱۹۹۵",
+     "۱۹۹۸",
+     "۲۰۰۲",
+     "۲۰۰۵"
     ]
    }
   },
@@ -25683,6 +27843,15 @@
      "Nu trebuie să facă nimic, deoarece primește automat alocația parentală.",
      "Trebuie să ceară permisiunea oficiului forței de muncă."
     ]
+   },
+   "fa": {
+    "question": "خانم زگر صاحب فرزند می‌شود. برای دریافت کمک‌هزینه والدین (Elterngeld) باید چه کاری انجام دهد؟",
+    "options": [
+     "باید به بیمه درمانی خود نامه بنویسد.",
+     "باید درخواستی نزد اداره کمک‌هزینه والدین ثبت کند.",
+     "نیازی به هیچ اقدامی نیست، زیرا کمک‌هزینه والدین را به‌طور خودکار دریافت می‌کند.",
+     "باید از اداره کاریابی اجازه بگیرد."
+    ]
    }
   },
   "scores": {
@@ -25791,6 +27960,15 @@
      "landurile",
      "părinții/tutorii legali",
      "școlile"
+    ]
+   },
+   "fa": {
+    "question": "چه کسی تصمیم می‌گیرد که آیا کودک در آلمان به مهدکودک برود یا نه؟",
+    "options": [
+     "دولت",
+     "ایالت‌ها",
+     "والدین/سرپرستان قانونی",
+     "مدارس"
     ]
    }
   },
@@ -25901,6 +28079,15 @@
      "Nu pot face nimic, deoarece demonstrațiile sunt în principiu interzise în Germania.",
      "Maik și Sybille trebuie să înființeze o asociație nouă, deoarece numai asociațiile au voie să demonstreze."
     ]
+   },
+   "fa": {
+    "question": "مایک و زیبیله می‌خواهند همراه دوستانشان در محل سکونتشان در آلمان تظاهراتی خیابانی برگزار کنند. آن‌ها پیش از آن باید چه کاری انجام دهند؟",
+    "options": [
+     "باید تظاهرات را ثبت کنند.",
+     "نیازی به هیچ اقدامی نیست. در آلمان هر زمان و هر جا می‌توان تظاهرات کرد.",
+     "آن‌ها هیچ کاری نمی‌توانند بکنند، زیرا تظاهرات در آلمان اساساً ممنوع است.",
+     "مایک و زیبیله باید یک انجمن جدید تأسیس کنند، زیرا فقط انجمن‌ها اجازه برگزاری تظاهرات دارند."
+    ]
    }
   },
   "scores": {
@@ -26009,6 +28196,15 @@
      "o diplomă (Diplom)",
      "procura",
      "un examen de calificare profesională (Gesellenprüfung)"
+    ]
+   },
+   "fa": {
+    "question": "برای شروع تحصیل در دانشگاهی در آلمان معمولاً به کدام مدرک تحصیلی نیاز است؟",
+    "options": [
+     "آبیتور (دیپلم دبیرستان)",
+     "دیپلوم",
+     "وکالت‌نامه تجاری (Prokura)",
+     "گواهی پایان آموزش حرفه‌ای (Gesellenprüfung)"
     ]
    }
   },
@@ -26119,6 +28315,15 @@
      "Sofie (35 de ani) și Lisa (40 de ani)",
      "Anne (13 ani) și Tim (25 de ani)"
     ]
+   },
+   "fa": {
+    "question": "چه کسانی اجازه ندارند در آلمان به‌عنوان زوج زندگی مشترک داشته باشند؟",
+    "options": [
+     "هانس (۲۰ ساله) و ماری (۱۹ ساله)",
+     "تام (۲۰ ساله) و کلاوس (۴۵ ساله)",
+     "زوفی (۳۵ ساله) و لیزا (۴۰ ساله)",
+     "آنه (۱۳ ساله) و تیم (۲۵ ساله)"
+    ]
    }
   },
   "scores": {
@@ -26227,6 +28432,15 @@
      "18",
      "19",
      "21"
+    ]
+   },
+   "fa": {
+    "question": "سن قانونی بلوغ در آلمان چند سالگی است؟",
+    "options": [
+     "۱۶",
+     "۱۸",
+     "۱۹",
+     "۲۱"
     ]
    }
   },
@@ -26337,6 +28551,15 @@
      "pregătirea pentru naștere",
      "lăuzie"
     ]
+   },
+   "fa": {
+    "question": "زنی باردار است. او پیش و پس از زایمان فرزندش به‌طور ویژه‌ای مورد حمایت قانون قرار دارد. این حمایت چه نام دارد؟",
+    "options": [
+     "مرخصی والدین (Elternzeit)",
+     "حمایت از مادران (Mutterschutz)",
+     "آماده‌سازی برای زایمان",
+     "دوران پس از زایمان (Wochenbett)"
+    ]
    }
   },
   "scores": {
@@ -26445,6 +28668,15 @@
      "părinților.",
      "bunicilor.",
      "școlilor."
+    ]
+   },
+   "fa": {
+    "question": "تربیت کودکان در آلمان بیش از هر چیز وظیفه … است.",
+    "options": [
+     "دولت",
+     "والدین",
+     "پدربزرگ و مادربزرگ",
+     "مدارس"
     ]
    }
   },
@@ -26555,6 +28787,15 @@
      "rudele",
      "școlile"
     ]
+   },
+   "fa": {
+    "question": "در آلمان چه کسی عمدتاً مسئول تربیت کودکان است؟",
+    "options": [
+     "دولت",
+     "والدین",
+     "بستگان",
+     "مدارس"
+    ]
    }
   },
   "scores": {
@@ -26663,6 +28904,15 @@
      "ești bine pregătit/calificat.",
      "ești femeie.",
      "ești membru al unui partid."
+    ]
+   },
+   "fa": {
+    "question": "در آلمان بهترین فرصت برای یافتن شغلی با درآمد خوب زمانی وجود دارد که فرد …",
+    "options": [
+     "کاتولیک باشد.",
+     "تحصیلات و آموزش خوبی داشته باشد.",
+     "زن باشد.",
+     "عضو یک حزب باشد."
     ]
    }
   },
@@ -26773,6 +29023,15 @@
      "nu poate fi pedepsit pentru asta.",
      "poate fi pedepsit pentru asta."
     ]
+   },
+   "fa": {
+    "question": "اگر کسی در آلمان کودکی را کتک بزند، …",
+    "options": [
+     "این موضوع به هیچ‌کس مربوط نیست.",
+     "این موضوع فقط به خانواده مربوط است.",
+     "نمی‌توان او را برای این کار مجازات کرد.",
+     "می‌توان او را برای این کار مجازات کرد."
+    ]
    }
   },
   "scores": {
@@ -26881,6 +29140,15 @@
      "poți avea mai multe soții/soți în același timp.",
      "nu ai voie să te recăsătorești dacă ai mai fost căsătorit.",
      "o femeie nu are voie să se recăsătorească dacă soțul ei a murit."
+    ]
+   },
+   "fa": {
+    "question": "در آلمان …",
+    "options": [
+     "فرد اجازه دارد هم‌زمان فقط با یک همسر ازدواج کرده باشد.",
+     "فرد می‌تواند هم‌زمان چند همسر داشته باشد.",
+     "اگر کسی یک‌بار ازدواج کرده باشد، دیگر اجازه ازدواج مجدد ندارد.",
+     "زنی که همسرش فوت کرده، اجازه ازدواج مجدد ندارد."
     ]
    }
   },
@@ -26991,6 +29259,15 @@
      "la biroul de ordine publică (Ordnungsamt)",
      "la biroul de autorizare a activităților comerciale (Gewerbeamt)"
     ]
+   },
+   "fa": {
+    "question": "هنگام نقل مکان در آلمان باید در کجا خود را ثبت‌نام کنید؟",
+    "options": [
+     "در اداره ثبت‌نام ساکنان (Einwohnermeldeamt)",
+     "در دفتر ثبت احوال (Standesamt)",
+     "در اداره نظم عمومی (Ordnungsamt)",
+     "در اداره امور صنفی (Gewerbeamt)"
+    ]
    }
   },
   "scores": {
@@ -27099,6 +29376,15 @@
      "Soții sunt căsătoriți un an, apoi divorțul este posibil.",
      "Dreptul de vizită pentru copii este valabil un an.",
      "Soții își duc viața separat cel puțin un an. După aceea divorțul este posibil."
+    ]
+   },
+   "fa": {
+    "question": "در آلمان زوج‌ها اجازه طلاق دارند. معمولاً باید «سال جدایی» را رعایت کنند. این به چه معناست؟",
+    "options": [
+     "روند طلاق یک سال طول می‌کشد.",
+     "زوجین یک سال ازدواج کرده‌اند و سپس طلاق ممکن می‌شود.",
+     "حق ملاقات با فرزندان یک سال اعتبار دارد.",
+     "زوجین حداقل یک سال جدا از هم و مستقل زندگی می‌کنند. پس از آن طلاق ممکن است."
     ]
    }
   },
@@ -27209,6 +29495,15 @@
      "oficiul pentru tineret (Jugendamt).",
      "oficiul de sănătate."
     ]
+   },
+   "fa": {
+    "question": "والدین در آلمان در صورت داشتن مشکلات تربیتی می‌توانند از … کمک بگیرند.",
+    "options": [
+     "اداره نظم عمومی",
+     "اداره آموزش",
+     "اداره امور کودکان و نوجوانان (Jugendamt)",
+     "اداره بهداشت"
+    ]
    }
   },
   "scores": {
@@ -27317,6 +29612,15 @@
      "o aprobare din partea unui partid",
      "o aprobare de la biroul de evidență a populației",
      "o autorizație de funcționare pentru unități de alimentație publică de la autoritatea competentă"
+    ]
+   },
+   "fa": {
+    "question": "زوجی می‌خواهند در آلمان رستورانی راه‌اندازی کنند. برای این کار حتماً به چه چیزی نیاز دارند؟",
+    "options": [
+     "مجوز از پلیس",
+     "تأیید یک حزب",
+     "مجوز اداره ثبت‌نام ساکنان",
+     "مجوز فعالیت رستوران‌داری از مرجع ذی‌صلاح"
     ]
    }
   },
@@ -27427,6 +29731,15 @@
      "o școală generală (Hauptschule).",
      "o universitate privată."
     ]
+   },
+   "fa": {
+    "question": "زنی بزرگسال می‌خواهد در آلمان مدرک آبیتور را به‌صورت جبرانی بگیرد. او می‌تواند این کار را در … انجام دهد.",
+    "options": [
+     "یک مؤسسه آموزش عالی",
+     "یک دبیرستان شبانه",
+     "یک هاوپت‌شوله (مدرسه راهنمایی)",
+     "یک دانشگاه خصوصی"
+    ]
    }
   },
   "scores": {
@@ -27535,6 +29848,15 @@
      "Poate scoate din familie un copil care este bătut sau lăsat să sufere de foame.",
      "Plătește alocația pentru copii părinților.",
      "Verifică dacă un copil merge la grădiniță."
+    ]
+   },
+   "fa": {
+    "question": "اداره امور کودکان و نوجوانان (Jugendamt) در آلمان چه اختیاری دارد؟",
+    "options": [
+     "تصمیم می‌گیرد کودک به کدام مدرسه برود.",
+     "می‌تواند کودکی را که مورد ضرب‌وشتم قرار می‌گیرد یا باید گرسنگی بکشد، از خانواده جدا کند.",
+     "کمک‌هزینه فرزند را به والدین پرداخت می‌کند.",
+     "کنترل می‌کند که آیا کودک به مهدکودک می‌رود یا نه."
     ]
    }
   },
@@ -27645,6 +29967,15 @@
      "declarația de impozit.",
      "asigurarea de sănătate."
     ]
+   },
+   "fa": {
+    "question": "مرکز اطلاعات شغلی (BIZ) وابسته به آژانس فدرال کار در آلمان در چه زمینه‌ای کمک می‌کند؟",
+    "options": [
+     "محاسبه حقوق بازنشستگی",
+     "جستجوی جای کارآموزی",
+     "اظهارنامه مالیاتی",
+     "بیمه درمانی"
+    ]
    }
   },
   "scores": {
@@ -27753,6 +30084,15 @@
      "libertate de alegere pentru toate materiile.",
      "dreptul la taxe școlare.",
      "obligația de a fi prezent (frecvență obligatorie)."
+    ]
+   },
+   "fa": {
+    "question": "کودک در مدرسه در آلمان …",
+    "options": [
+     "حق داشتن اوقات فراغت نامحدود دارد.",
+     "آزادی انتخاب برای همه درس‌ها دارد.",
+     "حق دریافت شهریه مدرسه دارد.",
+     "الزام به حضور دارد."
     ]
    }
   },
@@ -27863,6 +30203,15 @@
      "o școală generală (Hauptschule).",
      "o universitate privată."
     ]
+   },
+   "fa": {
+    "question": "مردی می‌خواهد در سن ۳۰ سالگی در آلمان مدرک آبیتور را به‌صورت جبرانی بگیرد. او می‌تواند این کار را کجا انجام دهد؟ در …",
+    "options": [
+     "یک مؤسسه آموزش عالی",
+     "یک دبیرستان شبانه",
+     "یک هاوپت‌شوله (مدرسه راهنمایی)",
+     "یک دانشگاه خصوصی"
+    ]
    }
   },
   "scores": {
@@ -27971,6 +30320,15 @@
      "Este permis să dezavantajezi alte persoane dacă există motive personale suficiente pentru asta.",
      "Nimeni nu poate da în judecată o persoană care a fost dezavantajată.",
      "Este obligatoriu prin lege ca toată lumea să doneze anual bani grupurilor dezavantajate."
+    ]
+   },
+   "fa": {
+    "question": "اصل برابری رفتار در آلمان به چه معناست؟",
+    "options": [
+     "هیچ‌کس نباید مثلاً به دلیل معلولیت مورد تبعیض قرار گیرد.",
+     "اگر دلایل شخصی کافی وجود داشته باشد، می‌توان دیگران را مورد تبعیض قرار داد.",
+     "هیچ‌کس نمی‌تواند در صورت تبعیض علیه دیگران شکایت کند.",
+     "طبق قانون همه باید هر سال به گروه‌های محروم پول اهدا کنند."
     ]
    }
   },
@@ -28081,6 +30439,15 @@
      "împart pedeapsa cu părinții lor.",
      "nu sunt pedepsiți."
     ]
+   },
+   "fa": {
+    "question": "در آلمان نوجوانان از سن ۱۴ سالگی مسئولیت کیفری دارند. این یعنی نوجوانانی که ۱۴ ساله یا بزرگ‌تر هستند و قوانین کیفری را نقض می‌کنند، …",
+    "options": [
+     "مجازات می‌شوند.",
+     "مانند بزرگسالان با آن‌ها رفتار می‌شود.",
+     "مجازات را با والدین خود تقسیم می‌کنند.",
+     "مجازات نمی‌شوند."
+    ]
    }
   },
   "scores": {
@@ -28189,6 +30556,15 @@
      "de 1 Mai",
      "la Oktoberfest",
      "de Rusalii"
+    ]
+   },
+   "fa": {
+    "question": "مردم آلمان در چه جشنی لباس‌ها و ماسک‌های رنگارنگ به تن می‌کنند؟",
+    "options": [
+     "در روزنمونتاگ (دوشنبه گل رز)",
+     "در جشن اول ماه مه",
+     "در جشن اکتبر (اکتبرفست)",
+     "در عید پنجاهه (پفینگستن)"
     ]
    }
   },
@@ -28299,6 +30675,15 @@
      "la agenția pentru ocuparea forței de muncă",
      "la ofițerul stării civile"
     ]
+   },
+   "fa": {
+    "question": "کسی که می‌خواهد در آلمان ازدواج کند، ابتدا باید کجا برود؟",
+    "options": [
+     "به اداره ثبت‌نام ساکنان",
+     "به اداره نظم عمومی",
+     "به آژانس کار",
+     "به دفتر ثبت احوال"
+    ]
    }
   },
   "scores": {
@@ -28407,6 +30792,15 @@
      "când vecinii se culcă",
      "la ora 0, miezul nopții",
      "la ora 22"
+    ]
+   },
+   "fa": {
+    "question": "آرامش شبانه قانونی در آلمان از چه ساعتی آغاز می‌شود؟",
+    "options": [
+     "زمانی که خورشید غروب می‌کند",
+     "زمانی که همسایه‌ها به خواب می‌روند",
+     "ساعت ۰، نیمه‌شب",
+     "ساعت ۲۲"
     ]
    }
   },
@@ -28517,6 +30911,15 @@
      "Pot merge la poliție și pot depune plângere împotriva fiicei.",
      "Caută un alt bărbat pentru fiica lor."
     ]
+   },
+   "fa": {
+    "question": "زنی جوان، ۲۲ ساله، در آلمان با دوست‌پسرش زندگی مشترک دارد. والدین این زن از این موضوع راضی نیستند زیرا دوست‌پسرش را نمی‌پسندند. والدین چه کاری می‌توانند انجام دهند؟",
+    "options": [
+     "باید تصمیم دخترشان که بزرگسال است را محترم بشمارند.",
+     "حق دارند دختر را به خانه والدین بازگردانند.",
+     "می‌توانند به پلیس مراجعه کرده و از دختر شکایت کنند.",
+     "به دنبال مرد دیگری برای دخترشان می‌گردند."
+    ]
    }
   },
   "scores": {
@@ -28625,6 +31028,15 @@
      "Dacă nu vorbește germana, nu are voie să obțină permisul de conducere.",
      "Trebuie să obțină permisul de conducere în țara în care se vorbește limba ei maternă.",
      "Poate susține examenul teoretic eventual în limba ei maternă. Există mai mult de zece limbi disponibile."
+    ]
+   },
+   "fa": {
+    "question": "زنی جوان می‌خواهد گواهینامه رانندگی بگیرد. او از آزمون می‌ترسد زیرا زبان مادری‌اش آلمانی نیست. کدام گزینه درست است؟",
+    "options": [
+     "او باید حداقل ده سال در آلمان زندگی کند تا بتواند گواهینامه بگیرد.",
+     "اگر آلمانی بلد نباشد، اجازه گرفتن گواهینامه را ندارد.",
+     "او باید گواهینامه را در کشوری بگیرد که به زبان او صحبت می‌کنند.",
+     "او شاید بتواند آزمون تئوری را به زبان مادری خود بدهد. بیش از ده زبان برای انتخاب وجود دارد."
     ]
    }
   },
@@ -28735,6 +31147,15 @@
      "un loc la grădiniță.",
      "un permis de vacanță."
     ]
+   },
+   "fa": {
+    "question": "در آلمان کودکان از سن سه سالگی تا زمان ورود به دبستان حق دارند …",
+    "options": [
+     "پول توجیبی ماهانه دریافت کنند.",
+     "جایی در یک باشگاه ورزشی داشته باشند.",
+     "جایی در مهدکودک داشته باشند.",
+     "کارت تعطیلات دریافت کنند."
+    ]
    }
   },
   "scores": {
@@ -28843,6 +31264,15 @@
      "doar pentru tineri.",
      "de formare continuă.",
      "doar pentru pensionari."
+    ]
+   },
+   "fa": {
+    "question": "فولکس‌هوخ‌شوله (مدرسه عالی مردمی) در آلمان مؤسسه‌ای … است.",
+    "options": [
+     "برای آموزش دینی",
+     "فقط برای نوجوانان",
+     "برای آموزش تکمیلی و مداوم",
+     "فقط برای بازنشستگان"
     ]
    }
   },
@@ -28953,6 +31383,15 @@
      "deghizarea în măști și costume",
      "așezarea dovlecilor în fața ușii"
     ]
+   },
+   "fa": {
+    "question": "یکی از آداب و رسوم کریسمس در آلمان چیست؟",
+    "options": [
+     "پنهان کردن تخم‌مرغ‌های رنگی",
+     "تزیین درخت کاج",
+     "پوشیدن ماسک و لباس مبدل",
+     "گذاشتن کدو تنبل جلوی در"
+    ]
    }
   },
   "scores": {
@@ -29061,6 +31500,15 @@
      "Două femei locuiesc împreună.",
      "Un tată singur locuiește împreună cu cei doi copii ai săi.",
      "Un bărbat este căsătorit cu două femei în același timp."
+    ]
+   },
+   "fa": {
+    "question": "کدام شیوه زندگی مشترک در آلمان مجاز نیست؟",
+    "options": [
+     "زن و مردی که از هم طلاق گرفته‌اند و با همسران جدید زندگی می‌کنند.",
+     "دو زن با هم زندگی می‌کنند.",
+     "پدری مجرد با دو فرزندش زندگی می‌کند.",
+     "مردی هم‌زمان با دو زن ازدواج کرده است."
     ]
    }
   },
@@ -29171,6 +31619,15 @@
      "la biroul de evidență a populației.",
      "la oficiul pentru tineret."
     ]
+   },
+   "fa": {
+    "question": "در آلمان در صورت داشتن مشکلات تربیتی به کجا مراجعه می‌کنید؟",
+    "options": [
+     "به پزشک",
+     "به اداره بهداشت",
+     "به اداره ثبت‌نام ساکنان",
+     "به اداره امور کودکان و نوجوانان"
+    ]
    }
   },
   "scores": {
@@ -29279,6 +31736,15 @@
      "secretul corespondenței",
      "obligația de confidențialitate",
      "libertatea de exprimare"
+    ]
+   },
+   "fa": {
+    "question": "شما در آلمان عمداً نامه‌ای را که به فرد دیگری آدرس‌دهی شده باز کرده‌اید. کدام حق را رعایت نکرده‌اید؟",
+    "options": [
+     "حق سکوت",
+     "حریم خصوصی نامه‌ها",
+     "الزام به رازداری",
+     "آزادی بیان"
     ]
    }
   },
@@ -29389,6 +31855,15 @@
      "consimțământul copiilor",
      "sprijinul unui avocat"
     ]
+   },
+   "fa": {
+    "question": "برای طلاق در آلمان به چه چیزی نیاز دارید؟",
+    "options": [
+     "رضایت والدین",
+     "گواهی از پزشک",
+     "رضایت فرزندان",
+     "کمک یک وکیل"
+    ]
    }
   },
   "scores": {
@@ -29497,6 +31972,15 @@
      "Trebuie să accept acest tratament.",
      "Amenințez persoana respectivă.",
      "Mă pot plânge conducerii instituției."
+    ]
+   },
+   "fa": {
+    "question": "اگر در یک اداره آلمانی توسط مسئول رسیدگی به کارتان بد رفتار شدید، چه باید بکنید؟",
+    "options": [
+     "نمی‌توانم کاری انجام دهم.",
+     "باید این رفتار را بپذیرم.",
+     "آن فرد را تهدید می‌کنم.",
+     "می‌توانم به رئیس آن اداره شکایت کنم."
     ]
    }
   },
@@ -29607,6 +32091,15 @@
      "nu are experiență în această profesie.",
      "este mamă."
     ]
+   },
+   "fa": {
+    "question": "زنی که فرزندی دو ساله دارد، در آلمان برای شغلی درخواست می‌دهد. کدام مورد نمونه‌ای از تبعیض است؟ او شغل را فقط به این دلیل به دست نمی‌آورد که …",
+    "options": [
+     "انگلیسی صحبت نمی‌کند.",
+     "توقع حقوق بالایی دارد.",
+     "تجربه‌ای در این شغل ندارد.",
+     "مادر است."
+    ]
    }
   },
   "scores": {
@@ -29715,6 +32208,15 @@
      "nu are experiență.",
      "are pretenții salariale prea mari.",
      "nu vorbește engleza."
+    ]
+   },
+   "fa": {
+    "question": "مردی ویلچرنشین برای شغل حسابداری درخواست داده است. کدام مورد نمونه‌ای از تبعیض است؟ او شغل را فقط به این دلیل به دست نمی‌آورد که …",
+    "options": [
+     "ویلچرنشین است.",
+     "تجربه ندارد.",
+     "توقع حقوق بالایی دارد.",
+     "انگلیسی صحبت نمی‌کند."
     ]
    }
   },
@@ -29825,6 +32327,15 @@
      "reguli pe care trebuie să le respecte toți locatarii.",
      "adresa celui mai apropiat birou de ordine publică."
     ]
+   },
+   "fa": {
+    "question": "در بیشتر ساختمان‌های اجاره‌ای در آلمان «آیین‌نامه ساختمان» (Hausordnung) وجود دارد. در چنین آیین‌نامه‌ای چه نوشته شده است؟ آن …",
+    "options": [
+     "قوانین استفاده از وسایل نقلیه عمومی را ذکر می‌کند.",
+     "همه مستأجران ساختمان را نام می‌برد.",
+     "قوانینی را که همه ساکنان باید رعایت کنند، بیان می‌کند.",
+     "آدرس نزدیک‌ترین اداره نظم عمومی را ذکر می‌کند."
+    ]
    }
   },
   "scores": {
@@ -29933,6 +32444,15 @@
      "aruncați decizia.",
      "depuneți contestație (Einspruch).",
      "așteptați până vine o altă decizie."
+    ]
+   },
+   "fa": {
+    "question": "اگر بخواهید در آلمان در برابر یک برگه مالیاتی نادرست اعتراض کنید، باید …",
+    "options": [
+     "کاری نکنید.",
+     "برگه را دور بیندازید.",
+     "اعتراض (Einspruch) ثبت کنید.",
+     "منتظر برگه دیگری بمانید."
     ]
    }
   },
@@ -30043,6 +32563,15 @@
      "libertatea de întrunire",
      "libertatea de circulație"
     ]
+   },
+   "fa": {
+    "question": "دو دوست می‌خواهند وارد یک استخر عمومی در آلمان شوند. هر دو پوست تیره دارند و به همین دلیل اجازه ورود نمی‌یابند. کدام حق در این وضعیت نقض می‌شود؟ حق …",
+    "options": [
+     "آزادی بیان",
+     "برابری رفتار",
+     "آزادی تجمع",
+     "آزادی رفت‌وآمد"
+    ]
    }
   },
   "scores": {
@@ -30151,6 +32680,15 @@
      "asistent/asistentă la vot (Wahlhelfer/in)",
      "supraveghetor de bibliotecă",
      "profesor/profesoară"
+    ]
+   },
+   "fa": {
+    "question": "شهروندان آلمانی در صورت درخواست، موظف به پذیرش کدام سمت افتخاری هستند؟",
+    "options": [
+     "مربی باشگاه",
+     "کمک‌کننده در انتخابات (Wahlhelfer)",
+     "نظارت بر کتابخانه",
+     "معلم"
     ]
    }
   },
@@ -30261,6 +32799,15 @@
      "Trimit factura înapoi la instituție.",
      "Merg cu factura la administrația financiară (Finanzamt)."
     ]
+   },
+   "fa": {
+    "question": "اگر صورت‌حساب نادرستی از یک اداره آلمانی دریافت کنید، چه می‌کنید؟",
+    "options": [
+     "صورت‌حساب را کنار می‌گذارم.",
+     "نزد اداره اعتراض ثبت می‌کنم.",
+     "صورت‌حساب را به اداره پس می‌فرستم.",
+     "با صورت‌حساب به اداره دارایی مراجعه می‌کنم."
+    ]
    }
   },
   "scores": {
@@ -30369,6 +32916,15 @@
      "Adulții trebuie să continue să învețe și după terminarea formării profesionale.",
      "Copiii învață la școală tot ce este important pentru profesie. După școală nu mai trebuie să înveți.",
      "Toată lumea trebuie să înceteze să mai lucreze mai devreme, deoarece totul se schimbă."
+    ]
+   },
+   "fa": {
+    "question": "آنچه برای کار باید بلد بود، در آینده بسیار سریع تغییر می‌کند. چه می‌توان کرد؟",
+    "options": [
+     "مهم نیست چه چیزی یاد می‌گیرید.",
+     "بزرگسالان باید حتی پس از پایان آموزش حرفه‌ای همچنان به یادگیری ادامه دهند.",
+     "کودکان در مدرسه همه چیزهای مهم برای شغل را یاد می‌گیرند. پس از مدرسه نیازی به یادگیری بیشتر نیست.",
+     "همه باید زودتر از کار دست بکشند، زیرا همه‌چیز در حال تغییر است."
     ]
    }
   },
@@ -30479,6 +33035,15 @@
      "contribuțiile la asigurarea de pensie și de sănătate",
      "taxa pe valoarea adăugată"
     ]
+   },
+   "fa": {
+    "question": "خانم فراست به‌عنوان کارمند ثابت در یک دفتر کار می‌کند. کدام مورد را نباید از حقوق خود بپردازد؟",
+    "options": [
+     "مالیات بر حقوق",
+     "حق بیمه بیکاری",
+     "حق بیمه بازنشستگی و درمانی",
+     "مالیات بر ارزش افزوده"
+    ]
    }
   },
   "scores": {
@@ -30587,6 +33152,15 @@
      "auditorul intern",
      "grupul de întreprindere",
      "conducerea întreprinderii"
+    ]
+   },
+   "fa": {
+    "question": "کدام سازمان در یک شرکت به کارکنان در مشکلات با کارفرما کمک می‌کند؟",
+    "options": [
+     "شورای کارکنان (Betriebsrat)",
+     "بازرس شرکت",
+     "گروه شرکت",
+     "مدیریت شرکت"
     ]
    }
   },
@@ -30697,6 +33271,15 @@
      "termenul de preaviz (Kündigungsfrist)",
      "obligația de asigurare"
     ]
+   },
+   "fa": {
+    "question": "می‌خواهید رابطه کاری خود را با یک شرکت در آلمان پایان دهید. به چه چیزی باید توجه کنید؟",
+    "options": [
+     "پرداخت‌های حقوق",
+     "ساعات کاری",
+     "مهلت اخطار فسخ قرارداد (Kündigungsfrist)",
+     "الزام بیمه"
+    ]
    }
   },
   "scores": {
@@ -30805,6 +33388,15 @@
      "din crimele naționalsocialiste împotriva evreilor",
      "din Legea Fundamentală a Republicii Federale Germania",
      "din tradiția creștină"
+    ]
+   },
+   "fa": {
+    "question": "مسئولیت ویژه آلمان در قبال اسرائیل از کجا نشأت می‌گیرد؟",
+    "options": [
+     "از عضویت در اتحادیه اروپا (EU)",
+     "از جنایات ناسیونال‌سوسیالیستی علیه یهودیان",
+     "از قانون اساسی جمهوری فدرال آلمان",
+     "از سنت مسیحی"
     ]
    }
   },
@@ -30915,6 +33507,15 @@
      "are pielea închisă la culoare.",
      "nu are experiență în această profesie."
     ]
+   },
+   "fa": {
+    "question": "مردی با پوست تیره برای شغل گارسونی در رستورانی در آلمان درخواست می‌دهد. کدام مورد نمونه‌ای از تبعیض است؟ او شغل را فقط به این دلیل به دست نمی‌آورد که …",
+    "options": [
+     "دانش زبان آلمانی‌اش کم است.",
+     "توقع حقوق بالایی دارد.",
+     "پوست تیره دارد.",
+     "تجربه‌ای در این شغل ندارد."
+    ]
    }
   },
   "scores": {
@@ -31023,6 +33624,15 @@
      "să reclamați televizorul",
      "să înlocuiți aparatul fără să întrebați",
      "să prelungiți garanția"
+    ]
+   },
+   "fa": {
+    "question": "شما در آلمان یک تلویزیون خریده‌اید. در خانه بسته را باز می‌کنید، اما تلویزیون کار نمی‌کند. تلویزیون خراب است. چه می‌توانید بکنید؟",
+    "options": [
+     "شکایتی بنویسید",
+     "تلویزیون را پس بدهید (اعتراض کنید)",
+     "بدون اطلاع دستگاه را تعویض کنید",
+     "گارانتی را تمدید کنید"
     ]
    }
   },
@@ -31133,6 +33743,15 @@
      "trebuie să plătiți mai multe impozite dacă nu aparțineți unei biserici.",
      "biserica este responsabilă pentru declarația de impozit."
     ]
+   },
+   "fa": {
+    "question": "چرا باید در آلمان هنگام تنظیم اظهارنامه مالیاتی بنویسید که آیا به کلیسایی تعلق دارید یا نه؟ زیرا …",
+    "options": [
+     "مالیات کلیسا وجود دارد که به مالیات بر درآمد و حقوق مرتبط است.",
+     "این موضوع برای آمار آلمان مهم است.",
+     "اگر به کلیسایی تعلق نداشته باشید، باید مالیات بیشتری بپردازید.",
+     "کلیسا مسئول اظهارنامه مالیاتی است."
+    ]
    }
   },
   "scores": {
@@ -31241,6 +33860,15 @@
      "Toți oamenii cred în Dumnezeu.",
      "Fiecare poate crede în ce dorește.",
      "Statul decide în ce Dumnezeu cred oamenii."
+    ]
+   },
+   "fa": {
+    "question": "مردم در آلمان بر اساس اصل تساهل مذهبی زندگی می‌کنند. این به چه معناست؟",
+    "options": [
+     "ساخت مسجد ممنوع است.",
+     "همه مردم به خدا اعتقاد دارند.",
+     "هر کس می‌تواند به هر چه بخواهد اعتقاد داشته باشد.",
+     "دولت تصمیم می‌گیرد مردم به کدام خدا اعتقاد داشته باشند."
     ]
    }
   },
@@ -31351,6 +33979,15 @@
      "vopsirea ouălor",
      "lansarea de rachete în aer"
     ]
+   },
+   "fa": {
+    "question": "یکی از آداب و رسوم عید پاک در آلمان چیست؟",
+    "options": [
+     "گذاشتن کدو تنبل جلوی در",
+     "تزیین درخت کاج",
+     "رنگ کردن تخم‌مرغ",
+     "شلیک موشک هوایی"
+    ]
    }
   },
   "scores": {
@@ -31459,6 +34096,15 @@
      "o zi comemorativă germană.",
      "o zi internațională de doliu.",
      "un obicei bavarez."
+    ]
+   },
+   "fa": {
+    "question": "عید پنجاهه (پفینگستن) یک … است.",
+    "options": [
+     "جشن مذهبی مسیحی",
+     "روز یادبود آلمانی",
+     "روز عزای بین‌المللی",
+     "رسم باواریایی"
     ]
    }
   },
@@ -31569,6 +34215,15 @@
      "budismul",
      "islamul"
     ]
+   },
+   "fa": {
+    "question": "کدام دین بر فرهنگ اروپا و آلمان تأثیر گذاشته است؟",
+    "options": [
+     "هندوئیسم",
+     "مسیحیت",
+     "بودیسم",
+     "اسلام"
+    ]
    }
   },
   "scores": {
@@ -31677,6 +34332,15 @@
      "sărbătoarea recoltei (Erntedankfest).",
      "perioada Adventului.",
      "Ziua Tuturor Sfinților (Allerheiligen)."
+    ]
+   },
+   "fa": {
+    "question": "در آلمان چهار هفته پایانی پیش از کریسمس … نامیده می‌شود.",
+    "options": [
+     "روز توبه و دعا (Buß- und Bettag)",
+     "جشن برداشت محصول (Erntedankfest)",
+     "دوران آدونت (Adventszeit)",
+     "روز همه مقدسین (Allerheiligen)"
     ]
    }
   },
@@ -31787,6 +34451,15 @@
      "Maroc",
      "Turcia"
     ]
+   },
+   "fa": {
+    "question": "بیشترین مهاجران به آلمان از کدام کشور آمده‌اند؟",
+    "options": [
+     "ایتالیا",
+     "لهستان",
+     "مراکش",
+     "ترکیه"
+    ]
    }
   },
   "scores": {
@@ -31896,6 +34569,15 @@
      "Chile, Ungaria, Zimbabwe.",
      "Coreea de Nord, Mexic, Egipt."
     ]
+   },
+   "fa": {
+    "question": "در جمهوری دموکراتیک آلمان (DDR) عمدتاً مهاجرانی از … زندگی می‌کردند.",
+    "options": [
+     "ویتنام، لهستان، موزامبیک",
+     "فرانسه، رومانی، سومالی",
+     "شیلی، مجارستان، زیمبابوه",
+     "کره شمالی، مکزیک، مصر"
+    ]
    }
   },
   "scores": {
@@ -31940,6 +34622,15 @@
      "muncitori oaspeți (Gastarbeiter).",
      "muncitori temporari.",
      "muncitori în ture."
+    ]
+   },
+   "fa": {
+    "question": "کارگران خارجی که در دهه‌های ۵۰ و ۶۰ میلادی توسط جمهوری فدرال آلمان استخدام شدند، چه نامیده می‌شدند؟",
+    "options": [
+     "کارگران غیرقانونی (Schwarzarbeiter)",
+     "کارگران مهمان (Gastarbeiter)",
+     "کارگران موقت (Zeitarbeiter)",
+     "کارگران شیفتی (Schichtarbeiter)"
     ]
    }
   },
@@ -32050,6 +34741,15 @@
      "Portugalia",
      "Turcia"
     ]
+   },
+   "fa": {
+    "question": "اولین کارگران مهمان (Gastarbeiter) وارد شده به جمهوری فدرال آلمان از کدام کشور بودند؟",
+    "options": [
+     "ایتالیا",
+     "اسپانیا",
+     "پرتغال",
+     "ترکیه"
+    ]
    }
   },
   "scores": {
@@ -32094,6 +34794,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت بادن-وورتمبرگ است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -32204,6 +34913,15 @@
      "Nordfriesland",
      "Altötting"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از موارد زیر یک شهرستان (لاندکرایس) در بادن-وورتمبرگ است؟",
+    "options": [
+     "مکلنبورگیشه زه‌ن‌پلاته",
+     "نکار-اودنوالد-کرایس",
+     "نوردفریزلند",
+     "آلتوتینگ"
+    ]
    }
   },
   "scores": {
@@ -32312,6 +35030,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) در بادن-وورتمبرگ برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -32422,6 +35149,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در بادن-وورتمبرگ از چه سنی می‌توان در انتخابات شهرداری (کمونال) رای داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -32530,6 +35266,15 @@
      "negru-auriu",
      "alb-albastru",
      "verde-alb-roșu"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی بادن-وورتمبرگ چه رنگ‌هایی دارد؟",
+    "options": [
+     "آبی-سفید-قرمز",
+     "سیاه-طلایی",
+     "سفید-آبی",
+     "سبز-سفید-قرمز"
     ]
    }
   },
@@ -32640,6 +35385,15 @@
      "la Centrala Landului pentru Educație Politică",
      "la biserici"
     ]
+   },
+   "fa": {
+    "question": "در بادن-وورتمبرگ در کجا می‌توانید درباره موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "در اداره نظم عمومی شهرداری",
+     "در مرکز حمایت از مصرف‌کننده",
+     "در مرکز ایالتی آموزش سیاسی",
+     "در کلیساها"
+    ]
    }
   },
   "scores": {
@@ -32749,6 +35503,15 @@
      "Karlsruhe.",
      "Mannheim."
     ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی بادن-وورتمبرگ … است.",
+    "options": [
+     "هایدلبرگ.",
+     "اشتوتگارت.",
+     "کارلسروهه.",
+     "مانهایم."
+    ]
    }
   },
   "scores": {
@@ -32857,6 +35620,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "بادن-وورتمبرگ کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -32901,6 +35673,15 @@
      "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
      "Primăriță/Primar",
      "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در بادن-وورتمبرگ چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-پرزیدنت)"
     ]
    }
   },
@@ -32947,6 +35728,15 @@
      "Ministră/Ministru de Interne",
      "Ministră/Ministru de Externe"
     ]
+   },
+   "fa": {
+    "question": "بادن-وورتمبرگ کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دارایی",
+     "وزیر دادگستری",
+     "وزیر کشور",
+     "وزیر امور خارجه"
+    ]
    }
   },
   "scores": {
@@ -32991,6 +35781,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت آزاد بایرن است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -33101,6 +35900,15 @@
      "Nordfriesland",
      "Altötting"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از موارد زیر یک شهرستان (لاندکرایس) در بایرن است؟",
+    "options": [
+     "پریگنیتس",
+     "راین-زیگ-کرایس",
+     "نوردفریزلند",
+     "آلتوتینگ"
+    ]
    }
   },
   "scores": {
@@ -33209,6 +36017,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) در بایرن برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -33319,6 +36136,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در بایرن از چه سنی می‌توان در انتخابات شهرداری (کمونال) رای داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -33427,6 +36253,15 @@
      "alb-albastru",
      "verde-alb-roșu",
      "negru-galben"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی بایرن چه رنگ‌هایی دارد؟",
+    "options": [
+     "آبی-سفید-قرمز",
+     "سفید-آبی",
+     "سبز-سفید-قرمز",
+     "سیاه-زرد"
     ]
    }
   },
@@ -33537,6 +36372,15 @@
      "la Centrala pentru Protecția Consumatorilor",
      "la biserici"
     ]
+   },
+   "fa": {
+    "question": "در بایرن در کجا می‌توانید درباره موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "در اداره نظم عمومی شهرداری",
+     "در مرکز ایالتی آموزش سیاسی",
+     "در مرکز حمایت از مصرف‌کننده",
+     "در کلیساها"
+    ]
    }
   },
   "scores": {
@@ -33646,6 +36490,15 @@
      "Nürnberg.",
      "München."
     ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی بایرن … است.",
+    "options": [
+     "اینگول‌اشتات.",
+     "رگنسبورگ.",
+     "نورنبرگ.",
+     "مونیخ."
+    ]
    }
   },
   "scores": {
@@ -33754,6 +36607,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "بایرن کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -33798,6 +36660,15 @@
      "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
      "Primăriță/Primar",
      "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در بایرن چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-پرزیدنت)"
     ]
    }
   },
@@ -33844,6 +36715,15 @@
      "Ministră/Ministru de Finanțe",
      "Ministră/Ministru de Interne"
     ]
+   },
+   "fa": {
+    "question": "بایرن کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
+    ]
    }
   },
   "scores": {
@@ -33888,6 +36768,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت برلین است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -33998,6 +36887,15 @@
      "Pankow",
      "Mecklenburgische Seenplatte"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از موارد زیر یک منطقه (بتسیرک) برلین است؟",
+    "options": [
+     "آلتونا",
+     "پریگنیتس",
+     "پانکوف",
+     "مکلنبورگیشه زه‌ن‌پلاته"
+    ]
    }
   },
   "scores": {
@@ -34106,6 +37004,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی برلین برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -34216,6 +37123,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در برلین از چه سنی می‌توان در انتخابات شهرداری (انتخاب شورای منطقه) رای داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -34324,6 +37240,15 @@
      "alb-roșu",
      "verde-alb-roșu",
      "negru-auriu"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی برلین چه رنگ‌هایی دارد؟",
+    "options": [
+     "آبی-سفید-قرمز",
+     "سفید-قرمز",
+     "سبز-سفید-قرمز",
+     "سیاه-طلایی"
     ]
    }
   },
@@ -34434,6 +37359,15 @@
      "la Centrala pentru Protecția Consumatorilor",
      "la Centrala Landului pentru Educație Politică"
     ]
+   },
+   "fa": {
+    "question": "در برلین در کجا می‌توانید درباره موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "در اداره نظم عمومی شهرداری",
+     "در کلیساها",
+     "در مرکز حمایت از مصرف‌کننده",
+     "در مرکز ایالتی آموزش سیاسی"
+    ]
    }
   },
   "scores": {
@@ -34543,6 +37477,15 @@
      "Brandenburg",
      "Hessa"
     ]
+   },
+   "fa": {
+    "question": "کدام ایالت یک ایالت-شهر است؟",
+    "options": [
+     "برلین",
+     "زارلند",
+     "براندنبورگ",
+     "هسن"
+    ]
    }
   },
   "scores": {
@@ -34651,6 +37594,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "برلین کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -34695,6 +37647,15 @@
      "Primăriță-generală/Primar-general",
      "Președinta/Președintele Senatului",
      "Primăriță guvernantă/Primar guvernant (Regierende Bürgermeisterin/Regierender Bürgermeister)"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت ایالت-شهر برلین چه نامیده می‌شود؟",
+    "options": [
+     "نخست‌وزیر ایالتی (وزیر-پرزیدنت)",
+     "شهردار کل",
+     "رئیس سنا",
+     "شهردار حاکم"
     ]
    }
   },
@@ -34741,6 +37702,15 @@
      "Senatoare/Senator pentru Relații Externe",
      "Senatoare/Senator de Justiție"
     ]
+   },
+   "fa": {
+    "question": "برلین کدام سناتور را ندارد؟",
+    "options": [
+     "سناتور دارایی",
+     "سناتور کشور",
+     "سناتور روابط خارجی",
+     "سناتور دادگستری"
+    ]
    }
   },
   "scores": {
@@ -34785,6 +37755,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت براندنبورگ است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -34895,6 +37874,15 @@
      "Vogtlandkreis",
      "Amberg-Sulzbach"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از موارد زیر یک شهرستان (لاندکرایس) در براندنبورگ است؟",
+    "options": [
+     "پریگنیتس",
+     "راین-زیگ-کرایس",
+     "فوگتلاندکرایس",
+     "آمبرگ-زولتسباخ"
+    ]
    }
   },
   "scores": {
@@ -35003,6 +37991,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) در براندنبورگ برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -35113,6 +38110,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در براندنبورگ از چه سنی می‌توان در انتخابات شهرداری (کمونال) رای داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -35221,6 +38227,15 @@
      "roșu-alb",
      "verde-alb-roșu",
      "negru-galben"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی براندنبورگ چه رنگ‌هایی دارد؟",
+    "options": [
+     "آبی-سفید-قرمز",
+     "قرمز-سفید",
+     "سبز-سفید-قرمز",
+     "سیاه-زرد"
     ]
    }
   },
@@ -35331,6 +38346,15 @@
      "la Centrala Landului pentru Educație Politică",
      "la Centrala pentru Protecția Consumatorilor"
     ]
+   },
+   "fa": {
+    "question": "در براندنبورگ در کجا می‌توانید درباره موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "در کلیساها",
+     "در اداره نظم عمومی شهرداری",
+     "در مرکز ایالتی آموزش سیاسی",
+     "در مرکز حمایت از مصرف‌کننده"
+    ]
    }
   },
   "scores": {
@@ -35375,6 +38399,15 @@
      "Cottbus.",
      "Brandenburg.",
      "Frankfurt/Oder."
+    ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی براندنبورگ … است.",
+    "options": [
+     "پوتسدام.",
+     "کوتبوس.",
+     "براندنبورگ.",
+     "فرانکفورت/اودر."
     ]
    }
   },
@@ -35484,6 +38517,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "براندنبورگ کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -35528,6 +38570,15 @@
      "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
      "Primăriță/Primar",
      "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در براندنبورگ چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-پرزیدنت)"
     ]
    }
   },
@@ -35574,6 +38625,15 @@
      "Ministră/Ministru de Finanțe",
      "Ministră/Ministru de Interne"
     ]
+   },
+   "fa": {
+    "question": "براندنبورگ کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
+    ]
    }
   },
   "scores": {
@@ -35618,6 +38678,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به شهر هانزایی آزاد برمن است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -35728,6 +38797,15 @@
      "Pankow",
      "Babelsberg"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از موارد زیر یک محله از برمن است؟",
+    "options": [
+     "آلتونا",
+     "هملینگن",
+     "پانکوف",
+     "بابلسبرگ"
+    ]
    }
   },
   "scores": {
@@ -35836,6 +38914,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی برمن برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -35946,6 +39033,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در برمن از چه سنی می‌توان در انتخابات بورگرشافت (پارلمان ایالتی) رای داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -36054,6 +39150,15 @@
      "roșu-alb",
      "verde-alb-roșu",
      "negru-auriu"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی برمن چه رنگ‌هایی دارد؟",
+    "options": [
+     "آبی-سفید-قرمز",
+     "قرمز-سفید",
+     "سبز-سفید-قرمز",
+     "سیاه-طلایی"
     ]
    }
   },
@@ -36164,6 +39269,15 @@
      "la biserici",
      "la Centrala pentru Protecția Consumatorilor"
     ]
+   },
+   "fa": {
+    "question": "در برمن در کجا می‌توانید درباره موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "در اداره نظم عمومی شهرداری",
+     "در مرکز ایالتی آموزش سیاسی",
+     "در کلیساها",
+     "در مرکز حمایت از مصرف‌کننده"
+    ]
    }
   },
   "scores": {
@@ -36273,6 +39387,15 @@
      "Frankfurt",
      "Erfurt"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از موارد زیر یک ایالت-شهر آلمانی است؟",
+    "options": [
+     "برمن",
+     "مونیخ",
+     "فرانکفورت",
+     "ارفورت"
+    ]
    }
   },
   "scores": {
@@ -36381,6 +39504,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "برمن کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -36425,6 +39557,15 @@
      "Primăriță-generală/Primar-general (Erste Bürgermeisterin/Erster Bürgermeister)",
      "Președinta/Președintele Senatului",
      "Primăriță guvernantă/Primar guvernant (Regierende Bürgermeisterin/Regierender Bürgermeister)"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت ایالت-شهر برمن چه نامیده می‌شود؟",
+    "options": [
+     "نخست‌وزیر ایالتی (وزیر-پرزیدنت)",
+     "شهردار اول",
+     "رئیس سنا",
+     "شهردار حاکم"
     ]
    }
   },
@@ -36471,6 +39612,15 @@
      "Senatoare/Senator de Justiție",
      "Senatoare/Senator de Interne"
     ]
+   },
+   "fa": {
+    "question": "برمن کدام سناتور را ندارد؟",
+    "options": [
+     "سناتور روابط خارجی",
+     "سناتور دارایی",
+     "سناتور دادگستری",
+     "سناتور کشور"
+    ]
    }
   },
   "scores": {
@@ -36515,6 +39665,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به شهر آزاد و هانزایی هامبورگ است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -36625,6 +39784,15 @@
      "Pankow",
      "Mecklenburgische Seenplatte"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از موارد زیر یک منطقه (بتسیرک) هامبورگ است؟",
+    "options": [
+     "آلتونا",
+     "هملینگن",
+     "پانکوف",
+     "مکلنبورگیشه زه‌ن‌پلاته"
+    ]
    }
   },
   "scores": {
@@ -36733,6 +39901,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی هامبورگ برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -36843,6 +40020,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در هامبورگ از چه سنی می‌توان در انتخابات شهرداری (انتخاب شوراهای منطقه) رای داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -36951,6 +40137,15 @@
      "alb-roșu",
      "verde-alb-roșu",
      "negru-galben"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی هامبورگ چه رنگ‌هایی دارد؟",
+    "options": [
+     "آبی-سفید-قرمز",
+     "سفید-قرمز",
+     "سبز-سفید-قرمز",
+     "سیاه-زرد"
     ]
    }
   },
@@ -37061,6 +40256,15 @@
      "la biserici",
      "la Centrala Landului pentru Educație Politică"
     ]
+   },
+   "fa": {
+    "question": "در هامبورگ در کجا می‌توانید درباره موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "در اداره نظم عمومی شهرداری",
+     "در مرکز حمایت از مصرف‌کننده",
+     "در کلیساها",
+     "در مرکز ایالتی آموزش سیاسی"
+    ]
    }
   },
   "scores": {
@@ -37170,6 +40374,15 @@
      "Bavaria",
      "Turingia"
     ]
+   },
+   "fa": {
+    "question": "کدام ایالت یک ایالت-شهر است؟",
+    "options": [
+     "هامبورگ",
+     "زاکسن",
+     "بایرن",
+     "تورینگن"
+    ]
    }
   },
   "scores": {
@@ -37278,6 +40491,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "هامبورگ کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -37322,6 +40544,15 @@
      "Primăriță-generală/Primar-general (Erste Bürgermeisterin/Erster Bürgermeister)",
      "Senatoare guvernantă/Senator guvernant",
      "Primăriță-generală/Primar-general (Oberbürgermeisterin/Oberbürgermeister)"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت ایالت-شهر هامبورگ چه نامیده می‌شود؟",
+    "options": [
+     "نخست‌وزیر ایالتی (وزیر-پرزیدنت)",
+     "شهردار اول",
+     "سناتور حاکم",
+     "شهردار کل"
     ]
    }
   },
@@ -37368,6 +40599,15 @@
      "Senatoare/Senator de Finanțe",
      "Senatoare/Senator de Interne"
     ]
+   },
+   "fa": {
+    "question": "هامبورگ کدام سناتور را ندارد؟",
+    "options": [
+     "سناتور دادگستری",
+     "سناتور روابط خارجی",
+     "سناتور دارایی",
+     "سناتور کشور"
+    ]
    }
   },
   "scores": {
@@ -37412,6 +40652,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت هسن است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -37522,6 +40771,15 @@
      "Prignitz",
      "Main-Taunus-Kreis"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از موارد زیر یک شهرستان (لاندکرایس) در هسن است؟",
+    "options": [
+     "آمرلند",
+     "آلتوتینگ",
+     "پریگنیتس",
+     "ماین-تاونوس-کرایس"
+    ]
    }
   },
   "scores": {
@@ -37630,6 +40888,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) در هسن برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -37740,6 +41007,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در هسن از چه سنی می‌توان در انتخابات شهرداری (کمونال) رای داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -37848,6 +41124,15 @@
      "roșu-alb",
      "negru-auriu",
      "verde-alb-roșu"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی هسن چه رنگ‌هایی دارد؟",
+    "options": [
+     "آبی-سفید-قرمز",
+     "قرمز-سفید",
+     "سیاه-طلایی",
+     "سبز-سفید-قرمز"
     ]
    }
   },
@@ -37958,6 +41243,15 @@
      "la Oficiul de Ordine Publică al comunei",
      "la biserici"
     ]
+   },
+   "fa": {
+    "question": "در هسن در کجا می‌توانید درباره موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "در مرکز ایالتی آموزش سیاسی",
+     "در مرکز حمایت از مصرف‌کننده",
+     "در اداره نظم عمومی شهرداری",
+     "در کلیساها"
+    ]
    }
   },
   "scores": {
@@ -38002,6 +41296,15 @@
      "Darmstadt.",
      "Frankfurt.",
      "Wiesbaden."
+    ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی هسن … است.",
+    "options": [
+     "کاسل.",
+     "دارمشتات.",
+     "فرانکفورت.",
+     "ویسبادن."
     ]
    }
   },
@@ -38111,6 +41414,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "هسن کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -38155,6 +41467,15 @@
      "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
      "Primăriță/Primar",
      "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در هسن چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-پرزیدنت)"
     ]
    }
   },
@@ -38201,6 +41522,15 @@
      "Ministră/Ministru de Finanțe",
      "Ministră/Ministru de Interne"
     ]
+   },
+   "fa": {
+    "question": "هسن کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
+    ]
    }
   },
   "scores": {
@@ -38245,6 +41575,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت مکلنبورگ-فورپومرن است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -38355,6 +41694,15 @@
      "Vogtlandkreis",
      "Rhein-Sieg-Kreis"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از موارد زیر یک شهرستان (لاندکرایس) در مکلنبورگ-فورپومرن است؟",
+    "options": [
+     "پریگنیتس",
+     "مکلنبورگیشه زه‌ن‌پلاته",
+     "فوگتلاندکرایس",
+     "راین-زیگ-کرایس"
+    ]
    }
   },
   "scores": {
@@ -38463,6 +41811,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) در مکلنبورگ-فورپومرن برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -38573,6 +41930,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در مکلنبورگ-فورپومرن از چه سنی می‌توان در انتخابات شهرداری (کمونال) رای داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -38681,6 +42047,15 @@
      "albastru-alb-galben-roșu",
      "verde-alb-roșu",
      "negru-galben"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی مکلنبورگ-فورپومرن چه رنگ‌هایی دارد؟",
+    "options": [
+     "سیاه-قرمز-طلایی",
+     "آبی-سفید-زرد-قرمز",
+     "سبز-سفید-قرمز",
+     "سیاه-زرد"
     ]
    }
   },
@@ -38791,6 +42166,15 @@
      "la Oficiul de Ordine Publică al comunei",
      "la Centrala pentru Protecția Consumatorilor"
     ]
+   },
+   "fa": {
+    "question": "در مکلنبورگ-فورپومرن در کجا می‌توانید درباره موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "در مرکز ایالتی آموزش سیاسی",
+     "در کلیساها",
+     "در اداره نظم عمومی شهرداری",
+     "در مرکز حمایت از مصرف‌کننده"
+    ]
    }
   },
   "scores": {
@@ -38900,6 +42284,15 @@
      "Rostock.",
      "Wismar."
     ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی مکلنبورگ-فورپومرن … است.",
+    "options": [
+     "گرایفسوالد.",
+     "شورین.",
+     "روستوک.",
+     "ویسمار."
+    ]
    }
   },
   "scores": {
@@ -39008,6 +42401,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "مکلنبورگ-فورپومرن کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -39052,6 +42454,15 @@
      "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
      "Primăriță/Primar",
      "Ministru-președinte (Ministerpräsidentin/Ministerpräsident)"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در مکلنبورگ-فورپومرن چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-پرزیدنت)"
     ]
    }
   },
@@ -39098,6 +42509,15 @@
      "Ministră/Ministru de Finanțe",
      "Ministră/Ministru de Interne"
     ]
+   },
+   "fa": {
+    "question": "مکلنبورگ-فورپومرن کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
+    ]
    }
   },
   "scores": {
@@ -39142,6 +42562,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت نیدرزاکسن است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -39252,6 +42681,15 @@
      "Frizia de Nord (Nordfriesland)",
      "Vogtlandkreis"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از این‌ها یک شهرستان (لاندکرایس) در نیدرزاکسن است؟",
+    "options": [
+     "آمرلند",
+     "شهرستان راین-زیگ",
+     "نوردفریسلند",
+     "شهرستان فوگتلند"
+    ]
    }
   },
   "scores": {
@@ -39360,6 +42798,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) نیدرزاکسن برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -39470,6 +42917,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در نیدرزاکسن از چه سنی می‌توان در انتخابات شهرداری (کمونال) رأی داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -39578,6 +43034,15 @@
      "negru-roșu-auriu",
      "negru-galben",
      "albastru-alb-roșu"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی نیدرزاکسن چه رنگ‌هایی دارد؟",
+    "options": [
+     "سفید-آبی",
+     "سیاه-قرمز-طلایی",
+     "سیاه-زرد",
+     "آبی-سفید-قرمز"
     ]
    }
   },
@@ -39688,6 +43153,15 @@
      "la Centrul pentru Protecția Consumatorilor",
      "la biserici"
     ]
+   },
+   "fa": {
+    "question": "در نیدرزاکسن از کجا می‌توانید درباره‌ی موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "از مرکز ایالتی آموزش سیاسی",
+     "از اداره‌ی نظم عمومی شهرداری",
+     "از مرکز حمایت از مصرف‌کنندگان",
+     "از کلیساها"
+    ]
    }
   },
   "scores": {
@@ -39797,6 +43271,15 @@
      "Wolfsburg.",
      "Osnabrück."
     ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی نیدرزاکسن … نام دارد.",
+    "options": [
+     "هانوفر.",
+     "براونشوایگ.",
+     "ولفسبورگ.",
+     "اوسنابروک."
+    ]
    }
   },
   "scores": {
@@ -39905,6 +43388,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "نیدرزاکسن کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -39949,6 +43441,15 @@
      "Premier/Premieră",
      "Primar/Primăriță",
      "Ministru-președinte/Ministră-președintă"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در نیدرزاکسن چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-رئیس)"
     ]
    }
   },
@@ -39995,6 +43496,15 @@
      "Ministru de Finanțe",
      "Ministru de Interne"
     ]
+   },
+   "fa": {
+    "question": "نیدرزاکسن کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
+    ]
    }
   },
   "scores": {
@@ -40039,6 +43549,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت نوردراین-وستفالن است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -40149,6 +43668,15 @@
      "Frizia de Nord (Nordfriesland)",
      "Vogtlandkreis"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از این‌ها یک شهرستان (لاندکرایس) در نوردراین-وستفالن است؟",
+    "options": [
+     "آمرلند",
+     "شهرستان راین-زیگ",
+     "نوردفریسلند",
+     "شهرستان فوگتلند"
+    ]
    }
   },
   "scores": {
@@ -40257,6 +43785,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) نوردراین-وستفالن برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -40367,6 +43904,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در نوردراین-وستفالن از چه سنی می‌توان در انتخابات شهرداری (کمونال) رأی داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -40475,6 +44021,15 @@
      "verde-alb-roșu",
      "negru-auriu",
      "albastru-alb-roșu"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی نوردراین-وستفالن چه رنگ‌هایی دارد؟",
+    "options": [
+     "قرمز-سفید",
+     "سبز-سفید-قرمز",
+     "سیاه-طلایی",
+     "آبی-سفید-قرمز"
     ]
    }
   },
@@ -40585,6 +44140,15 @@
      "la Centrul pentru Protecția Consumatorilor",
      "la Centrul Regional pentru Educație Politică"
     ]
+   },
+   "fa": {
+    "question": "در نوردراین-وستفالن از کجا می‌توانید درباره‌ی موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "از کلیساها",
+     "از اداره‌ی نظم عمومی شهرداری",
+     "از مرکز حمایت از مصرف‌کنندگان",
+     "از مرکز ایالتی آموزش سیاسی"
+    ]
    }
   },
   "scores": {
@@ -40694,6 +44258,15 @@
      "Düsseldorf.",
      "Dortmund."
     ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی نوردراین-وستفالن … نام دارد.",
+    "options": [
+     "کلن.",
+     "بن.",
+     "دوسلدورف.",
+     "دورتموند."
+    ]
    }
   },
   "scores": {
@@ -40802,6 +44375,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "نوردراین-وستفالن کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -40846,6 +44428,15 @@
      "Premier/Premieră",
      "Primar/Primăriță",
      "Ministru-președinte/Ministră-președintă"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در نوردراین-وستفالن چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-رئیس)"
     ]
    }
   },
@@ -40892,6 +44483,15 @@
      "Ministru de Finanțe",
      "Ministru de Interne"
     ]
+   },
+   "fa": {
+    "question": "نوردراین-وستفالن کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
+    ]
    }
   },
   "scores": {
@@ -40936,6 +44536,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت راینلند-فالتس است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -41046,6 +44655,15 @@
      "Emsland",
      "Prignitz"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از این‌ها یک شهرستان (لاندکرایس) در راینلند-فالتس است؟",
+    "options": [
+     "شهرستان وسترفالد",
+     "آلتوتینگ",
+     "امسلند",
+     "پریگنیتس"
+    ]
    }
   },
   "scores": {
@@ -41154,6 +44772,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) راینلند-فالتس برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -41264,6 +44891,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در راینلند-فالتس از چه سنی می‌توان در انتخابات شهرداری (کمونال) رأی داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -41372,6 +45008,15 @@
      "negru-roșu-auriu",
      "negru-galben",
      "verde-alb-roșu"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی راینلند-فالتس چه رنگ‌هایی دارد؟",
+    "options": [
+     "سفید-قرمز",
+     "سیاه-قرمز-طلایی",
+     "سیاه-زرد",
+     "سبز-سفید-قرمز"
     ]
    }
   },
@@ -41482,6 +45127,15 @@
      "la Serviciul de Ordine Publică al comunei",
      "la Centrul Regional pentru Educație Politică"
     ]
+   },
+   "fa": {
+    "question": "در راینلند-فالتس از کجا می‌توانید درباره‌ی موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "از کلیساها",
+     "از مرکز حمایت از مصرف‌کنندگان",
+     "از اداره‌ی نظم عمومی شهرداری",
+     "از مرکز ایالتی آموزش سیاسی"
+    ]
    }
   },
   "scores": {
@@ -41591,6 +45245,15 @@
      "Ludwigshafen.",
      "Koblenz."
     ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی راینلند-فالتس … نام دارد.",
+    "options": [
+     "ماینتس.",
+     "کایزرسلاوترن.",
+     "لودویگسهافن.",
+     "کوبلنتس."
+    ]
    }
   },
   "scores": {
@@ -41699,6 +45362,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "راینلند-فالتس کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -41743,6 +45415,15 @@
      "Premier/Premieră",
      "Primar/Primăriță",
      "Ministru-președinte/Ministră-președintă"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در راینلند-فالتس چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-رئیس)"
     ]
    }
   },
@@ -41789,6 +45470,15 @@
      "Ministru de Finanțe",
      "Ministru de Interne"
     ]
+   },
+   "fa": {
+    "question": "راینلند-فالتس کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
+    ]
    }
   },
   "scores": {
@@ -41833,6 +45523,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت زارلند است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -41943,6 +45642,15 @@
      "Neunkirchen",
      "Rhein-Sieg-Kreis"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از این‌ها یک شهرستان (لاندکرایس) در زارلند است؟",
+    "options": [
+     "منطقه‌ی دریاچه‌های مکلنبورگ",
+     "آلتوتینگ",
+     "نویونکیرشن",
+     "شهرستان راین-زیگ"
+    ]
    }
   },
   "scores": {
@@ -42051,6 +45759,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) زارلند برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -42161,6 +45878,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در زارلند از چه سنی می‌توان در انتخابات شهرداری (کمونال) رأی داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -42269,6 +45995,15 @@
      "negru-roșu-auriu",
      "negru-galben",
      "verde-alb-roșu"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی زارلند چه رنگ‌هایی دارد؟",
+    "options": [
+     "سفید-آبی",
+     "سیاه-قرمز-طلایی",
+     "سیاه-زرد",
+     "سبز-سفید-قرمز"
     ]
    }
   },
@@ -42379,6 +46114,15 @@
      "la Centrul pentru Protecția Consumatorilor",
      "la Serviciul de Ordine Publică al comunei"
     ]
+   },
+   "fa": {
+    "question": "در زارلند از کجا می‌توانید درباره‌ی موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "از کلیساها",
+     "از مرکز ایالتی آموزش سیاسی",
+     "از مرکز حمایت از مصرف‌کنندگان",
+     "از اداره‌ی نظم عمومی شهرداری"
+    ]
    }
   },
   "scores": {
@@ -42488,6 +46232,15 @@
      "Saarbrücken.",
      "Völklingen."
     ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی زارلند … نام دارد.",
+    "options": [
+     "نویونکیرشن.",
+     "هومبورگ.",
+     "زاربروکن.",
+     "فولکلینگن."
+    ]
    }
   },
   "scores": {
@@ -42596,6 +46349,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "زارلند کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -42640,6 +46402,15 @@
      "Premier/Premieră",
      "Primar/Primăriță",
      "Ministru-președinte/Ministră-președintă"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در زارلند چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-رئیس)"
     ]
    }
   },
@@ -42686,6 +46457,15 @@
      "Ministru de Finanțe",
      "Ministru de Interne"
     ]
+   },
+   "fa": {
+    "question": "زارلند کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
+    ]
    }
   },
   "scores": {
@@ -42730,6 +46510,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت آزاد زاکسن است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -42840,6 +46629,15 @@
      "Uckermark",
      "Frizia de Nord (Nordfriesland)"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از این‌ها یک شهرستان (لاندکرایس) در زاکسن است؟",
+    "options": [
+     "شهرستان فوگتلند",
+     "آلتوتینگ",
+     "اوکرمارک",
+     "نوردفریسلند"
+    ]
    }
   },
   "scores": {
@@ -42948,6 +46746,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) زاکسن برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -43058,6 +46865,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در زاکسن از چه سنی می‌توان در انتخابات شهرداری (کمونال) رأی داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -43166,6 +46982,15 @@
      "alb-verde",
      "verde-alb-roșu",
      "negru-galben"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی زاکسن چه رنگ‌هایی دارد؟",
+    "options": [
+     "آبی-سفید-قرمز",
+     "سفید-سبز",
+     "سبز-سفید-قرمز",
+     "سیاه-زرد"
     ]
    }
   },
@@ -43276,6 +47101,15 @@
      "la biserici",
      "la Centrul pentru Protecția Consumatorilor"
     ]
+   },
+   "fa": {
+    "question": "در زاکسن از کجا می‌توانید درباره‌ی موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "از مرکز ایالتی آموزش سیاسی",
+     "از اداره‌ی نظم عمومی شهرداری",
+     "از کلیساها",
+     "از مرکز حمایت از مصرف‌کنندگان"
+    ]
    }
   },
   "scores": {
@@ -43385,6 +47219,15 @@
      "Chemnitz.",
      "Zwickau."
     ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی زاکسن … نام دارد.",
+    "options": [
+     "لایپزیش.",
+     "درسدن.",
+     "کمنیتس.",
+     "تسویکائو."
+    ]
    }
   },
   "scores": {
@@ -43493,6 +47336,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "زاکسن کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -43537,6 +47389,15 @@
      "Premier/Premieră",
      "Primar/Primăriță",
      "Ministru-președinte/Ministră-președintă"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در زاکسن چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-رئیس)"
     ]
    }
   },
@@ -43583,6 +47444,15 @@
      "Ministru de Finanțe",
      "Ministru de Interne"
     ]
+   },
+   "fa": {
+    "question": "زاکسن کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
+    ]
    }
   },
   "scores": {
@@ -43627,6 +47497,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت زاکسن-آنهالت است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -43737,6 +47616,15 @@
      "Uckermark",
      "Börde"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از این‌ها یک شهرستان (لاندکرایس) در زاکسن-آنهالت است؟",
+    "options": [
+     "آمرلند",
+     "آلتوتینگ",
+     "اوکرمارک",
+     "بورده"
+    ]
    }
   },
   "scores": {
@@ -43845,6 +47733,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) زاکسن-آنهالت برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -43955,6 +47852,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در زاکسن-آنهالت از چه سنی می‌توان در انتخابات شهرداری (کمونال) رأی داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -44063,6 +47969,15 @@
      "galben-negru",
      "verde-alb-roșu",
      "alb-roșu"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی زاکسن-آنهالت چه رنگ‌هایی دارد؟",
+    "options": [
+     "آبی-سفید-قرمز",
+     "زرد-سیاه",
+     "سبز-سفید-قرمز",
+     "سفید-قرمز"
     ]
    }
   },
@@ -44173,6 +48088,15 @@
      "la Serviciul de Ordine Publică al comunei",
      "la Centrul pentru Protecția Consumatorilor"
     ]
+   },
+   "fa": {
+    "question": "در زاکسن-آنهالت از کجا می‌توانید درباره‌ی موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "از کلیساها",
+     "از مرکز ایالتی آموزش سیاسی",
+     "از اداره‌ی نظم عمومی شهرداری",
+     "از مرکز حمایت از مصرف‌کنندگان"
+    ]
    }
   },
   "scores": {
@@ -44282,6 +48206,15 @@
      "Magdeburg.",
      "Wittenberg."
     ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی زاکسن-آنهالت … نام دارد.",
+    "options": [
+     "هاله.",
+     "دساو.",
+     "ماگدبورگ.",
+     "ویتنبرگ."
+    ]
    }
   },
   "scores": {
@@ -44390,6 +48323,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "زاکسن-آنهالت کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -44434,6 +48376,15 @@
      "Premier/Premieră",
      "Primar/Primăriță",
      "Ministru-președinte/Ministră-președintă"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در زاکسن-آنهالت چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-رئیس)"
     ]
    }
   },
@@ -44480,6 +48431,15 @@
      "Ministru de Finanțe",
      "Ministru de Interne"
     ]
+   },
+   "fa": {
+    "question": "زاکسن-آنهالت کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
+    ]
    }
   },
   "scores": {
@@ -44524,6 +48484,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت اشلسویگ-هولشتاین است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -44634,6 +48603,15 @@
      "Frizia de Nord (Nordfriesland)",
      "Rhein-Sieg-Kreis"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از این‌ها یک شهرستان (لاندکرایس) در اشلسویگ-هولشتاین است؟",
+    "options": [
+     "آمرلند",
+     "منطقه‌ی دریاچه‌های مکلنبورگ",
+     "نوردفریسلند",
+     "شهرستان راین-زیگ"
+    ]
    }
   },
   "scores": {
@@ -44742,6 +48720,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) اشلسویگ-هولشتاین برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -44852,6 +48839,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در اشلسویگ-هولشتاین از چه سنی می‌توان در انتخابات شهرداری (کمونال) رأی داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -44960,6 +48956,15 @@
      "albastru-alb-roșu",
      "alb-roșu",
      "verde-alb-roșu"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی اشلسویگ-هولشتاین چه رنگ‌هایی دارد؟",
+    "options": [
+     "سفید-آبی",
+     "آبی-سفید-قرمز",
+     "سفید-قرمز",
+     "سبز-سفید-قرمز"
     ]
    }
   },
@@ -45070,6 +49075,15 @@
      "la Împuternicitul/Împuternicita regională pentru Educație Politică",
      "la biserici"
     ]
+   },
+   "fa": {
+    "question": "در اشلسویگ-هولشتاین از کجا می‌توانید درباره‌ی موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "از مرکز حمایت از مصرف‌کنندگان",
+     "از اداره‌ی نظم عمومی شهرداری",
+     "از نماینده‌ی ایالتی آموزش سیاسی",
+     "از کلیساها"
+    ]
    }
   },
   "scores": {
@@ -45179,6 +49193,15 @@
      "Lübeck.",
      "Kiel."
     ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی اشلسویگ-هولشتاین … نام دارد.",
+    "options": [
+     "هوزوم.",
+     "فلنسبورگ.",
+     "لوبک.",
+     "کیل."
+    ]
    }
   },
   "scores": {
@@ -45287,6 +49310,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "اشلسویگ-هولشتاین کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -45331,6 +49363,15 @@
      "Premier/Premieră",
      "Primar/Primăriță",
      "Ministru-președinte/Ministră-președintă"
+    ]
+   },
+   "fa": {
+    "question": "رئیس دولت در اشلسویگ-هولشتاین چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-رئیس)"
     ]
    }
   },
@@ -45377,6 +49418,15 @@
      "Ministru de Finanțe",
      "Ministru de Interne"
     ]
+   },
+   "fa": {
+    "question": "اشلسویگ-هولشتاین کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
+    ]
    }
   },
   "scores": {
@@ -45421,6 +49471,15 @@
      "Imaginea 2",
      "Imaginea 3",
      "Imaginea 4"
+    ]
+   },
+   "fa": {
+    "question": "کدام نشان (آرم) متعلق به ایالت آزاد تورینگن است؟ تصویر ۱ تصویر ۲ تصویر ۳ تصویر ۴",
+    "options": [
+     "تصویر ۱",
+     "تصویر ۲",
+     "تصویر ۳",
+     "تصویر ۴"
     ]
    }
   },
@@ -45531,6 +49590,15 @@
      "Frizia de Nord (Nordfriesland)",
      "Wartburgkreis"
     ]
+   },
+   "fa": {
+    "question": "کدام یک از این‌ها یک شهرستان (لاندکرایس) در تورینگن است؟",
+    "options": [
+     "آمرلند",
+     "آلتوتینگ",
+     "نوردفریسلند",
+     "شهرستان وارتبورگ"
+    ]
    }
   },
   "scores": {
@@ -45639,6 +49707,15 @@
      "4",
      "5",
      "6"
+    ]
+   },
+   "fa": {
+    "question": "پارلمان ایالتی (لانتاگ) تورینگن برای چند سال انتخاب می‌شود؟",
+    "options": [
+     "۳",
+     "۴",
+     "۵",
+     "۶"
     ]
    }
   },
@@ -45749,6 +49826,15 @@
      "18",
      "20"
     ]
+   },
+   "fa": {
+    "question": "در تورینگن از چه سنی می‌توان در انتخابات شهرداری (کمونال) رأی داد؟",
+    "options": [
+     "۱۴",
+     "۱۶",
+     "۱۸",
+     "۲۰"
+    ]
    }
   },
   "scores": {
@@ -45857,6 +49943,15 @@
      "alb-roșu",
      "verde-alb-roșu",
      "negru-auriu"
+    ]
+   },
+   "fa": {
+    "question": "پرچم ایالتی تورینگن چه رنگ‌هایی دارد؟",
+    "options": [
+     "آبی-سفید-قرمز",
+     "سفید-قرمز",
+     "سبز-سفید-قرمز",
+     "سیاه-طلایی"
     ]
    }
   },
@@ -45967,6 +50062,15 @@
      "la Centrul Regional pentru Educație Politică",
      "la Serviciul de Ordine Publică al comunei"
     ]
+   },
+   "fa": {
+    "question": "در تورینگن از کجا می‌توانید درباره‌ی موضوعات سیاسی اطلاعات کسب کنید؟",
+    "options": [
+     "از کلیساها",
+     "از مرکز حمایت از مصرف‌کنندگان",
+     "از مرکز ایالتی آموزش سیاسی",
+     "از اداره‌ی نظم عمومی شهرداری"
+    ]
    }
   },
   "scores": {
@@ -46076,6 +50180,15 @@
      "Gera.",
      "Jena."
     ]
+   },
+   "fa": {
+    "question": "پایتخت ایالتی تورینگن … نام دارد.",
+    "options": [
+     "آیزناخ.",
+     "ارفورت.",
+     "گرا.",
+     "ینا."
+    ]
    }
   },
   "scores": {
@@ -46184,6 +50297,15 @@
      "3",
      "4"
     ]
+   },
+   "fa": {
+    "question": "تورینگن کدام ایالت است؟",
+    "options": [
+     "۱",
+     "۲",
+     "۳",
+     "۴"
+    ]
    }
   },
   "scores": {
@@ -46229,6 +50351,15 @@
      "Primar/Primăriță",
      "Ministru-președinte/Ministră-președintă"
     ]
+   },
+   "fa": {
+    "question": "رئیس دولت در تورینگن چه نامیده می‌شود؟",
+    "options": [
+     "وزیر اول",
+     "نخست‌وزیر",
+     "شهردار",
+     "نخست‌وزیر ایالتی (وزیر-رئیس)"
+    ]
    }
   },
   "scores": {
@@ -46273,6 +50404,15 @@
      "Ministru de Externe",
      "Ministru de Finanțe",
      "Ministru de Interne"
+    ]
+   },
+   "fa": {
+    "question": "تورینگن کدام وزیر را ندارد؟",
+    "options": [
+     "وزیر دادگستری",
+     "وزیر امور خارجه",
+     "وزیر دارایی",
+     "وزیر کشور"
     ]
    }
   },
