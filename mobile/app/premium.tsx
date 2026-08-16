@@ -4,7 +4,7 @@ import { ScrollView, Text, View } from "react-native";
 import type { PurchasesPackage } from "react-native-purchases";
 import { Button, Card, Label, Notice } from "@/components";
 import { useEntitlement } from "@/entitlements";
-import { ScreenHeader } from "@/header";
+import { HeaderBackButton, ScreenHeader } from "@/header";
 import type { PremiumFeature } from "@/premium";
 import { useSession } from "@/sync";
 import { layout, spacing, type, useColors } from "@/theme";
@@ -42,6 +42,11 @@ export default function Premium() {
   const [busy, setBusy] = useState<"purchase" | "restore" | null>(null);
   const [message, setMessage] = useState<string | null>(null);
   const storeConfigured = purchasesConfigured();
+
+  function closePremium() {
+    if (router.canGoBack()) router.back();
+    else router.replace("/");
+  }
 
   useEffect(() => {
     if (!session || (isPremium && !__DEV__) || !storeConfigured) return;
@@ -105,7 +110,10 @@ export default function Premium() {
 
   return (
     <View style={{ flex: 1, backgroundColor: c.bg }}>
-      <ScreenHeader title="Premium" />
+      <ScreenHeader
+        title="Premium"
+        left={<HeaderBackButton label="Close Premium" onPress={closePremium} />}
+      />
       <ScrollView contentContainerStyle={{ width: "100%", maxWidth: layout.contentMaxWidth,
         alignSelf: "center", padding: spacing.lg, paddingBottom: spacing.xxl, gap: spacing.lg }}>
         <Card>

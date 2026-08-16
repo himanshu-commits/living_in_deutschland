@@ -90,16 +90,27 @@ function Star({ on, onPress }: { on: boolean; onPress: () => void }) {
  *  already protects against for text. Icon-only, like the ☰ menu button:
  *  a translated label would need adding a key to all 18 language blocks
  *  for a supplementary control. */
-function Speaker({ speaking, onPress }: { speaking: boolean; onPress: () => void }) {
+function Speaker({
+  speaking,
+  locked,
+  onPress,
+}: {
+  speaking: boolean;
+  locked: boolean;
+  onPress: () => void;
+}) {
   const c = useColors();
   return (
     <Pressable
       accessibilityRole="button"
       accessibilityState={{ selected: speaking }}
-      accessibilityLabel={speaking ? "Stop reading aloud" : "Read aloud"}
+      accessibilityLabel={locked ? "Premium audio" : speaking ? "Stop reading aloud" : "Read aloud"}
       hitSlop={10}
       onPress={onPress}
       style={({ pressed }) => ({
+        flexDirection: "row",
+        alignItems: "center",
+        gap: 4,
         paddingVertical: 6,
         paddingHorizontal: 10,
         borderRadius: radius.pill,
@@ -114,6 +125,7 @@ function Speaker({ speaking, onPress }: { speaking: boolean; onPress: () => void
         size={17}
         color={speaking ? c.accentText : c.textMuted}
       />
+      {locked ? <Ionicons name="lock-closed-outline" size={11} color={c.textMuted} /> : null}
     </Pressable>
   );
 }
@@ -125,14 +137,12 @@ export type Mode = "read" | "attempt";
  *  attempt - nothing is revealed until the user picks an option */
 function QuestionCard({
   q,
-  position,
   mode,
   optionOrder,
   picked,
   onPick,
 }: {
   q: Question;
-  position: string;
   mode: Mode;
   optionOrder: number[];
   picked?: number;
@@ -208,11 +218,8 @@ function QuestionCard({
         }}
       >
         <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm }}>
-          <Text style={{ ...type.heading, ...type.mono, fontSize: 20, color: c.text }}>
-            {position}
-          </Text>
           {/* the catalogue's own Aufgabe number, for cross-checking against the PDF */}
-          <Text style={{ ...type.label, color: c.textMuted }}>
+          <Text style={{ ...type.label, fontSize: 16, fontWeight: "700", color: c.text }}>
             {q.scope === "ALL" ? `Aufgabe ${q.num}` : `${q.scope} ${q.num}`}
           </Text>
         </View>
@@ -248,7 +255,11 @@ function QuestionCard({
               </Text>
             </Pressable>
           ) : null}
-          <Speaker speaking={speaking} onPress={toggleSpeak} />
+          <Speaker
+            speaking={isPremium && speaking}
+            locked={!isPremium}
+            onPress={() => premiumGate("audio", toggleSpeak)}
+          />
           <Star on={isMarked} onPress={() => toggleMark(q.id)} />
         </View>
       </View>
@@ -523,7 +534,6 @@ export function QuestionList({
           >
             <QuestionCard
               q={q}
-              position={`${index + 1}`}
               mode={mode}
               optionOrder={optionOrder}
               picked={revealedQuestion === q.id ? picks[q.id] : undefined}
