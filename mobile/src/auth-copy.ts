@@ -14,7 +14,7 @@ const keys: (keyof AuthCopy)[] = [
   "passwordMin", "mismatch", "resend", "confirmationSent",
 ];
 
-const rows: Record<LangCode, string[]> = {
+const rows: Partial<Record<LangCode, string[]>> = {
   en: ["Forgot password?", "Reset password", "Enter your account email and we’ll send you a password-reset link.", "Please enter a valid email address.", "Unable to connect. Check your internet connection and try again.", "Check your email and open the reset link on this device.", "Send reset link", "Back to login", "Choose a new password", "This reset link is invalid or has expired.", "Validating your reset link…", "Enter a new password for your account.", "New password", "Confirm new password", "Update password", "Password must be at least 6 characters.", "Passwords do not match.", "Resend confirmation email", "Confirmation email sent. Check your inbox and spam folder."],
   de: ["Passwort vergessen?", "Passwort zurücksetzen", "Gib die E-Mail-Adresse deines Kontos ein. Wir senden dir einen Link zum Zurücksetzen.", "Bitte gib eine gültige E-Mail-Adresse ein.", "Verbindung nicht möglich. Prüfe deine Internetverbindung und versuche es erneut.", "Prüfe deine E-Mails und öffne den Link auf diesem Gerät.", "Link senden", "Zurück zur Anmeldung", "Neues Passwort wählen", "Dieser Link ist ungültig oder abgelaufen.", "Link wird geprüft…", "Gib ein neues Passwort für dein Konto ein.", "Neues Passwort", "Neues Passwort bestätigen", "Passwort aktualisieren", "Das Passwort muss mindestens 6 Zeichen lang sein.", "Die Passwörter stimmen nicht überein.", "Bestätigungs-E-Mail erneut senden", "Bestätigungs-E-Mail gesendet. Prüfe auch deinen Spam-Ordner."],
   tr: ["Şifrenizi mi unuttunuz?", "Şifreyi sıfırla", "Hesap e-postanızı girin; size bir sıfırlama bağlantısı gönderelim.", "Lütfen geçerli bir e-posta adresi girin.", "Bağlanılamadı. İnternet bağlantınızı kontrol edip tekrar deneyin.", "E-postanızı kontrol edin ve sıfırlama bağlantısını bu cihazda açın.", "Sıfırlama bağlantısı gönder", "Girişe dön", "Yeni şifre seç", "Bu bağlantı geçersiz veya süresi dolmuş.", "Bağlantı doğrulanıyor…", "Hesabınız için yeni bir şifre girin.", "Yeni şifre", "Yeni şifreyi onayla", "Şifreyi güncelle", "Şifre en az 6 karakter olmalıdır.", "Şifreler eşleşmiyor.", "Onay e-postasını yeniden gönder", "Onay e-postası gönderildi. Gelen kutunuzu ve spam klasörünü kontrol edin."],
@@ -30,5 +30,6 @@ const rows: Record<LangCode, string[]> = {
 };
 
 export function authCopy(lang: LangCode): AuthCopy {
-  return Object.fromEntries(keys.map((key, index) => [key, rows[lang][index]])) as AuthCopy;
+  const row = rows[lang] ?? rows.en!;
+  return Object.fromEntries(keys.map((key, index) => [key, row[index]])) as AuthCopy;
 }

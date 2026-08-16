@@ -20,3 +20,22 @@ export function authErrorMessage(error: unknown): string {
     return "Your secure session has expired. Please start again.";
   return "Something went wrong. Please try again.";
 }
+
+/** Accepts either Supabase's implicit-token callback or a PKCE-code callback. */
+export async function createSessionFromUrl(
+  url: string,
+  client: NonNullable<typeof import("./supabase").supabase>,
+) {
+  const parsed = new URL(url.replace("#", "?"));
+  const code = parsed.searchParams.get("code");
+  if (code) {
+    const { error } = await client.auth.exchangeCodeForSession(code);
+    if (error) throw error;
+    return;
+  }
+  const access_token = parsed.searchParams.get("access_token");
+  const refresh_token = parsed.searchParams.get("refresh_token");
+  if (!access_token || !refresh_token) throw new Error("Authentication callback did not contain a session.");
+  const { error } = await client.auth.setSession({ access_token, refresh_token });
+  if (error) throw error;
+}

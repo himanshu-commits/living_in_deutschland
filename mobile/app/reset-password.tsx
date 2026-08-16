@@ -3,28 +3,12 @@ import { router } from "expo-router";
 import { useEffect, useState } from "react";
 import { Text, TextInput, View } from "react-native";
 import { Button, Notice } from "@/components";
-import { authErrorMessage } from "@/auth";
+import { authErrorMessage, createSessionFromUrl } from "@/auth";
 import { authCopy } from "@/auth-copy";
 import { ScreenHeader } from "@/header";
 import { useT } from "@/storage";
 import { supabase } from "@/supabase";
 import { radius, spacing, type, useColors } from "@/theme";
-
-async function acceptRecoveryUrl(url: string) {
-  if (!supabase) throw new Error("Cloud sign-in is not configured for this build.");
-  const parsed = new URL(url.replace("#", "?"));
-  const code = parsed.searchParams.get("code");
-  if (code) {
-    const { error } = await supabase.auth.exchangeCodeForSession(code);
-    if (error) throw error;
-    return;
-  }
-  const access_token = parsed.searchParams.get("access_token");
-  const refresh_token = parsed.searchParams.get("refresh_token");
-  if (!access_token || !refresh_token) throw new Error("This reset link is invalid or has expired.");
-  const { error } = await supabase.auth.setSession({ access_token, refresh_token });
-  if (error) throw error;
-}
 
 export default function ResetPassword() {
   const c = useColors();
@@ -39,7 +23,8 @@ export default function ResetPassword() {
 
   useEffect(() => {
     if (!incomingUrl) return;
-    acceptRecoveryUrl(incomingUrl)
+    if (!supabase) return setError("Cloud sign-in is not configured for this build.");
+    createSessionFromUrl(incomingUrl, supabase)
       .then(() => setReady(true))
       .catch((e: unknown) => setError(authErrorMessage(e)));
   }, [incomingUrl]);
