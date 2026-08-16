@@ -44,7 +44,7 @@ export default function Premium() {
   const storeConfigured = purchasesConfigured();
 
   useEffect(() => {
-    if (!session || isPremium || !storeConfigured) return;
+    if (!session || (isPremium && !__DEV__) || !storeConfigured) return;
     let active = true;
     setLoadingOffer(true);
     loadLifetimePackage(session.user.id)
@@ -68,10 +68,17 @@ export default function Premium() {
       const customerInfo = await buyLifetime(offer);
       if (!hasPremium(customerInfo)) throw new Error("The purchase completed, but Premium was not returned by the store.");
       await grantVerifiedPremium();
-      setMessage("Premium is now active. Thank you!");
+      router.replace({ pathname: "/", params: { premiumResult: "activated" } });
     } catch (error: unknown) {
       const cancelled = typeof error === "object" && error !== null && "userCancelled" in error && error.userCancelled === true;
-      if (!cancelled) setMessage(error instanceof Error ? error.message : "The purchase could not be completed.");
+      if (cancelled) {
+        setMessage("Purchase cancelled. No charge was made.");
+      } else {
+        const detail = typeof error === "object" && error !== null && "message" in error && typeof error.message === "string"
+          ? error.message
+          : "The purchase could not be completed.";
+        setMessage(detail);
+      }
     } finally {
       setBusy(null);
     }
@@ -88,7 +95,7 @@ export default function Premium() {
         return;
       }
       await grantVerifiedPremium();
-      setMessage("Your Premium purchase has been restored.");
+      router.replace({ pathname: "/", params: { premiumResult: "restored" } });
     } catch (error: unknown) {
       setMessage(error instanceof Error ? error.message : "Purchases could not be restored.");
     } finally {
@@ -127,9 +134,12 @@ export default function Premium() {
 
         {!isPremium && !session ? (
           <>
-            <Button label="Log in to continue" onPress={() => router.push("/login")} />
+            <Button
+              label="Continue to lifetime purchase"
+              onPress={() => router.push({ pathname: "/login", params: { returnTo: "premium" } })}
+            />
             <Text style={{ ...type.body, fontSize: 13, color: c.textMuted, textAlign: "center" }}>
-              Free study remains available without an account.
+              Log in or create an account to secure and restore your purchase. Free study remains available without an account.
             </Text>
           </>
         ) : null}
@@ -149,6 +159,20 @@ export default function Premium() {
               disabled={!storeConfigured || busy !== null}
             />
           </>
+        ) : null}
+
+        {__DEV__ && isPremium && session && storeConfigured ? (
+          <Card>
+            <Label>Development testing</Label>
+            <Text style={{ ...type.body, color: c.textMuted, marginVertical: spacing.md }}>
+              Open the Test Store dialog again to verify cancellation and purchase-error handling. This section is excluded from release builds.
+            </Text>
+            <Button
+              label={loadingOffer ? "Loading test product…" : "Test purchase outcomes"}
+              onPress={purchase}
+              disabled={!offer || busy !== null || loadingOffer}
+            />
+          </Card>
         ) : null}
 
         {status === "loading" ? <Notice tone="info">Checking Premium access…</Notice> : null}

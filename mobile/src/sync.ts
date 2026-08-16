@@ -48,7 +48,7 @@ export function useSyncStatus(): SyncStatus {
 }
 
 /** Pulls remote progress once per sign-in, then pushes local changes while signed in. Renders its children as-is. */
-export function SyncEngine({ children }: { children: ReactNode }) {
+export function SyncEngine({ children, enabled = true }: { children: ReactNode; enabled?: boolean }) {
   const { session } = useSession();
   const { ready, progress, marked, mistakes, lastTest, hydrate } = useStore();
   const [status, setStatus] = useState<SyncStatus>("idle");
@@ -59,7 +59,7 @@ export function SyncEngine({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     if (!supabase) return;
-    if (!session) {
+    if (!session || !enabled) {
       pulledFor.current = null;
       setStatus("idle");
       return;
@@ -94,11 +94,11 @@ export function SyncEngine({ children }: { children: ReactNode }) {
     })();
     // only the sign-in transition should trigger a pull
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [session, ready]);
+  }, [session, ready, enabled]);
 
   useEffect(() => {
     if (!supabase) return;
-    if (!session || !ready || pulledFor.current !== session.user.id) return;
+    if (!enabled || !session || !ready || pulledFor.current !== session.user.id) return;
     if (skipNextPush.current) {
       skipNextPush.current = false;
       return;
@@ -110,7 +110,7 @@ export function SyncEngine({ children }: { children: ReactNode }) {
       .then(({ error }) => setStatus(error ? "error" : "synced"));
     // local-change-triggered push; session/ready are read via the guard above, not deps
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [progress, marked, mistakes, lastTest]);
+  }, [progress, marked, mistakes, lastTest, enabled]);
 
   return createElement(SyncCtx.Provider, { value: status }, children);
 }

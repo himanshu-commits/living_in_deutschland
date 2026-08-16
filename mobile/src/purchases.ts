@@ -6,6 +6,9 @@ export const REVENUECAT_ENTITLEMENT_ID = process.env.EXPO_PUBLIC_REVENUECAT_ENTI
 let configuredUserId: string | null = null;
 
 function platformApiKey(): string | undefined {
+  if (__DEV__ && process.env.EXPO_PUBLIC_REVENUECAT_TEST_API_KEY) {
+    return process.env.EXPO_PUBLIC_REVENUECAT_TEST_API_KEY;
+  }
   if (Platform.OS === "ios") return process.env.EXPO_PUBLIC_REVENUECAT_IOS_API_KEY;
   if (Platform.OS === "android") return process.env.EXPO_PUBLIC_REVENUECAT_ANDROID_API_KEY;
   return undefined;
@@ -49,4 +52,9 @@ export async function buyLifetime(item: PurchasesPackage): Promise<CustomerInfo>
 export async function restorePremium(userId: string): Promise<CustomerInfo> {
   await ensureConfigured(userId);
   return Purchases.restorePurchases();
+}
+
+export async function getPremiumCustomerInfo(userId: string): Promise<CustomerInfo> {
+  await ensureConfigured(userId);
+  return Purchases.getCustomerInfo();
 }

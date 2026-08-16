@@ -1,5 +1,6 @@
-import { Redirect, router } from "expo-router";
-import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Redirect, router, useLocalSearchParams } from "expo-router";
+import { useEffect, useRef } from "react";
+import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { analyse } from "@/analysis";
 import { Card, Label, ProgressBar } from "@/components";
 import { ScreenHeader } from "@/header";
@@ -119,11 +120,27 @@ function Stat({ label, value, tone }: { label: string; value: number; tone: stri
 }
 
 export default function Home() {
+  const { premiumResult } = useLocalSearchParams<{ premiumResult?: string }>();
+  const handledPremiumResult = useRef<string | null>(null);
   const c = useColors();
   const { ready, lang, state, marked, mistakes, lastTest, progress } = useStore();
   const { t, fill } = useT();
   const { isPremium, status: entitlementStatus } = useEntitlement();
   const freeExamsRemaining = useFreeExamRemaining(isPremium, entitlementStatus === "loading");
+
+  useEffect(() => {
+    if (!ready || !lang || !state || !premiumResult || handledPremiumResult.current === premiumResult) return;
+    handledPremiumResult.current = premiumResult;
+    const restored = premiumResult === "restored";
+    Alert.alert(
+      restored ? "Premium restored" : "Welcome to Premium!",
+      restored
+        ? "Your lifetime Premium access has been restored on this device."
+        : "Premium is active. Ads are removed and all Premium features are now unlocked.",
+      [{ text: "Start studying", onPress: () => router.replace("/") }],
+      { cancelable: false },
+    );
+  }, [lang, premiumResult, ready, state]);
 
   if (!ready) return <View style={{ flex: 1, backgroundColor: c.bg }} />;
   // language decides the whole interface, so it is asked before anything else

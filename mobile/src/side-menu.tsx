@@ -99,7 +99,7 @@ function SideMenu({ x, open, onClose }: { x: Animated.Value; open: boolean; onCl
         </View>
         <View style={{ padding: spacing.lg, gap: spacing.xs }}>
           <MenuItem label={t.homeLabel} onPress={() => go("/")} />
-          <MenuItem label={session ? t.profile : t.login} onPress={() => go(session ? "/profile" : "/login")} />
+          {session ? <MenuItem label={t.profile} onPress={() => go("/profile")} /> : null}
           <MenuItem label={isPremium ? "★ Premium active" : "☆ Premium"} onPress={() => go("/premium")} />
           <MenuItem label={t.settings} onPress={() => go("/settings")} />
           <MenuItem label={t.help} onPress={() => go("/help")} />

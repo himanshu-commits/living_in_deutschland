@@ -1,4 +1,4 @@
-import { router } from "expo-router";
+import { router, useLocalSearchParams } from "expo-router";
 import { useState } from "react";
 import { Pressable, StyleSheet, Text, TextInput, View } from "react-native";
 import { Button, Notice } from "@/components";
@@ -62,6 +62,7 @@ function Field({
 }
 
 export default function Login() {
+  const { returnTo } = useLocalSearchParams<{ returnTo?: string }>();
   const c = useColors();
   const { t, lang } = useT();
   const a = authCopy(lang);
@@ -73,6 +74,12 @@ export default function Login() {
   const [busy, setBusy] = useState(false);
   const [pendingConfirmation, setPendingConfirmation] = useState<string | null>(null);
   const [resent, setResent] = useState(false);
+
+  function finishAuthentication() {
+    // Only accept known internal destinations; never navigate to an arbitrary
+    // URL supplied through route parameters.
+    router.replace(returnTo === "premium" ? "/premium" : "/");
+  }
 
   async function submit() {
     setError(null);
@@ -106,7 +113,7 @@ export default function Login() {
           setPendingConfirmation(normalizedEmail);
           return;
         }
-        router.replace("/");
+        finishAuthentication();
         return;
       }
       const { error } = await supabase.auth.signInWithPassword({ email: normalizedEmail, password });
@@ -114,7 +121,7 @@ export default function Login() {
         setError(authErrorMessage(error));
         return;
       }
-      router.replace("/");
+      finishAuthentication();
     } catch {
       setError(a.connect);
     } finally {

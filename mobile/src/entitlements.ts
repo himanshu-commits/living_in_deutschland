@@ -3,6 +3,7 @@ import { AppState } from "react-native";
 import { createContext, createElement, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
 import { useSession } from "./sync";
 import { supabase } from "./supabase";
+import { getPremiumCustomerInfo, hasPremium, purchasesConfigured } from "./purchases";
 
 export const PREMIUM_CACHE_KEY = "lid.entitlement.premium";
 
@@ -28,6 +29,22 @@ export function EntitlementProvider({ children }: { children: ReactNode }) {
     }
 
     const cachedPremium = (await AsyncStorage.getItem(PREMIUM_CACHE_KEY)) === "1";
+
+    // RevenueCat is authoritative for store purchases and restores. Checking it
+    // here keeps a lifetime unlock active after relaunch and on a new device.
+    if (purchasesConfigured()) {
+      try {
+        const customerInfo = await getPremiumCustomerInfo(session.user.id);
+        if (hasPremium(customerInfo)) {
+          await AsyncStorage.setItem(PREMIUM_CACHE_KEY, "1");
+          setStatus("premium");
+          return;
+        }
+      } catch {
+        // Fall through to the server row or the last verified offline value.
+      }
+    }
+
     const { data, error } = await supabase
       .from("entitlements")
       .select("active")
