@@ -109,7 +109,7 @@ function SideMenu({ x, open, onClose }: { x: Animated.Value; open: boolean; onCl
   );
 }
 
-/** The ☰ button, shown top-left in every screen header. */
+/** The ☰ button shown in the Home screen header. Subpages use a back arrow. */
 export function SideMenuButton() {
   const c = useColors();
   const { toggle } = useSideMenu();

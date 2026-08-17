@@ -1,6 +1,8 @@
 import { Redirect, router } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { ScreenHeader } from "@/header";
+import { useEntitlement } from "@/entitlements";
+import { usePremiumGate } from "@/premium";
 import { TOPICS, type TopicGroup } from "@/topics";
 import { useStore, useT } from "@/storage";
 import { layout, radius, spacing, type, useColors } from "@/theme";
@@ -11,6 +13,8 @@ export default function Topics() {
   const c = useColors();
   const { ready, lang, state } = useStore();
   const { t } = useT();
+  const { isPremium } = useEntitlement();
+  const premiumGate = usePremiumGate();
 
   if (!ready) return <View style={{ flex: 1, backgroundColor: c.bg }} />;
   if (!lang) return <Redirect href="/language" />;
@@ -30,53 +34,80 @@ export default function Topics() {
         }}
       >
         <Text style={{ ...type.body, color: c.textMuted }}>{t.topicsNote}</Text>
-        {groups.map((group) => (
-          <View key={group} style={{ gap: spacing.sm }}>
-            <Text style={{ ...type.label, color: c.textMuted, textTransform: "uppercase" }}>
-              {t.topicGroups[group]}
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel="Adaptive weak-topic drill"
+          onPress={() => premiumGate("adaptive", () => router.push("/adaptive"))}
+          style={({ pressed }) => ({
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: spacing.md,
+            padding: spacing.lg,
+            borderRadius: radius.lg,
+            borderWidth: StyleSheet.hairlineWidth,
+            borderColor: c.accent,
+            backgroundColor: c.surface,
+            opacity: pressed ? 0.8 : 1,
+          })}
+        >
+          <View style={{ flex: 1 }}>
+            <Text style={{ ...type.body, fontWeight: "700", color: c.text }}>
+              Adaptive weak-topic drill
             </Text>
-            {TOPICS.filter((entry) => entry.group === group).map((entry) => (
+            <Text style={{ ...type.body, fontSize: 13, color: c.textMuted }}>
+              {isPremium
+                ? "20 questions selected from the topics that need work"
+                : "Premium · Automatically focus on your weaker topics"}
+            </Text>
+          </View>
+          <Text style={{ ...type.heading, fontSize: 20, color: c.accent }}>
+            {isPremium ? "20" : "🔒"}
+          </Text>
+        </Pressable>
+        {groups.map((group) => {
+          const entries = TOPICS.filter((entry) => entry.group === group);
+          const questionCount = entries.reduce((sum, entry) => sum + entry.questionNumbers.length, 0);
+          return (
+            <View key={group} style={{ gap: spacing.sm }}>
+              <View style={{ flexDirection: "row", alignItems: "baseline", justifyContent: "space-between" }}>
+                <Text style={{ ...type.label, color: c.textMuted, textTransform: "uppercase" }}>
+                  {t.topicGroups[group]}
+                </Text>
+                <Text style={{ ...type.label, fontSize: 11, color: c.textMuted }}>
+                  {questionCount} {t.questionsLabel}
+                </Text>
+              </View>
               <View
-                key={entry.id}
                 style={{
-                  gap: spacing.md,
-                  padding: spacing.lg,
+                  overflow: "hidden",
                   borderRadius: radius.lg,
                   borderWidth: StyleSheet.hairlineWidth,
                   borderColor: c.border,
                   backgroundColor: c.surface,
                 }}
               >
-                <View>
-                  <Text style={{ ...type.body, fontWeight: "700", color: c.text }}>
-                    {entry.name}
-                  </Text>
-                  <Text style={{ ...type.body, fontSize: 13, color: c.textMuted }}>
-                    {entry.questionNumbers.length} {t.questionsLabel}
-                  </Text>
-                </View>
-                <View style={{ flexDirection: "row", gap: spacing.sm }}>
-                  <TopicAction
-                    label={t.readTopic}
-                    onPress={() =>
+                {entries.map((entry, index) => (
+                  <TopicRow
+                    key={entry.id}
+                    name={entry.name}
+                    count={entry.questionNumbers.length}
+                    divided={index > 0}
+                    readLabel={t.readTopic}
+                    practiceLabel={t.practice}
+                    questionsLabel={t.questionsLabel}
+                    onRead={() =>
                       router.push({ pathname: "/topic", params: { id: entry.id, mode: "read" } })
                     }
-                  />
-                  <TopicAction
-                    label={t.practice}
-                    filled
-                    onPress={() =>
-                      router.push({
-                        pathname: "/topic",
-                        params: { id: entry.id, mode: "attempt" },
-                      })
+                    onPractice={() =>
+                      router.push({ pathname: "/topic", params: { id: entry.id, mode: "attempt" } })
                     }
                   />
-                </View>
+                ))}
               </View>
-            ))}
-          </View>
-        ))}
+            </View>
+          );
+        })}
         {state && (
           <View style={{ gap: spacing.sm }}>
             <Text style={{ ...type.label, color: c.textMuted, textTransform: "uppercase" }}>
@@ -84,38 +115,26 @@ export default function Topics() {
             </Text>
             <View
               style={{
-                gap: spacing.md,
-                padding: spacing.lg,
+                overflow: "hidden",
                 borderRadius: radius.lg,
                 borderWidth: StyleSheet.hairlineWidth,
                 borderColor: c.border,
                 backgroundColor: c.surface,
               }}
             >
-              <View>
-                <Text style={{ ...type.body, fontWeight: "700", color: c.text }}>{state}</Text>
-                <Text style={{ ...type.body, fontSize: 13, color: c.textMuted }}>
-                  10 {t.questionsLabel}
-                </Text>
-              </View>
-              <View style={{ flexDirection: "row", gap: spacing.sm }}>
-                <TopicAction
-                  label={t.readTopic}
-                  onPress={() =>
-                    router.push({ pathname: "/topic", params: { id: "state", mode: "read" } })
-                  }
-                />
-                <TopicAction
-                  label={t.practice}
-                  filled
-                  onPress={() =>
-                    router.push({
-                      pathname: "/topic",
-                      params: { id: "state", mode: "attempt" },
-                    })
-                  }
-                />
-              </View>
+              <TopicRow
+                name={state}
+                count={10}
+                readLabel={t.readTopic}
+                practiceLabel={t.practice}
+                questionsLabel={t.questionsLabel}
+                onRead={() =>
+                  router.push({ pathname: "/topic", params: { id: "state", mode: "read" } })
+                }
+                onPractice={() =>
+                  router.push({ pathname: "/topic", params: { id: "state", mode: "attempt" } })
+                }
+              />
             </View>
           </View>
         )}
@@ -124,34 +143,75 @@ export default function Topics() {
   );
 }
 
-function TopicAction({
-  label,
-  filled,
-  onPress,
+function TopicRow({
+  name,
+  count,
+  divided,
+  readLabel,
+  practiceLabel,
+  questionsLabel,
+  onRead,
+  onPractice,
 }: {
-  label: string;
-  filled?: boolean;
-  onPress: () => void;
+  name: string;
+  count: number;
+  divided?: boolean;
+  readLabel: string;
+  practiceLabel: string;
+  questionsLabel: string;
+  onRead: () => void;
+  onPractice: () => void;
 }) {
+  const c = useColors();
+  return (
+    <View
+      style={{
+        paddingHorizontal: spacing.lg,
+        paddingVertical: spacing.md,
+        gap: spacing.sm,
+        borderTopWidth: divided ? StyleSheet.hairlineWidth : 0,
+        borderTopColor: c.border,
+      }}
+    >
+      <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm }}>
+        <Text numberOfLines={2} style={{ ...type.body, fontWeight: "700", color: c.text, flex: 1 }}>
+          {name}
+        </Text>
+        <Text style={{ ...type.label, fontSize: 11, color: c.textMuted }}>
+          {count} {questionsLabel}
+        </Text>
+      </View>
+      <View style={{ flexDirection: "row", justifyContent: "flex-end", gap: spacing.sm }}>
+        <CompactAction label={readLabel} onPress={onRead} />
+        <CompactAction label={practiceLabel} filled onPress={onPractice} />
+      </View>
+    </View>
+  );
+}
+
+function CompactAction({ label, filled, onPress }: { label: string; filled?: boolean; onPress: () => void }) {
   const c = useColors();
   return (
     <Pressable
       accessibilityRole="button"
       accessibilityLabel={label}
       onPress={onPress}
+      hitSlop={4}
       style={({ pressed }) => ({
-        flex: 1,
+        minWidth: 88,
         alignItems: "center",
-        paddingVertical: spacing.sm,
+        paddingVertical: 7,
         paddingHorizontal: spacing.md,
         borderRadius: radius.pill,
         borderWidth: StyleSheet.hairlineWidth,
         borderColor: filled ? c.accent : c.border,
-        backgroundColor: filled ? c.accent : c.surface,
-        opacity: pressed ? 0.8 : 1,
+        backgroundColor: filled ? c.accent : "transparent",
+        opacity: pressed ? 0.75 : 1,
       })}
     >
-      <Text style={{ ...type.label, color: filled ? c.accentText : c.text }}>{label}</Text>
+      <Text style={{ ...type.label, fontSize: 11, color: filled ? c.accentText : c.text }}>
+        {label}
+      </Text>
     </Pressable>
   );
 }

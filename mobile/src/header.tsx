@@ -1,3 +1,4 @@
+import { router, usePathname } from "expo-router";
 import type { ReactNode } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -28,6 +29,19 @@ export function ScreenHeader({
 }) {
   const c = useColors();
   const insets = useSafeAreaInsets();
+  const pathname = usePathname();
+
+  function goBack() {
+    if (router.canGoBack()) router.back();
+    else router.replace("/");
+  }
+
+  const defaultLeft = menu
+    ? pathname === "/"
+      ? <SideMenuButton />
+      : <HeaderBackButton label="Back" onPress={goBack} />
+    : null;
+
   return (
     <View
       style={{
@@ -44,7 +58,7 @@ export function ScreenHeader({
       }}
     >
       <View style={{ minWidth: 40, alignItems: "flex-start", flexShrink: 0 }}>
-        {left ?? (menu ? <SideMenuButton /> : null)}
+        {left ?? defaultLeft}
       </View>
       <Text
         style={{ ...type.heading, color: c.text, flex: 1, minWidth: 0, textAlign: "center" }}
