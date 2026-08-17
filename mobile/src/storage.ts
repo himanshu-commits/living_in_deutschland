@@ -2,7 +2,13 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createContext, createElement, useContext, useEffect, useState, type ReactNode } from "react";
 import { fill, isRTL, strings, type LangCode } from "./i18n";
 
-export type Stat = { seen: number; correct: number; wrong: number };
+export type Stat = {
+  seen: number;
+  correct: number;
+  wrong: number;
+  /** Consecutive correct answers; absent in older local/cloud snapshots. */
+  streak?: number;
+};
 export type Progress = Record<string, Stat>;
 export type TestResult = { correct: number; total: number; at: number };
 /** null = follow the system appearance; set once the user overrides it */
@@ -151,6 +157,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
             seen: before.seen + 1,
             correct: before.correct + (correct ? 1 : 0),
             wrong: before.wrong + (correct ? 0 : 1),
+            streak: correct ? (before.streak ?? 0) + 1 : 0,
           },
         };
         AsyncStorage.setItem(KEY_PROGRESS, JSON.stringify(next)).catch(() => {});

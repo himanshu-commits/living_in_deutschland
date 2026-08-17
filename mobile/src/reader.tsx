@@ -415,12 +415,16 @@ export function QuestionList({
   filters,
   empty,
   mode = "read",
+  onComplete,
+  completeLabel = "Finish",
 }: {
   title: string;
   questions: Question[];
   filters?: { key: string; label: string; test: (q: Question) => boolean }[];
   empty?: string;
   mode?: Mode;
+  onComplete?: (result: { correct: number; total: number }) => void;
+  completeLabel?: string;
 }) {
   const c = useColors();
   const insets = useSafeAreaInsets();
@@ -588,11 +592,19 @@ export function QuestionList({
                 </Text>
               )}
             </Pressable>
-            <NavButton
-              label={t.next}
-              disabled={index >= shown.length - 1}
-              onPress={() => go(1)}
-            />
+            {onComplete && answeredCount === shown.length ? (
+              <NavButton
+                label={completeLabel}
+                disabled={false}
+                onPress={() => onComplete({ correct: rightCount, total: shown.length })}
+              />
+            ) : (
+              <NavButton
+                label={t.next}
+                disabled={index >= shown.length - 1}
+                onPress={() => go(1)}
+              />
+            )}
           </View>
 
           <Modal

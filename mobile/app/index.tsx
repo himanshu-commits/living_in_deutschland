@@ -10,6 +10,7 @@ import { layout, radius, spacing, type, useColors } from "@/theme";
 import { useFreeExamRemaining } from "@/exam-limits";
 import { AdBanner } from "@/ads";
 import { useEntitlement } from "@/entitlements";
+import { usePremiumGate } from "@/premium";
 
 function Tile({
   title,
@@ -126,6 +127,7 @@ export default function Home() {
   const { ready, lang, state, marked, mistakes, lastTest, progress } = useStore();
   const { t, fill } = useT();
   const { isPremium, status: entitlementStatus } = useEntitlement();
+  const premiumGate = usePremiumGate();
   const freeExamsRemaining = useFreeExamRemaining(isPremium, entitlementStatus === "loading");
 
   useEffect(() => {
@@ -212,6 +214,26 @@ export default function Home() {
             </Text>
           </View>
         )}
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel="Open advanced readiness analytics"
+          onPress={() => premiumGate("analytics", () => router.push("/analytics"))}
+          style={({ pressed }) => ({
+            flexDirection: "row",
+            justifyContent: "space-between",
+            alignItems: "center",
+            borderTopWidth: StyleSheet.hairlineWidth,
+            borderTopColor: c.border,
+            marginTop: spacing.lg,
+            paddingTop: spacing.md,
+            opacity: pressed ? 0.65 : 1,
+          })}
+        >
+          <Text style={{ ...type.label, color: c.accent }}>
+            Advanced analytics {isPremium ? "" : "· Premium"}
+          </Text>
+          <Text style={{ ...type.body, color: c.accent }}>→</Text>
+        </Pressable>
       </Card>
 
       <Tile
