@@ -60,11 +60,9 @@ assets/
 npm run data     # ../.venv/bin/python tools/export_app_data.py
 ```
 
-## Known gaps
+## Current content status
 
-- **Picture questions have no pictures yet.** 36 questions show numbered options
-  whose images live only in the source PDF; the app flags them inline. Extracting
-  and binding those images is the next data task.
-- **78 answers are unverified** and are flagged in the UI. They come from a single
-  source rather than two agreeing ones. See `../data/review-queue.md`.
-- No spaced repetition, translations or audio yet — see the project plan.
+- All 36 picture questions include their bundled images.
+- All 460 answers are verified.
+- Translations and text-to-speech audio are implemented.
+- German and English explanations are available as Premium learning support.
