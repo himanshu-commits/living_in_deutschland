@@ -113,9 +113,9 @@ function UtilityPill({
 function Stat({ label, value, tone }: { label: string; value: number; tone: string }) {
   const c = useColors();
   return (
-    <View>
-      <Text style={{ ...type.heading, ...type.mono, fontSize: 19, color: tone }}>{value}</Text>
-      <Text style={{ ...type.label, color: c.textMuted }}>{label}</Text>
+    <View style={{ flex: 1, alignItems: "center", gap: 1 }}>
+      <Text style={{ ...type.heading, ...type.mono, fontSize: 17, color: tone }}>{value}</Text>
+      <Text numberOfLines={1} style={{ ...type.label, fontSize: 10, color: c.textMuted }}>{label}</Text>
     </View>
   );
 }
@@ -167,74 +167,103 @@ export default function Home() {
           paddingBottom: spacing.xxl,
         }}
       >
-        <Card>
-        <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
-          <Label>{t.readiness}</Label>
-          <Text style={{ ...type.label, color: a.ready ? c.correct : c.textMuted }}>
-            {a.ready ? t.readyYes : t.readyNo}
-          </Text>
-        </View>
+        <Card style={{ padding: spacing.md }}>
+          <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.md }}>
+            <View
+              style={{
+                width: 72,
+                height: 72,
+                borderRadius: 36,
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: a.ready ? c.correctBg : c.surfaceAlt,
+                borderWidth: 5,
+                borderColor: a.ready ? c.correct : c.accent,
+              }}
+            >
+              <Text style={{ ...type.heading, ...type.mono, fontSize: 25, color: a.ready ? c.correct : c.text }}>
+                {a.projected}
+              </Text>
+              <Text style={{ ...type.label, fontSize: 9, color: c.textMuted }}>/ {EXAM.general + EXAM.state}</Text>
+            </View>
 
-        <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm, marginVertical: spacing.sm }}>
-          <Text style={{ ...type.title, ...type.mono, fontSize: 46, color: a.ready ? c.correct : c.text }}>
-            {a.projected}
-          </Text>
-          <Text style={{ ...type.heading, color: c.textMuted }}>/ {EXAM.general + EXAM.state}</Text>
-        </View>
+            <View style={{ flex: 1, minWidth: 0, gap: spacing.xs }}>
+              <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "space-between", gap: spacing.sm }}>
+                <Label>{t.readiness}</Label>
+                <Text style={{ ...type.label, fontSize: 11, color: a.ready ? c.correct : c.textMuted }}>
+                  {a.ready ? t.readyYes : t.readyNo}
+                </Text>
+              </View>
+              <ProgressBar
+                value={a.projected / (EXAM.general + EXAM.state)}
+                passMark={EXAM.pass / (EXAM.general + EXAM.state)}
+              />
+              <Text numberOfLines={2} style={{ ...type.body, fontSize: 11, lineHeight: 16, color: c.textMuted }}>
+                {fill(t.basedOn, { n: a.attempted, total: a.pool })}
+                {a.accuracy !== null ? ` · ${fill(t.accuracy, { p: Math.round(a.accuracy * 100) })}` : ""}
+                {` · ${t.passAt}`}
+              </Text>
+            </View>
+          </View>
 
-        <ProgressBar
-          value={a.projected / (EXAM.general + EXAM.state)}
-          passMark={EXAM.pass / (EXAM.general + EXAM.state)}
-        />
-        <Text style={{ ...type.body, fontSize: 13, color: c.textMuted, marginTop: spacing.sm }}>
-          {t.passAt} · {fill(t.basedOn, { n: a.attempted, total: a.pool })}
-          {a.accuracy !== null ? ` · ${fill(t.accuracy, { p: Math.round(a.accuracy * 100) })}` : ""}
-        </Text>
-
-        <View style={{ flexDirection: "row", gap: spacing.lg, marginTop: spacing.lg }}>
-          <Stat label={t.strong} value={a.strong} tone={c.correct} />
-          <Stat label={t.shaky} value={a.shaky} tone={c.wrong} />
-          <Stat label={t.unseen} value={a.unseen} tone={c.textMuted} />
-        </View>
-
-        {lastTest && (
           <View
             style={{
               flexDirection: "row",
-              justifyContent: "space-between",
-              borderTopWidth: StyleSheet.hairlineWidth,
-              borderTopColor: c.border,
-              marginTop: spacing.lg,
-              paddingTop: spacing.md,
+              marginTop: spacing.md,
+              paddingVertical: spacing.sm,
+              borderRadius: radius.md,
+              backgroundColor: c.surfaceAlt,
             }}
           >
-            <Text style={{ ...type.body, fontSize: 13, color: c.textMuted }}>{t.lastTest}</Text>
-            <Text style={{ ...type.body, fontSize: 13, fontWeight: "600", color: passed ? c.correct : c.wrong }}>
-              {lastTest.correct} / {lastTest.total} · {passed ? t.passed : t.notPassed}
-            </Text>
+            <Stat label={t.strong} value={a.strong} tone={c.correct} />
+            <Stat label={t.shaky} value={a.shaky} tone={c.wrong} />
+            <Stat label={t.unseen} value={a.unseen} tone={c.textMuted} />
           </View>
-        )}
-        <Pressable
-          accessibilityRole="button"
-          accessibilityLabel="Open advanced readiness analytics"
-          onPress={() => premiumGate("analytics", () => router.push("/analytics"))}
-          style={({ pressed }) => ({
-            flexDirection: "row",
-            justifyContent: "space-between",
-            alignItems: "center",
-            borderTopWidth: StyleSheet.hairlineWidth,
-            borderTopColor: c.border,
-            marginTop: spacing.lg,
-            paddingTop: spacing.md,
-            opacity: pressed ? 0.65 : 1,
-          })}
-        >
-          <Text style={{ ...type.label, color: c.accent }}>
-            Advanced analytics {isPremium ? "" : "· Premium"}
-          </Text>
-          <Text style={{ ...type.body, color: c.accent }}>→</Text>
-        </Pressable>
-      </Card>
+
+          <View
+            style={{
+              gap: spacing.sm,
+              borderTopWidth: StyleSheet.hairlineWidth,
+              borderTopColor: c.border,
+              marginTop: spacing.sm,
+              paddingTop: spacing.sm,
+            }}
+          >
+            {lastTest ? (
+              <Text style={{ ...type.body, fontSize: 11, color: passed ? c.correct : c.wrong }}>
+                {t.lastTest}: {lastTest.correct}/{lastTest.total} · {passed ? t.passed : t.notPassed}
+              </Text>
+            ) : null}
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel={isPremium ? "Open advanced readiness analytics" : "Unlock Premium readiness analytics"}
+              onPress={() => premiumGate("analytics", () => router.push("/analytics"))}
+              style={({ pressed }) => ({
+                flexDirection: "row",
+                alignItems: "center",
+                gap: spacing.sm,
+                paddingVertical: isPremium ? spacing.xs : 10,
+                paddingHorizontal: isPremium ? 0 : spacing.md,
+                borderRadius: radius.md,
+                backgroundColor: isPremium ? "transparent" : c.accent,
+                opacity: pressed ? 0.75 : 1,
+              })}
+            >
+              {!isPremium && <Text style={{ fontSize: 18, color: c.accentText }}>★</Text>}
+              <View style={{ flex: 1 }}>
+                <Text style={{ ...type.label, fontSize: isPremium ? 11 : 12, color: isPremium ? c.accent : c.accentText }}>
+                  {isPremium ? "Open advanced analytics" : "Unlock your readiness plan"}
+                </Text>
+                {!isPremium && (
+                  <Text style={{ ...type.body, fontSize: 11, lineHeight: 15, color: c.accentText, opacity: 0.8 }}>
+                    See weak topics and exactly what to practise next
+                  </Text>
+                )}
+              </View>
+              <Text style={{ ...type.body, color: isPremium ? c.accent : c.accentText }}>→</Text>
+            </Pressable>
+          </View>
+        </Card>
 
       <Tile
         title={t.allQuestions}
