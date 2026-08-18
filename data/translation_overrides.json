@@ -58022,7 +58022,7 @@
     "le port d'armes",
     "la loi du plus fort",
     "la liberté d'expression",
-    "la justice privée"
+    "le fait de se faire justice soi-même"
    ]
   },
   "ALL-005": {
@@ -58073,7 +58073,7 @@
   "ALL-010": {
    "question": "Qu'est-ce qui est compatible avec la Loi fondamentale allemande ?",
    "options": [
-    "la peine de coups de bâton",
+    "les châtiments corporels",
     "la torture",
     "la peine de mort",
     "l'amende"
@@ -58359,7 +58359,7 @@
    ]
   },
   "ALL-042": {
-   "question": "Qui décide d'une nouvelle loi en Allemagne ?",
+   "question": "Qui adopte une nouvelle loi en Allemagne ?",
    "options": [
     "le gouvernement",
     "le Parlement",
@@ -58386,7 +58386,7 @@
    ]
   },
   "ALL-045": {
-   "question": "À quelle assurance appartient l'assurance dépendance ?",
+   "question": "De quel régime d'assurance relève l'assurance dépendance ?",
    "options": [
     "l'assurance sociale",
     "l'assurance accidents",
@@ -58821,9 +58821,9 @@
    "question": "Plus un parti obtient de « secondes voix » lors d'une élection au Bundestag, plus …",
    "options": [
     "il peut avoir de premières voix en moins.",
-    "les candidats directs du parti entrent au parlement.",
+    "plus de candidats directs du parti entrent au parlement.",
     "le risque de devoir former une coalition est grand.",
-    "le parti obtient de sièges au parlement."
+    "le parti obtient plus de sièges au parlement."
    ]
   },
   "ALL-094": {
@@ -59055,7 +59055,7 @@
    "question": "Les élections en Allemagne sont libres. Qu'est-ce que cela signifie ?",
    "options": [
     "Toutes les personnes condamnées pour un délit n'ont pas le droit de voter.",
-    "Si je souhaite aller voter, mon employeuse/employeur doit me libérer.",
+    "Si je souhaite aller voter, mon employeuse ou mon employeur doit m'accorder le temps nécessaire.",
     "Chaque personne peut décider sans contrainte si elle souhaite voter et pour qui elle souhaite voter.",
     "Je peux décider librement où je souhaite aller voter."
    ]
@@ -59241,7 +59241,7 @@
    ]
   },
   "ALL-140": {
-   "question": "Que fait une échevine/un échevin en Allemagne ? Elle/Il …",
+   "question": "Que fait une juge citoyenne/un juge citoyen non professionnel en Allemagne ? Elle/Il …",
    "options": [
     "décide avec les juges de la culpabilité et de la peine.",
     "donne des conseils juridiques aux citoyennes/citoyens.",
@@ -59254,7 +59254,7 @@
    "options": [
     "une avocate/un avocat",
     "une juge/un juge",
-    "une échevine/un échevin",
+    "une juge citoyenne/un juge citoyen non professionnel",
     "une procureure/un procureur"
    ]
   },
@@ -59316,7 +59316,7 @@
    "question": "Quelle est une mission de la police en Allemagne ?",
    "options": [
     "défendre le pays",
-    "surveiller les citoyennes et citoyens sur écoute",
+    "mettre les citoyennes et citoyens sur écoute",
     "adopter les lois",
     "surveiller le respect des lois"
    ]
@@ -59331,7 +59331,7 @@
    ]
   },
   "ALL-150": {
-   "question": "Une échevine/un échevin en Allemagne est …",
+   "question": "Une juge citoyenne/un juge citoyen non professionnel en Allemagne est …",
    "options": [
     "la suppléante/le suppléant du chef de la ville.",
     "une juge/un juge non professionnel(le) bénévole.",
@@ -59655,7 +59655,7 @@
    ]
   },
   "ALL-186": {
-   "question": "En 1953, il y a eu un soulèvement en RDA, dont le souvenir a longtemps été marqué par un jour férié en République fédérale d'Allemagne. Quand était-ce ?",
+   "question": "En 1953, il y a eu un soulèvement en RDA, dont le souvenir a longtemps été marqué par un jour férié en République fédérale d'Allemagne. À quelle date a-t-il eu lieu ?",
    "options": [
     "Le 1er mai",
     "Le 17 juin",
@@ -59961,7 +59961,7 @@
    ]
   },
   "ALL-220": {
-   "question": "Le 27 janvier est en Allemagne un jour de commémoration officiel. À quoi ce jour rappelle-t-il ?",
+   "question": "Le 27 janvier est en Allemagne une journée officielle de commémoration. Que commémore cette journée ?",
    "options": [
     "À la fin de la Seconde Guerre mondiale",
     "À l'adoption de la Loi fondamentale",
@@ -59979,7 +59979,7 @@
    ]
   },
   "ALL-222": {
-   "question": "Quel pays est un pays voisin de l'Allemagne ?",
+   "question": "Quel pays est voisin de l'Allemagne ?",
    "options": [
     "La Hongrie",
     "Le Portugal",
@@ -59988,7 +59988,7 @@
    ]
   },
   "ALL-223": {
-   "question": "Quel pays est un pays voisin de l'Allemagne ?",
+   "question": "Quel pays est voisin de l'Allemagne ?",
    "options": [
     "La Roumanie",
     "La Bulgarie",
@@ -60024,7 +60024,7 @@
    ]
   },
   "ALL-227": {
-   "question": "Quel pays est un pays voisin de l'Allemagne ?",
+   "question": "Quel pays est voisin de l'Allemagne ?",
    "options": [
     "la Finlande",
     "le Danemark",
@@ -60042,7 +60042,7 @@
    ]
   },
   "ALL-229": {
-   "question": "Quel pays est un pays voisin de l'Allemagne ?",
+   "question": "Quel pays est voisin de l'Allemagne ?",
    "options": [
     "l'Espagne",
     "la Bulgarie",
@@ -60078,7 +60078,7 @@
    ]
   },
   "ALL-233": {
-   "question": "Quel pays est un pays voisin de l'Allemagne ?",
+   "question": "Quel pays est voisin de l'Allemagne ?",
    "options": [
     "la Tchéquie",
     "la Bulgarie",
@@ -60096,7 +60096,7 @@
    ]
   },
   "ALL-235": {
-   "question": "L'ancien président français François Mitterrand et l'ancien chancelier fédéral allemand Helmut Kohl commémorent ensemble à Verdun les morts des deux guerres mondiales. Quel objectif de l'Union européenne apparaît clairement lors de cette rencontre ? © Bundesregierung/Richard Schulze-Vorberg",
+   "question": "Le président français de l'époque François Mitterrand et le chancelier fédéral allemand de l'époque Helmut Kohl commémorent ensemble à Verdun les morts des deux guerres mondiales. Quel objectif de l'Union européenne apparaît clairement lors de cette rencontre ? © Bundesregierung/Richard Schulze-Vorberg",
    "options": [
     "l'amitié entre l'Angleterre et l'Allemagne",
     "la liberté de voyager dans tous les pays de l'UE",
@@ -60150,7 +60150,7 @@
    ]
   },
   "ALL-241": {
-   "question": "Madame Seger attend un enfant. Que doit-elle faire pour recevoir l'allocation parentale ?",
+   "question": "Madame Seger vient d'avoir un enfant. Que doit-elle faire pour recevoir l'allocation parentale ?",
    "options": [
     "Elle doit écrire à sa caisse d'assurance maladie.",
     "Elle doit déposer une demande auprès du bureau de l'allocation parentale.",
@@ -60159,7 +60159,7 @@
    ]
   },
   "ALL-242": {
-   "question": "Qui décide en Allemagne si un enfant va à la maternelle ?",
+   "question": "Qui décide en Allemagne si un enfant va au jardin d'enfants ?",
    "options": [
     "l'État",
     "les Länder",
@@ -60290,11 +60290,11 @@
     "d'une autorisation de la police",
     "d'une autorisation d'un parti",
     "d'une autorisation du bureau de déclaration de domicile",
-    "d'une licence de débit de boissons délivrée par l'autorité compétente"
+    "d'une autorisation d'exploiter un établissement de restauration, délivrée par l'autorité compétente"
    ]
   },
   "ALL-257": {
-   "question": "Une femme adulte souhaite obtenir son baccalauréat (Abitur) a posteriori en Allemagne. Elle peut le faire dans …",
+   "question": "Une femme adulte souhaite reprendre des études pour obtenir l'Abitur en Allemagne. Elle peut le faire dans …",
    "options": [
     "une haute école (Hochschule).",
     "un lycée du soir (Abendgymnasium).",
@@ -60306,7 +60306,7 @@
    "question": "Que peut faire le bureau de la jeunesse (Jugendamt) en Allemagne ?",
    "options": [
     "Il décide quelle école l'enfant fréquente.",
-    "Il peut retirer de sa famille un enfant qui est battu ou qui doit avoir faim.",
+    "Il peut retirer de sa famille un enfant qui est battu ou privé de nourriture.",
     "Il verse les allocations familiales aux parents.",
     "Il contrôle si l'enfant fréquente une maternelle."
    ]
@@ -60330,7 +60330,7 @@
    ]
   },
   "ALL-261": {
-   "question": "Un homme souhaite obtenir son baccalauréat (Abitur) a posteriori à 30 ans en Allemagne. Où peut-il le faire ? Dans …",
+   "question": "Un homme de 30 ans souhaite reprendre des études pour obtenir l'Abitur en Allemagne. Où peut-il le faire ? Dans …",
    "options": [
     "une haute école (Hochschule).",
     "un lycée du soir (Abendgymnasium).",
@@ -60341,7 +60341,7 @@
   "ALL-262": {
    "question": "Que signifie en Allemagne le principe de l'égalité de traitement ?",
    "options": [
-    "Personne ne doit être désavantagé, par exemple en raison d'un handicap.",
+    "Personne ne doit être désavantagée, par exemple en raison d'un handicap.",
     "On a le droit de désavantager d'autres personnes si des raisons personnelles suffisantes le justifient.",
     "Personne ne doit porter plainte contre des personnes lorsqu'elles ont été désavantagées.",
     "La loi oblige tout le monde à faire chaque année un don d'argent aux groupes désavantagés."
@@ -60519,7 +60519,7 @@
    ]
   },
   "ALL-282": {
-   "question": "Quelle fonction bénévole les citoyennes et citoyens allemands doivent-ils assumer lorsqu'ils y sont invités ?",
+   "question": "Quelle fonction bénévole les citoyennes et citoyens allemands doivent-ils assumer lorsqu'ils sont désignés pour cela ?",
    "options": [
     "entraîneuse/entraîneur d'un club",
     "assesseure/assesseur électoral",
@@ -60594,7 +60594,7 @@
    "question": "Vous avez acheté un téléviseur en Allemagne. Chez vous, vous déballez le téléviseur, mais il ne fonctionne pas. Le téléviseur est défectueux. Que pouvez-vous faire ?",
    "options": [
     "déposer une plainte",
-    "réclamer le téléviseur",
+    "signaler le défaut du téléviseur au vendeur",
     "échanger l'appareil sans autorisation",
     "prolonger la garantie"
    ]
@@ -60753,7 +60753,7 @@
    ]
   },
   "Baden-Württemberg-08": {
-   "question": "Lequel est le Land de Bade-Wurtemberg ?",
+   "question": "Quelle carte représente le Bade-Wurtemberg ?",
    "options": [
     "1",
     "2",
@@ -60843,7 +60843,7 @@
    ]
   },
   "Bayern-08": {
-   "question": "Lequel est le Land de Bavière ?",
+   "question": "Quelle carte représente la Bavière ?",
    "options": [
     "1",
     "2",
@@ -60933,7 +60933,7 @@
    ]
   },
   "Berlin-08": {
-   "question": "Lequel est le Land de Berlin ?",
+   "question": "Quelle carte représente Berlin ?",
    "options": [
     "1",
     "2",
@@ -61023,7 +61023,7 @@
    ]
   },
   "Brandenburg-08": {
-   "question": "Lequel est le Land de Brandebourg ?",
+   "question": "Quelle carte représente le Brandebourg ?",
    "options": [
     "1",
     "2",
@@ -61104,7 +61104,7 @@
    ]
   },
   "Bremen-07": {
-   "question": "Qu'est-ce qu'une ville-État allemande ?",
+   "question": "Laquelle est une ville-État allemande ?",
    "options": [
     "Brême",
     "Munich",
@@ -61113,7 +61113,7 @@
    ]
   },
   "Bremen-08": {
-   "question": "Lequel est le Land de Brême ?",
+   "question": "Quelle carte représente Brême ?",
    "options": [
     "1",
     "2",
@@ -61203,7 +61203,7 @@
    ]
   },
   "Hamburg-08": {
-   "question": "Lequel est le Land de Hambourg ?",
+   "question": "Quelle carte représente Hambourg ?",
    "options": [
     "1",
     "2",
@@ -61293,7 +61293,7 @@
    ]
   },
   "Hessen-08": {
-   "question": "Lequel est le Land de Hesse ?",
+   "question": "Quelle carte représente la Hesse ?",
    "options": [
     "1",
     "2",
@@ -61383,7 +61383,7 @@
    ]
   },
   "Mecklenburg-Vorpommern-08": {
-   "question": "Lequel est le Land de Mecklembourg-Poméranie-Occidentale ?",
+   "question": "Quelle carte représente le Mecklembourg-Poméranie-Occidentale ?",
    "options": [
     "1",
     "2",
@@ -61473,7 +61473,7 @@
    ]
   },
   "Niedersachsen-08": {
-   "question": "Quel Land est la Basse-Saxe ?",
+   "question": "Quelle carte représente la Basse-Saxe ?",
    "options": [
     "1",
     "2",
@@ -61563,7 +61563,7 @@
    ]
   },
   "Nordrhein-Westfalen-08": {
-   "question": "Quel Land est la Rhénanie-du-Nord-Westphalie ?",
+   "question": "Quelle carte représente la Rhénanie-du-Nord-Westphalie ?",
    "options": [
     "1",
     "2",
@@ -61653,7 +61653,7 @@
    ]
   },
   "Rheinland-Pfalz-08": {
-   "question": "Quel Land est la Rhénanie-Palatinat ?",
+   "question": "Quelle carte représente la Rhénanie-Palatinat ?",
    "options": [
     "1",
     "2",
@@ -61743,7 +61743,7 @@
    ]
   },
   "Saarland-08": {
-   "question": "Quel Land est la Sarre ?",
+   "question": "Quelle carte représente la Sarre ?",
    "options": [
     "1",
     "2",
@@ -61833,7 +61833,7 @@
    ]
   },
   "Sachsen-08": {
-   "question": "Quel Land est la Saxe ?",
+   "question": "Quelle carte représente la Saxe ?",
    "options": [
     "1",
     "2",
@@ -61923,7 +61923,7 @@
    ]
   },
   "Sachsen-Anhalt-08": {
-   "question": "Quel Land est la Saxe-Anhalt ?",
+   "question": "Quelle carte représente la Saxe-Anhalt ?",
    "options": [
     "1",
     "2",
@@ -62013,7 +62013,7 @@
    ]
   },
   "Schleswig-Holstein-08": {
-   "question": "Quel Land est le Schleswig-Holstein ?",
+   "question": "Quelle carte représente le Schleswig-Holstein ?",
    "options": [
     "1",
     "2",
@@ -62103,7 +62103,7 @@
    ]
   },
   "Thüringen-08": {
-   "question": "Quel Land est la Thuringe ?",
+   "question": "Quelle carte représente la Thuringe ?",
    "options": [
     "1",
     "2",
