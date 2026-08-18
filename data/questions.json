@@ -5438,7 +5438,7 @@
     ]
    },
    "it": {
-    "question": "Quale animale è l'animale araldico della Repubblica Federale di Germania?",
+    "question": "Quale animale compare nello stemma della Repubblica Federale di Germania?",
     "options": [
      "leone",
      "aquila",
@@ -7138,7 +7138,7 @@
     ]
    },
    "it": {
-    "question": "La Repubblica Federale di Germania è uno Stato federale democratico e sociale …",
+    "question": "La Repubblica Federale di Germania è una … democratica e sociale.",
     "options": [
      "un'unione di Stati (Staatenverbund).",
      "uno Stato federale (Bundesstaat).",
@@ -8461,7 +8461,7 @@
     ]
    },
    "it": {
-    "question": "A quale assicurazione appartiene l'assicurazione per l'assistenza (Pflegeversicherung)?",
+    "question": "Di quale sistema assicurativo fa parte l'assicurazione per l'assistenza (Pflegeversicherung)?",
     "options": [
      "assicurazione sociale",
      "assicurazione contro gli infortuni",
@@ -10543,7 +10543,7 @@
     "question": "Quale ufficio rientra in Germania nell'amministrazione comunale?",
     "options": [
      "ufficio parrocchiale",
-     "ufficio di pubblica sicurezza (Ordnungsamt)",
+     "ufficio dell'ordine pubblico (Ordnungsamt)",
      "agenzia delle entrate (Finanzamt)",
      "ministero degli Affari Esteri"
     ]
@@ -11107,12 +11107,12 @@
     ]
    },
    "it": {
-    "question": "Da quanti anni esiste per la prima volta una comunità ebraica nel territorio dell'attuale Germania?",
+    "question": "Quanti anni fa sorse la prima comunità ebraica nel territorio dell'attuale Germania?",
     "options": [
-     "da circa 300 anni",
-     "da circa 700 anni",
-     "da circa 1150 anni",
-     "da circa 1700 anni"
+     "circa 300 anni fa",
+     "circa 700 anni fa",
+     "circa 1150 anni fa",
+     "circa 1700 anni fa"
     ]
    },
    "zh": {
@@ -17531,12 +17531,12 @@
     ]
    },
    "it": {
-    "question": "Più \"secondi voti\" ottiene un partito in un'elezione del Bundestag, più …",
+    "question": "Quanto più voti di lista (Zweitstimmen) ottiene un partito in un'elezione del Bundestag, tanto …",
     "options": [
-     "pochi primi voti può avere.",
-     "candidati diretti del partito entrano in parlamento.",
-     "grande è il rischio di dover formare una coalizione.",
-     "seggi ottiene il partito in parlamento."
+     "meno voti diretti (Erststimmen) può avere.",
+     "più candidati diretti del partito entrano in parlamento.",
+     "maggiore è il rischio di dover formare una coalizione.",
+     "più seggi ottiene il partito in parlamento."
     ]
    },
    "zh": {
@@ -22449,7 +22449,7 @@
     "options": [
      "Tutte le/i delinquenti condannate/i non possono votare.",
      "Se voglio andare a votare, la mia datrice di lavoro/il mio datore di lavoro deve concedermi un permesso.",
-     "Ogni persona può decidere senza costrizioni se vuole votare e chi vuole votare.",
+     "Ogni persona può decidere senza costrizioni se vuole votare e per chi vuole votare.",
      "Posso decidere liberamente dove andare a votare."
     ]
    },
@@ -38884,7 +38884,7 @@
     ]
    },
    "it": {
-    "question": "A cosa ricordano le cosiddette \"Stolpersteine\" (pietre d'inciampo) in Germania?",
+    "question": "Che cosa commemorano in Germania le cosiddette \"Stolpersteine\" (pietre d'inciampo)?",
     "options": [
      "a famosi politici e politiche tedeschi",
      "alle vittime del nazionalsocialismo",
@@ -39078,7 +39078,7 @@
      "della NATO",
      "della Confederazione del Reno",
      "del Patto di Varsavia",
-     "dell'Unione Europea (militare)"
+     "dell'Alleanza europea"
     ]
    },
    "zh": {
@@ -41529,7 +41529,7 @@
     ]
    },
    "it": {
-    "question": "Il 27 gennaio in Germania è una giornata commemorativa ufficiale. A cosa ricorda questo giorno?",
+    "question": "Il 27 gennaio in Germania è una giornata commemorativa ufficiale. Che cosa commemora questa giornata?",
     "options": [
      "alla fine della Seconda guerra mondiale",
      "all'approvazione della Legge fondamentale",
@@ -43040,7 +43040,7 @@
     ]
    },
    "it": {
-    "question": "Come viene comunemente chiamata l'adesione della RDT alla Repubblica Federale di Germania nel 1990?",
+    "question": "Come viene comunemente chiamata l'adesione della DDR alla Repubblica Federale di Germania nel 1990?",
     "options": [
      "Allargamento della NATO a est",
      "Allargamento dell'UE a est",
@@ -45497,7 +45497,7 @@
     ]
    },
    "it": {
-    "question": "La signora Seger aspetta un bambino. Cosa deve fare per ricevere l'assegno parentale (Elterngeld)?",
+    "question": "La signora Seger ha appena avuto un bambino. Cosa deve fare per ricevere l'assegno parentale (Elterngeld)?",
     "options": [
      "Deve scrivere alla sua cassa malattia.",
      "Deve presentare una domanda presso l'ufficio competente per l'assegno parentale.",
@@ -47769,7 +47769,7 @@
     "options": [
      "presso l'ufficio anagrafe (Einwohnermeldeamt)",
      "presso l'ufficio di stato civile (Standesamt)",
-     "presso l'ufficio di pubblica sicurezza (Ordnungsamt)",
+     "presso l'ufficio dell'ordine pubblico (Ordnungsamt)",
      "presso l'ufficio attività commerciali (Gewerbeamt)"
     ]
    },
@@ -48145,7 +48145,7 @@
    "it": {
     "question": "In caso di problemi educativi, i genitori in Germania possono ricevere aiuto dall'…",
     "options": [
-     "ufficio di pubblica sicurezza (Ordnungsamt).",
+     "ufficio dell'ordine pubblico (Ordnungsamt).",
      "ufficio scolastico (Schulamt).",
      "ufficio di tutela dei minori (Jugendamt).",
      "ufficio sanitario (Gesundheitsamt)."
@@ -48521,7 +48521,7 @@
     ]
    },
    "it": {
-    "question": "Una donna adulta desidera conseguire l'Abitur da adulta in Germania. Può farlo presso …",
+    "question": "Una donna adulta desidera recuperare l'Abitur in Germania. Può farlo presso …",
     "options": [
      "un'università.",
      "un ginnasio serale (Abendgymnasium).",
@@ -48899,12 +48899,12 @@
     ]
    },
    "it": {
-    "question": "Il Centro di orientamento professionale (BIZ) presso l'Agenzia federale del lavoro in Germania aiuta nella …",
+    "question": "Il Centro di orientamento professionale (BIZ) presso l'Agenzia federale del lavoro in Germania aiuta a …",
     "options": [
-     "calcolo della pensione.",
-     "ricerca di un posto di apprendistato.",
-     "dichiarazione dei redditi.",
-     "assicurazione malattia."
+     "calcolare la pensione.",
+     "cercare un posto di apprendistato.",
+     "compilare la dichiarazione dei redditi.",
+     "stipulare un'assicurazione malattia."
     ]
    },
    "zh": {
@@ -50036,7 +50036,7 @@
     "question": "Dove bisogna andare per primo in Germania se si vuole sposarsi?",
     "options": [
      "all'ufficio anagrafe",
-     "all'ufficio di pubblica sicurezza",
+     "all'ufficio dell'ordine pubblico",
      "all'agenzia del lavoro",
      "all'ufficio di stato civile"
     ]
@@ -52684,7 +52684,7 @@
      "le regole per l'uso dei mezzi di trasporto pubblici.",
      "tutti gli inquilini dello stabile.",
      "le regole che tutti gli abitanti devono rispettare.",
-     "l'indirizzo dell'ufficio di pubblica sicurezza più vicino."
+     "l'indirizzo dell'ufficio dell'ordine pubblico più vicino."
     ]
    },
    "zh": {
@@ -53246,7 +53246,7 @@
     ]
    },
    "it": {
-    "question": "Quale carica onoraria devono assumere i cittadini tedeschi se vengono chiamati a farlo?",
+    "question": "Quale incarico civico volontario devono assumere i cittadini tedeschi se vengono designati per farlo?",
     "options": [
      "allenatore/allenatrice di una società sportiva",
      "scrutatore/scrutatrice elettorale",
@@ -53624,7 +53624,7 @@
     ]
    },
    "it": {
-    "question": "Ciò che serve saper fare per il lavoro cambia molto rapidamente in futuro. Cosa si può fare?",
+    "question": "Le competenze necessarie per il lavoro cambieranno molto rapidamente in futuro. Cosa si può fare?",
     "options": [
      "Non importa cosa si impara.",
      "Gli adulti devono continuare a imparare anche dopo la formazione professionale.",
@@ -54761,7 +54761,7 @@
     "question": "Avete comprato un televisore in Germania. A casa, quando lo disimballate, non funziona. Il televisore è difettoso. Cosa potete fare?",
     "options": [
      "scrivere una denuncia",
-     "reclamare il televisore",
+     "segnalare il difetto del televisore al venditore",
      "sostituire l'apparecchio senza chiedere",
      "prolungare la garanzia"
     ]
@@ -56270,7 +56270,7 @@
     ]
    },
    "it": {
-    "question": "Nella RDT vivevano soprattutto migranti provenienti da …",
+    "question": "Nella DDR vivevano soprattutto migranti provenienti da …",
     "options": [
      "Vietnam, Polonia, Mozambico.",
      "Francia, Romania, Somalia.",
@@ -57782,7 +57782,7 @@
    "it": {
     "question": "Dove ci si può informare su temi politici nel Baden-Württemberg?",
     "options": [
-     "presso l'ufficio di pubblica sicurezza del comune",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso l'associazione dei consumatori",
      "presso il centro regionale per l'educazione politica",
      "presso le chiese"
@@ -58157,7 +58157,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è il Baden-Württemberg?",
+    "question": "Quale carta rappresenta il Baden-Württemberg?",
     "options": [
      "1",
      "2",
@@ -58282,7 +58282,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il capo/la capa di governo nel Baden-Württemberg?",
+    "question": "Come si chiama la/il capo del governo nel Baden-Württemberg?",
     "options": [
      "Prima ministra/Primo ministro",
      "Premier",
@@ -59668,7 +59668,7 @@
    "it": {
     "question": "Dove ci si può informare su temi politici in Baviera?",
     "options": [
-     "presso l'ufficio di pubblica sicurezza del comune",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso il centro regionale per l'educazione politica",
      "presso l'associazione dei consumatori",
      "presso le chiese"
@@ -60043,7 +60043,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è la Baviera?",
+    "question": "Quale carta rappresenta la Baviera?",
     "options": [
      "1",
      "2",
@@ -60168,7 +60168,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il capo/la capa di governo in Baviera?",
+    "question": "Come si chiama la/il capo del governo in Baviera?",
     "options": [
      "Prima ministra/Primo ministro",
      "Premier",
@@ -61554,7 +61554,7 @@
    "it": {
     "question": "Dove ci si può informare su temi politici a Berlino?",
     "options": [
-     "presso l'ufficio di pubblica sicurezza del comune",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso le chiese",
      "presso l'associazione dei consumatori",
      "presso il centro regionale per l'educazione politica"
@@ -61929,7 +61929,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è Berlino?",
+    "question": "Quale carta rappresenta Berlino?",
     "options": [
      "1",
      "2",
@@ -62054,7 +62054,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il capo/la capa di governo della città-stato di Berlino?",
+    "question": "Come si chiama la/il capo del governo della città-stato di Berlino?",
     "options": [
      "Ministra presidente/Ministro presidente",
      "Sindaca/Sindaco superiore",
@@ -63441,7 +63441,7 @@
     "question": "Dove ci si può informare su temi politici nel Brandeburgo?",
     "options": [
      "presso le chiese",
-     "presso l'ufficio di pubblica sicurezza del comune",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso il centro regionale per l'educazione politica",
      "presso l'associazione dei consumatori"
     ]
@@ -63814,7 +63814,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è il Brandeburgo?",
+    "question": "Quale carta rappresenta il Brandeburgo?",
     "options": [
      "1",
      "2",
@@ -63939,7 +63939,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il capo/la capa di governo nel Brandeburgo?",
+    "question": "Come si chiama la/il capo del governo nel Brandeburgo?",
     "options": [
      "Prima ministra/Primo ministro",
      "Premier",
@@ -65325,7 +65325,7 @@
    "it": {
     "question": "Dove ci si può informare su temi politici a Brema?",
     "options": [
-     "presso l'ufficio di pubblica sicurezza del comune",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso il centro regionale per l'educazione politica",
      "presso le chiese",
      "presso l'associazione dei consumatori"
@@ -65512,7 +65512,7 @@
     ]
    },
    "it": {
-    "question": "Cos'è una città-stato tedesca?",
+    "question": "Quale tra queste è una città-stato tedesca?",
     "options": [
      "Brema",
      "Monaco",
@@ -65700,7 +65700,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è Brema?",
+    "question": "Quale carta rappresenta Brema?",
     "options": [
      "1",
      "2",
@@ -65825,7 +65825,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il capo/la capa di governo della città-stato di Brema?",
+    "question": "Come si chiama la/il capo del governo della città-stato di Brema?",
     "options": [
      "Ministra presidente/Ministro presidente",
      "Prima sindaca/Primo sindaco",
@@ -67211,7 +67211,7 @@
    "it": {
     "question": "Dove ci si può informare su temi politici ad Amburgo?",
     "options": [
-     "presso l'ufficio di pubblica sicurezza del comune",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso l'associazione dei consumatori",
      "presso le chiese",
      "presso il centro regionale per l'educazione politica"
@@ -67586,7 +67586,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è Amburgo?",
+    "question": "Quale carta rappresenta Amburgo?",
     "options": [
      "1",
      "2",
@@ -67711,7 +67711,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il capo/la capa di governo della città-stato di Amburgo?",
+    "question": "Come si chiama la/il capo del governo della città-stato di Amburgo?",
     "options": [
      "Ministra presidente/Ministro presidente",
      "Prima sindaca/Primo sindaco",
@@ -69099,7 +69099,7 @@
     "options": [
      "presso il centro regionale per l'educazione politica",
      "presso l'associazione dei consumatori",
-     "presso l'ufficio di pubblica sicurezza del comune",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso le chiese"
     ]
    },
@@ -69471,7 +69471,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è l'Assia?",
+    "question": "Quale carta rappresenta l'Assia?",
     "options": [
      "1",
      "2",
@@ -69596,7 +69596,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il capo/la capa di governo in Assia?",
+    "question": "Come si chiama la/il capo del governo in Assia?",
     "options": [
      "Prima ministra/Primo ministro",
      "Premier",
@@ -70984,7 +70984,7 @@
     "options": [
      "presso il centro regionale per l'educazione politica",
      "presso le chiese",
-     "presso l'ufficio di pubblica sicurezza del comune",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso l'associazione dei consumatori"
     ]
    },
@@ -71357,7 +71357,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è il Meclemburgo-Pomerania Anteriore?",
+    "question": "Quale carta rappresenta il Meclemburgo-Pomerania Anteriore?",
     "options": [
      "1",
      "2",
@@ -71482,7 +71482,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il capo/la capa di governo nel Meclemburgo-Pomerania Anteriore?",
+    "question": "Come si chiama la/il capo del governo nel Meclemburgo-Pomerania Anteriore?",
     "options": [
      "Prima ministra/Primo ministro",
      "Premier",
@@ -72869,7 +72869,7 @@
     "question": "Dove ci si può informare in Bassa Sassonia su temi politici?",
     "options": [
      "presso il Centro regionale per l'educazione politica",
-     "presso l'ufficio di polizia municipale",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso l'associazione dei consumatori",
      "presso le chiese"
     ]
@@ -73243,7 +73243,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è la Bassa Sassonia?",
+    "question": "Quale carta rappresenta la Bassa Sassonia?",
     "options": [
      "1",
      "2",
@@ -73368,7 +73368,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il/la capo di governo in Bassa Sassonia?",
+    "question": "Come si chiama la/il capo del governo in Bassa Sassonia?",
     "options": [
      "Prima Ministra/Primo Ministro",
      "Primo Ministro/Prima Ministra (Premierministerin/Premierminister)",
@@ -74755,7 +74755,7 @@
     "question": "Dove ci si può informare in Renania Settentrionale-Vestfalia su temi politici?",
     "options": [
      "presso le chiese",
-     "presso l'ufficio di polizia municipale",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso l'associazione dei consumatori",
      "presso il Centro regionale per l'educazione politica"
     ]
@@ -75129,7 +75129,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è la Renania Settentrionale-Vestfalia?",
+    "question": "Quale carta rappresenta la Renania Settentrionale-Vestfalia?",
     "options": [
      "1",
      "2",
@@ -75254,7 +75254,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il/la capo di governo in Renania Settentrionale-Vestfalia?",
+    "question": "Come si chiama la/il capo del governo in Renania Settentrionale-Vestfalia?",
     "options": [
      "Prima Ministra/Primo Ministro",
      "Primo Ministro/Prima Ministra (Premierministerin/Premierminister)",
@@ -76642,7 +76642,7 @@
     "options": [
      "presso le chiese",
      "presso l'associazione dei consumatori",
-     "presso l'ufficio di polizia municipale",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso il Centro regionale per l'educazione politica"
     ]
    },
@@ -77015,7 +77015,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è la Renania-Palatinato?",
+    "question": "Quale carta rappresenta la Renania-Palatinato?",
     "options": [
      "1",
      "2",
@@ -77140,7 +77140,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il/la capo di governo in Renania-Palatinato?",
+    "question": "Come si chiama la/il capo del governo in Renania-Palatinato?",
     "options": [
      "Prima Ministra/Primo Ministro",
      "Primo Ministro/Prima Ministra (Premierministerin/Premierminister)",
@@ -77516,7 +77516,7 @@
     ]
    },
    "it": {
-    "question": "Quale stemma appartiene al Land della Saarland? Immagine 1 Immagine 2 Immagine 3 Immagine 4",
+    "question": "Quale stemma appartiene al Land del Saarland? Immagine 1 Immagine 2 Immagine 3 Immagine 4",
     "options": [
      "Immagine 1",
      "Immagine 2",
@@ -77768,7 +77768,7 @@
     ]
    },
    "it": {
-    "question": "Quale di questi è un circondario (Landkreis) della Saarland?",
+    "question": "Quale di questi è un circondario (Landkreis) del Saarland?",
     "options": [
      "Mecklenburgische Seenplatte",
      "Altötting",
@@ -77957,7 +77957,7 @@
     ]
    },
    "it": {
-    "question": "Per quanti anni viene eletto il parlamento regionale (Landtag) della Saarland?",
+    "question": "Per quanti anni viene eletto il parlamento regionale (Landtag) del Saarland?",
     "options": [
      "3",
      "4",
@@ -78146,7 +78146,7 @@
     ]
    },
    "it": {
-    "question": "A partire da quale età si può votare alle elezioni comunali in Saarland?",
+    "question": "A partire da quale età si può votare alle elezioni comunali nel Saarland?",
     "options": [
      "14",
      "16",
@@ -78335,7 +78335,7 @@
     ]
    },
    "it": {
-    "question": "Quali colori ha la bandiera regionale della Saarland?",
+    "question": "Quali colori ha la bandiera regionale del Saarland?",
     "options": [
      "bianco-blu",
      "nero-rosso-oro",
@@ -78524,12 +78524,12 @@
     ]
    },
    "it": {
-    "question": "Dove ci si può informare in Saarland su temi politici?",
+    "question": "Dove ci si può informare nel Saarland su temi politici?",
     "options": [
      "presso le chiese",
      "presso il Centro regionale per l'educazione politica",
      "presso l'associazione dei consumatori",
-     "presso l'ufficio di polizia municipale"
+     "presso l'ufficio dell'ordine pubblico del comune"
     ]
    },
    "zh": {
@@ -78713,7 +78713,7 @@
     ]
    },
    "it": {
-    "question": "Il capoluogo della Saarland si chiama…",
+    "question": "Il capoluogo del Saarland si chiama…",
     "options": [
      "Neunkirchen.",
      "Homburg.",
@@ -78901,7 +78901,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è la Saarland?",
+    "question": "Quale carta rappresenta il Saarland?",
     "options": [
      "1",
      "2",
@@ -79026,7 +79026,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il/la capo di governo della Saarland?",
+    "question": "Come si chiama la/il capo del governo del Saarland?",
     "options": [
      "Prima Ministra/Primo Ministro",
      "Primo Ministro/Prima Ministra (Premierministerin/Premierminister)",
@@ -79214,7 +79214,7 @@
     ]
    },
    "it": {
-    "question": "Quale ministra/ministro non ha la Saarland?",
+    "question": "Quale ministra/ministro non ha il Saarland?",
     "options": [
      "Ministra/Ministro della Giustizia",
      "Ministra/Ministro degli Esteri",
@@ -80413,7 +80413,7 @@
     "question": "Dove ci si può informare in Sassonia su temi politici?",
     "options": [
      "presso il Centro regionale per l'educazione politica",
-     "presso l'ufficio di polizia municipale",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso le chiese",
      "presso l'associazione dei consumatori"
     ]
@@ -80787,7 +80787,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è la Sassonia?",
+    "question": "Quale carta rappresenta la Sassonia?",
     "options": [
      "1",
      "2",
@@ -80912,7 +80912,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il/la capo di governo in Sassonia?",
+    "question": "Come si chiama la/il capo del governo in Sassonia?",
     "options": [
      "Prima Ministra/Primo Ministro",
      "Primo Ministro/Prima Ministra (Premierministerin/Premierminister)",
@@ -82300,7 +82300,7 @@
     "options": [
      "presso le chiese",
      "presso il Centro regionale per l'educazione politica",
-     "presso l'ufficio di polizia municipale",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso l'associazione dei consumatori"
     ]
    },
@@ -82673,7 +82673,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è la Sassonia-Anhalt?",
+    "question": "Quale carta rappresenta la Sassonia-Anhalt?",
     "options": [
      "1",
      "2",
@@ -82798,7 +82798,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il/la capo di governo in Sassonia-Anhalt?",
+    "question": "Come si chiama la/il capo del governo in Sassonia-Anhalt?",
     "options": [
      "Prima Ministra/Primo Ministro",
      "Primo Ministro/Prima Ministra (Premierministerin/Premierminister)",
@@ -84185,7 +84185,7 @@
     "question": "Dove ci si può informare in Schleswig-Holstein su temi politici?",
     "options": [
      "presso l'associazione dei consumatori",
-     "presso l'ufficio di polizia municipale",
+     "presso l'ufficio dell'ordine pubblico del comune",
      "presso il/la Delegato/a regionale per l'educazione politica",
      "presso le chiese"
     ]
@@ -84559,7 +84559,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è lo Schleswig-Holstein?",
+    "question": "Quale carta rappresenta lo Schleswig-Holstein?",
     "options": [
      "1",
      "2",
@@ -84684,7 +84684,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il/la capo di governo in Schleswig-Holstein?",
+    "question": "Come si chiama la/il capo del governo in Schleswig-Holstein?",
     "options": [
      "Prima Ministra/Primo Ministro",
      "Primo Ministro/Prima Ministra (Premierministerin/Premierminister)",
@@ -86073,7 +86073,7 @@
      "presso le chiese",
      "presso l'associazione dei consumatori",
      "presso il Centro regionale per l'educazione politica",
-     "presso l'ufficio di polizia municipale"
+     "presso l'ufficio dell'ordine pubblico del comune"
     ]
    },
    "zh": {
@@ -86445,7 +86445,7 @@
     ]
    },
    "it": {
-    "question": "Quale Land è la Turingia?",
+    "question": "Quale carta rappresenta la Turingia?",
     "options": [
      "1",
      "2",
@@ -86570,7 +86570,7 @@
     ]
    },
    "it": {
-    "question": "Come si chiama il/la capo di governo in Turingia?",
+    "question": "Come si chiama la/il capo del governo in Turingia?",
     "options": [
      "Prima Ministra/Primo Ministro",
      "Primo Ministro/Prima Ministra (Premierministerin/Premierminister)",

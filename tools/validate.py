@@ -21,6 +21,12 @@ TRANSLATION_LANGUAGES = {
 
 def main():
     questions = json.loads((ROOT / "data" / "questions.json").read_text(encoding="utf8"))
+    translation_overrides = json.loads(
+        (ROOT / "data" / "translation_overrides.json").read_text(encoding="utf8")
+    )
+    translation_review = json.loads(
+        (ROOT / "data" / "translation_review.json").read_text(encoding="utf8")
+    )
     app_asset = json.loads(
         (ROOT / "mobile" / "assets" / "questions.json").read_text(encoding="utf8")
     )["questions"]
@@ -47,6 +53,21 @@ def main():
     app_by_id = {q["id"]: q for q in app_asset}
     if set(app_by_id) != set(ids):
         errors.append("mobile question IDs do not match data/questions.json")
+
+    for lang, review in translation_review.items():
+        if lang.startswith("_"):
+            continue
+        if lang not in TRANSLATION_LANGUAGES:
+            errors.append(f"translation review has unknown language: {lang}")
+            continue
+        if review.get("status") != "verified":
+            errors.append(f"translation review for {lang} is not verified")
+        if review.get("questions") != len(questions):
+            errors.append(f"translation review for {lang} does not cover all questions")
+        if review.get("reviewedThrough") != "Thüringen-10":
+            errors.append(f"translation review for {lang} does not reach the final question")
+        if len(translation_overrides.get(lang, {})) != len(questions):
+            errors.append(f"verified language {lang} lacks complete durable overrides")
 
     for q in questions:
         if len(q["options"]) != 4:
