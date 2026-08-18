@@ -70250,6 +70250,78 @@
     "Gera.",
     "Jena."
    ]
+  },
+  "ALL-130": {
+   "question": "Which ballot paper would be valid in a Bundestag election?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "ALL-226": {
+   "question": "Which image shows the flag of the European Union?",
+   "options": ["Image 1", "Image 2", "Image 3", "Image 4"]
+  },
+  "Baden-Württemberg-08": {
+   "question": "Which map shows Baden-Württemberg?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Bayern-08": {
+   "question": "Which map shows Bavaria?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Berlin-08": {
+   "question": "Which map shows Berlin?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Brandenburg-08": {
+   "question": "Which map shows Brandenburg?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Bremen-08": {
+   "question": "Which map shows Bremen?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Hamburg-08": {
+   "question": "Which map shows Hamburg?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Hessen-08": {
+   "question": "Which map shows Hesse?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Mecklenburg-Vorpommern-08": {
+   "question": "Which map shows Mecklenburg-Western Pomerania?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Niedersachsen-08": {
+   "question": "Which map shows Lower Saxony?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Nordrhein-Westfalen-08": {
+   "question": "Which map shows North Rhine-Westphalia?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Rheinland-Pfalz-08": {
+   "question": "Which map shows Rhineland-Palatinate?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Saarland-08": {
+   "question": "Which map shows Saarland?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Sachsen-08": {
+   "question": "Which map shows Saxony?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Sachsen-Anhalt-08": {
+   "question": "Which map shows Saxony-Anhalt?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Schleswig-Holstein-08": {
+   "question": "Which map shows Schleswig-Holstein?",
+   "options": ["1", "2", "3", "4"]
+  },
+  "Thüringen-08": {
+   "question": "Which map shows Thuringia?",
+   "options": ["1", "2", "3", "4"]
   }
  }
 }
