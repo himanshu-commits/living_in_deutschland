@@ -4,6 +4,7 @@
 """
 
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -12,10 +13,23 @@ ROOT = Path(__file__).resolve().parent.parent
 LAENDER = 16
 GENERAL = 300
 PER_LAND = 10
+TRANSLATION_LANGUAGES = {
+    "ar", "bg", "bs", "el", "en", "fa", "fr", "hi", "it",
+    "pl", "ro", "ru", "sq", "tr", "uk", "ur", "zh",
+}
 
 
 def main():
     questions = json.loads((ROOT / "data" / "questions.json").read_text(encoding="utf8"))
+    translation_overrides = json.loads(
+        (ROOT / "data" / "translation_overrides.json").read_text(encoding="utf8")
+    )
+    translation_review = json.loads(
+        (ROOT / "data" / "translation_review.json").read_text(encoding="utf8")
+    )
+    app_asset = json.loads(
+        (ROOT / "mobile" / "assets" / "questions.json").read_text(encoding="utf8")
+    )["questions"]
     errors, warnings = [], []
 
     if len(questions) != GENERAL + LAENDER * PER_LAND:
@@ -36,6 +50,25 @@ def main():
         if count > 1:
             errors.append(f"duplicate id {qid} ({count}x)")
 
+    app_by_id = {q["id"]: q for q in app_asset}
+    if set(app_by_id) != set(ids):
+        errors.append("mobile question IDs do not match data/questions.json")
+
+    for lang, review in translation_review.items():
+        if lang.startswith("_"):
+            continue
+        if lang not in TRANSLATION_LANGUAGES:
+            errors.append(f"translation review has unknown language: {lang}")
+            continue
+        if review.get("status") != "verified":
+            errors.append(f"translation review for {lang} is not verified")
+        if review.get("questions") != len(questions):
+            errors.append(f"translation review for {lang} does not cover all questions")
+        if review.get("reviewedThrough") != "Thüringen-10":
+            errors.append(f"translation review for {lang} does not reach the final question")
+        if len(translation_overrides.get(lang, {})) != len(questions):
+            errors.append(f"verified language {lang} lacks complete durable overrides")
+
     for q in questions:
         if len(q["options"]) != 4:
             errors.append(f"{q['id']}: {len(q['options'])} options, expected 4")
@@ -53,6 +86,36 @@ def main():
             warnings.append(f"{q['id']}: no answer yet ({q['confidence']})")
         elif not q["verified"]:
             warnings.append(f"{q['id']}: unverified answer ({q['confidence']})")
+
+        translations = q.get("translations", {})
+        missing_languages = TRANSLATION_LANGUAGES - translations.keys()
+        extra_languages = translations.keys() - TRANSLATION_LANGUAGES
+        if missing_languages:
+            errors.append(f"{q['id']}: missing translations: {sorted(missing_languages)}")
+        if extra_languages:
+            errors.append(f"{q['id']}: unexpected translations: {sorted(extra_languages)}")
+
+        for lang, translation in translations.items():
+            question = translation.get("question", "")
+            options = translation.get("options", [])
+            if not question.strip():
+                errors.append(f"{q['id']} [{lang}]: empty translated question")
+            if len(options) != 4:
+                errors.append(f"{q['id']} [{lang}]: {len(options)} translated options, expected 4")
+            elif any(not option.strip() for option in options):
+                errors.append(f"{q['id']} [{lang}]: empty translated option")
+            translated_text = [question, *options]
+            if any("\ufffd" in text or "\x00" in text for text in translated_text):
+                errors.append(f"{q['id']} [{lang}]: invalid replacement or NUL character")
+            if question.count("(") != question.count(")"):
+                errors.append(f"{q['id']} [{lang}]: unbalanced parentheses")
+            # A space before punctuation is normal French typography.
+            if lang != "fr" and re.search(r"\s+[?!.,;:]$", question):
+                errors.append(f"{q['id']} [{lang}]: whitespace before final punctuation")
+
+        bundled = app_by_id.get(q["id"])
+        if bundled and bundled.get("tr", {}) != translations:
+            errors.append(f"{q['id']}: bundled translations are stale")
 
     # a healthy key is not lopsided towards one letter
     spread = Counter(q["answer"] for q in questions if q["answer"] is not None)

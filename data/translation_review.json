@@ -1,0 +1,105 @@
+{
+  "_description": "Semantic review status against the German BAMF source. A language is verified only after every question and all four options have been reviewed for meaning, natural wording, and terminology.",
+  "en": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "tr": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "fr": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "it": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "ro": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "pl": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "sq": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "bs": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "ru": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "uk": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "bg": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "el": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "ar": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "fa": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "ur": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "hi": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "zh": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  }
+}
