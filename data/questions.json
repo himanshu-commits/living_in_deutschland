@@ -9572,7 +9572,7 @@
     "options": [
      "njerëzit mund të shprehen kritikisht rreth qeverisë.",
      "qytetarëve u lejohet të demonstrojnë paqësisht.",
-     "njerëzit arrestohen pa arsye nga një policia private.",
+     "njerëzit arrestohen pa arsye nga një polici private.",
      "dikush kryen një krim dhe për këtë arrestohet."
     ]
    },
@@ -21855,7 +21855,7 @@
     "options": [
      "fushatë aktive zgjedhore.",
      "procedurë aktive zgjedhore.",
-     "fushatë aktive elektorale.",
+     "luftë aktive zgjedhore.",
      "e drejtë aktive e votës."
     ]
    },
@@ -24494,7 +24494,7 @@
     ]
    },
    "sq": {
-    "question": "Cila fletëvotim do të ishte i vlefshëm në zgjedhjet për Bundestag? Sipas Rregullores Federale të Zgjedhjeve (BWO), Shtojca 26",
+    "question": "Cila fletë votimi do të ishte e vlefshme në zgjedhjet për Bundestag? Sipas Rregullores Federale të Zgjedhjeve (BWO), Shtojca 26",
     "options": [
      "1",
      "2",
@@ -28215,7 +28215,7 @@
      "zëvendësja/zëvendësi i kreut të qytetit.",
      "një gjyqtare/gjyqtar laik vullnetar.",
      "një anëtar i këshillit bashkiak.",
-     "një person që ka studiuar Juridik."
+     "një person që ka studiuar drejtësi."
     ]
    },
    "bs": {
@@ -42635,7 +42635,7 @@
     ]
    },
    "sq": {
-    "question": "Cila është flamuri i Bashkimit Evropian? Foto 1 Foto 2 Foto 3 Foto 4",
+    "question": "Cili është flamuri i Bashkimit Evropian? Foto 1 Foto 2 Foto 3 Foto 4",
     "options": [
      "Foto 1",
      "Foto 2",
@@ -50764,7 +50764,7 @@
    "sq": {
     "question": "Në Gjermani fëmijët nga mosha tre vjeç deri në fillimin e shkollës kanë të drejtë për …",
     "options": [
-     "xhepa mujore.",
+     "para xhepi mujore.",
      "një vend në një klub sportiv.",
      "një vend në çerdhe (Kindergarten).",
      "një kartë pushimesh."
@@ -53597,7 +53597,7 @@
     ]
    },
    "sq": {
-    "question": "Ajo çfarë duhet të dish për punën ndryshon shumë shpejt në të ardhmen. Çfarë mund të bësh?",
+    "question": "Aftësitë e nevojshme për punë do të ndryshojnë shumë shpejt në të ardhmen. Çfarë mund të bëhet?",
     "options": [
      "Nuk ka rëndësi çfarë mëson.",
      "Të rriturit duhet të vazhdojnë të mësojnë edhe pas kualifikimit profesional.",
@@ -54357,7 +54357,7 @@
     "options": [
      "nga anëtarësimi në Bashkimin Evropian (BE)",
      "nga krimet nacionalsocialiste kundër hebrenjve",
-     "nga Ligji Themeltar i Republikës Federale të Gjermanisë",
+     "nga Ligji Themelor i Republikës Federale të Gjermanisë",
      "nga tradita e krishterë"
     ]
    },
@@ -54734,7 +54734,7 @@
     "question": "Keni blerë një televizor në Gjermani. Në shtëpi e hapni televizorin, por ai nuk funksionon. Televizori është i prishur. Çfarë mund të bëni?",
     "options": [
      "të shkruaj një denoncim",
-     "të bëj reklamim (ankesë garancie) për televizorin",
+     "ta reklamoni televizorin te shitësi",
      "të ndërroj vetë pajisjen pa pyetur",
      "të zgjas garancinë"
     ]
@@ -56745,7 +56745,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Baden-Württemberg? Figura 1 Figura 2 Figura 3 Figura 4",
+    "question": "Cila stemë i përket landit Baden-Württemberg? Figura 1 Figura 2 Figura 3 Figura 4",
     "options": [
      "Figura 1",
      "Figura 2",
@@ -58130,7 +58130,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Baden-Württemberg?",
+    "question": "Cila hartë paraqet Baden-Württemberg-un?",
     "options": [
      "1",
      "2",
@@ -58443,7 +58443,7 @@
     ]
    },
    "sq": {
-    "question": "Cilin ministri nuk e ka Baden-Württemberg?",
+    "question": "Cilën ministri nuk e ka Baden-Württemberg?",
     "options": [
      "Ministrinë e Financave",
      "Ministrinë e Drejtësisë",
@@ -58631,7 +58631,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket shtetit të lirë Bavaria? Figura 1 Figura 2 Figura 3 Figura 4",
+    "question": "Cila stemë i përket shtetit të lirë Bavaria? Figura 1 Figura 2 Figura 3 Figura 4",
     "options": [
      "Figura 1",
      "Figura 2",
@@ -60016,7 +60016,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Bavaria?",
+    "question": "Cila hartë paraqet Bavarinë?",
     "options": [
      "1",
      "2",
@@ -60329,7 +60329,7 @@
     ]
    },
    "sq": {
-    "question": "Cilin ministri nuk e ka Bavaria?",
+    "question": "Cilën ministri nuk e ka Bavaria?",
     "options": [
      "Ministrinë e Drejtësisë",
      "Ministrinë e Jashtme",
@@ -60517,7 +60517,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Berlin? Figura 1 Figura 2 Figura 3 Figura 4",
+    "question": "Cila stemë i përket landit Berlin? Figura 1 Figura 2 Figura 3 Figura 4",
     "options": [
      "Figura 1",
      "Figura 2",
@@ -61902,7 +61902,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Berlini?",
+    "question": "Cila hartë paraqet Berlinin?",
     "options": [
      "1",
      "2",
@@ -62403,7 +62403,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Brandenburg? Figura 1 Figura 2 Figura 3 Figura 4",
+    "question": "Cila stemë i përket landit Brandenburg? Figura 1 Figura 2 Figura 3 Figura 4",
     "options": [
      "Figura 1",
      "Figura 2",
@@ -63787,7 +63787,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Brandenburgu?",
+    "question": "Cila hartë paraqet Brandenburgun?",
     "options": [
      "1",
      "2",
@@ -64100,7 +64100,7 @@
     ]
    },
    "sq": {
-    "question": "Cilin ministri nuk e ka Brandenburgu?",
+    "question": "Cilën ministri nuk e ka Brandenburgu?",
     "options": [
      "Ministrinë e Drejtësisë",
      "Ministrinë e Jashtme",
@@ -64288,7 +64288,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket qytetit të lirë hanseatik Bremen? Figura 1 Figura 2 Figura 3 Figura 4",
+    "question": "Cila stemë i përket qytetit të lirë hanseatik Bremen? Figura 1 Figura 2 Figura 3 Figura 4",
     "options": [
      "Figura 1",
      "Figura 2",
@@ -65673,7 +65673,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Bremeni?",
+    "question": "Cila hartë paraqet Bremenin?",
     "options": [
      "1",
      "2",
@@ -66174,7 +66174,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket qytetit të lirë dhe hanseatik Hamburg? Figura 1 Figura 2 Figura 3 Figura 4",
+    "question": "Cila stemë i përket qytetit të lirë dhe hanseatik Hamburg? Figura 1 Figura 2 Figura 3 Figura 4",
     "options": [
      "Figura 1",
      "Figura 2",
@@ -67559,7 +67559,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Hamburgu?",
+    "question": "Cila hartë paraqet Hamburgun?",
     "options": [
      "1",
      "2",
@@ -68060,7 +68060,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Hesen? Figura 1 Figura 2 Figura 3 Figura 4",
+    "question": "Cila stemë i përket landit Hesen? Figura 1 Figura 2 Figura 3 Figura 4",
     "options": [
      "Figura 1",
      "Figura 2",
@@ -69444,7 +69444,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Heseni?",
+    "question": "Cila hartë paraqet Hesenin?",
     "options": [
      "1",
      "2",
@@ -69945,7 +69945,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Mecklenburg-Pomerania e Përparme? Figura 1 Figura 2 Figura 3 Figura 4",
+    "question": "Cila stemë i përket landit Mecklenburg-Pomerania e Përparme? Figura 1 Figura 2 Figura 3 Figura 4",
     "options": [
      "Figura 1",
      "Figura 2",
@@ -71330,7 +71330,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Mecklenburg-Pomerania e Përparme?",
+    "question": "Cila hartë paraqet Mecklenburg-Pomeraninë e Përparme?",
     "options": [
      "1",
      "2",
@@ -71643,7 +71643,7 @@
     ]
    },
    "sq": {
-    "question": "Cilin ministri nuk e ka Mecklenburg-Pomerania e Përparme?",
+    "question": "Cilën ministri nuk e ka Mecklenburg-Pomerania e Përparme?",
     "options": [
      "Ministrinë e Drejtësisë",
      "Ministrinë e Jashtme",
@@ -71831,7 +71831,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Niedersaksë (Niedersachsen)?",
+    "question": "Cila stemë i përket landit Niedersaksë (Niedersachsen)?",
     "options": [
      "Fotoja 1",
      "Fotoja 2",
@@ -73216,7 +73216,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Niedersaksa?",
+    "question": "Cila hartë paraqet Niedersaksën?",
     "options": [
      "1",
      "2",
@@ -73717,7 +73717,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Rein-Vestfalia e Veriut (Nordrhein-Westfalen)?",
+    "question": "Cila stemë i përket landit Rein-Vestfalia e Veriut (Nordrhein-Westfalen)?",
     "options": [
      "Fotoja 1",
      "Fotoja 2",
@@ -75102,7 +75102,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Rein-Vestfalia e Veriut?",
+    "question": "Cila hartë paraqet Rein-Vestfalinë e Veriut?",
     "options": [
      "1",
      "2",
@@ -75603,7 +75603,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Rinlandi-Pfalc (Rheinland-Pfalz)?",
+    "question": "Cila stemë i përket landit Rinlandi-Pfalc (Rheinland-Pfalz)?",
     "options": [
      "Fotoja 1",
      "Fotoja 2",
@@ -76988,7 +76988,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Rinlandi-Pfalc?",
+    "question": "Cila hartë paraqet Rinlandin-Pfalc?",
     "options": [
      "1",
      "2",
@@ -77489,7 +77489,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Zarland (Saarland)?",
+    "question": "Cila stemë i përket landit Zarland (Saarland)?",
     "options": [
      "Fotoja 1",
      "Fotoja 2",
@@ -78874,7 +78874,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Zarlandi?",
+    "question": "Cila hartë paraqet Zarlandin?",
     "options": [
      "1",
      "2",
@@ -79375,7 +79375,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket shtetit të lirë Saksoni (Sachsen)?",
+    "question": "Cila stemë i përket shtetit të lirë Saksoni (Sachsen)?",
     "options": [
      "Fotoja 1",
      "Fotoja 2",
@@ -80760,7 +80760,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Saksonia?",
+    "question": "Cila hartë paraqet Saksoninë?",
     "options": [
      "1",
      "2",
@@ -81261,7 +81261,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Saksoni-Anhalt (Sachsen-Anhalt)?",
+    "question": "Cila stemë i përket landit Saksoni-Anhalt (Sachsen-Anhalt)?",
     "options": [
      "Fotoja 1",
      "Fotoja 2",
@@ -82646,7 +82646,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Saksoni-Anhalti?",
+    "question": "Cila hartë paraqet Saksoninë-Anhalt?",
     "options": [
      "1",
      "2",
@@ -83147,7 +83147,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Shlezvig-Holshtajn (Schleswig-Holstein)?",
+    "question": "Cila stemë i përket landit Shlezvig-Holshtajn (Schleswig-Holstein)?",
     "options": [
      "Fotoja 1",
      "Fotoja 2",
@@ -84532,7 +84532,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Shlezvig-Holshtajni?",
+    "question": "Cila hartë paraqet Shlezvig-Holshtajnin?",
     "options": [
      "1",
      "2",
@@ -85033,7 +85033,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket shtetit të lirë Tyringji (Thüringen)?",
+    "question": "Cila stemë i përket shtetit të lirë Tyringji (Thüringen)?",
     "options": [
      "Fotoja 1",
      "Fotoja 2",
@@ -86418,7 +86418,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Tyringjia?",
+    "question": "Cila hartë paraqet Tyringjinë?",
     "options": [
      "1",
      "2",
