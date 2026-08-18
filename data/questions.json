@@ -24836,7 +24836,7 @@
     ]
    },
    "pl": {
-    "question": "Wiele osób w Niemczech pracuje w wolnym czasie honorowo (ehrenamtlich). Co to oznacza?",
+    "question": "Wiele osób w Niemczech pracuje społecznie w czasie wolnym (ehrenamtlich). Co to oznacza?",
     "options": [
      "Pracują jako żołnierze.",
      "Pracują dobrowolnie i bez wynagrodzenia w stowarzyszeniach i związkach.",
@@ -34096,7 +34096,7 @@
     ]
    },
    "pl": {
-    "question": "Co Willy Brandt chciał wyrazić swoim klękiem w 1970 roku w byłym getcie żydowskim w Warszawie? © Bundesregierung/Engelbert Reineke",
+    "question": "Co Willy Brandt chciał wyrazić, klękając w 1970 roku przed pomnikiem Bohaterów Getta w Warszawie? © Bundesregierung/Engelbert Reineke",
     "options": [
      "Podporządkował się byłym aliantom.",
      "Prosił Polskę i polskich Żydów o wybaczenie.",
@@ -40143,7 +40143,7 @@
     ]
    },
    "pl": {
-    "question": "Ilu mieszkańców ma Niemcy?",
+    "question": "Ilu mieszkańców mają Niemcy?",
     "options": [
      "70 milionów",
      "78 milionów",
@@ -40334,10 +40334,10 @@
    "pl": {
     "question": "Jakie kolory ma niemiecka flaga?",
     "options": [
-     "czarno-czerwono-złoty",
-     "czerwono-biało-czarny",
-     "czarno-czerwono-zielony",
-     "czarno-żółto-czerwony"
+     "czarno-czerwono-złota",
+     "czerwono-biało-czarna",
+     "czarno-czerwono-zielona",
+     "czarno-żółto-czerwona"
     ]
    },
    "ro": {
@@ -48461,7 +48461,7 @@
     "question": "Dorosła kobieta chce w Niemczech uzupełnić maturę. Może to zrobić w…",
     "options": [
      "szkole wyższej.",
-     "gimnazjum wieczorowym.",
+     "wieczorowym liceum dla dorosłych (Abendgymnasium).",
      "szkole podstawowej wyższego stopnia (Hauptschule).",
      "prywatnym uniwersytecie."
     ]
@@ -49217,7 +49217,7 @@
     "question": "Mężczyzna w wieku 30 lat chce w Niemczech uzupełnić maturę. Gdzie może to zrobić? W…",
     "options": [
      "szkole wyższej.",
-     "gimnazjum wieczorowym.",
+     "wieczorowym liceum dla dorosłych (Abendgymnasium).",
      "szkole podstawowej wyższego stopnia (Hauptschule).",
      "prywatnym uniwersytecie."
     ]
@@ -53183,10 +53183,10 @@
     ]
    },
    "pl": {
-    "question": "Jaką funkcję honorową muszą przyjąć niemieccy obywatele i obywatelki, jeśli zostaną do tego wezwani?",
+    "question": "Jakiej funkcji społecznej muszą podjąć się obywatele Niemiec, jeśli zostaną do tego powołani?",
     "options": [
      "trenerki/trenera w klubie",
-     "urzędniczki/urzędnika wyborczego",
+     "członka komisji wyborczej (Wahlhelfer/in)",
      "nadzoru w bibliotece",
      "nauczycielki/nauczyciela"
     ]
@@ -53561,7 +53561,7 @@
     ]
    },
    "pl": {
-    "question": "To, co trzeba umieć do wykonywania pracy, zmienia się w przyszłości bardzo szybko. Co można zrobić?",
+    "question": "Umiejętności potrzebne w pracy będą się w przyszłości bardzo szybko zmieniać. Co można zrobić?",
     "options": [
      "Nie ma znaczenia, czego się uczy.",
      "Dorośli muszą uczyć się dalej także po zakończeniu wykształcenia zawodowego.",
@@ -58094,7 +58094,7 @@
     ]
    },
    "pl": {
-    "question": "Który kraj związkowy jest Badenią-Wirtembergią?",
+    "question": "Która mapa przedstawia Badenię-Wirtembergię?",
     "options": [
      "1",
      "2",
@@ -59980,7 +59980,7 @@
     ]
    },
    "pl": {
-    "question": "Który kraj związkowy jest Bawarią?",
+    "question": "Która mapa przedstawia Bawarię?",
     "options": [
      "1",
      "2",
@@ -61866,7 +61866,7 @@
     ]
    },
    "pl": {
-    "question": "Który kraj związkowy jest Berlinem?",
+    "question": "Która mapa przedstawia Berlin?",
     "options": [
      "1",
      "2",
@@ -63751,7 +63751,7 @@
     ]
    },
    "pl": {
-    "question": "Który kraj związkowy jest Brandenburgią?",
+    "question": "Która mapa przedstawia Brandenburgię?",
     "options": [
      "1",
      "2",
@@ -65637,7 +65637,7 @@
     ]
    },
    "pl": {
-    "question": "Który kraj związkowy jest Bremą?",
+    "question": "Która mapa przedstawia Bremę?",
     "options": [
      "1",
      "2",
@@ -67523,7 +67523,7 @@
     ]
    },
    "pl": {
-    "question": "Który kraj związkowy jest Hamburgiem?",
+    "question": "Która mapa przedstawia Hamburg?",
     "options": [
      "1",
      "2",
@@ -69408,7 +69408,7 @@
     ]
    },
    "pl": {
-    "question": "Który kraj związkowy jest Hesją?",
+    "question": "Która mapa przedstawia Hesję?",
     "options": [
      "1",
      "2",
@@ -71294,7 +71294,7 @@
     ]
    },
    "pl": {
-    "question": "Który kraj związkowy jest Meklemburgią-Pomorzem Przednim?",
+    "question": "Która mapa przedstawia Meklemburgię-Pomorze Przednie?",
     "options": [
      "1",
      "2",
@@ -73180,7 +73180,7 @@
     ]
    },
    "pl": {
-    "question": "Który to kraj związkowy: Dolna Saksonia?",
+    "question": "Która mapa przedstawia Dolną Saksonię?",
     "options": [
      "1",
      "2",
@@ -75066,7 +75066,7 @@
     ]
    },
    "pl": {
-    "question": "Który to kraj związkowy: Nadrenia Północna-Westfalia?",
+    "question": "Która mapa przedstawia Nadrenię Północną-Westfalię?",
     "options": [
      "1",
      "2",
@@ -76952,7 +76952,7 @@
     ]
    },
    "pl": {
-    "question": "Który to kraj związkowy: Nadrenia-Palatynat?",
+    "question": "Która mapa przedstawia Nadrenię-Palatynat?",
     "options": [
      "1",
      "2",
@@ -78838,7 +78838,7 @@
     ]
    },
    "pl": {
-    "question": "Który to kraj związkowy: Kraj Saary?",
+    "question": "Która mapa przedstawia Kraj Saary?",
     "options": [
      "1",
      "2",
@@ -80724,7 +80724,7 @@
     ]
    },
    "pl": {
-    "question": "Który to kraj związkowy: Saksonia?",
+    "question": "Która mapa przedstawia Saksonię?",
     "options": [
      "1",
      "2",
@@ -82610,7 +82610,7 @@
     ]
    },
    "pl": {
-    "question": "Który to kraj związkowy: Saksonia-Anhalt?",
+    "question": "Która mapa przedstawia Saksonię-Anhalt?",
     "options": [
      "1",
      "2",
@@ -84496,7 +84496,7 @@
     ]
    },
    "pl": {
-    "question": "Który to kraj związkowy: Szlezwik-Holsztyn?",
+    "question": "Która mapa przedstawia Szlezwik-Holsztyn?",
     "options": [
      "1",
      "2",
@@ -86382,7 +86382,7 @@
     ]
    },
    "pl": {
-    "question": "Który to kraj związkowy: Turyngia?",
+    "question": "Która mapa przedstawia Turyngię?",
     "options": [
      "1",
      "2",
