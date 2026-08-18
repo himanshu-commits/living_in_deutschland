@@ -1,3 +1,4 @@
+import { Ionicons } from "@expo/vector-icons";
 import { router, useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import { ScrollView, Text, View } from "react-native";
@@ -103,13 +104,20 @@ export default function Premium() {
           </Text>
         </Card>
 
-        {feature ? <Notice tone="info">{copy.benefits}</Notice> : null}
+        {feature ? <Notice tone="info">{copy.benefits.join(", ")}</Notice> : null}
         {isPremium ? <Notice tone="info">{copy.active}</Notice> : null}
         {message ? <Notice tone="info">{message}</Notice> : null}
 
         <Card>
           <Label>{copy.included}</Label>
-          <Text style={{ ...type.body, color: c.text, marginTop: spacing.md }}>{copy.benefits}</Text>
+          <View style={{ marginTop: spacing.md, gap: spacing.sm }}>
+            {copy.benefits.map((benefit) => (
+              <View key={benefit} style={{ flexDirection: "row", alignItems: "center", gap: spacing.sm }}>
+                <Ionicons name="checkmark-circle" size={18} color={c.correct} />
+                <Text style={{ ...type.body, color: c.text, flex: 1 }}>{benefit}</Text>
+              </View>
+            ))}
+          </View>
         </Card>
 
         {!isPremium && !session ? (
