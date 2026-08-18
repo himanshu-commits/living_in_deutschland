@@ -6,34 +6,16 @@ import { Button, Card, Label, Notice } from "@/components";
 import { useEntitlement } from "@/entitlements";
 import { HeaderBackButton, ScreenHeader } from "@/header";
 import type { PremiumFeature } from "@/premium";
+import { premiumCopy } from "@/premium-copy";
 import { useSession } from "@/sync";
+import { useStore } from "@/storage";
 import { layout, spacing, type, useColors } from "@/theme";
 import { buyLifetime, hasPremium, loadLifetimePackage, purchasesConfigured, restorePremium } from "@/purchases";
 
-const BENEFITS = [
-  "Detailed translated explanations",
-  "Audio pronunciation",
-  "Adaptive weak-topic practice",
-  "Unlimited mock exams",
-  "Advanced readiness analytics",
-  "Cloud sync across devices",
-  "A personalized study plan",
-  "No advertisements",
-];
-
-const FEATURE_NOTE: Partial<Record<PremiumFeature, string>> = {
-  explanations: "Unlock explanations for every answer.",
-  audio: "Listen to German questions and answers.",
-  adaptive: "Focus automatically on the topics that need work.",
-  unlimited_exams: "Take another complete mock exam whenever you want.",
-  analytics: "See detailed readiness and topic-level performance.",
-  cloud_sync: "Keep your progress on all your devices.",
-  study_plan: "Get a study plan based on your exam date and progress.",
-  remove_ads: "Study without advertisements.",
-};
-
 export default function Premium() {
   const c = useColors();
+  const { lang } = useStore();
+  const copy = premiumCopy(lang ?? "de");
   const { feature } = useLocalSearchParams<{ feature?: PremiumFeature }>();
   const { session } = useSession();
   const { status, isPremium, grantVerifiedPremium } = useEntitlement();
@@ -56,14 +38,14 @@ export default function Premium() {
       .then((item) => {
         if (!active) return;
         setOffer(item);
-        if (!item) setMessage("The lifetime product is not available in the store yet.");
+        if (!item) setMessage(copy.unavailable);
       })
       .catch((error: unknown) => {
-        if (active) setMessage(error instanceof Error ? error.message : "Unable to load the store product.");
+        if (active) setMessage(copy.purchaseFailed);
       })
       .finally(() => { if (active) setLoadingOffer(false); });
     return () => { active = false; };
-  }, [isPremium, session, storeConfigured]);
+  }, [isPremium, session, storeConfigured, copy.unavailable, copy.purchaseFailed]);
 
   async function purchase() {
     if (!offer) return;
@@ -71,18 +53,15 @@ export default function Premium() {
     setMessage(null);
     try {
       const customerInfo = await buyLifetime(offer);
-      if (!hasPremium(customerInfo)) throw new Error("The purchase completed, but Premium was not returned by the store.");
+      if (!hasPremium(customerInfo)) throw new Error(copy.purchaseFailed);
       await grantVerifiedPremium();
       router.replace({ pathname: "/", params: { premiumResult: "activated" } });
     } catch (error: unknown) {
       const cancelled = typeof error === "object" && error !== null && "userCancelled" in error && error.userCancelled === true;
       if (cancelled) {
-        setMessage("Purchase cancelled. No charge was made.");
+        setMessage(copy.cancelled);
       } else {
-        const detail = typeof error === "object" && error !== null && "message" in error && typeof error.message === "string"
-          ? error.message
-          : "The purchase could not be completed.";
-        setMessage(detail);
+        setMessage(copy.purchaseFailed);
       }
     } finally {
       setBusy(null);
@@ -96,13 +75,13 @@ export default function Premium() {
     try {
       const customerInfo = await restorePremium(session.user.id);
       if (!hasPremium(customerInfo)) {
-        setMessage("No previous Premium purchase was found for this store account.");
+        setMessage(copy.noPrevious);
         return;
       }
       await grantVerifiedPremium();
       router.replace({ pathname: "/", params: { premiumResult: "restored" } });
     } catch (error: unknown) {
-      setMessage(error instanceof Error ? error.message : "Purchases could not be restored.");
+      setMessage(copy.restoreFailed);
     } finally {
       setBusy(null);
     }
@@ -112,56 +91,49 @@ export default function Premium() {
     <View style={{ flex: 1, backgroundColor: c.bg }}>
       <ScreenHeader
         title="Premium"
-        left={<HeaderBackButton label="Close Premium" onPress={closePremium} />}
+        left={<HeaderBackButton label={copy.close} onPress={closePremium} />}
       />
       <ScrollView contentContainerStyle={{ width: "100%", maxWidth: layout.contentMaxWidth,
         alignSelf: "center", padding: spacing.lg, paddingBottom: spacing.xxl, gap: spacing.lg }}>
         <Card>
-          <Label>Lifetime access</Label>
-          <Text style={{ ...type.title, color: c.text, marginTop: spacing.sm }}>Prepare with confidence</Text>
+          <Label>{copy.lifetime}</Label>
+          <Text style={{ ...type.title, color: c.text, marginTop: spacing.sm }}>{copy.prepare}</Text>
           <Text style={{ ...type.body, color: c.textMuted, marginTop: spacing.sm }}>
-            One purchase unlocks Premium permanently. No subscription and no recurring charge.
+            {copy.intro}
           </Text>
         </Card>
 
-        {feature && FEATURE_NOTE[feature] ? <Notice tone="info">{FEATURE_NOTE[feature]}</Notice> : null}
-        {isPremium ? <Notice tone="info">Premium is active on this account.</Notice> : null}
+        {feature ? <Notice tone="info">{copy.benefits}</Notice> : null}
+        {isPremium ? <Notice tone="info">{copy.active}</Notice> : null}
         {message ? <Notice tone="info">{message}</Notice> : null}
 
         <Card>
-          <Label>Everything in Premium</Label>
-          <View style={{ marginTop: spacing.md, gap: spacing.md }}>
-            {BENEFITS.map((benefit) => (
-              <View key={benefit} style={{ flexDirection: "row", gap: spacing.md }}>
-                <Text style={{ ...type.body, color: c.correct }}>✓</Text>
-                <Text style={{ ...type.body, color: c.text, flex: 1 }}>{benefit}</Text>
-              </View>
-            ))}
-          </View>
+          <Label>{copy.included}</Label>
+          <Text style={{ ...type.body, color: c.text, marginTop: spacing.md }}>{copy.benefits}</Text>
         </Card>
 
         {!isPremium && !session ? (
           <>
             <Button
-              label="Continue to lifetime purchase"
+              label={copy.continuePurchase}
               onPress={() => router.push({ pathname: "/login", params: { returnTo: "premium" } })}
             />
             <Text style={{ ...type.body, fontSize: 13, color: c.textMuted, textAlign: "center" }}>
-              Log in or create an account to secure and restore your purchase. Free study remains available without an account.
+              {copy.loginNote}
             </Text>
           </>
         ) : null}
 
         {!isPremium && session ? (
           <>
-            {!storeConfigured ? <Notice tone="info">Store purchases are ready in the app but still need RevenueCat public SDK keys.</Notice> : null}
+            {!storeConfigured ? <Notice tone="info">{copy.storeSetup}</Notice> : null}
             <Button
-              label={loadingOffer ? "Loading store price…" : offer ? `Unlock forever — ${offer.product.priceString}` : "Lifetime purchase unavailable"}
+              label={loadingOffer ? copy.loadingPrice : offer ? copy.unlock.replace("{price}", offer.product.priceString) : copy.unavailable}
               onPress={purchase}
               disabled={!offer || busy !== null || loadingOffer}
             />
             <Button
-              label={busy === "restore" ? "Restoring…" : "Restore purchases"}
+              label={busy === "restore" ? copy.restoring : copy.restore}
               variant="ghost"
               onPress={restore}
               disabled={!storeConfigured || busy !== null}
@@ -169,21 +141,7 @@ export default function Premium() {
           </>
         ) : null}
 
-        {__DEV__ && isPremium && session && storeConfigured ? (
-          <Card>
-            <Label>Development testing</Label>
-            <Text style={{ ...type.body, color: c.textMuted, marginVertical: spacing.md }}>
-              Open the Test Store dialog again to verify cancellation and purchase-error handling. This section is excluded from release builds.
-            </Text>
-            <Button
-              label={loadingOffer ? "Loading test product…" : "Test purchase outcomes"}
-              onPress={purchase}
-              disabled={!offer || busy !== null || loadingOffer}
-            />
-          </Card>
-        ) : null}
-
-        {status === "loading" ? <Notice tone="info">Checking Premium access…</Notice> : null}
+        {status === "loading" ? <Notice tone="info">{copy.checking}</Notice> : null}
       </ScrollView>
     </View>
   );
