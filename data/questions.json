@@ -22,7 +22,7 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, people are allowed to openly do something against the government because?",
+    "question": "In Germany, people are allowed to openly say something against the government because …",
     "options": [
      "freedom of religion applies here.",
      "people pay taxes.",
@@ -211,12 +211,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, parents up to the age of 14 can decide whether to attend school on?",
+    "question": "In Germany, until their child turns 14, parents can decide whether the child participates in …",
     "options": [
-     "history lessons.",
-     "religious education",
-     "Politics lessons.",
-     "language classes."
+     "history class.",
+     "religious education.",
+     "politics class.",
+     "language class."
     ]
    },
    "tr": {
@@ -400,11 +400,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Germany is a state governed by the rule of law. What does that mean?",
+    "question": "Germany is a state governed by the rule of law. What does this mean?",
     "options": [
-     "All residents and the state must comply with keep the laws.",
-     "The state does not have to abide by the law.",
-     "Only Germans have to follow the laws.",
+     "All residents and the state must abide by the laws.",
+     "The state does not have to abide by the laws.",
+     "Only Germans have to obey the laws.",
      "The courts make the laws."
     ]
    },
@@ -589,12 +589,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which law is one of the fundamental rights in Germany?",
+    "question": "Which right is one of the basic rights in Germany?",
     "options": [
-     "Possession of weapons",
-     "Law of the Fist",
-     "Freedom of expression",
-     "Vigilante justice."
+     "the right to own weapons",
+     "the law of the strongest",
+     "freedom of expression",
+     "vigilante justice"
     ]
    },
    "tr": {
@@ -780,10 +780,10 @@
    "en": {
     "question": "Elections in Germany are free. What does this mean?",
     "options": [
-     "You can accept money if you pay a certain amount of money for it. Candidates elects a specific candidate.",
-     "Only people who have never been in prison are allowed to .",
-     "The voter may not be influenced in the election or lead to a certain votes and have no disadvantages by choice.",
-     "All persons entitled to vote must vote."
+     "You are allowed to accept money if you vote for a certain candidate in return.",
+     "Only people who have never been in prison are allowed to vote.",
+     "Voters may neither be influenced nor forced to cast their vote in a certain way, and must not suffer any disadvantages because of how they vote.",
+     "All eligible voters must vote."
     ]
    },
    "tr": {
@@ -967,11 +967,11 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the name of the German constitution?",
+    "question": "What is the German constitution called?",
     "options": [
      "People's Law",
-     "Federal law",
-     "German law",
+     "Federal Law",
+     "German Law",
      "Basic Law"
     ]
    },
@@ -1156,12 +1156,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which right is one of the fundamental rights guaranteed under the German constitution? The right to",
+    "question": "Which right is one of the basic rights guaranteed under the German constitution? The right to …",
     "options": [
-     "Freedom of religion and conscience",
-     "Entertainment",
-     "Work",
-     "Apartment"
+     "freedom of faith and conscience",
+     "entertainment",
+     "work",
+     "housing"
     ]
    },
    "tr": {
@@ -1345,11 +1345,11 @@
   ],
   "translations": {
    "en": {
-    "question": "What is not in the Basic Law of Germany?",
+    "question": "What is not stated in Germany's Basic Law?",
     "options": [
      "Human dignity is inviolable.",
-     "Everyone should have the same amount of money",
-     "Everyone is allowed to express their opinion.",
+     "Everyone should have the same amount of money.",
+     "Every person may state their opinion.",
      "Everyone is equal before the law."
     ]
    },
@@ -1534,12 +1534,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which fundamental right applies in Germany only to Foreigners? The fundamental right to ...",
+    "question": "Which basic right in Germany applies only to foreigners? The basic right to …",
     "options": [
-     "Protection of the family",
-     "Human dignity",
-     "Asylum",
-     "Freedom of expression"
+     "protection of the family",
+     "human dignity",
+     "asylum",
+     "freedom of expression"
     ]
    },
    "tr": {
@@ -1725,10 +1725,10 @@
    "en": {
     "question": "What is compatible with the German Basic Law?",
     "options": [
-     "the corporal punishment",
-     "the torture",
+     "corporal punishment",
+     "torture",
      "the death penalty",
-     "the fine"
+     "fines"
     ]
    },
    "tr": {
@@ -1912,11 +1912,11 @@
   ],
   "translations": {
    "en": {
-    "question": "How will the Constitution of the Federal Republic of Germany be ?",
+    "question": "What is the constitution of the Federal Republic of Germany called?",
     "options": [
      "Basic Law",
-     "Bundesverfassung",
-     "Code of Law",
+     "Federal Constitution",
+     "Legal Code",
      "Constitutional Treaty"
     ]
    },
@@ -2101,12 +2101,12 @@
   ],
   "translations": {
    "en": {
-    "question": "A party in the German Bundestag wants freedom of the press abolish. Is that possible?",
+    "question": "A party in the German Bundestag wants to abolish freedom of the press. Is that possible?",
     "options": [
      "Yes, if more than half of the members of the Bundestag are in favor.",
-     "Yes, but for this to happen, two-thirds of the members of parliament in the Bundestag be in favor",
-     "No, because freedom of the press is a fundamental right. It can cannot be abolished",
-     "No, because only the Federal Council can guarantee freedom of the press abolish."
+     "Yes, but two-thirds of the members of the Bundestag must be in favor.",
+     "No, because freedom of the press is a basic right. It cannot be abolished.",
+     "No, because only the Bundesrat can abolish freedom of the press."
     ]
    },
    "tr": {
@@ -2290,12 +2290,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In parliament, the term \"opposition\" stands for ...",
+    "question": "In parliament, the term \"opposition\" refers to …",
     "options": [
      "the governing parties.",
-     "the parliamentary group with the most deputies.",
-     "all parties that passed the 5% hurdle in the last election .",
-     "all members of parliament who do not belong to the ruling party/ governing parties."
+     "the parliamentary group with the most members.",
+     "all parties that were able to clear the 5% threshold in the last election.",
+     "all members of parliament who do not belong to the governing party or parties."
     ]
    },
    "tr": {
@@ -2479,12 +2479,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Freedom of expression in Germany means that I ...",
+    "question": "Freedom of expression in Germany means that I …",
     "options": [
-     "insulted passers-by on the street.",
-     "can express my opinion in letters to the editor.",
-     "Nazi, Hamas or Islamic State symbols in public .",
-     "may only express my opinion as long as I am government."
+     "may insult passersby on the street.",
+     "can express my opinion on the internet.",
+     "may publicly display Nazi, Hamas, or Islamic State symbols.",
+     "may only express my opinion as long as I do not contradict the government."
     ]
    },
    "tr": {
@@ -2858,10 +2858,10 @@
    "en": {
     "question": "When is freedom of expression restricted in Germany?",
     "options": [
-     "in the public dissemination of false allegations about individual persons",
-     "when expressing opinions about the Federal Government",
+     "when publicly spreading false claims about individual people",
+     "when expressing opinions about the federal government",
      "in discussions about religions",
-     "in case of criticism of the state"
+     "when criticizing the state"
     ]
    },
    "tr": {
@@ -3045,12 +3045,12 @@
   ],
   "translations": {
    "en": {
-    "question": "German laws prohibit ...",
+    "question": "German laws prohibit …",
     "options": [
-     "Freedom of expression of the residents.",
-     "Petitions of citizens.",
-     "Freedom of assembly of residents.",
-     "unequal treatment of citizens by the State."
+     "freedom of expression for residents.",
+     "petitions by citizens.",
+     "freedom of assembly for residents.",
+     "unequal treatment of citizens by the state."
     ]
    },
    "tr": {
@@ -3234,12 +3234,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which fundamental right is enshrined in Article 1 of the Basic Law of the Federal Republic of Germany guaranteed?",
+    "question": "Which basic right is guaranteed in Article 1 of the Basic Law of the Federal Republic of Germany?",
     "options": [
      "the inviolability of human dignity",
      "the right to life",
-     "Religious Freedom",
-     "Freedom of expression"
+     "freedom of religion",
+     "freedom of expression"
     ]
    },
    "tr": {
@@ -3423,12 +3423,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is meant by the right of \"free movement\" in Germany?",
+    "question": "What is meant by the right of \"freedom of movement\" in Germany?",
     "options": [
-     "You can choose your own place of residence.",
+     "You may choose your own place of residence.",
      "You can change your profession.",
-     "You can choose another religion.",
-     "You are only allowed to dress lightly in public ."
+     "You may choose a different religion.",
+     "You may only move about in public while lightly dressed."
     ]
    },
    "tr": {
@@ -3612,11 +3612,11 @@
   ],
   "translations": {
    "en": {
-    "question": "A party in Germany is pursuing the goal of preventing a dictatorship . It is then ...",
+    "question": "A party in Germany pursues the goal of establishing a dictatorship. It is then …",
     "options": [
      "tolerant.",
-     "based on the rule of law.",
-     "Law-abiding.",
+     "oriented toward the rule of law.",
+     "law-abiding.",
      "unconstitutional."
     ]
    },
@@ -3989,12 +3989,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What kind of government does Germany have?",
+    "question": "What form of government does Germany have?",
     "options": [
-     "Monarchy",
-     "Dictatorship",
-     "Republic",
-     "Principality"
+     "monarchy",
+     "dictatorship",
+     "republic",
+     "principality"
     ]
    },
    "tr": {
@@ -4178,12 +4178,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, most of the employed are ...",
+    "question": "In Germany, most working people are …",
     "options": [
-     "in small family businesses.",
-     "volunteer for a federal state.",
-     "self-employed with his own company.",
-     "employed by a company or authority."
+     "employed at small family businesses.",
+     "volunteering for a federal state.",
+     "self-employed with their own company.",
+     "employed by a company or public authority."
     ]
    },
    "tr": {
@@ -4556,11 +4556,11 @@
   ],
   "translations": {
    "en": {
-    "question": "What is not a federal state of the Federal Republic of Germany?",
+    "question": "Which of these is not a federal state of the Federal Republic of Germany?",
     "options": [
      "Alsace-Lorraine",
      "North Rhine-Westphalia",
-     "Mecklenburg-Vorpommern",
+     "Mecklenburg-Western Pomerania",
      "Saxony-Anhalt"
     ]
    },
@@ -4745,7 +4745,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Germany is ...",
+    "question": "Germany is …",
     "options": [
      "a communist republic.",
      "a democratic and social federal state.",
@@ -4934,7 +4934,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Germany is ...",
+    "question": "Germany is …",
     "options": [
      "a socialist state.",
      "a federal state.",
@@ -5126,8 +5126,8 @@
     "question": "Who elects the members of the Bundestag in Germany?",
     "options": [
      "the military",
-     "the economy",
-     "the people entitled to vote",
+     "the business sector",
+     "the eligible electorate",
      "the administration"
     ]
    },
@@ -5314,10 +5314,10 @@
    "en": {
     "question": "Which animal is the heraldic animal of the Federal Republic of Germany?",
     "options": [
-     "Leo",
-     "Eagle",
-     "Bear",
-     "Horse"
+     "lion",
+     "eagle",
+     "bear",
+     "horse"
     ]
    },
    "tr": {
@@ -5501,12 +5501,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is not a feature of our democracy?",
+    "question": "Which of these is not a feature of our democracy?",
     "options": [
-     "Regular elections",
-     "Press censorship",
-     "Freedom of expression",
-     "different parties"
+     "regular elections",
+     "press censorship",
+     "freedom of expression",
+     "multiple parties"
     ]
    },
    "tr": {
@@ -5690,11 +5690,11 @@
   ],
   "translations": {
    "en": {
-    "question": "The cooperation of parties to form a government is called in Germany ...",
+    "question": "In Germany, the cooperation of parties to form a government is called …",
     "options": [
-     "Unity.",
-     "Coalition.",
-     "Ministry.",
+     "unity.",
+     "coalition.",
+     "ministry.",
      "parliamentary group."
     ]
    },
@@ -5879,12 +5879,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is not state authority in Germany?",
+    "question": "Which of these is not a branch of state power in Germany?",
     "options": [
-     "Legislation",
-     "Government",
-     "Press",
-     "Case law"
+     "legislation",
+     "government",
+     "the press",
+     "the judiciary"
     ]
    },
    "tr": {
@@ -6068,12 +6068,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which statement is correct? In Germany ...",
+    "question": "Which statement is correct? In Germany …",
     "options": [
-     "state and religious communities are separated from each other",
-     "the religious communities form the state.",
-     "the state is dependent on the religious communities.",
-     "state and religious communities form a unit."
+     "the state and religious communities are separate from one another.",
+     "religious communities form the state.",
+     "the state is dependent on religious communities.",
+     "the state and religious communities form a single unit."
     ]
    },
    "tr": {
@@ -6446,12 +6446,12 @@
   ],
   "translations": {
    "en": {
-    "question": "How does the German state finance social security?",
+    "question": "How does the German state finance social insurance?",
     "options": [
-     "Church taxes",
-     "Social security contributions",
-     "Donations",
-     "Association fees"
+     "church tax",
+     "social security contributions",
+     "donations",
+     "membership dues"
     ]
    },
    "tr": {
@@ -6635,12 +6635,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What measure creates social security in Germany?",
+    "question": "Which measure creates social security in Germany?",
     "options": [
      "health insurance",
-     "Car insurance",
-     "Buildings insurance",
-     "Liability insurance"
+     "car insurance",
+     "building insurance",
+     "liability insurance"
     ]
    },
    "tr": {
@@ -7012,12 +7012,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The Federal Republic of Germany is a democratic and social ...",
+    "question": "The Federal Republic of Germany is a democratic and social …",
     "options": [
-     "Union of States.",
-     "Federal State.",
-     "Confederation of States.",
-     "Central government."
+     "confederation of states.",
+     "federal state.",
+     "confederation.",
+     "centralized state."
     ]
    },
    "tr": {
@@ -7201,12 +7201,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What does each German state have?",
+    "question": "What does every German federal state have?",
     "options": [
-     "its own Foreign Minister",
-     "a currency of its own",
-     "an army of its own",
-     "a government of its own"
+     "its own foreign minister",
+     "its own currency",
+     "its own army",
+     "its own government"
     ]
    },
    "tr": {
@@ -7390,12 +7390,12 @@
   ],
   "translations": {
    "en": {
-    "question": "With which words does the German national anthem begin?",
+    "question": "What words does the German national anthem begin with?",
     "options": [
-     "Peoples, listen to the signals...",
-     "Unity and justice and freedom...",
-     "Joy, beautiful spark of the gods...",
-     "Germany united fatherland..."
+     "Peoples, hear the signals …",
+     "Unity and justice and freedom …",
+     "Joy, beautiful spark of the gods …",
+     "Germany, united fatherland …"
     ]
    },
    "tr": {
@@ -7579,10 +7579,10 @@
   ],
   "translations": {
    "en": {
-    "question": "Why is there more than one party in a democracy?",
+    "question": "Why are there more than one party in a democracy?",
     "options": [
-     "because it takes into account the different opinions of citizens and citizens",
-     "to limit bribery in politics",
+     "because this represents the different opinions of citizens",
+     "so that bribery in politics is limited",
      "to prevent political demonstrations",
      "to stimulate economic competition"
     ]
@@ -7771,8 +7771,8 @@
     "question": "Who passes a new law in Germany?",
     "options": [
      "the government",
-     "Parliament",
-     "the dishes",
+     "the parliament",
+     "the courts",
      "the police"
     ]
    },
@@ -7959,10 +7959,10 @@
    "en": {
     "question": "When can a party be banned in Germany?",
     "options": [
-     "if their election campaign is too expensive",
+     "when its election campaign is too expensive",
      "when it fights against the constitution",
-     "when she expresses criticism of the head of state",
-     "when their program suggests a new direction"
+     "when it criticizes the head of state",
+     "when its platform proposes a new direction"
     ]
    },
    "tr": {
@@ -8146,12 +8146,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Who can you not directly contact as a citizen in Germany? ?",
+    "question": "As a citizen in Germany, who can you not vote for directly?",
     "options": [
-     "Members of the European Parliament",
+     "members of the European Parliament",
      "the Federal President",
-     "Member of the State Parliament",
-     "Members of the Bundestag"
+     "state parliament members",
+     "Bundestag members"
     ]
    },
    "tr": {
@@ -8335,12 +8335,12 @@
   ],
   "translations": {
    "en": {
-    "question": "To which insurance does long-term care insurance belong?",
+    "question": "Which type of insurance does long-term care insurance belong to?",
     "options": [
-     "Social Security",
-     "Accident insurance",
-     "Household contents insurance",
-     "Liability and fire insurance"
+     "social insurance",
+     "accident insurance",
+     "household contents insurance",
+     "liability and fire insurance"
     ]
    },
    "tr": {
@@ -8524,12 +8524,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The German state has many tasks. Which task belongs To this?",
+    "question": "The German state has many responsibilities. Which of these is one of them?",
     "options": [
-     "He builds roads and schools.",
-     "He sells food and clothing.",
-     "It provides all residents with free Newspapers.",
-     "He produces cars and buses."
+     "It builds roads and schools.",
+     "It sells food and clothing.",
+     "It provides all residents with free newspapers.",
+     "It manufactures cars and buses."
     ]
    },
    "tr": {
@@ -8713,12 +8713,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The German state has many tasks. Which task belongs not to that?",
+    "question": "The German state has many responsibilities. Which of these is not one of them?",
     "options": [
-     "It pays for vacation trips for all nationals.",
-     "He pays child benefit.",
-     "He supports museums.",
-     "It promotes athletes."
+     "It pays for vacation trips for all citizens.",
+     "It pays child benefit.",
+     "It supports museums.",
+     "It funds athletes."
     ]
    },
    "tr": {
@@ -8902,10 +8902,10 @@
   ],
   "translations": {
    "en": {
-    "question": "Which body is not one of the constitutional organs Germany?",
+    "question": "Which body is not one of Germany's constitutional bodies?",
     "options": [
-     "the Federal Council",
-     "the President of the Swiss Confederation",
+     "the Bundesrat",
+     "the Federal President",
      "the citizens' assembly",
      "the government"
     ]
@@ -9093,10 +9093,10 @@
    "en": {
     "question": "Who determines school policy in Germany?",
     "options": [
-     "the teachers",
+     "teachers",
      "the federal states",
-     "the Ministry of Family Affairs",
-     "Universities"
+     "the Federal Ministry for Family Affairs",
+     "the universities"
     ]
    },
    "tr": {
@@ -9280,12 +9280,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The economic system in Germany is called ...",
+    "question": "The economic system in Germany is called …",
     "options": [
-     "free central economy.",
+     "free centrally planned economy.",
      "social market economy.",
-     "controlled central economy.",
-     "Planned economy."
+     "guided centrally planned economy.",
+     "planned economy."
     ]
    },
    "tr": {
@@ -9469,12 +9469,12 @@
   ],
   "translations": {
    "en": {
-    "question": "It is not part of a democratic state under the rule of law that ...",
+    "question": "Which of the following is not part of a democratic state governed by the rule of law: that …",
     "options": [
-     "People can express themselves critically about the government.",
-     "citizens are allowed to demonstrate peacefully.",
-     "people are arrested by a private police force for no reason.",
-     "someone commits a crime and is arrested for it."
+     "people can criticize the government.",
+     "citizens are allowed to hold peaceful demonstrations.",
+     "people are arrested without cause by a private police force.",
+     "someone commits a crime and is therefore arrested."
     ]
    },
    "tr": {
@@ -9658,9 +9658,9 @@
   ],
   "translations": {
    "en": {
-    "question": "What does \"popular sovereignty\" mean? All state power proceeds from ...",
+    "question": "What does \"popular sovereignty\" mean? All state power emanates from the …",
     "options": [
-     "Volke.",
+     "people.",
      "Bundestag.",
      "Prussian king.",
      "Federal Constitutional Court."
@@ -9847,12 +9847,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What does \"rule of law\" mean in Germany?",
+    "question": "What does \"state governed by the rule of law\" mean in Germany?",
     "options": [
-     "The state is right.",
+     "The state is always right.",
      "There are only right-wing parties.",
-     "The citizens decide on laws.",
-     "The state must comply with the law."
+     "Citizens decide on laws.",
+     "The state must comply with the laws."
     ]
    },
    "tr": {
@@ -10036,12 +10036,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is not state authority in Germany?",
+    "question": "Which of these is not a branch of state power in Germany?",
     "options": [
-     "Legislative",
-     "Judiciary",
-     "Executive",
-     "Directive"
+     "legislature",
+     "judiciary",
+     "executive",
+     "directive"
     ]
    },
    "tr": {
@@ -10225,7 +10225,7 @@
   ],
   "translations": {
    "en": {
-    "question": "What does this picture show?",
+    "question": "What does this picture show? © Deutscher Bundestag/Achim Melde",
     "options": [
      "the seat of the Bundestag in Berlin",
      "the Federal Constitutional Court in Karlsruhe",
@@ -10414,11 +10414,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Which office belongs to the municipal administration in Germany?",
+    "question": "Which office in Germany belongs to the municipal administration?",
     "options": [
-     "Parish office",
-     "Public Order Office",
-     "Tax office",
+     "parish office",
+     "public order office",
+     "tax office",
      "Federal Foreign Office"
     ]
    },
@@ -10603,12 +10603,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Who is usually the president of the German Bundestag?",
+    "question": "Who is usually elected President of the German Bundestag?",
     "options": [
      "the oldest member of parliament",
-     "the Prime Minister of the largest State",
+     "the minister-president of the largest federal state",
      "a former Federal Chancellor",
-     "one member of parliament from the strongest parliamentary group"
+     "a member of the strongest parliamentary group"
     ]
    },
    "tr": {
@@ -10792,10 +10792,10 @@
   ],
   "translations": {
    "en": {
-    "question": "Who appoints the ministers of the Federal government?",
+    "question": "Who appoints the ministers of the federal government in Germany?",
     "options": [
      "the President of the Federal Constitutional Court",
-     "the President of the Swiss Confederation",
+     "the Federal President",
      "the President of the Bundesrat",
      "the President of the Bundestag"
     ]
@@ -10981,12 +10981,12 @@
   ],
   "translations": {
    "en": {
-    "question": "How many years ago was there a Jewish community for the first time. the territory of today's Germany?",
+    "question": "How many years ago did a Jewish community first exist on the territory of present-day Germany?",
     "options": [
      "about 300 years ago",
      "about 700 years ago",
-     "about 1150 years ago",
-     "about 1700 years ago"
+     "about 1,150 years ago",
+     "about 1,700 years ago"
     ]
    },
    "tr": {
@@ -11170,12 +11170,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, the Bundestag and the Bundesrat are part of the ...",
+    "question": "In Germany, the Bundestag and the Bundesrat belong to the …",
     "options": [
      "executive.",
-     "Legislative.",
-     "Directive.",
-     "Judiciary."
+     "legislature.",
+     "directive.",
+     "judiciary."
     ]
    },
    "tr": {
@@ -11361,9 +11361,9 @@
    "en": {
     "question": "What does \"popular sovereignty\" mean?",
     "options": [
-     "The king/queen rules over the people.",
+     "The queen or king rules over the people.",
      "The Federal Constitutional Court stands above the constitution.",
-     "The interest groups exercise sovereignty together with the government.",
+     "Interest groups exercise sovereignty together with the government.",
      "State power emanates from the people."
     ]
    },
@@ -11548,12 +11548,12 @@
   ],
   "translations": {
    "en": {
-    "question": "When the parliament of a German federal state is elected, that's what you call ...",
+    "question": "When the parliament of a German federal state is elected, this is called a …",
     "options": [
-     "Municipal elections.",
-     "State election.",
-     "European elections.",
-     "Bundestag election."
+     "local election",
+     "state parliament election",
+     "European election",
+     "Bundestag election"
     ]
    },
    "tr": {
@@ -11737,10 +11737,10 @@
   ],
   "translations": {
    "en": {
-    "question": "What does not belong to the executive branch in Germany?",
+    "question": "Which of these is not part of the executive branch in Germany?",
     "options": [
      "the police",
-     "the dishes",
+     "the courts",
      "the tax office",
      "the ministries"
     ]
@@ -11926,12 +11926,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Today, the Federal Republic of Germany is divided into ...",
+    "question": "The Federal Republic of Germany is today divided into …",
     "options": [
      "four occupation zones.",
      "an eastern state and a western state.",
      "16 cantons.",
-     "federal, state and local governments."
+     "the federation, the states, and the municipalities."
     ]
    },
    "tr": {
@@ -12115,12 +12115,12 @@
   ],
   "translations": {
    "en": {
-    "question": "It is not one of the tasks of the German Bundestag to ...",
+    "question": "Which of the following is not one of the responsibilities of the German Bundestag: …",
     "options": [
-     "Draft laws.",
-     "to control the federal government.",
-     "to elect the Federal Chancellor.",
-     "to form the Federal Cabinet."
+     "drafting laws.",
+     "overseeing the federal government.",
+     "electing the Federal Chancellor.",
+     "forming the federal cabinet."
     ]
    },
    "tr": {
@@ -12493,12 +12493,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, what is above all a task of the Federal states?",
+    "question": "In Germany, what is primarily a responsibility of the federal states?",
     "options": [
-     "Defence policy",
-     "Foreign policy",
-     "Economic policy",
-     "School policy"
+     "defense policy",
+     "foreign policy",
+     "economic policy",
+     "school policy"
     ]
    },
    "tr": {
@@ -12685,9 +12685,9 @@
     "question": "Why does the state control the school system in Germany?",
     "options": [
      "because there are only state schools in Germany",
-     "because all pupils have a school-leaving certificate must have",
+     "because all students must obtain a school-leaving qualification",
      "because there are different schools in the federal states",
-     "because it is his task according to the Basic Law"
+     "because this is its responsibility under the Basic Law"
     ]
    },
    "tr": {
@@ -12871,9 +12871,9 @@
   ],
   "translations": {
    "en": {
-    "question": "The Federal Republic of Germany has adopted a three-stage Administrative structure. What is the name of the lowest political level?",
+    "question": "The Federal Republic of Germany has a three-tier administrative structure. What is the lowest political level called?",
     "options": [
-     "City councillors",
+     "City councils",
      "District administrators",
      "Municipalities",
      "District offices"
@@ -13060,12 +13060,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The German Federal President Gustav Heinemann gives Helmut Schmidt received the certificate of appointment as German Federal Chancellor. What is one of the tasks of the German Federal President?",
+    "question": "German Federal President Gustav Heinemann gives Helmut Schmidt his certificate of appointment as German Federal Chancellor in 1974. What is one of the duties of the German Federal President? © Bundesregierung/Engelbert Reineke",
     "options": [
-     "He/she conducts the business of government.",
-     "He/she controls the ruling party.",
-     "He/she selects the ministers.",
-     "He/she proposes the Chancellor for election."
+     "They run the government's affairs.",
+     "They oversee the governing party.",
+     "They choose the ministers.",
+     "They nominate the chancellor for election."
     ]
    },
    "tr": {
@@ -13249,12 +13249,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where is the German Chancellor Chancellor most often? Most often, he/she is...",
+    "question": "Where is the German Federal Chancellor located most often? Most often, they are …",
     "options": [
-     "in Bonn, because the Federal Chancellery and the Bundestag.",
-     "at Schloss Meseberg, the guest house of the Federal Government, in order to state guests.",
-     "at Bellevue Palace, the official residence of the President of the Swiss Confederation Federal Presidents to receive state guests.",
-     "in Berlin, because the Federal Chancellery and the Bundestag."
+     "in Bonn, because the Federal Chancellery and the Bundestag are located there.",
+     "at Schloss Meseberg, the federal government's guest house, to receive state guests.",
+     "at Schloss Bellevue, the official residence of the Federal President, to receive state guests.",
+     "in Berlin, because the Federal Chancellery and the Bundestag are located there."
     ]
    },
    "tr": {
@@ -13438,7 +13438,7 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the name of the current Chancellor Chancellor of Germany?",
+    "question": "What is the name of the current Federal Chancellor of Germany?",
     "options": [
      "Gerhard Schröder",
      "Angela Merkel",
@@ -13627,11 +13627,11 @@
   ],
   "translations": {
    "en": {
-    "question": "The two largest parliamentary groups in the German Bundestag are currently ...",
+    "question": "The two largest parliamentary groups in the German Bundestag are currently called …",
     "options": [
      "CDU/CSU and AfD.",
      "Die Linke and Bündnis 90/Die Grünen.",
-     "Alliance 90/The Greens and SPD.",
+     "Bündnis 90/Die Grünen and SPD.",
      "Die Linke and CDU/CSU."
     ]
    },
@@ -14194,7 +14194,7 @@
   ],
   "translations": {
    "en": {
-    "question": "What does the abbreviation CDU mean in Germany?",
+    "question": "What does the abbreviation CDU stand for in Germany?",
     "options": [
      "Christian German Union",
      "Club of German Entrepreneurs",
@@ -14386,9 +14386,9 @@
     "question": "What is the Bundeswehr?",
     "options": [
      "the German police",
-     "a German port",
+     "a German harbor",
      "a German citizens' initiative",
-     "the German army"
+     "the German armed forces"
     ]
    },
    "tr": {
@@ -14572,12 +14572,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What does the abbreviation SPD mean?",
+    "question": "What does the abbreviation SPD stand for?",
     "options": [
      "Socialist Party of Germany",
-     "Socio-political party of Germany",
+     "Social Policy Party of Germany",
      "Social Democratic Party of Germany",
-     "Socially Just Party of Germany"
+     "Social Justice Party of Germany"
     ]
    },
    "tr": {
@@ -14761,7 +14761,7 @@
   ],
   "translations": {
    "en": {
-    "question": "What does the abbreviation FDP mean in Germany?",
+    "question": "What does the abbreviation FDP stand for in Germany?",
     "options": [
      "Peaceful Demonstrative Party",
      "Free Germany Party",
@@ -14950,10 +14950,10 @@
   ],
   "translations": {
    "en": {
-    "question": "Which court in Germany is responsible for the interpretation of the Basic Law?",
+    "question": "Which court in Germany is responsible for interpreting the Basic Law?",
     "options": [
      "Higher Regional Court",
-     "District Court",
+     "Local Court",
      "Federal Constitutional Court",
      "Administrative Court"
     ]
@@ -15141,7 +15141,7 @@
    "en": {
     "question": "Who elects the Federal Chancellor in Germany?",
     "options": [
-     "the Federal Council",
+     "the Bundesrat",
      "the Federal Convention",
      "the people",
      "the Bundestag"
@@ -15516,12 +15516,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Who elects the German Chancellor Federal Chancellor?",
+    "question": "Who elects the German Federal Chancellor?",
     "options": [
      "the people",
      "the Federal Convention",
      "the Bundestag",
-     "the Federal Government"
+     "the federal government"
     ]
    },
    "tr": {
@@ -15705,12 +15705,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the main task of the German Federal President? German Federal President? She/he ...",
+    "question": "What is the main task of the German Federal President? They …",
     "options": [
-     "rules the country.",
-     "drafts the laws",
-     "represents the country.",
-     "monitors compliance with the law."
+     "govern the country.",
+     "draft the laws.",
+     "represent the country.",
+     "monitor compliance with the laws."
     ]
    },
    "tr": {
@@ -15894,11 +15894,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Who forms the German Bundesrat?",
+    "question": "Who makes up the German Bundesrat?",
     "options": [
      "the members of the Bundestag",
-     "the Ministers of the Federal Government",
-     "the government representatives of the federal states",
+     "the ministers of the federal government",
+     "the representatives of the state governments",
      "the party members"
     ]
    },
@@ -16083,11 +16083,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Who elects the Federal President in Germany Federal Presidents ?",
+    "question": "Who elects the Federal President in Germany?",
     "options": [
      "the Federal Convention",
-     "the Federal Council",
-     "the Federal Parliament",
+     "the Bundesrat",
+     "the federal parliament",
      "the Federal Constitutional Court"
     ]
    },
@@ -16460,12 +16460,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The parliamentary opposition in the German Bundestag ...",
+    "question": "The parliamentary opposition in the German Bundestag …",
     "options": [
-     "controls the government.",
-     "decides who will become Federal Minister.",
-     "determines who sits in the Federal Council.",
-     "proposes to the heads of government of the federal states ."
+     "oversees the government.",
+     "decides who becomes a federal minister.",
+     "determines who sits in the Bundesrat.",
+     "nominates the heads of government of the states."
     ]
    },
    "tr": {
@@ -16649,12 +16649,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the association of members of parliament called in Germany of a party in parliament?",
+    "question": "What is the term in Germany for the association of members of one party within a parliament?",
     "options": [
-     "Association",
-     "Council of Elders",
-     "Parliamentary group",
-     "Opposition"
+     "association",
+     "council of elders",
+     "parliamentary group",
+     "opposition"
     ]
    },
    "tr": {
@@ -16838,12 +16838,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The German Länder are involved in the legislation of the Federal with through ...",
+    "question": "The German federal states participate in federal legislation through …",
     "options": [
-     "the Federal Council.",
+     "the Bundesrat.",
      "the Federal Convention.",
      "the Bundestag.",
-     "the Federal Government."
+     "the federal government."
     ]
    },
    "tr": {
@@ -17027,12 +17027,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, a change of government in a federal state have an impact on federal politics. Governing will ...",
+    "question": "In Germany, a change of government in a federal state can affect federal politics. Governing becomes …",
     "options": [
-     "more difficult if the majority in the Bundestag changes.",
-     "if this means that new parties are elected to the Federal Council .",
-     "more difficult if it means that the majority in the Bundesrat is changed.",
-     "easier if it is a rich federal state."
+     "more difficult if this changes the majority in the Bundestag.",
+     "easier if this brings new parties into the Bundesrat.",
+     "more difficult if this changes the majority in the Bundesrat.",
+     "easier if it involves a wealthy federal state."
     ]
    },
    "tr": {
@@ -17216,9 +17216,9 @@
   ],
   "translations": {
    "en": {
-    "question": "What does the abbreviation CSU mean in Germany?",
+    "question": "What does the abbreviation CSU stand for in Germany?",
     "options": [
-     "Christian Safe Union",
+     "Christian Secure Union",
      "Christian South German Union",
      "Christian Social Entrepreneurs' Association",
      "Christian Social Union"
@@ -17405,12 +17405,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The more \"second votes\" a party receives in a Bundestag election the more ...",
+    "question": "The more \"second votes\" a party receives in a Bundestag election, the …",
     "options": [
-     "it can have fewer first votes.",
-     "more direct candidates of the party enter parliament.",
-     "greater is the risk of having to form a coalition.",
-     "the party will receive more seats in parliament."
+     "fewer first votes it can have.",
+     "more of the party's direct candidates enter parliament.",
+     "greater the risk of having to form a coalition.",
+     "more seats the party receives in parliament."
     ]
    },
    "tr": {
@@ -17594,7 +17594,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age can you vote in the election for the German Bundestag?",
+    "question": "From what age is a person allowed to vote in elections to the German Bundestag?",
     "options": [
      "16",
      "18",
@@ -17785,10 +17785,10 @@
    "en": {
     "question": "What applies to most children in Germany?",
     "options": [
-     "Compulsory voting",
-     "Schulpflicht",
-     "Confidentiality",
-     "Religious duty"
+     "compulsory voting",
+     "compulsory schooling",
+     "duty of confidentiality",
+     "compulsory religious instruction"
     ]
    },
    "tr": {
@@ -17974,10 +17974,10 @@
    "en": {
     "question": "How can someone who denies the Holocaust be punished?",
     "options": [
-     "Reduction of social benefits",
+     "reduction of social benefits",
      "up to 100 hours of community service",
-     "Not at all, Holocaust denial is allowed",
-     "with imprisonment of up to five years or with a fine"
+     "not at all, Holocaust denial is allowed",
+     "with imprisonment of up to five years or a fine"
     ]
    },
    "tr": {
@@ -18161,12 +18161,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What do you pay automatically in Germany if you pay a fixed ?",
+    "question": "What does a person in Germany automatically pay when they are in permanent employment?",
     "options": [
-     "Social Security",
-     "Social assistance",
-     "Child benefit",
-     "Housing allowance"
+     "social insurance contributions",
+     "social assistance",
+     "child benefit",
+     "housing benefit"
     ]
    },
    "tr": {
@@ -18350,12 +18350,12 @@
   ],
   "translations": {
    "en": {
-    "question": "When members of the German Bundestag change, ...",
+    "question": "If members of the German Bundestag switch their parliamentary group, …",
     "options": [
-     "they are no longer allowed to attend the sittings of the Parliament Participate",
+     "they may no longer take part in sessions of parliament.",
      "the government may lose its majority.",
-     "the Federal President must first give his/her consent.",
-     "the voters of these members of parliament may still Vote once."
+     "the Federal President must first give their consent.",
+     "the voters of these members may vote again."
     ]
    },
    "tr": {
@@ -18539,12 +18539,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Who pays for social security in Germany?",
+    "question": "Who pays for social insurance in Germany?",
     "options": [
-     "Employers and Employees",
-     "Employees only",
-     "all nationals",
-     "Employers only"
+     "employers and employees",
+     "only employees",
+     "all citizens",
+     "only employers"
     ]
    },
    "tr": {
@@ -18730,8 +18730,8 @@
    "en": {
     "question": "What is not part of statutory social insurance?",
     "options": [
-     "Life insurance",
-     "the statutory pension insurance",
+     "life insurance",
+     "statutory pension insurance",
      "unemployment insurance",
      "long-term care insurance"
     ]
@@ -18917,12 +18917,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Trade unions are interest groups of the ...",
+    "question": "Trade unions are interest groups for …",
     "options": [
      "young people.",
      "employees.",
-     "Pensioners.",
-     "Employers."
+     "retirees.",
+     "employers."
     ]
    },
    "tr": {
@@ -19106,12 +19106,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What can you honour with in the Federal Republic of Germany political, economic, cultural, intellectual or social area has performed? With the ...",
+    "question": "What can a person in the Federal Republic of Germany be honored with if they have made a special contribution in the political, economic, cultural, intellectual, or social field? With the …",
     "options": [
      "Order of Merit of the Federal Republic of Germany",
      "Federal Eagle",
-     "Patriotic Order of Merit",
-     "Honorary title \"Hero of the German Democratic Republic\""
+     "Fatherland's Order of Merit",
+     "honorary title \"Hero of the German Democratic Republic\""
     ]
    },
    "tr": {
@@ -19295,12 +19295,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is called a \"traffic light coalition\" in Germany? The Collaboration ...",
+    "question": "What is referred to in Germany as the \"traffic light coalition\"? The cooperation …",
     "options": [
      "of the CDU and CSU parliamentary groups in the Bundestag",
-     "of SPD, FDP and Bündnis 90/Die Grünen in one government",
-     "of CSU, Die LINKE and Bündnis 90/Die Grünen in a Government",
-     "of the parliamentary groups of the CDU and SPD"
+     "of the SPD, FDP, and Bündnis 90/Die Grünen in a government",
+     "of the CSU, Die LINKE, and Bündnis 90/Die Grünen in a government",
+     "of the CDU and SPD parliamentary groups in the Bundestag"
     ]
    },
    "tr": {
@@ -19484,12 +19484,12 @@
   ],
   "translations": {
    "en": {
-    "question": "A woman in Germany loses her job. What is not allowed be the reason for this dismissal?",
+    "question": "A woman in Germany loses her job. What must not be the reason for this dismissal?",
     "options": [
-     "The woman has been ill for a long time and unable to work.",
-     "The woman was often late for work.",
-     "The woman does private things during working hours.",
-     "The woman has a child and her boss knows it."
+     "The woman has been ill and unable to work for a long time.",
+     "The woman often came late to work.",
+     "The woman handles personal matters during working hours.",
+     "The woman is having a baby and her boss knows this."
     ]
    },
    "tr": {
@@ -19673,12 +19673,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the task of poll workers in Germany?",
+    "question": "What is one task of election helpers in Germany?",
     "options": [
-     "They help old people to vote in the Voting booth.",
-     "They write the election notifications before the election.",
+     "They help elderly people cast their vote in the polling booth.",
+     "They write the voter notification cards before the election.",
      "They pass on interim results to the media.",
-     "They count the votes after the end of the election."
+     "They count the votes after the election has ended."
     ]
    },
    "tr": {
@@ -19862,12 +19862,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, volunteer poll workers and Election workers at the elections. What is a task of Poll workers?",
+    "question": "In Germany, volunteer election helpers assist with elections. What is one task of election helpers?",
     "options": [
-     "They help children and old people to vote.",
-     "They write cards and letters with the indication of the polling station.",
+     "They help children and elderly people with voting.",
+     "They write cards and letters stating the polling location.",
      "They pass on interim results to journalists.",
-     "They count the votes after the end of the election."
+     "They count the votes after the election has ended."
     ]
    },
    "tr": {
@@ -20240,11 +20240,11 @@
   ],
   "translations": {
    "en": {
-    "question": "In a Bundestag election in Germany, everyone is allowed to vote, the ...",
+    "question": "In a Bundestag election in Germany, anyone may vote who …",
     "options": [
-     "lives in the Federal Republic of Germany and wishes to vote.",
+     "lives in the Federal Republic of Germany and wants to vote.",
      "is a citizen of the Federal Republic of Germany and is at least 18 years old.",
-     "Have been in the Federal Republic of Germany for at least 3 years lives.",
+     "has lived in the Federal Republic of Germany for at least 3 years.",
      "is a citizen of the Federal Republic of Germany and is at least 21 years old."
     ]
    },
@@ -20429,7 +20429,7 @@
   ],
   "translations": {
    "en": {
-    "question": "How often are there usually federal elections in Germany?",
+    "question": "How often are Bundestag elections normally held in Germany?",
     "options": [
      "every three years",
      "every four years",
@@ -20807,12 +20807,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What actions relating to the State of Israel are Germany banned?",
+    "question": "Which actions related to the State of Israel are prohibited in Germany?",
     "options": [
-     "publicly criticize Israel's policies",
-     "hanging an Israeli flag on the Private property",
-     "a discussion about Israel's policy",
-     "the public call for the destruction of Israel"
+     "publicly criticizing Israel's policies",
+     "hanging an Israeli flag on private property",
+     "having a discussion about Israel's policies",
+     "publicly calling for the destruction of Israel"
     ]
    },
    "tr": {
@@ -20996,12 +20996,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The elections in Germany are ...",
+    "question": "Elections in Germany are …",
     "options": [
      "special.",
      "secret.",
-     "job-related.",
-     "gender-dependent."
+     "occupation-based.",
+     "dependent on gender."
     ]
    },
    "tr": {
@@ -21185,12 +21185,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Elections in Germany are won by the party that ...",
+    "question": "In Germany, elections are won by the party that …",
     "options": [
-     "gets the most votes.",
-     "voted for most men by a majority.",
-     "get the most votes among blue-collar workers .",
-     "received the most first votes for their chancellor candidate Chancellor candidate."
+     "receives the most votes.",
+     "the majority of men have voted for.",
+     "received the most votes among workers.",
+     "received the most first votes for its chancellor candidate."
     ]
    },
    "tr": {
@@ -21374,9 +21374,9 @@
   ],
   "translations": {
    "en": {
-    "question": "Participating in democratic elections in Germany is ...",
+    "question": "Taking part in democratic elections in Germany is …",
     "options": [
-     "a duty.",
+     "an obligation.",
      "a right.",
      "a compulsion.",
      "a burden."
@@ -21563,12 +21563,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What does \"active suffrage\" mean in Germany?",
+    "question": "What does \"the right to vote\" mean in Germany?",
     "options": [
-     "You can be elected.",
-     "You have to vote.",
-     "You can choose.",
-     "You have to go to the counting of the votes."
+     "One can be elected.",
+     "One must go and vote.",
+     "One can vote.",
+     "One must attend the counting of the votes."
     ]
    },
    "tr": {
@@ -21752,12 +21752,12 @@
   ],
   "translations": {
    "en": {
-    "question": "If you vote in a Bundestag election in Germany that means ...",
+    "question": "If you are allowed to vote in a Bundestag election in Germany, this is called …",
     "options": [
-     "active election campaign.",
-     "active election process.",
-     "active election campaign.",
-     "active right to vote."
+     "an active election campaign.",
+     "an active electoral procedure.",
+     "an active campaign.",
+     "the right to vote."
     ]
    },
    "tr": {
@@ -21941,7 +21941,7 @@
   ],
   "translations": {
    "en": {
-    "question": "What percentage of second votes must parties receive at least to be elected to the German Bundestag?",
+    "question": "What is the minimum percentage of second votes that parties must receive in order to be elected to the German Bundestag?",
     "options": [
      "3%",
      "4%",
@@ -22130,12 +22130,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Who is allowed to participate in the approximately 40 Jewish Maccabi sports clubs Become a member?",
+    "question": "Who is allowed to become a member of the roughly 40 Jewish Maccabi sports clubs?",
     "options": [
      "only Germans",
      "only Israelis",
      "only religious people",
-     "all people"
+     "everyone"
     ]
    },
    "tr": {
@@ -22321,10 +22321,10 @@
    "en": {
     "question": "Elections in Germany are free. What does this mean?",
     "options": [
-     "All convicted offenders are not allowed to .",
-     "If I want to vote, my employer/employer must Employer give me time off",
-     "Each person can decide whether to vote without coercion and who she wants to vote for.",
-     "I am free to decide where I want to vote."
+     "All convicted criminals are not allowed to vote.",
+     "If I want to go and vote, my employer must give me time off.",
+     "Every person can decide, without coercion, whether they want to vote and whom they want to vote for.",
+     "I can freely decide where I want to go to vote."
     ]
    },
    "tr": {
@@ -22508,12 +22508,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The electoral system in Germany is a ...",
+    "question": "The electoral system in Germany is a …",
     "options": [
-     "Census suffrage.",
-     "Three-class suffrage.",
-     "Majority and proportional representation.",
-     "universal male suffrage."
+     "census-based voting system.",
+     "three-class voting system.",
+     "system combining majority and proportional representation.",
+     "general voting right for men only."
     ]
    },
    "tr": {
@@ -22697,12 +22697,12 @@
   ],
   "translations": {
    "en": {
-    "question": "A party wants to enter the German Bundestag. However, it must have a minimum share of votes. That means ...",
+    "question": "A party wants to enter the German Bundestag. However, it must have a minimum share of voters' votes. This is called the …",
     "options": [
-     "5% hurdle.",
-     "Admission limit.",
-     "Underlying asset.",
-     "Directive."
+     "5% threshold.",
+     "admission limit.",
+     "base value.",
+     "guideline."
     ]
    },
    "tr": {
@@ -22886,12 +22886,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the principle of elections in Germany? Elections in Germany are ...",
+    "question": "What principle do elections in Germany follow? Elections in Germany are …",
     "options": [
      "free, equal, secret.",
-     "open, safe, free.",
-     "closed, equal, safe.",
-     "Secure, open, voluntary."
+     "open, secure, free.",
+     "closed, equal, secure.",
+     "secure, open, voluntary."
     ]
    },
    "tr": {
@@ -23075,12 +23075,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the \"5% hurdle\" in Germany?",
+    "question": "What is the \"5% threshold\" in Germany?",
     "options": [
-     "Voting regulation in the Bundestag for small parties",
-     "Attendance control in the Bundestag for votes",
-     "Minimum share of votes to get into parliament",
-     "Attendance check in the Bundesrat for votes"
+     "a voting rule in the Bundestag for small parties",
+     "an attendance check in the Bundestag for votes",
+     "the minimum share of voters' votes needed to enter parliament",
+     "an attendance check in the Bundesrat for votes"
     ]
    },
    "tr": {
@@ -23264,11 +23264,11 @@
   ],
   "translations": {
    "en": {
-    "question": "The Bundestag election in Germany is the election ...",
+    "question": "The Bundestag election in Germany is the election …",
     "options": [
      "of the Federal Chancellor.",
-     "of the parliaments of the federal states.",
-     "of the Parliament for Germany.",
+     "of the state parliaments.",
+     "of the parliament for Germany.",
      "of the Federal President."
     ]
    },
@@ -23453,12 +23453,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In a democracy, one function is of regular elections, …",
+    "question": "In a democracy, one function of regular elections is …",
     "options": [
-     "force citizens to make their voices heard .",
-     "according to the will of the majority of voters, the change of government .",
-     "to maintain existing laws in the country.",
-     "to give more power to the poor."
+     "to force citizens to cast their vote.",
+     "to make it possible, according to the will of the majority of voters, for the government to change.",
+     "to keep the laws that exist in the country unchanged.",
+     "to give the poor more power."
     ]
    },
    "tr": {
@@ -23642,11 +23642,11 @@
   ],
   "translations": {
    "en": {
-    "question": "What do citizens entitled to vote get in Germany facing an election?",
+    "question": "What do eligible citizens in Germany receive before an election?",
     "options": [
-     "a voter's notification from the municipality",
-     "a voting permit from the Federal President/the President of the Swiss Confederation",
-     "a notification from the Federal Assembly",
+     "a voter notification from the municipality",
+     "voting permission from the Federal President",
+     "a notification from the Federal Convention",
      "a notification from the parish office"
     ]
    },
@@ -23831,12 +23831,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Why is there the 5% hurdle in the electoral law of the Federal Republic of Germany? Germany? It exists because...",
+    "question": "Why does the electoral law of the Federal Republic of Germany have the 5% threshold? It exists because …",
     "options": [
-     "the programmes of many small parties, many have things in common.",
-     "the citizens of many small parties Lose orientation.",
-     "many small parties make it difficult to form a government.",
-     "the small parties do not have enough money to support the politicians."
+     "the programs of many small parties have a lot in common.",
+     "citizens can lose their sense of orientation when there are many small parties.",
+     "many small parties make it harder to form a government.",
+     "small parties do not have enough money to pay politicians."
     ]
    },
    "tr": {
@@ -24584,12 +24584,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, a mayor is ...",
+    "question": "In Germany, a mayor is …",
     "options": [
-     "the head of a school",
-     "the head of a bank",
-     "the head of a municipality",
-     "the chairman of a party"
+     "the head of a school.",
+     "the head of a bank.",
+     "the head of a municipality.",
+     "the chair of a party."
     ]
    },
    "tr": {
@@ -24773,12 +24773,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Many people in Germany work in their free time on a voluntary basis. What does this mean?",
+    "question": "Many people in Germany do volunteer work in their free time. What does this mean?",
     "options": [
      "They work as soldiers.",
-     "They work voluntarily and unpaid in associations and Associations.",
-     "You work in the federal government.",
-     "They work in a hospital and earn money in the process."
+     "They work voluntarily and without pay in clubs and associations.",
+     "They work in the federal government.",
+     "They work in a hospital and earn money doing so."
     ]
    },
    "tr": {
@@ -24962,11 +24962,11 @@
   ],
   "translations": {
    "en": {
-    "question": "What happens in federal and state elections in Germany allowed?",
+    "question": "What is permitted in Bundestag and state parliament elections in Germany?",
     "options": [
-     "The husband votes for his wife.",
-     "You can cast your vote by postal vote.",
-     "You can cast your vote by telephone on election day.",
+     "A husband votes on behalf of his wife.",
+     "One can cast one's vote by postal voting.",
+     "One can cast one's vote by phone on election day.",
      "Children from the age of 14 are allowed to vote."
     ]
    },
@@ -25151,12 +25151,12 @@
   ],
   "translations": {
    "en": {
-    "question": "They want to abolish the bus line that always takes you to work . What can you do to maintain the bus line?",
+    "question": "The bus line you always use to get to work is going to be discontinued. What can you do to keep the bus line?",
     "options": [
-     "I am participating in a citizens' initiative for the preservation of of the bus line or start an initiative yourself.",
-     "I become a member of a sports club and train my bike .",
-     "I turn to the tax office because as a taxpayer / taxpayer has a right to the bus line.",
-     "I write a letter to the forestry office of the municipality."
+     "I take part in a citizens' initiative to preserve the bus line, or start one myself.",
+     "I become a member of a sports club and train in cycling.",
+     "I turn to the tax office, because as a taxpayer I have a right to the bus line.",
+     "I write a letter to the municipality's forestry office."
     ]
    },
    "tr": {
@@ -25340,12 +25340,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Who do the trade unions in Germany represent?",
+    "question": "Who do trade unions represent in Germany?",
     "options": [
      "large companies",
-     "small businesses",
-     "Self-employed",
-     "Employees"
+     "small companies",
+     "the self-employed",
+     "employees"
     ]
    },
    "tr": {
@@ -25529,12 +25529,12 @@
   ],
   "translations": {
    "en": {
-    "question": "They go to the labour court in Germany at ...",
+    "question": "In Germany, you go to the labor court in the case of …",
     "options": [
-     "incorrect utility bill.",
-     "unfair dismissal by your boss.",
-     "Problems with the neighbors.",
-     "Difficulties after a traffic accident."
+     "an incorrect utility bill statement.",
+     "unjustified dismissal by your boss.",
+     "problems with neighbors.",
+     "difficulties after a traffic accident."
     ]
    },
    "tr": {
@@ -25718,12 +25718,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which court is responsible in Germany in the event of conflicts in the world of work?",
+    "question": "Which court in Germany is responsible for conflicts in the world of work?",
     "options": [
      "the family court",
      "the criminal court",
-     "the Labour Court",
-     "the Local Court"
+     "the labor court",
+     "the local court"
     ]
    },
    "tr": {
@@ -25907,12 +25907,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What can I do in Germany if my my employer has wrongly dismissed?",
+    "question": "What can I do in Germany if my employer has dismissed me unfairly?",
     "options": [
-     "continue to work and be friendly to the boss",
-     "an order for payment procedure against the employer Lead",
-     "File an action for protection against dismissal",
-     "report the employer to the police"
+     "keep working and be friendly to my boss",
+     "initiate a payment order procedure against my employer",
+     "file a wrongful dismissal claim",
+     "report my employer to the police"
     ]
    },
    "tr": {
@@ -26096,12 +26096,12 @@
   ],
   "translations": {
    "en": {
-    "question": "When will there be a trial in court in Germany? If someone ...",
+    "question": "When does a case go to trial in Germany? When someone …",
     "options": [
-     "converts to another religion",
-     "has committed a criminal offence and is being charged",
-     "has a different opinion from that of the government",
-     "has parked his car incorrectly and it is towed away"
+     "converts to another religion.",
+     "has committed a crime and is charged.",
+     "holds a different opinion than the government.",
+     "has parked their car illegally and it is towed away."
     ]
    },
    "tr": {
@@ -26285,12 +26285,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What does a juror do in Germany? He/she ...",
+    "question": "What does a lay judge do in Germany? They …",
     "options": [
-     "decides with judges on guilt and punishment",
-     "gives legal advice to citizens",
-     "issues certificates",
-     "defends the defendant"
+     "decide together with judges on guilt and punishment.",
+     "give citizens legal advice.",
+     "issue certificates/documents.",
+     "defend the accused."
     ]
    },
    "tr": {
@@ -26474,10 +26474,10 @@
   ],
   "translations": {
    "en": {
-    "question": "Who advises people in Germany on legal issues and represents them in court?",
+    "question": "In Germany, who advises people on legal questions and represents them in court?",
     "options": [
      "a lawyer",
-     "one judge",
+     "a judge",
      "a lay judge",
      "a public prosecutor"
     ]
@@ -26663,12 +26663,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the main task of a judge in Germany? A judge ...",
+    "question": "What is the main task of a judge in Germany? A judge …",
     "options": [
-     "represents citizens before a court of law",
-     "works in a court and pronounces judgments",
-     "amends laws",
-     "supervises juveniles in court"
+     "represents citizens in court.",
+     "works at a court and pronounces judgments.",
+     "changes laws.",
+     "supervises young people in court."
     ]
    },
    "tr": {
@@ -26852,12 +26852,12 @@
   ],
   "translations": {
    "en": {
-    "question": "A judge in Germany belongs to the ...",
+    "question": "In Germany, a judge belongs to the …",
     "options": [
-     "Judiciary",
+     "judiciary.",
      "executive.",
-     "Operative",
-     "Legislative"
+     "operative branch.",
+     "legislature."
     ]
    },
    "tr": {
@@ -27041,11 +27041,11 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, a judge belongs to the ...",
+    "question": "In Germany, a judge belongs to the …",
     "options": [
      "executive power.",
-     "judiciary.",
-     "planning violence.",
+     "judicial power.",
+     "planning power.",
      "legislative power."
     ]
    },
@@ -27230,12 +27230,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, state power is divided. For which State power, does a judge work? For the ...",
+    "question": "In Germany, state power is divided. Which branch of state power does a judge work for? The …",
     "options": [
-     "Judiciary",
-     "Executive",
-     "Press",
-     "Legislative"
+     "judiciary",
+     "executive",
+     "press",
+     "legislature"
     ]
    },
    "tr": {
@@ -27419,12 +27419,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is a court case called in Germany?",
+    "question": "What is a proceeding before a court called in Germany?",
     "options": [
-     "Program",
-     "Procedure",
-     "Protocol",
-     "Process"
+     "program",
+     "procedure",
+     "protocol",
+     "trial"
     ]
    },
    "tr": {
@@ -27608,12 +27608,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the work of a judge in Germany?",
+    "question": "What is the job of a judge in Germany?",
     "options": [
-     "Governing Germany",
-     "Administering justice",
-     "Create plans",
-     "Enact laws"
+     "to govern Germany",
+     "to administer justice",
+     "to draw up plans",
+     "to enact laws"
     ]
    },
    "tr": {
@@ -27797,12 +27797,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the task of the police in Germany?",
+    "question": "What is one task of the police in Germany?",
     "options": [
      "to defend the country",
-     "to listen to the citizens",
-     "to pass the laws",
-     "Monitor compliance with laws"
+     "to eavesdrop on citizens",
+     "to pass laws",
+     "to monitor compliance with laws"
     ]
    },
    "tr": {
@@ -27986,12 +27986,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is an example of anti-Semitic behavior?",
+    "question": "What is an example of antisemitic behavior?",
     "options": [
-     "to attend a Jewish festival",
-     "criticize the Israeli government",
-     "to deny the Holocaust",
-     "play football against Jews"
+     "attending a Jewish festival",
+     "criticizing the Israeli government",
+     "denying the Holocaust",
+     "playing soccer against Jews."
     ]
    },
    "tr": {
@@ -28365,7 +28365,7 @@
    "en": {
     "question": "Who built the Wall in Berlin?",
     "options": [
-     "United Kingdom",
+     "Great Britain",
      "the GDR",
      "the Federal Republic of Germany",
      "the USA"
@@ -28552,7 +28552,7 @@
   ],
   "translations": {
    "en": {
-    "question": "When were the National Socialists with Adolf Hitler in Germany in power?",
+    "question": "When were the National Socialists under Adolf Hitler in power in Germany?",
     "options": [
      "1918 to 1923",
      "1932 to 1950",
@@ -28743,10 +28743,10 @@
    "en": {
     "question": "What happened on May 8, 1945?",
     "options": [
-     "Tod Adolf Hitlers",
-     "Beginning of the construction of the Berlin Wall",
-     "Election of Konrad Adenauer as Federal Chancellor",
-     "End of World War II in Europe"
+     "the death of Adolf Hitler",
+     "the beginning of the construction of the Berlin Wall",
+     "the election of Konrad Adenauer as Federal Chancellor",
+     "the end of the Second World War in Europe"
     ]
    },
    "tr": {
@@ -29308,7 +29308,7 @@
   ],
   "translations": {
    "en": {
-    "question": "What year did Hitler become Chancellor of the Reich?",
+    "question": "In which year did Hitler become Chancellor of the Reich?",
     "options": [
      "1923",
      "1927",
@@ -29497,7 +29497,7 @@
   ],
   "translations": {
    "en": {
-    "question": "In 1933, the National Socialists with Adolf Hitler built a Germany ...",
+    "question": "In 1933, the National Socialists under Adolf Hitler established … in Germany.",
     "options": [
      "a dictatorship.",
      "a democratic state.",
@@ -29686,12 +29686,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The \"Third Reich\" was a ...",
+    "question": "The \"Third Reich\" was a …",
     "options": [
      "dictatorship.",
-     "Democracy.",
-     "Monarchy.",
-     "Soviet Republic."
+     "democracy.",
+     "monarchy.",
+     "council republic."
     ]
    },
    "tr": {
@@ -29875,12 +29875,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What did not exist in Germany during the time of the National Socialism?",
+    "question": "What did Germany not have during the time of National Socialism?",
     "options": [
      "free elections",
-     "Press censorship",
+     "press censorship",
      "arbitrary arrests",
-     "Persecution of the Jews"
+     "persecution of Jews"
     ]
    },
    "tr": {
@@ -30064,10 +30064,10 @@
   ],
   "translations": {
    "en": {
-    "question": "What war lasted from 1939 to 1945?",
+    "question": "Which war lasted from 1939 to 1945?",
     "options": [
-     "The First World War",
-     "World War II",
+     "the First World War",
+     "the Second World War",
      "the Vietnam War",
      "the Gulf War"
     ]
@@ -30253,12 +30253,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What characterized the Nazi state? A policy ...",
+    "question": "What characterized the Nazi state? A policy …",
     "options": [
      "of state racism",
-     "freedom of expression",
+     "of freedom of opinion",
      "of general freedom of religion",
-     "the development of democracy"
+     "of the development of democracy"
     ]
    },
    "tr": {
@@ -30442,11 +30442,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Claus Schenk Graf von Stauffenberg became known for ...",
+    "question": "Claus Schenk Graf von Stauffenberg became known for …",
     "options": [
-     "He won a gold medal at the 1936 Summer Olympics.",
-     "the construction of the Reichstag building.",
-     "the development of the Wehrmacht.",
+     "winning a gold medal at the 1936 Olympic Games.",
+     "building the Reichstag building.",
+     "building up the Wehrmacht.",
      "the assassination attempt on Hitler on July 20, 1944."
     ]
    },
@@ -30631,7 +30631,7 @@
   ],
   "translations": {
    "en": {
-    "question": "In what year did the National Socialists destroy synagogues and Jewish businesses in Germany?",
+    "question": "In which year did the National Socialists destroy synagogues and Jewish businesses in Germany?",
     "options": [
      "1925",
      "1930",
@@ -30820,12 +30820,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What happened in Germany on November 9, 1938?",
+    "question": "What happened on November 9, 1938, in Germany?",
     "options": [
-     "The attack on Poland marks the beginning of the Second World War",
-     "The National Socialists lose an election and solve the Reichstag",
-     "Jewish shops and synagogues are National Socialists and their supporters destroyed",
-     "Hitler becomes Reich President and has all parties banned"
+     "The Second World War begins with the attack on Poland.",
+     "The National Socialists lose an election and dissolve the Reichstag.",
+     "Jewish businesses and synagogues are destroyed by the National Socialists and their supporters.",
+     "Hitler becomes President of the Reich and has all parties banned."
     ]
    },
    "tr": {
@@ -31198,12 +31198,12 @@
   ],
   "translations": {
    "en": {
-    "question": "At which demonstrations in Germany did people shout \"We are the people\"?",
+    "question": "At which demonstrations in Germany did people chant \"We are the people\"?",
     "options": [
      "at the 1953 workers' uprising in the GDR",
-     "at the demonstrations in the Federal Republic of Germany in 1968",
-     "at the anti-nuclear demonstrations in 1985 in the Federal Republic of Germany",
-     "at the Monday demonstrations in 1989 in the GDR"
+     "at the 1968 demonstrations in the Federal Republic of Germany",
+     "at the 1985 anti-nuclear-power demonstrations in the Federal Republic of Germany",
+     "at the 1989 Monday demonstrations in the GDR"
     ]
    },
    "tr": {
@@ -31387,7 +31387,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which countries were renamed in Germany after the Second World War? referred to as \"Allied Occupying Powers\"?",
+    "question": "Which countries were referred to as the \"Allied occupying powers\" in Germany after the Second World War?",
     "options": [
      "Soviet Union, Great Britain, Poland, Sweden",
      "France, Soviet Union, Italy, Japan",
@@ -31954,11 +31954,11 @@
   ],
   "translations": {
    "en": {
-    "question": "What was there during the time of National Socialism in Germany?",
+    "question": "What existed in Germany during the time of National Socialism?",
     "options": [
-     "the prohibition of political parties",
-     "the right to the free development of one's personality",
-     "Freedom of the press",
+     "the banning of parties",
+     "the right to free development of one's personality",
+     "freedom of the press",
      "the protection of human dignity"
     ]
    },
@@ -32143,12 +32143,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Social market economy means that the economy ...",
+    "question": "A social market economy means that the economy …",
     "options": [
-     "controls itself solely according to supply and demand.",
-     "is planned and controlled by the state, supply and demand are not taken into account.",
-     "is based on demand abroad.",
-     "is based on supply and demand, but the state ensures social balance."
+     "regulates itself solely according to supply and demand.",
+     "is planned and controlled by the state, with supply and demand not taken into account.",
+     "is oriented toward demand abroad.",
+     "is oriented toward supply and demand, but the state ensures social balance."
     ]
    },
    "tr": {
@@ -32332,7 +32332,7 @@
   ],
   "translations": {
    "en": {
-    "question": "In which occupation zone was the GDR founded? In the ...",
+    "question": "In which occupation zone was the GDR founded? In the …",
     "options": [
      "American occupation zone",
      "French occupation zone",
@@ -32521,12 +32521,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The Federal Republic of Germany is a founding member ...",
+    "question": "The Federal Republic of Germany is a founding member of …",
     "options": [
-     "of the North Atlantic Treaty Organization (NATO)",
-     "of the United Nations (UN)",
-     "of the European Union (EU)",
-     "of the Warsaw Pact"
+     "the North Atlantic Treaty Organization (NATO).",
+     "the United Nations (UN).",
+     "the European Union (EU).",
+     "the Warsaw Pact."
     ]
    },
    "tr": {
@@ -33277,12 +33277,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which German city was divided into four Sectors divided?",
+    "question": "Which German city was divided into four sectors after the Second World War?",
     "options": [
      "Munich",
      "Berlin",
      "Dresden",
-     "Frankfurt/Oder"
+     "Frankfurt an der Oder"
     ]
    },
    "tr": {
@@ -33466,12 +33466,12 @@
   ],
   "translations": {
    "en": {
-    "question": "From June 1948 to May 1949, the citizens from West Berlin by an airlift. What circumstance was responsible for this?",
+    "question": "From June 1948 to May 1949, the citizens of West Berlin were supplied by an airlift. What circumstance was responsible for this?",
     "options": [
-     "For France, a supply of the West Berliners population by plane more cost-effectively.",
-     "The American soldiers had Land transport Fear of robberies.",
-     "For Great Britain, the supply via the airlift was faster.",
-     "The Soviet Union interrupted all traffic on the Landwege."
+     "For France, supplying the West Berlin population by airplane was less expensive.",
+     "The American soldiers were afraid of attacks during transport by land.",
+     "For Great Britain, supplying the city via the airlift was faster.",
+     "The Soviet Union cut off all overland traffic."
     ]
    },
    "tr": {
@@ -33655,10 +33655,10 @@
   ],
   "translations": {
    "en": {
-    "question": "How did the Second World War officially end in Europe?",
+    "question": "How did the Second World War in Europe officially end?",
     "options": [
      "with the death of Adolf Hitler",
-     "by the unconditional surrender of Germany",
+     "through Germany's unconditional surrender",
      "with the withdrawal of the Germans from the occupied territories",
      "through a revolution in Germany"
     ]
@@ -33844,7 +33844,7 @@
   ],
   "translations": {
    "en": {
-    "question": "The first Chancellor of the Federal Republic of Germany was ...",
+    "question": "The first Chancellor of the Federal Republic of Germany was …",
     "options": [
      "Ludwig Erhard.",
      "Willy Brandt.",
@@ -34033,12 +34033,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What did Willy Brandt want to do with his genuflection in 1970 in the former Jewish ghetto in Warsaw?",
+    "question": "What did Willy Brandt want to express with his kneeling gesture in 1970 at the former Jewish ghetto in Warsaw? © Bundesregierung/Engelbert Reineke",
     "options": [
-     "He has submitted to the former Allies",
-     "He asked Poland and Polish Jews for forgiveness",
-     "He showed his humility before the Warsaw Pact",
-     "He said a prayer at the Tomb of the Unknown Soldier"
+     "He submitted to the former Allies.",
+     "He asked Poland and the Polish Jews for forgiveness.",
+     "He showed his humility before the Warsaw Pact.",
+     "He said a prayer at the grave of the Unknown Soldier."
     ]
    },
    "tr": {
@@ -34222,12 +34222,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the name of the Jewish house of prayer?",
+    "question": "What is the Jewish house of prayer called?",
     "options": [
-     "Basilica",
-     "Mosque",
-     "Synagogue",
-     "Church"
+     "basilica",
+     "mosque",
+     "synagogue",
+     "church"
     ]
    },
    "tr": {
@@ -34411,12 +34411,12 @@
   ],
   "translations": {
    "en": {
-    "question": "When was the \"Economic miracle\"?",
+    "question": "When was the \"economic miracle\" in the Federal Republic of Germany?",
     "options": [
-     "40s",
-     "50s",
-     "70s",
-     "80s"
+     "the 1940s",
+     "the 1950s",
+     "the 1970s",
+     "the 1980s"
     ]
    },
    "tr": {
@@ -34600,12 +34600,12 @@
   ],
   "translations": {
    "en": {
-    "question": "On what legal basis was the State of Israel ?",
+    "question": "On what legal basis was the State of Israel founded?",
     "options": [
-     "a United Nations resolution",
-     "a resolution of the Zionist Congress",
-     "a proposal of the Federal Government",
-     "a proposal of the USSR"
+     "a resolution of the United Nations",
+     "a decision of the Zionist Congress",
+     "a proposal by the Federal Government",
+     "a proposal by the USSR"
     ]
    },
    "tr": {
@@ -34789,10 +34789,10 @@
   ],
   "translations": {
    "en": {
-    "question": "What did the phrase \"Iron Curtain\" stand for? For the Isolation..",
+    "question": "What did the term \"Iron Curtain\" stand for? The sealing off of …",
     "options": [
-     "of the Warsaw Pact against the West",
-     "Northern Germany against Southern Germany",
+     "the Warsaw Pact against the West",
+     "northern Germany against southern Germany",
      "Nazi Germany against the Allies",
      "Europe against the USA"
     ]
@@ -34978,12 +34978,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In 1953 there was an uprising in the GDR, which for a long time in the Federal Republic of Germany. When Was that?",
+    "question": "In 1953, there was an uprising in the GDR that was commemorated for a long time by a public holiday in the Federal Republic of Germany. When was that?",
     "options": [
-     "1. May",
+     "May 1",
      "June 17",
      "July 20",
-     "9. November"
+     "November 9"
     ]
    },
    "tr": {
@@ -35167,12 +35167,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which German state had a black-red-gold flag with Hammer, compass and wreath of wheat?",
+    "question": "Which German state had a black-red-gold flag with a hammer, compass, and wreath of grain?",
     "options": [
      "Prussia",
      "Federal Republic of Germany",
-     "Third Reich",
-     "DDR"
+     "\"Third Reich\"",
+     "GDR"
     ]
    },
    "tr": {
@@ -35356,7 +35356,7 @@
   ],
   "translations": {
    "en": {
-    "question": "What year was the Berlin Wall built?",
+    "question": "In which year was the Wall in Berlin built?",
     "options": [
      "1953",
      "1956",
@@ -35734,9 +35734,9 @@
   ],
   "translations": {
    "en": {
-    "question": "What does the abbreviation DDR mean?",
+    "question": "What does the abbreviation GDR stand for?",
     "options": [
-     "Third German Broadcasting Corporation",
+     "Third German Broadcasting",
      "The German Republic",
      "Third German Republic",
      "German Democratic Republic"
@@ -36112,7 +36112,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which present-day German state used to belong to the area of the GDR?",
+    "question": "Which present-day German federal state used to belong to the territory of the GDR?",
     "options": [
      "Brandenburg",
      "Bavaria",
@@ -36301,12 +36301,12 @@
   ],
   "translations": {
    "en": {
-    "question": "From 1961 to 1989, Berlin was ...",
+    "question": "From 1961 to 1989, Berlin was …",
     "options": [
      "without a mayor.",
-     "a separate state.",
+     "its own state.",
      "divided by a wall.",
-     "only accessible by plane."
+     "reachable only by airplane."
     ]
    },
    "tr": {
@@ -36490,11 +36490,11 @@
   ],
   "translations": {
    "en": {
-    "question": "On October 3, Germany celebrates the Day of the Germans ...",
+    "question": "On October 3, Germany celebrates the Day of German …",
     "options": [
      "Unity.",
      "Nation.",
-     "federal states.",
+     "Federal States.",
      "Cities."
     ]
    },
@@ -36679,7 +36679,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which present-day German state used to belong to the area of the GDR?",
+    "question": "Which present-day German federal state used to belong to the territory of the GDR?",
     "options": [
      "Hesse",
      "Saxony-Anhalt",
@@ -36868,11 +36868,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Why is the time in the fall of 1989 called \"The Wende\" in the GDR? During this time, the GDR changed politically ...",
+    "question": "Why is the period in autumn 1989 in the GDR called \"Die Wende\" (the turning point)? During this time, the GDR changed politically …",
     "options": [
-     "from dictatorship to democracy",
+     "from a dictatorship to a democracy.",
      "from a liberal market economy to socialism.",
-     "from a monarchy to social democracy",
+     "from a monarchy to social democracy.",
      "from a religious state to a communist state."
     ]
    },
@@ -37057,7 +37057,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which present-day German state used to belong to the area of the GDR?",
+    "question": "Which present-day German federal state used to belong to the territory of the GDR?",
     "options": [
      "Thuringia",
      "Hesse",
@@ -37246,7 +37246,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which present-day German state used to belong to the area of the GDR?",
+    "question": "Which present-day German federal state used to belong to the territory of the GDR?",
     "options": [
      "Bavaria",
      "Lower Saxony",
@@ -37435,12 +37435,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In the GDR, the abbreviation \"Stasi\" meant ...",
+    "question": "In the GDR, the abbreviation \"Stasi\" referred to …",
     "options": [
-     "Parliament.",
-     "the Ministry of State Security.",
+     "the parliament.",
+     "the Ministry for State Security.",
      "a ruling party.",
-     "the Ministry of National Education."
+     "the Ministry of Education."
     ]
    },
    "tr": {
@@ -37624,11 +37624,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Which present-day German state used to belong to the area of the GDR?",
+    "question": "Which present-day German federal state used to belong to the territory of the GDR?",
     "options": [
      "Hesse",
      "Schleswig-Holstein",
-     "Mecklenburg-Vorpommern",
+     "Mecklenburg-Western Pomerania",
      "Saarland"
     ]
    },
@@ -38002,12 +38002,12 @@
   ],
   "translations": {
    "en": {
-    "question": "To whom did the GDR belong during the \"Cold War\"?",
+    "question": "Which side did the GDR belong to during the \"Cold War\"?",
     "options": [
-     "to the Western Powers",
-     "on the Warsaw Pact",
-     "to NATO",
-     "to the non-aligned states"
+     "the Western powers",
+     "the Warsaw Pact",
+     "NATO",
+     "the non-aligned states"
     ]
    },
    "tr": {
@@ -38191,12 +38191,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What was the name of the GDR's economic system?",
+    "question": "What was the GDR's economic system called?",
     "options": [
-     "Market economy",
-     "Planned economy",
-     "Supply and demand",
-     "Capitalism"
+     "market economy",
+     "planned economy",
+     "supply and demand",
+     "capitalism"
     ]
    },
    "tr": {
@@ -38380,11 +38380,11 @@
   ],
   "translations": {
    "en": {
-    "question": "How did the Federal Republic of Germany and the GDR become a State?",
+    "question": "How did the Federal Republic of Germany and the GDR become one state?",
     "options": [
-     "The Federal Republic of Germany occupied the GDR.",
-     "Today's five eastern federal states are the Federal Republic of Germany.",
-     "The western federal states have joined the GDR.",
+     "The Federal Republic occupied the GDR.",
+     "The five present-day eastern federal states joined the Federal Republic of Germany.",
+     "The western federal states joined the GDR.",
      "The GDR occupied the Federal Republic of Germany."
     ]
    },
@@ -38569,12 +38569,12 @@
   ],
   "translations": {
    "en": {
-    "question": "With the accession of the GDR to the Federal Republic of Germany, the new federal states now also ...",
+    "question": "With the accession of the GDR to the Federal Republic of Germany, the new federal states now also belong to …",
     "options": [
-     "to the European Union.",
-     "to the Warsaw Pact.",
-     "to OPEC.",
-     "on the European Defence Community."
+     "the European Union.",
+     "the Warsaw Pact.",
+     "OPEC.",
+     "the European Defence Community."
     ]
    },
    "tr": {
@@ -38758,12 +38758,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What do the so-called \"Stolpersteine\" in Germany remind us of?",
+    "question": "What do the so-called \"Stolpersteine\" (stumbling stones) in Germany commemorate?",
     "options": [
-     "to famous German politicians",
-     "to the victims of National Socialism",
-     "of traffic fatalities",
-     "to well-known Jewish musicians"
+     "famous German politicians",
+     "the victims of National Socialism",
+     "traffic fatalities",
+     "well-known Jewish musicians"
     ]
    },
    "tr": {
@@ -38949,10 +38949,10 @@
    "en": {
     "question": "In which military alliance was the GDR a member?",
     "options": [
-     "in NATO",
-     "in the Confederation of the Rhine",
-     "in the Warsaw Pact",
-     "in the European Alliance"
+     "NATO",
+     "the Confederation of the Rhine",
+     "the Warsaw Pact",
+     "the European Alliance"
     ]
    },
    "tr": {
@@ -39141,7 +39141,7 @@
      "the secret service in the \"Third Reich\"",
      "a famous German memorial",
      "the secret service of the GDR",
-     "a German sports club during World War II"
+     "a German sports club during the Second World War"
     ]
    },
    "tr": {
@@ -39513,12 +39513,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What happened on June 17, 1953 in the GDR?",
+    "question": "What happened on June 17, 1953, in the GDR?",
     "options": [
      "the ceremonial accession to the Warsaw Pact",
      "nationwide strikes and a popular uprising",
-     "the 1st SED Party Congress",
-     "Fidel Castro's first visit"
+     "the 1st SED party congress",
+     "the first visit by Fidel Castro"
     ]
    },
    "tr": {
@@ -39702,7 +39702,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which politician stands for the \"Eastern Treaties\"?",
+    "question": "Which politician is associated with the \"Eastern Treaties\"?",
     "options": [
      "Helmut Kohl",
      "Willy Brandt",
@@ -39891,12 +39891,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is Germany's full name?",
+    "question": "What is the full name of Germany?",
     "options": [
      "Federal State of Germany",
-     "Federal States Germany",
+     "Federal States of Germany",
      "Federal Republic of Germany",
-     "Federal District Germany"
+     "Federal District of Germany"
     ]
    },
    "tr": {
@@ -40458,7 +40458,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Who is called the \"Chancellor of German Unity\"?",
+    "question": "Who is referred to as the \"Chancellor of German Unity\"?",
     "options": [
      "Gerhard Schröder",
      "Helmut Kohl",
@@ -40647,12 +40647,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which symbol is to be found in the plenary hall of the German Bundestag? see?",
+    "question": "Which symbol can be seen in the plenary hall of the German Bundestag? © German Bundestag/Janine Schmitz",
     "options": [
-     "the federal eagle",
+     "the Federal Eagle",
      "the flag of the city of Berlin",
-     "the imperial eagle",
-     "the imperial crown"
+     "the Reich Eagle",
+     "the Imperial Crown"
     ]
    },
    "tr": {
@@ -40836,7 +40836,7 @@
   ],
   "translations": {
    "en": {
-    "question": "In what period did the German Democratic Republic exist? (GDR)?",
+    "question": "During which period did the German Democratic Republic (GDR) exist?",
     "options": [
      "1919 to 1927",
      "1933 to 1945",
@@ -41025,7 +41025,7 @@
   ],
   "translations": {
    "en": {
-    "question": "How many federal states came to the reunification in 1990? Federal Republic of Germany?",
+    "question": "How many federal states joined the Federal Republic of Germany during reunification in 1990?",
     "options": [
      "4",
      "5",
@@ -41214,7 +41214,7 @@
   ],
   "translations": {
    "en": {
-    "question": "The Federal Republic of Germany has closed the borders of today since ...",
+    "question": "The Federal Republic of Germany has had its present-day borders since …",
     "options": [
      "1933",
      "1949",
@@ -41403,12 +41403,12 @@
   ],
   "translations": {
    "en": {
-    "question": "January 27 is an official day of remembrance in Germany. What does this day remind us of?",
+    "question": "January 27 is an official day of remembrance in Germany. What does this day commemorate?",
     "options": [
-     "at the end of the Second World War",
-     "to the adoption of the Basic Law",
-     "to the reunification of Germany",
-     "to the victims of National Socialism"
+     "the end of the Second World War",
+     "the adoption of the Basic Law",
+     "the reunification of Germany",
+     "the victims of National Socialism (Day of the Liberation of the Auschwitz Extermination Camp)"
     ]
    },
    "tr": {
@@ -41592,12 +41592,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Germany is a member of the Schengen Agreement. What Does that mean?",
+    "question": "Germany is a member of the Schengen Agreement. What does that mean?",
     "options": [
-     "Germans can enter many European countries without passport control Travel",
-     "All people can enter Germany without identity checks Entry",
-     "Germans can travel to any country without passport control",
-     "Germans can pay with the euro in any country"
+     "Germans can travel to many European countries without passport control.",
+     "All people can enter Germany without any personal identity checks.",
+     "Germans can travel to any country without passport control.",
+     "Germans can pay with the euro in any country."
     ]
    },
    "tr": {
@@ -42159,11 +42159,11 @@
   ],
   "translations": {
    "en": {
-    "question": "What does the abbreviation EU mean?",
+    "question": "What does the abbreviation EU stand for?",
     "options": [
-     "European companies",
+     "European Enterprises",
      "European Union",
-     "Single Union",
+     "Unified Union",
      "Euro Union"
     ]
    },
@@ -42348,7 +42348,7 @@
   ],
   "translations": {
    "en": {
-    "question": "In which other country is there a large German-speaking Population?",
+    "question": "In which other country is there a large German-speaking population?",
     "options": [
      "Czech Republic",
      "Norway",
@@ -42914,9 +42914,9 @@
   ],
   "translations": {
    "en": {
-    "question": "How will the accession of the GDR to the Federal Republic of Germany be Year 1990 commonly called?",
+    "question": "What is the accession of the GDR to the Federal Republic of Germany in 1990 commonly called?",
     "options": [
-     "NATO eastward expansion",
+     "NATO eastward enlargement",
      "EU eastward enlargement",
      "German reunification",
      "European Community"
@@ -43292,12 +43292,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The European Parliament is regularly elected, namely: all ...",
+    "question": "The European Parliament is elected regularly, namely every …",
     "options": [
-     "5 years",
-     "6 years",
-     "7 years",
-     "8 years"
+     "5 years.",
+     "6 years.",
+     "7 years.",
+     "8 years."
     ]
    },
    "tr": {
@@ -43483,10 +43483,10 @@
    "en": {
     "question": "What does the term \"European integration\" mean?",
     "options": [
-     "This refers to American immigrants in Europe",
-     "The term refers to the stop of immigration to Europe",
-     "This refers to European emigrants in the USA",
-     "The term refers to the union of European states to the EU"
+     "It refers to American immigrants in Europe.",
+     "The term refers to a halt on immigration to Europe.",
+     "It refers to European emigrants in the USA.",
+     "The term refers to the union of European states to form the EU."
     ]
    },
    "tr": {
@@ -43670,12 +43670,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Who will be elected in the European elections?",
+    "question": "Who is elected in the European elections?",
     "options": [
      "the European Commission",
-     "the countries that are allowed to join the EU",
-     "Members of the European Parliament",
-     "the European Constitution"
+     "the countries that are permitted to join the EU",
+     "the members of the European Parliament",
+     "the European constitution"
     ]
    },
    "tr": {
@@ -44048,7 +44048,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Where is the seat of the European Parliament?",
+    "question": "Where is one seat of the European Parliament?",
     "options": [
      "London",
      "Paris",
@@ -44237,12 +44237,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The then French President Francois Mitterrand and the then German Chancellor Helmut Kohl in Verdun together with the dead of both world wars. What is the goal of the European Union becomes clear at this meeting?",
+    "question": "The then French President François Mitterrand and the then German Federal Chancellor Helmut Kohl commemorate together the dead of both world wars in Verdun. Which goal of the European Union becomes clear at this meeting? © Federal Government/Richard Schulze-Vorberg",
     "options": [
-     "Friendship between England and Germany",
-     "Freedom to travel to all EU countries",
-     "Peace and security in the countries of the EU",
-     "Uniform public holidays in the countries of the EU"
+     "friendship between England and Germany",
+     "freedom of travel to all EU countries",
+     "peace and security in the EU countries",
+     "uniform public holidays in the EU countries"
     ]
    },
    "tr": {
@@ -44426,7 +44426,7 @@
   ],
   "translations": {
    "en": {
-    "question": "How many Member States does the EU have today?",
+    "question": "How many member states does the EU have today?",
     "options": [
      "21",
      "23",
@@ -44615,12 +44615,12 @@
   ],
   "translations": {
    "en": {
-    "question": "2007 marked the 50th anniversary of the \"Treaties of Rome\" was celebrated. What was the content of the contracts?",
+    "question": "In 2007, the 50th anniversary of the \"Treaties of Rome\" was celebrated. What was the content of the treaties?",
     "options": [
      "Germany's accession to NATO",
-     "Establishment of the European Economic Community (EEC)",
+     "the founding of the European Economic Community (EEC)",
      "Germany's obligation to pay reparations",
-     "Determination of the Oder-Neisse line as the eastern border"
+     "the establishment of the Oder-Neisse line as the eastern border"
     ]
    },
    "tr": {
@@ -44804,12 +44804,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where does the European Parliament work?",
+    "question": "In which locations does the European Parliament work?",
     "options": [
-     "Paris, London and The Hague",
-     "Strasbourg, Luxembourg and Brussels",
-     "Rome, Bern and Vienna",
-     "Bonn, Zurich and Milan"
+     "Paris, London, and The Hague",
+     "Strasbourg, Luxembourg, and Brussels",
+     "Rome, Bern, and Vienna",
+     "Bonn, Zurich, and Milan"
     ]
    },
    "tr": {
@@ -44993,12 +44993,12 @@
   ],
   "translations": {
    "en": {
-    "question": "By which treaties did the Federal Republic of Germany conclude Germany with other states to the European economic community?",
+    "question": "Through which treaties did the Federal Republic of Germany join with other states to form the European Economic Community?",
     "options": [
      "through the \"Hamburg Treaties\"",
-     "by the \"Treaties of Rome\"",
-     "by the \"Paris Treaties\"",
-     "by the \"London Treaties\""
+     "through the \"Treaties of Rome\"",
+     "through the \"Paris Treaties\"",
+     "through the \"London Treaties\""
     ]
    },
    "tr": {
@@ -45182,7 +45182,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Since when do people in Germany pay in cash with the euro?",
+    "question": "Since when has cash payment in euros been used in Germany?",
     "options": [
      "1995",
      "1998",
@@ -45371,12 +45371,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Mrs. Seger is having a child. What does she have to do to receive parental allowance ?",
+    "question": "Mrs. Seger is having a baby. What does she have to do to receive parental allowance?",
     "options": [
-     "She has to write to her health insurance company",
-     "She must submit an application to the parental allowance office",
-     "She doesn't have to do anything, because she automatically receives parental allowance",
-     "She must ask the employment office for permission"
+     "She has to write to her health insurance fund.",
+     "She has to submit an application to the parental allowance office.",
+     "She doesn't have to do anything, because she automatically receives parental allowance.",
+     "She has to ask the employment office for permission."
     ]
    },
    "tr": {
@@ -45560,11 +45560,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Who decides whether a child in Germany is in the Kindergarten goes?",
+    "question": "Who decides whether a child in Germany attends kindergarten?",
     "options": [
      "the state",
      "the federal states",
-     "the parents/guardians",
+     "the parents/legal guardians",
      "the schools"
     ]
    },
@@ -45749,12 +45749,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Maik and Sybille want to stay with friends at their German place of residence hold a demonstration on the street. What do they have to do to do beforehand?",
+    "question": "Maik and Sybille want to hold a demonstration on the street with friends in their German town of residence. What do they have to do beforehand?",
     "options": [
-     "You must register the demonstration.",
-     "You don't have to do anything. In Germany, you are allowed to do so at any time demonstrate everywhere.",
-     "They can't do anything, because demonstrations are in Germany banned in principle",
-     "Maik and Sybille have to found a new club because only Clubs are allowed to demonstrate"
+     "They have to register the demonstration.",
+     "They don't have to do anything. In Germany, anyone may demonstrate anywhere at any time.",
+     "They can't do anything at all, because demonstrations are fundamentally forbidden in Germany.",
+     "Maik and Sybille have to found a new club, because only clubs are allowed to demonstrate."
     ]
    },
    "tr": {
@@ -45938,11 +45938,11 @@
   ],
   "translations": {
    "en": {
-    "question": "What school-leaving certificate do you normally need to take part in a University in Germany?",
+    "question": "Which school-leaving qualification does one normally need to begin studying at a university in Germany?",
     "options": [
      "the Abitur",
      "a diploma",
-     "the power of attorney",
+     "power of attorney (Prokura)",
      "a journeyman's examination"
     ]
    },
@@ -46129,10 +46129,10 @@
    "en": {
     "question": "Who is not allowed to live together as a couple in Germany?",
     "options": [
-     "Hans (20 years) and Marie (19 years)",
-     "Tom (20 years) and Klaus (45 years)",
-     "Sofie (35 years) and Lisa (40 years)",
-     "Anne (13 years) and Tim (25 years)"
+     "Hans (20 years old) and Marie (19 years old)",
+     "Tom (20 years old) and Klaus (45 years old)",
+     "Sofie (35 years old) and Lisa (40 years old)",
+     "Anne (13 years old) and Tim (25 years old)"
     ]
    },
    "tr": {
@@ -46316,7 +46316,7 @@
   ],
   "translations": {
    "en": {
-    "question": "At what age do you come of age in Germany?",
+    "question": "From what age is a person of legal age in Germany?",
     "options": [
      "16",
      "18",
@@ -46505,12 +46505,12 @@
   ],
   "translations": {
    "en": {
-    "question": "A woman is pregnant. She is shortly before and after birth of their child is particularly protected by the law. What is the name of this Protection?",
+    "question": "A woman is pregnant. She is especially protected by law shortly before and after the birth of her child. What is this protection called?",
     "options": [
-     "Parental leave",
-     "Maternity leave",
-     "Birth preparation",
-     "Postpartum"
+     "parental leave",
+     "maternity protection",
+     "birth preparation",
+     "postnatal period (Wochenbett)"
     ]
    },
    "tr": {
@@ -46694,12 +46694,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, the education of children is above all a task …",
+    "question": "In Germany, raising children is primarily the responsibility of …",
     "options": [
-     "of the State",
-     "of parents",
-     "of grandparents",
-     "of schools"
+     "the state.",
+     "the parents.",
+     "the grandparents.",
+     "the schools."
     ]
    },
    "tr": {
@@ -46883,12 +46883,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Who in Germany is mainly responsible for the Raising children?",
+    "question": "Who is mainly responsible for raising children in Germany?",
     "options": [
      "the state",
-     "of parents",
+     "the parents",
      "the relatives",
-     "of schools"
+     "the schools"
     ]
    },
    "tr": {
@@ -47072,12 +47072,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany you have the best chances of getting a good paid job if you ...",
+    "question": "In Germany, you have the best chances of getting a well-paid job if you …",
     "options": [
-     "is Catholic.",
-     "is well educated.",
-     "is a woman.",
-     "is a member of a political party."
+     "are Catholic.",
+     "are well educated.",
+     "are a woman.",
+     "are a member of a political party."
     ]
    },
    "tr": {
@@ -47261,12 +47261,12 @@
   ],
   "translations": {
    "en": {
-    "question": "If you hit a child in Germany, ...",
+    "question": "If someone hits a child in Germany, …",
     "options": [
-     "it's nobody's business",
-     "is it only the family's business",
-     "you can't be punished for it",
-     "you can be punished for it"
+     "it is nobody else's business.",
+     "it is only the family's business.",
+     "they cannot be punished for it.",
+     "they can be punished for it."
     ]
    },
    "tr": {
@@ -47450,12 +47450,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany ...",
+    "question": "In Germany …",
     "options": [
-     "you may only work with one partner at the same time partner.",
-     "you can have several spouses at the same time .",
-     "you are not allowed to remarry once you are married was.",
-     "a woman may not remarry if her husband died."
+     "you may be married to only one partner at the same time.",
+     "you can have several spouses at the same time.",
+     "you may not marry again once you have been married before.",
+     "a woman may not remarry after her husband has died."
     ]
    },
    "tr": {
@@ -47639,12 +47639,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where do you have to register if you move in Germany?",
+    "question": "Where do you have to register when you move to a new home in Germany?",
     "options": [
-     "at the Residents' Registration Office",
-     "at the registry office",
+     "at the residents' registration office",
+     "at the civil registry office",
      "at the public order office",
-     "at the trade office"
+     "at the trade licensing office"
     ]
    },
    "tr": {
@@ -47828,12 +47828,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, married couples are allowed to divorce. Most of the time they must comply with the \"year of separation\". What does That?",
+    "question": "In Germany, married couples are allowed to get divorced. In most cases, they must observe the \"year of separation.\" What does that mean?",
     "options": [
      "The divorce process takes one year.",
-     "The spouses have been married for one year, then the Divorce possible.",
-     "The right of visitation for the children is valid for one year.",
-     "The spouses have been living separately for at least one year. own life. After that, divorce is possible."
+     "The spouses must be married for one year before a divorce is possible.",
+     "The right to visit the children applies for one year.",
+     "The spouses must live separately, each leading their own life, for at least one year. After that, divorce is possible."
     ]
    },
    "tr": {
@@ -48017,12 +48017,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In case of parenting problems, parents in Germany can get help received from ...",
+    "question": "In cases of difficulties raising children, parents in Germany can get help from the …",
     "options": [
-     "Public order office.",
-     "School Authority.",
-     "Youth Welfare Office.",
-     "Health Department."
+     "public order office.",
+     "school board.",
+     "youth welfare office.",
+     "public health office."
     ]
    },
    "tr": {
@@ -48206,12 +48206,12 @@
   ],
   "translations": {
    "en": {
-    "question": "A couple wants to open a restaurant in Germany. What is it absolutely necessary?",
+    "question": "A married couple wants to open a restaurant in Germany. What do they absolutely need for this?",
     "options": [
-     "a permit from the police",
-     "a permit from a party",
-     "a permit from the Residents' Registration Office",
-     "a restaurant permit from the competent authority"
+     "permission from the police",
+     "authorization from a political party",
+     "authorization from the residents' registration office",
+     "a restaurant license from the responsible authority"
     ]
    },
    "tr": {
@@ -48395,12 +48395,12 @@
   ],
   "translations": {
    "en": {
-    "question": "An adult woman wants to graduate from high school in Germany . She can do that at ...",
+    "question": "An adult woman wants to complete her Abitur later in life in Germany. She can do this at …",
     "options": [
-     "of a university.",
-     "an evening grammar school",
-     "of a Hauptschule",
-     "of a private university"
+     "a university.",
+     "an evening secondary school (Abendgymnasium).",
+     "a Hauptschule (lower secondary school).",
+     "a private university."
     ]
    },
    "tr": {
@@ -48584,12 +48584,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the youth welfare office allowed to do in Germany?",
+    "question": "What is the youth welfare office in Germany allowed to do?",
     "options": [
      "It decides which school the child attends.",
-     "A child who is beaten or has to starve can be of the family.",
-     "It pays the child benefit to the parents.",
-     "It checks whether the child attends a kindergarten."
+     "It can remove a child who is being beaten or left to go hungry from the family.",
+     "It pays child benefit to the parents.",
+     "It checks whether the child attends kindergarten."
     ]
    },
    "tr": {
@@ -48773,12 +48773,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The BIZ Career Information Centre at the Federal Agency for Work in Germany helps with the ...",
+    "question": "The Career Information Center (BIZ) at the Federal Employment Agency in Germany helps with …",
     "options": [
-     "Pension calculation",
-     "Apprenticeship search",
-     "Tax return",
-     "Health insurance"
+     "pension calculation.",
+     "the search for an apprenticeship.",
+     "tax returns.",
+     "health insurance."
     ]
    },
    "tr": {
@@ -48962,12 +48962,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, a child at school...",
+    "question": "In Germany, a child at school has …",
     "options": [
-     "Right to unlimited free time.",
-     "Freedom of choice for all subjects.",
-     "Entitlement to school fees.",
-     "Compulsory attendance."
+     "the right to unlimited free time.",
+     "free choice of all subjects.",
+     "entitlement to school fees.",
+     "a duty to attend."
     ]
    },
    "tr": {
@@ -49151,12 +49151,12 @@
   ],
   "translations": {
    "en": {
-    "question": "A man wants to graduate from high school in Germany at the age of 30 . Where can he do that? On ...",
+    "question": "A man wants to complete his Abitur at the age of 30 in Germany. Where can he do this? At …",
     "options": [
-     "of a university",
-     "an evening grammar school",
-     "of a Hauptschule",
-     "of a private university"
+     "a university.",
+     "an evening secondary school (Abendgymnasium).",
+     "a Hauptschule (lower secondary school).",
+     "a private university."
     ]
    },
    "tr": {
@@ -49340,12 +49340,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What does the principle of Equal treatment?",
+    "question": "What does the principle of equal treatment mean in Germany?",
     "options": [
-     "No one may be discriminated against because of a disability, for example. .",
-     "It is permissible to discriminate against other persons if sufficient there are personal reasons for doing so.",
-     "No one may sue persons if they are disadvantaged .",
-     "It is applicable to all law, disadvantaged groups annually To donate money."
+     "No one may be disadvantaged, for example, because of a disability.",
+     "You may disadvantage other people if there are sufficient personal reasons for doing so.",
+     "No one may sue others if they have been disadvantaged.",
+     "It is required by law for everyone to donate money annually to disadvantaged groups."
     ]
    },
    "tr": {
@@ -49529,10 +49529,10 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, young people from the age of 14 are criminally responsible. The means: young people who are 14 years and older and who are violate criminal laws, ...",
+    "question": "In Germany, young people are criminally responsible from the age of 14. This means: young people who are 14 years old or older and break criminal laws …",
     "options": [
      "are punished.",
-     "are treated like adults.",
+     "are treated as adults.",
      "share the punishment with their parents.",
      "are not punished."
     ]
@@ -49718,11 +49718,11 @@
   ],
   "translations": {
    "en": {
-    "question": "For which festival do people in Germany wear colorful costumes and masks?",
+    "question": "At which festival do people in Germany wear colorful costumes and masks?",
     "options": [
-     "on Shrove Monday",
+     "on Rose Monday",
      "on May Day",
-     "at the Oktoberfest",
+     "at Oktoberfest",
      "at Pentecost"
     ]
    },
@@ -49907,12 +49907,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where do you have to go first in Germany when you get married ?",
+    "question": "Where do you have to go first in Germany if you want to get married?",
     "options": [
-     "to the Residents' Registration Office",
+     "to the residents' registration office",
      "to the public order office",
-     "to the Employment Agency",
-     "to the registry office"
+     "to the employment agency",
+     "to the civil registry office"
     ]
    },
    "tr": {
@@ -50096,12 +50096,12 @@
   ],
   "translations": {
    "en": {
-    "question": "When does the statutory night's rest begin in Germany?",
+    "question": "When does the legally mandated nighttime quiet period begin in Germany?",
     "options": [
-     "When the sun goes down",
+     "when the sun sets",
      "when the neighbors go to sleep",
-     "at 0 o'clock, midnight",
-     "at 10 p.m."
+     "at 0:00, midnight",
+     "at 10:00 p.m."
     ]
    },
    "tr": {
@@ -50285,12 +50285,12 @@
   ],
   "translations": {
    "en": {
-    "question": "A young woman in Germany, 22 years old, lives with her friend together. The woman's parents don't like it, because they don't like the friend. What can parents do? What to do?",
+    "question": "A young woman in Germany, 22 years old, lives together with her boyfriend. The woman's parents do not like this, because they do not like the boyfriend. What can the parents do?",
     "options": [
-     "They must be aware of the decision of the adult daughter respect.",
-     "You have the right to send the daughter to her parents' home .",
-     "They can go to the police and report the daughter.",
-     "They are looking for another man for their daughter."
+     "They must respect the decision of their adult daughter.",
+     "They have the right to bring their daughter back to the parental home.",
+     "They can go to the police and report their daughter.",
+     "They look for another man for their daughter."
     ]
    },
    "tr": {
@@ -50474,12 +50474,12 @@
   ],
   "translations": {
    "en": {
-    "question": "A young woman wants to get her driver's license. She's scared before the exam because their mother tongue is not German. Which is correct?",
+    "question": "A young woman wants to get her driver's license. She is afraid of the exam because German is not her native language. What is correct?",
     "options": [
-     "She must live in Germany for at least ten years before she can get her driver's license.",
-     "If she doesn't know German, she can't get a driver's license .",
-     "She has to get her driver's license in the country where you speaks their language.",
-     "She may be able to pass the theory exam in her Mother tongue. There are more than ten languages for Selection."
+     "She must live in Germany for at least ten years before she can get a driver's license.",
+     "If she does not speak German, she is not allowed to have a driver's license.",
+     "She must take the driving test in the country where her language is spoken.",
+     "She may be able to take the theory test in her native language. There are more than ten languages to choose from."
     ]
    },
    "tr": {
@@ -50663,12 +50663,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, children from the age of three to entitlement to ...",
+    "question": "In Germany, children from the age of three until they start school are entitled to …",
     "options": [
      "monthly pocket money.",
      "a place in a sports club.",
      "a kindergarten place.",
-     "a holiday pass."
+     "a vacation pass."
     ]
    },
    "tr": {
@@ -50852,12 +50852,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The adult education centre in Germany is an institution ...",
+    "question": "The Volkshochschule (adult education center) in Germany is an institution …",
     "options": [
      "for religious education.",
      "only for young people.",
-     "for further education.",
-     "only for pensioners."
+     "for continuing education.",
+     "only for retirees."
     ]
    },
    "tr": {
@@ -51041,12 +51041,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is a custom at Christmas in Germany?",
+    "question": "What is a custom in Germany at Christmas?",
     "options": [
-     "Hide colorful eggs",
-     "to decorate a Christmas tree",
-     "dress up with masks and costumes",
-     "Putting pumpkins in front of the door"
+     "hiding colorful eggs",
+     "decorating a Christmas tree",
+     "dressing up in masks and costumes",
+     "putting pumpkins in front of the door"
     ]
    },
    "tr": {
@@ -51232,10 +51232,10 @@
    "en": {
     "question": "Which way of life is not allowed in Germany?",
     "options": [
-     "Husband and wife are divorced and live with new partners together",
-     "Two women live together",
-     "A single father lives with his two children together.",
-     "A man is married to two women at the same time"
+     "A man and a woman are divorced and live together with new partners.",
+     "Two women live together.",
+     "A single father lives together with his two children.",
+     "A man is married to two women at the same time."
     ]
    },
    "tr": {
@@ -51419,12 +51419,12 @@
   ],
   "translations": {
    "en": {
-    "question": "If you have parenting problems in Germany, you go ...",
+    "question": "In Germany, if you have problems raising your child, you go to …",
     "options": [
-     "to the doctor",
-     "to the health department",
-     "to the Residents' Registration Office",
-     "to the Youth Welfare Office"
+     "the doctor.",
+     "the health department.",
+     "the residents' registration office.",
+     "the youth welfare office."
     ]
    },
    "tr": {
@@ -51608,12 +51608,12 @@
   ],
   "translations": {
    "en": {
-    "question": "You have deliberately opened a letter in Germany that is addressed to another person. What do you not have Noticed?",
+    "question": "In Germany you deliberately opened a letter addressed to another person. What did you fail to respect?",
     "options": [
      "the right to remain silent",
-     "the secrecy of correspondence",
+     "the privacy of correspondence",
      "the duty of confidentiality",
-     "freedom of expression"
+     "freedom of opinion"
     ]
    },
    "tr": {
@@ -51797,10 +51797,10 @@
   ],
   "translations": {
    "en": {
-    "question": "What do you need for a divorce in Germany?",
+    "question": "What is required for a divorce in Germany?",
     "options": [
-     "parental consent",
-     "a doctor's certificate",
+     "the consent of the parents",
+     "a certificate from a doctor",
      "the consent of the children",
      "the support of a lawyer"
     ]
@@ -51986,12 +51986,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What should you do if you are informed by your contact person / Your contact person in a German authority be treated?",
+    "question": "What should you do if you are treated badly by your contact person at a German public authority?",
     "options": [
      "I can't do anything.",
-     "I have to put up with this treatment.",
+     "I have to accept this treatment.",
      "I threaten the person.",
-     "I can contact the head of the authority complain."
+     "I can file a complaint with the head of the authority."
     ]
    },
    "tr": {
@@ -52175,12 +52175,12 @@
   ],
   "translations": {
    "en": {
-    "question": "A woman who has a two-year-old child applies for a job in Germany by one job. What is an example of Discrimination? The only reason she doesn't get the job is because they ...",
+    "question": "A woman who has a two-year-old child applies for a job in Germany. What is an example of discrimination? She is not given the job only because she …",
     "options": [
-     "doesn't speak English.",
-     "has too high salary expectations.",
+     "does not speak English.",
+     "has excessive salary expectations.",
      "has no experience in this profession.",
-     "mother."
+     "is a mother."
     ]
    },
    "tr": {
@@ -52364,12 +52364,12 @@
   ],
   "translations": {
    "en": {
-    "question": "A man in a wheelchair has applied for a job as an accountant . What is an example of discrimination? He gets the only reason he did not get the job was because he ...",
+    "question": "A man in a wheelchair has applied for a job as an accountant. What is an example of discrimination? He is not given the job only because he …",
     "options": [
-     "in a wheelchair.",
+     "is in a wheelchair.",
      "has no experience.",
-     "has too high salary expectations.",
-     "doesn't speak English."
+     "has excessive salary expectations.",
+     "does not speak English."
     ]
    },
    "tr": {
@@ -52553,12 +52553,12 @@
   ],
   "translations": {
    "en": {
-    "question": "In most apartment buildings in Germany there is a \"House rules\". What does such \"house rules\" say? They calls",
+    "question": "Most rental buildings in Germany have a set of \"house rules.\" What is stated in such \"house rules\"? They state …",
     "options": [
-     "Rules for the use of public.",
-     "all tenants in the building.",
-     "Rules that all residents adhere to .",
-     "the address of the nearest public order office."
+     "rules for the use of public transportation.",
+     "all the tenants in the building.",
+     "rules that all residents must follow.",
+     "the address of the nearest municipal regulatory office."
     ]
    },
    "tr": {
@@ -52742,12 +52742,12 @@
   ],
   "translations": {
    "en": {
-    "question": "If you appeal against a false tax assessment in Germany want to defend yourself, you must ...",
+    "question": "If you want to challenge an incorrect tax assessment in Germany, you must …",
     "options": [
      "do nothing.",
-     "throw away the notice.",
+     "throw the assessment away.",
      "file an objection.",
-     "wait until another decision comes."
+     "wait until another assessment arrives."
     ]
    },
    "tr": {
@@ -52931,12 +52931,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Two friends want to go to a public swimming pool in Germany. Both have dark skin and are therefore not allowed in. What is the right in this Situation violated? The right to ...",
+    "question": "Two friends want to go to a public swimming pool in Germany. Both have dark skin and are therefore not let in. Which right is being violated in this situation? The right to …",
     "options": [
-     "Freedom of expression",
-     "Equal treatment",
-     "Freedom of assembly",
-     "Free movement of persons"
+     "freedom of opinion",
+     "equal treatment",
+     "freedom of assembly",
+     "freedom of movement"
     ]
    },
    "tr": {
@@ -53120,12 +53120,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What voluntary work do German citizens have to do? Citizens take over when they are asked to do so?",
+    "question": "Which honorary position must German citizens take on if they are called upon to do so?",
     "options": [
-     "Club trainer",
-     "Poll worker",
-     "Library supervision",
-     "Teacher"
+     "club trainer",
+     "election worker",
+     "library supervisor",
+     "teacher"
     ]
    },
    "tr": {
@@ -53309,12 +53309,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What do you do if you receive a false invoice from a German authority?",
+    "question": "What do you do if you receive an incorrect invoice from a German public authority?",
     "options": [
-     "I leave the bill behind.",
-     "I file an objection with the authorities.",
+     "I leave the invoice as it is.",
+     "I file an objection with the authority.",
      "I send the invoice back to the authority.",
-     "I go to the tax office with the invoice."
+     "I take the invoice to the tax office."
     ]
    },
    "tr": {
@@ -53498,12 +53498,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What you need to be able to do for work will change in the future very quickly. What can be done?",
+    "question": "What people need to be able to do for work is changing very quickly in the future. What can be done about this?",
     "options": [
      "It doesn't matter what you learn.",
-     "Adults have to keep going even after their training Learn.",
-     "Children learn everything that is important at work at school. After school, you don't have to continue learning.",
-     "Everyone has to stop working earlier because everything changes."
+     "Adults must keep on learning even after completing their training.",
+     "Children learn everything important for a career in school. After school, you don't need to keep learning.",
+     "Everyone must stop working earlier because everything is changing."
     ]
    },
    "tr": {
@@ -53687,12 +53687,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Ms. Frost works as a permanent employee in an office. What does she not have to pay from her salary?",
+    "question": "Ms. Frost works as a permanently employed staff member in an office. What does she not have to pay out of her salary?",
     "options": [
-     "Payroll tax",
-     "Unemployment insurance contributions",
-     "Contributions to pension and health insurance",
-     "Value added tax"
+     "income tax",
+     "unemployment insurance contributions",
+     "pension and health insurance contributions",
+     "value-added tax"
     ]
    },
    "tr": {
@@ -53876,12 +53876,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which organization in a company helps employees and Employees in case of problems with the employer/the Employer?",
+    "question": "Which organization in a company helps employees with problems with their employer?",
     "options": [
      "the works council",
-     "the tax auditor",
-     "the operating group",
-     "Operations management"
+     "the company auditor",
+     "the company group",
+     "company management"
     ]
    },
    "tr": {
@@ -54065,12 +54065,12 @@
   ],
   "translations": {
    "en": {
-    "question": "You would like to work with a company in Germany for your Terminate the employment relationship. What do you need to consider?",
+    "question": "You want to end your employment relationship with a company in Germany. What must you take into account?",
     "options": [
-     "salary payments",
-     "working hours",
+     "the salary payments",
+     "the working hours",
      "the notice period",
-     "compulsory insurance"
+     "the insurance obligation"
     ]
    },
    "tr": {
@@ -54254,12 +54254,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the basis of Germany's special responsibility for Israel?",
+    "question": "What is Germany's special responsibility toward Israel based on?",
     "options": [
-     "from membership in the European Union (EU)",
-     "from the National Socialist crimes against Jews",
-     "from the Basic Law of the Federal Republic of Germany",
-     "from the Christian tradition"
+     "membership in the European Union (EU)",
+     "the National Socialist crimes against Jews",
+     "the Basic Law of the Federal Republic of Germany",
+     "the Christian tradition"
     ]
    },
    "tr": {
@@ -54443,10 +54443,10 @@
   ],
   "translations": {
    "en": {
-    "question": "A man with dark skin applies for a job as a Waiter in a restaurant in Germany. What is an example for discrimination? The only reason he doesn't get the job is because ...",
+    "question": "A man with dark skin applies for a job as a waiter in a restaurant in Germany. What is an example of discrimination? He is not given the job only because …",
     "options": [
-     "his knowledge of German is too low.",
-     "he has too high salary expectations.",
+     "his German language skills are too limited.",
+     "he has excessive salary expectations.",
      "he has dark skin.",
      "he has no experience in the profession."
     ]
@@ -54632,11 +54632,11 @@
   ],
   "translations": {
    "en": {
-    "question": "You bought a television in Germany. At home unpack the TV, but it doesn't work. The TV is broken. What can you do?",
+    "question": "You bought a television in Germany. At home you unpack the television, but it does not work. The television is broken. What can you do?",
     "options": [
-     "Write an ad",
-     "complain about the TV",
-     "replace the device without being asked",
+     "write a police report",
+     "make a complaint about the television",
+     "exchange the device without asking",
      "extend the warranty"
     ]
    },
@@ -54821,11 +54821,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Why do you have to file a tax return in Germany write down whether you belong to a church or not? Because ...",
+    "question": "Why must you state on your tax return in Germany whether or not you belong to a church? Because …",
     "options": [
-     "there is a church tax that is paid to the income and wage tax.",
-     "which is important for statistics in Germany.",
-     "you have to pay more taxes if you don't belong to a church .",
+     "there is a church tax that is tied to income and wage tax.",
+     "that is important for statistics in Germany.",
+     "you have to pay more tax if you do not belong to a church.",
      "the church is responsible for the tax return."
     ]
    },
@@ -55010,7 +55010,7 @@
   ],
   "translations": {
    "en": {
-    "question": "The people in Germany live according to the principle of religious tolerance. What does this mean?",
+    "question": "People in Germany live according to the principle of religious tolerance. What does that mean?",
     "options": [
      "No mosques may be built.",
      "All people believe in God.",
@@ -55199,12 +55199,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What is an Easter custom in Germany?",
+    "question": "What is a custom in Germany at Easter?",
     "options": [
-     "Putting pumpkins in front of the door",
-     "to decorate a Christmas tree",
-     "Paint eggs",
-     "Shoot missiles into the air"
+     "putting pumpkins in front of the door",
+     "decorating a fir tree",
+     "painting eggs",
+     "shooting rockets into the air"
     ]
    },
    "tr": {
@@ -55388,10 +55388,10 @@
   ],
   "translations": {
    "en": {
-    "question": "Pentecost is a ...",
+    "question": "Pentecost is a …",
     "options": [
      "Christian holiday.",
-     "German Remembrance Day.",
+     "German day of remembrance.",
      "international day of mourning.",
      "Bavarian custom."
     ]
@@ -55577,7 +55577,7 @@
   ],
   "translations": {
    "en": {
-    "question": "What is the religion of European and German culture? ?",
+    "question": "Which religion has shaped European and German culture?",
     "options": [
      "Hinduism",
      "Christianity",
@@ -55766,11 +55766,11 @@
   ],
   "translations": {
    "en": {
-    "question": "In Germany, the last four weeks before Christmas ...",
+    "question": "In Germany, the last four weeks before Christmas are called …",
     "options": [
-     "the Day of Repentance and Prayer.",
-     "Thanksgiving.",
-     "the Advent season.",
+     "the Day of Prayer and Repentance.",
+     "the harvest festival.",
+     "Advent.",
      "All Saints' Day."
     ]
    },
@@ -55955,7 +55955,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From which country are most migrants came to Germany?",
+    "question": "From which country did most migrants come to Germany?",
     "options": [
      "Italy",
      "Poland",
@@ -56144,9 +56144,9 @@
   ],
   "translations": {
    "en": {
-    "question": "In the GDR, it was mainly migrants from ...",
+    "question": "In the GDR, migrants mainly lived from …",
     "options": [
-     "Vietnam, Poland, Mozambique",
+     "Vietnam, Poland, Mozambique.",
      "France, Romania, Somalia.",
      "Chile, Hungary, Zimbabwe.",
      "North Korea, Mexico, Egypt."
@@ -56521,7 +56521,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From which country did the first guest workers and Guest workers to Germany?",
+    "question": "From which country did the first guest workers come to the Federal Republic of Germany?",
     "options": [
      "Italy",
      "Spain",
@@ -56898,11 +56898,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Baden-Württemberg?",
+    "question": "Which of these is a rural district (Landkreis) in Baden-Württemberg?",
     "options": [
      "Mecklenburg Lake District",
      "Neckar-Odenwald-Kreis",
-     "Nordfriesland",
+     "North Frisia",
      "Altötting"
     ]
    },
@@ -57087,7 +57087,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Baden-Württemberg elected?",
+    "question": "For how many years is the state parliament in Baden-Württemberg elected?",
     "options": [
      "3",
      "4",
@@ -57276,7 +57276,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age can you take part in Baden-Württemberg Vote for local elections?",
+    "question": "From what age are you allowed to vote in local elections in Baden-Württemberg?",
     "options": [
      "14",
      "16",
@@ -57654,11 +57654,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political issues in Baden-Württemberg? ?",
+    "question": "Where can you find out about political topics in Baden-Württemberg?",
     "options": [
-     "at the public order office of the municipality",
-     "at the Consumer Advice Centre",
-     "at the State Agency for Civic Education",
+     "at the municipal regulatory office",
+     "at the consumer advice center",
+     "at the state agency for civic education",
      "at the churches"
     ]
    },
@@ -57843,12 +57843,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The state capital of Baden-Württemberg is called ...",
+    "question": "The state capital of Baden-Württemberg is called …",
     "options": [
-     "Heidelberg",
-     "Stuttgart",
-     "Karlsruhe",
-     "Mannheim"
+     "Heidelberg.",
+     "Stuttgart.",
+     "Karlsruhe.",
+     "Mannheim."
     ]
    },
    "tr": {
@@ -58784,11 +58784,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Bavaria?",
+    "question": "Which of these is a rural district (Landkreis) in Bavaria?",
     "options": [
      "Prignitz",
-     "Rhein-Sieg district",
-     "Nordfriesland",
+     "Rhein-Sieg-Kreis",
+     "North Frisia",
      "Altötting"
     ]
    },
@@ -58973,7 +58973,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Bavaria be elected?",
+    "question": "For how many years is the state parliament in Bavaria elected?",
     "options": [
      "3",
      "4",
@@ -59162,7 +59162,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age can you vote in local elections in Bavaria?",
+    "question": "From what age are you allowed to vote in local elections in Bavaria?",
     "options": [
      "14",
      "16",
@@ -59540,11 +59540,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political issues in Bavaria ?",
+    "question": "Where can you find out about political topics in Bavaria?",
     "options": [
-     "at the public order office of the municipality",
-     "at the State Agency for Civic Education",
-     "at the Consumer Advice Centre",
+     "at the municipal regulatory office",
+     "at the state agency for civic education",
+     "at the consumer advice center",
      "at the churches"
     ]
    },
@@ -59729,12 +59729,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The state capital of Bavaria is called ...",
+    "question": "The state capital of Bavaria is called …",
     "options": [
-     "Ingolstadt",
-     "Regensburg",
-     "Nuremberg",
-     "Munich"
+     "Ingolstadt.",
+     "Regensburg.",
+     "Nuremberg.",
+     "Munich."
     ]
    },
    "tr": {
@@ -60670,7 +60670,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district of Berlin?",
+    "question": "Which of these is a district (Bezirk) of Berlin?",
     "options": [
      "Altona",
      "Prignitz",
@@ -60859,7 +60859,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Berlin elected?",
+    "question": "For how many years is the state parliament in Berlin elected?",
     "options": [
      "3",
      "4",
@@ -61048,7 +61048,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age is it allowed to participate in local elections in Berlin (election of the district council)?",
+    "question": "From what age are you allowed to vote in local elections (elections to the district assembly) in Berlin?",
     "options": [
      "14",
      "16",
@@ -61426,12 +61426,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political issues in Berlin? ?",
+    "question": "Where can you find out about political topics in Berlin?",
     "options": [
-     "at the public order office of the municipality",
+     "at the municipal regulatory office",
      "at the churches",
-     "at the Consumer Advice Centre",
-     "at the State Agency for Civic Education"
+     "at the consumer advice center",
+     "at the state agency for civic education"
     ]
    },
    "tr": {
@@ -61615,7 +61615,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which state is a city-state?",
+    "question": "Which federal state is a city-state?",
     "options": [
      "Berlin",
      "Saarland",
@@ -62556,10 +62556,10 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Brandenburg?",
+    "question": "Which of these is a rural district (Landkreis) in Brandenburg?",
     "options": [
      "Prignitz",
-     "Rhein-Sieg district",
+     "Rhein-Sieg-Kreis",
      "Vogtlandkreis",
      "Amberg-Sulzbach"
     ]
@@ -62745,7 +62745,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Brandenburg be elected?",
+    "question": "For how many years is the state parliament in Brandenburg elected?",
     "options": [
      "3",
      "4",
@@ -62934,7 +62934,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age can you vote in local elections in Brandenburg? ?",
+    "question": "From what age are you allowed to vote in local elections in Brandenburg?",
     "options": [
      "14",
      "16",
@@ -63126,7 +63126,7 @@
     "question": "What colors does the state flag of Brandenburg have?",
     "options": [
      "blue-white-red",
-     "red and white",
+     "red-white",
      "green-white-red",
      "black-yellow"
     ]
@@ -63312,12 +63312,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political issues in Brandenburg? ?",
+    "question": "Where can you find out about political topics in Brandenburg?",
     "options": [
      "at the churches",
-     "at the public order office of the municipality",
-     "at the State Agency for Civic Education",
-     "at the Consumer Advice Centre"
+     "at the municipal regulatory office",
+     "at the state agency for civic education",
+     "at the consumer advice center"
     ]
    },
    "tr": {
@@ -64441,7 +64441,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district of Bremen?",
+    "question": "Which of these is a district (Stadtteil) of Bremen?",
     "options": [
      "Altona",
      "Hemelingen",
@@ -64630,7 +64630,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Bremen elected?",
+    "question": "For how many years is the state parliament in Bremen elected?",
     "options": [
      "3",
      "4",
@@ -64819,7 +64819,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age is it allowed to participate in the elections for the Citizenship (state parliament)?",
+    "question": "From what age are you allowed to vote in elections to the Bürgerschaft (state parliament) in Bremen?",
     "options": [
      "14",
      "16",
@@ -65008,10 +65008,10 @@
   ],
   "translations": {
    "en": {
-    "question": "What colors is the state flag of Hesse?",
+    "question": "What colors does the state flag of Bremen have?",
     "options": [
      "blue-white-red",
-     "red and white",
+     "red-white",
      "green-white-red",
      "black-gold"
     ]
@@ -65197,12 +65197,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political topics in Bremen? ?",
+    "question": "Where can you find out about political topics in Bremen?",
     "options": [
-     "at the public order office of the municipality",
-     "at the State Agency for Civic Education",
+     "at the municipal regulatory office",
+     "at the state agency for civic education",
      "at the churches",
-     "at the Consumer Advice Centre"
+     "at the consumer advice center"
     ]
    },
    "tr": {
@@ -65386,7 +65386,7 @@
   ],
   "translations": {
    "en": {
-    "question": "What is a German city-state?",
+    "question": "Which of these is a German city-state?",
     "options": [
      "Bremen",
      "Munich",
@@ -66327,7 +66327,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district of Hamburg?",
+    "question": "Which of these is a district (Bezirk) of Hamburg?",
     "options": [
      "Altona",
      "Hemelingen",
@@ -66516,7 +66516,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Hamburg elected?",
+    "question": "For how many years is the state parliament in Hamburg elected?",
     "options": [
      "3",
      "4",
@@ -66705,7 +66705,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age is it allowed to vote in local elections in Hamburg (election of the district assemblies)?",
+    "question": "From what age are you allowed to vote in local elections (elections to the district assemblies) in Hamburg?",
     "options": [
      "14",
      "16",
@@ -67083,12 +67083,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political topics in Hamburg ?",
+    "question": "Where can you find out about political topics in Hamburg?",
     "options": [
-     "at the public order office of the municipality",
-     "at the Consumer Advice Centre",
+     "at the municipal regulatory office",
+     "at the consumer advice center",
      "at the churches",
-     "at the State Agency for Civic Education"
+     "at the state agency for civic education"
     ]
    },
    "tr": {
@@ -67272,7 +67272,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which state is a city-state?",
+    "question": "Which federal state is a city-state?",
     "options": [
      "Hamburg",
      "Saxony",
@@ -68213,7 +68213,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Hesse?",
+    "question": "Which of these is a rural district (Landkreis) in Hesse?",
     "options": [
      "Ammerland",
      "Altötting",
@@ -68402,7 +68402,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Hesse be elected?",
+    "question": "For how many years is the state parliament in Hesse elected?",
     "options": [
      "3",
      "4",
@@ -68591,7 +68591,7 @@
   ],
   "translations": {
    "en": {
-    "question": "At what age can you vote in local elections in Hesse?",
+    "question": "From what age are you allowed to vote in local elections in Hesse?",
     "options": [
      "14",
      "16",
@@ -68780,10 +68780,10 @@
   ],
   "translations": {
    "en": {
-    "question": "What colors is the state flag of Hesse?",
+    "question": "What colors does the state flag of Hesse have?",
     "options": [
      "blue-white-red",
-     "red and white",
+     "red-white",
      "black-gold",
      "green-white-red"
     ]
@@ -68969,11 +68969,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political issues in Hesse ?",
+    "question": "Where can you find out about political topics in Hesse?",
     "options": [
-     "at the State Agency for Civic Education",
-     "at the Consumer Advice Centre",
-     "at the public order office of the municipality",
+     "at the state agency for civic education",
+     "at the consumer advice center",
+     "at the municipal regulatory office",
      "at the churches"
     ]
    },
@@ -70098,12 +70098,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Mecklenburg-Vorpommern?",
+    "question": "Which of these is a rural district (Landkreis) in Mecklenburg-Western Pomerania?",
     "options": [
      "Prignitz",
      "Mecklenburg Lake District",
      "Vogtlandkreis",
-     "Rhein-Sieg district"
+     "Rhein-Sieg-Kreis"
     ]
    },
    "tr": {
@@ -70287,7 +70287,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Mecklenburg-Western Pomerania elected?",
+    "question": "For how many years is the state parliament in Mecklenburg-Western Pomerania elected?",
     "options": [
      "3",
      "4",
@@ -70476,7 +70476,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age is it allowed in Mecklenburg-Vorpommern to Vote for local elections?",
+    "question": "From what age are you allowed to vote in local elections in Mecklenburg-Western Pomerania?",
     "options": [
      "14",
      "16",
@@ -70854,12 +70854,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political Inform topics?",
+    "question": "Where can you find out about political topics in Mecklenburg-Western Pomerania?",
     "options": [
-     "at the State Agency for Civic Education",
+     "at the state agency for civic education",
      "at the churches",
-     "at the public order office of the municipality",
-     "at the Consumer Advice Centre"
+     "at the municipal regulatory office",
+     "at the consumer advice center"
     ]
    },
    "tr": {
@@ -71043,12 +71043,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The state capital of Mecklenburg-Western Pomerania is called ...",
+    "question": "The state capital of Mecklenburg-Western Pomerania is called …",
     "options": [
-     "Greifswald",
-     "Schwerin",
-     "Rostock",
-     "Wismar"
+     "Greifswald.",
+     "Schwerin.",
+     "Rostock.",
+     "Wismar."
     ]
    },
    "tr": {
@@ -71984,11 +71984,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Lower Saxony?",
+    "question": "Which of these is a rural district (Landkreis) in Lower Saxony?",
     "options": [
      "Ammerland",
-     "Rhein-Sieg district",
-     "Nordfriesland",
+     "Rhein-Sieg-Kreis",
+     "North Frisia",
      "Vogtlandkreis"
     ]
    },
@@ -72173,7 +72173,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Lower Saxony be elected?",
+    "question": "For how many years is the state parliament in Lower Saxony elected?",
     "options": [
      "3",
      "4",
@@ -72362,7 +72362,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age can you vote in local elections in Lower Saxony ?",
+    "question": "From what age are you allowed to vote in local elections in Lower Saxony?",
     "options": [
      "14",
      "16",
@@ -72740,11 +72740,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political issues in Lower Saxony? ?",
+    "question": "Where can you find out about political topics in Lower Saxony?",
     "options": [
-     "at the State Agency for Civic Education",
-     "at the public order office of the municipality",
-     "at the Consumer Advice Centre",
+     "at the state agency for civic education",
+     "at the municipal regulatory office",
+     "at the consumer advice center",
      "at the churches"
     ]
    },
@@ -72929,12 +72929,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The state capital of Lower Saxony is called ...",
+    "question": "The state capital of Lower Saxony is called …",
     "options": [
-     "Hanover",
-     "Brunswick",
-     "Wolfsburg",
-     "Osnabrück"
+     "Hanover.",
+     "Braunschweig.",
+     "Wolfsburg.",
+     "Osnabrück."
     ]
    },
    "tr": {
@@ -73870,11 +73870,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in North Rhine-Westphalia?",
+    "question": "Which of these is a rural district (Landkreis) in North Rhine-Westphalia?",
     "options": [
      "Ammerland",
-     "Rhein-Sieg district",
-     "Nordfriesland",
+     "Rhein-Sieg-Kreis",
+     "North Frisia",
      "Vogtlandkreis"
     ]
    },
@@ -74059,7 +74059,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in North Rhine-Westphalia elected?",
+    "question": "For how many years is the state parliament in North Rhine-Westphalia elected?",
     "options": [
      "3",
      "4",
@@ -74248,7 +74248,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age is it allowed in North Rhine-Westphalia to Vote for local elections?",
+    "question": "From what age are you allowed to vote in local elections in North Rhine-Westphalia?",
     "options": [
      "14",
      "16",
@@ -74439,7 +74439,7 @@
    "en": {
     "question": "What colors does the state flag of North Rhine-Westphalia have?",
     "options": [
-     "red and white",
+     "red-white",
      "green-white-red",
      "black-gold",
      "blue-white-red"
@@ -74626,12 +74626,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political issues in North Rhine-Westphalia? Inform topics?",
+    "question": "Where can you find out about political topics in North Rhine-Westphalia?",
     "options": [
      "at the churches",
-     "at the public order office of the municipality",
-     "at the Consumer Advice Centre",
-     "at the State Agency for Civic Education"
+     "at the municipal regulatory office",
+     "at the consumer advice center",
+     "at the state agency for civic education"
     ]
    },
    "tr": {
@@ -74815,12 +74815,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The state capital of North Rhine-Westphalia is called ...",
+    "question": "The state capital of North Rhine-Westphalia is called …",
     "options": [
-     "Cologne",
-     "Bonn",
-     "Dusseldorf",
-     "Dortmund"
+     "Cologne.",
+     "Bonn.",
+     "Düsseldorf.",
+     "Dortmund."
     ]
    },
    "tr": {
@@ -75756,7 +75756,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Rhineland-Palatinate?",
+    "question": "Which of these is a rural district (Landkreis) in Rhineland-Palatinate?",
     "options": [
      "Westerwaldkreis",
      "Altötting",
@@ -75945,7 +75945,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Rhineland-Palatinate elected?",
+    "question": "For how many years is the state parliament in Rhineland-Palatinate elected?",
     "options": [
      "3",
      "4",
@@ -76134,7 +76134,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age is it allowed in Rhineland-Palatinate to Vote for local elections?",
+    "question": "From what age are you allowed to vote in local elections in Rhineland-Palatinate?",
     "options": [
      "14",
      "16",
@@ -76512,12 +76512,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political topics in Rhineland-Palatinate? ?",
+    "question": "Where can you find out about political topics in Rhineland-Palatinate?",
     "options": [
      "at the churches",
-     "at the Consumer Advice Centre",
-     "at the public order office of the municipality",
-     "at the State Agency for Civic Education"
+     "at the consumer advice center",
+     "at the municipal regulatory office",
+     "at the state agency for civic education"
     ]
    },
    "tr": {
@@ -76701,12 +76701,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The state capital of Rhineland-Palatinate is called ...",
+    "question": "The state capital of Rhineland-Palatinate is called …",
     "options": [
-     "Mainz",
-     "Kaiserslautern",
-     "Ludwigshafen",
-     "Koblenz"
+     "Mainz.",
+     "Kaiserslautern.",
+     "Ludwigshafen.",
+     "Koblenz."
     ]
    },
    "tr": {
@@ -77642,12 +77642,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Saarland?",
+    "question": "Which of these is a rural district (Landkreis) in Saarland?",
     "options": [
      "Mecklenburg Lake District",
      "Altötting",
      "Neunkirchen",
-     "Rhein-Sieg district"
+     "Rhein-Sieg-Kreis"
     ]
    },
    "tr": {
@@ -77831,7 +77831,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the Saarland state parliament be elected?",
+    "question": "For how many years is the Saarland state parliament elected?",
     "options": [
      "3",
      "4",
@@ -78020,7 +78020,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age can you vote in local elections in Saarland? ?",
+    "question": "From what age can you vote in local elections in Saarland?",
     "options": [
      "14",
      "16",
@@ -78398,12 +78398,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political issues in Saarland? ?",
+    "question": "Where can you find out about political topics in Saarland?",
     "options": [
      "at the churches",
      "at the State Agency for Civic Education",
-     "at the Consumer Advice Centre",
-     "at the public order office of the municipality"
+     "at the consumer advice center",
+     "at the municipality's regulatory office"
     ]
    },
    "tr": {
@@ -78587,12 +78587,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The state capital of the Saarland is called ...",
+    "question": "The state capital of Saarland is called …",
     "options": [
-     "Neunkirchen",
-     "Homburg",
-     "Saarbrücken",
-     "Völklingen"
+     "Neunkirchen.",
+     "Homburg.",
+     "Saarbrücken.",
+     "Völklingen."
     ]
    },
    "tr": {
@@ -79528,7 +79528,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Saxony?",
+    "question": "Which of these is a district in Saxony?",
     "options": [
      "Vogtlandkreis",
      "Altötting",
@@ -79717,7 +79717,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Saxony be elected?",
+    "question": "For how many years is the state parliament in Saxony elected?",
     "options": [
      "3",
      "4",
@@ -79906,7 +79906,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age can you vote in local elections in Saxony ?",
+    "question": "From what age can you vote in local elections in Saxony?",
     "options": [
      "14",
      "16",
@@ -80284,12 +80284,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political issues in Saxony? ?",
+    "question": "Where can you find out about political topics in Saxony?",
     "options": [
      "at the State Agency for Civic Education",
-     "at the public order office of the municipality",
+     "at the municipality's regulatory office",
      "at the churches",
-     "at the Consumer Advice Centre"
+     "at the consumer advice center"
     ]
    },
    "tr": {
@@ -80473,12 +80473,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The state capital of Saxony is called ...",
+    "question": "The state capital of Saxony is called …",
     "options": [
-     "Leipzig",
-     "Dresden",
-     "Chemnitz",
-     "Zwickau"
+     "Leipzig.",
+     "Dresden.",
+     "Chemnitz.",
+     "Zwickau."
     ]
    },
    "tr": {
@@ -81414,7 +81414,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Saxony-Anhalt?",
+    "question": "Which of these is a district in Saxony-Anhalt?",
     "options": [
      "Ammerland",
      "Altötting",
@@ -81603,7 +81603,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Saxony-Anhalt elected?",
+    "question": "For how many years is the state parliament in Saxony-Anhalt elected?",
     "options": [
      "3",
      "4",
@@ -81792,7 +81792,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age can you vote in local elections in Saxony-Anhalt ?",
+    "question": "From what age can you vote in local elections in Saxony-Anhalt?",
     "options": [
      "14",
      "16",
@@ -81981,12 +81981,12 @@
   ],
   "translations": {
    "en": {
-    "question": "What colours does the state flag of Saxony-Anhalt have?",
+    "question": "What colors does the state flag of Saxony-Anhalt have?",
     "options": [
      "blue-white-red",
      "yellow-black",
      "green-white-red",
-     "white-blue"
+     "white-red"
     ]
    },
    "tr": {
@@ -82170,12 +82170,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political issues in Saxony-Anhalt? ?",
+    "question": "Where can you find out about political topics in Saxony-Anhalt?",
     "options": [
      "at the churches",
      "at the State Agency for Civic Education",
-     "at the public order office of the municipality",
-     "at the Consumer Advice Centre"
+     "at the municipality's regulatory office",
+     "at the consumer advice center"
     ]
    },
    "tr": {
@@ -82359,12 +82359,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The state capital of Saxony-Anhalt is called ...",
+    "question": "The state capital of Saxony-Anhalt is called …",
     "options": [
-     "Hall",
-     "Dessau",
-     "Magdeburg",
-     "Wittenberg"
+     "Halle.",
+     "Dessau.",
+     "Magdeburg.",
+     "Wittenberg."
     ]
    },
    "tr": {
@@ -83300,12 +83300,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Schleswig-Holstein?",
+    "question": "Which of these is a district in Schleswig-Holstein?",
     "options": [
      "Ammerland",
      "Mecklenburg Lake District",
      "Nordfriesland",
-     "Rhein-Sieg district"
+     "Rhein-Sieg-Kreis"
     ]
    },
    "tr": {
@@ -83489,7 +83489,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Schleswig-Holstein elected?",
+    "question": "For how many years is the state parliament in Schleswig-Holstein elected?",
     "options": [
      "3",
      "4",
@@ -83678,7 +83678,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age is it allowed to Vote for local elections?",
+    "question": "From what age can you vote in local elections in Schleswig-Holstein?",
     "options": [
      "14",
      "16",
@@ -84056,11 +84056,11 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political issues in Schleswig-Holstein? Inform topics?",
+    "question": "Where can you find out about political topics in Schleswig-Holstein?",
     "options": [
-     "at the Consumer Advice Centre",
-     "at the public order office of the municipality",
-     "with the State Commissioner for Civic Education",
+     "at the consumer advice center",
+     "at the municipality's regulatory office",
+     "at the Commissioner for Civic Education",
      "at the churches"
     ]
    },
@@ -84245,12 +84245,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The state capital of Schleswig-Holstein is called ...",
+    "question": "The state capital of Schleswig-Holstein is called …",
     "options": [
-     "Husum",
-     "Flensburg",
-     "Lübeck",
-     "Kiel"
+     "Husum.",
+     "Flensburg.",
+     "Lübeck.",
+     "Kiel."
     ]
    },
    "tr": {
@@ -85186,7 +85186,7 @@
   ],
   "translations": {
    "en": {
-    "question": "Which is a district in Thuringia?",
+    "question": "Which of these is a district in Thuringia?",
     "options": [
      "Ammerland",
      "Altötting",
@@ -85375,7 +85375,7 @@
   ],
   "translations": {
    "en": {
-    "question": "For how many years will the state parliament in Thuringia be elected?",
+    "question": "For how many years is the state parliament in Thuringia elected?",
     "options": [
      "3",
      "4",
@@ -85564,7 +85564,7 @@
   ],
   "translations": {
    "en": {
-    "question": "From what age can you vote in local elections in Thuringia ?",
+    "question": "From what age can you vote in local elections in Thuringia?",
     "options": [
      "14",
      "16",
@@ -85942,12 +85942,12 @@
   ],
   "translations": {
    "en": {
-    "question": "Where can you find out about political topics in Thuringia? ?",
+    "question": "Where can you find out about political topics in Thuringia?",
     "options": [
      "at the churches",
-     "at the Consumer Advice Centre",
+     "at the consumer advice center",
      "at the State Agency for Civic Education",
-     "at the public order office of the municipality"
+     "at the municipality's regulatory office"
     ]
    },
    "tr": {
@@ -86131,12 +86131,12 @@
   ],
   "translations": {
    "en": {
-    "question": "The state capital of Thuringia is called ...",
+    "question": "The state capital of Thuringia is called …",
     "options": [
-     "Eisenach",
-     "Erfurt",
-     "Gera",
-     "Jena"
+     "Eisenach.",
+     "Erfurt.",
+     "Gera.",
+     "Jena."
     ]
    },
    "tr": {
