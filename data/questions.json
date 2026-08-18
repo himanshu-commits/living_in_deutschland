@@ -667,7 +667,7 @@
     "question": "Cila e drejtë bën pjesë në të drejtat themelore në Gjermani?",
     "options": [
      "Mbajtja e armëve",
-     "E drejta e grushtit (vetëgjyqësia)",
+     "E drejta e grushtit",
      "Liria e shprehjes",
      "Vetëgjyqësia"
     ]
@@ -858,7 +858,7 @@
     "options": [
      "Smije se primiti novac ako se za to glasa za određenu kandidatkinju/kandidata.",
      "Samo osobe koje nikada nisu bile u zatvoru smiju glasati.",
-     "Birač/birateljka ne smije biti ni pod uticajem niti prisiljen/a na određeno glasanje i ne smije imati nikakve posljedice zbog glasanja.",
+     "Birač/birateljica ne smije biti ni pod uticajem niti prisiljen/a na određeno glasanje i ne smije imati nikakve posljedice zbog glasanja.",
      "Sve osobe koje imaju pravo glasa moraju glasati."
     ]
    },
@@ -4104,7 +4104,7 @@
     "question": "Në Gjermani shumica e personave të punësuar …",
     "options": [
      "punojnë në ndërmarrje të vogla familjare.",
-     "punojnë vullnetarisht për një landet federal.",
+     "punojnë vullnetarisht për një land federal.",
      "janë të vetëpunësuar me firmën e tyre.",
      "janë të punësuar në një firmë ose institucion shtetëror."
     ]
@@ -4466,7 +4466,7 @@
     "question": "Çfarë nuk është land federal (Bundesland) i Republikës Federale të Gjermanisë?",
     "options": [
      "Alzasi-Lorena (Elsass-Lothringen)",
-     "Rein-Vestfalia Veriore",
+     "Renania Veriore-Vestfalia",
      "Meklenburg-Pomerania Perëndimore",
      "Saksonia-Anhalt"
     ]
@@ -5911,7 +5911,7 @@
     ]
    },
    "sq": {
-    "question": "Cila pohim është i saktë? Në Gjermani …",
+    "question": "Cili pohim është i saktë? Në Gjermani …",
     "options": [
      "shteti dhe bashkësitë fetare janë të ndara nga njëra-tjetra.",
      "bashkësitë fetare formojnë shtetin.",
@@ -6454,7 +6454,7 @@
     ]
    },
    "sq": {
-    "question": "Cili masë krijon siguri sociale në Gjermani?",
+    "question": "Cila masë krijon siguri sociale në Gjermani?",
     "options": [
      "sigurimi shëndetësor",
      "sigurimi i automjetit",
@@ -6585,7 +6585,7 @@
      "prva ministrica/prvi ministar",
      "premijerka/premijer",
      "senatorka/senator",
-     "predsjednica/predsjednik vlade pokrajine (Ministerpräsident)"
+     "predsjednica/predsjednik vlade pokrajine"
     ]
    },
    "bg": {
@@ -9906,7 +9906,7 @@
      "sjedište Bundestaga u Berlinu",
      "Savezni ustavni sud u Karlsruheu",
      "zgradu Bundesrata u Berlinu",
-     "Ured savezne kancelarke/kancelara u Berlinu"
+     "Ured saveznog kancelara u Berlinu"
     ]
    },
    "bg": {
@@ -16592,7 +16592,7 @@
      "Unioni i Sigurt Kristian",
      "Unioni Kristian Gjermano-Jugor",
      "Shoqata e Sipërmarrësve Kristianë-Socialë",
-     "Unioni Social-Kristian"
+     "Unioni Kristian-Social"
     ]
    },
    "bs": {
@@ -21477,7 +21477,7 @@
     "question": "Zgjedhjet në Gjermani janë të lira. Çfarë do të thotë kjo?",
     "options": [
      "Të gjithë personat e dënuar për krime nuk kanë të drejtë të votojnë.",
-     "Nëse dua të shkoj të votoj, punëdhënësja/punëdhënësi im duhet të më lejojë të lirë.",
+     "Nëse dua të shkoj të votoj, punëdhënësja/punëdhënësi im duhet të më japë leje nga puna.",
      "Çdo person mund të vendosë pa asnjë detyrim nëse dëshiron të votojë dhe kë dëshiron të votojë.",
      "Mund të vendos lirisht se ku dëshiroj të votoj."
     ]
@@ -21487,7 +21487,7 @@
     "options": [
      "Svi osuđeni počinioci krivičnih djela ne smiju glasati.",
      "Ako želim ići glasati, moj poslodavac mi mora dati slobodan dan.",
-     "Svaka osoba može bez prisile odlučiti da li želi glasati i koga želi glasati.",
+     "Svaka osoba može bez prisile odlučiti da li želi glasati i za koga želi glasati.",
      "Mogu slobodno odlučiti gdje želim ići glasati."
     ]
    },
@@ -27265,7 +27265,7 @@
     "question": "Kush e ndërtoi Murin e Berlinit?",
     "options": [
      "Britania e Madhe",
-     "RDGJ (Republika Demokratike Gjermane)",
+     "RDGJ",
      "Republika Federale e Gjermanisë",
      "SHBA"
     ]
@@ -27274,7 +27274,7 @@
     "question": "Ko je izgradio zid u Berlinu?",
     "options": [
      "Velika Britanija",
-     "DDR (Istočna Njemačka)",
+     "NDR",
      "Savezna Republika Njemačka",
      "SAD"
     ]
@@ -28167,7 +28167,7 @@
     ]
    },
    "sq": {
-    "question": "Në cilin vit u bë Hitleri Kancelar i Rajhut (Reichskanzler)?",
+    "question": "Në cilin vit u bë Hitleri Kancelar i Rajhut?",
     "options": [
      "1923",
      "1927",
@@ -29977,7 +29977,7 @@
     ]
    },
    "sq": {
-    "question": "Në cilat demonstrata në Gjermani njerëzit thërrisnin \"Ne jemi populli\" (\"Wir sind das Volk\")?",
+    "question": "Në cilat demonstrata në Gjermani njerëzit thërrisnin \"Ne jemi populli\"?",
     "options": [
      "në kryengritjen e punëtorëve të vitit 1953 në RDGJ",
      "në demonstratat e vitit 1968 në Republikën Federale të Gjermanisë",
@@ -29988,10 +29988,10 @@
    "bs": {
     "question": "Na kojim demonstracijama u Njemačkoj su ljudi uzvikivali \"Mi smo narod\"?",
     "options": [
-     "na ustanku radnika 1953. u DDR-u",
+     "na ustanku radnika 1953. u NDR-u",
      "na demonstracijama 1968. u Saveznoj Republici Njemačkoj",
      "na demonstracijama protiv nuklearne energije 1985. u Saveznoj Republici Njemačkoj",
-     "na ponedjeljačkim demonstracijama 1989. u DDR-u"
+     "na ponedjeljačkim demonstracijama 1989. u NDR-u"
     ]
    },
    "bg": {
@@ -31072,7 +31072,7 @@
     ]
    },
    "bs": {
-    "question": "U kojoj okupacionoj zoni je osnovana DDR? U …",
+    "question": "U kojoj okupacionoj zoni je osnovana NDR? U …",
     "options": [
      "američkoj okupacionoj zoni",
      "francuskoj okupacionoj zoni",
@@ -31434,7 +31434,7 @@
     ]
    },
    "bs": {
-    "question": "Kada je osnovana DDR?",
+    "question": "Kada je osnovana NDR?",
     "options": [
      "1947.",
      "1949.",
@@ -33054,7 +33054,7 @@
     ]
    },
    "sq": {
-    "question": "Kur ishte \"Mrekullia Ekonomike\" (Wirtschaftswunder) në Republikën Federale të Gjermanisë?",
+    "question": "Kur ishte \"Mrekullia Ekonomike\" në Republikën Federale të Gjermanisë?",
     "options": [
      "në vitet '40",
      "në vitet '50",
@@ -33606,7 +33606,7 @@
     ]
    },
    "bs": {
-    "question": "Godine 1953. u DDR-u je izbio ustanak, na koji je dugo vremena u Saveznoj Republici Njemačkoj podsjećao praznik. Kada je to bilo?",
+    "question": "Godine 1953. u NDR-u je izbio ustanak, na koji je dugo vremena u Saveznoj Republici Njemačkoj podsjećao praznik. Kada je to bilo?",
     "options": [
      "1. maj",
      "17. juni",
@@ -33792,7 +33792,7 @@
      "Pruska",
      "Savezna Republika Njemačka",
      "\"Treći rajh\"",
-     "DDR"
+     "NDR"
     ]
    },
    "bg": {
@@ -34140,7 +34140,7 @@
     ]
    },
    "sq": {
-    "question": "Kur RDGJ-ja ndërtoi Murin e Berlinit?",
+    "question": "Kur e ndërtoi RDGJ-ja Murin e Berlinit?",
     "options": [
      "1919",
      "1933",
@@ -34149,7 +34149,7 @@
     ]
    },
    "bs": {
-    "question": "Kada je DDR izgradila Berlinski zid?",
+    "question": "Kada je NDR izgradila Berlinski zid?",
     "options": [
      "1919.",
      "1933.",
@@ -34330,7 +34330,7 @@
     ]
    },
    "bs": {
-    "question": "Šta znači skraćenica DDR?",
+    "question": "Šta znači skraćenica NDR?",
     "options": [
      "Treći njemački radio",
      "Njemačka Republika",
@@ -34692,7 +34692,7 @@
     ]
    },
    "bs": {
-    "question": "Koja današnja njemačka savezna zemlja je ranije pripadala teritoriji DDR-a?",
+    "question": "Koja današnja njemačka savezna zemlja je ranije pripadala teritoriji NDR-a?",
     "options": [
      "Brandenburg",
      "Bavarska",
@@ -35045,19 +35045,19 @@
     ]
    },
    "sq": {
-    "question": "Më 3 tetor festohet në Gjermani Dita e Bashkimit …",
+    "question": "Më 3 tetor festohet në Gjermani Dita e …",
     "options": [
-     "Gjerman.",
-     "Kombëtar.",
-     "të Landeve Federale.",
-     "të Qyteteve."
+     "Bashkimit Gjerman.",
+     "Kombit Gjerman.",
+     "Landeve Federale Gjermane.",
+     "Qyteteve Gjermane."
     ]
    },
    "bs": {
     "question": "3. oktobra se u Njemačkoj slavi Dan njemačkog(-e) …",
     "options": [
      "jedinstva.",
-     "naroda.",
+     "nacije.",
      "saveznih zemalja.",
      "gradova."
     ]
@@ -35230,12 +35230,12 @@
     "options": [
      "Hessen",
      "Sachsen-Anhalt",
-     "Rhein Verior-Vestfalia",
+     "Renania e Veriut-Vestfalia",
      "Saarland"
     ]
    },
    "bs": {
-    "question": "Koja današnja njemačka savezna zemlja je ranije pripadala teritoriji DDR-a?",
+    "question": "Koja današnja njemačka savezna zemlja je ranije pripadala teritoriji NDR-a?",
     "options": [
      "Hesen",
      "Saksonija-Anhalt",
@@ -35407,7 +35407,7 @@
     ]
    },
    "sq": {
-    "question": "Përse quhet periudha e vjeshtës së vitit 1989 në RDGJ \"Kthesa\" (Die Wende)? Në atë kohë RDGJ-ja u ndryshua politikisht …",
+    "question": "Përse quhet periudha e vjeshtës së vitit 1989 në RDGJ \"Kthesa\"? Në atë kohë RDGJ-ja ndryshoi politikisht …",
     "options": [
      "nga një diktaturë në demokraci.",
      "nga një ekonomi liberale tregu në socializëm.",
@@ -35416,7 +35416,7 @@
     ]
    },
    "bs": {
-    "question": "Zašto se period u jesen 1989. godine u DDR-u naziva \"Preokret\" (Die Wende)? U tom periodu se DDR politički mijenjala …",
+    "question": "Zašto se period u jesen 1989. godine u NDR-u naziva \"Preokret\" (Die Wende)? U tom periodu se NDR politički mijenjala …",
     "options": [
      "od diktature ka demokratiji.",
      "od liberalne tržišne privrede ka socijalizmu.",
@@ -35597,7 +35597,7 @@
     ]
    },
    "bs": {
-    "question": "Koja današnja njemačka savezna zemlja je ranije pripadala teritoriji DDR-a?",
+    "question": "Koja današnja njemačka savezna zemlja je ranije pripadala teritoriji NDR-a?",
     "options": [
      "Tiringija",
      "Hesen",
@@ -35778,7 +35778,7 @@
     ]
    },
    "bs": {
-    "question": "Koja današnja njemačka savezna zemlja je ranije pripadala teritoriji DDR-a?",
+    "question": "Koja današnja njemačka savezna zemlja je ranije pripadala teritoriji NDR-a?",
     "options": [
      "Bavarska",
      "Donja Saksonija",
@@ -35959,7 +35959,7 @@
     ]
    },
    "bs": {
-    "question": "Šta se pod skraćenicom \"Stasi\" podrazumijevalo u DDR-u?",
+    "question": "Šta se pod skraćenicom \"Stasi\" podrazumijevalo u NDR-u?",
     "options": [
      "parlament",
      "Ministarstvo državne bezbjednosti",
@@ -36140,7 +36140,7 @@
     ]
    },
    "bs": {
-    "question": "Koja današnja njemačka savezna zemlja je ranije pripadala teritoriji DDR-a?",
+    "question": "Koja današnja njemačka savezna zemlja je ranije pripadala teritoriji NDR-a?",
     "options": [
      "Hesen",
      "Šlezvig-Holštajn",
@@ -36314,14 +36314,14 @@
    "sq": {
     "question": "Cila nga listat e mëposhtme përmban vetëm landet federale që i përkisnin ish-territorit të RDGJ-së?",
     "options": [
-     "Saksonia e Poshtme, Rhein Verior-Vestfalia, Hessen, Schleswig-Holstein, Brandenburg",
+     "Saksonia e Poshtme, Renania e Veriut-Vestfalia, Hessen, Schleswig-Holstein, Brandenburg",
      "Mecklenburg-Vorpommern, Brandenburg, Saksonia, Sachsen-Anhalt, Turingia",
      "Bavaria, Baden-Württemberg, Rheinland-Pfalz, Turingia, Saksonia",
      "Saksonia, Turingia, Hessen, Saksonia e Poshtme, Brandenburg"
     ]
    },
    "bs": {
-    "question": "Koji od sljedećih spiskova sadrži samo savezne zemlje koje su pripadale teritoriji bivše DDR?",
+    "question": "Koji od sljedećih spiskova sadrži samo savezne zemlje koje su pripadale teritoriji bivše NDR?",
     "options": [
      "Donja Saksonija, Sjeverna Rajna-Vestfalija, Hesen, Šlezvig-Holštajn, Brandenburg",
      "Mekleburg-Zapadno Pomorje, Brandenburg, Saksonija, Saksonija-Anhalt, Tiringija",
@@ -36502,7 +36502,7 @@
     ]
    },
    "bs": {
-    "question": "Kome je pripadala DDR u vrijeme \"Hladnog rata\"?",
+    "question": "Kome je pripadala NDR u vrijeme \"Hladnog rata\"?",
     "options": [
      "zapadnim silama",
      "Varšavskom paktu",
@@ -36683,7 +36683,7 @@
     ]
    },
    "bs": {
-    "question": "Kako se zvao privredni sistem DDR-a?",
+    "question": "Kako se zvao privredni sistem NDR-a?",
     "options": [
      "tržišna privreda",
      "planska privreda",
@@ -36864,12 +36864,12 @@
     ]
    },
    "bs": {
-    "question": "Kako su Savezna Republika Njemačka i DDR postale jedna država?",
+    "question": "Kako su Savezna Republika Njemačka i NDR postale jedna država?",
     "options": [
-     "Savezna Republika je okupirala DDR.",
+     "Savezna Republika je okupirala NDR.",
      "Današnjih pet istočnih saveznih zemalja pristupilo je Saveznoj Republici Njemačkoj.",
-     "Zapadne savezne zemlje su pristupile DDR-u.",
-     "DDR je okupirala Saveznu Republiku Njemačku."
+     "Zapadne savezne zemlje su pristupile NDR-u.",
+     "NDR je okupirala Saveznu Republiku Njemačku."
     ]
    },
    "bg": {
@@ -37045,7 +37045,7 @@
     ]
    },
    "bs": {
-    "question": "Pristupanjem DDR-a Saveznoj Republici Njemačkoj, nove savezne zemlje sada takođe pripadaju …",
+    "question": "Pristupanjem NDR-a Saveznoj Republici Njemačkoj, nove savezne zemlje sada takođe pripadaju …",
     "options": [
      "Evropskoj uniji.",
      "Varšavskom paktu.",
@@ -37401,13 +37401,13 @@
     "question": "Në cilën aleancë ushtarake ishte anëtare RDGJ-ja?",
     "options": [
      "në NATO",
-     "në Konfederatën e Rinit",
+     "në Konfederatën e Rajnës",
      "në Paktin e Varshavës",
      "në Aleancën Evropiane"
     ]
    },
    "bs": {
-    "question": "U kojem vojnom savezu je DDR bila članica?",
+    "question": "U kojem vojnom savezu je NDR bila članica?",
     "options": [
      "u NATO-u",
      "u Rajnskom savezu",
@@ -37592,7 +37592,7 @@
     "options": [
      "tajna služba u \"Trećem rajhu\"",
      "poznato njemačko memorijalno mjesto",
-     "tajna služba DDR-a",
+     "tajna služba NDR-a",
      "njemački sportski klub tokom Drugog svjetskog rata"
     ]
    },
@@ -37949,7 +37949,7 @@
     ]
    },
    "bs": {
-    "question": "Šta se dogodilo 17. juna 1953. godine u DDR-u?",
+    "question": "Šta se dogodilo 17. juna 1953. godine u NDR-u?",
     "options": [
      "svečano pristupanje Varšavskom paktu",
      "štrajkovi širom zemlje i narodni ustanak",
@@ -38121,7 +38121,7 @@
     ]
    },
    "sq": {
-    "question": "Cili politikan lidhet me \"Traktatet e Lindjes\" (Ostverträge)?",
+    "question": "Cili politikan lidhet me \"Traktatet e Lindjes\"?",
     "options": [
      "Helmut Kohl",
      "Willy Brandt",
@@ -39028,9 +39028,9 @@
    "sq": {
     "question": "Cili simbol shihet në sallën plenare të Bundestagut Gjerman? © Deutscher Bundestag/Janine Schmitz",
     "options": [
-     "shqiponja federale (Bundesadler)",
+     "shqiponja federale",
      "flamuri i qytetit të Berlinit",
-     "shqiponja e Rajhut (Reichsadler)",
+     "shqiponja e Rajhut",
      "kurora e Rajhut"
     ]
    },
@@ -39216,7 +39216,7 @@
     ]
    },
    "bs": {
-    "question": "U kojem periodu je postojala Njemačka Demokratska Republika (DDR)?",
+    "question": "U kojem periodu je postojala Njemačka Demokratska Republika (NDR)?",
     "options": [
      "od 1919. do 1927.",
      "od 1933. do 1945.",
@@ -39753,7 +39753,7 @@
     "question": "27 janari është në Gjermani një ditë zyrtare përkujtimore. Çfarë përkujton kjo ditë?",
     "options": [
      "fundin e Luftës së Dytë Botërore",
-     "miratimin e Ligjit Themelor (Grundgesetz)",
+     "miratimin e Ligjit Themelor",
      "ribashkimin e Gjermanisë",
      "viktimat e nacionalsocializmit (Dita e Çlirimit të kampit të shfarosjes Auschwitz)"
     ]
@@ -41206,7 +41206,7 @@
     ]
    },
    "bs": {
-    "question": "Kako se općenito naziva pristupanje DDR-a Saveznoj Republici Njemačkoj 1990. godine?",
+    "question": "Kako se općenito naziva pristupanje NDR-a Saveznoj Republici Njemačkoj 1990. godine?",
     "options": [
      "Proširenje NATO-a na istok",
      "Proširenje EU na istok",
@@ -42297,7 +42297,7 @@
      "London",
      "Pariz",
      "Berlin",
-     "Strasbourg"
+     "Strazbur"
     ]
    },
    "bg": {
@@ -42840,7 +42840,7 @@
      "pristupanje Njemačke NATO-u",
      "osnivanje Evropske ekonomske zajednice (EEZ)",
      "obaveza Njemačke na plaćanje ratnih reparacija",
-     "utvrđivanje Odra-Nise linije kao istočne granice"
+     "utvrđivanje Odra-Nisa linije kao istočne granice"
     ]
    },
    "bg": {
@@ -43019,7 +43019,7 @@
     "question": "Na kojim mjestima radi Evropski parlament?",
     "options": [
      "Pariz, London i Hag",
-     "Strasbourg, Luksemburg i Brisel",
+     "Strazbur, Luksemburg i Brisel",
      "Rim, Bern i Beč",
      "Bon, Cirih i Milano"
     ]
@@ -46270,7 +46270,7 @@
      "leje nga policia",
      "miratim nga një parti",
      "miratim nga zyra e regjistrimit të banorëve",
-     "leje pune për lokale hotelierike nga autoriteti kompetent"
+     "leje lokali gastronomik nga autoriteti kompetent"
     ]
    },
    "bs": {
@@ -46811,7 +46811,7 @@
     "question": "Qendra e Informimit Profesional BIZ pranë Agjencisë Federale të Punësimit në Gjermani ndihmon në …",
     "options": [
      "llogaritjen e pensionit.",
-     "kërkimin e vendeve të praktikës profesionale.",
+     "kërkimin e vendeve të kualifikimit profesional (Lehrstelle)",
      "deklaratën e taksave.",
      "sigurimin shëndetësor."
     ]
@@ -48983,7 +48983,7 @@
     "question": "Cili është një zakon në Gjermani për Krishtlindje?",
     "options": [
      "fshehja e vezëve me ngjyra",
-     "zbukurimi i pemës së Vitit të Ri (bredhit)",
+     "zbukurimi i pemës së Krishtlindjes (bredhit)",
      "veshja me maska dhe kostume",
      "vendosja e kungujve para derës"
     ]
@@ -50983,7 +50983,7 @@
     "question": "Koju počasnu (volontersku) dužnost njemački državljani i državljanke moraju preuzeti ako budu za to pozvani?",
     "options": [
      "trener/trenerica u klubu",
-     "biračko povjerenstvo (Wahlhelfer/in)",
+     "pomoćnik/pomoćnica na izborima",
      "nadzor u biblioteci",
      "nastavnik/nastavnica"
     ]
@@ -52965,7 +52965,7 @@
     "question": "Cili është një zakon në Gjermani për Pashkët?",
     "options": [
      "vendosja e kungujve para derës",
-     "zbukurimi i pemës së Vitit të Ri (bredhit)",
+     "zbukurimi i pemës së Krishtlindjes (bredhit)",
      "lyerja e vezëve",
      "hedhja e raketave në ajër"
     ]
@@ -53876,7 +53876,7 @@
     ]
    },
    "bs": {
-    "question": "U DDR-u su prije svega živjeli migranti i migrantice iz …",
+    "question": "U NDR-u su prije svega živjeli migranti i migrantice iz …",
     "options": [
      "Vijetnama, Poljske, Mozambika.",
      "Francuske, Rumunije, Somalije.",
@@ -53986,7 +53986,7 @@
    "sq": {
     "question": "Punëmarrësit e huaj që u rekrutuan nga Republika Federale e Gjermanisë në vitet '50 dhe '60 quheshin …",
     "options": [
-     "punëtorë të zinj (pa leje).",
+     "punëtorë të paligjshëm (pa leje pune).",
      "punëtorë të ftuar (Gastarbeiter).",
      "punëtorë të përkohshëm.",
      "punëtorë me turne."
@@ -55324,7 +55324,7 @@
    "bs": {
     "question": "Gdje se u Baden-Württembergu možete informisati o političkim temama?",
     "options": [
-     "kod komunalnog reda (Ordnungsamt) opštine",
+     "kod opštinske službe za javni red (Ordnungsamt)",
      "kod centra za zaštitu potrošača (Verbraucherzentrale)",
      "kod Zemaljskog centra za političko obrazovanje (Landeszentrale für politische Bildung)",
      "kod crkava"
@@ -55497,9 +55497,9 @@
     "question": "Kryeqyteti i landit Baden-Württemberg quhet …",
     "options": [
      "Heidelberg.",
-     "Shtutgart.",
-     "Karlsrue.",
-     "Manhajm."
+     "Stuttgart.",
+     "Karlsruhe.",
+     "Mannheim."
     ]
    },
    "bs": {
@@ -57130,7 +57130,7 @@
    "bs": {
     "question": "Gdje se u Bavarskoj možete informisati o političkim temama?",
     "options": [
-     "kod komunalnog reda (Ordnungsamt) opštine",
+     "kod opštinske službe za javni red (Ordnungsamt)",
      "kod Zemaljskog centra za političko obrazovanje (Landeszentrale für politische Bildung)",
      "kod centra za zaštitu potrošača (Verbraucherzentrale)",
      "kod crkava"
@@ -57302,10 +57302,10 @@
    "sq": {
     "question": "Kryeqyteti i landit Bavaria quhet …",
     "options": [
-     "Ingolshtat.",
+     "Ingolstadt.",
      "Regensburg.",
-     "Nyrnberg.",
-     "Mynih."
+     "Nürnberg.",
+     "München."
     ]
    },
    "bs": {
@@ -58936,7 +58936,7 @@
    "bs": {
     "question": "Gdje se u Berlinu možete informisati o političkim temama?",
     "options": [
-     "kod komunalnog reda (Ordnungsamt) opštine",
+     "kod opštinske službe za javni red (Ordnungsamt)",
      "kod crkava",
      "kod centra za zaštitu potrošača (Verbraucherzentrale)",
      "kod Zemaljskog centra za političko obrazovanje (Landeszentrale für politische Bildung)"
@@ -59111,7 +59111,7 @@
      "Berlini",
      "Saarlandi",
      "Brandenburgu",
-     "Hesеni"
+     "Heseni"
     ]
    },
    "bs": {
@@ -60743,7 +60743,7 @@
     "question": "Gdje se u Brandenburgu možete informisati o političkim temama?",
     "options": [
      "kod crkava",
-     "kod komunalnog reda (Ordnungsamt) opštine",
+     "kod opštinske službe za javni red (Ordnungsamt)",
      "kod Zemaljskog centra za političko obrazovanje (Landeszentrale für politische Bildung)",
      "kod centra za zaštitu potrošača (Verbraucherzentrale)"
     ]
@@ -60851,7 +60851,7 @@
     "question": "Kryeqyteti i landit Brandenburg quhet …",
     "options": [
      "Potsdam.",
-     "Kotbus.",
+     "Cottbus.",
      "Brandenburg.",
      "Frankfurt/Oder."
     ]
@@ -62547,7 +62547,7 @@
    "bs": {
     "question": "Gdje se u Bremenu možete informisati o političkim temama?",
     "options": [
-     "kod komunalnog reda (Ordnungsamt) opštine",
+     "kod opštinske službe za javni red (Ordnungsamt)",
      "kod Zemaljskog centra za političko obrazovanje (Landeszentrale für politische Bildung)",
      "kod crkava",
      "kod centra za zaštitu potrošača (Verbraucherzentrale)"
@@ -62720,7 +62720,7 @@
     "question": "Cili prej tyre është një qytet-shtet gjerman?",
     "options": [
      "Bremeni",
-     "Mynihu",
+     "Müncheni",
      "Frankfurti",
      "Erfurti"
     ]
@@ -64353,7 +64353,7 @@
    "bs": {
     "question": "Gdje se u Hamburgu možete informisati o političkim temama?",
     "options": [
-     "kod komunalnog reda (Ordnungsamt) opštine",
+     "kod opštinske službe za javni red (Ordnungsamt)",
      "kod centra za zaštitu potrošača (Verbraucherzentrale)",
      "kod crkava",
      "kod Zemaljskog centra za političko obrazovanje (Landeszentrale für politische Bildung)"
@@ -66161,7 +66161,7 @@
     "options": [
      "kod Zemaljskog centra za političko obrazovanje (Landeszentrale für politische Bildung)",
      "kod centra za zaštitu potrošača (Verbraucherzentrale)",
-     "kod komunalnog reda (Ordnungsamt) opštine",
+     "kod opštinske službe za javni red (Ordnungsamt)",
      "kod crkava"
     ]
    },
@@ -66267,10 +66267,10 @@
    "sq": {
     "question": "Kryeqyteti i landit Hesen quhet …",
     "options": [
-     "Kasel.",
-     "Darmshtat.",
+     "Kassel.",
+     "Darmstadt.",
      "Frankfurt.",
-     "Vizbaden."
+     "Wiesbaden."
     ]
    },
    "bs": {
@@ -67966,7 +67966,7 @@
     "options": [
      "kod Zemaljskog centra za političko obrazovanje (Landeszentrale für politische Bildung)",
      "kod crkava",
-     "kod komunalnog reda (Ordnungsamt) opštine",
+     "kod opštinske službe za javni red (Ordnungsamt)",
      "kod centra za zaštitu potrošača (Verbraucherzentrale)"
     ]
    },
@@ -68136,10 +68136,10 @@
    "sq": {
     "question": "Kryeqyteti i landit Mecklenburg-Pomerania e Përparme quhet …",
     "options": [
-     "Grajfsvald.",
-     "Shverin.",
-     "Rostok.",
-     "Vizmar."
+     "Greifswald.",
+     "Schwerin.",
+     "Rostock.",
+     "Wismar."
     ]
    },
    "bs": {
@@ -70597,7 +70597,7 @@
     ]
    },
    "sq": {
-    "question": "Cili stemë i përket landit Rein-Verili i Veriut (Nordrhein-Westfalen)?",
+    "question": "Cili stemë i përket landit Rein-Vestfalia e Veriut (Nordrhein-Westfalen)?",
     "options": [
      "Fotoja 1",
      "Fotoja 2",
@@ -70841,7 +70841,7 @@
     ]
    },
    "sq": {
-    "question": "Cili prej tyre është një rreth (Landkreis) në Rein-Verili i Veriut?",
+    "question": "Cili prej tyre është një rreth (Landkreis) në Rein-Vestfalia e Veriut?",
     "options": [
      "Ammerland",
      "Rhein-Sieg-Kreis",
@@ -71022,7 +71022,7 @@
     ]
    },
    "sq": {
-    "question": "Për sa vite zgjidhet Landtagu (parlamenti i landit) në Rein-Verili i Veriut?",
+    "question": "Për sa vite zgjidhet Landtagu (parlamenti i landit) në Rein-Vestfalia e Veriut?",
     "options": [
      "3",
      "4",
@@ -71203,7 +71203,7 @@
     ]
    },
    "sq": {
-    "question": "Nga sa vjeç lejohet të votohet në zgjedhjet komunale në Rein-Verili i Veriut?",
+    "question": "Nga sa vjeç lejohet të votohet në zgjedhjet komunale në Rein-Vestfalia e Veriut?",
     "options": [
      "14",
      "16",
@@ -71384,7 +71384,7 @@
     ]
    },
    "sq": {
-    "question": "Cilat janë ngjyrat e flamurit të landit Rein-Verili i Veriut?",
+    "question": "Cilat janë ngjyrat e flamurit të landit Rein-Vestfalia e Veriut?",
     "options": [
      "kuq-bardhë",
      "gjelbër-bardhë-kuq",
@@ -71565,7 +71565,7 @@
     ]
    },
    "sq": {
-    "question": "Ku mund të informoheni në Rein-Verili i Veriut për tema politike?",
+    "question": "Ku mund të informoheni në Rein-Vestfalia e Veriut për tema politike?",
     "options": [
      "pranë kishave",
      "pranë Zyrës Komunale të Rendit",
@@ -71746,7 +71746,7 @@
     ]
    },
    "sq": {
-    "question": "Kryeqyteti i landit Rein-Verili i Veriut quhet …",
+    "question": "Kryeqyteti i landit Rein-Vestfalia e Veriut quhet …",
     "options": [
      "Këln (Köln).",
      "Bon (Bonn).",
@@ -71926,7 +71926,7 @@
     ]
    },
    "sq": {
-    "question": "Cili land është Rein-Verili i Veriut?",
+    "question": "Cili land është Rein-Vestfalia e Veriut?",
     "options": [
      "1",
      "2",
@@ -72043,7 +72043,7 @@
     ]
    },
    "sq": {
-    "question": "Si quhet kryetarja/kryetari i qeverisë në Rein-Verili i Veriut?",
+    "question": "Si quhet kryetarja/kryetari i qeverisë në Rein-Vestfalia e Veriut?",
     "options": [
      "Ministrja e Parë/Ministri i Parë",
      "Kryeministrja/Kryeministri",
@@ -72223,7 +72223,7 @@
     ]
    },
    "sq": {
-    "question": "Cilën ministre/cilin ministër nuk e ka Rein-Verili i Veriut?",
+    "question": "Cilën ministre/cilin ministër nuk e ka Rein-Vestfalia e Veriut?",
     "options": [
      "Ministrja/Ministri i Drejtësisë",
      "Ministrja/Ministri i Jashtëm",
@@ -72412,7 +72412,7 @@
     ]
    },
    "bs": {
-    "question": "Koji grb pripada saveznoj pokrajini Falačka?",
+    "question": "Koji grb pripada saveznoj pokrajini Porajnje-Falačka?",
     "options": [
      "Slika 1",
      "Slika 2",
@@ -72656,7 +72656,7 @@
     ]
    },
    "bs": {
-    "question": "Koja od navedenih je okrug u Falačkoj?",
+    "question": "Koja od navedenih je okrug u Porajnje-Falačkoj?",
     "options": [
      "Westerwaldkreis",
      "Altötting",
@@ -72837,7 +72837,7 @@
     ]
    },
    "bs": {
-    "question": "Na koliko godina se bira zemaljski parlament (Landtag) u Falačkoj?",
+    "question": "Na koliko godina se bira zemaljski parlament (Landtag) u Porajnje-Falačkoj?",
     "options": [
      "3",
      "4",
@@ -73018,7 +73018,7 @@
     ]
    },
    "bs": {
-    "question": "Od koje godine života se u Falačkoj može glasati na komunalnim izborima?",
+    "question": "Od koje godine života se u Porajnje-Falačkoj može glasati na komunalnim izborima?",
     "options": [
      "14",
      "16",
@@ -73199,7 +73199,7 @@
     ]
    },
    "bs": {
-    "question": "Koje boje ima zemaljska zastava Falačke?",
+    "question": "Koje boje ima zemaljska zastava Porajnje-Falačke?",
     "options": [
      "bijelo-crvena",
      "crno-crveno-zlatna",
@@ -73380,7 +73380,7 @@
     ]
    },
    "bs": {
-    "question": "Gdje se u Falačkoj možete informisati o političkim temama?",
+    "question": "Gdje se u Porajnje-Falačkoj možete informisati o političkim temama?",
     "options": [
      "kod crkava",
      "u Centru za zaštitu potrošača",
@@ -73561,7 +73561,7 @@
     ]
    },
    "bs": {
-    "question": "Glavni grad Falačke je …",
+    "question": "Glavni grad Porajnje-Falačke je …",
     "options": [
      "Mainz.",
      "Kaiserslautern.",
@@ -73741,7 +73741,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Falačka?",
+    "question": "Koja savezna pokrajina je Porajnje-Falačka?",
     "options": [
      "1",
      "2",
@@ -73858,7 +73858,7 @@
     ]
    },
    "bs": {
-    "question": "Kako se naziva šef/šefica vlade u Falačkoj?",
+    "question": "Kako se naziva šef/šefica vlade u Porajnje-Falačkoj?",
     "options": [
      "prva ministrica/prvi ministar",
      "premijerka/premijer",
@@ -74038,7 +74038,7 @@
     ]
    },
    "bs": {
-    "question": "Koje ministarstvo Falačka nema?",
+    "question": "Koje ministarstvo Porajnje-Falačka nema?",
     "options": [
      "Ministarstvo pravde",
      "Ministarstvo vanjskih poslova",
