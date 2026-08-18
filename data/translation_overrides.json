@@ -4477,7 +4477,7 @@
    ]
   },
   "ALL-038": {
-   "question": "Republica Federală Germania este un stat federal democratic și social …",
+   "question": "Ce fel de stat democratic și social este Republica Federală Germania?",
    "options": [
     "uniune de state.",
     "stat federal.",
@@ -4759,7 +4759,7 @@
    "question": "Republica Federală Germania are o structură administrativă pe trei niveluri. Cum se numește cel mai de jos nivel politic?",
    "options": [
     "consiliile orășenești",
-    "consiliile districtuale (Landräte)",
+    "administratorii districtuali (Landräte)",
     "comunele",
     "oficiile de district"
    ]
@@ -5183,7 +5183,7 @@
    "options": [
     "campanie electorală activă.",
     "procedură electorală activă.",
-    "campanie electorală activă.",
+    "luptă electorală activă.",
     "drept de vot activ."
    ]
   },
@@ -5395,7 +5395,7 @@
    ]
   },
   "ALL-140": {
-   "question": "Ce face un jurat în Germania? El/Ea …",
+   "question": "Ce face un judecător laic în Germania? El/Ea …",
    "options": [
     "decide împreună cu judecătorii asupra vinovăției și pedepsei.",
     "oferă cetățenilor consiliere juridică.",
@@ -5408,7 +5408,7 @@
    "options": [
     "un avocat",
     "un judecător",
-    "un jurat",
+    "un judecător laic",
     "un procuror"
    ]
   },
@@ -5485,7 +5485,7 @@
    ]
   },
   "ALL-150": {
-   "question": "Un jurat în Germania este …",
+   "question": "Un judecător laic în Germania este …",
    "options": [
     "adjunctul șefului orașului.",
     "un judecător onorific.",
@@ -5809,7 +5809,7 @@
    ]
   },
   "ALL-186": {
-   "question": "În 1953 a avut loc o răscoală în RDG, de care în Republica Federală Germania a fost amintit multă vreme printr-o zi de sărbătoare. Când a fost aceasta?",
+   "question": "În 1953 a avut loc în RDG o revoltă, comemorată mult timp în Republica Federală Germania printr-o zi de sărbătoare. La ce dată a avut loc?",
    "options": [
     "1 mai",
     "17 iunie",
@@ -5863,7 +5863,7 @@
    ]
   },
   "ALL-192": {
-   "question": "Care landuri (Bundesländer) germane de astăzi au aparținut fostei RDG?",
+   "question": "Care land (Bundesland) german de astăzi a aparținut fostei RDG?",
    "options": [
     "Brandenburg",
     "Bavaria",
@@ -5939,7 +5939,7 @@
    "options": [
     "Hesse",
     "Schleswig-Holstein",
-    "Mecklenburg-Pomerania Inferioară",
+    "Mecklenburg-Pomerania Anterioară",
     "Saarland"
    ]
   },
@@ -5947,7 +5947,7 @@
    "question": "Care dintre următoarele liste conține numai landuri (Bundesländer) care au aparținut fostei RDG?",
    "options": [
     "Saxonia Inferioară, Renania de Nord-Westfalia, Hesse, Schleswig-Holstein, Brandenburg",
-    "Mecklenburg-Pomerania Inferioară, Brandenburg, Saxonia, Saxonia-Anhalt, Turingia",
+    "Mecklenburg-Pomerania Anterioară, Brandenburg, Saxonia, Saxonia-Anhalt, Turingia",
     "Bavaria, Baden-Württemberg, Renania-Palatinat, Turingia, Saxonia",
     "Saxonia, Turingia, Hesse, Saxonia Inferioară, Brandenburg"
    ]
@@ -6250,7 +6250,7 @@
    ]
   },
   "ALL-235": {
-   "question": "Fostul președinte francez François Mitterrand și fostul cancelar german Helmut Kohl comemorează împreună la Verdun morții din ambele războaie mondiale. Ce obiectiv al Uniunii Europene devine evident cu ocazia acestei întâlniri? © Bundesregierung/Richard Schulze-Vorberg",
+   "question": "Președintele francez de atunci, François Mitterrand, și cancelarul german de atunci, Helmut Kohl, comemorează împreună la Verdun victimele ambelor războaie mondiale. Ce obiectiv al Uniunii Europene este evidențiat de această întâlnire? © Bundesregierung/Richard Schulze-Vorberg",
    "options": [
     "prietenia dintre Anglia și Germania",
     "libertatea de călătorie în toate țările UE",
@@ -6673,7 +6673,7 @@
    ]
   },
   "ALL-282": {
-   "question": "Ce funcție onorifică trebuie să o accepte cetățenii germani dacă sunt solicitați pentru aceasta?",
+   "question": "Ce funcție civică voluntară trebuie să accepte cetățenii germani dacă sunt solicitați în acest sens?",
    "options": [
     "antrenor/antrenoare de club sportiv",
     "asistent/asistentă la vot (Wahlhelfer/in)",
@@ -6691,7 +6691,7 @@
    ]
   },
   "ALL-284": {
-   "question": "Ceea ce trebuie să știi pentru muncă se schimbă foarte rapid în viitor. Ce se poate face?",
+   "question": "Competențele necesare pentru muncă se vor schimba foarte rapid în viitor. Ce se poate face?",
    "options": [
     "Nu contează ce înveți.",
     "Adulții trebuie să continue să învețe și după terminarea formării profesionale.",
@@ -6727,7 +6727,7 @@
    ]
   },
   "ALL-288": {
-   "question": "Din ce se întemeiază responsabilitatea specială a Germaniei față de Israel?",
+   "question": "Pe ce se întemeiază responsabilitatea specială a Germaniei față de Israel?",
    "options": [
     "din apartenența la Uniunea Europeană (UE)",
     "din crimele naționalsocialiste împotriva evreilor",
@@ -6748,7 +6748,7 @@
    "question": "Ați cumpărat un televizor în Germania. Acasă despachetați televizorul, dar acesta nu funcționează. Televizorul este defect. Ce puteți face?",
    "options": [
     "să scrieți o plângere la poliție",
-    "să reclamați televizorul",
+    "să reclamați defectul televizorului vânzătorului",
     "să înlocuiți aparatul fără să întrebați",
     "să prelungiți garanția"
    ]
@@ -6907,7 +6907,7 @@
    ]
   },
   "Baden-Württemberg-08": {
-   "question": "Care land este Baden-Württemberg?",
+   "question": "Care hartă reprezintă Baden-Württemberg?",
    "options": [
     "1",
     "2",
@@ -6997,7 +6997,7 @@
    ]
   },
   "Bayern-08": {
-   "question": "Care land este Bavaria?",
+   "question": "Care hartă reprezintă Bavaria?",
    "options": [
     "1",
     "2",
@@ -7087,7 +7087,7 @@
    ]
   },
   "Berlin-08": {
-   "question": "Care land este Berlin?",
+   "question": "Care hartă reprezintă Berlinul?",
    "options": [
     "1",
     "2",
@@ -7177,7 +7177,7 @@
    ]
   },
   "Brandenburg-08": {
-   "question": "Care land este Brandenburg?",
+   "question": "Care hartă reprezintă Brandenburgul?",
    "options": [
     "1",
     "2",
@@ -7267,7 +7267,7 @@
    ]
   },
   "Bremen-08": {
-   "question": "Care land este Bremen?",
+   "question": "Care hartă reprezintă Bremenul?",
    "options": [
     "1",
     "2",
@@ -7357,7 +7357,7 @@
    ]
   },
   "Hamburg-08": {
-   "question": "Care land este Hamburg?",
+   "question": "Care hartă reprezintă Hamburgul?",
    "options": [
     "1",
     "2",
@@ -7447,7 +7447,7 @@
    ]
   },
   "Hessen-08": {
-   "question": "Care land este Hessa?",
+   "question": "Care hartă reprezintă Hessa?",
    "options": [
     "1",
     "2",
@@ -7474,7 +7474,7 @@
    ]
   },
   "Mecklenburg-Vorpommern-01": {
-   "question": "Care stemă aparține landului Mecklenburg-Pomerania Inferioară? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
+   "question": "Care stemă aparține landului Mecklenburg-Pomerania Anterioară? Imaginea 1, Imaginea 2, Imaginea 3, Imaginea 4",
    "options": [
     "Imaginea 1",
     "Imaginea 2",
@@ -7483,7 +7483,7 @@
    ]
   },
   "Mecklenburg-Vorpommern-02": {
-   "question": "Care dintre următoarele este un district rural (Landkreis) din Mecklenburg-Pomerania Inferioară?",
+   "question": "Care dintre următoarele este un district rural (Landkreis) din Mecklenburg-Pomerania Anterioară?",
    "options": [
     "Prignitz",
     "Mecklenburgische Seenplatte",
@@ -7492,7 +7492,7 @@
    ]
   },
   "Mecklenburg-Vorpommern-03": {
-   "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Mecklenburg-Pomerania Inferioară?",
+   "question": "Pentru câți ani este ales parlamentul landului (Landtag) în Mecklenburg-Pomerania Anterioară?",
    "options": [
     "3",
     "4",
@@ -7501,7 +7501,7 @@
    ]
   },
   "Mecklenburg-Vorpommern-04": {
-   "question": "De la ce vârstă se poate vota la alegerile locale în Mecklenburg-Pomerania Inferioară?",
+   "question": "De la ce vârstă se poate vota la alegerile locale în Mecklenburg-Pomerania Anterioară?",
    "options": [
     "14",
     "16",
@@ -7510,7 +7510,7 @@
    ]
   },
   "Mecklenburg-Vorpommern-05": {
-   "question": "Ce culori are drapelul landului Mecklenburg-Pomerania Inferioară?",
+   "question": "Ce culori are drapelul landului Mecklenburg-Pomerania Anterioară?",
    "options": [
     "negru-roșu-auriu",
     "albastru-alb-galben-roșu",
@@ -7519,7 +7519,7 @@
    ]
   },
   "Mecklenburg-Vorpommern-06": {
-   "question": "Unde vă puteți informa în Mecklenburg-Pomerania Inferioară despre teme politice?",
+   "question": "Unde vă puteți informa în Mecklenburg-Pomerania Anterioară despre teme politice?",
    "options": [
     "la Centrala Landului pentru Educație Politică",
     "la biserici",
@@ -7528,7 +7528,7 @@
    ]
   },
   "Mecklenburg-Vorpommern-07": {
-   "question": "Capitala landului Mecklenburg-Pomerania Inferioară se numește …",
+   "question": "Capitala landului Mecklenburg-Pomerania Anterioară se numește …",
    "options": [
     "Greifswald.",
     "Schwerin.",
@@ -7537,7 +7537,7 @@
    ]
   },
   "Mecklenburg-Vorpommern-08": {
-   "question": "Care land este Mecklenburg-Pomerania Inferioară?",
+   "question": "Care hartă reprezintă Mecklenburg-Pomerania Anterioară?",
    "options": [
     "1",
     "2",
@@ -7546,7 +7546,7 @@
    ]
   },
   "Mecklenburg-Vorpommern-09": {
-   "question": "Cum se numește șefa/șeful guvernului în Mecklenburg-Pomerania Inferioară?",
+   "question": "Cum se numește șefa/șeful guvernului în Mecklenburg-Pomerania Anterioară?",
    "options": [
     "Prim-ministră/Prim-ministru (Erste Ministerin/Erster Minister)",
     "Prim-ministră/Prim-ministru (Premierministerin/Premierminister)",
@@ -7555,7 +7555,7 @@
    ]
   },
   "Mecklenburg-Vorpommern-10": {
-   "question": "Ce ministră/ministru nu are Mecklenburg-Pomerania Inferioară?",
+   "question": "Ce ministră/ministru nu are Mecklenburg-Pomerania Anterioară?",
    "options": [
     "Ministră/Ministru de Justiție",
     "Ministră/Ministru de Externe",
@@ -7627,7 +7627,7 @@
    ]
   },
   "Niedersachsen-08": {
-   "question": "Care land federal este Saxonia Inferioară?",
+   "question": "Care hartă reprezintă Saxonia Inferioară?",
    "options": [
     "1",
     "2",
@@ -7717,7 +7717,7 @@
    ]
   },
   "Nordrhein-Westfalen-08": {
-   "question": "Care land federal este Renania de Nord-Westfalia?",
+   "question": "Care hartă reprezintă Renania de Nord-Westfalia?",
    "options": [
     "1",
     "2",
@@ -7807,7 +7807,7 @@
    ]
   },
   "Rheinland-Pfalz-08": {
-   "question": "Care land federal este Renania-Palatinat?",
+   "question": "Care hartă reprezintă Renania-Palatinat?",
    "options": [
     "1",
     "2",
@@ -7897,7 +7897,7 @@
    ]
   },
   "Saarland-08": {
-   "question": "Care land federal este Saarland?",
+   "question": "Care hartă reprezintă Saarlandul?",
    "options": [
     "1",
     "2",
@@ -7987,7 +7987,7 @@
    ]
   },
   "Sachsen-08": {
-   "question": "Care land federal este Saxonia?",
+   "question": "Care hartă reprezintă Saxonia?",
    "options": [
     "1",
     "2",
@@ -8077,7 +8077,7 @@
    ]
   },
   "Sachsen-Anhalt-08": {
-   "question": "Care land federal este Saxonia-Anhalt?",
+   "question": "Care hartă reprezintă Saxonia-Anhalt?",
    "options": [
     "1",
     "2",
@@ -8167,7 +8167,7 @@
    ]
   },
   "Schleswig-Holstein-08": {
-   "question": "Care land federal este Schleswig-Holstein?",
+   "question": "Care hartă reprezintă Schleswig-Holstein?",
    "options": [
     "1",
     "2",
@@ -8257,7 +8257,7 @@
    ]
   },
   "Thüringen-08": {
-   "question": "Care land federal este Turingia?",
+   "question": "Care hartă reprezintă Turingia?",
    "options": [
     "1",
     "2",
@@ -70253,75 +70253,165 @@
   },
   "ALL-130": {
    "question": "Which ballot paper would be valid in a Bundestag election?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "ALL-226": {
    "question": "Which image shows the flag of the European Union?",
-   "options": ["Image 1", "Image 2", "Image 3", "Image 4"]
+   "options": [
+    "Image 1",
+    "Image 2",
+    "Image 3",
+    "Image 4"
+   ]
   },
   "Baden-Württemberg-08": {
    "question": "Which map shows Baden-Württemberg?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Bayern-08": {
    "question": "Which map shows Bavaria?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Berlin-08": {
    "question": "Which map shows Berlin?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Brandenburg-08": {
    "question": "Which map shows Brandenburg?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Bremen-08": {
    "question": "Which map shows Bremen?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Hamburg-08": {
    "question": "Which map shows Hamburg?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Hessen-08": {
    "question": "Which map shows Hesse?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Mecklenburg-Vorpommern-08": {
    "question": "Which map shows Mecklenburg-Western Pomerania?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Niedersachsen-08": {
    "question": "Which map shows Lower Saxony?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Nordrhein-Westfalen-08": {
    "question": "Which map shows North Rhine-Westphalia?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Rheinland-Pfalz-08": {
    "question": "Which map shows Rhineland-Palatinate?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Saarland-08": {
    "question": "Which map shows Saarland?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Sachsen-08": {
    "question": "Which map shows Saxony?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Sachsen-Anhalt-08": {
    "question": "Which map shows Saxony-Anhalt?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Schleswig-Holstein-08": {
    "question": "Which map shows Schleswig-Holstein?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   },
   "Thüringen-08": {
    "question": "Which map shows Thuringia?",
-   "options": ["1", "2", "3", "4"]
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
   }
  }
 }
