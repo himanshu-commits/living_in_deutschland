@@ -5,6 +5,7 @@ import { useT } from "./storage";
 import { useSession } from "./sync";
 import { useEntitlement } from "./entitlements";
 import { spacing, type, useColors } from "./theme";
+import { featureCopy } from "./feature-copy";
 
 const WIDTH = Math.min(300, Dimensions.get("window").width * 0.8);
 
@@ -56,7 +57,8 @@ function MenuItem({ label, onPress }: { label: string; onPress: () => void }) {
 
 function SideMenu({ x, open, onClose }: { x: Animated.Value; open: boolean; onClose: () => void }) {
   const c = useColors();
-  const { t } = useT();
+  const { t, lang } = useT();
+  const copy = featureCopy(lang);
   const { session } = useSession();
   const { isPremium } = useEntitlement();
 
@@ -72,7 +74,7 @@ function SideMenu({ x, open, onClose }: { x: Animated.Value; open: boolean; onCl
           style={[StyleSheet.absoluteFill, { backgroundColor: "rgba(0,0,0,0.35)" }]}
           onPress={onClose}
           accessibilityRole="button"
-          accessibilityLabel="Close menu"
+          accessibilityLabel={copy.closeMenu}
         />
       ) : null}
       <Animated.View
@@ -102,7 +104,7 @@ function SideMenu({ x, open, onClose }: { x: Animated.Value; open: boolean; onCl
         <View style={{ padding: spacing.lg, gap: spacing.xs }}>
           <MenuItem label={t.homeLabel} onPress={() => go("/")} />
           {session ? <MenuItem label={t.profile} onPress={() => go("/profile")} /> : null}
-          <MenuItem label={isPremium ? "★ Premium active" : "☆ Premium"} onPress={() => go("/premium")} />
+          <MenuItem label={isPremium ? `★ ${copy.premiumActive}` : `☆ ${copy.premium}`} onPress={() => go("/premium")} />
           <MenuItem label={t.settings} onPress={() => go("/settings")} />
           <MenuItem label={t.help} onPress={() => go("/help")} />
         </View>
@@ -114,11 +116,13 @@ function SideMenu({ x, open, onClose }: { x: Animated.Value; open: boolean; onCl
 /** The ☰ button shown in the Home screen header. Subpages use a back arrow. */
 export function SideMenuButton() {
   const c = useColors();
+  const { lang } = useT();
+  const copy = featureCopy(lang);
   const { toggle } = useSideMenu();
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel="Menu"
+      accessibilityLabel={copy.menu}
       onPress={toggle}
       hitSlop={10}
       style={({ pressed }) => ({ opacity: pressed ? 0.6 : 1 })}

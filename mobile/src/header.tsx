@@ -5,6 +5,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { ThemeToggle } from "./components";
 import { SideMenuButton } from "./side-menu";
 import { spacing, type, useColors } from "./theme";
+import { useT } from "./storage";
 
 /**
  * A plain (non-native) header. iOS 26's "Liquid Glass" wraps any custom view
@@ -30,6 +31,7 @@ export function ScreenHeader({
   const c = useColors();
   const insets = useSafeAreaInsets();
   const pathname = usePathname();
+  const { t } = useT();
 
   function goBack() {
     if (router.canGoBack()) router.back();
@@ -39,7 +41,7 @@ export function ScreenHeader({
   const defaultLeft = menu
     ? pathname === "/"
       ? <SideMenuButton />
-      : <HeaderBackButton label="Back" onPress={goBack} />
+      : <HeaderBackButton label={t.back} onPress={goBack} />
     : null;
 
   return (

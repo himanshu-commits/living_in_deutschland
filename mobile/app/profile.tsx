@@ -8,10 +8,12 @@ import { useStore, useT } from "@/storage";
 import { useSession, useSyncStatus } from "@/sync";
 import { supabase } from "@/supabase";
 import { spacing, type, useColors } from "@/theme";
+import { featureCopy } from "@/feature-copy";
 
 export default function Profile() {
   const c = useColors();
-  const { t, fill } = useT();
+  const { t, fill, lang } = useT();
+  const copy = featureCopy(lang);
   const { session, loading } = useSession();
   const status = useSyncStatus();
   const { clearAll } = useStore();
@@ -20,12 +22,12 @@ export default function Profile() {
 
   function confirmDelete() {
     Alert.alert(
-      "Delete account?",
-      "Your cloud account, synced data, and all data stored on this device will be permanently deleted.",
+      copy.deleteAccountTitle,
+      copy.deleteAccountMessage,
       [
         { text: t.cancel, style: "cancel" },
         {
-          text: "Delete account",
+          text: copy.deleteAccountAction,
           style: "destructive",
           onPress: async () => {
             if (!supabase) return;
@@ -48,8 +50,8 @@ export default function Profile() {
 
   function confirmSignOut() {
     Alert.alert(
-      "Sign out and reset this device?",
-      "All progress and preferences stored on this device will be removed. Your synced cloud progress will remain.",
+      copy.signOutTitle,
+      copy.signOutMessage,
       [
         { text: t.cancel, style: "cancel" },
         {
@@ -115,7 +117,7 @@ export default function Profile() {
         </Card>
         {deleteError ? <Notice tone="warn">{deleteError}</Notice> : null}
         <Button label={t.signOut} variant="ghost" onPress={confirmSignOut} />
-        <Button label="Delete account" variant="ghost" onPress={confirmDelete} disabled={deleting} />
+        <Button label={copy.deleteAccountAction} variant="ghost" onPress={confirmDelete} disabled={deleting} />
       </View>
     </View>
   );

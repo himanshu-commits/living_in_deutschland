@@ -3,6 +3,8 @@ import React, { createContext, useCallback, useContext, useRef, useState } from 
 import { Modal, Pressable, StyleSheet, Text, View } from "react-native";
 import { useEntitlement } from "@/entitlements";
 import { useColors } from "@/theme";
+import { featureCopy } from "@/feature-copy";
+import { useT } from "@/storage";
 
 const LAST_INTERSTITIAL_KEY = "lid.ads.lastInterstitial";
 const INTERSTITIAL_COOLDOWN_MS = 10 * 60 * 1000;
@@ -64,28 +66,32 @@ export function AdBanner() {
   const { isPremium } = useEntitlement();
   const { canRequestAds } = useAds();
   const colors = useColors();
+  const { lang } = useT();
+  const copy = featureCopy(lang);
   if (isPremium || (!__DEV__ && !canRequestAds)) return null;
 
   return (
     <View style={[styles.banner, { backgroundColor: colors.surface, borderColor: colors.border }]}>
-      <Text style={[styles.adLabel, { color: colors.textMuted }]}>ADVERTISEMENT</Text>
-      <Text style={[styles.bannerText, { color: colors.text }]}>Test banner placement</Text>
+      <Text style={[styles.adLabel, { color: colors.textMuted }]}>{copy.advertisement}</Text>
+      <Text style={[styles.bannerText, { color: colors.text }]}>{copy.testBanner}</Text>
     </View>
   );
 }
 
 function DevelopmentInterstitial({ visible, onClose }: { visible: boolean; onClose: () => void }) {
   const colors = useColors();
+  const { lang } = useT();
+  const copy = featureCopy(lang);
   return (
     <Modal visible={visible} animationType="fade" presentationStyle="fullScreen" onRequestClose={onClose}>
       <View style={[styles.interstitial, { backgroundColor: colors.bg }]}>
-        <Text style={[styles.adLabel, { color: colors.textMuted }]}>ADVERTISEMENT</Text>
+        <Text style={[styles.adLabel, { color: colors.textMuted }]}>{copy.advertisement}</Text>
         <View style={[styles.interstitialCard, { backgroundColor: colors.surface, borderColor: colors.border }]}>
-          <Text style={[styles.interstitialTitle, { color: colors.text }]}>Full-screen ad test</Text>
-          <Text style={[styles.interstitialCopy, { color: colors.textMuted }]}>This placeholder will be replaced by a real interstitial ad.</Text>
+          <Text style={[styles.interstitialTitle, { color: colors.text }]}>{copy.adTestTitle}</Text>
+          <Text style={[styles.interstitialCopy, { color: colors.textMuted }]}>{copy.adTestBody}</Text>
         </View>
         <Pressable accessibilityRole="button" onPress={onClose} style={[styles.closeButton, { backgroundColor: colors.accent }]}>
-          <Text style={styles.closeText}>Close and continue</Text>
+          <Text style={styles.closeText}>{copy.closeContinue}</Text>
         </Pressable>
       </View>
     </Modal>

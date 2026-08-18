@@ -10,6 +10,7 @@ import { EXAM, examPaper, shuffledOptionIndices, type Question } from "@/questio
 import { useStore, useT } from "@/storage";
 import { layout, spacing, type, useColors } from "@/theme";
 import { useAds } from "@/ads";
+import { studyCopy } from "@/study-copy";
 
 function mmss(seconds: number) {
   const m = Math.floor(seconds / 60);
@@ -19,8 +20,9 @@ function mmss(seconds: number) {
 
 export default function Exam() {
   const c = useColors();
-  const { t } = useT();
-  const { ready, state, record, saveTest } = useStore();
+  const { t, fill } = useT();
+  const { ready, lang, state, record, saveTest } = useStore();
+  const copy = studyCopy(lang ?? "de");
   const { isPremium, status: entitlementStatus } = useEntitlement();
   const { showInterstitial } = useAds();
   const examAccess = useFreeExamAccess(isPremium, entitlementStatus === "loading" || !ready || !state);
@@ -66,10 +68,8 @@ export default function Exam() {
       <View style={{ flex: 1, backgroundColor: c.bg }}>
         <ScreenHeader title={t.test} />
         <View style={{ padding: spacing.lg, gap: spacing.lg }}>
-          <Notice tone="info">
-            You have used all {FREE_EXAMS_TOTAL} free mock exams. Premium includes unlimited mock exams.
-          </Notice>
-          <Button label="See Premium" onPress={() => router.push({ pathname: "/premium", params: { feature: "unlimited_exams" } })} />
+          <Notice tone="info">{fill(copy.freeExamsUsed, { n: FREE_EXAMS_TOTAL })}</Notice>
+          <Button label={copy.seePremium} onPress={() => router.push({ pathname: "/premium", params: { feature: "unlimited_exams" } })} />
           <Button label={t.back} variant="ghost" onPress={() => router.replace("/")} />
         </View>
       </View>
@@ -103,15 +103,14 @@ export default function Exam() {
           }}
         >
         <Card>
-          <Label>{passed ? "Bestanden" : "Nicht bestanden"}</Label>
+          <Label>{passed ? t.passed : t.notPassed}</Label>
           <View style={{ flexDirection: "row", alignItems: "baseline", gap: spacing.sm, marginVertical: spacing.sm }}>
             <Text style={{ ...type.title, fontSize: 52, color: passed ? c.correct : c.wrong }}>{correct}</Text>
             <Text style={{ ...type.heading, color: c.textMuted }}>/ {paper.length}</Text>
           </View>
           <ProgressBar value={correct / paper.length} />
           <Text style={{ ...type.body, color: c.textMuted, marginTop: spacing.md }}>
-            Zum Bestehen des Einbürgerungstests brauchst du {EXAM.pass} richtige Antworten,
-            für den Orientierungskurs 15.
+            {copy.passSummary}
           </Text>
         </Card>
 
@@ -120,22 +119,22 @@ export default function Exam() {
           return (
             <Card key={q.id}>
               <Label>
-                {i + 1}. {ok ? "Richtig" : "Falsch"}
+                {i + 1}. {ok ? t.correct : t.wrong}
               </Label>
               <Text style={{ ...type.body, color: c.text, marginVertical: spacing.sm }}>{q.question}</Text>
               <Text style={{ ...type.body, fontSize: 14, color: ok ? c.correct : c.wrong }}>
-                {answers[i] === null ? "Nicht beantwortet" : `Deine Antwort: ${q.options[answers[i]!]}`}
+                {answers[i] === null ? t.notAnswered : `${t.yourAnswer}: ${q.options[answers[i]!]}`}
               </Text>
               {!ok && (
                 <Text style={{ ...type.body, fontSize: 14, color: c.correct, marginTop: spacing.xs }}>
-                  Richtig: {q.answer !== null ? q.options[q.answer] : "—"}
+                  {t.correct}: {q.answer !== null ? q.options[q.answer] : "—"}
                 </Text>
               )}
             </Card>
           );
         })}
 
-        <Button label="Zurück" onPress={leaveResults} />
+        <Button label={t.back} onPress={leaveResults} />
         </ScrollView>
       </View>
     );
@@ -151,11 +150,11 @@ export default function Exam() {
     const missing = answers.filter((a) => a === null).length;
     if (missing === 0) return setDone(true);
     Alert.alert(
-      "Prüfung abgeben?",
-      `${missing} ${missing === 1 ? "Frage ist" : "Fragen sind"} noch unbeantwortet.`,
+      copy.submitTitle,
+      fill(copy.unanswered, { n: missing }),
       [
-        { text: "Weiter bearbeiten", style: "cancel" },
-        { text: "Abgeben", style: "destructive", onPress: () => setDone(true) },
+        { text: copy.keepEditing, style: "cancel" },
+        { text: t.submit, style: "destructive", onPress: () => setDone(true) },
       ]
     );
   }
@@ -185,7 +184,7 @@ export default function Exam() {
       >
         <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
           <Label>
-            Frage {at + 1} von {paper.length}
+            {fill(t.questionOf, { n: at + 1, total: paper.length })}
           </Label>
           <Text style={{ ...type.mono, fontWeight: "700", color: left < 300 ? c.wrong : c.textMuted }}>
             {mmss(left)}
@@ -232,14 +231,14 @@ export default function Exam() {
         <View style={{ flexDirection: "row", gap: spacing.md, marginTop: spacing.md }}>
           {at > 0 && (
             <View style={{ flex: 1 }}>
-              <Button label="Zurück" variant="ghost" onPress={() => setAt((i) => i - 1)} />
+              <Button label={t.back} variant="ghost" onPress={() => setAt((i) => i - 1)} />
             </View>
           )}
           <View style={{ flex: 1 }}>
             {at < paper.length - 1 ? (
-              <Button label="Weiter" onPress={() => setAt((i) => i + 1)} />
+              <Button label={t.next} onPress={() => setAt((i) => i + 1)} />
             ) : (
-              <Button label="Abgeben" onPress={finish} />
+              <Button label={t.submit} onPress={finish} />
             )}
           </View>
         </View>

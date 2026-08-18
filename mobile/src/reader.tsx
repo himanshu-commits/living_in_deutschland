@@ -14,6 +14,7 @@ import { useStore, useT } from "./storage";
 import { layout, radius, spacing, type, useColors } from "./theme";
 import { useEntitlement } from "./entitlements";
 import { usePremiumGate } from "./premium";
+import { studyCopy } from "./study-copy";
 
 /** The translate control that sits in every reader header. */
 export function TranslateToggle() {
@@ -94,17 +95,19 @@ function Speaker({
   speaking,
   locked,
   onPress,
+  labels,
 }: {
   speaking: boolean;
   locked: boolean;
   onPress: () => void;
+  labels: Pick<ReturnType<typeof studyCopy>, "premiumAudio" | "stopAudio" | "playAudio">;
 }) {
   const c = useColors();
   return (
     <Pressable
       accessibilityRole="button"
       accessibilityState={{ selected: speaking }}
-      accessibilityLabel={locked ? "Premium audio" : speaking ? "Stop reading aloud" : "Read aloud"}
+      accessibilityLabel={locked ? labels.premiumAudio : speaking ? labels.stopAudio : labels.playAudio}
       hitSlop={10}
       onPress={onPress}
       style={({ pressed }) => ({
@@ -151,6 +154,7 @@ function QuestionCard({
   const c = useColors();
   const { t, fill } = useT();
   const { lang, translate, marked, toggleMark } = useStore();
+  const copy = studyCopy(lang ?? "de");
   const { isPremium } = useEntitlement();
   const premiumGate = usePremiumGate();
   const tr = lang && lang !== "de" && translate ? q.tr?.[lang] : undefined;
@@ -230,7 +234,7 @@ function QuestionCard({
           {support && answered ? (
             <Pressable
               accessibilityRole="button"
-              accessibilityLabel={isPremium ? "Show explanation" : "Premium explanation"}
+              accessibilityLabel={isPremium ? copy.explain : copy.premiumExplanation}
               onPress={() => premiumGate("explanations", () => setExplanationOpen(true))}
               hitSlop={10}
               style={({ pressed }) => ({
@@ -251,13 +255,14 @@ function QuestionCard({
                 color={isPremium ? c.accent : c.textMuted}
               />
               <Text style={{ ...type.label, fontSize: 11, color: isPremium ? c.accent : c.textMuted }}>
-                Explain
+                {copy.explain}
               </Text>
             </Pressable>
           ) : null}
           <Speaker
             speaking={isPremium && speaking}
             locked={!isPremium}
+            labels={copy}
             onPress={() => premiumGate("audio", toggleSpeak)}
           />
           <Star on={isMarked} onPress={() => toggleMark(q.id)} />
@@ -353,13 +358,13 @@ function QuestionCard({
           <View style={{ backgroundColor: c.surface, borderRadius: radius.xl, padding: spacing.xl, gap: spacing.lg }}>
             <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.sm }}>
               <Ionicons name="information-circle-outline" size={24} color={c.accent} />
-              <Text style={{ ...type.heading, color: c.text, flex: 1 }}>Explanation</Text>
+              <Text style={{ ...type.heading, color: c.text, flex: 1 }}>{copy.explanation}</Text>
             </View>
             <Text style={{ ...type.body, color: c.text }}>{germanSupport?.explanation ?? support?.explanation}</Text>
             {translatedSupport ? <Translated text={translatedSupport.explanation} /> : null}
             {q.answer !== null ? (
               <View style={{ backgroundColor: c.correctBg, borderRadius: radius.md, padding: spacing.md, gap: spacing.xs }}>
-                <Text style={{ ...type.label, color: c.correct }}>CORRECT ANSWER</Text>
+                <Text style={{ ...type.label, color: c.correct }}>{copy.correctAnswer}</Text>
                 <Text style={{ ...type.body, fontWeight: "700", color: c.text }}>
                   {"ABCD"[optionOrder.indexOf(q.answer)]}. {q.options[q.answer]}
                 </Text>
@@ -378,7 +383,7 @@ function QuestionCard({
                 opacity: pressed ? 0.8 : 1,
               })}
             >
-              <Text style={{ ...type.label, color: c.accentText }}>OK</Text>
+              <Text style={{ ...type.label, color: c.accentText }}>{copy.close}</Text>
             </Pressable>
           </View>
         </View>
@@ -416,7 +421,7 @@ export function QuestionList({
   empty,
   mode = "read",
   onComplete,
-  completeLabel = "Finish",
+  completeLabel,
 }: {
   title: string;
   questions: Question[];
@@ -429,7 +434,9 @@ export function QuestionList({
   const c = useColors();
   const insets = useSafeAreaInsets();
   const { t, fill } = useT();
-  const { record, marked, mistakes, progress } = useStore();
+  const { lang, record, marked, mistakes, progress } = useStore();
+  const copy = studyCopy(lang ?? "de");
+  const resolvedCompleteLabel = completeLabel ?? copy.finish;
   const [active, setActive] = useState<string>(filters?.[0]?.key ?? "");
   const [at, setAt] = useState(0);
   const [pickerOpen, setPickerOpen] = useState(false);
@@ -594,7 +601,7 @@ export function QuestionList({
             </Pressable>
             {onComplete && answeredCount === shown.length ? (
               <NavButton
-                label={completeLabel}
+                label={resolvedCompleteLabel}
                 disabled={false}
                 onPress={() => onComplete({ correct: rightCount, total: shown.length })}
               />
@@ -631,10 +638,10 @@ export function QuestionList({
                   borderBottomColor: c.border,
                 }}
               >
-                <Text style={{ ...type.heading, color: c.text }}>Choose a question</Text>
+                <Text style={{ ...type.heading, color: c.text }}>{copy.chooseQuestion}</Text>
                 <Pressable
                   accessibilityRole="button"
-                  accessibilityLabel="Close question picker"
+                  accessibilityLabel={copy.closePicker}
                   onPress={() => setPickerOpen(false)}
                   hitSlop={8}
                   style={({ pressed }) => ({
@@ -644,7 +651,7 @@ export function QuestionList({
                     backgroundColor: pressed ? c.surfaceAlt : c.surface,
                   })}
                 >
-                  <Text style={{ ...type.label, color: c.text }}>Close</Text>
+                  <Text style={{ ...type.label, color: c.text }}>{copy.close}</Text>
                 </Pressable>
               </View>
 

@@ -9,11 +9,13 @@ import { ScreenHeader } from "@/header";
 import { useT } from "@/storage";
 import { supabase } from "@/supabase";
 import { radius, spacing, type, useColors } from "@/theme";
+import { featureCopy } from "@/feature-copy";
 
 export default function ForgotPassword() {
   const c = useColors();
-  const { lang } = useT();
+  const { t, lang } = useT();
   const a = authCopy(lang);
+  const copy = featureCopy(lang);
   const [email, setEmail] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -22,7 +24,7 @@ export default function ForgotPassword() {
   async function send() {
     const normalizedEmail = email.trim().toLowerCase();
     setError(null);
-    if (!supabase) return setError("Cloud sign-in is not configured for this build.");
+    if (!supabase) return setError(copy.cloudUnavailable);
     if (!normalizedEmail.includes("@")) return setError(a.validEmail);
     setBusy(true);
     try {
@@ -52,7 +54,7 @@ export default function ForgotPassword() {
           autoCapitalize="none"
           autoCorrect={false}
           keyboardType="email-address"
-          placeholder="Email"
+          placeholder={t.email}
           placeholderTextColor={c.textMuted}
           style={{ ...type.body, color: c.text, backgroundColor: c.surface, borderColor: c.border,
             borderWidth: 1, borderRadius: radius.md, paddingVertical: spacing.md, paddingHorizontal: spacing.lg }}

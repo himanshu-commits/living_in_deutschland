@@ -9,11 +9,13 @@ import { ScreenHeader } from "@/header";
 import { useT } from "@/storage";
 import { supabase } from "@/supabase";
 import { radius, spacing, type, useColors } from "@/theme";
+import { featureCopy } from "@/feature-copy";
 
 export default function ResetPassword() {
   const c = useColors();
   const { lang } = useT();
   const a = authCopy(lang);
+  const copy = featureCopy(lang);
   const incomingUrl = Linking.useLinkingURL();
   const [ready, setReady] = useState(false);
   const [password, setPassword] = useState("");
@@ -23,7 +25,7 @@ export default function ResetPassword() {
 
   useEffect(() => {
     if (!incomingUrl) return;
-    if (!supabase) return setError("Cloud sign-in is not configured for this build.");
+    if (!supabase) return setError(copy.cloudUnavailable);
     createSessionFromUrl(incomingUrl, supabase)
       .then(() => setReady(true))
       .catch((e: unknown) => setError(authErrorMessage(e)));
@@ -31,7 +33,7 @@ export default function ResetPassword() {
 
   async function updatePassword() {
     setError(null);
-    if (!supabase) return setError("Cloud sign-in is not configured for this build.");
+    if (!supabase) return setError(copy.cloudUnavailable);
     if (password.length < 6) return setError(a.passwordMin);
     if (password !== confirm) return setError(a.mismatch);
     setBusy(true);

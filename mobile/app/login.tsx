@@ -8,6 +8,7 @@ import { ScreenHeader } from "@/header";
 import { useT } from "@/storage";
 import { supabase } from "@/supabase";
 import { radius, spacing, type, useColors } from "@/theme";
+import { featureCopy } from "@/feature-copy";
 
 function Field({
   label,
@@ -21,6 +22,8 @@ function Field({
   secure?: boolean;
 }) {
   const c = useColors();
+  const { lang } = useT();
+  const copy = featureCopy(lang);
   const [reveal, setReveal] = useState(false);
   return (
     <View style={{ gap: spacing.xs }}>
@@ -48,12 +51,12 @@ function Field({
         {secure ? (
           <Pressable
             accessibilityRole="button"
-            accessibilityLabel={reveal ? "Hide password" : "Show password"}
+            accessibilityLabel={reveal ? copy.hidePassword : copy.showPassword}
             onPress={() => setReveal((v) => !v)}
             hitSlop={10}
             style={{ position: "absolute", end: spacing.lg }}
           >
-            <Text style={{ ...type.label, color: c.accent }}>{reveal ? "Hide" : "Show"}</Text>
+            <Text style={{ ...type.label, color: c.accent }}>{reveal ? copy.hidePassword : copy.showPassword}</Text>
           </Pressable>
         ) : null}
       </View>
@@ -66,6 +69,7 @@ export default function Login() {
   const c = useColors();
   const { t, lang } = useT();
   const a = authCopy(lang);
+  const copy = featureCopy(lang);
   const [signingUp, setSigningUp] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -85,7 +89,7 @@ export default function Login() {
     setError(null);
     setInfo(null);
     if (!supabase) {
-      setError("Cloud sign-in is not configured for this build.");
+      setError(copy.cloudUnavailable);
       return;
     }
     const normalizedEmail = email.trim().toLowerCase();
