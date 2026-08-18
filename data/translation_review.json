@@ -1,0 +1,15 @@
+{
+  "_description": "Semantic review status against the German BAMF source. A language is verified only after every question and all four options have been reviewed for meaning, natural wording, and terminology.",
+  "en": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  },
+  "tr": {
+    "status": "verified",
+    "questions": 460,
+    "reviewedThrough": "Thüringen-10",
+    "date": "2026-08-18"
+  }
+}

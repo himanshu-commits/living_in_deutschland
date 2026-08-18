@@ -41449,7 +41449,7 @@
    ]
   },
   "ALL-004": {
-   "question": "Almanya'daki temel haklardan hangisi bunlara dahildir?",
+   "question": "Hangi hak Almanya'daki temel haklardan biridir?",
    "options": [
     "Silah bulundurma hakkı",
     "Zor kullanma hakkı (yumruk hakkı)",
@@ -41476,7 +41476,7 @@
    ]
   },
   "ALL-007": {
-   "question": "Alman anayasası tarafından güvence altına alınan temel haklardan hangisi bunlara dahildir? … hakkı",
+   "question": "Alman anayasası tarafından güvence altına alınan temel haklardan biri hangisidir? … hakkı",
    "options": [
     "İnanç ve vicdan özgürlüğü",
     "Eğlenme",
@@ -42144,7 +42144,7 @@
   "ALL-081": {
    "question": "Almanya'da Federal Şansölyeyi kim seçer?",
    "options": [
-    "Federal Meclis (Bundesrat)",
+    "Federal Konsey (Bundesrat)",
     "Federal Kurul (Bundesversammlung)",
     "Halk",
     "Federal Meclis (Bundestag)"
@@ -42178,7 +42178,7 @@
    ]
   },
   "ALL-085": {
-   "question": "Alman Bundesrat'ını (Federal Meclisi'ni) kimler oluşturur?",
+   "question": "Alman Federal Konseyini (Bundesrat) kimler oluşturur?",
    "options": [
     "Bundestag milletvekilleri",
     "Federal Hükümetin bakanları",
@@ -42190,7 +42190,7 @@
    "question": "Almanya'da Federal Cumhurbaşkanını kim seçer?",
    "options": [
     "Federal Kurul (Bundesversammlung)",
-    "Bundesrat (Federal Meclis)",
+    "Federal Konsey (Bundesrat)",
     "Federal Parlamento",
     "Federal Anayasa Mahkemesi"
    ]
@@ -42225,7 +42225,7 @@
   "ALL-090": {
    "question": "Alman eyaletleri federal yasama sürecine şu yolla katılır:",
    "options": [
-    "Bundesrat (Federal Meclis).",
+    "Federal Konsey (Bundesrat).",
     "Federal Kurul (Bundesversammlung).",
     "Bundestag (Federal Meclis).",
     "Federal Hükümet."
@@ -42334,7 +42334,7 @@
    "question": "Almanya Federal Cumhuriyeti'nde siyasi, ekonomik, kültürel, fikri veya sosyal alanda özel bir başarı gösteren biri neyle onurlandırılabilir?",
    "options": [
     "Federal Liyakat Nişanı (Bundesverdienstkreuz) ile",
-    "Federal Kartal (Bundesadler) nişanı ile",
+    "Federal Kartal (Bundesadler) ile",
     "Vatanseverlik Liyakat Nişanı ile",
     "\"Alman Demokratik Cumhuriyeti Kahramanı\" onur unvanı ile"
    ]
@@ -42673,7 +42673,7 @@
    ]
   },
   "ALL-140": {
-   "question": "Almanya'da bir yargıç yardımcısı (Schöffin/Schöffe) ne yapar? O…",
+   "question": "Almanya'da bir fahri hâkim (Schöffin/Schöffe) ne yapar? O…",
    "options": [
     "hâkimlerle birlikte suç ve ceza hakkında karar verir.",
     "vatandaşlara hukuki tavsiye verir.",
@@ -42686,7 +42686,7 @@
    "options": [
     "bir avukat",
     "bir hâkim",
-    "bir yargıç yardımcısı (Schöffin/Schöffe)",
+    "bir fahri hâkim (Schöffin/Schöffe)",
     "bir savcı"
    ]
   },
@@ -42700,7 +42700,7 @@
    ]
   },
   "ALL-143": {
-   "question": "Almanya'da bir hâkim şuna aittir:",
+   "question": "Almanya'da bir hâkim hangi devlet erkine dahildir?",
    "options": [
     "Yargı erki (Judikatif).",
     "Yürütme erki (Eksekütif).",
@@ -42709,7 +42709,7 @@
    ]
   },
   "ALL-144": {
-   "question": "Almanya'da bir hâkim şuna aittir:",
+   "question": "Almanya'da bir hâkim hangi devlet erkine dahildir?",
    "options": [
     "yürütme erkine.",
     "yargı erkine.",
@@ -42763,7 +42763,7 @@
    ]
   },
   "ALL-150": {
-   "question": "Almanya'da bir mahkeme yargıç yardımcısı (Gerichtsschöffin/Gerichtsschöffe)…",
+   "question": "Almanya'da bir fahri mahkeme hâkimi (Gerichtsschöffin/Gerichtsschöffe)…",
    "options": [
     "belediye başkanının vekilidir.",
     "gönüllü (fahri) bir hâkimdir.",
@@ -43015,11 +43015,11 @@
    ]
   },
   "ALL-178": {
-   "question": "Haziran 1948'den Mayıs 1949'a kadar Batı Berlin'in vatandaşları bir hava köprüsü ile beslendi. Bunun sorumlusu hangi durumdu?",
+   "question": "Haziran 1948'den Mayıs 1949'a kadar Batı Berlin halkına bir hava köprüsüyle ikmal yapıldı. Buna hangi durum yol açtı?",
    "options": [
-    "Fransa için Batı Berlin halkının uçakla beslenmesi daha ekonomikti.",
+    "Fransa için Batı Berlin halkına uçakla ikmal yapmak daha ekonomikti.",
     "Amerikalı askerler kara yoluyla taşımacılıkta saldırıya uğramaktan korkuyordu.",
-    "Büyük Britanya için hava köprüsü üzerinden beslenme daha hızlıydı.",
+    "Büyük Britanya için hava köprüsü üzerinden ikmal yapmak daha hızlıydı.",
     "Sovyetler Birliği kara yoluyla yapılan tüm ulaşımı kesti."
    ]
   },
@@ -43249,7 +43249,7 @@
    ]
   },
   "ALL-204": {
-   "question": "Almanya Federal Cumhuriyeti ve DDR tek bir devlet nasıl oldu?",
+   "question": "Almanya Federal Cumhuriyeti ve DDR nasıl tek bir devlet hâline geldi?",
    "options": [
     "Federal Cumhuriyet, DDR'yi işgal etti.",
     "Bugünkü beş doğu eyaleti, Almanya Federal Cumhuriyeti'ne katıldı.",
@@ -43694,7 +43694,7 @@
    "options": [
     "nüfus kayıt dairesine (Einwohnermeldeamt)",
     "nikah dairesine (Standesamt)",
-    "kolluk/düzen dairesine (Ordnungsamt)",
+    "kamu düzeni dairesine (Ordnungsamt)",
     "ticaret dairesine (Gewerbeamt)"
    ]
   },
@@ -43710,7 +43710,7 @@
   "ALL-255": {
    "question": "Almanya'da ebeveynler, çocuk yetiştirme sorunlarında … yardım alabilir.",
    "options": [
-    "kolluk/düzen dairesinden (Ordnungsamt).",
+    "kamu düzeni dairesinden (Ordnungsamt).",
     "okul dairesinden (Schulamt).",
     "gençlik dairesinden (Jugendamt).",
     "sağlık dairesinden (Gesundheitsamt)."
@@ -43801,7 +43801,7 @@
    "question": "Almanya'da evlenmek isteyen biri önce nereye gitmelidir?",
    "options": [
     "nüfus kayıt dairesine",
-    "kolluk/düzen dairesine",
+    "kamu düzeni dairesine",
     "iş ajansına",
     "nikah dairesine (Standesamt)"
    ]
@@ -43929,7 +43929,7 @@
     "toplu taşıma araçlarının kullanımına ilişkin kurallar.",
     "binadaki tüm kiracılar.",
     "tüm sakinlerin uymak zorunda olduğu kurallar.",
-    "en yakın kolluk/düzen dairesinin adresi."
+    "en yakın kamu düzeni dairesinin adresi."
    ]
   },
   "ALL-280": {
@@ -44169,7 +44169,7 @@
   "Baden-Württemberg-06": {
    "question": "Baden-Württemberg'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
    "options": [
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "tüketici merkezinden (Verbraucherzentrale)",
     "siyasi eğitim eyalet merkezinden (Landeszentrale für politische Bildung)",
     "kiliselerden"
@@ -44212,7 +44212,7 @@
    ]
   },
   "Bayern-01": {
-   "question": "Bavyera Hür Eyaleti'ne (Freistaat Bayern) hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+   "question": "Özgür Bavyera Eyaleti'ne (Freistaat Bayern) hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
    "options": [
     "Resim 1",
     "Resim 2",
@@ -44259,7 +44259,7 @@
   "Bayern-06": {
    "question": "Bavyera'da siyasi konular hakkında nereden bilgi alabilirsiniz?",
    "options": [
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "siyasi eğitim eyalet merkezinden (Landeszentrale für politische Bildung)",
     "tüketici merkezinden (Verbraucherzentrale)",
     "kiliselerden"
@@ -44349,7 +44349,7 @@
   "Berlin-06": {
    "question": "Berlin'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
    "options": [
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "kiliselerden",
     "tüketici merkezinden (Verbraucherzentrale)",
     "siyasi eğitim eyalet merkezinden (Landeszentrale für politische Bildung)"
@@ -44440,7 +44440,7 @@
    "question": "Brandenburg'da siyasi konular hakkında nereden bilgi alabilirsiniz?",
    "options": [
     "kiliselerden",
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "siyasi eğitim eyalet merkezinden (Landeszentrale für politische Bildung)",
     "tüketici merkezinden (Verbraucherzentrale)"
    ]
@@ -44529,7 +44529,7 @@
   "Bremen-06": {
    "question": "Bremen'de siyasi konular hakkında nereden bilgi alabilirsiniz?",
    "options": [
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "siyasi eğitim eyalet merkezinden (Landeszentrale für politische Bildung)",
     "kiliselerden",
     "tüketici merkezinden (Verbraucherzentrale)"
@@ -44619,7 +44619,7 @@
   "Hamburg-06": {
    "question": "Hamburg'da siyasi konular hakkında nereden bilgi alabilirsiniz?",
    "options": [
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "tüketici merkezinden (Verbraucherzentrale)",
     "kiliselerden",
     "siyasi eğitim eyalet merkezinden (Landeszentrale für politische Bildung)"
@@ -44711,7 +44711,7 @@
    "options": [
     "siyasi eğitim eyalet merkezinden (Landeszentrale für politische Bildung)",
     "tüketici merkezinden (Verbraucherzentrale)",
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "kiliselerden"
    ]
   },
@@ -44801,7 +44801,7 @@
    "options": [
     "siyasi eğitim eyalet merkezinden (Landeszentrale für politische Bildung)",
     "kiliselerden",
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "tüketici merkezinden (Verbraucherzentrale)"
    ]
   },
@@ -44890,7 +44890,7 @@
    "question": "Aşağı Saksonya'da siyasi konular hakkında nereden bilgi alabilirsiniz?",
    "options": [
     "Eyalet Siyasi Eğitim Merkezi'nden (Landeszentrale für politische Bildung)",
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "tüketici merkezinden (Verbraucherzentrale)",
     "kiliselerden"
    ]
@@ -44980,7 +44980,7 @@
    "question": "Kuzey Ren-Vestfalya'da siyasi konular hakkında nereden bilgi alabilirsiniz?",
    "options": [
     "kiliselerden",
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "tüketici merkezinden (Verbraucherzentrale)",
     "Eyalet Siyasi Eğitim Merkezi'nden (Landeszentrale für politische Bildung)"
    ]
@@ -45071,7 +45071,7 @@
    "options": [
     "kiliselerden",
     "tüketici merkezinden (Verbraucherzentrale)",
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "Eyalet Siyasi Eğitim Merkezi'nden (Landeszentrale für politische Bildung)"
    ]
   },
@@ -45162,7 +45162,7 @@
     "kiliselerden",
     "Eyalet Siyasi Eğitim Merkezi'nden (Landeszentrale für politische Bildung)",
     "tüketici merkezinden (Verbraucherzentrale)",
-    "belediyenin düzen dairesinden (Ordnungsamt)"
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)"
    ]
   },
   "Saarland-07": {
@@ -45202,7 +45202,7 @@
    ]
   },
   "Sachsen-01": {
-   "question": "Saksonya Serbest Eyaleti'ne hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+   "question": "Özgür Saksonya Eyaleti'ne hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
    "options": [
     "Resim 1",
     "Resim 2",
@@ -45250,7 +45250,7 @@
    "question": "Saksonya'da siyasi konular hakkında nereden bilgi alabilirsiniz?",
    "options": [
     "Eyalet Siyasi Eğitim Merkezi'nden (Landeszentrale für politische Bildung)",
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "kiliselerden",
     "tüketici merkezinden (Verbraucherzentrale)"
    ]
@@ -45341,7 +45341,7 @@
    "options": [
     "kiliselerden",
     "Eyalet Siyasi Eğitim Merkezi'nden (Landeszentrale für politische Bildung)",
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "tüketici merkezinden (Verbraucherzentrale)"
    ]
   },
@@ -45430,7 +45430,7 @@
    "question": "Schleswig-Holstein'da siyasi konular hakkında nereden bilgi alabilirsiniz?",
    "options": [
     "tüketici merkezinden (Verbraucherzentrale)",
-    "belediyenin düzen dairesinden (Ordnungsamt)",
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)",
     "Eyalet Siyasi Eğitim Görevlisi'nden (Landesbeauftragte/-r für politische Bildung)",
     "kiliselerden"
    ]
@@ -45472,7 +45472,7 @@
    ]
   },
   "Thüringen-01": {
-   "question": "Thüringen Serbest Eyaleti'ne hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
+   "question": "Özgür Thüringen Eyaleti'ne hangi arma aittir? Resim 1 Resim 2 Resim 3 Resim 4",
    "options": [
     "Resim 1",
     "Resim 2",
@@ -45522,7 +45522,7 @@
     "kiliselerden",
     "tüketici merkezinden (Verbraucherzentrale)",
     "Eyalet Siyasi Eğitim Merkezi'nden (Landeszentrale für politische Bildung)",
-    "belediyenin düzen dairesinden (Ordnungsamt)"
+    "belediyenin kamu düzeni dairesinden (Ordnungsamt)"
    ]
   },
   "Thüringen-07": {
