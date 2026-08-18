@@ -97,7 +97,7 @@ export function ProgressBar({ value, passMark }: { value: number; passMark?: num
         <View
           style={{
             position: "absolute",
-            left: `${Math.min(100, Math.max(0, passMark * 100))}%`,
+            start: `${Math.min(100, Math.max(0, passMark * 100))}%`,
             top: -3,
             bottom: -3,
             width: 2,
@@ -186,8 +186,8 @@ export function Notice({ children, tone = "warn" }: { children: React.ReactNode;
         backgroundColor: c.surfaceAlt,
         borderRadius: radius.md,
         padding: spacing.md,
-        borderLeftWidth: 3,
-        borderLeftColor: tone === "warn" ? c.warn : c.accent,
+        borderStartWidth: 3,
+        borderStartColor: tone === "warn" ? c.warn : c.accent,
       }}
     >
       <Text style={{ ...type.body, fontSize: 14, color: c.textMuted }}>{children}</Text>

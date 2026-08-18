@@ -1,7 +1,8 @@
 import { router } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { ScreenHeader } from "@/header";
-import { LANGUAGES, strings, type LangCode } from "@/i18n";
+import { applyLayoutDirection, needsDirectionReload } from "@/direction";
+import { isRTL, LANGUAGES, strings, type LangCode } from "@/i18n";
 import { useStore } from "@/storage";
 import { layout, radius, spacing, type, useColors } from "@/theme";
 
@@ -14,9 +15,19 @@ export default function LanguagePicker() {
 
   async function choose(code: LangCode) {
     await setLang(code);
+    const destination = state ? "/" : "/bundesland";
     // only send someone to the state picker if they have not chosen one yet;
     // changing language later must not make them pick their Bundesland again
-    router.replace(state ? "/" : "/bundesland");
+    router.replace(destination);
+    if (needsDirectionReload(isRTL(code))) {
+      // Let Expo Router commit the destination before the native RTL reload.
+      await new Promise((resolve) => setTimeout(resolve, 50));
+      try {
+        await applyLayoutDirection(isRTL(code));
+      } catch {
+        // The persisted direction still takes effect on the next cold launch.
+      }
+    }
   }
 
   return (

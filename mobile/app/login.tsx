@@ -51,7 +51,7 @@ function Field({
             accessibilityLabel={reveal ? "Hide password" : "Show password"}
             onPress={() => setReveal((v) => !v)}
             hitSlop={10}
-            style={{ position: "absolute", right: spacing.lg }}
+            style={{ position: "absolute", end: spacing.lg }}
           >
             <Text style={{ ...type.label, color: c.accent }}>{reveal ? "Hide" : "Show"}</Text>
           </Pressable>

@@ -195,8 +195,8 @@ export default function Analytics() {
             backgroundColor: c.surface,
             borderWidth: StyleSheet.hairlineWidth,
             borderColor: c.border,
-            borderLeftWidth: 4,
-            borderLeftColor: priority ? c.warn : c.accent,
+            borderStartWidth: 4,
+            borderStartColor: priority ? c.warn : c.accent,
             gap: spacing.sm,
           }}
         >

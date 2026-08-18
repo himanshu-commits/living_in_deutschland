@@ -395,9 +395,9 @@ function Translated({ text, small }: { text: string; small?: boolean }) {
         ...type.body,
         fontSize: small ? 13 : 14,
         color: c.textMuted,
-        borderLeftWidth: small ? 1.5 : 2,
-        borderLeftColor: c.accent,
-        paddingLeft: spacing.sm,
+        borderStartWidth: small ? 1.5 : 2,
+        borderStartColor: c.accent,
+        paddingStart: spacing.sm,
         marginTop: 3,
       }}
     >
@@ -715,7 +715,7 @@ export function QuestionList({
                         {isMarked && (
                           <Text
                             accessibilityElementsHidden
-                            style={{ position: "absolute", right: spacing.md, fontSize: 17, color: c.warn }}
+                            style={{ position: "absolute", end: spacing.md, fontSize: 17, color: c.warn }}
                           >
                             ★
                           </Text>

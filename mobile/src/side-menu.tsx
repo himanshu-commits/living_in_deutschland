@@ -20,11 +20,13 @@ export function useSideMenu(): MenuState {
 /** Wraps the app; renders the slide-in panel above `children` and provides open/close. */
 export function SideMenuProvider({ children }: { children: ReactNode }) {
   const [open, setOpen] = useState(false);
-  const x = useRef(new Animated.Value(-WIDTH)).current;
+  const { rtl } = useT();
+  const hiddenX = rtl ? WIDTH : -WIDTH;
+  const x = useRef(new Animated.Value(hiddenX)).current;
 
   function animate(next: boolean) {
     setOpen(next);
-    Animated.timing(x, { toValue: next ? 0 : -WIDTH, duration: 220, useNativeDriver: true }).start();
+    Animated.timing(x, { toValue: next ? 0 : hiddenX, duration: 220, useNativeDriver: true }).start();
   }
 
   return (
@@ -76,13 +78,13 @@ function SideMenu({ x, open, onClose }: { x: Animated.Value; open: boolean; onCl
       <Animated.View
         style={{
           position: "absolute",
-          left: 0,
+          start: 0,
           top: 0,
           bottom: 0,
           width: WIDTH,
           backgroundColor: c.bg,
-          borderRightWidth: StyleSheet.hairlineWidth,
-          borderRightColor: c.border,
+          borderEndWidth: StyleSheet.hairlineWidth,
+          borderEndColor: c.border,
           transform: [{ translateX: x }],
         }}
       >
