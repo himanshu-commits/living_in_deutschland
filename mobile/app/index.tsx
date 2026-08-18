@@ -5,6 +5,7 @@ import { analyse } from "@/analysis";
 import { Card, Label, ProgressBar } from "@/components";
 import { ScreenHeader } from "@/header";
 import { BUNDESLAND_CODES, EXAM, poolFor } from "@/questions";
+import { stateName } from "@/stateNames";
 import { useStore, useT } from "@/storage";
 import { layout, radius, spacing, type, useColors } from "@/theme";
 import { useFreeExamRemaining } from "@/exam-limits";
@@ -125,7 +126,7 @@ export default function Home() {
   const handledPremiumResult = useRef<string | null>(null);
   const c = useColors();
   const { ready, lang, state, marked, mistakes, lastTest, progress } = useStore();
-  const { t, fill } = useT();
+  const { t, fill, lang: interfaceLang } = useT();
   const { isPremium, status: entitlementStatus } = useEntitlement();
   const premiumGate = usePremiumGate();
   const freeExamsRemaining = useFreeExamRemaining(isPremium, entitlementStatus === "loading");
@@ -267,7 +268,7 @@ export default function Home() {
 
       <Tile
         title={t.allQuestions}
-        note={`${t.allQuestionsNote} · ${state}`}
+        note={`${t.allQuestionsNote} · ${stateName(state, interfaceLang)}`}
         count={String(pool.length)}
         onPress={() => router.push("/read")}
       />
@@ -294,7 +295,7 @@ export default function Home() {
         <UtilityPill
           icon="📍"
           label={BUNDESLAND_CODES[state] ?? state}
-          accessibilityLabel={`${t.yourState}: ${state}`}
+          accessibilityLabel={`${t.yourState}: ${stateName(state, interfaceLang)}`}
           onPress={() => router.push("/bundesland")}
         />
         <UtilityPill icon="▦" label={t.topics} onPress={() => router.push("/topics")} />

@@ -4,6 +4,7 @@ import { ScreenHeader } from "@/header";
 import { useEntitlement } from "@/entitlements";
 import { usePremiumGate } from "@/premium";
 import { TOPICS, type TopicGroup } from "@/topics";
+import { stateName } from "@/stateNames";
 import { useStore, useT } from "@/storage";
 import { layout, radius, spacing, type, useColors } from "@/theme";
 
@@ -12,7 +13,7 @@ const groups: TopicGroup[] = ["democracy", "history", "society"];
 export default function Topics() {
   const c = useColors();
   const { ready, lang, state } = useStore();
-  const { t } = useT();
+  const { t, lang: interfaceLang } = useT();
   const { isPremium } = useEntitlement();
   const premiumGate = usePremiumGate();
 
@@ -123,7 +124,7 @@ export default function Topics() {
               }}
             >
               <TopicRow
-                name={state}
+                name={stateName(state, interfaceLang)}
                 count={10}
                 readLabel={t.readTopic}
                 practiceLabel={t.practice}

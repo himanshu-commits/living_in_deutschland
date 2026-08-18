@@ -3,13 +3,14 @@ import { Image, Pressable, ScrollView, StyleSheet, Text, View } from "react-nati
 import { ScreenHeader } from "@/header";
 import { BUNDESLAENDER } from "@/questions";
 import { stateFlags } from "@/stateFlags";
+import { stateName } from "@/stateNames";
 import { useStore, useT } from "@/storage";
 import { layout, radius, spacing, type, useColors } from "@/theme";
 
 export default function BundeslandPicker() {
   const c = useColors();
   const { ready, lang, state, setState } = useStore();
-  const { t } = useT();
+  const { t, lang: interfaceLang } = useT();
 
   async function choose(land: string) {
     await setState(land);
@@ -39,6 +40,7 @@ export default function BundeslandPicker() {
 
       {BUNDESLAENDER.map((land) => {
         const selected = land === state;
+        const label = stateName(land, interfaceLang);
         return (
           <Pressable
             key={land}
@@ -73,12 +75,12 @@ export default function BundeslandPicker() {
                 <Image
                   source={stateFlags[land]}
                   resizeMode="cover"
-                  accessibilityLabel={`${land} flag`}
+                  accessibilityLabel={label}
                   style={{ width: "100%", height: "100%" }}
                 />
               </View>
               <Text style={{ ...type.body, fontWeight: "600", color: c.text, flex: 1 }}>
-                {land}
+                {label}
               </Text>
             </View>
             {selected && <View style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: c.accent }} />}
