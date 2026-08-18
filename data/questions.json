@@ -12982,7 +12982,7 @@
     "question": "Savezna Republika Njemačka ima trostepenu upravnu strukturu. Kako se naziva najniži politički nivo?",
     "options": [
      "gradska vijeća",
-     "okružna vijeća (Landräte)",
+     "načelnici okruga (Landräte)",
      "opštine (Gemeinden)",
      "gradski (rejonski) uredi"
     ]
@@ -19781,7 +19781,7 @@
     ]
    },
    "bs": {
-    "question": "Šta je zadatak birački pomoćnica/pomoćnika u Njemačkoj?",
+    "question": "Šta je zadatak biračkih pomoćnica/pomoćnika u Njemačkoj?",
     "options": [
      "Pomažu starijim ljudima pri glasanju u izbornoj kabini.",
      "Pišu obavještenja o glasanju prije izbora.",
@@ -19970,7 +19970,7 @@
     ]
    },
    "bs": {
-    "question": "U Njemačkoj dobrovoljne birački pomoćnice i pomoćnici pomažu na izborima. Šta je zadatak birački pomoćnica/pomoćnika?",
+    "question": "U Njemačkoj dobrovoljne biračke pomoćnice i pomoćnici pomažu na izborima. Šta je njihov zadatak?",
     "options": [
      "Pomažu djeci i starijim ljudima pri glasanju.",
      "Pišu kartice i pisma s podacima o biračkom mjestu.",
@@ -21864,7 +21864,7 @@
     "options": [
      "aktivna izborna kampanja.",
      "aktivni izborni postupak.",
-     "aktivna predizborna kampanja.",
+     "aktivna izborna borba.",
      "aktivno biračko pravo."
     ]
    },
@@ -26393,7 +26393,7 @@
     ]
    },
    "bs": {
-    "question": "Šta radi porotnica/porotnik (Schöffe) u Njemačkoj? On/ona …",
+    "question": "Šta radi sutkinja porotnica/sudija porotnik (Schöffe) u Njemačkoj? Ona/on …",
     "options": [
      "zajedno sa sudijama odlučuje o krivici i kazni.",
      "daje građankama/građanima pravni savjet.",
@@ -26586,7 +26586,7 @@
     "options": [
      "advokatica/advokat",
      "sutkinja/sudija",
-     "porotnica/porotnik",
+     "sutkinja porotnica/sudija porotnik",
      "tužiteljica/tužilac"
     ]
    },
@@ -28219,7 +28219,7 @@
     ]
    },
    "bs": {
-    "question": "Sudska porotnica/sudski porotnik (Gerichtsschöffe) u Njemačkoj je …",
+    "question": "Sutkinja porotnica/sudija porotnik (Gerichtsschöffe) u Njemačkoj je …",
     "options": [
      "zamjenica/zamjenik gradonačelnika.",
      "počasna sutkinja/počasni sudija (bez pravne struke).",
@@ -42456,7 +42456,7 @@
     ]
    },
    "bs": {
-    "question": "U kojoj drugoj zemlji postoji veliko njemačko govorno stanovništvo?",
+    "question": "U kojoj drugoj zemlji živi veliki broj stanovnika koji govore njemački?",
     "options": [
      "Češka",
      "Norveška",
@@ -44156,7 +44156,7 @@
     ]
    },
    "bs": {
-    "question": "Gdje se nalazi sjedište Evropskog parlamenta?",
+    "question": "Gdje se nalazi jedno od sjedišta Evropskog parlamenta?",
     "options": [
      "London",
      "Pariz",
@@ -47371,7 +47371,7 @@
    "bs": {
     "question": "Ako neko u Njemačkoj udari dijete, …",
     "options": [
-     "to nikoga se ne tiče.",
+     "to se nikoga ne tiče.",
      "to se tiče samo porodice.",
      "za to se ne može biti kažnjen.",
      "za to se može biti kažnjen."
@@ -53606,7 +53606,7 @@
     ]
    },
    "bs": {
-    "question": "Ono što je potrebno znati za posao mijenja se u budućnosti vrlo brzo. Šta se može učiniti?",
+    "question": "Ono što treba znati i umjeti za posao u budućnosti će se vrlo brzo mijenjati. Šta se može učiniti?",
     "options": [
      "Nije bitno šta se uči.",
      "Odrasli moraju i nakon završenog obrazovanja stalno dalje učiti.",
@@ -58139,7 +58139,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Baden-Württemberg?",
+    "question": "Koja karta prikazuje Baden-Württemberg?",
     "options": [
      "1",
      "2",
@@ -60025,7 +60025,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Bavarska?",
+    "question": "Koja karta prikazuje Bavarsku?",
     "options": [
      "1",
      "2",
@@ -61911,7 +61911,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Berlin?",
+    "question": "Koja karta prikazuje Berlin?",
     "options": [
      "1",
      "2",
@@ -63796,7 +63796,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Brandenburg?",
+    "question": "Koja karta prikazuje Brandenburg?",
     "options": [
      "1",
      "2",
@@ -65682,7 +65682,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Bremen?",
+    "question": "Koja karta prikazuje Bremen?",
     "options": [
      "1",
      "2",
@@ -67568,7 +67568,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Hamburg?",
+    "question": "Koja karta prikazuje Hamburg?",
     "options": [
      "1",
      "2",
@@ -69453,7 +69453,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Hessen?",
+    "question": "Koja karta prikazuje Hessen?",
     "options": [
      "1",
      "2",
@@ -71339,7 +71339,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Mecklenburg-Vorpommern?",
+    "question": "Koja karta prikazuje Mecklenburg-Vorpommern?",
     "options": [
      "1",
      "2",
@@ -72092,7 +72092,7 @@
     ]
    },
    "bs": {
-    "question": "Koja od navedenih je okrug u Donjoj Saskoj?",
+    "question": "Koji je od navedenih okrug u Donjoj Saskoj?",
     "options": [
      "Ammerland",
      "Rhein-Sieg-Kreis",
@@ -73225,7 +73225,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Donja Saska?",
+    "question": "Koja karta prikazuje Donju Sasku?",
     "options": [
      "1",
      "2",
@@ -73538,7 +73538,7 @@
     ]
    },
    "bs": {
-    "question": "Koje ministarstvo Donja Saska nema?",
+    "question": "Koje ministarstvo ne postoji u Donjoj Saskoj?",
     "options": [
      "Ministarstvo pravde",
      "Ministarstvo vanjskih poslova",
@@ -73978,7 +73978,7 @@
     ]
    },
    "bs": {
-    "question": "Koja od navedenih je okrug u Sjevernoj Rajni-Vestfaliji?",
+    "question": "Koji je od navedenih okrug u Sjevernoj Rajni-Vestfaliji?",
     "options": [
      "Ammerland",
      "Rhein-Sieg-Kreis",
@@ -75111,7 +75111,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Sjeverna Rajna-Vestfalija?",
+    "question": "Koja karta prikazuje Sjevernu Rajnu-Vestfaliju?",
     "options": [
      "1",
      "2",
@@ -75424,7 +75424,7 @@
     ]
    },
    "bs": {
-    "question": "Koje ministarstvo Sjeverna Rajna-Vestfalija nema?",
+    "question": "Koje ministarstvo ne postoji u Sjevernoj Rajni-Vestfaliji?",
     "options": [
      "Ministarstvo pravde",
      "Ministarstvo vanjskih poslova",
@@ -75864,7 +75864,7 @@
     ]
    },
    "bs": {
-    "question": "Koja od navedenih je okrug u Porajnje-Falačkoj?",
+    "question": "Koji je od navedenih okrug u Porajnje-Falačkoj?",
     "options": [
      "Westerwaldkreis",
      "Altötting",
@@ -76997,7 +76997,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Porajnje-Falačka?",
+    "question": "Koja karta prikazuje Porajnje-Falačku?",
     "options": [
      "1",
      "2",
@@ -77310,7 +77310,7 @@
     ]
    },
    "bs": {
-    "question": "Koje ministarstvo Porajnje-Falačka nema?",
+    "question": "Koje ministarstvo ne postoji u Porajnju-Falačkoj?",
     "options": [
      "Ministarstvo pravde",
      "Ministarstvo vanjskih poslova",
@@ -77750,7 +77750,7 @@
     ]
    },
    "bs": {
-    "question": "Koja od navedenih je okrug u Sarskoj?",
+    "question": "Koji je od navedenih okrug u Sarskoj?",
     "options": [
      "Mecklenburgische Seenplatte",
      "Altötting",
@@ -78883,7 +78883,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Sarska?",
+    "question": "Koja karta prikazuje Sarsku?",
     "options": [
      "1",
      "2",
@@ -79196,7 +79196,7 @@
     ]
    },
    "bs": {
-    "question": "Koje ministarstvo Sarska nema?",
+    "question": "Koje ministarstvo ne postoji u Sarskoj?",
     "options": [
      "Ministarstvo pravde",
      "Ministarstvo vanjskih poslova",
@@ -79636,7 +79636,7 @@
     ]
    },
    "bs": {
-    "question": "Koja od navedenih je okrug u Saksoniji?",
+    "question": "Koji je od navedenih okrug u Saksoniji?",
     "options": [
      "Vogtlandkreis",
      "Altötting",
@@ -80769,7 +80769,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Saksonija?",
+    "question": "Koja karta prikazuje Saksoniju?",
     "options": [
      "1",
      "2",
@@ -81082,7 +81082,7 @@
     ]
    },
    "bs": {
-    "question": "Koje ministarstvo Saksonija nema?",
+    "question": "Koje ministarstvo ne postoji u Saksoniji?",
     "options": [
      "Ministarstvo pravde",
      "Ministarstvo vanjskih poslova",
@@ -81522,7 +81522,7 @@
     ]
    },
    "bs": {
-    "question": "Koja od navedenih je okrug u Saksoniji-Anhalt?",
+    "question": "Koji je od navedenih okrug u Saksoniji-Anhalt?",
     "options": [
      "Ammerland",
      "Altötting",
@@ -82655,7 +82655,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Saksonija-Anhalt?",
+    "question": "Koja karta prikazuje Saksoniju-Anhalt?",
     "options": [
      "1",
      "2",
@@ -82968,7 +82968,7 @@
     ]
    },
    "bs": {
-    "question": "Koje ministarstvo Saksonija-Anhalt nema?",
+    "question": "Koje ministarstvo ne postoji u Saksoniji-Anhalt?",
     "options": [
      "Ministarstvo pravde",
      "Ministarstvo vanjskih poslova",
@@ -83408,7 +83408,7 @@
     ]
    },
    "bs": {
-    "question": "Koja od navedenih je okrug u Šlezvig-Holštajnu?",
+    "question": "Koji je od navedenih okrug u Šlezvig-Holštajnu?",
     "options": [
      "Ammerland",
      "Mecklenburgische Seenplatte",
@@ -84541,7 +84541,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Šlezvig-Holštajn?",
+    "question": "Koja karta prikazuje Šlezvig-Holštajn?",
     "options": [
      "1",
      "2",
@@ -84854,7 +84854,7 @@
     ]
    },
    "bs": {
-    "question": "Koje ministarstvo Šlezvig-Holštajn nema?",
+    "question": "Koje ministarstvo ne postoji u Šlezvig-Holštajnu?",
     "options": [
      "Ministarstvo pravde",
      "Ministarstvo vanjskih poslova",
@@ -85294,7 +85294,7 @@
     ]
    },
    "bs": {
-    "question": "Koja od navedenih je okrug u Tiringiji?",
+    "question": "Koji je od navedenih okrug u Tiringiji?",
     "options": [
      "Ammerland",
      "Altötting",
@@ -86427,7 +86427,7 @@
     ]
    },
    "bs": {
-    "question": "Koja savezna pokrajina je Tiringija?",
+    "question": "Koja karta prikazuje Tiringiju?",
     "options": [
      "1",
      "2",
@@ -86740,7 +86740,7 @@
     ]
    },
    "bs": {
-    "question": "Koje ministarstvo Tiringija nema?",
+    "question": "Koje ministarstvo ne postoji u Tiringiji?",
     "options": [
      "Ministarstvo pravde",
      "Ministarstvo vanjskih poslova",
