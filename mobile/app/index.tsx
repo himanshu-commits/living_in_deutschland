@@ -1,10 +1,11 @@
 import { Redirect, router, useLocalSearchParams } from "expo-router";
-import { useEffect, useRef } from "react";
-import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { useEffect, useRef, useState } from "react";
+import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { analyse } from "@/analysis";
 import { Card, Label, ProgressBar } from "@/components";
 import { ScreenHeader } from "@/header";
 import { BUNDESLAND_CODES, EXAM, poolFor } from "@/questions";
+import { PremiumWelcomeBanner, type PremiumWelcomeKind } from "@/premium-welcome-banner";
 import { stateName } from "@/stateNames";
 import { useStore, useT } from "@/storage";
 import { layout, radius, spacing, type, useColors } from "@/theme";
@@ -12,6 +13,7 @@ import { useFreeExamRemaining } from "@/exam-limits";
 import { AdBanner } from "@/ads";
 import { useEntitlement } from "@/entitlements";
 import { usePremiumGate } from "@/premium";
+import { useSession } from "@/sync";
 
 function Tile({
   title,
@@ -124,26 +126,39 @@ function Stat({ label, value, tone }: { label: string; value: number; tone: stri
 export default function Home() {
   const { premiumResult } = useLocalSearchParams<{ premiumResult?: string }>();
   const handledPremiumResult = useRef<string | null>(null);
+  // the last `signInSeq` (see sync.ts) this screen has already evaluated for a
+  // login-triggered welcome — guards against re-showing it on every render
+  // where the session is simply still present (e.g. reopening the app)
+  const handledSignInSeq = useRef(0);
+  const [welcome, setWelcome] = useState<PremiumWelcomeKind | null>(null);
   const c = useColors();
   const { ready, lang, state, marked, mistakes, lastTest, progress } = useStore();
   const { t, fill, lang: interfaceLang } = useT();
   const { isPremium, status: entitlementStatus } = useEntitlement();
+  const { signInSeq } = useSession();
   const premiumGate = usePremiumGate();
   const freeExamsRemaining = useFreeExamRemaining(isPremium, entitlementStatus === "loading");
 
+  // Right after a purchase or restore on the Premium screen: router.replace
+  // there carries `premiumResult` for exactly one navigation.
   useEffect(() => {
     if (!ready || !lang || !state || !premiumResult || handledPremiumResult.current === premiumResult) return;
     handledPremiumResult.current = premiumResult;
-    const restored = premiumResult === "restored";
-    Alert.alert(
-      restored ? "Premium restored" : "Welcome to Premium!",
-      restored
-        ? "Your lifetime Premium access has been restored on this device."
-        : "Premium is active. Ads are removed and all Premium features are now unlocked.",
-      [{ text: "Start studying", onPress: () => router.replace("/") }],
-      { cancelable: false },
-    );
+    setWelcome(premiumResult === "restored" ? "restored" : "activated");
   }, [lang, premiumResult, ready, state]);
+
+  // A premium user simply logging in (reinstall, new device, etc.), rather
+  // than purchasing/restoring in this session. `signInSeq` only advances on a
+  // genuine `SIGNED_IN` auth event, never on a session merely restored from
+  // storage at cold start, so this does not fire on every ordinary app open —
+  // only the first time a fresh login resolves to an already-premium account.
+  useEffect(() => {
+    if (!ready || !lang || !state) return;
+    if (signInSeq === 0 || signInSeq === handledSignInSeq.current) return;
+    if (entitlementStatus === "loading") return; // wait for it to resolve before deciding
+    handledSignInSeq.current = signInSeq;
+    if (isPremium && !premiumResult) setWelcome("login");
+  }, [ready, lang, state, signInSeq, entitlementStatus, isPremium, premiumResult]);
 
   if (!ready) return <View style={{ flex: 1, backgroundColor: c.bg }} />;
   // language decides the whole interface, so it is asked before anything else
@@ -168,6 +183,17 @@ export default function Home() {
           paddingBottom: spacing.xxl,
         }}
       >
+        {welcome ? (
+          <PremiumWelcomeBanner
+            kind={welcome}
+            onDismiss={() => setWelcome(null)}
+            onOpenAnalytics={() => {
+              setWelcome(null);
+              premiumGate("analytics", () => router.push("/analytics"));
+            }}
+          />
+        ) : null}
+
         <Card style={{ padding: spacing.md }}>
           <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.md }}>
             <View

@@ -3,7 +3,19 @@ import { createContext, createElement, useContext, useEffect, useRef, useState, 
 import { useStore } from "./storage";
 import { supabase } from "./supabase";
 
-type SessionState = { session: Session | null; loading: boolean };
+type SessionState = {
+  session: Session | null;
+  loading: boolean;
+  /**
+   * Increments only when Supabase reports an explicit `SIGNED_IN` auth event —
+   * an actual login just happened in this app instance. A session that is merely
+   * restored from storage on cold start arrives as `INITIAL_SESSION` instead, so
+   * that does not bump this counter. Lets a consumer (the Home screen's Premium
+   * welcome banner) detect "the user just logged in" without re-firing on every
+   * ordinary app open where a session was already persisted.
+   */
+  signInSeq: number;
+};
 const SessionCtx = createContext<SessionState | null>(null);
 
 export function useSession() {
@@ -15,6 +27,7 @@ export function useSession() {
 export function SessionProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
+  const [signInSeq, setSignInSeq] = useState(0);
 
   useEffect(() => {
     if (!supabase) {
@@ -27,10 +40,11 @@ export function SessionProvider({ children }: { children: ReactNode }) {
       setSession(data.session);
       setLoading(false);
     });
-    const { data: sub } = supabase.auth.onAuthStateChange((_event, nextSession) => {
+    const { data: sub } = supabase.auth.onAuthStateChange((event, nextSession) => {
       if (!active) return;
       setSession(nextSession);
       setLoading(false);
+      if (event === "SIGNED_IN") setSignInSeq((n) => n + 1);
     });
     return () => {
       active = false;
@@ -38,7 +52,7 @@ export function SessionProvider({ children }: { children: ReactNode }) {
     };
   }, []);
 
-  return createElement(SessionCtx.Provider, { value: { session, loading } }, children);
+  return createElement(SessionCtx.Provider, { value: { session, loading, signInSeq } }, children);
 }
 
 type SyncStatus = "idle" | "syncing" | "synced" | "error";

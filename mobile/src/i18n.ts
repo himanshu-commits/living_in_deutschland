@@ -158,6 +158,16 @@ type Strings = {
   menu: string;
   homeLabel: string;
   confirmEmailNote: string;
+  premiumWelcome: {
+    activatedTitle: string;
+    activatedBody: string;
+    restoredTitle: string;
+    restoredBody: string;
+    loginTitle: string;
+    loginBody: string;
+    cta: string;
+    dismiss: string;
+  };
   restartRequiredTitle?: string;
   restartRequiredMessage?: string;
 };
@@ -283,6 +293,16 @@ const en: Strings = {
   menu: "Menu",
   homeLabel: "Home",
   confirmEmailNote: "Check your email to confirm your account, then log in.",
+  premiumWelcome: {
+    activatedTitle: "Welcome to Premium!",
+    activatedBody: "Premium is active. Ads are removed and every Premium feature is unlocked.",
+    restoredTitle: "Premium restored",
+    restoredBody: "Your lifetime Premium access has been restored on this device.",
+    loginTitle: "Welcome back, Premium member!",
+    loginBody: "You're signed in, and your lifetime Premium is active on this device too.",
+    cta: "See your readiness analytics",
+    dismiss: "Dismiss",
+  },
   restartRequiredTitle: "Restart required",
   restartRequiredMessage: "Close the app fully and reopen it to apply the new layout direction.",
 };
@@ -408,6 +428,16 @@ const de: Strings = {
   menu: "Menü",
   homeLabel: "Start",
   confirmEmailNote: "Bestätige deine E-Mail-Adresse über den Link in deinem Postfach und melde dich dann an.",
+  premiumWelcome: {
+    activatedTitle: "Willkommen bei Premium!",
+    activatedBody: "Premium ist aktiv. Werbung ist entfernt und alle Premium-Funktionen sind freigeschaltet.",
+    restoredTitle: "Premium wiederhergestellt",
+    restoredBody: "Dein lebenslanger Premium-Zugang wurde auf diesem Gerät wiederhergestellt.",
+    loginTitle: "Willkommen zurück, Premium-Mitglied!",
+    loginBody: "Du bist angemeldet, und dein lebenslanger Premium-Zugang ist auch auf diesem Gerät aktiv.",
+    cta: "Lernanalyse ansehen",
+    dismiss: "Schließen",
+  },
   restartRequiredTitle: "Neustart erforderlich",
   restartRequiredMessage: "Schließe die App vollständig und öffne sie erneut, um die neue Schreibrichtung anzuwenden.",
 };
@@ -534,6 +564,16 @@ const tr: Strings = {
   syncStatusSynced: "Senkronize edildi",
   syncStatusError: "Senkronizasyon başarısız oldu, tekrar denenecek",
   confirmEmailNote: "Hesabını onaylamak için e-postanı kontrol et, sonra giriş yap.",
+  premiumWelcome: {
+    activatedTitle: "Premium'a hoş geldin!",
+    activatedBody: "Premium etkin. Reklamlar kaldırıldı ve tüm Premium özellikler açıldı.",
+    restoredTitle: "Premium geri yüklendi",
+    restoredBody: "Ömür boyu Premium erişimin bu cihazda geri yüklendi.",
+    loginTitle: "Tekrar hoş geldin, Premium üyesi!",
+    loginBody: "Giriş yaptın ve ömür boyu Premium erişimin bu cihazda da etkin.",
+    cta: "Hazırlık analizini gör",
+    dismiss: "Kapat",
+  },
 };
 
 const ru: Strings = {
@@ -658,6 +698,16 @@ const ru: Strings = {
   syncStatusSynced: "Синхронизировано",
   syncStatusError: "Ошибка синхронизации — повтор попытки",
   confirmEmailNote: "Проверьте почту, чтобы подтвердить аккаунт, затем войдите.",
+  premiumWelcome: {
+    activatedTitle: "Добро пожаловать в Premium!",
+    activatedBody: "Premium активен. Реклама убрана, и все функции Premium разблокированы.",
+    restoredTitle: "Premium восстановлен",
+    restoredBody: "Ваш пожизненный доступ Premium восстановлен на этом устройстве.",
+    loginTitle: "С возвращением, участник Premium!",
+    loginBody: "Вы вошли в аккаунт, и ваш пожизненный доступ Premium активен и на этом устройстве.",
+    cta: "Посмотреть аналитику готовности",
+    dismiss: "Закрыть",
+  },
 };
 
 const uk: Strings = {
@@ -782,6 +832,16 @@ const uk: Strings = {
   syncStatusSynced: "Синхронізовано",
   syncStatusError: "Помилка синхронізації — повторна спроба",
   confirmEmailNote: "Перевірте пошту, щоб підтвердити обліковий запис, потім увійдіть.",
+  premiumWelcome: {
+    activatedTitle: "Ласкаво просимо до Premium!",
+    activatedBody: "Premium активний. Рекламу прибрано, і всі функції Premium розблоковано.",
+    restoredTitle: "Premium відновлено",
+    restoredBody: "Ваш довічний доступ Premium відновлено на цьому пристрої.",
+    loginTitle: "З поверненням, учаснику Premium!",
+    loginBody: "Ви увійшли в обліковий запис, і ваш довічний доступ Premium активний і на цьому пристрої.",
+    cta: "Переглянути аналітику готовності",
+    dismiss: "Закрити",
+  },
 };
 
 const ar: Strings = {
@@ -906,6 +966,16 @@ const ar: Strings = {
   syncStatusSynced: "تمت المزامنة",
   syncStatusError: "فشلت المزامنة — ستتم إعادة المحاولة",
   confirmEmailNote: "تحقق من بريدك الإلكتروني لتأكيد حسابك، ثم سجّل الدخول.",
+  premiumWelcome: {
+    activatedTitle: "مرحبًا بك في بريميوم!",
+    activatedBody: "بريميوم مفعّل الآن. تمت إزالة الإعلانات وفُتحت جميع ميزات بريميوم.",
+    restoredTitle: "تمت استعادة بريميوم",
+    restoredBody: "تمت استعادة وصولك مدى الحياة إلى بريميوم على هذا الجهاز.",
+    loginTitle: "مرحبًا بعودتك، عضو بريميوم!",
+    loginBody: "لقد سجّلت الدخول، ووصولك مدى الحياة إلى بريميوم مفعّل على هذا الجهاز أيضًا.",
+    cta: "عرض تحليلات الاستعداد",
+    dismiss: "إغلاق",
+  },
   restartRequiredTitle: "إعادة التشغيل مطلوبة",
   restartRequiredMessage: "أغلق التطبيق تماماً ثم أعد فتحه لتطبيق اتجاه الكتابة الجديد.",
 };
@@ -1032,6 +1102,16 @@ const fr: Strings = {
   syncStatusSynced: "Synchronisé",
   syncStatusError: "Échec de la synchronisation — nouvelle tentative en cours",
   confirmEmailNote: "Vérifiez votre e-mail pour confirmer votre compte, puis connectez-vous.",
+  premiumWelcome: {
+    activatedTitle: "Bienvenue dans Premium !",
+    activatedBody: "Premium est actif. Les publicités sont supprimées et toutes les fonctionnalités Premium sont débloquées.",
+    restoredTitle: "Premium restauré",
+    restoredBody: "Votre accès Premium à vie a été restauré sur cet appareil.",
+    loginTitle: "Content de vous revoir, membre Premium !",
+    loginBody: "Vous êtes connecté, et votre accès Premium à vie est aussi actif sur cet appareil.",
+    cta: "Voir votre analyse de préparation",
+    dismiss: "Fermer",
+  },
 };
 
 const hi: Strings = {
@@ -1156,6 +1236,16 @@ const hi: Strings = {
   syncStatusSynced: "सिंक हो गया",
   syncStatusError: "सिंक विफल — फिर से प्रयास होगा",
   confirmEmailNote: "अपना खाता पुष्ट करने के लिए अपना ईमेल देखें, फिर लॉग इन करें।",
+  premiumWelcome: {
+    activatedTitle: "प्रीमियम में आपका स्वागत है!",
+    activatedBody: "प्रीमियम सक्रिय है। विज्ञापन हटा दिए गए हैं और सभी प्रीमियम सुविधाएँ अनलॉक हो गई हैं।",
+    restoredTitle: "प्रीमियम पुनर्स्थापित हुआ",
+    restoredBody: "आपकी आजीवन प्रीमियम पहुँच इस डिवाइस पर पुनर्स्थापित कर दी गई है।",
+    loginTitle: "वापसी पर स्वागत है, प्रीमियम सदस्य!",
+    loginBody: "आप लॉग इन हैं, और आपकी आजीवन प्रीमियम पहुँच इस डिवाइस पर भी सक्रिय है।",
+    cta: "अपनी तैयारी का विश्लेषण देखें",
+    dismiss: "बंद करें",
+  },
 };
 
 const pl: Strings = {
@@ -1280,6 +1370,16 @@ const pl: Strings = {
   menu: "Menu",
   homeLabel: "Start",
   confirmEmailNote: "Sprawdź swoją skrzynkę e-mail, aby potwierdzić konto, a następnie się zaloguj.",
+  premiumWelcome: {
+    activatedTitle: "Witaj w Premium!",
+    activatedBody: "Premium jest aktywne. Reklamy zostały usunięte, a wszystkie funkcje Premium odblokowane.",
+    restoredTitle: "Premium przywrócone",
+    restoredBody: "Twój dożywotni dostęp Premium został przywrócony na tym urządzeniu.",
+    loginTitle: "Witaj ponownie, członku Premium!",
+    loginBody: "Jesteś zalogowany/a, a Twój dożywotni dostęp Premium jest aktywny również na tym urządzeniu.",
+    cta: "Zobacz analizę gotowości",
+    dismiss: "Zamknij",
+  },
 };
 
 const ro: Strings = {
@@ -1404,6 +1504,16 @@ const ro: Strings = {
   menu: "Meniu",
   homeLabel: "Acasă",
   confirmEmailNote: "Verifică-ți emailul pentru a-ți confirma contul, apoi autentifică-te.",
+  premiumWelcome: {
+    activatedTitle: "Bun venit la Premium!",
+    activatedBody: "Premium este activ. Reclamele au fost eliminate și toate funcțiile Premium sunt deblocate.",
+    restoredTitle: "Premium restaurat",
+    restoredBody: "Accesul dvs. Premium pe viață a fost restaurat pe acest dispozitiv.",
+    loginTitle: "Bine ai revenit, membru Premium!",
+    loginBody: "Te-ai autentificat, iar accesul tău Premium pe viață este activ și pe acest dispozitiv.",
+    cta: "Vezi analiza gradului de pregătire",
+    dismiss: "Închide",
+  },
 };
 
 const fa: Strings = {
@@ -1528,6 +1638,16 @@ const fa: Strings = {
   menu: "منو",
   homeLabel: "خانه",
   confirmEmailNote: "ایمیل خود را برای تأیید حساب کاربری بررسی کنید، سپس وارد شوید.",
+  premiumWelcome: {
+    activatedTitle: "به پریمیوم خوش آمدید!",
+    activatedBody: "پریمیوم فعال است. تبلیغات حذف شده و همهٔ امکانات پریمیوم باز شده‌اند.",
+    restoredTitle: "پریمیوم بازیابی شد",
+    restoredBody: "دسترسی مادام‌العمر پریمیوم شما در این دستگاه بازیابی شد.",
+    loginTitle: "بازگشتتان خوش، عضو پریمیوم!",
+    loginBody: "وارد حساب خود شدید و دسترسی مادام‌العمر پریمیوم شما در این دستگاه هم فعال است.",
+    cta: "مشاهدهٔ تحلیل آمادگی",
+    dismiss: "بستن",
+  },
   restartRequiredTitle: "راه‌اندازی مجدد لازم است",
   restartRequiredMessage: "برنامه را کاملاً ببندید و دوباره باز کنید تا جهت نوشتاری جدید اعمال شود.",
 };
@@ -1654,6 +1774,16 @@ const ur: Strings = {
   syncStatusSynced: "ہم آہنگ ہو گیا",
   syncStatusError: "ہم آہنگی ناکام ہوئی — دوبارہ کوشش کی جائے گی",
   confirmEmailNote: "اپنا اکاؤنٹ تصدیق کرنے کے لیے اپنی ای میل چیک کریں، پھر لاگ ان کریں۔",
+  premiumWelcome: {
+    activatedTitle: "پریمیم میں خوش آمدید!",
+    activatedBody: "پریمیم فعال ہے۔ اشتہارات ہٹا دیے گئے ہیں اور تمام پریمیم خصوصیات غیر مقفل ہو گئی ہیں۔",
+    restoredTitle: "پریمیم بحال ہو گیا",
+    restoredBody: "آپ کی تاحیات پریمیم رسائی اس ڈیوائس پر بحال کر دی گئی ہے۔",
+    loginTitle: "واپسی پر خوش آمدید، پریمیم رکن!",
+    loginBody: "آپ لاگ اِن ہیں، اور آپ کی تاحیات پریمیم رسائی اس ڈیوائس پر بھی فعال ہے۔",
+    cta: "اپنا تیاری کا تجزیہ دیکھیں",
+    dismiss: "بند کریں",
+  },
   restartRequiredTitle: "دوبارہ شروع کرنا ضروری ہے",
   restartRequiredMessage: "ایپ کو مکمل طور پر بند کریں اور دوبارہ کھولیں تاکہ نئی تحریری سمت لاگو ہو۔",
 };
@@ -1779,6 +1909,16 @@ const sq: Strings = {
   menu: "Menyja",
   homeLabel: "Kryefaqja",
   confirmEmailNote: "Kontrolloni emailin tuaj për të konfirmuar llogarinë, pastaj hyni.",
+  premiumWelcome: {
+    activatedTitle: "Mirë se vini në Premium!",
+    activatedBody: "Premium është aktiv. Reklamat janë hequr dhe të gjitha veçoritë Premium janë zhbllokuar.",
+    restoredTitle: "Premium u rikthye",
+    restoredBody: "Qasja juaj e përhershme në Premium u rikthye në këtë pajisje.",
+    loginTitle: "Mirë se u ktheve, anëtar Premium!",
+    loginBody: "Je i/e kyçur, dhe qasja jote e përhershme në Premium është aktive edhe në këtë pajisje.",
+    cta: "Shiko analizën e gatishmërisë",
+    dismiss: "Mbyll",
+  },
 };
 
 const bs: Strings = {
@@ -1902,6 +2042,16 @@ const bs: Strings = {
   menu: "Meni",
   homeLabel: "Početna",
   confirmEmailNote: "Provjerite svoj email da potvrdite nalog, a zatim se prijavite.",
+  premiumWelcome: {
+    activatedTitle: "Dobrodošli u Premium!",
+    activatedBody: "Premium je aktivan. Oglasi su uklonjeni i sve Premium funkcije su otključane.",
+    restoredTitle: "Premium je obnovljen",
+    restoredBody: "Vaš doživotni Premium pristup je obnovljen na ovom uređaju.",
+    loginTitle: "Dobrodošli nazad, Premium članu!",
+    loginBody: "Prijavljeni ste, a vaš doživotni Premium pristup je aktivan i na ovom uređaju.",
+    cta: "Pogledajte analizu spremnosti",
+    dismiss: "Zatvori",
+  },
 };
 
 const bg: Strings = {
@@ -2025,6 +2175,16 @@ const bg: Strings = {
   menu: "Меню",
   homeLabel: "Начало",
   confirmEmailNote: "Проверете имейла си, за да потвърдите акаунта си, след което влезте.",
+  premiumWelcome: {
+    activatedTitle: "Добре дошли в Premium!",
+    activatedBody: "Premium е активен. Рекламите са премахнати и всички функции на Premium са отключени.",
+    restoredTitle: "Premium е възстановен",
+    restoredBody: "Вашият доживотен достъп до Premium е възстановен на това устройство.",
+    loginTitle: "Добре дошли отново, член на Premium!",
+    loginBody: "Влязохте в профила си, а доживотният ви достъп до Premium е активен и на това устройство.",
+    cta: "Вижте анализа на готовността",
+    dismiss: "Затвори",
+  },
 };
 
 const it: Strings = {
@@ -2148,6 +2308,16 @@ const it: Strings = {
   menu: "Menu",
   homeLabel: "Home",
   confirmEmailNote: "Controlla la tua email per confermare l'account, poi accedi.",
+  premiumWelcome: {
+    activatedTitle: "Benvenuto/a in Premium!",
+    activatedBody: "Premium è attivo. La pubblicità è stata rimossa e tutte le funzioni Premium sono sbloccate.",
+    restoredTitle: "Premium ripristinato",
+    restoredBody: "Il tuo accesso Premium a vita è stato ripristinato su questo dispositivo.",
+    loginTitle: "Bentornato/a, membro Premium!",
+    loginBody: "Hai effettuato l'accesso e il tuo Premium a vita è attivo anche su questo dispositivo.",
+    cta: "Vedi la tua analisi di preparazione",
+    dismiss: "Chiudi",
+  },
 };
 
 const zh: Strings = {
@@ -2271,6 +2441,16 @@ const zh: Strings = {
   menu: "菜单",
   homeLabel: "首页",
   confirmEmailNote: "请查收邮件以确认您的账号，然后登录。",
+  premiumWelcome: {
+    activatedTitle: "欢迎使用高级版！",
+    activatedBody: "高级版已启用。广告已移除，所有高级功能均已解锁。",
+    restoredTitle: "高级版已恢复",
+    restoredBody: "您的终身高级版权限已在此设备上恢复。",
+    loginTitle: "欢迎回来，高级版用户！",
+    loginBody: "您已登录，终身高级版权限在此设备上同样生效。",
+    cta: "查看备考分析",
+    dismiss: "关闭",
+  },
 };
 
 const el: Strings = {
@@ -2394,6 +2574,16 @@ const el: Strings = {
   menu: "Μενού",
   homeLabel: "Αρχική",
   confirmEmailNote: "Ελέγξτε το email σας για να επιβεβαιώσετε τον λογαριασμό σας και, στη συνέχεια, συνδεθείτε.",
+  premiumWelcome: {
+    activatedTitle: "Καλώς ήρθατε στο Premium!",
+    activatedBody: "Το Premium είναι ενεργό. Οι διαφημίσεις αφαιρέθηκαν και όλες οι λειτουργίες Premium ξεκλειδώθηκαν.",
+    restoredTitle: "Το Premium επαναφέρθηκε",
+    restoredBody: "Η ισόβια πρόσβασή σας στο Premium επαναφέρθηκε σε αυτήν τη συσκευή.",
+    loginTitle: "Καλώς ήρθατε ξανά, μέλος Premium!",
+    loginBody: "Έχετε συνδεθεί και η ισόβια πρόσβασή σας στο Premium είναι ενεργή και σε αυτήν τη συσκευή.",
+    cta: "Δείτε την ανάλυση ετοιμότητας",
+    dismiss: "Κλείσιμο",
+  },
 };
 
 const TABLE: Record<LangCode, Strings> = { de, en, tr, ru, uk, ar, fr, hi, pl, ro, fa, ur, sq, bs, bg, it, zh, el };
