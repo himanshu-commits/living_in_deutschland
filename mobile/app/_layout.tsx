@@ -1,6 +1,6 @@
 import { Stack } from "expo-router";
 import { useEffect, useState, type ReactNode } from "react";
-import { View } from "react-native";
+import { Alert, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { SideMenuProvider } from "@/side-menu";
@@ -9,7 +9,7 @@ import { AdProvider } from "@/ads";
 import { StoreProvider, useStore } from "@/storage";
 import { SessionProvider, SyncEngine } from "@/sync";
 import { applyLayoutDirection, needsDirectionReload } from "@/direction";
-import { isRTL } from "@/i18n";
+import { isRTL, strings } from "@/i18n";
 
 /**
  * Headers are drawn by each screen itself (see @/header) rather than the
@@ -28,7 +28,12 @@ function PremiumSync({ children }: { children: ReactNode }) {
   return <SyncEngine enabled={isPremium}>{children}</SyncEngine>;
 }
 
-/** Applies RTL for users who already had Arabic, Persian, or Urdu selected. */
+/**
+ * Applies RTL for users who already had Arabic, Persian, or Urdu selected —
+ * whether that's a fresh choice on the language screen or one restored from
+ * a cold launch. This is the only place that calls applyLayoutDirection, so
+ * a language change is resolved once, not raced by two independent callers.
+ */
 function DirectionGate({ children }: { children: ReactNode }) {
   const { ready, lang } = useStore();
   const [applying, setApplying] = useState(false);
@@ -38,12 +43,28 @@ function DirectionGate({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!ready || !lang || failed || !needsDirectionReload(rtl)) return;
     setApplying(true);
-    void applyLayoutDirection(rtl).catch(() => {
-      // Keep the app usable if a host cannot reload (for example, an unusual
-      // development shell). A later cold launch will apply the persisted flag.
-      setApplying(false);
-      setFailed(true);
-    });
+    void applyLayoutDirection(rtl)
+      .then((result) => {
+        // iOS can't relaunch itself — the native flag is already persisted,
+        // so ask for a manual reopen instead of a crash-prone JS reload.
+        if (result === "restart-required") {
+          const t = strings(lang);
+          Alert.alert(
+            t.restartRequiredTitle ?? "Restart required",
+            t.restartRequiredMessage ?? "Close the app fully and reopen it to apply the new layout direction.",
+          );
+        }
+        // Stop blocking either way: a later cold launch applies the
+        // persisted flag if this session can't relaunch itself.
+        setApplying(false);
+        setFailed(true);
+      })
+      .catch(() => {
+        // Keep the app usable if a host cannot reload (for example, an unusual
+        // development shell). A later cold launch will apply the persisted flag.
+        setApplying(false);
+        setFailed(true);
+      });
   }, [failed, lang, ready, rtl]);
 
   if (!ready || applying || (!failed && lang && needsDirectionReload(rtl))) {

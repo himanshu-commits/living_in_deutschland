@@ -1,6 +1,6 @@
 import { router } from "expo-router";
 import { createContext, useContext, useRef, useState, type ReactNode } from "react";
-import { Animated, Dimensions, Pressable, StyleSheet, Text, View } from "react-native";
+import { Animated, Dimensions, I18nManager, Pressable, StyleSheet, Text, View } from "react-native";
 import { useT } from "./storage";
 import { useSession } from "./sync";
 import { useEntitlement } from "./entitlements";
@@ -21,8 +21,15 @@ export function useSideMenu(): MenuState {
 /** Wraps the app; renders the slide-in panel above `children` and provides open/close. */
 export function SideMenuProvider({ children }: { children: ReactNode }) {
   const [open, setOpen] = useState(false);
-  const { rtl } = useT();
-  const hiddenX = rtl ? WIDTH : -WIDTH;
+  // The panel is pinned with the logical `start: 0` (see SideMenu below),
+  // which native mirrors off I18nManager.isRTL — not off the currently
+  // chosen language. Deriving hiddenX from the language instead (as this
+  // used to) went stale the moment someone picked a language whose direction
+  // differs from the still-in-effect native one, sliding the panel toward
+  // whichever edge it isn't actually pinned to. I18nManager.isRTL only ever
+  // changes via a full app restart, i.e. a fresh mount of this provider, so
+  // reading it once into the ref below always matches the current pin.
+  const hiddenX = I18nManager.isRTL ? WIDTH : -WIDTH;
   const x = useRef(new Animated.Value(hiddenX)).current;
 
   function animate(next: boolean) {

@@ -158,6 +158,8 @@ type Strings = {
   menu: string;
   homeLabel: string;
   confirmEmailNote: string;
+  restartRequiredTitle?: string;
+  restartRequiredMessage?: string;
 };
 
 const en: Strings = {
@@ -281,6 +283,8 @@ const en: Strings = {
   menu: "Menu",
   homeLabel: "Home",
   confirmEmailNote: "Check your email to confirm your account, then log in.",
+  restartRequiredTitle: "Restart required",
+  restartRequiredMessage: "Close the app fully and reopen it to apply the new layout direction.",
 };
 
 const de: Strings = {
@@ -404,6 +408,8 @@ const de: Strings = {
   menu: "Menü",
   homeLabel: "Start",
   confirmEmailNote: "Bestätige deine E-Mail-Adresse über den Link in deinem Postfach und melde dich dann an.",
+  restartRequiredTitle: "Neustart erforderlich",
+  restartRequiredMessage: "Schließe die App vollständig und öffne sie erneut, um die neue Schreibrichtung anzuwenden.",
 };
 
 const tr: Strings = {
@@ -900,6 +906,8 @@ const ar: Strings = {
   syncStatusSynced: "تمت المزامنة",
   syncStatusError: "فشلت المزامنة — ستتم إعادة المحاولة",
   confirmEmailNote: "تحقق من بريدك الإلكتروني لتأكيد حسابك، ثم سجّل الدخول.",
+  restartRequiredTitle: "إعادة التشغيل مطلوبة",
+  restartRequiredMessage: "أغلق التطبيق تماماً ثم أعد فتحه لتطبيق اتجاه الكتابة الجديد.",
 };
 
 const fr: Strings = {
@@ -1520,6 +1528,8 @@ const fa: Strings = {
   menu: "منو",
   homeLabel: "خانه",
   confirmEmailNote: "ایمیل خود را برای تأیید حساب کاربری بررسی کنید، سپس وارد شوید.",
+  restartRequiredTitle: "راه‌اندازی مجدد لازم است",
+  restartRequiredMessage: "برنامه را کاملاً ببندید و دوباره باز کنید تا جهت نوشتاری جدید اعمال شود.",
 };
 
 const ur: Strings = {
@@ -1644,6 +1654,8 @@ const ur: Strings = {
   syncStatusSynced: "ہم آہنگ ہو گیا",
   syncStatusError: "ہم آہنگی ناکام ہوئی — دوبارہ کوشش کی جائے گی",
   confirmEmailNote: "اپنا اکاؤنٹ تصدیق کرنے کے لیے اپنی ای میل چیک کریں، پھر لاگ ان کریں۔",
+  restartRequiredTitle: "دوبارہ شروع کرنا ضروری ہے",
+  restartRequiredMessage: "ایپ کو مکمل طور پر بند کریں اور دوبارہ کھولیں تاکہ نئی تحریری سمت لاگو ہو۔",
 };
 
 const sq: Strings = {

@@ -1,8 +1,7 @@
 import { router } from "expo-router";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { ScreenHeader } from "@/header";
-import { applyLayoutDirection, needsDirectionReload } from "@/direction";
-import { isRTL, LANGUAGES, strings, type LangCode } from "@/i18n";
+import { LANGUAGES, strings, type LangCode } from "@/i18n";
 import { useStore } from "@/storage";
 import { layout, radius, spacing, type, useColors } from "@/theme";
 
@@ -15,19 +14,15 @@ export default function LanguagePicker() {
 
   async function choose(code: LangCode) {
     await setLang(code);
-    const destination = state ? "/" : "/bundesland";
+    // Applying any RTL/LTR direction change is DirectionGate's job (see
+    // app/_layout.tsx) — it already reacts to this same lang change. Doing it
+    // here too raced the two: one path showing a restart alert while the
+    // other blanked the screen at the same time, which read as the layout
+    // "changing left and right." One handler settles it in a single pass.
+    //
     // only send someone to the state picker if they have not chosen one yet;
     // changing language later must not make them pick their Bundesland again
-    router.replace(destination);
-    if (needsDirectionReload(isRTL(code))) {
-      // Let Expo Router commit the destination before the native RTL reload.
-      await new Promise((resolve) => setTimeout(resolve, 50));
-      try {
-        await applyLayoutDirection(isRTL(code));
-      } catch {
-        // The persisted direction still takes effect on the next cold launch.
-      }
-    }
+    router.replace(state ? "/" : "/bundesland");
   }
 
   return (
