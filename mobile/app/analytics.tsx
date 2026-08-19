@@ -8,17 +8,28 @@ import {
   persistentErrors,
   questionsNeededToPass,
   readinessConfidence,
+  type ReadinessConfidence,
 } from "@/analysis";
+import { analyticsCopy, type AnalyticsCopy } from "@/analytics-copy";
 import { useEntitlement } from "@/entitlements";
 import { ScreenHeader } from "@/header";
-import { poolFor } from "@/questions";
-import { useStore } from "@/storage";
+import { fill } from "@/i18n";
+import { EXAM, poolFor } from "@/questions";
+import { useStore, useT } from "@/storage";
 import { layout, radius, spacing, type, useColors } from "@/theme";
+
+const CONFIDENCE_LABEL: Record<ReadinessConfidence["level"], keyof Pick<AnalyticsCopy, "confidenceLow" | "confidenceMedium" | "confidenceHigh">> = {
+  Low: "confidenceLow",
+  Medium: "confidenceMedium",
+  High: "confidenceHigh",
+};
 
 export default function Analytics() {
   const c = useColors();
   const { status } = useEntitlement();
   const { ready, lang, state, progress } = useStore();
+  const { t } = useT();
+  const copy = analyticsCopy(lang ?? "de");
   const [allTopicsOpen, setAllTopicsOpen] = useState(false);
 
   if (!ready || status === "loading") return <View style={{ flex: 1, backgroundColor: c.bg }} />;
@@ -28,6 +39,7 @@ export default function Analytics() {
     return <Redirect href={{ pathname: "/premium", params: { feature: "analytics" } }} />;
   }
 
+  const examTotal = EXAM.general + EXAM.state;
   const pool = poolFor(state);
   const summary = analyse(pool, progress);
   const topics = analyseTopics(pool, progress, state);
@@ -51,7 +63,7 @@ export default function Analytics() {
 
   return (
     <View style={{ flex: 1, backgroundColor: c.bg }}>
-      <ScreenHeader title="Readiness analytics" />
+      <ScreenHeader title={copy.title} />
       <ScrollView
         contentContainerStyle={{
           width: "100%",
@@ -74,13 +86,13 @@ export default function Analytics() {
           <View style={{ flexDirection: "row", alignItems: "flex-start", justifyContent: "space-between", gap: spacing.lg }}>
             <View style={{ flex: 1, gap: spacing.xs }}>
               <Text style={{ ...type.label, color: c.bg, opacity: 0.65, textTransform: "uppercase" }}>
-                Your exam outlook
+                {copy.outlookLabel}
               </Text>
               <Text style={{ ...type.title, color: c.bg }}>
-                {summary.ready ? "You’re on track" : "Build your score"}
+                {summary.ready ? copy.onTrack : copy.buildScore}
               </Text>
               <Text style={{ ...type.body, fontSize: 13, color: c.bg, opacity: 0.7 }}>
-                Projection based on mastered questions, not just recent answers.
+                {copy.outlookNote}
               </Text>
               <View
                 style={{
@@ -93,7 +105,10 @@ export default function Analytics() {
                 }}
               >
                 <Text style={{ ...type.label, fontSize: 10, color: c.text }}>
-                  {confidence.level.toUpperCase()} CONFIDENCE · {Math.round(confidence.evidence * 100)}% EVIDENCE
+                  {fill(copy.confidenceLine, {
+                    level: copy[CONFIDENCE_LABEL[confidence.level]],
+                    evidence: Math.round(confidence.evidence * 100),
+                  }).toUpperCase()}
                 </Text>
               </View>
             </View>
@@ -109,14 +124,16 @@ export default function Analytics() {
               }}
             >
               <Text style={{ ...type.title, fontSize: 34, color: c.bg }}>{summary.projected}</Text>
-              <Text style={{ ...type.label, fontSize: 10, color: c.bg, opacity: 0.65 }}>OF 33</Text>
+              <Text style={{ ...type.label, fontSize: 10, color: c.bg, opacity: 0.65 }}>
+                {fill(copy.ofTotal, { total: examTotal }).toUpperCase()}
+              </Text>
             </View>
           </View>
           <View style={{ gap: spacing.xs }}>
             <View style={{ height: 8, borderRadius: radius.pill, backgroundColor: c.bg, opacity: 0.2 }}>
               <View
                 style={{
-                  width: `${Math.min(100, (summary.projected / 33) * 100)}%`,
+                  width: `${Math.min(100, (summary.projected / examTotal) * 100)}%`,
                   height: "100%",
                   borderRadius: radius.pill,
                   backgroundColor: summary.ready ? c.correct : c.accent,
@@ -124,19 +141,19 @@ export default function Analytics() {
               />
             </View>
             <Text style={{ ...type.label, fontSize: 10, color: c.bg, opacity: 0.65 }}>
-              PASS MARK 17 · PROJECTED {summary.projected}
+              {fill(copy.passMark, { mark: EXAM.pass, projected: summary.projected }).toUpperCase()}
             </Text>
           </View>
         </View>
 
         <View style={{ flexDirection: "row", gap: spacing.sm }}>
-          <Metric label="Coverage" value={`${coverage}%`} note={`${summary.attempted}/${summary.pool}`} />
-          <Metric label="Accuracy" value={accuracy === null ? "—" : `${accuracy}%`} note="all attempts" />
-          <Metric label="Answers" value={String(totalAnswers)} note="practice" />
+          <Metric label={copy.coverage} value={`${coverage}%`} note={`${summary.attempted}/${summary.pool}`} />
+          <Metric label={copy.accuracy} value={accuracy === null ? "—" : `${accuracy}%`} note={copy.accuracyNote} />
+          <Metric label={copy.answers} value={String(totalAnswers)} note={copy.answersNote} />
         </View>
 
         <View style={{ gap: spacing.sm }}>
-          <Text style={{ ...type.heading, color: c.text }}>Exam areas</Text>
+          <Text style={{ ...type.heading, color: c.text }}>{copy.examAreas}</Text>
           <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.sm }}>
             {categories.map((category) => {
               const mastery = category.mastery / Math.max(1, category.questions);
@@ -159,7 +176,7 @@ export default function Analytics() {
                 >
                   <View style={{ flexDirection: "row", alignItems: "flex-start", gap: spacing.sm }}>
                     <Text numberOfLines={2} style={{ ...type.label, color: c.text, flex: 1 }}>
-                      {category.name}
+                      {category.group === "state" ? category.name : t.topicGroups[category.group]}
                     </Text>
                     <Text style={{ ...type.label, ...type.mono, color: tone }}>
                       {categoryAccuracy === null ? "—" : `${categoryAccuracy}%`}
@@ -169,15 +186,17 @@ export default function Analytics() {
                     <View style={{ width: `${mastery * 100}%`, height: "100%", borderRadius: radius.pill, backgroundColor: tone }} />
                   </View>
                   <Text style={{ ...type.body, fontSize: 11, color: c.textMuted }}>
-                    {category.mastery}/{category.questions} mastered
+                    {fill(copy.masteredOf, { mastery: category.mastery, questions: category.questions })}
                   </Text>
                   <View style={{ flexDirection: "row", gap: spacing.xs }}>
                     <AreaAction
-                      label="Review all"
+                      label={copy.reviewAll}
+                      a11yTemplate={copy.areaActionA11y}
                       onPress={() => router.push({ pathname: "/focus", params: { kind: "category", category: category.id, mode: "read" } })}
                     />
                     <AreaAction
-                      label="Practise 20"
+                      label={copy.practise20}
+                      a11yTemplate={copy.areaActionA11y}
                       filled
                       onPress={() => router.push({ pathname: "/focus", params: { kind: "category", category: category.id } })}
                     />
@@ -201,15 +220,15 @@ export default function Analytics() {
           }}
         >
           <Text style={{ ...type.label, color: priority ? c.warn : c.accent, textTransform: "uppercase" }}>
-            {priority ? "Your next best move" : "Start your baseline"}
+            {priority ? copy.nextBestMove : copy.startBaseline}
           </Text>
           <Text style={{ ...type.heading, color: c.text }}>
-            {priority ? `Strengthen ${priority.name}` : "Take an adaptive diagnostic"}
+            {priority ? fill(copy.strengthenTopic, { topic: priority.name }) : copy.takeDiagnostic}
           </Text>
           <Text style={{ ...type.body, fontSize: 13, color: c.textMuted }}>
             {priority
-              ? `${priority.wrong} wrong answers in this topic. ${neededToPass > 0 ? `Strengthen about ${neededToPass} more catalogue questions to enter the projected pass zone.` : "You are already in the projected pass zone—stabilize weak topics now."}`
-              : "A short mixed session gives the app enough evidence to identify your first priority."}
+              ? `${fill(copy.wrongInTopic, { wrong: priority.wrong })} ${neededToPass > 0 ? fill(copy.strengthenMore, { n: neededToPass }) : copy.alreadyInZone}`
+              : copy.noEvidenceYet}
           </Text>
           <Pressable
             accessibilityRole="button"
@@ -224,15 +243,15 @@ export default function Analytics() {
               opacity: pressed ? 0.8 : 1,
             })}
           >
-            <Text style={{ ...type.label, color: c.accentText }}>Start focused drill →</Text>
+            <Text style={{ ...type.label, color: c.accentText }}>{copy.startDrill}</Text>
           </Pressable>
         </View>
 
         {stubborn.length > 0 && (
           <View style={{ gap: spacing.sm }}>
             <View style={{ flexDirection: "row", alignItems: "baseline", justifyContent: "space-between" }}>
-              <Text style={{ ...type.heading, color: c.text }}>Persistent errors</Text>
-              <Text style={{ ...type.label, color: c.wrong }}>needs another look</Text>
+              <Text style={{ ...type.heading, color: c.text }}>{copy.persistentErrors}</Text>
+              <Text style={{ ...type.label, color: c.wrong }}>{copy.needsAnotherLook}</Text>
             </View>
             <View
               style={{
@@ -290,7 +309,7 @@ export default function Analytics() {
                   backgroundColor: pressed ? c.surfaceAlt : c.wrongBg,
                 })}
               >
-                <Text style={{ ...type.label, color: c.wrong }}>Fix these errors →</Text>
+                <Text style={{ ...type.label, color: c.wrong }}>{copy.fixErrors}</Text>
               </Pressable>
             </View>
           </View>
@@ -299,11 +318,11 @@ export default function Analytics() {
         <View style={{ gap: spacing.sm }}>
           <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "baseline" }}>
             <View>
-              <Text style={{ ...type.heading, color: c.text }}>Topic priorities</Text>
-              <Text style={{ ...type.body, fontSize: 12, color: c.textMuted }}>Weakest topics first</Text>
+              <Text style={{ ...type.heading, color: c.text }}>{copy.topicPriorities}</Text>
+              <Text style={{ ...type.body, fontSize: 12, color: c.textMuted }}>{copy.weakestFirst}</Text>
             </View>
             <Text style={{ ...type.label, color: c.textMuted }}>
-              {visibleTopics.length} of {ranked.length}
+              {fill(copy.countOfTotal, { visible: visibleTopics.length, total: ranked.length })}
             </Text>
           </View>
           <View
@@ -315,7 +334,9 @@ export default function Analytics() {
               backgroundColor: c.surface,
             }}
           >
-            {visibleTopics.map((topic, index) => <TopicRow key={topic.id} topic={topic} divided={index > 0} />)}
+            {visibleTopics.map((topic, index) => (
+              <TopicRow key={topic.id} topic={topic} divided={index > 0} copy={copy} />
+            ))}
             {ranked.length > 5 && (
               <Pressable
                 accessibilityRole="button"
@@ -330,7 +351,7 @@ export default function Analytics() {
                 })}
               >
                 <Text style={{ ...type.label, color: c.accent }}>
-                  {allTopicsOpen ? "Show priorities only ↑" : `View all ${ranked.length} topics ↓`}
+                  {allTopicsOpen ? copy.showPrioritiesOnly : fill(copy.viewAllTopics, { n: ranked.length })}
                 </Text>
               </Pressable>
             )}
@@ -341,12 +362,23 @@ export default function Analytics() {
   );
 }
 
-function AreaAction({ label, filled, onPress }: { label: string; filled?: boolean; onPress: () => void }) {
+function AreaAction({
+  label,
+  a11yTemplate,
+  filled,
+  onPress,
+}: {
+  label: string;
+  /** "{label} this exam area"-shaped template, translated; filled in with `label`. */
+  a11yTemplate: string;
+  filled?: boolean;
+  onPress: () => void;
+}) {
   const c = useColors();
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel={`${label} this exam area`}
+      accessibilityLabel={fill(a11yTemplate, { label })}
       onPress={onPress}
       style={({ pressed }) => ({
         flex: 1,
@@ -386,16 +418,25 @@ function Metric({ label, value, note }: { label: string; value: string; note: st
   );
 }
 
-function TopicRow({ topic, divided }: { topic: ReturnType<typeof analyseTopics>[number]; divided: boolean }) {
+function TopicRow({
+  topic,
+  divided,
+  copy,
+}: {
+  topic: ReturnType<typeof analyseTopics>[number];
+  divided: boolean;
+  copy: AnalyticsCopy;
+}) {
   const c = useColors();
   const accuracy = topic.accuracy === null ? null : Math.round(topic.accuracy * 100);
-  const status = accuracy === null ? "New" : accuracy >= 80 ? "Strong" : accuracy >= 60 ? "Developing" : "Priority";
+  const status =
+    accuracy === null ? copy.statusNew : accuracy >= 80 ? copy.statusStrong : accuracy >= 60 ? copy.statusDeveloping : copy.statusPriority;
   const tone = accuracy === null ? c.textMuted : accuracy >= 80 ? c.correct : accuracy >= 60 ? c.warn : c.wrong;
   const mastery = topic.mastery / Math.max(1, topic.questions);
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel={`Practise ${topic.name}`}
+      accessibilityLabel={fill(copy.practiceTopicA11y, { topic: topic.name })}
       onPress={() => router.push({ pathname: "/topic", params: { id: topic.id, mode: "attempt" } })}
       style={({ pressed }) => ({
         padding: spacing.md,
@@ -407,6 +448,7 @@ function TopicRow({ topic, divided }: { topic: ReturnType<typeof analyseTopics>[
     >
       <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.sm }}>
         <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: tone }} />
+        {/* topic.name is the German catalogue topic name — never translated */}
         <Text style={{ ...type.body, fontWeight: "700", color: c.text, flex: 1 }}>{topic.name}</Text>
         <Text style={{ ...type.label, fontSize: 11, color: tone }}>{status}</Text>
         <Text style={{ ...type.label, ...type.mono, color: c.text, minWidth: 36, textAlign: "right" }}>
@@ -418,9 +460,9 @@ function TopicRow({ topic, divided }: { topic: ReturnType<typeof analyseTopics>[
       </View>
       <View style={{ flexDirection: "row", alignItems: "center", gap: spacing.sm }}>
         <Text style={{ ...type.body, fontSize: 12, color: c.textMuted, flex: 1 }}>
-          {topic.mastery} mastered · {topic.attempted}/{topic.questions} covered · {topic.wrong} wrong
+          {fill(copy.topicSummary, { mastery: topic.mastery, attempted: topic.attempted, questions: topic.questions, wrong: topic.wrong })}
         </Text>
-        <Text style={{ ...type.label, fontSize: 10, color: c.accent }}>Practise →</Text>
+        <Text style={{ ...type.label, fontSize: 10, color: c.accent }}>{copy.practiseArrow}</Text>
       </View>
     </Pressable>
   );
